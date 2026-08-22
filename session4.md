@@ -61,19 +61,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Welcome back, global leaders, scholars, and engineers, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we step into one of the most critical milestones of our entire masterclass on Slide 1: "Session 4: Grounded Intelligence on My Data: The RAG Revolution and Private Knowledge Factories."
+[Prof. Peter] Welcome, global scholars and engineering leaders, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we step into the ultimate frontier on Slide 1: "Session 4: Grounded Intelligence on My Data: The RAG Revolution and Private Knowledge Factories."
 
-[TA Sarah] Hello everyone! I am Sarah Jenkins, your Senior AI Research Fellow. In our previous sessions, we mastered autonomous CLI agents and prompt frameworks. But today, we confront the single greatest crisis in modern AI: hallucination and factual drift!
+[TA Sarah] Hey everyone, Sarah here! You know, James, in our first three sessions, we gave AI the ability to run shell commands and autonomous background tasks. But today, we're tackling the massive elephant in the room!
 
-[TA James] Haha, absolutely, Sarah! Out in the enterprise, if a developer hooks up a vanilla LLM to a database and it hallucinates a fake SQL table or leaks internal executive salaries, that's an instant multi-million dollar disaster!
+[TA James] Oh, you mean the fact that regular AI chatbots lie like crazy?
 
-[TA Sarah] Exactly, James! And that is why simple chatbots fail in real production. We need deterministic factual grounding where every single claim generated is mathematically anchored to verified source documents.
+[TA Sarah] Haha! Exactly! Factual hallucination!
 
-[TA James] That's the beauty of RAG—Retrieval-Augmented Generation! We don't rely on the model's fuzzy training memory; we give it an open-book exam with cryptographic citation anchors!
+[TA James] Right! If a developer hooks up a chatbot to a corporate database and it invents fake employee records or makes up API parameters, someone is getting fired by morning!
 
-[Prof. Peter] Under our sacred cornerstone, "SOLI DEO GLORIA—To God Alone Be the Glory," truth is our non-negotiable bedrock. We do not build lying stochastic parrots; we architect grounded, citation-anchored intelligence.
+[Prof. Peter] That is why at Oikos University, our cornerstone is "SOLI DEO GLORIA—To God Alone Be the Glory." Truth is our sacred foundation. We don't build lying stochastic parrots; we build grounded, citation-anchored intelligence.
 
-[TA Sarah] Let us open Part 1 and explore how to defeat the crisis of hallucination on Slide 2!
+[TA Sarah] That's right! Today, we show you how to build your own zero-hallucination private knowledge factory!
+
+[TA James] Let's dive straight into Part 1 on Slide 2 and see why AI models lie in the first place!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Session 4 개요 및 Oikos University 3인 강사진(피터 교수, 사라 수석조교, 제임스 개발조교) 환영 인사
@@ -96,19 +98,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 2: "PART 1: THE CRISIS OF HALLUCINATION & HONEST INTELLIGENCE." Professor, why do even trillion-parameter models hallucinate so aggressively?
+[TA Sarah] Look at Slide 2: "PART 1: THE CRISIS OF HALLUCINATION & HONEST INTELLIGENCE." Professor, let me ask the obvious question: why do even trillion-parameter models hallucinate so aggressively?
 
-[Prof. Peter] Because fundamentally, Sarah, a vanilla language model is a probabilistic next-token predictor! It has no intrinsic concept of ontological truth—it only optimizes for statistical plausibility. When it doesn't know an answer, it fabricates a convincing lie with supreme confidence.
+[Prof. Peter] Because fundamentally, Sarah, a language model is a probabilistic next-token predictor. It doesn't have an internal sense of absolute truth; it only knows what word is statistically likely to follow the previous one.
 
-[TA James] And boy, do they lie with confidence! Last month, I tested a public LLM on internal API endpoints, and it invented three completely fictional REST parameters that looked 100% genuine!
+[TA James] And the scary part is how confident they sound! They don't say "Hey, I'm kind of guessing here." They sound like a senior Oxford professor delivering pure fiction!
 
-[TA Sarah] Haha, that is called the 'Stochastic Parrot Trap', James! The model mimics human tone without understanding reality. If you trust that in medical diagnostics, legal discovery, or financial auditing, the consequences are catastrophic!
+[TA Sarah] Haha, exactly! It's called the 'Stochastic Parrot Trap.' The model mimics the polished tone of authority without grounding in reality.
 
-[TA James] Which is why in enterprise engineering, we enforce the rule of 'Honest Intelligence': if a fact is not in the ground-truth document, the model MUST explicitly declare ignorance!
+[TA James] So if you ask it for a legal citation, it invents a realistic-sounding Supreme Court case that never existed in human history!
 
-[Prof. Peter] In Part 1, we deconstruct the mechanics of hallucination and build our defenses.
+[Prof. Peter] Which is why in enterprise engineering, we enforce the rule of 'Honest Intelligence.' If a fact isn't in your verified source documents, the model MUST declare explicit ignorance.
 
-[TA Sarah] Let us inspect the crisis of information obesity on Slide 3.
+[TA Sarah] Let's look at the overwhelming flood of unorganized data knowledge workers face on Slide 3.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 1 섹션 전환: 환각의 위기와 정직한 지능(Honest Intelligence)의 절대적 필요성
@@ -131,19 +133,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 3 diagnoses "THE CRISIS OF INFORMATION OBESITY." Modern professionals are not starving for data—they are drowning in it!
+[TA Sarah] Slide 3 highlights "THE CRISIS OF INFORMATION OBESITY." Modern professionals aren't starving for information—we are completely drowning in it!
 
-[TA James] James, raise your hand if you've ever had a manager send you five 200-page vendor audit reports at 5:00 PM and ask for a 2-page summary by morning!
+[TA James] Oh man, don't get me started! Think about the average workday: 50 unread Slack channels, 400 Google Docs, ten 200-page vendor audit PDFs, and scattered Notion pages!
 
-[TA Sarah] Haha! Every single week, James! The modern knowledge worker spends over 9 hours a week just searching for documents scattered across Google Drive, Slack, and Notion. That is cognitive exhaustion!
+[TA Sarah] The data shows knowledge workers spend over 9 hours every single week just searching for lost internal files!
 
-[TA James] And students often ask: "James, can't we just paste all 500 pages into Gemini's 2-million token context window?"
+[TA James] And students always ask: "James, can't we just copy-paste all 500 pages into Gemini's 2-million token context window?"
 
-[TA Sarah] Great question, but there's a huge catch: the 'Lost in the Middle' phenomenon! When you flood a massive context window with noisy raw text, retrieval accuracy drops by up to 35% on nuanced questions!
+[TA Sarah] Well, there's a huge catch: the 'Lost in the Middle' phenomenon! When you flood a massive context window with noisy raw text, retrieval accuracy drops by up to 35% on subtle details!
 
-[Prof. Peter] True wisdom requires structured curation, not chaotic data dumping. We must vectorize and index.
+[TA James] It's like dumping 50 textbooks into a blender and hoping the AI finds page 42 in 3 seconds!
 
-[TA James] Let us see the difference between Closed-Book Hallucination and Open-Book Grounding on Slide 4!
+[Prof. Peter] Information without structure produces cognitive exhaustion. True wisdom requires structured curation and vector indexing.
+
+[TA Sarah] Let's contrast Closed-Book guessing with Open-Book grounding on Slide 4!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 정보 비만의 위기: 비정형 데이터의 폭증과 지식 근로자의 인지적 고갈 실태
@@ -166,19 +170,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 4 introduces "THE GROUNDED FRONTIER: ZERO HALLUCINATION." Sarah, what is the core architectural principle here?
+[Prof. Peter] Slide 4 introduces "THE GROUNDED FRONTIER: ZERO HALLUCINATION." Sarah, break down the core difference here.
 
-[TA Sarah] The core rule is simple yet revolutionary: the model is explicitly forbidden from pulling ungrounded facts from its pre-training weights! It must synthesize answers ONLY from the verified source documents you provide.
+[TA Sarah] Think of it like taking an exam: Closed-book AI is like taking a brain surgery exam completely from memory after staying awake for 48 hours. You remember most of it, but when you guess on the other 20%, it's fatal!
 
-[TA James] Think of it as placing an unbreakable sandbox around the model's reasoning engine! If the answer is not inside your uploaded PDFs or Google Docs, the model returns: 'Based on the provided sources, this information is not available.' No guessing allowed!
+[TA James] Whereas Open-Book RAG is having the exact medical textbook and the patient's real-time lab chart open right on the desk!
 
-[TA Sarah] Exactly! Compare that to legacy chatbots that make up fake legal court cases just to look helpful!
+[TA Sarah] Exactly, James! The model reads paragraph 4 on page 127, answers the question, and points directly to the source paragraph!
 
-[TA James] In enterprise IT, zero-hallucination isn't a luxury—it's legal compliance and financial survival!
+[TA James] And if the lab result isn't in the chart, it says: "Based on the provided records, this test was not performed." Zero guessing!
 
-[Prof. Peter] Grounded truth restores absolute confidence in software systems. In Proverbs 12:22, "Lying lips are an abomination to the Lord, but those who act faithfully are His delight."
+[Prof. Peter] Grounded truth restores total confidence. In Proverbs 12:22, "Lying lips are an abomination to the Lord, but those who act faithfully are His delight."
 
-[TA Sarah] Let us deconstruct why legacy chatbots act like lying parrots on Slide 5.
+[TA Sarah] Let's look under the hood at why models hallucinate on Slide 5!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 그라운디드 프론티어: 제로 환각(Zero Hallucination)과 프라이빗 지식 경계 설정
@@ -201,17 +205,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 5 examines "THE LYING PARROT TRAP: STOCHASTIC GENERATION."
+[Prof. Peter] Slide 5 examines "THE ANATOMY OF A HALLUCINATION: WHY MODELS LIE."
 
-[TA James] Look at the left card: When an ungrounded model encounters a gap in its knowledge, it doesn't say 'I don't know.' It generates statistically plausible fiction! It invents court cases, fabricates drug dosages, and hallucinates non-existent software packages!
+[TA Sarah] Let's look at the mathematics: In the final layer of a Transformer, raw logits pass through a Softmax function. Even completely fabricated words have a small non-zero probability like 0.003!
 
-[TA Sarah] And look at the right card: In a Grounded Architecture, the model is bound by contract to the retrieved vector chunks. Every single claim must map directly to a document span, or it is rejected by the output filter!
+[TA James] And if a developer leaves the temperature setting at 0.8 or 1.0, the sampler picks those low-probability tokens, and suddenly the AI invents a non-existent software library!
 
-[TA James] Haha, that means no more 'pip install fake-library' that ends up installing malware, and no more citing court cases from 1850 that never happened!
+[TA Sarah] And then RLHF rewards the model for sounding confident and polite, making the hallucination sound completely authoritative!
 
-[Prof. Peter] We must build systems characterized by integrity. The lying parrot is an unacceptable liability for any serious organization.
+[TA James] That's why in our RAG systems, we set Temperature to 0.0 for deterministic greedy decoding, and force the model to anchor every sentence to retrieved vector chunks!
 
-[TA Sarah] Let us inspect the true definition of a Private Knowledge Factory on Slide 6.
+[Prof. Peter] Precision in engineering eliminates the illusion of knowledge.
+
+[TA Sarah] Let's examine Google NotebookLM's grounded architecture on Slide 6!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 확률적 앵무새 vs 그라운디드 학자: 비근거 LLM과 검색 증강 지능의 비교
@@ -234,19 +240,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 6 defines "THE PRIVATE KNOWLEDGE FACTORY."
+[TA Sarah] Slide 6 showcases "NOTEBOOKLM: THE GROUNDED SOVEREIGNTY STANDARD."
 
-[TA Sarah] What is a Private Knowledge Factory? It is an automated system that ingests your unstructured files—PDFs, Google Docs, technical manuals, meeting notes—and transforms them into a structured, queryable semantic index.
+[TA James] Sarah, when Google DeepMind built NotebookLM on Gemini 2.5 Pro, what was the game-changing breakthrough?
 
-[TA James] And notice the word 'Private'! Your confidential intellectual property, employee contracts, and financial spreadsheets never leave your enterprise perimeter or get used to train public models!
+[TA Sarah] In NotebookLM, you upload up to 50 private sources—PDFs, Google Docs, research papers, YouTube links. The Gemini engine is strictly bound to *only* answer from those specific files!
 
-[TA Sarah] It creates a living, queryable digital brain for your company that answers questions in seconds with exact source citations!
+[TA James] And the best part is the interactive citation chips! You click chip [1], and the PDF viewer instantly scrolls to page 47 and highlights the exact sentence in neon yellow!
 
-[TA James] Imagine onboarding a new junior engineer: instead of spending 3 weeks reading scattered wikis, they ask the Knowledge Factory and get instant answers with code examples from your actual codebase!
+[TA Sarah] You can verify any claim in half a second! No more wondering if the AI made it up!
 
-[Prof. Peter] It unlocks compounding organizational intelligence while protecting your most sacred assets.
+[Prof. Peter] If an answer cannot be found in your uploaded documents, it clearly states: "The provided sources do not contain this information." That is the integrity of grounded intelligence.
 
-[TA Sarah] Let us see how Google NotebookLM revolutionizes this paradigm on Slide 7!
+[TA James] Let's inspect the magical Audio Overview feature on Slide 7!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 그라운디드 진실: 언어 처리 능력과 지식 데이터베이스의 엄격한 분리 아키텍처
@@ -269,19 +275,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 7 showcases "GOOGLE NOTEBOOKLM: THE GROUNDED SOVEREIGNTY STANDARD."
+[TA Sarah] Slide 7 introduces "DEEP DIVE: AUDIO OVERVIEWS (PODCAST AI)."
 
-[TA James] Sarah, when Google DeepMind built NotebookLM on Gemini 2.5 Pro, they proved that a completely zero-hallucination interface was possible! How does it work under the hood?
+[TA James] Wow, Sarah! The first time I generated a 10-minute Audio Overview from a dry 300-page cloud networking manual, my jaw literally dropped!
 
-[TA Sarah] You upload up to 50 sources per notebook—PDFs, Google Docs, YouTube links, audio files—and NotebookLM creates a dedicated local semantic index. When you ask a question, it cites the exact source with interactive inline numbers!
+[TA Sarah] Haha! It sounds like two brilliant tech journalists on NPR having an unscripted, fascinating conversation!
 
-[TA James] And when you click that little citation number [1], the UI instantly scrolls the original PDF to page 47 and highlights the exact sentence! You can verify the facts in half a second!
+[TA James] They bounce analogies off each other, laugh, ask clarifying questions, and interrupt with natural breathing pauses!
 
-[TA Sarah] Plus, with Gemini 2.5 Pro's massive context, you can upload an entire 400-page textbook and ask it to cross-examine chapter 2 against chapter 14 simultaneously!
+[TA Sarah] You can listen to a 50-page financial earnings report while driving to work or running on the treadmill, grasping the entire strategic picture in 10 minutes!
 
-[Prof. Peter] It transforms the computer from an unpredictable toy into a trusted intellectual research partner.
+[Prof. Peter] Engaging both auditory and visual senses accelerates true knowledge absorption.
 
-[TA Sarah] Let us inspect the magical Audio Overview feature on Slide 8!
+[TA James] Let's see how Vector Embeddings work under the hood on Slide 8!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 검증 가능한 인용(Citations)의 힘: 감사 시간 단축과 기업 신뢰성 구축
@@ -304,19 +310,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 8 introduces "DEEP DIVE: AUDIO OVERVIEWS (PODCAST AI)."
+[Prof. Peter] Slide 8 unveils the pure mathematics: "UNDER THE HOOD: VECTOR EMBEDDINGS & COSINE SIMILARITY."
 
-[TA James] Wow, Sarah, Audio Overviews is hands-down one of the most incredible AI features created in the last decade! It converts dry, boring 50-page technical papers into a vibrant, 10-minute conversational podcast between two AI hosts!
+[TA Sarah] Here's how semantic search works: An embedding model like `text-embedding-004` converts every text chunk into a 768-dimensional mathematical vector in $\mathbb{R}^{768}$!
 
-[TA Sarah] Haha, yes! And they don't just read the text monotonically—they have natural conversational chemistry! They use analogies, ask each other clarifying questions, laugh, and explain complex trade-offs like two passionate experts!
+[TA James] And when a user asks a question, we measure the Cosine Similarity angle: $\cos(\theta) = \frac{A \cdot B}{\|A\| \|B\|}$!
 
-[TA James] I listen to Audio Overviews of new cloud architecture whitepapers while driving on the highway! In 15 minutes, I grasp the entire system before opening a single terminal window!
+[TA Sarah] That means if you search for "server reboot during peak traffic", it retrieves chunks containing "Kubernetes pod OOMKilled crash"—even with ZERO shared keywords!
 
-[TA Sarah] It democratizes deep learning for auditory learners and busy executives who don't have 4 hours to read dense PDFs.
+[TA James] It understands conceptual meaning rather than just matching exact letters like old SQL queries!
 
-[Prof. Peter] God created humanity with multiple sensory channels—visual, auditory, kinesthetic. Engaging multiple senses deepens true understanding.
+[Prof. Peter] Geometry brings structure to human language.
 
-[TA Sarah] Let us inspect how Vector Embeddings work under the hood on Slide 9!
+[TA Sarah] Let's inspect Chunking Strategies and Overlap on Slide 9!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 풍경 비교: 수동적 챗봇 vs 프라이빗 지식 공장의 성능 및 보안 지표 비교
@@ -339,19 +345,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 9 unveils the mathematical foundation: "UNDER THE HOOD: VECTOR EMBEDDINGS & COSINE SIMILARITY."
+[TA Sarah] Slide 9 covers "CHUNKING STRATEGIES & SLIDING WINDOW OVERLAPS."
 
-[TA Sarah] Here is the secret of modern search: We pass text chunks through an embedding model like `text-embedding-004`. It maps each chunk into a 768-dimensional mathematical vector in continuous space $\mathbb{R}^{768}$!
+[TA James] Sarah, chunking is where so many amateur RAG systems completely crash and burn! If you cut text every 1,000 characters blindly, you slice sentences right down the middle!
 
-[TA James] And when a user asks a question, we convert their query into a vector and measure the Cosine Similarity angle: $\cos(\theta) = \frac{A \cdot B}{\|A\| \|B\|}$! Chunks with high similarity are retrieved instantly!
+[TA Sarah] Exactly! If a sentence says "Quarterly net profit was NOT $5 million, but a loss of $2 million", and your chunk splits between "NOT" and "$5 million", your AI will tell everyone the company made millions!
 
-[TA Sarah] That means if you search for "server outage during peak traffic", the system automatically retrieves chunks containing "Kubernetes node crash under high load"—even though they don't share a single identical keyword!
+[TA James] That's a disaster! That's why we use **Recursive Character Splitting**: splitting on double newlines first, then single newlines, then periods!
 
-[TA James] That is lightyears ahead of old SQL `LIKE %server%` queries! It understands semantic meaning, not just exact letter matching!
+[TA Sarah] And always use a **512-token chunk size with a 64-token sliding window overlap** to preserve complete thoughts across boundaries!
 
-[Prof. Peter] Mathematics brings order out of linguistic complexity, reflecting the structured wisdom of creation.
+[Prof. Peter] Careful boundary engineering prevents fatal misinterpretations.
 
-[TA Sarah] Let us inspect Chunking Strategies and Overlap Windows on Slide 10.
+[TA James] Let's see our first enterprise case study on Slide 11!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 실시간 수강생 설문: 문서 검색 및 AI 출력 검증에 소모되는 주간 시간 측정
@@ -374,19 +380,15 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 10 deconstructs "CHUNKING STRATEGIES & OVERLAP WINDOWS."
+[Prof. Peter] Slide 10 bridges our roadmap: "PART 1 TRANSITION: BUILDING THE ENTERPRISE VAULT."
 
-[TA James] Sarah, chunking is where so many developers fail! If you make your chunks too small—say, 50 tokens—you lose the surrounding context. If you make them too large—say, 4,000 tokens—the vector embedding gets diluted and search precision plummets!
+[TA Sarah] We've mastered vectors and chunking. But in an enterprise with 100,000 confidential files, simple vector search is only step one!
 
-[TA Sarah] Exactly, James! The industry sweet spot is **512 tokens per chunk with a 64-token sliding window overlap**! The overlap ensures that sentences crossing the boundary aren't chopped in half!
+[TA James] In Part 2, we introduce **Hybrid Search** (combining BM25 keyword matching with dense vectors) and **Cross-Encoder Re-Ranking** for 99.8% precision!
 
-[TA James] And always use **Recursive Character Splitting**: splitting on double newlines `\n\n` for paragraphs first, then single newlines `\n`, and finally periods `. `! That preserves complete semantic thoughts!
+[TA Sarah] And right now, on Slide 11, let's see how this saved a top Wall Street firm during earnings season!
 
-[TA Sarah] When you chunk properly, your vector retrieval accuracy jumps from 65% to over 94%!
-
-[Prof. Peter] Precise structural craftsmanship distinguishes true engineering from sloppy amateurism.
-
-[TA James] Now let us examine our first real-world enterprise case study on Slide 11!
+[Prof. Peter] Let us examine Case Study 1 on Slide 11.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 설문 결과 분석: 연간 300~500시간의 검증 손실과 RAG 기반 해결책
@@ -411,17 +413,17 @@
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
 [Prof. Peter] Slide 11 presents "CASE STUDY 1: WALL STREET EQUITY RESEARCH TRIAGE."
 
-[TA Sarah] Look at the crisis this Manhattan hedge fund faced: During quarterly earnings season, 40 junior equity analysts worked 18-hour days manually reading through 2,000 corporate 10-K filings. They missed a tiny footnote on page 184 regarding debt covenants, leading to a $4.2 million loss on a bad trade!
+[TA Sarah] Look at the crisis this Manhattan hedge fund faced: 40 junior analysts were working 18-hour days reading 2,000 SEC 10-K filings. They missed a tiny footnote on page 184 regarding debt covenants, causing a $4.2 million loss!
 
-[TA James] So they deployed our Private RAG Knowledge Factory! In just 10 minutes, the pipeline ingested, chunked, and vectorized all 2,000 filings into SQLite-vec, automatically flagging off-balance sheet liabilities and debt risks!
+[TA James] So they deployed our Private RAG Knowledge Factory! In just 10 minutes, it ingested all 2,000 filings into SQLite-vec, cross-referenced balance sheets, and flagged high-risk debt covenants across 3 companies!
 
-[TA Sarah] The results were staggering: 99.4% time reduction, 1,200 overtime hours saved, and their analysts generated $28 million in alpha by shorting those risky companies before the public market caught on!
+[TA Sarah] The results: 99.4% time reduction, 1,200 overtime hours saved, and their analysts generated $28 million in alpha by shorting those risky stocks!
 
 [TA James] And with inline citation chips, every single analyst could verify the exact footnote paragraph in 2 seconds flat!
 
-[Prof. Peter] Grounded truth protects financial capital and liberates human life from soul-crushing drudgery.
+[Prof. Peter] Grounded truth protects financial capital and liberates human life.
 
-[TA Sarah] Now let us open Part 2 and master Hybrid Search & Multi-Modal Ingestion on Slide 12!
+[TA Sarah] Now let's open Part 2 and master Hybrid Search on Slide 12!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 1: 월스트리트 증권 리서치 10시간 분석의 4분 압축 기적
@@ -477,11 +479,11 @@
 
 [TA James] James, why do we need BM25 if we already have 768-dimensional vectors?
 
-[TA Sarah] Because dense vector models struggle with exact identifiers like error code `ERR-0x80070005`, part numbers like `B08N5WRWNW`, or specific personal names! BM25 keyword search is 100% exact at finding those literal strings!
+[TA Sarah] Because dense vector models struggle with exact identifiers like error code `ERR-0x80070005` or part numbers like `B08N5WRWNW`! BM25 keyword search is 100% exact at finding those literal strings!
 
 [TA James] Aha! So we run BM25 lexical search and Vector Cosine search in parallel, and then fuse their rankings using **Reciprocal Rank Fusion (RRF)**: $\text{RRF Score} = \sum \frac{1}{k + r_i}$ with $k=60$!
 
-[TA Sarah] Exactly! RRF combines the semantic understanding of vectors with the pinpoint precision of exact keyword matching, boosting retrieval recall to over 98%!
+[TA Sarah] Exactly! RRF combines semantic understanding with pinpoint keyword precision, boosting retrieval recall to over 98%!
 
 [Prof. Peter] Combining complementary strengths produces unbreakable engineering resilience.
 
@@ -514,7 +516,7 @@
 
 [TA James] But Bi-Encoders look at the query and the chunk separately! So in Stage 2, we pass those top 50 candidates through a **Cross-Encoder Re-Ranker** (like BGE-Reranker-Large) that feeds the query and chunk together into full self-attention layers!
 
-[TA Sarah] The Cross-Encoder scores the deep contextual relevance and narrows the 50 candidates down to the top 5 cleanest, highest-signal chunks for Gemini to read!
+[TA Sarah] The Cross-Encoder scores deep contextual relevance and narrows the 50 candidates down to the top 5 cleanest, highest-signal chunks for Gemini to read!
 
 [TA James] This cuts prompt token costs by 85% and eliminates 99% of remaining hallucinations!
 
