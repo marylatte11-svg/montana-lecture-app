@@ -20,6 +20,7 @@ __pycache__/
 files_cleaned/
 files_analysis/
 duo_videos/
+session*_videos/
 *.wav
 *.mp4
 *.mp3

@@ -28,15 +28,20 @@ import imageio_ffmpeg
 import edge_tts
 from playwright.async_api import async_playwright
 
-# Paths
+# Paths & Directory Helper
 BASE_DIR = r"c:\Oikos Univ"
-OUTPUT_DIR = os.path.join(BASE_DIR, "duo_videos")
-SLIDES_IMG_DIR = os.path.join(OUTPUT_DIR, "slide_images")
-AUDIO_DIR = os.path.join(OUTPUT_DIR, "audio_segments")
 
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-os.makedirs(SLIDES_IMG_DIR, exist_ok=True)
-os.makedirs(AUDIO_DIR, exist_ok=True)
+def set_session_directories(session_id):
+    global OUTPUT_DIR, SLIDES_IMG_DIR, AUDIO_DIR
+    OUTPUT_DIR = os.path.join(BASE_DIR, f"session{session_id}_videos")
+    SLIDES_IMG_DIR = os.path.join(OUTPUT_DIR, "slide_images")
+    AUDIO_DIR = os.path.join(OUTPUT_DIR, "audio_segments")
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(SLIDES_IMG_DIR, exist_ok=True)
+    os.makedirs(AUDIO_DIR, exist_ok=True)
+
+# Default initialization
+set_session_directories(1)
 
 FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
 
@@ -341,16 +346,16 @@ async def build_master_concatenation(video_paths=None, session_id=1, total_slide
     if not video_paths:
         return
     
-    # 1. 4x Modular Part Videos:
-    # - Part 1: Slides 01 ~ 11 (The Paradigm Shift: Chatbots to Avatars)
-    # - Part 2: Slides 12 ~ 22 (Under the Hood of Autonomous Reasoning)
-    # - Part 3: Slides 23 ~ 29 (The Connected Workspace: Apps Script & Drive)
-    # - Part 4: Slides 30 ~ 45 (Securing the Digital Vault & Wisdom Synthesis)
+    # 1. 4x Modular Part Videos (Universal 45-Slide Architecture):
+    # - Part 1: Slides 01 ~ 11
+    # - Part 2: Slides 12 ~ 22
+    # - Part 3: Slides 23 ~ 33
+    # - Part 4: Slides 34 ~ 45
     parts_config = [
-        ("Part1_Paradigm_Shift", list(range(1, 12)), "Slides 01~11: The Paradigm Shift"),
-        ("Part2_Autonomous_Engine", list(range(12, 23)), "Slides 12~22: Autonomous Engine"),
-        ("Part3_Connected_Workspace", list(range(23, 30)), "Slides 23~29: Connected Workspace"),
-        ("Part4_Security_and_Lab", list(range(30, total_slides + 1)), f"Slides 30~{total_slides:02d}: Security & Lab")
+        ("Part1_Module", list(range(1, 12)), "Slides 01~11: Module 1"),
+        ("Part2_Module", list(range(12, 23)), "Slides 12~22: Module 2"),
+        ("Part3_Module", list(range(23, 34)), "Slides 23~33: Module 3"),
+        ("Part4_Module", list(range(34, total_slides + 1)), f"Slides 34~{total_slides:02d}: Module 4 & Lab")
     ]
     
     print(f"\n=======================================================")
@@ -423,6 +428,7 @@ async def main():
     parser.add_argument("--slides", type=str, help="Comma-separated slide numbers (e.g. --slides 1,8,14,40)")
     parser.add_argument("--all", action="store_true", help="Generate all 40 slides and build Master Video")
     args = parser.parse_args()
+    set_session_directories(args.session)
 
     session_slides = load_session_slides(args.session)
     target_slides = []
