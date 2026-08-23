@@ -2,42 +2,42 @@
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 **Instructors:** Professor Peter Kim (Director), TA Sarah Jenkins (Senior AI Fellow) & TA James Wilson (DevOps TA) • Oikos University (www.oikos.edu)  
 **Lecture Format:** Full 75-Minute Broadcast Trio Master Dialogue (4x Modules with 5 Enterprise Case Studies)  
-**Total Slides:** 45 Slides (Expanded Multi-Presenter Master Edition adhering to design_oikos.md)  
+**Total Slides:** 45 Slides (Expanded Multi-Presenter Master Edition)  
 **Motto:** Soli Deo Gloria  
 
 ---
 
 ## 📌 Table of Contents (목차)
 - [Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA](#slide-01-oikos-university-soli-deo-gloria)
-- [Slide 02: PART 1: THE LOCAL-FIRST PARADIGM & OS SHELL CONTROL](#slide-02-part-1-the-local-first-paradigm-os-shell-control)
+- [Slide 02: PART 1: THE LOCAL-FIRST PARADIGM & OS SHELL CONTROL](#slide-02-part-1-the-local-first-paradigm-and-os-shell-control)
 - [Slide 03: GUEST VS. LANDLORD: THE DESKTOP SCHISM](#slide-03-guest-vs-landlord-the-desktop-schism)
 - [Slide 04: THE TROJAN HORSE: GOOGLE APP FOR WINDOWS](#slide-04-the-trojan-horse-google-app-for-windows)
-- [Slide 05: THE HOTKEY OF POWER: ALT + SPACE](#slide-05-the-hotkey-of-power-alt-space)
+- [Slide 05: THE HOTKEY OF POWER: ALT + SPACE](#slide-05-the-hotkey-of-power-alt-+-space)
 - [Slide 06: BYPASSING THE BROWSER SANDBOX](#slide-06-bypassing-the-browser-sandbox)
 - [Slide 07: POWERTOYS RUN VS. GOOGLE APP](#slide-07-powertoys-run-vs-google-app)
 - [Slide 08: THE UNIFIED SEARCH VISION](#slide-08-the-unified-search-vision)
 - [Slide 09: INTELLECTUAL STEWARDSHIP UNDER SOLI DEO GLORIA](#slide-09-intellectual-stewardship-under-soli-deo-gloria)
-- [Slide 10: PART 1 SUMMARY & FOUNDATIONAL RULES](#slide-10-part-1-summary-foundational-rules)
+- [Slide 10: PART 1 SUMMARY & FOUNDATIONAL RULES](#slide-10-part-1-summary-and-foundational-rules)
 - [Slide 11: CASE STUDY 1: 350-DESKTOP ENTERPRISE SEARCH](#slide-11-case-study-1-350-desktop-enterprise-search)
-- [Slide 12: PART 2: DECONSTRUCTING THE 1.2GB HEAVY ARMOR](#slide-12-part-2-deconstructing-the-1-2gb-heavy-armor)
+- [Slide 12: PART 2: DECONSTRUCTING THE 1.2GB HEAVY ARMOR](#slide-12-part-2-deconstructing-the-12gb-heavy-armor)
 - [Slide 13: THE WEBVIEW2 MULTI-PROCESS ENGINE](#slide-13-the-webview2-multi-process-engine)
 - [Slide 14: RESOURCE COLLISION: 8GB VS. 32GB MACHINES](#slide-14-resource-collision-8gb-vs-32gb-machines)
 - [Slide 15: THE BATTERY DRAIN PARADOX](#slide-15-the-battery-drain-paradox)
 - [Slide 16: GPU ACCELERATION VS. CPU OVERLOAD](#slide-16-gpu-acceleration-vs-cpu-overload)
 - [Slide 17: WEBVIEW2 SECURITY SANDBOXING LIMITS](#slide-17-webview2-security-sandboxing-limits)
 - [Slide 18: THE 'HEAVY ARMOR' PHILOSOPHICAL LESSON](#slide-18-the-heavy-armor-philosophical-lesson)
-- [Slide 19: 📨 INTERACTIVE POLL: DESKTOP AI ALLOCATION](#slide-19-interactive-poll-desktop-ai-allocation)
-- [Slide 20: PART 2 SUMMARY & HARDWARE REALITIES](#slide-20-part-2-summary-hardware-realities)
+- [Slide 19: 📨 INTERACTIVE POLL: DESKTOP AI ALLOCATION](#slide-19-📨-interactive-poll-desktop-ai-allocation)
+- [Slide 20: PART 2 SUMMARY & HARDWARE REALITIES](#slide-20-part-2-summary-and-hardware-realities)
 - [Slide 21: OPERATIONAL DESKTOP SAFETY GUARDRAILS](#slide-21-operational-desktop-safety-guardrails)
 - [Slide 22: CASE STUDY 2: WEBVIEW2 MEMORY LEAK RESCUE](#slide-22-case-study-2-webview2-memory-leak-rescue)
-- [Slide 23: PART 3: THE OMNISCIENT EYE: LENS & DESKTOP GEMINI](#slide-23-part-3-the-omniscient-eye-lens-desktop-gemini)
+- [Slide 23: PART 3: THE OMNISCIENT EYE: LENS & DESKTOP GEMINI](#slide-23-part-3-the-omniscient-eye-lens-and-desktop-gemini)
 - [Slide 24: SCREEN SCRAPING VIA GOOGLE LENS](#slide-24-screen-scraping-via-google-lens)
 - [Slide 25: REAL-TIME SCREEN TRANSLATION PIPELINE](#slide-25-real-time-screen-translation-pipeline)
-- [Slide 26: GENIUS IN CLOUD, NOVICE IN LOCAL](#slide-26-genius-in-cloud-novice-in-local)
+- [Slide 26: GENIUS IN CLOUD, NOVICE IN LOCAL](#slide-26-genius-in-cloud,-novice-in-local)
 - [Slide 27: DRAG-AND-DROP FILE FORCING](#slide-27-drag-and-drop-file-forcing)
 - [Slide 28: THE MEMORY BRIDGE: CLIPBOARD SYNC](#slide-28-the-memory-bridge-clipboard-sync)
 - [Slide 29: CASE STUDY 3: COBOL TO PYTHON MIGRATION](#slide-29-case-study-3-cobol-to-python-migration)
-- [Slide 30: PART 4: GOVERNANCE, SAFETY & THE SHADOW KINGDOM](#slide-30-part-4-governance-safety-the-shadow-kingdom)
+- [Slide 30: PART 4: GOVERNANCE, SAFETY & THE SHADOW KINGDOM](#slide-30-part-4-governance,-safety-and-the-shadow-kingdom)
 - [Slide 31: THE CORPORATE SANDBOX BLOCKADE](#slide-31-the-corporate-sandbox-blockade)
 - [Slide 32: THE DANGER OF SCREEN-CAPTURING LEAKS](#slide-32-the-danger-of-screen-capturing-leaks)
 - [Slide 33: THE RISE OF SHADOW IT IN THE AI ERA](#slide-33-the-rise-of-shadow-it-in-the-ai-era)
@@ -48,11 +48,11 @@
 - [Slide 38: TECHNICAL TRADE-OFFS MASTER MATRIX](#slide-38-technical-trade-offs-master-matrix)
 - [Slide 39: SOLI DEO GLORIA: RECLAIMING THE DESK](#slide-39-soli-deo-gloria-reclaiming-the-desk)
 - [Slide 40: RECLAIMING OFFLINE PEACE IN A NOISY WORLD](#slide-40-reclaiming-offline-peace-in-a-noisy-world)
-- [Slide 41: THE ARCHITECT'S DESK MANIFESTO](#slide-41-the-architect-s-desk-manifesto)
+- [Slide 41: THE ARCHITECT'S DESK MANIFESTO](#slide-41-the-architects-desk-manifesto)
 - [Slide 42: ENTERPRISE POLICY TEMPLATE: DESKTOP AI](#slide-42-enterprise-policy-template-desktop-ai)
-- [Slide 43: THE ARCHITECT'S WISDOM CAPSTONE](#slide-43-the-architect-s-wisdom-capstone)
-- [Slide 44: CASE STUDY 5: OS SHELL ENTERPRISE ROI & AUDIT](#slide-44-case-study-5-os-shell-enterprise-roi-audit)
-- [Slide 45: 🛠️ LAB 3: LOCAL FILE SORTING & OS SHELL AGENT](#slide-45-lab-3-local-file-sorting-os-shell-agent)
+- [Slide 43: THE ARCHITECT'S WISDOM CAPSTONE](#slide-43-the-architects-wisdom-capstone)
+- [Slide 44: CASE STUDY 5: OS SHELL ENTERPRISE ROI & AUDIT](#slide-44-case-study-5-os-shell-enterprise-roi-and-audit)
+- [Slide 45: 🛠️ LAB 3: LOCAL FILE SORTING & OS SHELL AGENT](#slide-45-🛠️-lab-3-local-file-sorting-and-os-shell-agent)
 
 ---
 
@@ -349,17 +349,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 9 explores "INTELLECTUAL STEWARDSHIP UNDER SOLI DEO GLORIA." Sarah, James, why must we remain masters of our desktop tools?
+[TA Sarah] Slide 9 explores "INTELLECTUAL STEWARDSHIP UNDER SOLI DEO GLORIA." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Look at Card 1: "Sovereignty Over Tools." God created humans in His image with intellect, reason, and creative purpose. We must command our tools with intentionality, not surrender our minds to addictive feed algorithms!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Guarding human cognition, digital privacy, and mental focus from platform addiction
 
-[TA James] Look at Card 2: "Local Privacy Protection." Your personal journal, family photos, and proprietary client source code must NOT be treated as free training fodder for big tech monopolies!
+[TA Sarah] Exactly! When you analyze the engineering details: Guarding human cognition, digital privacy, and mental focus from platform addiction
 
-[TA Sarah] And Card 3: "Focus Restoration." By disabling manipulative promotional popups and notification badges, we protect sacred quiet time for contemplation, prayer, and deep design.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA James] Amen, Sarah! A peaceful desktop creates a peaceful mind.
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
 
-[Prof. Peter] Stewardship means exercising conscious moral control over the digital environment where we work every day.
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 10!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Soli Deo Gloria와 지적 청지기직: 도구의 주권, 로컬 프라이버시 보호, 집중력 회복
@@ -455,17 +459,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 12 opens our second major technical deep-dive: "PART 2: DECONSTRUCTING THE 1.2GB HEAVY ARMOR."
+[TA Sarah] Look at Slide 12: "PART 2: DECONSTRUCTING THE 1.2GB HEAVY ARMOR." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] In Part 1, we saw how bloated web wrappers fail enterprise laptops. Now we must ask the tough engineering question: why does a floating search bar consume 1.2GB of RAM, and what happens inside WebView2 when hardware resources collide?
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] In Part 2, we tear down Microsoft Edge WebView2 architecture, analyze why 8GB laptops choke while 32GB workstations survive, and uncover the battery drain paradox on laptops!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] We will dissect GPU acceleration vs. CPU software rasterization, inspect sandbox security limits, and analyze our second case study on a FinTech trading desk memory leak rescue!
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
 
-[TA James] Get ready, students—we are opening Task Manager and showing you the hidden processes big tech doesn't want you to see!
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
 
-[Prof. Peter] Let us begin by inspecting the WebView2 multi-process architecture on Slide 13!
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 13!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 2 섹션 전환: 1.2GB 무거운 무구(WebView2)의 내부 구조와 하드웨어 리소스 충돌 분석
@@ -775,17 +781,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 21 outlines "OPERATIONAL DESKTOP SAFETY GUARDRAILS." Sarah, James, what guardrails must we enforce on every desktop agent?
+[TA Sarah] Slide 21 explores "OPERATIONAL DESKTOP SAFETY GUARDRAILS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Guardrail 1: RAM Ceiling Governor. We bind the desktop agent inside a Windows Job Object with a hard 200MB memory ceiling. If a subprocess starts leaking memory, the OS kills and restarts it in 50 milliseconds!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The non-negotiable memory, CPU, and clipboard limits for enterprise desktop agents
 
-[TA James] Guardrail 2: Clipboard Purge Hook! Never let an agent hold clipboard data forever! After 30 seconds, the agent wipes its memory buffer so your copied passwords and credit cards don't linger in RAM!
+[TA Sarah] Exactly! When you analyze the engineering details: The non-negotiable memory, CPU, and clipboard limits for enterprise desktop agents
 
-[TA Sarah] And Guardrail 3: Power-Aware Throttle! The instant your laptop unplugged from the wall, the agent throttles heavy OCR screen scraping to preserve 100% of your battery for flights!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA James] When you enforce these three guardrails, your IT helpdesk tickets for frozen PCs drop to zero!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
 
-[Prof. Peter] Strict operational guardrails ensure your desktop agent remains a servant, not a resource-hogging tyrant.
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 22!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 데스크톱 에이전트 운영 안전 가드레일: 200MB 메모리 제한, 클립보드 30초 정화, 배터리 절전 스로틀링
@@ -846,17 +856,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 23 announces "PART 3: THE OMNISCIENT EYE: GOOGLE LENS & DESKTOP GEMINI."
+[TA Sarah] Look at Slide 23: "PART 3: THE OMNISCIENT EYE: LENS & DESKTOP GEMINI." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] In Parts 1 and 2, we mastered shell control and disciplined our memory footprint. Now we explore the visual perceptual power of desktop intelligence: when an agent can see every pixel on your screen, what becomes possible?
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] In Part 3, we analyze screen scraping via Google Lens, real-time desktop translation pipelines, over-the-shoulder AI tutoring, and the local indexing dilemma: why AI is a genius in the cloud but often a novice on local disk!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] And we will dissect our third enterprise case study on migrating 40-year-old legacy COBOL terminal screens into modern Python code in real time!
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
 
-[TA James] Reading green-screen terminals with vision AI? That sounds like science fiction, but it's 100% production reality!
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
 
-[Prof. Peter] Let us examine the mechanics of screen perception on Slide 24!
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 24!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 3 섹션 전환: 전지전능한 눈(Google Lens & Desktop Gemini)과 화면 픽셀 인지 기술
@@ -1094,17 +1106,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 30 opens our final critical section: "PART 4: GOVERNANCE, SAFETY & THE SHADOW KINGDOM."
+[TA Sarah] Look at Slide 30: "PART 4: GOVERNANCE, SAFETY & THE SHADOW KINGDOM." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] In Parts 1 through 3, we unlocked the immense power of desktop shell control and multimodal vision. But when an AI agent has the power to see your screen, read your files, and execute terminal commands, the security risks multiply exponentially.
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] In Part 4, we enter the enterprise battlefield! We confront the rise of unapproved 'Shadow IT', dissect screen-capture data leaks, and establish strict Data Loss Prevention (DLP) kernel firewalls!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] We will analyze how healthcare networks protect patient privacy, master Human-on-the-Loop audit logging, and launch our hands-on Lab 3 assignment!
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
 
-[TA James] If you deploy desktop AI without security guardrails, your corporate CISO will pull the plug on your project in 5 minutes!
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
 
-[Prof. Peter] Let us begin by examining the corporate sandbox blockade on Slide 31!
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 31!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 4 섹션 전환: 거버넌스, 안전망, 섀도우 IT 방어 및 Soli Deo Gloria 청지기직
@@ -1415,17 +1429,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 39 brings us to the spiritual heart of our workstation: "SOLI DEO GLORIA: RECLAIMING THE DESK."
+[TA Sarah] Slide 39 explores "SOLI DEO GLORIA: RECLAIMING THE DESK." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Look at Card 1: "Sanctified Focus." Your physical and digital desk is where your calling is lived out every day. When we eliminate noisy notifications, popups, and algorithmic feeds, we turn our workspace into a sanctuary of deep focus!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Transforming your physical and digital workstation into a sanctuary of focused excellence
 
-[TA James] Look at Card 2: "Diligent Craftsmanship." We don't write sloppy, bloated code that burns user battery life! We build lean, elegant, rock-solid systems with disciplined craftsmanship!
+[TA Sarah] Exactly! When you analyze the engineering details: Transforming your physical and digital workstation into a sanctuary of focused excellence
 
-[TA Sarah] And Card 3: "Serving Higher Purpose." Using our technological leverage to create tools that bless our colleagues, empower students, and honor our Creator.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA James] Every clean line of code is an expression of integrity!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
 
-[Prof. Peter] Soli Deo Gloria: When engineering excellence meets holy purpose, every keystroke becomes an act of worship.
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 40!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Soli Deo Gloria와 데스크의 회복: 거룩한 몰입, 성실한 장인정신, 창조주를 향한 봉헌
@@ -1483,17 +1501,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 41 presents "THE ARCHITECT'S DESK MANIFESTO." Let us declare these three covenants together.
+[TA Sarah] Slide 41 explores "THE ARCHITECT'S DESK MANIFESTO." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Declaration 1: "I COMMAND THE SHELL!" I will never surrender my first keystroke or operating system sovereignty to bloated 1.2GB web wrappers or platform monopolies!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Three immutable declarations for lifelong intelligence architects
 
-[TA James] Declaration 2: "I GUARD THE DATA!" I will protect local proprietary code, screen pixels, and client privacy with strict DLP firewalls and zero-data-training policies!
+[TA Sarah] Exactly! When you analyze the engineering details: Three immutable declarations for lifelong intelligence architects
 
-[TA Sarah] And Declaration 3: "I REDEEM THE TIME!" I will deploy automation not for selfish laziness, but to redeem finite human hours for scholarship, community service, and God's eternal glory!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA James] When you live by these three covenants, you become an unstoppable intelligence architect!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
 
-[Prof. Peter] When an architect lives by this manifesto, technology becomes a glorious instrument of blessing.
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 42!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 아키텍트의 데스크 선언문(The Architect's Desk Manifesto): 셸 지휘, 데이터 수호, 세월 구속의 3대 선언
@@ -1551,17 +1573,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 43 delivers "THE ARCHITECT'S WISDOM CAPSTONE: Three Enduring Principles."
+[TA Sarah] Slide 43 explores "THE ARCHITECT'S WISDOM CAPSTONE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Principle 1: "SIMPLICITY CONQUERS BLOAT." A 35MB native tool built with precision and clear intent will always outperform and outlast a 1.2GB web-wrapped monster in production environments!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Three enduring principles for mastering the battle for the operating system
 
-[TA James] Principle 2: "PERCEPTION REQUIRES PRIVACY." The moment you give an agent eyes to see your screen, you must give it ironclad DLP guardrails to protect human dignity and privacy!
+[TA Sarah] Exactly! When you analyze the engineering details: Three enduring principles for mastering the battle for the operating system
 
-[TA Sarah] And Principle 3: "STEWARDSHIP GLORIFIES GOD." We manage every megabyte of RAM, every watt of battery, and every hour of time as faithful stewards under Soli Deo Gloria!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA James] That is how engineering becomes a calling of excellence!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
 
-[Prof. Peter] Let us examine our final enterprise ROI analysis and production blueprint on Slide 44!
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 44!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 아키텍트의 지혜 캡스톤: 단순함의 승리, 시각 인지와 프라이버시, 창조주를 영화롭게 하는 청지기직

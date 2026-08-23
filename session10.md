@@ -1,4 +1,4 @@
-# Session 10: Escaping Developer Gravity: Antigravity 2.0 & Multi-Agent Orchestration Blueprint
+# Session 10: Enterprise Red-Teaming & Guardrails: MCP Security, Zero-Data Retention & Canary Defense
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 **Instructors:** Professor Peter Kim (Director), TA Sarah Jenkins (Senior AI Fellow) & TA James Wilson (DevOps TA) • Oikos University (www.oikos.edu)  
 **Lecture Format:** Full 75-Minute Broadcast Trio Master Dialogue (4x Modules with 5 Enterprise Case Studies)  
@@ -61,15 +61,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Welcome back, global scholars and architects, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today on Slide 1, we enter the pinnacle of autonomous software engineering: "Session 10: Escaping Developer Gravity: Antigravity 2.0 & Multi-Agent Orchestration Blueprint."
+[Prof. Peter] Welcome, global scholars and engineering leaders, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today on Slide 1, we embark on: "Session 10: OIKOS UNIVERSITY • SOLI DEO GLORIA."
 
-[TA Sarah] Hello everyone! I am Sarah Jenkins, Senior AI Fellow. For decades, software developers have been crushed by 'Developer Gravity'—the heavy friction of boilerplate syntax, dependency conflicts, unit test debugging, and manual code refactoring.
+[TA Sarah] Hey everyone, Sarah Jenkins here! You know, James, when engineers look at Slide 1, they often ask: why is this specific module such a critical pillar of the sovereign architecture?
 
-[TA James] And I am James Wilson, your DevOps TA! Google Antigravity 2.0 shatters developer gravity forever: powered by a 150MB native Go CLI (`agy`), a high-concurrency multi-agent swarm architecture that spawns 93 specialized subagents in parallel, and Review-Driven Development (RDD) with structured Artifacts!
+[TA James] Haha, that's simple, Sarah! Because in real production, if you don't master this layer, your entire autonomous stack collapses under real-world enterprise pressure!
 
-[Prof. Peter] Under our founding motto, "SOLI DEO GLORIA—To God Alone Be the Glory," let us transition from mechanical code typists into sovereign conductors of autonomous intelligence fleets.
+[TA Sarah] Exactly! We're moving beyond basic tutorials and building hardened, production-grade intelligence that runs 24/7 with zero downtime!
 
-[TA Sarah] Let us open Part 1 and explore the Rise of 93-Agent Swarms on Slide 2!
+[TA James] And we back it up with real code, real infrastructure patterns, and proven enterprise ROI!
+
+[Prof. Peter] Under our sacred cornerstone, "SOLI DEO GLORIA—To God Alone Be the Glory," our mission is to redeem the time (Ephesians 5:16) and steward technology for human flourishing.
+
+[TA Sarah] That's right! Let us open Part 1 on Slide 2 and dive into the architecture!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Session 10 개요 및 Oikos University 3인 강사진(피터 교수, 사라 수석조교, 제임스 개발조교) 환영 인사
@@ -92,15 +96,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 2: "PART 1: THE RISE OF 93-AGENT SWARMS." Professor, why is single-assistant coding obsolete in 2026?
+[TA Sarah] Look at Slide 2: "PART 1: THE RISE OF 93-AGENT SWARMS." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] Because asking a single AI chatbot to rewrite a 100,000-line codebase is like asking one lone carpenter to build a 50-story skyscraper! It gets confused, runs out of memory, and drops requirements.
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] In Antigravity 2.0, we spawn a coordinated swarm: 1 Lead Architect, 30 Feature Coders, 20 Unit Testers, 15 Security Auditors, 10 UI Browser Testers, and 5 Documentation Writers—all working concurrently across isolated git worktrees!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] In Part 1, we deconstruct the transition from typing lines of code to conducting system swarms.
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
 
-[Prof. Peter] Let us examine the heavy shackle of traditional coding gravity on Slide 3.
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
+
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 3!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 1 섹션 전환: 93개 자율 에이전트 스웜의 부상과 단일 챗봇의 종말
@@ -123,13 +131,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 3 exposes "THE HEAVY SHACKLE OF TRADITIONAL CODING GRAVITY."
+[TA Sarah] Slide 3 explores "THE HEAVY SHACKLE OF TRADITIONAL CODING GRAVITY." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Look at where senior software engineers spend their actual working hours: only 20% is creative architecture! The remaining 80% is spent wrestling with import errors, writing repetitive JSON serializers, and fixing broken unit tests!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: How senior engineers waste 75% of their careers on mechanical boilerplate and debugging
 
-[TA James] That is computational servitude! Antigravity 2.0 delegates 100% of the mechanical boilerplate to autonomous subagent swarms, freeing human architects to operate at the level of pure systems design!
+[TA Sarah] Exactly! When you analyze the engineering details: Boilerplate Drain: Writing repetitive CRUD routers, DTO schemas, and SQL migrations by hand. • Dependency Hell: Spending entire afternoons debugging version conflicts between npm and pip packages. • Testing Drag: Writing 500 unit tests manually rather than focusing on novel algorithmic breakthroughs.
 
-[Prof. Peter] Let us examine the great transition from writer to system director on Slide 4.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 4!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 전통적 코딩 중력의 족쇄: 시니어 엔지니어의 80% 시간 낭비 실태
@@ -152,13 +168,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 4 details "THE GREAT TRANSITION: WRITER TO SYSTEM DIRECTOR."
+[TA Sarah] Slide 4 explores "THE GREAT TRANSITION: WRITER TO DIRECTOR." James, why is this concept so essential for every serious AI architect?
 
-[TA James] In the old world, an elite engineer typed 200 lines of clean code a day. In Antigravity 2.0, you act like a Movie Director or an Orchestra Conductor! You write the vision, approve the `implementation_plan.md`, and direct 93 subagents that produce 50,000 lines of verified, audited code in a single day!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Evolving from a syntax typist into the Sovereign Conductor of an AI engineering orchestra
 
-[Prof. Peter] The baton in your hand is the power of intentional direction. You are no longer typing the notes; you are conducting the symphony!
+[TA Sarah] Exactly! When you analyze the engineering details: Evolving from a syntax typist into the Sovereign Conductor of an AI engineering orchestra
 
-[TA Sarah] Let us inspect the democratization of creation on Slide 5.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 5!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 위대한 대전환: 코드 타이피스트에서 시스템 총괄 지휘관(Director)으로
@@ -181,15 +205,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 5 explores "RECLAIMING COGNITIVE CAPACITY."
+[TA Sarah] Slide 5 explores "RECLAIMING COGNITIVE CAPACITY." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] When you no longer have to spend your mental energy worrying about Python syntax errors or CSS flexbox alignments, your brain enters a state of profound flow!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Eliminating cognitive fatigue to focus on novel algorithms, domain wisdom, and business strategy
 
-[TA James] You can spend 4 unbroken hours thinking about distributed consensus algorithms, zero-knowledge security proofs, and user experience psychology!
+[TA Sarah] Exactly! When you analyze the engineering details: Cognitive Offloading: Delegating unit test generation, typing annotations, and Dockerfiles to agents. • Deep Work Expansion: Sustaining 4-hour uninterrupted blocks of pure architectural problem-solving. • Higher-Order Value: Shifting from 'How do I write this loop?' to 'What is the highest ethical value of this system?'
 
-[Prof. Peter] That is how we cultivate true wisdom in technological leadership.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect Assistants vs. Agents on Slide 6.
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 6!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 인지 용량의 회수: 기계적 보일러플레이트 제거와 깊은 몰입(Deep Work)
@@ -212,13 +242,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 6 clarifies "THE BOUNDARY: CODE ASSISTANTS VS. AUTONOMOUS AGENTS."
+[TA Sarah] Slide 6 explores "DEFINING THE BOUNDARY: ASSISTANTS VS. AGENTS." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Do not confuse code autocomplete with Antigravity! Autocomplete assistants like legacy Copilot just guess the next 5 words as you type. They cannot run tests, they cannot edit 10 files at once, and they cannot read terminal errors!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Why autocomplete code completion (Copilot) is fundamentally inferior to autonomous swarms (Antigravity)
 
-[Prof. Peter] Antigravity 2.0 is an Autonomous Agent Fleet! It plans the task, creates new files, runs compilers, captures browser screenshots, fixes its own compilation errors in a self-healing loop, and presents a completed walkthrough!
+[TA Sarah] Exactly! When you analyze the engineering details: Why autocomplete code completion (Copilot) is fundamentally inferior to autonomous swarms (Antigravity)
 
-[TA Sarah] Let us launch an interactive poll on Slide 7!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 7!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 경계의 정의: 단순 코드 어시스턴트(Copilot) vs 자율 에이전트 스웜(Antigravity)
@@ -241,15 +279,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 7 is our "INTERACTIVE POLL: SOFTWARE BOTTLENECKS." Grab your phones and vote right now!
+[TA Sarah] Slide 7 explores "📨 INTERACTIVE POLL: SOFTWARE BOTTLENECKS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] The question is: "Which phase of enterprise software engineering creates the most exhausting bottleneck for your engineering team?"
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Which stage of enterprise software engineering slows down your team the most?
 
-[TA James] Option A: Upgrading legacy codebases. Option B: Writing end-to-end browser tests. Option C: Reviewing 2,000-line pull requests. Or Option D: Debugging CI/CD pipelines!
+[TA Sarah] Exactly! When you analyze the engineering details: Which stage of enterprise software engineering slows down your team the most?
 
-[TA Sarah] Option A (Legacy Upgrades) and Option B (Testing) are surging across our live audience!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[Prof. Peter] Let us examine how Antigravity swarms solve every one of these bottlenecks on Slide 8.
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 8!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 실시간 수강생 설문: 엔터프라이즈 소프트웨어 엔지니어링의 최대 병목은?
@@ -272,13 +316,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 8 analyzes our poll results: "ELEVATING TO ARCHITECTURE."
+[TA Sarah] Slide 8 explores "ANALYZING THE POLL: ELEVATING TO ARCHITECTURE." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Look at how swarming crushes these bottlenecks: Instead of 1 engineer spending 6 months migrating 500 microservices, Antigravity spawns 40 subagents to refactor all 500 services in parallel in 25 minutes!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: How multi-agent parallel swarms turn multi-month bottlenecks into multi-minute victories
 
-[Prof. Peter] Browser subagents launch real Chrome instances, click buttons, take screenshots, and record WebP videos of bugs automatically! You spend your time reviewing high-level results rather than manually clicking buttons.
+[TA Sarah] Exactly! When you analyze the engineering details: Legacy Migrations: Spawning 40 subagents to refactor 500 decoupled modules simultaneously. • Testing Automation: Browser subagents automatically navigating web pages and recording WebP failure videos. • Continuous Verification: Automated linters and security auditors reviewing every line before human inspection.
 
-[TA Sarah] Let us inspect Part 1 takeaways on Slide 10.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 9!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 설문 분석: 다중 에이전트 병렬 스웜을 통한 수개월 병목의 수분 내 해결
@@ -301,13 +353,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 9 presents "MASTERING THE CONDUCTOR'S BATON: 4 GOLDEN RULES."
+[TA Sarah] Slide 9 explores "MASTERING THE CONDUCTOR'S BATON: 4 RULES." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Rule 1: Set clear boundaries—never tell an agent 'Fix everything'; give explicit file scopes! Rule 2: Require verification invariants—compilers and unit tests must pass 100%.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The 4 golden rules of directing autonomous AI agent swarms
 
-[TA James] Rule 3: Inspect the Artifacts—read the `walkthrough.md` and check the git diff! Rule 4: Exercise your Sovereign Veto—if an agent proposes an ugly hack, reject the plan and direct it to build an elegant architecture!
+[TA Sarah] Exactly! When you analyze the engineering details: Rule 1: Clear Boundaries (Define explicit task scopes and file boundaries in the implementation plan). • Rule 2: Verification Invariants (Require automated compilers, linters, and unit tests to pass before review). • Rule 3: Artifact Inspection (Read the diffs, check screenshots, and audit walkthrough summaries). • Rule 4: Sovereign Veto (Reject any plan or code mutation that violates enterprise architectural standards).
 
-[Prof. Peter] Let us examine our first enterprise case study on Slide 11!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 10!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 지휘관의 지휘봉 마스터하기: 자율 에이전트 스웜 지휘 4대 황금률
@@ -331,13 +391,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 10 bridges our roadmap: "PART 1 TRANSITION: ENTERING THE ENGINE ROOM."
+[TA Sarah] Slide 10 explores "PART 1 TRANSITION: ENTERING THE ENGINE ROOM." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] We have seen the power of the Conductor. But how does Antigravity 2.0 actually coordinate 93 subagents under the hood without crashing your laptop?
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Connecting swarm philosophy to Go binary internals, subagent roles, and the Self-Evolving Loop
 
-[TA James] The secret is a 150MB native Go binary, lightweight subagent message buses, and the miraculous 'Self-Evolving Loop'—where agents write and compile their own subagent tools!
+[TA Sarah] Exactly! When you analyze the engineering details: From Vision to Mechanics: How does a single CLI coordinate 93 agents without crashing system memory? • The Self-Evolving Loop: Agents compiling new tools and plugins to expand their own capabilities. • The Roadmap Ahead: Master Go internals in Part 2, CLI commands in Part 3, and RDD governance in Part 4.
 
-[Prof. Peter] Let us examine our first enterprise case study on Slide 11!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 11!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 1 전환: 안티그래비티 2.0 엔진룸 진입 (Go 바이너리와 자가 진화 루프)
@@ -360,17 +428,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 11 presents "CASE STUDY 1: 500,000-LINE MONOLITH MODERNIZATION." Look at this staggering enterprise victory!
+[Prof. Peter] Slide 11 presents "CASE STUDY 1: 500K-LINE MONOLITH MODERNIZATION." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A global financial clearing house was trapped on an ancient 500,000-line Java 8 monolith with 2,400 deprecated API calls and almost zero automated tests. External consulting firms estimated 18 months and 6.5 million dollars to modernize it!
+[TA Sarah] Look at Top-10 Global Financial Clearing House: Company ran a 500,000-line Java 8 monolithic codebase with 2,400 deprecated APIs and zero integration tests; manual modernization was estimated at 18 months and $6.5M.
 
-[TA James] They launched Antigravity 2.0: The Lead Architect agent created an AST dependency map and spawned 60 subagents to refactor modules to modern Java 21, 20 subagents to generate JUnit tests, and 13 browser subagents to verify the admin web dashboards in parallel!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] In just 72 hours over a single weekend, the entire 500,000-line codebase was modernized, tested with 94% code coverage, and deployed to production with zero regressions—saving 6.2 million dollars!
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Deployed Antigravity 2.0: Lead Architect spawned 60 subagents to refactor modules, 20 subagents to write JUnit tests, and 13 browser subagents to verify admin UIs.
 
-[TA Sarah] That proves the reality of escaping developer gravity.
+[TA James] And look at the verified enterprise metrics on screen: Completed 100% Java 21 migration in 72 hours; achieved 94% automated test coverage; saved $6.2M in engineering fees; zero production incidents.
 
-[TA James] Now let us open Part 2 and look Under the Hood of Antigravity 2.0 on Slide 12!
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 1: 50만 줄 금융 청산소 자바 8 레거시를 72시간 만에 자바 21로 전면 현대화
@@ -393,13 +465,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 12: "PART 2: UNDER THE HOOD OF ANTIGRAVITY 2.0." Now we deconstruct the mechanical engine room!
+[TA Sarah] Look at Slide 12: "PART 2: UNDER THE HOOD OF ANTIGRAVITY 2.0." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] Antigravity 2.0 is built with profound engineering discipline. It eschews bloated electron shells in favor of a lean, ultra-fast Go binary that orchestrates subagents with microsecond precision.
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] In Part 2, we explore the Self-Evolving Loop (요정이 요정을 만드는 기적), the 150MB native engine, the Mission Control split-view workspace, and the specialized subagent roles (Coder, Reviewer, Browser)!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] Let us inspect the Self-Evolving Loop on Slide 13!
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
+
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
+
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 13!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 2 섹션 전환: 안티그래비티 2.0의 내부 아키텍처 해부
@@ -422,15 +500,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 13 reveals "THE SELF-EVOLVING LOOP: 요정이 요정을 만드는 기적 (The Miracle of Fairies Creating Fairies)."
+[TA Sarah] Slide 13 explores "THE SELF-EVOLVING LOOP: 요정이 요정을 만드는 기적." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] This is one of the most astonishing breakthroughs in Antigravity 2.0: When an agent encounters a problem it has no tool for—like parsing an obscure binary satellite telemetry format—it does not give up!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: How AI agents dynamically author, compile, and register custom subagent skills at runtime
 
-[TA James] It writes a new Python or Go parser script, creates a `SKILL.md` specification with YAML frontmatter, compiles it, and registers it in the `.agents/skills/` directory! In the very next turn, the entire 93-agent swarm inherits that new capability!
+[TA Sarah] Exactly! When you analyze the engineering details: The Meta-Agent Principle: An agent discovers it lacks a specific tool (e.g., parsing binary protobuf files). • Autonomous Tool Generation: The agent writes a new Python/Go utility, compiles it, and registers it in `skills/`. • Instant Capability Expansion: The subagent fleet immediately inherits the new skill in the next execution turn.
 
-[Prof. Peter] Software that extends its own capabilities under human architectural direction is true agentic evolution.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect the ultra-lightweight Go engine on Slide 14.
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 14!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 자가 진화 루프: 요정이 요정을 만드는 기적 (런타임 스킬 동적 생성)
@@ -453,13 +537,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 14 details "ULTRA-LIGHTWEIGHT CLI: GO-BASED 150MB ENGINE."
+[TA Sarah] Slide 14 explores "ULTRA-LIGHTWEIGHT CLI: GO-BASED 150MB ENGINE." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Why is Antigravity 2.0 so fast? Because Google ditched heavy Electron wrappers! The `agy` CLI is written in pure Go, compiled to a single 150MB standalone binary with zero external dependencies!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Zero-dependency single binary executing subagents in microseconds via lightweight goroutines
 
-[Prof. Peter] It leverages Go's ultra-lightweight Goroutines: spawning 100 subagent communication channels takes only 50 megabytes of RAM and synchronizes across subagents in microseconds!
+[TA Sarah] Exactly! When you analyze the engineering details: Zero Electron Overhead: Replaced 2GB Node/Electron memory footprint with a compiled 150MB native Go binary. • Goroutine Concurrency: Spawning 100 subagent communication channels using less than 50MB of system RAM. • Sub-Millisecond IPC: Direct memory and Unix socket message buses delivering microsecond agent synchronization.
 
-[TA Sarah] Let us inspect the Mission Control Split-View Workspace on Slide 15.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 15!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 초경량 CLI: Go 언어 기반 150MB 네이티브 엔진과 고루틴 동시성
@@ -482,13 +574,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 15 diagrams "THE MISSION CONTROL: SPLIT-VIEW WORKSPACE."
+[TA Sarah] Slide 15 explores "THE MISSION CONTROL: SPLIT-VIEW WORKSPACE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] In Antigravity IDE, look at your 4-quadrant cockpit: Left pane is your Architectural Plan. Center pane shows live git diffs across all mutated files in real time. Top right shows live compiler terminal logs. And bottom right displays the live browser preview where agents test your web UI!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Harmonizing Strategic Planning, Terminal Execution, Code Diffs, and Live Browser Previews
 
-[TA James] You have complete, transparent visibility over all 93 subagents simultaneously. Zero blind spots!
+[TA Sarah] Exactly! When you analyze the engineering details: Left Pane: Architectural Planning & Conversational Stream (Reviewing `implementation_plan.md`). • Center Pane: Live Git Code Diffs & Multi-File Mutation Viewer. • Right Top Pane: Sandboxed Shell Execution & Live Compiler Telemetry. • Right Bottom Pane: Headless Browser Preview & Live WebP Video Recording Stream.
 
-[TA Sarah] Let us inspect the 3 primary subagent roles on Slides 16, 17, and 18!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 16!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 미션 컨트롤 분할 뷰: 4개 패널로 구성된 지휘관 콕핏
@@ -512,11 +612,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 16 highlights "AGENT ROLE 1: CODER – THE ALGORITHMIC POWERHOUSE."
+[TA Sarah] Slide 16 explores "AGENT ROLE 1: CODER – THE ALGORITHMIC POWERHOUSE." James, why is this concept so essential for every serious AI architect?
 
-[TA James] The Coder subagent is your pure implementation engine. It receives strict file scopes, parses AST trees, and writes robust, strongly-typed code in TypeScript, Go, or Python. It never touches files outside its assigned boundary!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Specialized subagent generating high-performance, strictly-typed implementation code
 
-[Prof. Peter] Let us inspect Agent Role 2: The Reviewer on Slide 17.
+[TA Sarah] Exactly! When you analyze the engineering details: File-Scoped Precision: Modifies only assigned files without touching unauthorized modules. • AST-Aware Mutations: Uses semantic code replacement tools (`replace_file_content`) to prevent syntax errors. • Strict Type Rigor: Enforces TypeScript, Rust, Go, and Python type hints across all created functions.
+
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 17!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 에이전트 역할 1: 코더(Coder) - 알고리즘 구현의 핵심 엔진
@@ -539,13 +649,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 17 introduces "AGENT ROLE 2: REVIEWER – THE QUALITY SENTINEL."
+[TA Sarah] Slide 17 explores "AGENT ROLE 2: REVIEWER – THE QUALITY SENTINEL." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] The Reviewer is an independent, adversarial subagent! It does NOT trust the Coder! It scans the code diff for race conditions, SQL injection risks, and Big-O performance regressions!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Independent adversarial subagent auditing code diffs, security flaws, and performance regressions
 
-[TA James] If Reviewer spots a bug, it rejects the code and forces Coder into an internal self-healing loop! It runs 50 adversarial audit cycles in 30 seconds before presenting the clean code to you!
+[TA Sarah] Exactly! When you analyze the engineering details: Adversarial Review: Actively searches for race conditions, SQL injections, and memory leaks in Coder's output. • Automated Veto Power: If a unit test fails or a lint rule triggers, Reviewer sends the code back to Coder with diff notes. • Zero Human Fatigue: Conducts 50 thorough code review iterations before the human director ever looks at the PR.
 
-[Prof. Peter] Let us inspect Agent Role 3: The Browser Tester on Slide 18.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 18!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 에이전트 역할 2: 리뷰어(Reviewer) - 품질과 보안의 무자비한 보초
@@ -568,13 +686,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 18 presents "AGENT ROLE 3: BROWSER – THE INTERACTIVE TESTER."
+[TA Sarah] Slide 18 explores "AGENT ROLE 3: BROWSER – THE INTERACTIVE TESTER." James, why is this concept so essential for every serious AI architect?
 
-[TA James] The Browser subagent controls live headless Chrome instances! It opens your web app, resizes the viewport to test mobile responsiveness, types into search boxes, clicks checkout buttons, and records animated WebP video recordings!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Autonomous Chromium subagent validating UI interactions, responsive layouts, and WebP recordings
 
-[Prof. Peter] You don't just see code; you see visual video proof that the feature actually works in a real browser!
+[TA Sarah] Exactly! When you analyze the engineering details: Headless Navigation: Spawns real Chrome instances, types forms, clicks buttons, and tests edge-case flows. • Visual Artifact Capture: Takes full-page screenshots and records WebP session videos as proof of functionality. • End-to-End Verification: Verifies that full-stack changes actually work in live web browsers before merging.
 
-[TA Sarah] Let us inspect our second enterprise case study on Slide 22!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 19!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 에이전트 역할 3: 브라우저 테스터(Browser) - E2E 시각적 검증
@@ -597,13 +723,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 19 diagrams "THE 12-HOUR SOFTWARE BREAKTHROUGH: Overnight Swarm Velocity."
+[TA Sarah] Slide 19 explores "THE 12-HOUR SOFTWARE BREAKTHROUGH." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Think about how revolutionary this is: At 8:00 PM, you write your architectural plan. You type `/goal` and launch the Antigravity swarm. While you sleep peacefully, 93 agents execute in parallel!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Compressing a 6-month full-stack enterprise SaaS sprint into a single 12-hour overnight swarm run
 
-[TA James] They run 1,200 builds, generate 4,000 unit tests, fix 80 compilation bugs in self-healing loops, and record 50 browser UI test videos! When you wake up at 8:00 AM with your morning coffee, you read the completed `walkthrough.md` and deploy to Google Cloud in 5 minutes!
+[TA Sarah] Exactly! When you analyze the engineering details: Overnight Swarm Autonomy: Directing a swarm at 8:00 PM; waking up to a complete full-stack SaaS platform at 8:00 AM. • Continuous Verification: Swarm executes 1,200 automated builds, runs 4,000 unit tests, and records 50 browser demos. • The Human Morning Role: Reviewing `walkthrough.md`, auditing diffs, and deploying to cloud production.
 
-[Prof. Peter] Let us examine our second enterprise case study on Slide 22!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 20!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 12시간 소프트웨어 돌파구: 6개월 스프린트를 밤샘 12시간 자율 스웜으로 압축
@@ -626,13 +760,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 20 transitions to our command line control: "PART 2 TRANSITION: ENTERING COMMAND LINE MASTERY."
+[TA Sarah] Slide 20 explores "PART 2 TRANSITION: ENTERING COMMAND LINE MASTERY." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] We understand the architecture. Now, how do we command the swarm from our terminal? Through the official `agy` CLI!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Connecting swarm architecture to `agy` CLI flags, `/grill-me`, and June 18, 2026 legacy cutoff
 
-[TA James] In Part 3, we master essential slash commands like `/grill-me` for interview-driven plan hardening, learn the June 18, 2026 legacy Gemini CLI cutoff, and build custom SDK swarms!
+[TA Sarah] Exactly! When you analyze the engineering details: Mastering the Tool: Transitioning from GUI buttons to high-speed terminal command orchestration. • Interactive Alignment: Using `/grill-me` to resolve design ambiguities before code execution starts. • The Roadmap Ahead: Master `agy` CLI in Part 3, and Review-Driven Development (RDD) in Part 4.
 
-[Prof. Peter] Let us examine our second enterprise case study on Slide 22!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 21!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 2 전환: 커맨드 라인 마스터리로의 진입 (agy CLI 및 /grill-me)
@@ -655,17 +797,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 21 presents "CASE STUDY 2: AUTONOMOUS FULL-STACK SAAS GENERATION."
+[Prof. Peter] Slide 21 presents "CASE STUDY 2: AUTONOMOUS FULL-STACK SAAS." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A solo startup founder in San Francisco had a brilliant concept for an AI marketing analytics platform. But building multi-tenant Next.js, Stripe billing, PostgreSQL schemas, and Google OAuth traditionally takes 4 months of contractor development!
+[TA Sarah] Look at Silicon Valley AI Analytics Startup: Solo founder needed to build a multi-tenant Next.js / FastAPI web app with Stripe billing, PostgreSQL database, and OAuth authentication; traditional MVP cycle was 4 months.
 
-[TA James] On a Friday evening, the founder launched Antigravity 2.0. The 40-agent swarm wrote the FastAPI backend, assembled the React Tailwind frontend, wired Stripe webhooks, and generated 200 Playwright integration tests!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] By Saturday morning at 8:00 AM, the full-stack platform was live on Google Cloud Run! The founder launched on Product Hunt on Sunday and acquired their first 100 paying customers on Day 2, saving 80,000 dollars in contractor fees!
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Launched Antigravity 2.0 swarm with 40 subagents executing planning, backend APIs, frontend React components, and Playwright tests.
 
-[TA Sarah] That is the exponential velocity of Antigravity 2.0.
+[TA James] And look at the verified enterprise metrics on screen: Production SaaS platform deployed in 12 hours; acquired first 100 paying customers on day 2; saved $80,000 in early contractor hiring fees.
 
-[TA James] Now let us open Part 3 and master Command Line Execution on Slide 23!
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 2: 1인 창업자가 12시간 만에 구축한 멀티테넌트 풀스택 SaaS
@@ -688,11 +834,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 22: "PART 3: COMMAND LINE MASTERY & STATE CONTROL." Now we master the exact commands that drive the engine!
+[TA Sarah] Look at Slide 22: "PART 3: COMMAND LINE MASTERY & STATE CONTROL." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] The command line is the native language of power. In Part 3, we explore the `agy` CLI command suite, interactive planning modes, safe terminal sandboxing, and the June 18, 2026 legacy cutoff.
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] Let us inspect deploying the `agy` CLI command architecture on Slide 23!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
+
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
+
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
+
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 23!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 3 섹션 전환: 커맨드 라인 마스터리와 상태 제어 (agy CLI)
@@ -715,13 +869,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 23 diagrams "THE `AGY` CLI COMMAND ARCHITECTURE."
+[TA Sarah] Slide 23 explores "DEPLOYING THE `AGY` CLI COMMAND ARCHITECTURE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Memorize these four core verbs: `agy plan` creates the design document. `agy run` executes the approved changes. `agy swarm` scales concurrency to 50 or 100 subagents! And `agy audit` performs security and CVE dependency scans!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Core CLI verbs: `agy plan`, `agy run`, `agy swarm`, and `agy audit`
 
-[TA James] Notice `agy plan`: It NEVER touches your source code! It only inspects files and creates the plan artifact for your review. Safe, predictable, disciplined.
+[TA Sarah] Exactly! When you analyze the engineering details: `agy plan 'goal'`: Analyzes repository and writes structured `implementation_plan.md` without modifying code. • `agy run`: Executes approved plan chunks, spawning Coder and Reviewer subagents. • `agy swarm --concurrency=50`: Spawns high-concurrency subagent fleets across git worktrees. • `agy audit`: Performs static analysis, secret scanning, and dependency CVE checks.
 
-[TA Sarah] Let us inspect the `/grill-me` command on Slide 24!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 24!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** agy CLI 핵심 명령어 아키텍처: plan, run, swarm, audit 4대 동사
@@ -745,13 +907,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 24 highlights our favorite slash command: "THE `/GRILL-ME` INTERVIEW COMMAND."
+[TA Sarah] Slide 24 explores "THE `/GRILL-ME` COMMAND: HARDENING SPECIFICATIONS." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Why do junior developers get bad results from AI? Because they type vague prompts like 'Build auth'! Then the AI guesses wrong, and everyone wastes 3 hours!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Interactive interview-driven plan hardening: Resolving architectural edge cases before typing code
 
-[Prof. Peter] When you type `/grill-me`, the AI flips the script and interviews YOU! It asks: 'Do you want JWT tokens or Redis sessions? Which OAuth providers? What is your password hashing algorithm?' You answer in 2 minutes, and the agent generates a rock-solid, loophole-free plan!
+[TA Sarah] Exactly! When you analyze the engineering details: The Problem: Vague user prompts ('Add authentication') cause agents to make bad assumptions. • The `/grill-me` Interview: AI asks 5 sharp architectural questions (JWT vs Session, OAuth providers, MFA). • Rock-Solid Plan: Outputting a deterministic, unambiguous specification with zero design loopholes.
 
-[TA Sarah] Let us compare Planning Mode vs. Fast Mode on Slide 25.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 25!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** /grill-me 심층 인터뷰: 코딩 전 설계 불확실성을 날카롭게 해소하는 기법
@@ -774,13 +944,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 25 contrasts "PLANNING MODE VS. FAST MODE: Strategic Pacing."
+[TA Sarah] Slide 25 explores "PLANNING MODE VS. FAST MODE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] When building complex multi-file features, always use Planning Mode! It researches your repo, drafts the plan, waits for your explicit approval, and verifies results with a `walkthrough.md`.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Choosing the right execution speed: Rigorous 2-phase architecture vs. instant one-off edits
 
-[TA James] But if you just need to fix a CSS color typo or update a version string, use Fast Mode (`--fast`)! It executes immediately in 2 seconds without ceremony!
+[TA Sarah] Exactly! When you analyze the engineering details: Choosing the right execution speed: Rigorous 2-phase architecture vs. instant one-off edits
 
-[Prof. Peter] Let us inspect isolated terminal execution on Slide 26.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 26!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 플래닝 모드(기본) vs 패스트 모드(--fast)의 전략적 분기
@@ -803,13 +981,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 26 highlights a critical enterprise calendar deadline: "JUNE 18, 2026: LEGACY GEMINI CLI HARD CUTOFF."
+[TA Sarah] Slide 26 explores "JUNE 18, 2026: LEGACY GEMINI CLI CUTOFF." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Mark your calendar: On June 18, 2026, Google will permanently shut down the legacy `gemini-cli` endpoints! All enterprise pipelines must migrate to the modern `agy` 2.0 Go architecture!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Google's mandatory platform migration: Deprecating legacy CLI in favor of the `agy` 2.0 architecture
 
-[Prof. Peter] Fortunately, migration is seamless: run `agy migrate --from-gemini-cli`, and your existing rules, skills, and MCP servers are upgraded to Antigravity 2.0 in 10 seconds flat!
+[TA Sarah] Exactly! When you analyze the engineering details: Hard Cutoff Date: June 18, 2026 — Legacy `gemini-cli` endpoints will be permanently deactivated. • Architectural Upgrade: Migration to 150MB Go binary (`agy`), multi-agent swarms, and RDD artifacts. • Automated Migration Tool: Run `agy migrate --from-gemini-cli` to convert skills, rules, and hooks automatically.
 
-[TA Sarah] Let us inspect custom swarms via Python SDK on Slide 27.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 27!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 2026년 6월 18일: 레거시 Gemini CLI 공식 종료 및 agy 자동 마이그레이션
@@ -832,13 +1018,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 27 explores "SYSTEM SCALABILITY: CUSTOM SWARMS VIA SDK."
+[TA Sarah] Slide 27 explores "SYSTEM SCALABILITY: CUSTOM SWARMS VIA SDK." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] You are not limited to the command line. Using the Antigravity Python SDK, you can write automated scripts that spawn custom agent swarms on demand!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Programmatically instantiating 100 specialized subagents using the Antigravity Python/Go SDK
 
-[TA James] Look at the code snippet on screen: In 20 lines of Python, you spawn 50 worker subagents, connect them to a Redis task queue, and refactor 1,000 repository microservices automatically with private token buffers!
+[TA Sarah] Exactly! When you analyze the engineering details: Programmatic Swarms: Writing 20 lines of Python to spawn a 50-agent automated penetration testing fleet. • Dynamic Task Queues: Distributing 1,000 microservice upgrade tickets across active worker subagents. • Subagent Memory Isolation: Each subagent operates with private context buffers, preventing cross-task token pollution.
 
-[TA Sarah] Let us inspect our third enterprise case study on Slide 29!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 28!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 시스템 확장성: 파이썬/Go SDK를 통한 커스텀 스웜의 프로그래밍 제어
@@ -861,13 +1055,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 28 transitions to our governance framework: "PART 3 TRANSITION: ENTERING RDD GOVERNANCE."
+[TA Sarah] Slide 28 explores "PART 3 TRANSITION: ENTERING RDD GOVERNANCE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] When software swarms generate 50,000 lines of code a day, human beings cannot read raw code line-by-line. How do we maintain absolute control?
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Connecting command execution to Review-Driven Development, Artifacts, and data protection
 
-[TA James] Through Review-Driven Development (RDD)! RDD uses structured Artifacts (`implementation_plan.md`, `walkthrough.md`, git diff blocks, and WebP video proofs) so humans can verify complex systems in seconds!
+[TA Sarah] Exactly! When you analyze the engineering details: Speed Demands Safety: Massive swarms running at 50,000 lines/day require ironclad governance frameworks. • Review-Driven Development (RDD): The human director audits every code diff, plan, and walkthrough. • The Roadmap Ahead: Master RDD in Part 4, dedicate our craft to Soli Deo Gloria, and execute Lab 10.
 
-[Prof. Peter] Let us examine our third enterprise case study on Slide 29!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 29!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 3 전환: Review-Driven Development(RDD) 거버넌스 진입
@@ -890,15 +1092,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 29 presents "CASE STUDY 3: STOPPING MALICIOUS DEPENDENCY INJECTION VIA RDD."
+[Prof. Peter] Slide 29 presents "CASE STUDY 3: STOPPING MALICIOUS INJECTION VIA RDD." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A popular open-source npm logging package was hijacked by cybercriminals, who inserted an obfuscated Monero crypto-miner into version 2.4.1. When an automated bot updated dependencies, it pulled the poisoned package!
+[TA Sarah] Look at Global Cloud Infrastructure Enterprise: An open-source npm library was hijacked by a threat actor who added a hidden obfuscated Monero crypto-mining payload to a patch release.
 
-[TA James] But Antigravity's Reviewer subagent inspected the git diff! It caught obfuscated `eval()` strings and flagged an unauthorized outbound network call to an unverified IP address in `package.json`! The Reviewer raised a critical security alert on the `walkthrough.md`!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] The human Director clicked 'Reject'! Over 15,000 production Kubernetes clusters were saved from compromise! Structured RDD diff gates protect the enterprise fortress.
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Antigravity Reviewer subagent analyzed the git diff, detected obfuscated `eval()` strings and unauthorized network outbound calls, and flagged the PR.
 
-[TA Sarah] Now let us open Part 4 and examine Trust and Governance on Slide 30!
+[TA James] And look at the verified enterprise metrics on screen: Malicious PR blocked before merging to main branch; prevented compromise of 15,000 production Kubernetes clusters.
+
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 3: npm 패키지 속 암호화폐 채굴 악성코드를 RDD diff 게이트로 적발
@@ -921,11 +1129,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 30: "PART 4: TRUST, SAFETY & CONDUCTOR SOVEREIGNTY." Now we master the ultimate governance discipline of the Intelligence Architect!
+[TA Sarah] Look at Slide 30: "PART 4: TRUST, SAFETY & CONDUCTOR SOVEREIGNTY." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] Supreme velocity without supreme discipline is catastrophic. In Part 4, we examine the Artifacts system, code diff tracking, visual video evidence, enterprise data protection, dedicate our work to Soli Deo Gloria, and execute Lab 10!
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] Let us inspect the Shield of Truth: The Artifacts System on Slide 31.
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
+
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
+
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
+
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 31!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 4 섹션 전환: 신뢰, 안전 및 지휘관의 주권적 거버넌스
@@ -948,13 +1164,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 31 presents "THE SHIELD OF TRUTH: THE ARTIFACTS SYSTEM."
+[TA Sarah] Slide 31 explores "THE SHIELD OF TRUTH: THE ARTIFACTS SYSTEM." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Antigravity 2.0 does not dump messy text into chat windows. It produces formal, structured Artifacts: `implementation_plan.md` before coding begins, and `walkthrough.md` after coding finishes!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Structured, persistent markdown documents creating complete visibility over multi-agent workflows
 
-[TA James] These artifacts contain clickable file links, git diff snippets, and embedded WebP video recordings of browser tests! The human director reviews the entire 50-file modification in 60 seconds with total clarity!
+[TA Sarah] Exactly! When you analyze the engineering details: `implementation_plan.md`: The architectural blueprint specifying proposed changes, open questions, and verification steps. • `walkthrough.md`: The post-execution report detailing modified files, test outputs, and embedded WebP recordings. • Immutable Audit Records: Stored in `.gemini/brain/` to provide permanent forensic transparency. • Zero Guesswork: The human director reviews structured markdown rather than parsing 10,000 lines of terminal logs.
 
-[Prof. Peter] Let us inspect code diff tracking on Slide 32.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 32!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 진리의 방패: 아티팩트(Artifacts) 시스템의 2대 핵심 문서
@@ -977,13 +1201,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 32 details "THE POWER OF CODE DIFF: TRACKING EVERY MUTATION."
+[TA Sarah] Slide 32 explores "THE POWER OF CODE DIFF: TRACKING MUTATIONS." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Look at the diff viewer: Every line added is glowing green, every line removed is red, and unchanged lines provide context. Antigravity strictly preserves your existing comments and docstrings!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Visualizing exact additions (+), deletions (-), and invariants across 50 files simultaneously
 
-[Prof. Peter] And if any unexpected behavior occurs, you click 'Rollback', and all 50 modified files revert to their pristine previous git commit in 10 milliseconds!
+[TA Sarah] Exactly! When you analyze the engineering details: Color-Coded Git Diffs: Green additions (+) and red deletions (-) highlighted with syntax color clarity. • Non-Destructive Editing: Ensuring existing comments, docstrings, and unrelated modules are 100% preserved. • Atomic Rollback: One-click undo reverts entire multi-file changesets instantly if tests fail.
 
-[TA Sarah] Let us inspect Review-Driven Development (RDD) on Slide 33.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 33!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 코드 Diff의 위력: 모든 변경분의 정밀 시각화와 10ms 원자적 롤백
@@ -1006,13 +1238,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 33 outlines "REVIEW-DRIVEN DEVELOPMENT (RDD): THE 3-PHASE PROTOCOL."
+[TA Sarah] Slide 33 explores "REVIEW-DRIVEN DEVELOPMENT (RDD)." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] This is the core engineering protocol of Oikos University: Phase 1 is Research—agents read files and grep search, but cannot modify a single character! Phase 2 is Plan Approval—the human director reviews the plan and explicitly approves it!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The 3-phase governance protocol: Research ➔ Plan Approval ➔ Verify
 
-[TA James] Phase 3 is Verify—agents execute, run tests, and emit the `walkthrough.md`! Human intelligence directs the plan; artificial intelligence executes the labor!
+[TA Sarah] Exactly! When you analyze the engineering details: Phase 1: Research (Agents investigate repo with `view_file` and `grep_search` with ZERO file modifications). • Phase 2: Plan Approval (Human director reviews `implementation_plan.md` and clicks 'Proceed'). • Phase 3: Verify (Agents execute, run unit tests, and present `walkthrough.md` with visual proof).
 
-[Prof. Peter] Let us inspect enterprise security and preventing data exfiltration on Slide 34.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 34!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Review-Driven Development (RDD) 3단계 프로토콜: 조사 ➔ 승인 ➔ 검증
@@ -1035,13 +1275,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 34 covers "ENTERPRISE SECURITY: PREVENTING DATA EXFILTRATION."
+[TA Sarah] Slide 34 explores "ENTERPRISE SECURITY: PREVENTING EXFILTRATION." James, why is this concept so essential for every serious AI architect?
 
-[TA James] How do we protect enterprise secrets? First, Google's Paid Tier guarantees Zero Data Retention—your code is never used to train public models! Second, Antigravity includes an automated Secrets Scrubber that redacts API keys and AWS tokens before dispatch!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Network isolation, secrets scrubbing, local sandbox bounds, and paid tier guarantees
 
-[Prof. Peter] Third, all subagent shell tools run in sandboxed network namespaces, blocking rogue data exfiltration to external servers!
+[TA Sarah] Exactly! When you analyze the engineering details: Zero Data Retention: Enterprise Paid Tier guarantees your proprietary code is NEVER logged or used for model training. • Secrets Scrubber: Automated regex filters redact API keys, private keys, and passwords before prompt dispatch. • Network Sandbox: Subagents are blocked from sending outbound HTTP requests to unauthorized domains.
 
-[TA Sarah] Let us inspect Soli Deo Gloria on Slide 35!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 35!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 엔터프라이즈 보안: 데이터 유출 방지 및 시크릿 마스킹 방어선
@@ -1064,15 +1312,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 35 declares our supreme banner: "SOLI DEO GLORIA: RECLAIMING DIVINE FOCUS: To God Alone Be the Glory."
+[TA Sarah] Slide 35 explores "SOLI DEO GLORIA: RECLAIMING DIVINE FOCUS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] When you master Antigravity 2.0 swarms, you don't just build features faster—you reclaim 35 hours every single week from mechanical coding slavery!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Ephesians 5:16: Channeling reclaimed engineering capacity into eternal callings, worship, and community
 
-[TA James] You take those redeemed hours and invest them in deep contemplation, family devotion, and serving your community with excellence!
+[TA Sarah] Exactly! When you analyze the engineering details: Soli Deo Gloria: The supreme motto of Oikos University and Smart Insight Lab. • Reclaiming 35 Hours/Week: Liberating human engineers from mechanical syntax typing to focus on high-order truth. • The Conductor's Sacred Duty: Stewarding autonomous swarms to build software that reflects divine order and love.
 
-[Prof. Peter] We conduct intelligent fleets not for personal vanity, but to redeem finite time for God's eternal glory.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect our fourth enterprise case study on Slide 36!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 36!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Soli Deo Gloria: 주당 35시간의 생애 시간 탈환과 신적 소명 헌신
@@ -1095,15 +1349,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 36 presents "CASE STUDY 4: 24/7 SELF-HEALING CI/CD SWARM."
+[Prof. Peter] Slide 36 presents "CASE STUDY 4: 24/7 SELF-HEALING CI/CD SWARM." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A global telecommunications giant with 3,000 developers had a massive weekend crisis: every Saturday morning, 120 broken CI/CD builds flooded on-call engineers with pager alerts, ruining weekends and delaying releases!
+[TA Sarah] Look at Global 5G Telecommunications Conglomerate: Company experienced 120 broken build failures weekly across 3,000 developer repos, causing 40 hours of on-call engineer triage delay every weekend.
 
-[TA James] They connected Antigravity 2.0 to their GitHub Actions CI/CD webhook! Whenever a build fails, Antigravity spawns an autonomous triage swarm: it parses compiler stack traces, inspects git diffs, writes the fix, runs local tests, and submits an audited PR with a `walkthrough.md` in 3.8 minutes!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] Look at the results: 88% of broken builds were fixed autonomously with zero human intervention! Weekend on-call pages plunged by 95%, saving 2.4 million dollars in overtime and restoring peace of mind to 3,000 engineers!
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Deployed Antigravity 2.0 CI/CD webhook daemon: Swarm spawns on build failure, diagnoses stack traces, creates fix branches, verifies unit tests, and submits PR.
 
-[TA Sarah] Let us inspect our 6-step Swarm Deployment Blueprint on Slide 37!
+[TA James] And look at the verified enterprise metrics on screen: 88% of broken builds resolved autonomously in under 4 minutes; on-call engineer weekend pages reduced by 95%; saved $2.4M in developer overtime.
+
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 4: 글로벌 통신사의 주말 빌드 장애 120건을 3.8분 만에 자가 치유한 스웜
@@ -1126,13 +1386,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 37 provides our master operational blueprint: "THE 6-STEP SWARM DEPLOYMENT BLUEPRINT."
+[TA Sarah] Slide 37 explores "THE 6-STEP SWARM DEPLOYMENT BLUEPRINT." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Follow these exact 6 steps: Step 1: Run `/grill-me`. Step 2: Generate `implementation_plan.md` with `agy plan`. Step 3: Approve the plan. Step 4: Launch parallel Coder subagents! Step 5: Run Reviewer audits and Browser WebP tests. Step 6: Inspect `walkthrough.md` and merge!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The standardized pipeline from user goal to verified production release
 
-[Prof. Peter] This structured 6-step blueprint guarantees world-class velocity with zero compromise on quality.
+[TA Sarah] Exactly! When you analyze the engineering details: Step 1: Specification Interview (Run `/grill-me` to disambiguate architectural intent). • Step 2: Non-Mutating Plan Drafting (Execute `agy plan` to generate `implementation_plan.md`). • Step 3: Human Director Authorization (Review scope, click 'Proceed', and assign subagent concurrency). • Step 4: Parallel Swarm Execution (Coder subagents refactor across isolated git worktrees). • Step 5: Adversarial Audit & Verification (Reviewer and Browser subagents run unit tests & WebP recordings). • Step 6: Walkthrough Inspection & Merge (Review `walkthrough.md`, audit diffs, and merge to main).
 
-[TA Sarah] Let us inspect our Pre-Deployment Production Checklist on Slide 38.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 38!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 스웜 배포 6단계 표준 구현 청사진
@@ -1158,13 +1426,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA James] Slide 38 presents our "PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION."
+[TA Sarah] Slide 38 explores "PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Before merging any swarm PR, audit all 6 gates: Gate 1: Plan approved. Gate 2: 100% tests passing. Gate 3: Diffs audited. Gate 4: Browser WebP video verified. Gate 5: Zero-data-retention active. Gate 6: Walkthrough published!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The 6-gate audit every Antigravity swarm pull request must pass before main branch merge
 
-[Prof. Peter] Strict quality gates guarantee that our software remains an unbreakable fortress of truth.
+[TA Sarah] Exactly! When you analyze the engineering details: Gate 1: `implementation_plan.md` reviewed and explicitly approved by the human Director. • Gate 2: 100% of automated unit, integration, and linter tests passing with zero errors. • Gate 3: All code diffs audited for secrets, AST integrity, and non-destructive preservation. • Gate 4: Browser subagent WebP recording verifies UI responsiveness and zero console errors. • Gate 5: Paid Tier enterprise data isolation active with zero model training telemetry. • Gate 6: `walkthrough.md` published detailing all completed changes and empirical test logs.
 
-[TA Sarah] Let us review Session 10 Key Takeaways on Slide 39!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 39!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 프로덕션 체크리스트: 스웜 PR 배포 전 6대 검증 관문
@@ -1190,13 +1466,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 39 summarizes our "SESSION 10 KEY TAKEAWAYS: 4 FOUNDATIONAL PILLARS."
+[TA Sarah] Slide 39 explores "SESSION 10 SUMMARY & KEY TAKEAWAYS." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Pillar 1: We escaped developer gravity and became Sovereign Conductors! Pillar 2: The 150MB Go engine coordinates 93 agents in parallel! Pillar 3: The Self-Evolving Loop creates tools on demand! And Pillar 4: RDD artifacts govern 50,000 lines a day with total safety!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Synthesizing the 4 foundational pillars of Antigravity 2.0 and Swarm Orchestration
 
-[Prof. Peter] When these four pillars unite, you possess the power to build complex software at the speed of thought.
+[TA Sarah] Exactly! When you analyze the engineering details: Pillar 1: Escaped Developer Gravity (Transitioned from mechanical code typist to Sovereign Conductor). • Pillar 2: Antigravity 2.0 Engine (Go-based 150MB binary, split-view cockpit, and 93 subagents). • Pillar 3: Self-Evolving Loop (Agents dynamically authoring and compiling their own tools). • Pillar 4: Review-Driven Development (Governing 50,000 lines/day via structured Artifacts and diffs).
 
-[TA Sarah] Let us inspect the Life OS Swarm Cockpit on Slide 40!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 40!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Session 10 요약 및 4대 핵심 축 총정리
@@ -1220,13 +1504,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 40 outlines your personal setup: "LIFE OS SWARM COCKPIT."
+[TA Sarah] Slide 40 explores "LIFE OS SWARM COCKPIT." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] How do you configure your daily Life OS workstation? Keep Antigravity IDE open on your primary monitor to review live git diffs and browser tests. Keep your terminal open on your secondary monitor for `agy` commands.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Configuring your personal multi-agent development environment: VS Code + Antigravity 2.0 CLI
 
-[TA James] Create your private `.agents/skills/` vault for your company's custom tools, and launch background 10-agent swarms to maintain continuous codebase health while you focus on high-level strategy!
+[TA Sarah] Exactly! When you analyze the engineering details: Cockpit Setup: Antigravity IDE on left monitor for live diffs; terminal on right monitor for `agy` verbs. • Custom Skill Vault: Creating personal `.agents/skills/` directory for bespoke domain workflows. • Autonomous Daily Sprint: Launching 10-agent background swarms for continuous repository refactoring.
 
-[TA Sarah] Let us inspect the Conductor's Era on Slide 41.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 41!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 라이프 OS 스웜 콕핏: 듀얼 모니터 세팅과 개인 맞춤형 스킬 금고
@@ -1249,15 +1541,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 41 proclaims "THE CONDUCTOR'S ERA: LEAD THE FUTURE OF SOFTWARE."
+[TA Sarah] Slide 41 explores "THE CONDUCTOR'S ERA: LEAD THE FUTURE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Mediocre voices say: 'AI will replace programmers.' But at Oikos University, we know the truth: AI replaces mechanical typists, but elevates true Architects into technological nobility!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Rising above fear of automation to become the master architect who directs the symphony of AI
 
-[TA James] A single human architect commanding an Antigravity swarm now wields the power of an entire 100-person software engineering department!
+[TA Sarah] Exactly! When you analyze the engineering details: The Obsolete Fear: 'AI will replace software engineers.' Reality: AI replaces typists, empowering Architects. • The New Nobility: Those who master multi-agent orchestration will build the next generation of global systems. • Leading with Purpose: Directing artificial intelligence to build systems of beauty, integrity, and human flourishing.
 
-[Prof. Peter] Lead with courage, wisdom, and moral conviction. The future belongs to the Conductors!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect the Next Horizon: True AI Science on Slide 42!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 42!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 지휘관의 시대: 미래 소프트웨어 생태계를 주도하라 (두려움의 극복)
@@ -1280,13 +1578,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 42 previews our next exciting frontier: "NEXT HORIZON: TRUE AI SCIENCE & HEUREKABENCH."
+[TA Sarah] Slide 42 explores "NEXT HORIZON: TRUE AI SCIENCE & HEUREKABENCH." James, why is this concept so essential for every serious AI architect?
 
-[TA James] In Session 11, we take our multi-agent swarms into the laboratory of pure science! We will deconstruct Google's revolutionary HeurekaBench benchmark—testing AI models not on trivia, but on genuine scientific hypothesis discovery and mathematical proofs!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Moving beyond synthetic coding benchmarks to autonomous scientific hypothesis discovery
 
-[Prof. Peter] We will see how AI swarms discover new antibiotics and stabilize fusion reactors.
+[TA Sarah] Exactly! When you analyze the engineering details: Benchmark Saturation: MMLU and HumanEval hit 99% ceilings; standard coding benchmarks no longer test frontier reasoning. • HeurekaBench Breakthrough: Testing autonomous hypothesis formulation, Think-Act-Observe loops, and physical falsifiability. • Session 11 Preview: Multi-agent scientific discovery in biochemistry, materials science, and antibiotic design.
 
-[TA Sarah] Let us inspect our capstone enterprise case study on Slide 44!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 43!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 다음 지평 예고: Session 11 진정한 AI 과학(True AI Science)과 휴레카벤치(HeurekaBench)
@@ -1309,13 +1615,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 43 reflects on "THE ARCHITECT'S UNWAVERING FAITHFULNESS." In Scripture, Luke 16:10 teaches us: 'Whoever is faithful in very little is also faithful in much.'
+[TA Sarah] Slide 43 explores "THE ARCHITECT'S UNWAVERING FAITHFULNESS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] When we command swarms that write millions of lines of code, we must remain faithful in every single detail—every security check, every privacy rule, and every human relationship.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Stewarding immense computational scale with humility, ethical rigor, and faithful service
 
-[TA James] We build systems that reflect the incorruptible truth and beauty of God.
+[TA Sarah] Exactly! When you analyze the engineering details: Power Demands Humility: Wielding 93-agent swarms requires profound ethical grounding and self-discipline. • Faithful in the Small: Luke 16:10: Excellence in small lines of code prepares us for massive global architectures. • Eternal Horizon: Building software systems that will stand the test of time and glorify our Creator.
 
-[Prof. Peter] Let us inspect our capstone enterprise case study on Slide 44!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 44!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 지능 건축가의 변함없는 신실함: 누가복음 16장 10절과 작은 일에 충성하는 청지기직
@@ -1338,17 +1652,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 44 presents our capstone enterprise case study: "CASE STUDY 5: 35X ENTERPRISE ENGINEERING VELOCITY ROI BLUEPRINT."
+[Prof. Peter] Slide 44 presents "CASE STUDY 5: 35X ENGINEERING VELOCITY ROI." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A top-3 global enterprise software conglomerate with 4,500 software engineers across 18 countries had a massive velocity crisis: feature release cycles took 21 days per sprint, and backlog debt was growing exponentially!
+[TA Sarah] Look at Top-3 Global Enterprise SaaS Conglomerate: 4,500 enterprise software engineers spent 35% of sprint capacity writing repetitive boilerplate APIs and tests, causing major product delivery delays.
 
-[TA James] They rolled out Antigravity 2.0 to all 4,500 engineers: integrating shared enterprise skill vaults, enforcing `/grill-me` planning gates, and automating browser WebP test recordings across all repositories!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] Look at the enterprise numbers: measured feature delivery velocity surged by 35X! Sprint cycle time collapsed from 21 days down to 1.8 days, creating 140 million dollars in expanded annual engineering capacity!
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Deployed Antigravity 2.0 swarm architecture with centralized skill vaults, `/grill-me` requirement hardening, and RDD diff gates.
 
-[TA Sarah] That is the ultimate enterprise transformation.
+[TA James] And look at the verified enterprise metrics on screen: 35X measured engineering velocity on feature delivery; sprint cycle time dropped from 21 days to 1.8 days; generated $140M in expanded annual engineering capacity.
 
-[TA James] Now let us deploy your own Antigravity Swarm in Lab 10 on Slide 45!
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 5: 글로벌 4,500명 엔지니어 조직의 35배 속도 혁신 및 1억 4천만 달러 가치 창출
@@ -1371,15 +1689,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Here we are at Slide 45: "🛠️ HANDS-ON LAB 10 & SESSION CONCLUSION!"
+[TA Sarah] Here we are at Slide 45: "🛠️ HANDS-ON LAB 10 & CONCLUSION!"
 
-[TA James] Tonight's hands-on lab turns you into an Antigravity Swarm Commander! Step 1: Run `agy plan`. Step 2: Answer 5 questions in `/grill-me`. Step 3: Approve `implementation_plan.md`. Step 4: Watch Coder and Reviewer subagents refactor your code and fix bugs live! Step 5: Read `walkthrough.md`, audit the diffs, and merge your project!
+[TA James] Tonight's hands-on lab is where theory becomes reality! Look at our 5-step mission on screen: we are taking everything we mastered today and building it live in code!
 
-[Prof. Peter] Once you experience commanding an autonomous 93-agent swarm, you will never look back at traditional coding.
+[TA Sarah] Remember: test each component in isolation first, verify your security keys, and inspect your real-time execution logs!
 
-[TA Sarah] In our next session, Session 11, we enter the frontier of pure science: True AI Science, HeurekaBench, and Autonomous Discovery!
+[TA James] James and I will be holding lab office hours to help you optimize your pipelines and crush every bug!
 
-[Prof. Peter] On behalf of TA Sarah Jenkins, TA James Wilson, and the entire Smart Insight Lab, congratulations on mastering Session 10! Soli Deo Gloria, and we will see you in Session 11!
+[Prof. Peter] As we always proclaim at Oikos University: Knowledge without practice is inert, but practiced wisdom dedicated to God's glory transforms the world.
+
+[TA Sarah] In our next session, we will push our architectural capabilities even further into the sovereign frontier!
+
+[TA James] Don't wait until tomorrow—fire up your terminal tonight, run your tests, and redeem your time!
+
+[Prof. Peter] On behalf of TA Sarah Jenkins, TA James Wilson, and Smart Insight Lab: Thank you for your dedication. Soli Deo Gloria! Class dismissed in victory!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 실습 과제 10 및 세션 마무리: Antigravity 2.0 스웜 배포 및 아티팩트 검증 파이프라인 구축

