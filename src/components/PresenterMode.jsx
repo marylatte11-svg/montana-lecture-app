@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { renderInlineMathAndBold } from './slides/MathRenderer';
 import { 
   X, 
   Play, 
@@ -16,6 +17,72 @@ import {
   Lightbulb,
   Sparkles
 } from 'lucide-react';
+
+/**
+ * Converts mathematical formulas, LaTeX markup, and markdown in spoken script
+ * into clean, natural spoken English for the TTS engine.
+ * Prevents TTS from pronouncing raw symbols like "dollar sign x dollar sign".
+ */
+export function convertMathToSpokenEnglish(text) {
+  if (!text) return '';
+
+  let spoken = text;
+
+  // 1. Currency: \$1,500 or $1500 -> "1,500 dollars"
+  spoken = spoken.replace(/\\?\$(\d[\d,]*(?:\.\d+)?)/g, '$1 dollars');
+
+  // 2. Common LaTeX math symbols & fractions
+  spoken = spoken
+    .replace(/\\(?:d?frac)\{([^}]+)\}\{([^}]+)\}/g, '$1 over $2')
+    .replace(/\\sqrt\{([^}]+)\}/g, 'the square root of $1')
+    .replace(/\\sqrt\[(\d+)\]\{([^}]+)\}/g, 'the $1th root of $2')
+    .replace(/\\cdot/g, ' times ')
+    .replace(/\\times/g, ' times ')
+    .replace(/\\div/g, ' divided by ')
+    .replace(/\\pm/g, ' plus or minus ')
+    .replace(/\\neq/g, ' is not equal to ')
+    .replace(/\\approx/g, ' is approximately ')
+    .replace(/\\leq?/g, ' is less than or equal to ')
+    .replace(/\\geq?/g, ' is greater than or equal to ')
+    .replace(/\\mathbb\{R\}/g, 'the real numbers')
+    .replace(/\\mathbb\{Z\}/g, 'the integers')
+    .replace(/\\mathbb\{Q\}/g, 'the rational numbers')
+    .replace(/\\mathbb\{N\}/g, 'the natural numbers')
+    .replace(/\\pi/g, 'pi')
+    .replace(/\\circ/g, ' degrees ')
+    .replace(/\\text\{([^}]+)\}/g, ' $1 ')
+    .replace(/\\quad/g, ' ')
+    .replace(/\\;/g, ' ')
+    .replace(/\\\\/g, '. ');
+
+  // 3. Absolute value: |-8| -> "the absolute value of -8"
+  spoken = spoken.replace(/\|([^|]+)\|/g, 'the absolute value of $1');
+
+  // 4. Exponents: x^2 -> x squared, x^3 -> x cubed, x^n -> x to the n
+  spoken = spoken
+    .replace(/([a-zA-Z0-9\(\)]+)\^2\b/g, '$1 squared')
+    .replace(/([a-zA-Z0-9\(\)]+)\^3\b/g, '$1 cubed')
+    .replace(/([a-zA-Z0-9\(\)]+)\^{?([a-zA-Z0-9\+\-]+)}?/g, '$1 to the $2');
+
+  // 5. Clean remaining inline math markers ($...$) -> just content without dollar signs
+  spoken = spoken.replace(/\$([^$]+)\$/g, ' $1 ');
+
+  // 6. Clean markdown formatting (**bold**, *italic*)
+  spoken = spoken
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1');
+
+  // 7. Clean residual backslashes or braces
+  spoken = spoken
+    .replace(/\\[a-zA-Z]+/g, ' ')
+    .replace(/[{}\\]/g, ' ');
+
+  // 8. Normalise spaces and clean repeated punctuation
+  spoken = spoken.replace(/\s+/g, ' ').trim();
+
+  return spoken;
+}
+
 
 export default function PresenterMode({ 
   slideData, 
@@ -121,7 +188,9 @@ export default function PresenterMode({
     }
 
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+    // Convert math expressions and LaTeX syntax into natural spoken English
+    const naturalSpokenText = convertMathToSpokenEnglish(textToSpeak);
+    const utterance = new SpeechSynthesisUtterance(naturalSpokenText);
     utterance.lang = 'en-US';
 
     const selectedVoice = getVoiceForRole(role);
@@ -410,7 +479,7 @@ export default function PresenterMode({
                       </div>
 
                       <p className={`${fontSize} leading-relaxed font-normal text-slate-100 selection:bg-cyan-500 selection:text-slate-950`}>
-                        {cleanText || paragraph}
+                        {renderInlineMathAndBold(cleanText || paragraph, `pres-script-${idx}`)}
                       </p>
                     </div>
                   );
