@@ -11,10 +11,7 @@ import {
   Clock, 
   Volume2,
   VolumeX,
-  Globe,
   Type,
-  CheckCircle2,
-  Lightbulb,
   Sparkles
 } from 'lucide-react';
 
@@ -330,10 +327,10 @@ export default function PresenterMode({
       </div>
 
       {/* View Mode Selector Tabs */}
-      <div className="grid grid-cols-3 gap-1 p-2 bg-slate-900 border-b border-slate-800/90 text-xs font-bold select-none">
+      <div className="grid grid-cols-2 gap-2 p-2 bg-slate-900 border-b border-slate-800/90 text-xs font-bold select-none">
         <button
           onClick={() => setActiveTab('script')}
-          className={`py-2 px-2 rounded-lg flex items-center justify-center gap-1.5 transition ${
+          className={`py-2 px-3 rounded-lg flex items-center justify-center gap-1.5 transition ${
             activeTab === 'script' 
               ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 shadow-sm' 
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
@@ -344,20 +341,8 @@ export default function PresenterMode({
         </button>
 
         <button
-          onClick={() => setActiveTab('korean')}
-          className={`py-2 px-2 rounded-lg flex items-center justify-center gap-1.5 transition ${
-            activeTab === 'korean' 
-              ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm' 
-              : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
-          }`}
-        >
-          <Globe className="w-3.5 h-3.5" />
-          <span>한국어 강의가이드</span>
-        </button>
-
-        <button
           onClick={() => setActiveTab('terms')}
-          className={`py-2 px-2 rounded-lg flex items-center justify-center gap-1.5 transition ${
+          className={`py-2 px-3 rounded-lg flex items-center justify-center gap-1.5 transition ${
             activeTab === 'terms' 
               ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-sm' 
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
@@ -494,65 +479,7 @@ export default function PresenterMode({
           </div>
         )}
 
-        {/* TAB 2: KOREAN LECTURE & DELIVERY GUIDE */}
-        {activeTab === 'korean' && (
-          <div className="space-y-4 cursor-text">
-            <div className="flex items-center justify-between text-xs text-amber-400 font-medium pb-1 border-b border-amber-500/20 select-none">
-              <span className="flex items-center gap-1.5">
-                <Globe className="w-3.5 h-3.5" />
-                한국어 강의 해설 및 내용 전달 가이드
-              </span>
-              <span className="text-[10px] text-amber-300/80 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30">
-                강의자 전용 팁
-              </span>
-            </div>
-
-            {slideData?.koreanGuide ? (
-              <div className="space-y-3">
-                {/* Core Summary Box */}
-                <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-100 space-y-1.5">
-                  <div className="flex items-center gap-1.5 text-amber-300 text-xs font-bold uppercase select-none">
-                    <CheckCircle2 className="w-3.5 h-3.5" />
-                    <span>슬라이드 핵심 요지 (Core Summary)</span>
-                  </div>
-                  <p className="text-sm font-medium leading-relaxed text-amber-200 selection:bg-amber-500 selection:text-slate-950">
-                    {slideData.koreanGuide.summary}
-                  </p>
-                </div>
-
-                {/* Main Explanation Points */}
-                <div className="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800 space-y-2">
-                  <span className="text-xs font-bold text-cyan-300 block uppercase tracking-wider select-none">
-                    📌 본문 설명 및 전달 포인트
-                  </span>
-                  <ul className="space-y-2">
-                    {slideData.koreanGuide.points.map((point, idx) => (
-                      <li key={idx} className="text-xs text-slate-200 leading-relaxed flex items-start gap-2 selection:bg-cyan-500 selection:text-slate-950">
-                        <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 mt-1.5 shrink-0" />
-                        <span>{point}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* Delivery & Q&A Tip */}
-                <div className="p-3.5 rounded-xl bg-indigo500/10 border border-indigo-500/30 text-indigo-100 space-y-1">
-                  <div className="flex items-center gap-1.5 text-indigo-300 text-xs font-bold uppercase select-none">
-                    <Lightbulb className="w-3.5 h-3.5" />
-                    <span>강의 전달 & 학생 소통 팁</span>
-                  </div>
-                  <p className="text-xs text-indigo-200 leading-relaxed selection:bg-indigo-500 selection:text-slate-950">
-                    {slideData.koreanGuide.tips}
-                  </p>
-                </div>
-              </div>
-            ) : (
-              <p className="text-slate-400 italic text-xs">한국어 가이드 정보가 준비 중입니다.</p>
-            )}
-          </div>
-        )}
-
-        {/* TAB 3: KEY VOCABULARY & DEFINITIONS */}
+        {/* TAB 2: KEY VOCABULARY & DEFINITIONS */}
         {activeTab === 'terms' && (
           <div className="space-y-3 cursor-text">
             <div className="flex items-center justify-between text-xs text-emerald-400 font-medium pb-1 border-b border-emerald-500/20 select-none">
