@@ -64,8 +64,54 @@ export default function PresenterMode({
     setIsActive(false);
   };
 
-  // Text-To-Speech Pronunciation Helper
-  const speakText = (textToSpeak) => {
+  const [voices, setVoices] = useState([]);
+
+  // Load available voices
+  useEffect(() => {
+    if (!('speechSynthesis' in window)) return;
+    const updateVoices = () => {
+      const v = window.speechSynthesis.getVoices();
+      if (v && v.length > 0) setVoices(v);
+    };
+    updateVoices();
+    window.speechSynthesis.onvoiceschanged = updateVoices;
+    return () => {
+      window.speechSynthesis.onvoiceschanged = null;
+    };
+  }, []);
+
+  // Text-To-Speech Role Helper
+  // - 'narrator': Male Voice (entire script read-through)
+  // - 'park': Late 50s Female (Prof. Eunju Park: mature, calm, authoritative)
+  // - 'sora': Early 30s Female (TA Sora: energetic, warm, friendly)
+  const getVoiceForRole = (role) => {
+    if (!voices.length) return null;
+    const englishVoices = voices.filter(v => v.lang.startsWith('en'));
+    const pool = englishVoices.length > 0 ? englishVoices : voices;
+
+    if (role === 'narrator') {
+      // Prioritize male voices
+      const maleVoice = pool.find(v => 
+        /david|guy|george|mark|christopher|eric|male/i.test(v.name)
+      );
+      return maleVoice || pool[0];
+    } else if (role === 'park') {
+      // Prof. Park: 50s female voice
+      const femaleVoice = pool.find(v => 
+        /zira|susan|hazel|jenny|female/i.test(v.name)
+      );
+      return femaleVoice || pool.find(v => !/david|guy|george|mark|male/i.test(v.name)) || pool[0];
+    } else if (role === 'sora') {
+      // TA Sora: 30s female voice (energetic)
+      const brightFemale = pool.find(v => 
+        /aria|ava|samantha|victoria|jenny|female/i.test(v.name)
+      );
+      return brightFemale || pool.find(v => !/david|guy|george|mark|male/i.test(v.name)) || pool[0];
+    }
+    return pool[0];
+  };
+
+  const speakText = (textToSpeak, role = 'narrator') => {
     if (!('speechSynthesis' in window)) return;
 
     if (speakingText === textToSpeak) {
@@ -77,7 +123,26 @@ export default function PresenterMode({
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(textToSpeak);
     utterance.lang = 'en-US';
-    utterance.rate = 0.9; // natural, clear pacing for ESL learners
+
+    const selectedVoice = getVoiceForRole(role);
+    if (selectedVoice) {
+      utterance.voice = selectedVoice;
+    }
+
+    // Role-specific prosody tuning:
+    if (role === 'narrator') {
+      utterance.pitch = 0.95; // Steady, composed male narrator
+      utterance.rate = 0.92;
+    } else if (role === 'park') {
+      utterance.pitch = 0.90; // Mature, dignified 50s female professor
+      utterance.rate = 0.88;
+    } else if (role === 'sora') {
+      utterance.pitch = 1.15; // Bright, enthusiastic early 30s female TA
+      utterance.rate = 0.95;
+    } else {
+      utterance.pitch = 1.0;
+      utterance.rate = 0.90;
+    }
     
     utterance.onend = () => setSpeakingText(null);
     utterance.onerror = () => setSpeakingText(null);
@@ -86,11 +151,11 @@ export default function PresenterMode({
     window.speechSynthesis.speak(utterance);
   };
 
-  // Speak currently highlighted/selected text
+  // Speak currently highlighted/selected text (using clear male narrator voice)
   const speakSelection = () => {
     const selectedText = window.getSelection()?.toString().trim();
     if (selectedText) {
-      speakText(selectedText);
+      speakText(selectedText, 'narrator');
     }
   };
 
@@ -247,11 +312,17 @@ export default function PresenterMode({
               <div className="flex items-center gap-2">
                 {slideData?.script && (
                   <button
-                    onClick={() => speakText(slideData.script)}
-                    className="px-2 py-0.5 rounded bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-[10px] font-bold flex items-center gap-1 transition"
+                    onClick={() => {
+                      const cleanFull = slideData.script
+                        .replace(/\[(?:Prof\.\s*Park|TA\s*Sora|Prof\.\s*Peter(?:\s*Kim)?|TA\s*Sarah|TA\s*James)\]:?/gi, '')
+                        .trim();
+                      speakText(cleanFull, 'narrator');
+                    }}
+                    className="px-2.5 py-1 rounded bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-[10px] font-bold flex items-center gap-1.5 transition"
+                    title="전체 대본을 차분한 남성 내레이터 목소리로 완독합니다"
                   >
-                    {speakingText === slideData.script ? <VolumeX className="w-3 h-3 text-amber-400" /> : <Volume2 className="w-3 h-3" />}
-                    <span>{speakingText === slideData.script ? '정지' : '전체 낭독'}</span>
+                    {speakingText ? <VolumeX className="w-3 h-3 text-amber-400" /> : <Volume2 className="w-3 h-3 text-cyan-300" />}
+                    <span>{speakingText ? '정지' : '🎙️ 전체 낭독 (남성 목소리)'}</span>
                   </button>
                 )}
                 <span className="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
@@ -273,6 +344,7 @@ export default function PresenterMode({
                   const isJames = trimmed.startsWith('[TA James]') || trimmed.startsWith('[James (TA)]') || trimmed.startsWith('[James]');
                   
                   const cleanText = trimmed.replace(/^(\[(Prof\.\s*Park|TA\s*Sora|Prof\.\s*Peter(\s*Kim)?|TA\s*Sarah|Sarah\s*\(TA\)|Prof\.\s*Sarah|TA\s*James|James\s*\(TA\)|James)\]|(Prof\.\s*Park|TA\s*Sora):)\s*/i, '');
+                  const currentRole = isPark ? 'park' : isSora ? 'sora' : (isPeter || isJames) ? 'narrator' : isSarah ? 'sora' : 'narrator';
                   
                   return (
                     <div 
@@ -292,15 +364,15 @@ export default function PresenterMode({
                       {/* Speaker Badge */}
                       <div className="flex items-center justify-between mb-2">
                         {isPark && (
-                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40">
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40" title="50대 후반 여성 주임교수">
                             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-                            👨‍🏫 Prof. Eunju Park (Lead Professor)
+                            👩‍🏫 Prof. Eunju Park (50대 후반 여성 교수)
                           </span>
                         )}
                         {isSora && (
-                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40" title="30대 초반 여성 수석조교">
                             <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-                            👩‍💻 TA Sora (Teaching Assistant)
+                            👩‍🎓 TA Sora (30대 초반 여성 조교)
                           </span>
                         )}
                         {isPeter && (
@@ -326,11 +398,14 @@ export default function PresenterMode({
                         )}
 
                         <button
-                          onClick={() => speakText(cleanText || paragraph)}
-                          className="opacity-60 group-hover:opacity-100 p-1 text-slate-300 hover:text-white transition rounded bg-slate-800/80 hover:bg-slate-700"
-                          title="Read this line aloud"
+                          onClick={() => speakText(cleanText || paragraph, currentRole)}
+                          className="opacity-60 group-hover:opacity-100 p-1 text-slate-300 hover:text-white transition rounded bg-slate-800/80 hover:bg-slate-700 flex items-center gap-1 text-[10px]"
+                          title={`${isPark ? '박교수 (50대 여성)' : isSora ? 'Sora 조교 (30대 여성)' : '남성 내레이터'} 음성으로 듣기`}
                         >
                           <Volume2 className="w-3.5 h-3.5" />
+                          <span className="hidden group-hover:inline text-[9px] text-slate-300">
+                            {isPark ? '50대 여성' : isSora ? '30대 여성' : '남성'}
+                          </span>
                         </button>
                       </div>
 
