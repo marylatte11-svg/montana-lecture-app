@@ -204,7 +204,7 @@ export default function PresenterMode({
       utterance.pitch = 0.82; // Mature, dignified 50s professor (calm, deep, authoritative)
       utterance.rate = 0.85;  // Deliberate, clear, academic pacing
     } else if (role === 'sora') {
-      utterance.pitch = 1.38; // Bouncy, bubbly mid-20s TA (톡톡 튀는 상큼하고 밝은 톤!)
+      utterance.pitch = 1.38; // Bouncy, bubbly mid-20s TA (high-energy, upbeat tone)
       utterance.rate = 1.05;  // Upbeat, enthusiastic, energetic rhythm
     } else {
       utterance.pitch = 1.0;
@@ -295,7 +295,7 @@ export default function PresenterMode({
             title="Highlight any text with mouse and click here to hear pronunciation"
           >
             <Volume2 className="w-3 h-3" />
-            <span>선택 발음 듣기</span>
+            <span>Pronounce Selection</span>
           </button>
 
           <button
@@ -374,10 +374,10 @@ export default function PresenterMode({
                       speakText(cleanFull, 'narrator');
                     }}
                     className="px-2.5 py-1 rounded bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-[10px] font-bold flex items-center gap-1.5 transition"
-                    title="전체 대본을 차분한 남성 내레이터 목소리로 완독합니다"
+                    title="Listen to the complete slide script read by a clear male narrator"
                   >
                     {speakingText ? <VolumeX className="w-3 h-3 text-amber-400" /> : <Volume2 className="w-3 h-3 text-cyan-300" />}
-                    <span>{speakingText ? '정지' : '🎙️ 전체 낭독 (남성 목소리)'}</span>
+                    <span>{speakingText ? 'Stop' : '🎙️ Full Read-Aloud (Male Voice)'}</span>
                   </button>
                 )}
                 <span className="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
@@ -419,15 +419,15 @@ export default function PresenterMode({
                       {/* Speaker Badge */}
                       <div className="flex items-center justify-between mb-2">
                         {isPark && (
-                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40" title="50대 후반 여성 주임교수 • 차분하고 깊이 있는 학구적 톤">
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40" title="Prof. Eunju Park • Lead Faculty (Calm, authoritative tone)">
                             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-                            👩‍🏫 Prof. Eunju Park (50대 여성 교수 • 차분한 톤)
+                            👩‍🏫 Prof. Eunju Park (Lead Faculty • Calm Tone)
                           </span>
                         )}
                         {isSora && (
-                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40" title="20대 중반 여성 수석조교 • 상큼하고 톡톡 튀는 발랄한 톤">
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40" title="TA Sora • Senior Teaching Assistant (Upbeat, lively tone)">
                             <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-                            👩‍🎓 TA Sora (20대 조교 • 톡톡 튀는 톤)
+                            👩‍🎓 TA Sora (Senior TA • Upbeat Tone)
                           </span>
                         )}
                         {isPeter && (
@@ -455,11 +455,11 @@ export default function PresenterMode({
                         <button
                           onClick={() => speakText(cleanText || paragraph, currentRole)}
                           className="opacity-60 group-hover:opacity-100 p-1 text-slate-300 hover:text-white transition rounded bg-slate-800/80 hover:bg-slate-700 flex items-center gap-1 text-[10px]"
-                          title={`${isPark ? '박교수 (50대 차분한 여성)' : isSora ? 'Sora 조교 (20대 톡톡 튀는 여성)' : '남성 내레이터'} 음성으로 듣기`}
+                          title={`Listen to ${isPark ? 'Prof. Park (Calm)' : isSora ? 'TA Sora (Upbeat)' : 'Narrator'}`}
                         >
                           <Volume2 className="w-3.5 h-3.5" />
                           <span className="hidden group-hover:inline text-[9px] text-slate-300">
-                            {isPark ? '50대 차분한 톤' : isSora ? '20대 톡톡 튀는 톤' : '남성'}
+                            {isPark ? 'Prof. Park' : isSora ? 'TA Sora' : 'Narrator'}
                           </span>
                         </button>
                       </div>
@@ -485,7 +485,7 @@ export default function PresenterMode({
             <div className="flex items-center justify-between text-xs text-emerald-400 font-medium pb-1 border-b border-emerald-500/20 select-none">
               <span className="flex items-center gap-1.5">
                 <BookOpen className="w-3.5 h-3.5" />
-                Key Terms & Korean Meanings (어휘 정리)
+                Key Mathematical Terms & Definitions
               </span>
             </div>
 
@@ -504,19 +504,13 @@ export default function PresenterMode({
                           <Volume2 className="w-3.5 h-3.5" />
                         </button>
                       </div>
-
-                      {kt.defKo && (
-                        <span className="text-[11px] font-medium text-amber-300 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20 select-none">
-                          {kt.defKo}
-                        </span>
-                      )}
                     </div>
                     <p className="text-slate-300 text-xs leading-relaxed selection:bg-emerald-500 selection:text-slate-950">{kt.def}</p>
                   </div>
                 ))}
               </div>
             ) : (
-              <p className="text-slate-400 italic text-xs">등록된 어휘가 없습니다.</p>
+              <p className="text-slate-400 italic text-xs">No key vocabulary registered for this slide.</p>
             )}
           </div>
         )}

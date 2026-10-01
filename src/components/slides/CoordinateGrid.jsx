@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * CoordinateGrid: Interactive/Visual Cartesian Coordinate Plane (직교좌표계)
+ * CoordinateGrid: Interactive/Visual Cartesian Coordinate Plane (Cartesian Coordinate System)
  * Renders an exact, high-clarity 2D Cartesian grid for developmental algebra students.
  * Supports:
  * - Grid lines with numerical tick marks (-10 to 10 by default)
