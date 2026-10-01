@@ -1,0 +1,2529 @@
+[
+  {
+    "lec": 1,
+    "slide": 1,
+    "title": "Welcome to M090 Introductory Algebra at Gallatin College MSU",
+    "problemShort": "",
+    "scriptShort": "[Prof. Park] Welcome everyone to M090 Introductory Algebra here at Gallatin College Montana State University! I am Professor Eunju Park, and right beside me at our teaching desk is our exceptional gra"
+  },
+  {
+    "lec": 1,
+    "slide": 2,
+    "title": "Section 1.0 Key Terms: Variables, Constants & The Distance Model",
+    "problemShort": "$$\\text{Algebra uses variables (letters) to generalize relationships: } D = r \\cdot t$$ - **Variable:** A letter representing a quantity that can chan",
+    "scriptShort": "[Prof. Park] Let's begin on workbook page 3 with two foundational concepts: variables and constants. Sora, how do you explain the difference in everyday conversational terms?  [TA Sora] I tell student"
+  },
+  {
+    "lec": 1,
+    "slide": 3,
+    "title": "Expressions vs. Equations: The Equal Sign Threshold",
+    "problemShort": "| Mathematical Category | Core Definition | Concrete Model | Permitted Operations | | :--- | :--- | :--- | :--- | | **Algebraic Expression** | A mathe",
+    "scriptShort": "[Prof. Park] On Slide 3, we review the four primary arithmetic operations: addition, subtraction, multiplication, and division, along with absolute value.  [TA Sora] Professor, let's look closely at a"
+  },
+  {
+    "lec": 1,
+    "slide": 4,
+    "title": "Section 1.0 Board Work #1: Adding Fractions with Unlike Denominators",
+    "problemShort": "$$\\text{Board Work: Simplify into a single fraction or integer value: } \\quad \\dfrac{1}{8} + \\dfrac{1}{6}$$",
+    "scriptShort": "[Prof. Park] Slide 4 introduces the grand architecture of the Real Number System $\\mathbb{R}$. Sora, how should students visualize these concentric number families?  [TA Sora] Picture Russian nesting "
+  },
+  {
+    "lec": 1,
+    "slide": 5,
+    "title": "Section 1.0 Board Work #2: Multiplying Whole Numbers by Fractions",
+    "problemShort": "$$\\text{Board Work: Simplify into a single fraction or integer value: } \\quad (4)\\left(\\dfrac{6}{7}\\right)$$",
+    "scriptShort": "[Prof. Park] Slide 5 brings us to the supreme traffic law of all mathematics: the Order of Operations! GEMDAS—or PEMDAS. Sora, why do we emphasize GEMDAS?  [TA Sora] Because grouping symbols are not j"
+  },
+  {
+    "lec": 1,
+    "slide": 6,
+    "title": "Section 1.0 Board Work #3: Fraction Addition with Coprime Denominators",
+    "problemShort": "$$\\text{Board Work: Simplify into a single fraction or integer value: } \\quad \\dfrac{3}{5} + \\dfrac{1}{4}$$",
+    "scriptShort": "[Prof. Park] Let's put our GEMDAS rules into practice with Example 1 from workbook page 4: evaluate $3 + 4 \\times (6 - 2)^2 / 8 - 5$.  [TA Sora] Sora's golden advice: never try to do three steps in yo"
+  },
+  {
+    "lec": 1,
+    "slide": 7,
+    "title": "Section 1.0 Board Work #4: Subtracting Fractions when One Denominator is a Multiple",
+    "problemShort": "$$\\text{Board Work: Simplify into a single fraction or integer value: } \\quad \\dfrac{3}{4} - \\dfrac{5}{12}$$",
+    "scriptShort": "[Prof. Park] Slide 7 covers fractions: the topic that causes more student anxiety than almost anything else. But fractions are just division in disguise!  [TA Sora] That's so true, Professor! A fracti"
+  },
+  {
+    "lec": 1,
+    "slide": 8,
+    "title": "Section 1.0 Board Work #5: Fraction Operations with Exponents",
+    "problemShort": "$$\\text{Board Work: Simplify into a single fraction or integer value: } \\quad \\left(\\dfrac{4}{7} - \\dfrac{2}{3}\\right)^2$$",
+    "scriptShort": "[Prof. Park] Slide 8 tackles multiplying and dividing fractions. Sora, is it true that multiplying fractions is actually much easier than adding them?  [TA Sora] Far easier, Professor! Because with mu"
+  },
+  {
+    "lec": 1,
+    "slide": 9,
+    "title": "Section 1.0 Board Work #6: Fraction Multiplication",
+    "problemShort": "$$\\text{Board Work: Simplify into a single fraction or integer value: } \\quad \\dfrac{1}{9} \\cdot \\dfrac{1}{6}$$",
+    "scriptShort": "[Prof. Park] Slide 9 brings us to adding and subtracting fractions—the place where you must slow down and prepare your denominators!  [TA Sora] Because here, you CANNOT just add straight across! If yo"
+  },
+  {
+    "lec": 1,
+    "slide": 10,
+    "title": "Section 1.0 Board Work #7: Fraction Division via the Reciprocal",
+    "problemShort": "$$\\text{Board Work: Simplify into an integer or fraction: } \\quad \\dfrac{3}{8} \\div \\dfrac{1}{16}$$",
+    "scriptShort": "[Prof. Park] On our final slide of Lecture 01, we synthesize our Section 1.0 Master Toolkit. Sora, what three habits should every student take away today?  [TA Sora] Habit number 1: Always protect sig"
+  },
+  {
+    "lec": 2,
+    "slide": 1,
+    "title": "Welcome to Lecture 02: Conquering Board Work #8 through #14",
+    "problemShort": "**Section 1.0 Arithmetic Review: Finishing Workbook Page 4**  In Lecture 01 we solved Board Work #1 through #7. Today, Prof. Park and TA Sora solve th",
+    "scriptShort": "[Prof. Park] Welcome back to Lecture 02 of M090! Today, on page 4 of your workbook, we roll up our sleeves to conquer Board Work problems #8 through #14, mastering multi-tier complex fractions and tri"
+  },
+  {
+    "lec": 2,
+    "slide": 2,
+    "title": "Section 1.0 Board Work #8: Complex Fractions (Fractions within Fractions)",
+    "problemShort": "$$\\text{Board Work: Simplify each expression into a single fraction or integer value: } \\quad \\dfrac{\\ \\dfrac{5}{8}\\ }{\\dfrac{3}{4}}$$",
+    "scriptShort": "[Prof. Park] Look at Board Work #8 on workbook page 4: simplifying complex fractions like $\\frac{3/4}{5/8}$. Sora, why do multi-tier fractions cause so much panic?  [TA Sora] Because students see four"
+  },
+  {
+    "lec": 2,
+    "slide": 3,
+    "title": "Section 1.0 Board Work #9: Mixed Integer and Fraction Operations",
+    "problemShort": "$$\\text{Board Work: Simplify each expression into a single fraction or integer value: } \\quad 16 - \\dfrac{3}{4} + 9$$",
+    "scriptShort": "[Prof. Park] On Slide 3, Board Work #9 tests mixed operations combining whole integers with fractions: evaluate $4 - \\frac{2}{3} \\times \\frac{9}{10}$.  [TA Sora] Professor, this problem is one of the "
+  },
+  {
+    "lec": 2,
+    "slide": 4,
+    "title": "Section 1.0 Board Work #10: Factor Simplification & Pre-Canceling",
+    "problemShort": "$$\\text{Board Work: Simplify each expression into a single fraction or integer value: } \\quad \\dfrac{(16)(3)}{(9)(4)}$$",
+    "scriptShort": "[Prof. Park] Slide 4 brings us to Board Work #10: simplifying a large product of three fractions: $\\frac{14}{25} \\times \\frac{15}{28} \\times \\frac{10}{9}$.  [TA Sora] If a student tries to multiply th"
+  },
+  {
+    "lec": 2,
+    "slide": 5,
+    "title": "Section 1.0 Board Work #11 & #12: Division by Zero (Undefined vs. Zero)",
+    "problemShort": "$$\\text{Board Work \\#11: } \\quad \\dfrac{16}{0} \\qquad \\text{vs.} \\qquad \\text{Board Work \\#12: } \\quad \\dfrac{0}{16}$$",
+    "scriptShort": "[Prof. Park] Slide 5 features Board Work #11 and #12, comparing $\\frac{0}{16}$ versus $\\frac{16}{0}$. Sora, why does this distinction trip up so many intelligent students?  [TA Sora] Because both expr"
+  },
+  {
+    "lec": 2,
+    "slide": 6,
+    "title": "Section 1.0 Board Work #13: PEMDAS Left-to-Right (Division vs. Multiplication)",
+    "problemShort": "$$\\text{Board Work: Simplify into a single integer value: } \\quad 24 \\div 4 \\cdot 2$$",
+    "scriptShort": "[Prof. Park] Slide 6 brings us to Board Work #13: evaluate $24 \\div 6 \\times 2$. Sora, this is the classic viral internet math problem that causes endless arguments!  [TA Sora] Oh, I see this exact pr"
+  },
+  {
+    "lec": 2,
+    "slide": 7,
+    "title": "Section 1.0 Board Work #14: PEMDAS Left-to-Right (Subtraction vs. Addition)",
+    "problemShort": "$$\\text{Board Work: Simplify into a single integer value: } \\quad 17 - 5 + 8$$",
+    "scriptShort": "[Prof. Park] Slide 7 tests the sibling rule with Board Work #14: evaluate $17 - 5 + 8$. Sora, what trap awaits here?  [TA Sora] The exact same trap! Students think 'A comes before S in PEMDAS, so I mu"
+  },
+  {
+    "lec": 2,
+    "slide": 8,
+    "title": "Section 1.0 Exponent Pitfall: Base Identification in Signed Powers",
+    "problemShort": "$$\\text{Contrast the base of the exponent: } \\quad (-3)^2 \\qquad \\text{vs.} \\qquad -3^2$$",
+    "scriptShort": "[Prof. Park] Slide 8 covers what is arguably the single most common sign error in all of introductory algebra: $(-3)^2$ versus $-3^2$.  [TA Sora] Professor, I cannot tell you how many points are lost "
+  },
+  {
+    "lec": 2,
+    "slide": 9,
+    "title": "Section 1.0 Master Summary: All 14 Board Work Skills Synthesized",
+    "problemShort": "| Operation Category | Board Work Problem Reference | Golden Rule | Exam Result | | :--- | :--- | :--- | :--- | | **Fraction Addition / Subtraction** ",
+    "scriptShort": "[Prof. Park] Slide 9 brings all 14 Board Work skills together into a master synthesis table. Sora, let's review our golden rules.  [TA Sora] Rule 1: Complex fractions are just division—flip the bottom"
+  },
+  {
+    "lec": 2,
+    "slide": 10,
+    "title": "Lecture 02 Wrap-Up & Transition to Section 1.1 (Workbook p. 6)",
+    "problemShort": "$$\\text{Upcoming: Section 1.1 Evaluating Algebraic Expressions (Workbook p. 6)}$$ - **Next Class:** We replace variables with numbers using **Protecti",
+    "scriptShort": "[Prof. Park] That concludes Lecture 02 and wraps up our comprehensive review of Section 1.0!  [TA Sora] Next time, in Lecture 03, we enter Section 1.1 on page 6 of your workbook: Evaluating Algebraic "
+  },
+  {
+    "lec": 3,
+    "slide": 1,
+    "title": "Welcome to Lecture 03: The Magic of Substitution",
+    "problemShort": "",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 03 of M090! Today, on pages 6 and 7 of your workbook, we begin Section 1.1: Evaluating Algebraic Expressions with Signed Numbers.  [TA Sora] Hello everyone! Today we ta"
+  },
+  {
+    "lec": 3,
+    "slide": 2,
+    "title": "Golden Rule of Substitution: Protective Parentheses",
+    "problemShort": "1. **Empty Pockets First:** Everywhere you see a variable, replace the letter with empty parentheses $( \\ )$. 2. **Deposit the Number:** Place the giv",
+    "scriptShort": "[Prof. Park] Slide 2 lays down the Golden Rule of Substitution: Protective Parentheses. Sora, walk us through the two-step protocol that eliminates errors.  [TA Sora] Step 1: Empty Pockets! Everywhere"
+  },
+  {
+    "lec": 3,
+    "slide": 3,
+    "title": "Example 1: Rational Fraction Evaluation ($\\frac{d^2 - f^2}{d^2 + f^2}$ for $d=-2, f=5$)",
+    "problemShort": "$$\\text{Evaluate for } d = -2 \\text{ and } f = 5: \\quad \\dfrac{d^2 - f^2}{d^2 + f^2}$$",
+    "scriptShort": "[Prof. Park] Let's apply our rule to Example 1 from workbook page 6: evaluate $\\frac{d^2 - f^2}{d^2 + f^2}$ for $d = -2$ and $f = 5$.  [TA Sora] Step 1: Open the pockets! $\\frac{(\\;)^2 - (\\;)^2}{(\\;)^"
+  },
+  {
+    "lec": 3,
+    "slide": 4,
+    "title": "Example 2: Absolute Values & Cubes ($\\frac{2x^2 + y^2}{|-10 + z^3|}$ for $x=-1, y=-3, z=2$)",
+    "problemShort": "$$\\text{Evaluate if } x = -1, \\ y = -3, \\ z = 2: \\quad \\dfrac{2x^2 + y^2}{|-10 + z^3|}$$",
+    "scriptShort": "[Prof. Park] Slide 4 presents Example 2: evaluate $\\frac{2x^2 + y^2}{|-10 + z^3|}$ when $x = -1$, $y = -3$, and $z = 2$.  [TA Sora] Let's prepare our empty pockets: $\\frac{2(\\;)^2 + (\\;)^2}{|-10 + (\\;"
+  },
+  {
+    "lec": 3,
+    "slide": 5,
+    "title": "Example 3: The Discriminant Formula ($b^2 - 4ac$ for $a=5, b=-6, c=-3$)",
+    "problemShort": "$$\\text{For } a = 5, \\ b = -6, \\ c = -3, \\text{ evaluate: } \\quad b^2 - 4ac$$",
+    "scriptShort": "[Prof. Park] On Slide 5, Example 3 asks us to evaluate the famous Discriminant expression: $b^2 - 4ac$ for $a = 5$, $b = -6$, and $c = -3$.  [TA Sora] In Unit 3, this expression will tell us how many "
+  },
+  {
+    "lec": 3,
+    "slide": 6,
+    "title": "Example 4: The Quadratic Formula Expression ($\\frac{-b + \\sqrt{b^2-4ac}}{2a}$ for $a=1, b=7, c=-6$)",
+    "problemShort": "$$\\text{Given } a = 1, \\ b = 7, \\ c = -6, \\text{ find: } \\quad \\dfrac{-b + \\sqrt{b^2 - 4ac}}{2a}$$",
+    "scriptShort": "[Prof. Park] Slide 6 features the full Quadratic Formula numerator and denominator: evaluate $\\frac{-b + \\sqrt{b^2 - 4ac}}{2a}$ for $a = 1$, $b = 7$, and $c = -6$.  [TA Sora] This looks intimidating, "
+  },
+  {
+    "lec": 3,
+    "slide": 7,
+    "title": "Example 5: Simplifying Radical Outcomes ($\\frac{-b + \\sqrt{b^2-4ac}}{2a}$ for $a=2, b=-10, c=8$)",
+    "problemShort": "$$\\text{Evaluate for } a = 2, \\ b = -10, \\ c = 8: \\quad \\dfrac{-b + \\sqrt{b^2 - 4ac}}{2a}$$",
+    "scriptShort": "[Prof. Park] Slide 7 gives us Example 5: evaluate $\\frac{-b + \\sqrt{b^2 - 4ac}}{2a}$ with numbers that produce a clean square root: $a = 2$, $b = -10$, and $c = 8$.  [TA Sora] Notice $b$ is negative: "
+  },
+  {
+    "lec": 3,
+    "slide": 8,
+    "title": "Calculator Pitfalls vs. Paper Algebra",
+    "problemShort": "",
+    "scriptShort": "[Prof. Park] On Slide 8, we discuss a modern danger: Calculator Pitfalls versus Paper Algebra.  [TA Sora] Professor, why does a graphing calculator sometimes say $(-4)^2 = -16$?  [Prof. Park] Because "
+  },
+  {
+    "lec": 3,
+    "slide": 9,
+    "title": "Lecture 03 Wrap-Up & Sora's Substitution Checklist",
+    "problemShort": "",
+    "scriptShort": "[Prof. Park] We have reached the end of Lecture 03! Sora, recap your Substitution Checklist for the class.  [TA Sora] Three golden rules for your notes: 1. Replace every variable letter with empty par"
+  },
+  {
+    "lec": 4,
+    "slide": 1,
+    "title": "Welcome to Lecture 04: Translating Words to Algebra",
+    "problemShort": "**Section 1.1 Translating English Phrases into Algebraic Expressions**  Today, Prof. Park and TA Sora solve every single row from the official table o",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 04 of M090! Today, on pages 6 and 7 of your workbook, we master one of the most vital life skills in mathematics: Translating English Phrases into Algebraic Expressions"
+  },
+  {
+    "lec": 4,
+    "slide": 2,
+    "title": "The Big 4 Operation Signal Words & The Reversal Rule",
+    "problemShort": "| Operation | Signal Words in English | Concrete Example | Algebraic Result | | :--- | :--- | :--- | :--- | | **Addition (+)** | sum, more than, incre",
+    "scriptShort": "[Prof. Park] Slide 2 lays out our Translation Dictionary for the Big Four Operations. Sora, what are the primary signal words for addition and multiplication?  [TA Sora] For addition: 'sum', 'plus', '"
+  },
+  {
+    "lec": 4,
+    "slide": 3,
+    "title": "Section 1.1 Phrases #1 & #2: Sums & Order Reversals",
+    "problemShort": "**Translate into algebraic expressions:**  1. **Workbook Phrase #1:** \"the sum of a number and five\" 2. **Workbook Phrase #2:** \"six less than three t",
+    "scriptShort": "[Prof. Park] Let's translate Workbook Phrases #1 and #2 on page 7. Phrase #1: 'The sum of a number and twelve.'  [TA Sora] Let's pick a variable letter for 'a number'âlet's use $x$. 'Sum' signals ad"
+  },
+  {
+    "lec": 4,
+    "slide": 4,
+    "title": "Section 1.1 Phrases #3 & #4: Quotients & Multi-Operations",
+    "problemShort": "**Translate into algebraic expressions:**  3. **Workbook Phrase #3:** \"the quotient of two unknown numbers\" 4. **Workbook Phrase #4:** \"seven more tha",
+    "scriptShort": "[Prof. Park] Slide 4 brings us to Phrases #3 and #4. Phrase #3: 'The quotient of eight and a number.'  [TA Sora] 'Quotient' means division! In English, the order stated is the order written: the first"
+  },
+  {
+    "lec": 4,
+    "slide": 5,
+    "title": "Section 1.1 Phrases #5 & #6: The Square of a Sum vs. Linear Decrease",
+    "problemShort": "**Translate into algebraic expressions:**  5. **Workbook Phrase #5:** \"the square of the sum of a number and forty-two\" 6. **Workbook Phrase #6:** \"a ",
+    "scriptShort": "[Prof. Park] Slide 5 features Phrases #5 and #6. Phrase #5: 'The square of the sum of a number and four.' Sora, this is a major grouping trap!  [TA Sora] Notice the phrasing: 'The square OF the sum..."
+  },
+  {
+    "lec": 4,
+    "slide": 6,
+    "title": "Section 1.1 Phrases #7 & #8: Cubes, Opposites & Products",
+    "problemShort": "**Translate into algebraic expressions:**  7. **Workbook Phrase #7:** \"the difference between a number cubed and the opposite of that number\" 8. **Wor",
+    "scriptShort": "[Prof. Park] Slide 6 brings us to Phrases #7 and #8. Phrase #7: 'The product of negative five and the cube of a number.'  [TA Sora] 'Product' means multiplication between two quantities: $-5$ and 'the"
+  },
+  {
+    "lec": 4,
+    "slide": 7,
+    "title": "Section 1.1 Phrases #9 & #10: Multiple Variables & Fraction Multipliers",
+    "problemShort": "**Translate into algebraic expressions:**  9. **Workbook Phrase #9:** \"five times a number reduced by the square of a second number\" 10. **Workbook Ph",
+    "scriptShort": "[Prof. Park] Slide 7 introduces two different variables in Phrases #9 and #10! Phrase #9: 'Five times the sum of $x$ and $y$.'  [TA Sora] Here is that grouping signal again: 'Five times THE SUM OF...'"
+  },
+  {
+    "lec": 4,
+    "slide": 8,
+    "title": "Section 1.1 Phrases #11 & #12: Fractions & Reversal Word Challenges",
+    "problemShort": "**Translate into algebraic expressions:**  11. **Workbook Phrase #11:** \"fourteen less than half of a number\" 12. **Workbook Phrase #12:** \"two-thirds",
+    "scriptShort": "[Prof. Park] Slide 8 tests our skills with Phrases #11 and #12. Phrase #11: 'Four less than the quotient of a number and six.'  [TA Sora] I hear two sirens! First siren: 'less than'âthat means REVER"
+  },
+  {
+    "lec": 4,
+    "slide": 9,
+    "title": "Section 1.1 Phrases #13 & #14: Absolute Difference & Squared Difference",
+    "problemShort": "**Translate into algebraic expressions:**  13. **Workbook Phrase #13:** \"the positive difference between two numbers\" 14. **Workbook Phrase #14:** \"th",
+    "scriptShort": "[Prof. Park] Slide 9 brings us to our final workbook phrases: #13 and #14. Phrase #13: 'The absolute value of the difference of twice a number and nine.'  [TA Sora] Look at the outer container: 'The a"
+  },
+  {
+    "lec": 4,
+    "slide": 10,
+    "title": "Section 1.1 Reverse Translation: Algebra into English Words",
+    "problemShort": "**Translate each algebraic expression into an English phrase (Workbook p. 7 bottom):**  1. $6a^3 + 13$ 2. $5b^2 - 12$ 3. $\\dfrac{2m}{n^2}$",
+    "scriptShort": "[Prof. Park] On our final slide of Lecture 04, we play the reverse game: translating algebraic expressions back into English words!  [TA Sora] How would you read $4(x - 3)$ in English, Professor?  [Pr"
+  },
+  {
+    "lec": 5,
+    "slide": 1,
+    "title": "Welcome to Lecture 05: Monomial Exponents (Product & Quotient Rules)",
+    "problemShort": "**Section 1.2 Simplifying Monomial Expressions with Exponents**  Today, Prof. Park and TA Sora solve every exercise from Examples 1, 2, and 3 in your ",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 05 of M090! Today, on pages 8 through 10 of your workbook, we begin Section 1.2: Simplifying Monomial Expressions with Exponents.  [TA Sora] Hello everyone! Exponents a"
+  },
+  {
+    "lec": 5,
+    "slide": 2,
+    "title": "Section 1.2 Exponent Properties for Monomial Expressions",
+    "problemShort": "| Rule Name | Algebraic Symbolism | Definition from Workbook | | :--- | :--- | :--- | | **ZERO EXPONENT** | $a^0 = 1$ | Any nonzero number raised to t",
+    "scriptShort": "[Prof. Park] Slide 2 displays the foundational Exponent Properties from workbook page 8. Sora, let's start with the Product Rule: $a^m \\cdot a^n = a^{m+n}$. Why do we add exponents?  [TA Sora] Because"
+  },
+  {
+    "lec": 5,
+    "slide": 3,
+    "title": "Section 1.2 Example 1: The Zero Exponent Rule (Parts A, B, C, D)",
+    "problemShort": "**Example 1: Simplify each expression as much as possible (Workbook p. 8):**  $$\\text{A. } t^0 \\qquad \\text{B. } 8^0 \\cdot x^0 z^0 \\qquad \\text{C. } 8",
+    "scriptShort": "[Prof. Park] Let's test our understanding on Example 1 from workbook page 8: parts A, B, C, and D. Part A: simplify $7^0$.  [TA Sora] Any non-zero number to the zero power is 1! So $7^0 = 1$!  [Prof. "
+  },
+  {
+    "lec": 5,
+    "slide": 4,
+    "title": "Section 1.2 Example 2 (Parts A & B): Product Rule with Coefficients",
+    "problemShort": "**Example 2: Use the properties of exponents to fully simplify (Workbook p. 9):**  $$\\text{A. } a^2 a^5 \\qquad \\text{B. } 3b^3 \\cdot (-2c^8) \\cdot 4b^",
+    "scriptShort": "[Prof. Park] On Slide 4, Example 2 applies the Product Rule to monomials with coefficients. Part A: simplify $(3x^4)(5x^7)$. Sora, what is our golden strategy?  [TA Sora] Separate the coefficients fro"
+  },
+  {
+    "lec": 5,
+    "slide": 5,
+    "title": "Section 1.2 Example 2 (Parts C & D): Multi-Variable Monomial Products",
+    "problemShort": "**Example 2: Use the properties of exponents to fully simplify (Workbook p. 9):**  $$\\text{C. } (2xy^2)(3xy^3) \\qquad \\text{D. } (-x^6 y^2)(3x^4 y)$$",
+    "scriptShort": "[Prof. Park] Slide 5 challenges us with multiple variables in Parts C and D. Part C: $(4a^2 b^3)(-3a^5 b^4)$. Sora, how do we organize this?  [TA Sora] Group like with like! First coefficients: $4 \\ti"
+  },
+  {
+    "lec": 5,
+    "slide": 6,
+    "title": "Section 1.2 Example 3 (Part A): The Quotient Rule",
+    "problemShort": "$$\\text{Example 3: Fully simplify using only positive integer exponents (Workbook p. 9): } \\quad \\dfrac{r^{10}}{r^2}$$",
+    "scriptShort": "[Prof. Park] Slide 6 brings us to Example 3 Part A on workbook page 9: simplifying quotients of monomials: $\\frac{24x^9}{6x^4}$.  [TA Sora] Once again: separate coefficients from variables! Handle the"
+  },
+  {
+    "lec": 5,
+    "slide": 7,
+    "title": "Section 1.2 Example 3 (Part B): Multiplying Monomial Fractions",
+    "problemShort": "$$\\text{Example 3 Part B: Fully simplify (Workbook p. 9): } \\quad \\dfrac{2m^2}{5n^3} \\cdot \\dfrac{10n^5}{m^3}$$",
+    "scriptShort": "[Prof. Park] Slide 7 presents Example 3 Part B: multiplying monomial fractions: $\\frac{3x^5}{4y^2} \\times \\frac{8y^6}{9x^2}$.  [TA Sora] This combines fraction cross-canceling with exponent rules! Let"
+  },
+  {
+    "lec": 5,
+    "slide": 8,
+    "title": "Section 1.2 Example 3 (Part C): Dividing Monomial Fractions",
+    "problemShort": "$$\\text{Example 3 Part C: Fully simplify (Workbook p. 10): } \\quad \\dfrac{2m^2}{5n^3} \\div \\dfrac{10n^5}{m^3}$$",
+    "scriptShort": "[Prof. Park] Slide 8 tackles Example 3 Part C on workbook page 10: dividing monomial fractions: $\\frac{5a^4}{3b^3} \\div \\frac{10a}{9b^7}$.  [TA Sora] Division of fractions means one thing: Keep-Change"
+  },
+  {
+    "lec": 5,
+    "slide": 9,
+    "title": "Section 1.2 Example 3 (Part D): Multi-Variable Monomial Quotient",
+    "problemShort": "$$\\text{Example 3 Part D: Fully simplify (Workbook p. 10): } \\quad \\dfrac{8x^9 y^8 z^5}{12x^4 y^{12} z^0}$$",
+    "scriptShort": "[Prof. Park] Slide 9 gives us Example 3 Part D: simplifying a three-variable quotient: $\\frac{-36x^7 y^5 z^3}{12x^2 y^5 z}$.  [TA Sora] Let's break this into four separate mini-problems: coefficients,"
+  },
+  {
+    "lec": 5,
+    "slide": 10,
+    "title": "Lecture 05 Wrap-Up & Transition to Negative Exponents (Workbook p. 10)",
+    "problemShort": "$$\\text{Upcoming in Lecture 06: Negative Exponents \\& Power Rules (Workbook pp. 10-11)}$$ - **Next Class:** We conquer **Example 4 (Parts A through F)",
+    "scriptShort": "[Prof. Park] We have completed Lecture 05 and mastered the Product Rule, Quotient Rule, and Zero Exponent Rule!  [TA Sora] In Lecture 06, we take monomial exponents to the next level: Power to a Power"
+  },
+  {
+    "lec": 6,
+    "slide": 1,
+    "title": "Welcome to Lecture 06: Negative Exponents & Power Rules",
+    "problemShort": "**Section 1.2 Simplifying Monomial Expressions with Exponents (Part 2)**  Today, Prof. Park and TA Sora solve every single exercise from Examples 4 an",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 06 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk is our graduate teaching assistant, Sora. Hello everyone! Today"
+  },
+  {
+    "lec": 6,
+    "slide": 2,
+    "title": "The Negative Exponent Rule ($a^{-m} = \\frac{1}{a^m}$): The Elevator Metaphor",
+    "problemShort": "$$\\text{Negative Exponent Definition: } \\quad a^{-m} = \\dfrac{1}{a^m} \\qquad \\text{and} \\qquad \\dfrac{1}{a^{-m}} = a^m$$  $$\\text{Fraction Reciprocal ",
+    "scriptShort": "[Prof. Park] On slide 2, we introduce the Negative Exponent Property: a^(-n) = 1 / (a^n), and conversely 1 / (a^(-n)) = a^n, where the base a is non-zero. Sora, explain the elevator ticket rule in det"
+  },
+  {
+    "lec": 6,
+    "slide": 3,
+    "title": "Section 1.2 Example 4 (Parts A & B): Basic Negative Powers",
+    "problemShort": "**Example 4: Simplify using only positive integer exponents (Workbook p. 10):**  $$\\text{A. } 12x^{-4} \\qquad \\text{B. } 3a^{-2} b^9$$",
+    "scriptShort": "[Prof. Park] Let's examine Section 1.2 Example 4 Parts A, B, and C on workbook page 10: Part A: x^(-4). Part B: 3^(-2). Part C: (-5)^(-2). In Part A, x^(-4) is in the numerator. We send x downstairs t"
+  },
+  {
+    "lec": 6,
+    "slide": 4,
+    "title": "Section 1.2 Example 4 (Parts C & D): Fractions & Grouped Powers",
+    "problemShort": "**Example 4: Simplify using only positive integer exponents (Workbook p. 10):**  $$\\text{C. } \\left(\\dfrac{5}{8}\\right)^{-2} \\qquad \\text{D. } (4y)^{-",
+    "scriptShort": "[Prof. Park] Now let's examine Example 4 Parts D, E, and F on slide 4: Part D: -5^(-2). Part E: 1 / (x^(-6)). Part F: (2/3)^(-3). Look at Part D: -5^(-2) without parentheses!  [TA Sora] Remember our b"
+  },
+  {
+    "lec": 6,
+    "slide": 5,
+    "title": "Section 1.2 Example 4 (Parts E & F): Denominator Negatives & Multi-Variables",
+    "problemShort": "**Example 4: Simplify using only positive integer exponents (Workbook p. 10):**  $$\\text{E. } \\dfrac{n^{10}}{p^{-10}} \\qquad \\text{F. } \\dfrac{15r^{-4",
+    "scriptShort": "[Prof. Park] Slide 5 introduces the Power Rules: 1. Power of a Power: (a^m)^n = a^(m Â· n). 2. Power of a Product: (ab)^n = a^n Â· b^n. 3. Power of a Quotient: (a/b)^n = a^n / b^n. Let's explain why ("
+  },
+  {
+    "lec": 6,
+    "slide": 6,
+    "title": "Section 1.2 Example 5 (Parts A & B): Power to a Power Rule",
+    "problemShort": "**Example 5: Simplify fully (Workbook p. 11):**  $$\\text{A. } (5x^4)^2 \\qquad \\text{B. } (-2x^3 y^7)^3$$",
+    "scriptShort": "[Prof. Park] Let's look at Example 5 Parts A and B on slide 6: Part A: (y^4)^5. Part B: (-2a^3)^4. In Part A, (y^4)^5 is a textbook power of a power. We multiply the inside exponent by the outside exp"
+  },
+  {
+    "lec": 6,
+    "slide": 7,
+    "title": "Section 1.2 Example 5 (Parts C & D): Nested Powers & Monomial Fractions",
+    "problemShort": "**Example 5: Simplify fully (Workbook p. 11):**  $$\\text{C. } (a^9 b^6)^5 \\qquad \\text{D. } \\dfrac{w^3 \\cdot w^9}{(w^5)^4}$$",
+    "scriptShort": "[Prof. Park] Moving to slide 7 with Example 5 Parts C and D: Part C: (a^9 b^6)^5. Part D: (w^3 Â· w^8) / (w^5)^2. In Part C, (a^9 b^6)^5 has two variable factors inside. Distribute the outside exponen"
+  },
+  {
+    "lec": 6,
+    "slide": 8,
+    "title": "Section 1.2 Example 5 (Part E): Product of Monomial Quotients",
+    "problemShort": "$$\\text{Example 5 Part E: Simplify fully (Workbook p. 11): } \\quad \\left(\\dfrac{2x^6 w^5}{3x w^5}\\right)\\left(\\dfrac{7x^5 w^2}{9x^2}\\right)$$",
+    "scriptShort": "[Prof. Park] Now let's tackle Example 5 Part E on slide 8: Simplify fully: [ (2 x^6 w^5) / (3 x w^5) ]^3.  [TA Sora] When you have a fraction inside parentheses raised to an outside power, you have tw"
+  },
+  {
+    "lec": 6,
+    "slide": 9,
+    "title": "Section 1.2 Example 5 (Part F): Grand Master Exponent Simplification",
+    "problemShort": "$$\\text{Example 5 Part F: Simplify fully (Workbook p. 11): } \\quad \\left(\\dfrac{3x^{11}y^5}{2x^{-1}y^8}\\right)\\left(\\dfrac{2x^5 y^{12}}{5x}\\right)$$",
+    "scriptShort": "[Prof. Park] Now we arrive at the ultimate master problem on slide 9: Example 5 Part F on workbook page 11: Simplify fully: [ (3 x^11 y^5) / (2 x^(-1) y^8) ]^(-2). This is the grand championship probl"
+  },
+  {
+    "lec": 6,
+    "slide": 10,
+    "title": "Section 1.2 Master Summary: All 5 Examples Synthesized",
+    "problemShort": "| Workbook Example | Topic Focus | Golden Strategy | Master Key | | :--- | :--- | :--- | :--- | | **Example 1 (A–D)** | Zero Exponents | $a^0 = 1$ | P",
+    "scriptShort": "[Prof. Park] What a triumph! On slide 10, we synthesize all 5 examples from Section 1.2 into our Master Summary Table. Sora, let's review the final golden rules. 1. Zero Exponent: a^0 = 1 (for non-zer"
+  },
+  {
+    "lec": 7,
+    "slide": 1,
+    "title": "Section 1.3: Adding & Subtracting Polynomials — Key Terms",
+    "problemShort": "### Polynomial Terminology (Workbook p. 12) - **Polynomial:** A monomial, or two or more monomials combined by addition or subtraction. - **Monomial:*",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 07 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the desk is TA Sora. Today, we open Section 1.3 of our course workbook, found on "
+  },
+  {
+    "lec": 7,
+    "slide": 2,
+    "title": "Example 1A & 1B: Combining Like Terms",
+    "problemShort": "### Simplify the polynomial by combining like terms (Workbook p. 12) $$\\text{A. } 6y + 12 - 7y$$ $$\\text{B. } 9m^2 - 24m + 12m - 32$$",
+    "scriptShort": "[Prof. Park] Let's examine Section 1.3 Examples 1A and 1B on workbook page 12: Part A: Simplify 6y + 12 - 7y. Part B: Simplify -3x^2 + 5x + 9x^2 - 2. In Part A, we have three terms: 6y, +12, and -7y. "
+  },
+  {
+    "lec": 7,
+    "slide": 3,
+    "title": "Example 1C & 1D: Multi-Term Polynomial Simplification",
+    "problemShort": "### Simplify the polynomial by combining like terms (Workbook p. 12) $$\\text{C. } 3n^2 - 17n - n^2 + 4n$$ $$\\text{D. } 5x^3 + 3x^2 - 2x - 9 - 12x^3 - ",
+    "scriptShort": "[Prof. Park] Moving to slide 3, let's tackle Examples 1C and 1D: Part C: 3n^2 - 17n - n^2 + 4n. Part D: 4ab^2 + 6a^2 b - 8ab^2 + 2a^2 b. In Part C, notice the term -n^2.  [TA Sora] Whenever a variable"
+  },
+  {
+    "lec": 7,
+    "slide": 4,
+    "title": "Example 2A & 2B: Adding & Subtracting Polynomial Groups",
+    "problemShort": "### Perform the indicated operation and simplify (Workbook p. 12) $$\\text{A. } (5x^3 + 2x^2 - 13x) + (4x^3 - 10x^2 + 9)$$ $$\\text{B. } (2y^6 + y^4 - y",
+    "scriptShort": "[Prof. Park] Slide 4 takes us to Example 2 Parts A and B on page 12: Adding and Subtracting Polynomial Groups: Part A: (5x^3 + 2x^2 - 13x) + (4x^3 - 8x^2 + 2x). Part B: (7x^2 - 5x + 3) - (2x^2 - 9x - "
+  },
+  {
+    "lec": 7,
+    "slide": 5,
+    "title": "Example 3A & 3B: Distributive Property with Monomials",
+    "problemShort": "### Perform the indicated operations and simplify fully (Workbook p. 13) $$\\text{A. } -2x(3x^2 + 8x - 4)$$ $$\\text{B. } 2(8y - 5) + 7(-2y - 6)$$",
+    "scriptShort": "[Prof. Park] Now let's explore the Distributive Property with Monomials on slide 5: Examples 3A and 3B on workbook page 13: Part A: -2x(3x^2 + 8x - 4). Part B: 4x^2(2x^3 - 5x + 7). The Distributive Pr"
+  },
+  {
+    "lec": 7,
+    "slide": 6,
+    "title": "Example 3C & 3D: Higher Degree Distribution",
+    "problemShort": "### Perform the indicated operations and simplify fully (Workbook p. 13) $$\\text{C. } -x(x^2 - 4) - 2(x^3 + 2x)$$ $$\\text{D. } y(7y^2 + 4y - 9) - 3(8y",
+    "scriptShort": "[Prof. Park] Moving to slide 6, let's examine Examples 3C and 3D: Part C: -x(x^2 - 4) - 2(x^3 + 2x - 5). Part D: 3x^2(x - 4) + 2x(x^2 - 5x + 1). In Part C, we have TWO separate distributive blocks sep"
+  },
+  {
+    "lec": 7,
+    "slide": 7,
+    "title": "Example 3E & 3F: Nested Parentheses Simplification",
+    "problemShort": "### Simplify fully by clearing nested grouping symbols (Workbook p. 13) $$\\text{E. } 3 + 2(5x - 4(x - 9)) + 7x$$ $$\\text{F. } 11x - 8(y + 5(y - 2(y - ",
+    "scriptShort": "[Prof. Park] To conclude Lecture 07, let's look at slide 7: Nested Grouping SymbolsâExamples 3E and 3F: Part E: 3 + 2[ 5x - 4(x - 9) ] + 7. Sora, when grouping symbols are nested inside brackets, ho"
+  },
+  {
+    "lec": 8,
+    "slide": 1,
+    "title": "Section 1.4: Multiplying Polynomials & The FOIL Strategy",
+    "problemShort": "### The FOIL Method for Multiplying Two Binomials $$(a + b)(c + d) = \\underbrace{ac}_{\\text{First}} + \\underbrace{ad}_{\\text{Outer}} + \\underbrace{bc}",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 08 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me is TA Sora. Today, we explore Section 1.4 of our course workbook, spanning pages 14 "
+  },
+  {
+    "lec": 8,
+    "slide": 2,
+    "title": "Example 1A & 1B: Standard FOIL Binomial Multiplication",
+    "problemShort": "### Use the distributive property to multiply and fully simplify (Workbook p. 14) $$\\text{A. } (2x + 4)(3x + 5)$$ $$\\text{B. } (x - 4)(5x - 1)$$",
+    "scriptShort": "[Prof. Park] Let's examine Section 1.4 Examples 1A and 1B on workbook page 14: Part A: (2x + 4)(3x + 5). Part B: (x - 6)(x + 8).  [TA Sora] Let's execute FOIL step by step on Part A: (2x + 4)(3x + 5):"
+  },
+  {
+    "lec": 8,
+    "slide": 3,
+    "title": "Example 1C & 1D: Binomial Products with Leading Constants",
+    "problemShort": "### Use the distributive property to multiply and fully simplify (Workbook p. 14) $$\\text{C. } 2(b - 3)(b + 4)$$ $$\\text{D. } 4(w + 2)(w - 2)$$",
+    "scriptShort": "[Prof. Park] Now look at slide 3 with Examples 1C and 1D: Binomial Products with Leading Constants: Part C: 2(b - 3)(b + 4). Part D: -3(2y - 1)(3y + 4). In Part C, we have three factors: the constant "
+  },
+  {
+    "lec": 8,
+    "slide": 4,
+    "title": "Example 1E & 1F: Squaring a Binomial Trap",
+    "problemShort": "### Fully simplify each expression (Workbook p. 14) $$\\text{E. } (2y - 7)^2$$ $$\\text{F. } 2(y - 7)^2$$",
+    "scriptShort": "[Prof. Park] Slide 4 highlights the single most notorious trap in introductory algebra: Squaring a Binomial! Part E: (2y - 7)^2. Part F: 2(y - 7)^2. Sora, sound the alarm! MAXIMUM ALERT LEVEL! (2y - 7"
+  },
+  {
+    "lec": 8,
+    "slide": 5,
+    "title": "Example 1H & 1I: Multiplying Binomials by Trinomials",
+    "problemShort": "### Multiply and combine like terms (Workbook p. 14) $$\\text{H. } (w + 2)(w^2 - 2w + 9)$$ $$\\text{I. } (2x - 1)(x^2 + 3x - 10)$$",
+    "scriptShort": "[Prof. Park] Let's expand our horizons on slide 5 with Examples 1H and 1I: Multiplying Binomials by Trinomials: Part H: (w + 2)(w^2 - 2w + 9). Part I: (2x - 3)(x^2 + 4x - 5).  [TA Sora] When multiplyi"
+  },
+  {
+    "lec": 8,
+    "slide": 6,
+    "title": "Example 2 & 3: Perimeter & Area Applications",
+    "problemShort": "### Geometry Applications of Polynomials (Workbook p. 15) A rectangle has length $L = 3x - 4$ and width $W = 2x + 7$. - **Example 2:** Find the perime",
+    "scriptShort": "[Prof. Park] Moving to slide 6, let's examine Examples 2 and 3: Real-World Geometry Applications on workbook page 15. A rectangle has length L = 3x - 4 and width W = 2x + 1. Example 2 asks for the Per"
+  },
+  {
+    "lec": 8,
+    "slide": 7,
+    "title": "Example 4: Modified Geometric Area Problem",
+    "problemShort": "### Modified Rectangle Dimensions (Workbook p. 15) A given rectangle has length $2x + 3$ and width $x - 6$. If the **length is decreased by 7** and th",
+    "scriptShort": "[Prof. Park] To conclude Lecture 08, let's examine Example 4 on slide 7: Modified Rectangle Dimensions on workbook page 15. A given rectangle has length 2x + 3 and width x - 6.  [TA Sora] If the lengt"
+  },
+  {
+    "lec": 9,
+    "slide": 1,
+    "title": "Section 1.5: Adding & Subtracting Rational Expressions (Part 1)",
+    "problemShort": "### Rational Expressions Addition & Subtraction Principle $$\\frac{A}{C} + \\frac{B}{C} = \\frac{A + B}{C} \\quad \\text{and} \\quad \\frac{A}{C} - \\frac{B}{",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 09 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk is TA Sora. Today, we launch into Section 1.5 of our course wor"
+  },
+  {
+    "lec": 9,
+    "slide": 2,
+    "title": "Example 1A & 1B: Basic Numerical & Algebraic Fractions",
+    "problemShort": "### Find the sum or difference (Workbook p. 16) $$\\text{A. } \\frac{1}{6} + \\frac{3}{4}$$ $$\\text{B. } \\frac{7}{y} - \\frac{x}{y}$$",
+    "scriptShort": "[Prof. Park] Slide 2 presents Section 1.5 Examples 1A and 1B on workbook page 16: Part A: Find the sum 1/6 + 3/4. Part B: Find the sum 2/x + 5/x. Let's start with Part A: 1/6 + 3/4. This reviews our n"
+  },
+  {
+    "lec": 9,
+    "slide": 3,
+    "title": "Example 2A & 2B: Monomial Common Denominators",
+    "problemShort": "### Add or subtract by obtaining a common denominator (Workbook p. 16) $$\\text{A. } \\frac{5}{w} - \\frac{7}{2w}$$ $$\\text{B. } \\frac{1}{6x} + \\frac{2}{",
+    "scriptShort": "[Prof. Park] Now let's advance to slide 3 with Examples 2A and 2B on page 16: Monomial Common Denominators: Part A: 5/w - 7/w^2. Part B: 3/x + 4/y. Let's dissect Part A: 5/w - 7/w^2. Here the denomina"
+  },
+  {
+    "lec": 9,
+    "slide": 4,
+    "title": "Example 2C & 2D: Two-Variable Denominators",
+    "problemShort": "### Add or subtract by obtaining a common denominator (Workbook p. 16) $$\\text{C. } \\frac{3}{y} + \\frac{5}{x}$$ $$\\text{D. } \\frac{11y}{2x} - \\frac{x}",
+    "scriptShort": "[Prof. Park] Let's move to slide 4 with Examples 2C and 2D: Two-Variable Denominators: Part C: 3/y + 5/(2y). Part D: 4/(3a) - 1/(2a). Let's analyze Part C: 3/y + 5/(2y). Look at the denominators: y an"
+  },
+  {
+    "lec": 9,
+    "slide": 5,
+    "title": "Example 2E & 2F: Mixed Constant & Variable Denominators",
+    "problemShort": "### Add or subtract by obtaining a common denominator (Workbook p. 16) $$\\text{E. } \\frac{2}{7r} + \\frac{3}{7}$$ $$\\text{F. } \\frac{4}{5} - \\frac{9}{5",
+    "scriptShort": "[Prof. Park] To conclude Lecture 09, let's examine slide 5 with Examples 2E and 2F: Mixed Constant and Variable Denominators: Part E: 2/(7r) + 3/(14r). Part F: 5/(6k^2) - 1/(4k). In Part E, look at th"
+  },
+  {
+    "lec": 10,
+    "slide": 1,
+    "title": "Section 1.5: Advanced Rational Addition & Subtraction (Part 2)",
+    "problemShort": "### Advanced Rational Denominators (Workbook p. 17) When denominators contain higher variable powers or multiple terms: 1. **Take the highest power of",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 10 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk is TA Sora. Today, we take our rational expression skills to th"
+  },
+  {
+    "lec": 10,
+    "slide": 2,
+    "title": "Example 3A: Quadratic Monomial Denominator",
+    "problemShort": "### Add or subtract the expression and simplify (Workbook p. 17) $$\\frac{3}{7x^2} + \\frac{5}{14x}$$",
+    "scriptShort": "[Prof. Park] Slide 2 presents Section 1.5 Example 3A on workbook page 17: Add and simplify: 3 / (7x^2) + 5 / (14x). Let's find our Least Common Denominator systematically: Look at the numerical coeffi"
+  },
+  {
+    "lec": 10,
+    "slide": 3,
+    "title": "Example 3B: Three-Term Rational Expression with 4th Power",
+    "problemShort": "### Add or subtract the expression and simplify (Workbook p. 17) $$\\frac{2}{x} - \\frac{9}{10x^4} + \\frac{3}{x}$$",
+    "scriptShort": "[Prof. Park] Let's elevate the challenge with Example 3B on slide 3: a three-term rational expression with a 4th power: Simplify: 2/x - 9 / (10x^4) + 3 / (5x^2). Three fractions at once! Don't let the"
+  },
+  {
+    "lec": 10,
+    "slide": 4,
+    "title": "Example 3C & 3D: Multi-Term Common Denominators",
+    "problemShort": "### Add or subtract the expressions (Workbook p. 17) $$\\text{C. } \\frac{2}{3b} + \\frac{1}{4} + \\frac{1}{6b}$$ $$\\text{D. } \\frac{2}{5r} - \\frac{3}{4r}",
+    "scriptShort": "[Prof. Park] Moving to slide 4, let's examine Examples 3C and 3D: Multi-Term Common Denominators: Part C: 2 / (3b) + 1/4 + 1 / (6b). Sora, walk us through finding the LCD when one term is a pure const"
+  },
+  {
+    "lec": 10,
+    "slide": 5,
+    "title": "Example 3E: Subtracting Fractions with Binomial Numerators",
+    "problemShort": "### Subtract and simplify fully (Workbook p. 17) $$\\frac{2x - 5}{3x} - \\frac{5x + 9}{6x}$$",
+    "scriptShort": "[Prof. Park] Now we arrive at slide 5, which features the single most critical problem type in Section 1.5: Example 3E: Subtracting Fractions with Binomial Numerators: (2x - 5) / (3x) - (5x + 9) / (6x"
+  },
+  {
+    "lec": 10,
+    "slide": 6,
+    "title": "Example 3F: Second Binomial Subtraction Master Problem",
+    "problemShort": "### Subtract and simplify fully (Workbook p. 17) $$\\frac{3y + 7}{8y} - \\frac{9y - 11}{4y}$$",
+    "scriptShort": "[Prof. Park] To conclude Lecture 10, let's look at slide 6: Example 3F on workbook page 17âour Second Binomial Subtraction Master Problem: (3y + 7) / (8y) - (9y - 11) / (4y).  [TA Sora] Let's apply "
+  },
+  {
+    "lec": 11,
+    "slide": 1,
+    "title": "Section 1.6: Solving Linear Equations — Properties of Equality",
+    "problemShort": "### The Golden Rule of Equation Solving $$\\text{Whatever you do to one side of the equation, you MUST do to the other side!}$$ - **Addition/Subtractio",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 11 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk is TA Sora.  [TA Sora] Today, we cross a major milestone in our"
+  },
+  {
+    "lec": 11,
+    "slide": 2,
+    "title": "Example 1A: Two-Step Linear Equation",
+    "problemShort": "### Solve the linear equation for the given variable (Workbook p. 18) $$3x - 8 = -12$$",
+    "scriptShort": "[Prof. Park] On slide 2, let's examine Section 1.6 Example 1A on workbook page 18: Solve the linear equation for the given variable: 3x - 8 = -12. Look at the variable x on the left side. What is happ"
+  },
+  {
+    "lec": 11,
+    "slide": 3,
+    "title": "Example 1B: Negative Coefficient Trap",
+    "problemShort": "### Solve the linear equation for the given variable (Workbook p. 18) $$6 - 4w = 15$$",
+    "scriptShort": "[Prof. Park] Slide 3 introduces the notorious 'Negative Coefficient Trap': Section 1.6 Example 1B on workbook page 18: Solve: 6 - 4w = 15. Danger alert! Look at the left side: 6 - 4w. Students see the"
+  },
+  {
+    "lec": 11,
+    "slide": 4,
+    "title": "Example 1C & 1D: Combining Like Terms First",
+    "problemShort": "### Solve each equation (Workbook p. 18) $$\\text{C. } y + 4 + 5y - 9 = 87$$ $$\\text{D. } 6r - 3r + 94 + 2r = 18$$",
+    "scriptShort": "[Prof. Park] On slide 4, we examine Section 1.6 Examples 1C and 1D on workbook page 18: Equations where you must combine like terms on the same side BEFORE moving across the equal sign!  [TA Sora] Her"
+  },
+  {
+    "lec": 11,
+    "slide": 5,
+    "title": "Example 2A & 2B: Equations with Distributive Property",
+    "problemShort": "### Solve each equation. Write answer in simplest fraction form (Workbook p. 18) $$\\text{A. } 10(a - 5) + 2 = -3$$ $$\\text{B. } 6(x - 2) - 8 = 3x - 20",
+    "scriptShort": "[Prof. Park] Slide 5 concludes Lecture 11 with Section 1.6 Examples 2A and 2B on workbook page 18: Solving Equations involving the Distributive Property. When an equation contains parentheses, our fir"
+  },
+  {
+    "lec": 12,
+    "slide": 1,
+    "title": "Section 1.6: Classifying Linear Equations (Part 2)",
+    "problemShort": "### The Three Types of Linear Equations (Workbook p. 19) - **1. Conditional:** The equation has a **finite number of unique real solutions** (e.g. $x ",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 12 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk is TA Sora. Today, we explore Section 1.6 Part 2 on workbook pa"
+  },
+  {
+    "lec": 12,
+    "slide": 2,
+    "title": "Example 2C & 2D: Special Case Equations",
+    "problemShort": "### Solve each equation and classify (Workbook p. 18) $$\\text{C. } 2(7 - x) + 11 = 12 - 2x$$ $$\\text{D. } -4 - (3 - x) - 2 = 9(x - 1) - 8x$$",
+    "scriptShort": "[Prof. Park] On slide 2, let's examine Section 1.6 Examples 2C and 2D from workbook page 18: Solve each equation and classify it as conditional, contradiction, or identity. Let's solve Example 2C: 2(7"
+  },
+  {
+    "lec": 12,
+    "slide": 3,
+    "title": "In-Class Practice #1 & #2",
+    "problemShort": "### Solve and classify (Workbook p. 19) $$\\text{1. } 3x - 2 = -9x + 15$$ $$\\text{2. } r - 3 - 7 + r = 10 + 2r$$",
+    "scriptShort": "[Prof. Park] Slide 3 takes us to In-Class Practice Problems 1 and 2 from workbook page 19: Problem 1: 3x - 2 = -9x + 15. Problem 2: r - 3 - 7 + r = 10 + 2r. Let's work Problem 1: 3x - 2 = -9x + 15.  ["
+  },
+  {
+    "lec": 12,
+    "slide": 4,
+    "title": "In-Class Practice #3 & #4",
+    "problemShort": "### Solve and classify (Workbook p. 19) $$\\text{3. } 3(w - 4) = 3(w - 9) + 15$$ $$\\text{4. } -4x + 4(x - 4) = -11$$",
+    "scriptShort": "[Prof. Park] On slide 4, let's examine In-Class Practice Problems 3 and 4 from workbook page 19: Problem 3: 3(w - 4) = 3(w - 9) + 15. Problem 4: -4x + 4(x - 4) = -11. Let's solve Problem 3: 3(w - 4) ="
+  },
+  {
+    "lec": 12,
+    "slide": 5,
+    "title": "In-Class Practice #5 & #6",
+    "problemShort": "### Solve and classify (Workbook p. 19) $$\\text{5. } -(-y - 28) = 7(y + 4)$$ $$\\text{6. } -2(r + 3) + 7 = 1 - 2r$$",
+    "scriptShort": "[Prof. Park] Slide 5 concludes Lecture 12 with In-Class Practice Problems 5 and 6 from workbook page 19: Problem 5: -(-y - 28) = 7(y + 4). Problem 6: -2(r + 3) + 7 = 1 - 2r. Problem 5 is a favorite ex"
+  },
+  {
+    "lec": 13,
+    "slide": 1,
+    "title": "Section 1.7: Solving Linear Equations with Fractions — Clearing the LCD",
+    "problemShort": "### The Golden Clearing Fractions Strategy (Workbook p. 20) $$\\text{Reminder: Whatever you do to one side, you MUST do to the other side!}$$ - **Inste",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 13 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk is TA Sora.  [TA Sora] Today, we dive into Section 1.7 of our c"
+  },
+  {
+    "lec": 13,
+    "slide": 2,
+    "title": "Example 1 & 2: Dividing by Coefficient vs. Clearing LCD",
+    "problemShort": "### Two Methods for the Same Equation (Workbook p. 20) $$\\frac{3}{4}x = 15$$ - **Example 1:** Solve by dividing both sides by the coefficient (multipl",
+    "scriptShort": "[Prof. Park] On slide 2, let's compare two different methods for solving the exact same equation from workbook page 20: (3/4)x = 15. Method 1 (Dividing by the Coefficient): x is multiplied by the frac"
+  },
+  {
+    "lec": 13,
+    "slide": 3,
+    "title": "Example 3A & 3B: Simple Fraction Equations",
+    "problemShort": "### Use the method of clearing fractions to solve (Workbook p. 20) $$\\text{A. } \\frac{x}{-5} = 10$$ $$\\text{B. } \\frac{1}{2}y + \\frac{3}{4} = 10$$",
+    "scriptShort": "[Prof. Park] Slide 3 presents Section 1.7 Examples 3A and 3B from workbook page 20: Example 3A: x / (-5) = 10. Example 3B: (1/2)y + 3/4 = 10. In Example 3A: x / (-5) = 10. x is divided by -5. The deno"
+  },
+  {
+    "lec": 13,
+    "slide": 4,
+    "title": "Example 3C & 3D: Multi-Denominator Clearing",
+    "problemShort": "### Use clearing fractions to solve (Workbook p. 21) $$\\text{C. } \\frac{1}{2}x - \\frac{2}{7} = \\frac{5}{4} - x$$ $$\\text{D. } \\frac{3}{5} + \\frac{x}{5",
+    "scriptShort": "[Prof. Park] On slide 4, we examine Section 1.7 Examples 3C and 3D from workbook page 21: Example 3C: (1/2)x - 2/7 = 5/4 - x. Example 3D: 3/5 + x/5 = 18. Let's analyze Example 3C: (1/2)x - 2/7 = 5/4 -"
+  },
+  {
+    "lec": 13,
+    "slide": 5,
+    "title": "Example 3E: Clearing Fractions with Parentheses",
+    "problemShort": "### Use clearing fractions to solve (Workbook p. 21) $$\\frac{1}{7}(x - 4) + 5 = \\frac{1}{2}(3x + 4)$$",
+    "scriptShort": "[Prof. Park] Slide 5 presents Section 1.7 Example 3E on workbook page 21: Clearing Fractions when Parentheses are Present: (1/7)(x - 4) + 5 = (1/2)(3x + 4). Warning! Look at the expression (1/7)(x - 4"
+  },
+  {
+    "lec": 13,
+    "slide": 6,
+    "title": "Example 3F & 3G: Fractional Proportions & Compound Terms",
+    "problemShort": "### Use clearing fractions to solve (Workbook p. 22) $$\\text{F. } \\frac{x - 7}{8} = \\frac{5}{6}$$ $$\\text{G. } \\frac{1}{3}(3m + 1) = \\frac{1}{4}(m - 4",
+    "scriptShort": "[Prof. Park] Slide 6 concludes Lecture 13 with Section 1.7 Examples 3F and 3G from workbook page 22: Example 3F: (x - 7) / 8 = 5/6. Example 3G: (1/3)(3m + 1) = (1/4)(m - 4) + 1. Let's look at Example "
+  },
+  {
+    "lec": 14,
+    "slide": 1,
+    "title": "Section 1.8: Solving Formulas for a Specified Variable",
+    "problemShort": "### Literal Equations & Formulas (Workbook p. 23) - **Literal Equation / Formula:** An equation containing **multiple variables** ($a, b, x, y, r, t$)",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 14 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk is TA Sora. Today, we turn to Section 1.8 on workbook pages 23 "
+  },
+  {
+    "lec": 14,
+    "slide": 2,
+    "title": "Example 1A & 1B: Solving Linear Equations for y",
+    "problemShort": "### Solve each formula for y (Workbook p. 23) $$\\text{A. } 3x + y = 8$$ $$\\text{B. } 2x - 5y = 12$$",
+    "scriptShort": "[Prof. Park] On slide 2, let's examine Section 1.8 Examples 1A and 1B on workbook page 23: Solving standard linear equations for y. Part A: 3x + y = 8. Part B: 2x - 5y = 12. In Part A, we want to isol"
+  },
+  {
+    "lec": 14,
+    "slide": 3,
+    "title": "Example 1C & 1D: Solving for Factored & Monomial Variables",
+    "problemShort": "### Solve each formula for y (Workbook p. 23) $$\\text{C. } Z = x + wxy$$ $$\\text{D. } 5xy = 19$$",
+    "scriptShort": "[Prof. Park] Slide 3 covers Section 1.8 Examples 1C and 1D on workbook page 23: Part C: Z = x + wxy; solve for y. Part D: 5xy = 19; solve for y. Look at Part C: Z = x + wxy. We want to isolate y.  [TA"
+  },
+  {
+    "lec": 14,
+    "slide": 4,
+    "title": "Example 2A & 2B: Solving for Specified Variable b",
+    "problemShort": "### Solve each literal equation for the specified variable (Workbook p. 23) $$\\text{A. } a + b - c = d; \\quad \\text{solve for } b$$ $$\\text{B. } ax^2 ",
+    "scriptShort": "[Prof. Park] On slide 4, let's examine Section 1.8 Examples 2A and 2B on workbook page 23: Solving for specified variable b: Part A: a + b - c = d; solve for b. Part B: ax^2 + bx + c = 0; solve for b."
+  },
+  {
+    "lec": 14,
+    "slide": 5,
+    "title": "Example 2C & 2D: Solving Fractional Formulas for r",
+    "problemShort": "### Solve each formula for r (Workbook p. 24) $$\\text{C. } m = \\frac{r - 7n}{5}; \\quad \\text{solve for } r$$ $$\\text{D. } t = \\frac{d}{r}; \\quad \\text",
+    "scriptShort": "[Prof. Park] Slide 5 presents Section 1.8 Examples 2C and 2D on workbook page 24: Solving fractional formulas for r: Part C: m = (r - 7n) / 5; solve for r. Part D: t = d / r; solve for r.  [TA Sora] L"
+  },
+  {
+    "lec": 14,
+    "slide": 6,
+    "title": "Example 2E & 2F: Geometric Formulas for W",
+    "problemShort": "### Solve each geometry formula for W (Workbook p. 24) $$\\text{E. } P = 2L + 2W; \\quad \\text{solve for } W$$ $$\\text{F. } V = LWH; \\quad \\text{solve f",
+    "scriptShort": "[Prof. Park] On slide 6, we explore geometric formulas from workbook page 24: Part E: P = 2L + 2W; solve for W. Part F: V = LWH; solve for W. Part E is the perimeter formula for a rectangle: Perimeter"
+  },
+  {
+    "lec": 14,
+    "slide": 7,
+    "title": "Section 1.8 Review: Solving Equations by Clearing Fractions",
+    "problemShort": "### REVIEW: Solve the following equations by clearing fractions (Workbook p. 24) $$\\text{A. } \\frac{y - 2}{5} = \\frac{3}{2}y + \\frac{4}{5}$$ $$\\text{B",
+    "scriptShort": "[Prof. Park] Slide 7 concludes Lecture 14 with our Section 1.8 Review Problems from workbook page 24: Solving equations by clearing fractions: Review A: (y - 2) / 5 = (3/2)y + 4/5. Review B: 2/7 = (3/"
+  },
+  {
+    "lec": 15,
+    "slide": 1,
+    "title": "Section 1.9: Solving Linear Inequalities & Interval Notation",
+    "problemShort": "### The Golden Rule of Inequalities (Workbook p. 25-26) $$\\text{When you MULTIPLY or DIVIDE both sides by a NEGATIVE number,}$$ $$\\text{you MUST REVER",
+    "scriptShort": "[Prof. Park] Welcome everyone to Lecture 15 of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk is TA Sora.  [TA Sora] Today is a celebration: we complete Sect"
+  },
+  {
+    "lec": 15,
+    "slide": 2,
+    "title": "Example 1A & 1B: Basic Interval Notation",
+    "problemShort": "### Represent each on a number line graph and convert to interval notation (Workbook p. 25) $$\\text{A. } x > 5$$ $$\\text{B. } x < -6$$",
+    "scriptShort": "[Prof. Park] Slide 2 covers Section 1.9 Examples 1A and 1B from workbook page 25: Basic Interval Notation and Number Line Graphing: Part A: x > 5. Part B: x < -6.  [TA Sora] Let's master our notation "
+  },
+  {
+    "lec": 15,
+    "slide": 3,
+    "title": "Example 1C & 1D: Variable on the Right Side",
+    "problemShort": "### Represent on number line and convert to interval notation (Workbook p. 25) $$\\text{C. } -3 \\le x$$ $$\\text{D. } 12 \\ge x$$",
+    "scriptShort": "[Prof. Park] On slide 3, we look at Section 1.9 Examples 1C and 1D on workbook page 25: Inequalities with the variable on the RIGHT side: Part C: -3 â¤ x. Part D: 12 â¥ x. Danger alert!  [TA Sora] W"
+  },
+  {
+    "lec": 15,
+    "slide": 4,
+    "title": "Example 1E & 1F: Double (Bounded) Inequalities",
+    "problemShort": "### Represent on number line and convert to interval notation (Workbook p. 25) $$\\text{E. } -3 < x < 1$$ $$\\text{F. } 2 \\le x < 3$$",
+    "scriptShort": "[Prof. Park] Slide 4 covers Section 1.9 Examples 1E and 1F on workbook page 25: Double (Bounded) Inequalities: Part E: -3 < x < 1. Part F: 2 â¤ x < 3. A double inequality describes a bounded interval"
+  },
+  {
+    "lec": 15,
+    "slide": 5,
+    "title": "Example 1G & 1H: Disjoint Compound Inequalities (Union)",
+    "problemShort": "### Represent on number line and convert to interval notation (Workbook p. 25) $$\\text{G. } x < -7 \\text{ or } x \\ge 0$$ $$\\text{H. } x \\le 2 \\text{ o",
+    "scriptShort": "[Prof. Park] On slide 5, we examine Section 1.9 Examples 1G and 1H: Disjoint Compound Inequalities using the Union Symbol (âª): Part G: x < -7 or x â¥ 0. Part H: x â¤ 2 or x > 5.  [TA Sora] When yo"
+  },
+  {
+    "lec": 15,
+    "slide": 6,
+    "title": "Example 2A & 2B: Solving Linear Inequalities",
+    "problemShort": "### Solve each inequality. Write final answer in interval notation (Workbook p. 26) $$\\text{A. } -6 + 3x \\le -12 + 5x$$ $$\\text{B. } 4(5x - 7) > 10 + ",
+    "scriptShort": "[Prof. Park] Slide 6 moves to Section 1.9 Examples 2A and 2B on workbook page 26: Solving Linear Inequalities algebraically: Part A: -6 + 3x â¤ -12 + 5x. Part B: 4(5x - 7) > 10 + 5x.  [TA Sora] Solvi"
+  },
+  {
+    "lec": 15,
+    "slide": 7,
+    "title": "Example 2C & 2D: Inequalities with Fractions & Negatives",
+    "problemShort": "### Solve each inequality and write in interval notation (Workbook p. 26) $$\\text{C. } \\frac{4}{5}y + 5 < 6$$ $$\\text{D. } 2 \\le \\frac{x}{-8} - 3$$",
+    "scriptShort": "[Prof. Park] Slide 7 presents Section 1.9 Examples 2C and 2D on workbook page 26: Inequalities with Fractions and Negative Denominators: Part C: (4/5)y + 5 < 6. Part D: 2 â¤ x / (-8) - 3. In Part C: "
+  },
+  {
+    "lec": 15,
+    "slide": 8,
+    "title": "Example 2E & 2F: Binomial Numerator Inequality Comparison",
+    "problemShort": "### Solve both and compare the effect of negative denominator (Workbook p. 26) $$\\text{E. } \\frac{x - 30}{-4} \\ge 50$$ $$\\text{F. } \\frac{x - 30}{4} >",
+    "scriptShort": "[Prof. Park] Slide 8 features Section 1.9 Examples 2E and 2F on workbook page 26: A side-by-side comparison of positive vs. negative denominators: Part E: (x - 30) / (-4) â¥ 50. Part F: (x - 30) / 4 "
+  },
+  {
+    "lec": 15,
+    "slide": 9,
+    "title": "Unit 1 Grand Review & Sora's 10 Core Commandments",
+    "problemShort": "### Congratulations on Completing Unit 1 (Sections 1.0 - 1.9)! - **1. Order of Operations:** PEMDAS always rules. - **2. Substitution:** Always wrap s",
+    "scriptShort": "[Prof. Park] Slide 9 concludes Lecture 15 and marks the completion of Unit 1! Let's celebrate everyone's incredible dedication across Sections 1.0 through 1.9 with Sora's 10 Core Commandments of Algeb"
+  },
+  {
+    "lec": 16,
+    "slide": 1,
+    "title": "The Rectangular (Cartesian) Coordinate System",
+    "problemShort": "### The Rectangular (Cartesian) Coordinate Plane (Workbook p. 30) - **Axes:** The horizontal line is the **$x$-axis**, and the vertical line is the **",
+    "scriptShort": "[Prof. Park] Welcome, everyone, to Unit 2 of M090 Introductory Algebra! In Unit 1, we worked primarily along a single dimension—the one-dimensional real number line. Today, we make a tremendous concep"
+  },
+  {
+    "lec": 16,
+    "slide": 2,
+    "title": "Section 2.0 Example 1A: Plotting Point (4, 0)",
+    "problemShort": "### Example 1A (Workbook p. 30) Plot and label the ordered pair on the Cartesian plane: $$\\mathbf{A.\\; (4, 0)}$$ - Identify the $x$-coordinate and $y$",
+    "scriptShort": "[Prof. Park] Let us put Sora's hallway-and-elevator rule immediately into practice with Example 1A from page 30 of your workbook: plot and label the ordered pair $A(4, 0)$, and determine whether it li"
+  },
+  {
+    "lec": 16,
+    "slide": 3,
+    "title": "Section 2.0 Example 1B: Plotting Point (-1, 3)",
+    "problemShort": "### Example 1B (Workbook p. 30) Plot and label the ordered pair on the Cartesian plane: $$\\mathbf{B.\\; (-1, 3)}$$ - Identify the direction of horizont",
+    "scriptShort": "[Prof. Park] Moving directly to Example 1B on page 30: plot and classify the ordered pair $B(-1, 3)$.  [TA Sora] Let us break down the address: $x = -1$ and $y = +3$. Starting at the origin $(0, 0)$, "
+  },
+  {
+    "lec": 16,
+    "slide": 4,
+    "title": "Section 2.0 Example 1C: Plotting Point (0, 5)",
+    "problemShort": "### Example 1C (Workbook p. 30) Plot and label the ordered pair on the Cartesian plane: $$\\mathbf{C.\\; (0, 5)}$$ - Identify the $x$-coordinate and $y$",
+    "scriptShort": "[Prof. Park] Next up is Example 1C: plot and classify point $C(0, 5)$. Look closely at this coordinate pair, students. How does this compare with point $A(4, 0)$ that we graphed two slides ago?  [TA S"
+  },
+  {
+    "lec": 16,
+    "slide": 5,
+    "title": "Section 2.0 Example 1D: Plotting Point (-3, -4)",
+    "problemShort": "### Example 1D (Workbook p. 30) Plot and label the ordered pair on the Cartesian plane: $$\\mathbf{D.\\; (-3, -4)}$$ - Identify the horizontal and verti",
+    "scriptShort": "[Prof. Park] Let us examine Example 1D: plot and classify point $D(-3, -4)$. Both coordinates are now negative numbers. Sora, walk us through the movement.  [TA Sora] We reset to the origin $(0, 0)$. "
+  },
+  {
+    "lec": 16,
+    "slide": 6,
+    "title": "Section 2.0 Example 1 Synthesis: All 4 Points",
+    "problemShort": "### Example 1 Complete Grid Overview (Workbook p. 30) Compare all four points plotted together on the same Cartesian coordinate plane: - $\\mathbf{A(4,",
+    "scriptShort": "[Prof. Park] On Slide 6, we have brought all four points together onto a single, unified Cartesian coordinate grid: Point $A(4, 0)$, Point $B(-1, 3)$, Point $C(0, 5)$, and Point $D(-3, -4)$. Take a wi"
+  },
+  {
+    "lec": 16,
+    "slide": 7,
+    "title": "Basic Graphing Strategy: Input (x) & Output (y)",
+    "problemShort": "### Basic Graphing Strategy (Workbook p. 30) - **Input values ($x$):** The independent variable chosen from the domain. - **Output values ($y$):** The",
+    "scriptShort": "[Prof. Park] Now that we know how to plot static points, let us talk about the dynamic bridge between algebra and geometry: the Basic Graphing Strategy on page 30 of your workbook.   [TA Sora] This is"
+  },
+  {
+    "lec": 16,
+    "slide": 8,
+    "title": "Definition: Solution of an Equation in Two Variables",
+    "problemShort": "### Definition of a Solution (Workbook p. 30) An ordered pair $(x, y)$ is a **solution to an equation involving $x$ and $y$** if the equation becomes ",
+    "scriptShort": "[Prof. Park] Let us formalize that definition on Slide 8: What does it mean for an ordered pair to be a 'solution' to an equation in two variables?  [TA Sora] By strict algebraic definition: an ordere"
+  },
+  {
+    "lec": 16,
+    "slide": 9,
+    "title": "Testing Solutions on the Coordinate Plane: 2x + y = 7",
+    "problemShort": "### Testing Points for $2x + y = 7$ Determine algebraically and visually whether the following points are solutions to $2x + y = 7$: - **Point P:** $(",
+    "scriptShort": "[Prof. Park] Let us apply this verification method to the equation given on Slide 9: $2x + y = 7$. We are given three test points: $P_1(2, 3)$, $P_2(1, 5)$, and $P_3(4, -1)$. Let us test each one alge"
+  },
+  {
+    "lec": 16,
+    "slide": 10,
+    "title": "Lecture 16 Mastery: Quadrant Signs & Coordinate Plane",
+    "problemShort": "### Summary of Cartesian Coordinates - **Quadrant I:** $(+, +)$ — Upper Right - **Quadrant II:** $(-, +)$ — Upper Left - **Quadrant III:** $(-, -)$ — ",
+    "scriptShort": "[Prof. Park] Outstanding work on Lecture 16! You have officially entered the world of two-dimensional coordinate geometry. Let us review the foundational principles we established today.  [TA Sora] Pr"
+  },
+  {
+    "lec": 17,
+    "slide": 1,
+    "title": "Library of Basic Parent Functions & Interval Notation",
+    "problemShort": "### Basic Equations & Domain/Range (Workbook p. 31) In Section 2.0, we explore the 7 fundamental shapes of algebra: 1. Constant: $y = c$ 2. Linear: $y",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 17 of M090! Today, on pages 31 and 32 of your workbook, we explore one of the most exciting libraries in all of precalculus and introductory algebra: The Seven Fundamen"
+  },
+  {
+    "lec": 17,
+    "slide": 2,
+    "title": "Basic Equation A: Constant Function y = 3",
+    "problemShort": "### Equation A: $y = 3$ (Workbook p. 31) - Create a table of values for $x = -2, 0, 2$. - Graph the equation on the Cartesian coordinate plane. - Stat",
+    "scriptShort": "[Prof. Park] Equation A on page 31 is the Constant Function: $y = 3$. At first glance, students often look at this equation and say, 'Professor Park, where is the $x$?'  [TA Sora] That is the beauty o"
+  },
+  {
+    "lec": 17,
+    "slide": 3,
+    "title": "Basic Equation B: Linear Identity y = x",
+    "problemShort": "### Equation B: $y = x$ (Workbook p. 31) - Create a table of values for $x = -2, 0, 2$. - Graph the equation on the Cartesian coordinate plane. - Stat",
+    "scriptShort": "[Prof. Park] Let us examine Equation B on page 31: the Linear Identity Function, $y = x$.  [TA Sora] The identity function is the ultimate mirror of algebra! Whatever number goes in for $x$ comes out "
+  },
+  {
+    "lec": 17,
+    "slide": 4,
+    "title": "Basic Equation C: Quadratic Parabola y = x^2",
+    "problemShort": "### Equation C: $y = x^2$ (Workbook p. 31) - Create a table of values for $x = -2, -1, 0, 1, 2$. - Graph the equation on the Cartesian coordinate plan",
+    "scriptShort": "[Prof. Park] Now we step into non-linear functions with Equation C on page 31: the Quadratic Parent Function, $y = x^2$. This is the foundation of parabolas, which we study extensively throughout Unit"
+  },
+  {
+    "lec": 17,
+    "slide": 5,
+    "title": "Basic Equation D: Square Root Curve y = sqrt(x)",
+    "problemShort": "### Equation D: $y = \\sqrt{x}$ (Workbook p. 31) - Create a table of values for $x = 0, 1, 4, 9$. - Graph the equation on the Cartesian coordinate plan",
+    "scriptShort": "[Prof. Park] Next is Equation D: the Square Root Function, $y = \\sqrt{x}$. Here we encounter our very first restricted domain in algebra!  [TA Sora] This is a critical moment. In the real number syste"
+  },
+  {
+    "lec": 17,
+    "slide": 6,
+    "title": "Basic Equation E: Absolute Value y = |x|",
+    "problemShort": "### Equation E: $y = \\lvert x \\rvert$ (Workbook p. 32) - Create a table of values for $x = -3, -1, 0, 1, 3$. - Graph the equation on the Cartesian coo",
+    "scriptShort": "[Prof. Park] Turn to page 32 of your workbook for Equation E: the Absolute Value Function, $y = |x|$.  [TA Sora] What does absolute value mean geometrically? It represents distance from zero on the nu"
+  },
+  {
+    "lec": 17,
+    "slide": 7,
+    "title": "Basic Equation F: Cubic Function y = x^3",
+    "problemShort": "### Equation F: $y = x^3$ (Workbook p. 32) - Create a table of values for $x = -2, -1, 0, 1, 2$. - Graph the equation on the Cartesian coordinate plan",
+    "scriptShort": "[Prof. Park] Slide 7 introduces Equation F on page 32: the Cubic Function, $y = x^3$.  [TA Sora] Cubing a number means multiplying three copies together: $x \\cdot x \\cdot x$. Let us test our signs car"
+  },
+  {
+    "lec": 17,
+    "slide": 8,
+    "title": "Basic Equation G: Cube Root y = cbrt(x)",
+    "problemShort": "### Equation G: $y = \\sqrt[3]{x}$ (Workbook p. 32) - Create a table of values for $x = -8, -1, 0, 1, 8$. - Graph the equation on the Cartesian coordin",
+    "scriptShort": "[Prof. Park] Our seventh and final parent function on page 32 is Equation G: the Cube Root Function, $y = \\sqrt[3]{x}$.  [TA Sora] Compare this with the square root function we studied on Slide 5. Wit"
+  },
+  {
+    "lec": 17,
+    "slide": 9,
+    "title": "Section 2.0 Grand Summary: Parent Functions & Intervals",
+    "problemShort": "### Parent Functions Comparison Table (Workbook pp. 31–32) Review the core characteristics of the 7 basic algebra equations: - Constant: $y = 3$ (Hori",
+    "scriptShort": "[Prof. Park] On Slide 9, we present the Grand Summary Table of all seven fundamental parent functions from Section 2.0. Every student in M090 should commit these visual profiles to memory.  [TA Sora] "
+  },
+  {
+    "lec": 18,
+    "slide": 1,
+    "title": "Section 2.1: Linear Equations in Two Variables",
+    "problemShort": "### Section 2.1 Overview (Workbook p. 33) - **Standard Form:** $Ax + By = C$ - **Slope-Intercept Form:** $y = mx + b$   - $m$ is the **slope** (rate o",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 18 of M090 Introductory Algebra! Today on page 33 of your workbook, we begin Section 2.1: Graphing Linear Equations in Two Variables.  [TA Sora] Up to this point, we pl"
+  },
+  {
+    "lec": 18,
+    "slide": 2,
+    "title": "Section 2.1 Example 1 (Part 1): Table for 2x + 3y = 6",
+    "problemShort": "### Example 1 (Workbook p. 33) Graph the following linear equation using a table: $$\\mathbf{2x + 3y = 6}$$ Complete the table by finding the correspon",
+    "scriptShort": "[Prof. Park] In Example 1 on page 33, we are asked to graph the linear equation $2x + 3y = 6$ by creating a table of values.   [TA Sora] Notice how $x$ and $y$ are both on the left-hand side: $2x + 3y"
+  },
+  {
+    "lec": 18,
+    "slide": 3,
+    "title": "Section 2.1 Example 1 (Part 2): Solving for y",
+    "problemShort": "### Example 1 Algebraic Follow-up (Workbook p. 33) Now solve the equation for $y$: $$\\mathbf{2x + 3y = 6}$$ - Isolate the $y$-term by subtracting $2x$",
+    "scriptShort": "[Prof. Park] Now let us examine Part 2 of Example 1: solving the equation $2x + 3y = 6$ explicitly for $y$. Why is solving for $y$ such a critical algebraic skill, Sora?  [TA Sora] Because solving for"
+  },
+  {
+    "lec": 18,
+    "slide": 4,
+    "title": "Section 2.1 Example 1 (Part 3): Full Graph & Intercepts",
+    "problemShort": "### Example 1 Full Visual Verification (Workbook p. 33) Use the graph to identify the following: - **$x$-intercept:** \\underline{\\hspace{2cm}} - **$y$",
+    "scriptShort": "[Prof. Park] On Slide 4, we bring together the table of values, the algebraic formula, and the visual coordinate plane for $2x + 3y = 6$.  [TA Sora] Let us verify our three plotted points on the grid:"
+  },
+  {
+    "lec": 18,
+    "slide": 5,
+    "title": "Section 2.1 Example 2A: Slope & Y-Intercept for y = 1/4x - 6",
+    "problemShort": "### Example 2A (Workbook p. 33) Identify the slope and $y$-intercept for: $$\\mathbf{y = \\frac{1}{4}x - 6}$$ - State the slope $m$ as a fraction. - Sta",
+    "scriptShort": "[Prof. Park] Turn to Example 2A on page 33: Identify the slope and $y$-intercept for the equation $y = \\frac{1}{4}x - 6$.  [TA Sora] This problem is an absolute gift if you know what to look for! Look"
+  },
+  {
+    "lec": 18,
+    "slide": 6,
+    "title": "Section 2.1 Example 2B: Slope & Y-Intercept for 2x - y = 7",
+    "problemShort": "### Example 2B (Workbook p. 33) Identify the slope and $y$-intercept for: $$\\mathbf{2x - y = 7}$$ - Solve for $y$ first by isolating the variable. - I",
+    "scriptShort": "[Prof. Park] Now examine Example 2B on page 33: Identify the slope and $y$-intercept for $2x - y = 7$.  [TA Sora] Notice that this equation is NOT in slope-intercept form yet. The $x$ and $y$ are both"
+  },
+  {
+    "lec": 18,
+    "slide": 7,
+    "title": "Definition of Intercepts on the Cartesian Plane",
+    "problemShort": "### Definition of Intercepts (Workbook p. 34) - **$x$-intercept:** Any point on a graph with a $y$-value of $0$.   $$\\mathbf{(x, 0)} \\implies \\text{Se",
+    "scriptShort": "[Prof. Park] On Slide 7, we arrive at page 34 of your workbook and one of the most powerful concepts in all of linear graphing: The Formal Definition of Intercepts.  [TA Sora] An **intercept** is simp"
+  },
+  {
+    "lec": 18,
+    "slide": 8,
+    "title": "Section 2.1 Example 3A: Intercepts for 5x + 2y = 6",
+    "problemShort": "### Example 3A (Workbook p. 34) Find the $x$- and $y$-intercepts algebraically for: $$\\mathbf{5x + 2y = 6}$$ Then re-write the equation into slope-int",
+    "scriptShort": "[Prof. Park] Example 3A on page 34: Find the $x$- and $y$-intercepts algebraically for $5x + 2y = 6$, and then re-write the equation in slope-intercept form.  [TA Sora] Let us find the **$x$-intercept"
+  },
+  {
+    "lec": 19,
+    "slide": 1,
+    "title": "Section 2.1 Example 3B: Intercepts for 4x - 5y = 10",
+    "problemShort": "### Example 3B (Workbook p. 35) Find the $x$- and $y$-intercepts algebraically for: $$\\mathbf{4x - 5y = 10}$$ Then re-write the equation into slope-in",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 19 of M090! Today we continue Section 2.1, diving deeper into intercepts, direct variation through the origin, and the famous special lines: horizontal lines and vertic"
+  },
+  {
+    "lec": 19,
+    "slide": 2,
+    "title": "Section 2.1 Example 3C: Intercepts for y = -3/2x - 3",
+    "problemShort": "### Example 3C (Workbook p. 36) Find the $x$- and $y$-intercepts algebraically for: $$\\mathbf{y = -\\frac{3}{2}x - 3}$$ Then graph the equation on the ",
+    "scriptShort": "[Prof. Park] Turn to page 36 for Example 3C: Find the intercepts for $y = -\\frac{3}{2}x - 3$.  [TA Sora] Notice that this equation is already presented in slope-intercept form! That means we get the $"
+  },
+  {
+    "lec": 19,
+    "slide": 3,
+    "title": "Section 2.1 Example 3D: Direct Variation y = 2x",
+    "problemShort": "### Example 3D (Workbook p. 36) Find the $x$- and $y$-intercepts algebraically for: $$\\mathbf{y = 2x}$$ What happens when both intercepts are $(0, 0)$",
+    "scriptShort": "[Prof. Park] Now examine Example 3D on page 36: Find the $x$- and $y$-intercepts for the direct variation equation $y = 2x$.   [TA Sora] This is a fascinating problem that surprises many students! Let"
+  },
+  {
+    "lec": 19,
+    "slide": 4,
+    "title": "Section 2.1 Example 3E: Horizontal Line y = -2",
+    "problemShort": "### Horizontal Lines: Example 3E (Workbook p. 37) Find the intercepts and slope-intercept form for: $$\\mathbf{y = -2}$$ - State the $x$-intercept (if ",
+    "scriptShort": "[Prof. Park] On page 37, we encounter two of the most famous special cases in all of algebra. First is Example 3E: Graph the equation $y = -2$ and analyze its intercepts and slope.  [TA Sora] Look at "
+  },
+  {
+    "lec": 19,
+    "slide": 5,
+    "title": "Section 2.1 Example 3F: Vertical Line x = 3",
+    "problemShort": "### Vertical Lines: Example 3F (Workbook p. 37) Find the intercepts and slope-intercept form for: $$\\mathbf{x = 3}$$ - State the $x$-intercept. - Stat",
+    "scriptShort": "[Prof. Park] Now turn to Example 3F on page 37: Graph the equation $x = 3$ and analyze its intercepts and slope.  [TA Sora] This is the counterpart to Example 3E. Here, the equation is $x = 3$. There "
+  },
+  {
+    "lec": 19,
+    "slide": 6,
+    "title": "The Famous 'HOY VUX' Mnemonic for Special Lines",
+    "problemShort": "### The 'HOY VUX' Rule (Workbook p. 37) How can you permanently remember the equations and slopes of horizontal and vertical lines? - **H - O - Y:**  ",
+    "scriptShort": "[Prof. Park] On Slide 6, we introduce the single most famous, time-tested mnemonic in American algebra education: The HOY VUX Rule!  [TA Sora] HOY VUX! Every student in Gallatin College should write H"
+  },
+  {
+    "lec": 19,
+    "slide": 7,
+    "title": "Intersecting Special Lines: y = -2 and x = 3",
+    "problemShort": "### Intersection of Horizontal & Vertical Lines Plot both $y = -2$ (from Example 3E) and $x = 3$ (from Example 3F) on the same coordinate grid: - Stat",
+    "scriptShort": "[Prof. Park] On Slide 7, we place both special lines together on the exact same coordinate plane: the horizontal line $y = -2$ and the vertical line $x = 3$.  [TA Sora] Look at how they intersect! The"
+  },
+  {
+    "lec": 19,
+    "slide": 8,
+    "title": "Section 2.1 Mastery Review",
+    "problemShort": "### Section 2.1 Graphing Summary - **Table Method:** Pick $x=0$, $y=0$, and a third checkpoint. - **Intercept Method:** Plot $(a, 0)$ and $(0, b)$. - ",
+    "scriptShort": "[Prof. Park] Slide 8 brings us to the Section 2.1 Mastery Review. Let us consolidate our three graphing strategies so you can choose the optimal tool for any problem on your homework.  [TA Sora] Strat"
+  },
+  {
+    "lec": 20,
+    "slide": 1,
+    "title": "The Slope of a Line: Rise Over Run & Formula",
+    "problemShort": "### Section 2.2: Slope of a Line (Workbook p. 38) Slope measures the **steepness and direction** of a straight line: $$\\mathbf{\\text{Slope } = m = \\fr",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 20 of M090! Today, on pages 38 and 39 of your workbook, we begin Section 2.2: The Slope of a Line and Rates of Change.  [TA Sora] If there is one concept in all of intr"
+  },
+  {
+    "lec": 20,
+    "slide": 2,
+    "title": "Section 2.2 Example 1A: Slope between (2, 3) and (5, 7)",
+    "problemShort": "### Example 1A (Workbook p. 38) Find the slope of the line that passes through the two given points: $$\\mathbf{(2, 3) \\quad \\text{and} \\quad (5, 7)}$$",
+    "scriptShort": "[Prof. Park] Let us apply the slope formula directly to Example 1A on page 38: Find the slope of the line passing through $(2, 3)$ and $(5, 7)$.  [TA Sora] Step 1: Label your coordinates clearly to av"
+  },
+  {
+    "lec": 20,
+    "slide": 3,
+    "title": "Section 2.2 Example 1B: Slope between (3, -4) and (-2, -8)",
+    "problemShort": "### Example 1B (Workbook p. 38) Find the slope of the line that passes through the two given points: $$\\mathbf{(3, -4) \\quad \\text{and} \\quad (-2, -8)",
+    "scriptShort": "[Prof. Park] Now let us tackle Example 1B on page 38: Find the slope of the line passing through $(3, -4)$ and $(-2, -8)$.  [TA Sora] Look at all those negative signs! This is where TA Sora's Protecti"
+  },
+  {
+    "lec": 20,
+    "slide": 4,
+    "title": "Section 2.2 Example 1C: Slope between (3, 7) and (3, -10)",
+    "problemShort": "### Example 1C (Workbook p. 38) Find the slope of the line that passes through the two given points: $$\\mathbf{(3, 7) \\quad \\text{and} \\quad (3, -10)}",
+    "scriptShort": "[Prof. Park] Look at Example 1C on page 38: Find the slope of the line passing through $(3, 7)$ and $(3, -10)$. Look very closely at those two points before writing anything down. What do you notice, "
+  },
+  {
+    "lec": 20,
+    "slide": 5,
+    "title": "Section 2.2 Example 1D: Slope between (-2, -5) and (3, -5)",
+    "problemShort": "### Example 1D (Workbook p. 38) Find the slope of the line that passes through the two given points: $$\\mathbf{(-2, -5) \\quad \\text{and} \\quad (3, -5)",
+    "scriptShort": "[Prof. Park] Now examine Example 1D on page 38: Find the slope of the line passing through $(-2, -5)$ and $(3, -5)$. What do you notice about these two points?  [TA Sora] Now the $y$-coordinates are i"
+  },
+  {
+    "lec": 20,
+    "slide": 6,
+    "title": "Section 2.2 Example 1E: Fraction Coordinates",
+    "problemShort": "### Example 1E: Fraction Coordinates (Workbook p. 38) Find the slope of the line passing through: $$\\mathbf{\\left(\\frac{4}{3}, \\frac{1}{3}\\right) \\qua",
+    "scriptShort": "[Prof. Park] Turn to Example 1E on page 38: Fraction Coordinates! Find the slope of the line passing through $\\left(\\frac{1}{2}, \\frac{1}{3}\\right)$ and $\\left(\\frac{3}{4}, \\frac{7}{5}\\right)$.  [TA S"
+  },
+  {
+    "lec": 20,
+    "slide": 7,
+    "title": "Section 2.2 Example 2A: Counting Slope from a Graph",
+    "problemShort": "### Example 2A (Workbook p. 39) Find the slope of the line shown in the graph: - Identify two grid intersections: $(0, 1)$ and $(3, 3)$. - Count the v",
+    "scriptShort": "[Prof. Park] Moving to page 39, Example 2A: Finding the slope directly by counting Rise over Run from a given graph!  [TA Sora] Sometimes on an exam, you are not given coordinates in a sentence; you a"
+  },
+  {
+    "lec": 20,
+    "slide": 8,
+    "title": "Section 2.2 Example 2B: Counting Negative Slope from Graph",
+    "problemShort": "### Example 2B (Workbook p. 39) Find the slope of the line shown in the graph: - Identify two grid intersections: $(0, 4)$ and $(2, 0)$. - Determine w",
+    "scriptShort": "[Prof. Park] Now let us inspect Example 2B on page 39: Finding a negative slope from a graph.  [TA Sora] Let us locate two clean grid intersections on this line: Point 1 is the $y$-intercept at $(0, 4"
+  },
+  {
+    "lec": 20,
+    "slide": 9,
+    "title": "Section 2.2 Part 1 Mastery Summary",
+    "problemShort": "### Four Types of Slope on the Coordinate Plane - **Positive ($m > 0$):** Slants uphill / rises to the right. - **Negative ($m < 0$):** Slants downhil",
+    "scriptShort": "[Prof. Park] On Slide 9, we conclude Section 2.2 Part 1 with the Four Universal Types of Slope on the Coordinate Plane. Every line in the universe falls into one of these four categories.  [TA Sora] L"
+  },
+  {
+    "lec": 21,
+    "slide": 1,
+    "title": "Parallel & Perpendicular Lines: Definitions & Slopes",
+    "problemShort": "### Parallel & Perpendicular Lines (Workbook p. 40) - **Parallel Lines:** Two lines that never intersect in a plane.   $$\\mathbf{m_1 = m_2 \\quad \\text",
+    "scriptShort": "[Prof. Park] Welcome back, students, to Lecture 21 of M090 Introductory Algebra! Today on page 40 of your workbook, we step into one of the most practically vital topics in all of geometry and algebra"
+  },
+  {
+    "lec": 21,
+    "slide": 2,
+    "title": "Section 2.2 Example 3: Comparing Slopes",
+    "problemShort": "### Example 3 (Workbook p. 40) Determine if the two lines with the given slopes are **parallel, perpendicular, or neither**: $$\\mathbf{m_1 = \\frac{2}{",
+    "scriptShort": "[Prof. Park] Let us immediately apply Sora's Two-Flip Rule to Example 3 on page 40 of your workbook: Determine if the lines with the given pairs of slopes are parallel, perpendicular, or neither.  [TA"
+  },
+  {
+    "lec": 21,
+    "slide": 3,
+    "title": "Section 2.2 Example 4 (Step 1): Solving Line 1",
+    "problemShort": "### Example 4 (Workbook p. 40) Determine if the two lines are parallel, perpendicular, or neither: $$\\text{Line 1: } \\mathbf{x + y = 5}$$ $$\\text{Line",
+    "scriptShort": "[Prof. Park] Now turn to Example 4 on page 40 of your workbook: Determine if the two lines $x + y = 5$ and $-2x - 2y = 7$ are parallel, perpendicular, or neither. On this slide, we tackle Step 1: Anal"
+  },
+  {
+    "lec": 21,
+    "slide": 4,
+    "title": "Section 2.2 Example 4 (Step 2): Solving Line 2",
+    "problemShort": "### Example 4 Step 2 (Workbook p. 40) Now solve Line 2 for $y$: $$\\mathbf{-2x - 2y = 7}$$ - Add $2x$ to both sides. - Divide each term by $-2$. - Iden",
+    "scriptShort": "[Prof. Park] On Slide 4, we execute Step 2 of Example 4: Converting Line 2, $-2x - 2y = 7$, into Slope-Intercept Form.  [TA Sora] Look at all those negative signs! This equation requires disciplined, "
+  },
+  {
+    "lec": 21,
+    "slide": 5,
+    "title": "Section 2.2 Example 4 (Conclusion & Graph): Parallel Lines",
+    "problemShort": "### Example 4 Conclusion & Graph Compare slopes $m_1 = -1$ and $m_2 = -1$ with intercepts $b_1 = 5$ and $b_2 = -3.5$: - State the final relationship. ",
+    "scriptShort": "[Prof. Park] On Slide 5, we present the visual confirmation and mathematical conclusion for Example 4. Look at the coordinate plane on your screen!  [TA Sora] Let us conduct our formal two-step compar"
+  },
+  {
+    "lec": 21,
+    "slide": 6,
+    "title": "Section 2.2 Example 5 (Step 1): Solving Line 1",
+    "problemShort": "### Example 5 (Workbook p. 40) Determine if the two lines are parallel, perpendicular, or neither: $$\\text{Line 1: } \\mathbf{2y = x - 2}$$ $$\\text{Lin",
+    "scriptShort": "[Prof. Park] Now let us move to Example 5 on page 40 of your workbook: Determine if the two lines $-x + 2y = 6$ and $2x + y = 4$ are parallel, perpendicular, or neither. On this slide, we begin Step 1"
+  },
+  {
+    "lec": 21,
+    "slide": 7,
+    "title": "Section 2.2 Example 5 (Step 2 & Graph): Perpendicular Lines",
+    "problemShort": "### Example 5 Conclusion & Graph (Workbook p. 40) Compare the slopes: $$\\mathbf{m_1 = \\frac{1}{2} \\quad \\text{and} \\quad m_2 = -2}$$ - Calculate the p",
+    "scriptShort": "[Prof. Park] On Slide 7, we solve Line 2 of Example 5: $2x + y = 4$, and deliver our visual and algebraic conclusion.  [TA Sora] Let us isolate $y$ in Line 2: $$2x + y = 4$$ Subtract $2x$ from both si"
+  },
+  {
+    "lec": 21,
+    "slide": 8,
+    "title": "Section 2.2 Mastery: Parallel & Perpendicular Tests",
+    "problemShort": "### Master Slope Comparison Rules - **Parallel:** $m_1 = m_2$ (Same slope, different intercepts) - **Perpendicular:** $m_1 \\cdot m_2 = -1$ (Opposite r",
+    "scriptShort": "[Prof. Park] On Slide 8, we present the Section 2.2 Parallel & Perpendicular Master Summary Checklist. Let us cement these principles into your mathematical reflex system.  [TA Sora] Here is your univ"
+  },
+  {
+    "lec": 22,
+    "slide": 1,
+    "title": "Section 2.3: Point-Slope Form of a Line",
+    "problemShort": "### Point-Slope Form (Workbook p. 41) $$\\mathbf{y - y_1 = m(x - x_1)}$$ - $m$ is the slope. - $(x_1, y_1)$ is **any point** on the line. - Can be used",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 22 of M090 Introductory Algebra! Today on page 41 of your workbook, we open Section 2.3: Writing Equations of Lines.  [TA Sora] In Sections 2.1 and 2.2, we played the r"
+  },
+  {
+    "lec": 22,
+    "slide": 2,
+    "title": "Section 2.3 Example 1: Slope -4/3 and Y-Intercept (0, -3)",
+    "problemShort": "### Example 1 (Workbook p. 41) Find the equation of the line with a $y$-intercept of $(0, -3)$ and a slope of $m = -\\frac{4}{3}$. - Write the equation",
+    "scriptShort": "[Prof. Park] Example 1 on page 41: Find the equation of the line with a slope of $\\frac{3}{2}$ that contains the point $(-4, 1)$. Write your final answer in Slope-Intercept Form $y = mx + b$.  [TA Sor"
+  },
+  {
+    "lec": 22,
+    "slide": 3,
+    "title": "Section 2.3 Example 2: Slope -4/3 and X-Intercept (-3, 0)",
+    "problemShort": "### Example 2 (Workbook p. 41) Find the equation of the line with $x$-intercept of $(-3, 0)$ and a slope of $m = -\\frac{4}{3}$. - Can you plug $-3$ in",
+    "scriptShort": "[Prof. Park] Now turn to Example 2 on page 41: Find the equation of the line with an $x$-intercept of $(-3, 0)$ and a slope of $-\\frac{4}{3}$. Write the equation in slope-intercept form.  [TA Sora] St"
+  },
+  {
+    "lec": 22,
+    "slide": 4,
+    "title": "Section 2.3 Example 3 (Step 1): Finding Slope between (2, 3) and (-6, 1)",
+    "problemShort": "### Example 3 Step 1 (Workbook p. 41) Find the equation of the line that contains the points: $$\\mathbf{(2, 3) \\quad \\text{and} \\quad (-6, 1)}$$ First",
+    "scriptShort": "[Prof. Park] On Slide 4, we examine Example 3 Step 1 on page 41: Find the equation of the line that contains the two points $(2, 3)$ and $(-6, 1)$.  [TA Sora] Look at what is given here: We are given "
+  },
+  {
+    "lec": 22,
+    "slide": 5,
+    "title": "Section 2.3 Example 3 (Step 2 & Graph): Point-Slope to Slope-Intercept",
+    "problemShort": "### Example 3 Step 2 (Workbook p. 41) Now use $m = \\frac{1}{4}$ and point $(2, 3)$ to find the equation in slope-intercept form: - Apply $y - y_1 = m(",
+    "scriptShort": "[Prof. Park] On Slide 5, we execute Example 3 Step 2: Use the slope $m = \\frac{1}{4}$ and the point $(2, 3)$ to find the equation in Slope-Intercept Form $y = mx + b$.  [TA Sora] A question students a"
+  },
+  {
+    "lec": 22,
+    "slide": 6,
+    "title": "Section 2.3 Example 4: Points (1, 7) and (-3, 7)",
+    "problemShort": "### Example 4 (Workbook p. 42) Find the equation of the line that contains the points: $$\\mathbf{(1, 7) \\quad \\text{and} \\quad (-3, 7)}$$ - Notice the",
+    "scriptShort": "[Prof. Park] Turn to Example 4 on page 42: Find the equation of the line containing the points $(1, 7)$ and $(-3, 7)$.  [TA Sora] Before you grab your pencil and start writing out point-slope formulas"
+  },
+  {
+    "lec": 22,
+    "slide": 7,
+    "title": "Section 2.3 Example 5: Points (2, -8) and (2, 1)",
+    "problemShort": "### Example 5 (Workbook p. 42) Find the equation of the line that contains the points: $$\\mathbf{(2, -8) \\quad \\text{and} \\quad (2, 1)}$$ - Notice the",
+    "scriptShort": "[Prof. Park] Now examine Example 5 on page 42: Find the equation of the line containing the points $(2, -8)$ and $(2, 1)$.  [TA Sora] Again, run your Three-Second Scan! Look at the coordinates: Point "
+  },
+  {
+    "lec": 22,
+    "slide": 8,
+    "title": "Section 2.3 Part 1 Mastery Summary",
+    "problemShort": "### Line Equation Strategies 1. **Given $m$ and $y$-intercept $(0, b)$:** Use $y = mx + b$. 2. **Given $m$ and any point $(x_1, y_1)$:** Use $y - y_1 ",
+    "scriptShort": "[Prof. Park] On Slide 8, we present the Section 2.3 Part 1 Master Line-Building Flowchart. This is the master algorithm that professional mathematicians, GIS cartographers, and civil engineers use eve"
+  },
+  {
+    "lec": 23,
+    "slide": 1,
+    "title": "Section 2.3 Example 6: Parallel Line through (-1, 3)",
+    "problemShort": "### Example 6 (Workbook p. 42) Find the equation of the line containing the point $(-1, 3)$ and **parallel** to the line: $$\\mathbf{2x + y = 10}$$ - F",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 23 of M090! Today on pages 42 through 44 of your workbook, we reach the grand synthesis of Section 2.3: Writing equations of lines that pass through specific points and"
+  },
+  {
+    "lec": 23,
+    "slide": 2,
+    "title": "Section 2.3 Example 7: Perpendicular Line through (2, -3)",
+    "problemShort": "### Example 7 (Workbook p. 42) Find the equation of the line containing the point $(2, -3)$ and **perpendicular** to the line: $$\\mathbf{4y - x = 20}$",
+    "scriptShort": "[Prof. Park] Now turn to Example 7 on page 42: Find the equation of the line containing the point $(2, -3)$ and **perpendicular** to the line $y = -\\frac{1}{3}x + 2$.  [TA Sora] Notice that crucial wo"
+  },
+  {
+    "lec": 23,
+    "slide": 3,
+    "title": "In-Class Practice #1: Y-intercept (0, 5) and m = -3/5",
+    "problemShort": "### In-Class Practice 1 (Workbook p. 43) Find the equation of the line with a $y$-intercept of $(0, 5)$ and a slope of $m = -\\frac{3}{5}$. - Write the",
+    "scriptShort": "[Prof. Park] On Slide 3, we begin the in-class practice marathon on page 43 with Problem #1: Find the equation of the line with a $y$-intercept of $(0, 5)$ and a slope of $-\\frac{3}{5}$.  [TA Sora] Th"
+  },
+  {
+    "lec": 23,
+    "slide": 4,
+    "title": "In-Class Practice #2: X-intercept (5, 0) and m = 3/5",
+    "problemShort": "### In-Class Practice 2 (Workbook p. 43) Find the equation of the line with $x$-intercept of $(5, 0)$ and a slope of $m = \\frac{3}{5}$. - Use point-sl",
+    "scriptShort": "[Prof. Park] Now examine In-Class Practice Problem #2 on page 43: Find the equation of the line with an $x$-intercept of $(5, 0)$ and a slope of $\\frac{3}{5}$.  [TA Sora] Compare Problem #2 side by si"
+  },
+  {
+    "lec": 23,
+    "slide": 5,
+    "title": "In-Class Practice #3: Through (-2, -3) and (6, 1)",
+    "problemShort": "### In-Class Practice 3 (Workbook p. 43) Find the equation of the line that contains the points: $$\\mathbf{(-2, -3) \\quad \\text{and} \\quad (6, 1)}$$ -",
+    "scriptShort": "[Prof. Park] Turn to In-Class Practice Problem #3 on page 43: Find the equation of the line containing the points $(-2, -3)$ and $(6, 1)$.  [TA Sora] This is the classic two-point challenge! Imagine a"
+  },
+  {
+    "lec": 23,
+    "slide": 6,
+    "title": "In-Class Practice #4 & #5: Special Lines",
+    "problemShort": "### In-Class Practice 4 & 5 (Workbook pp. 43–44) Find the equations of the lines: - **#4:** Points $(2, -9)$ and $(2, -3)$ - **#5:** Points $(5, -2)$ ",
+    "scriptShort": "[Prof. Park] On Slide 6, we examine In-Class Practice Problems #4 and #5 from pages 43 and 44: The Special Lines.  [TA Sora] Problem #4 asks for the equation of the line containing $(4, 2)$ and $(4, -"
+  },
+  {
+    "lec": 23,
+    "slide": 7,
+    "title": "In-Class Practice #6: Parallel to 3x - y = 7 through (2, 1)",
+    "problemShort": "### In-Class Practice 6 (Workbook p. 44) Find the equation of the line containing the point $(2, 1)$ and **parallel** to the line: $$\\mathbf{3x - y = ",
+    "scriptShort": "[Prof. Park] In-Class Practice Problem #6 on page 44: Find the equation of the line containing $(2, 1)$ and **parallel** to $3x - y = 7$.  [TA Sora] Step 1: Find the slope of the reference line by sol"
+  },
+  {
+    "lec": 23,
+    "slide": 8,
+    "title": "In-Class Practice #7: Perpendicular to 2y - x = 20 through (6, 3)",
+    "problemShort": "### In-Class Practice 7 (Workbook p. 44) Find the equation of the line containing the point $(6, 3)$ and **perpendicular** to the line: $$\\mathbf{2y -",
+    "scriptShort": "[Prof. Park] In-Class Practice Problem #7 on page 44: Find the equation of the line containing $(6, 3)$ and **perpendicular** to $2y - x = 20$.  [TA Sora] Step 1: Solve the reference line for $y$: $$2"
+  },
+  {
+    "lec": 24,
+    "slide": 1,
+    "title": "Section 2.4: Relations, Domain & Range",
+    "problemShort": "### Fundamentals of Relations (Workbook p. 45) - **Relation:** Any set of ordered pairs $(x, y)$. - **Input:** The first value in the ordered pair ($x",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 24 of M090! Today on page 45 of your workbook, we step into one of the most foundational concepts in all of modern science, data analytics, and calculus: Section 2.4, R"
+  },
+  {
+    "lec": 24,
+    "slide": 2,
+    "title": "Section 2.4 Example 1: Domain & Range of a Discrete Relation",
+    "problemShort": "### Example 1 (Workbook p. 45) For the following relation, determine the domain and range: $$\\mathbf{\\{(1, -1), (2, 5), (3, 10), (4, 16), (2, -3)\\}}$$",
+    "scriptShort": "[Prof. Park] Example 1 on page 45: For the following relation, determine the domain and the range: $$\\{(1, -1), (2, 0), (3, 1), (4, 2), (1, 3)\\}$$  [TA Sora] Let us examine the inputs first to find th"
+  },
+  {
+    "lec": 24,
+    "slide": 3,
+    "title": "Section 2.4 Example 1: Coordinate Grid of Discrete Points",
+    "problemShort": "### Visualizing Example 1 on the Coordinate Plane Plot all five points of the relation: $$(1, -1), \\; (2, 5), \\; (3, 10), \\; (4, 16), \\; (2, -3)$$ Wha",
+    "scriptShort": "[Prof. Park] On Slide 3, we take those five ordered pairs from Example 1 and plot them onto the Cartesian coordinate plane: $(1, -1)$, $(2, 0)$, $(3, 1)$, $(4, 2)$, and $(1, 3)$.  [TA Sora] Look at ho"
+  },
+  {
+    "lec": 24,
+    "slide": 4,
+    "title": "Mapping Diagrams: Visualizing Relations",
+    "problemShort": "### Mapping Diagrams (Domain $\\rightarrow$ Range) In a mapping diagram: - The left oval contains the **Domain** elements. - The right oval contains th",
+    "scriptShort": "[Prof. Park] Slide 4 introduces one of the most intuitive visual tools in all of mathematics: The Mapping Diagram.  [TA Sora] A mapping diagram translates abstract ordered pairs into a clear visual fl"
+  },
+  {
+    "lec": 24,
+    "slide": 5,
+    "title": "Section 2.4 Example 2 (Graph A): Continuous Domain & Range",
+    "problemShort": "### Example 2 Graph A (Workbook p. 45) For the line segment shown on the graph extending from $(-4, -2)$ to $(4, 2)$: - Determine the **Domain** in in",
+    "scriptShort": "[Prof. Park] Turn to page 45 for Example 2 Graph A: Determining the Domain and Range of a Continuous Line Segment.  [TA Sora] Here the graph is not a collection of isolated dots; it is a solid, unbrok"
+  },
+  {
+    "lec": 24,
+    "slide": 6,
+    "title": "Section 2.4 Example 2 (Graph B): Bounded Curve",
+    "problemShort": "### Example 2 Graph B (Workbook p. 45) For the graph shown extending from $x = -3$ to $x = 5$ with minimum $y = -2$ and peak $y = 4$: - State the **Do",
+    "scriptShort": "[Prof. Park] Now examine Example 2 Graph B on page 45: A Bounded Curve.  [TA Sora] This is a curved wave that extends horizontally from $x = -3$ to $x = 5$. Notice the endpoints: at $x = -3$, there is"
+  },
+  {
+    "lec": 24,
+    "slide": 7,
+    "title": "Interval Notation vs Set-Builder Notation",
+    "problemShort": "### How to Report Domain and Range (Workbook p. 45) - **Discrete Relations (individual points):**   Use set braces listing numbers: $\\{1, 2, 3, 4\\}$. ",
+    "scriptShort": "[Prof. Park] On Slide 7, we compare the two fundamental notation languages used in algebra: Roster Notation for Discrete Sets versus Interval Notation for Continuous Graphs.  [TA Sora] Let us make sur"
+  },
+  {
+    "lec": 24,
+    "slide": 8,
+    "title": "Section 2.4 Part 1 Mastery Summary",
+    "problemShort": "### Section 2.4 Part 1 Master Checklist - **Input = $x$-coordinate** - **Output = $y$-coordinate** - **Domain = set of all inputs** (look left to righ",
+    "scriptShort": "[Prof. Park] Slide 8 brings us to the Section 2.4 Part 1 Mastery Checklist. Let us review the golden rules before we step into the definition of a function.  [TA Sora] Rule 1: A relation is any set of"
+  },
+  {
+    "lec": 25,
+    "slide": 1,
+    "title": "The Formal Definition of a Function",
+    "problemShort": "### Definition: What is a Function? (Workbook p. 46) A **function** is a relation that assigns **each element in its domain to exactly one element in ",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 25 of M090! Today on page 46 of your workbook, we arrive at the crown jewel of introductory algebra: The Formal Definition of a Function and the Vertical Line Test.  [T"
+  },
+  {
+    "lec": 25,
+    "slide": 2,
+    "title": "Section 2.4 Example 3: Testing Example 1 for Function Status",
+    "problemShort": "### Example 3 (Workbook p. 46) Based off the definition of a function, determine if Example 1 is a function: $$\\mathbf{\\{(1, -1), (2, 5), (3, 10), (4,",
+    "scriptShort": "[Prof. Park] Let us apply that vending machine test directly to Example 3 on page 46: Based off the definition of a function, determine if Example 1 from page 45 is a function.  [TA Sora] Let us recal"
+  },
+  {
+    "lec": 25,
+    "slide": 3,
+    "title": "The Vertical Line Test (VLT)",
+    "problemShort": "### The Vertical Line Test (Workbook p. 46) A set of points in a rectangular coordinate system is the **graph of a function** if **every vertical line",
+    "scriptShort": "[Prof. Park] On Slide 3, we translate that algebraic definition of a function into a visual, geometric tool: The Vertical Line Test, universally known as the **VLT**!  [TA Sora] The Vertical Line Test"
+  },
+  {
+    "lec": 25,
+    "slide": 4,
+    "title": "Section 2.4 Example 4A: Parabola y = x^2 - 2 (Passes VLT)",
+    "problemShort": "### Example 4A (Workbook p. 46) Determine if the parabola $y = x^2 - 2$ represents a function: - Apply the Vertical Line Test. - State whether it is a",
+    "scriptShort": "[Prof. Park] Example 4A on page 46: Determine if the parabola $y = x^2 - 2$ represents a function.  [TA Sora] Look at the graph on your screen: it is a smooth, U-shaped parabola opening upward, with i"
+  },
+  {
+    "lec": 25,
+    "slide": 5,
+    "title": "Section 2.4 Example 4B: Circle x^2 + y^2 = 16 (Fails VLT)",
+    "problemShort": "### Example 4B (Workbook p. 46) Determine if the circle $x^2 + y^2 = 16$ represents a function: - Apply the Vertical Line Test. - Identify a specific ",
+    "scriptShort": "[Prof. Park] Now examine Example 4B on page 46: Determine if the circle $x^2 + y^2 = 16$ represents a function.  [TA Sora] Look at the graph: it is a circle of radius 4 centered at the origin $(0, 0)$"
+  },
+  {
+    "lec": 25,
+    "slide": 6,
+    "title": "Section 2.4 Example 4C: Non-Vertical Line y = 2x - 1 (Passes VLT)",
+    "problemShort": "### Example 4C (Workbook p. 46) Determine if the linear equation $y = 2x - 1$ represents a function: - Apply the Vertical Line Test. - State whether a",
+    "scriptShort": "[Prof. Park] Turn to Example 4C on page 46: Determine if the linear equation $y = 2x - 1$ represents a function.  [TA Sora] Look at the graph: it is a straight line with slope $m = 2$ and $y$-intercep"
+  },
+  {
+    "lec": 25,
+    "slide": 7,
+    "title": "Section 2.4 Example 4D: Vertical Line x = 3 (Fails VLT Infinitely)",
+    "problemShort": "### Example 4D (Workbook p. 46) Determine if the vertical line $x = 3$ represents a function: - Apply the Vertical Line Test at $x = 3$. - How many ti",
+    "scriptShort": "[Prof. Park] On Slide 7, we test the ultimate extreme in Example 4D on page 46: Determine if the vertical line $x = 3$ represents a function.  [TA Sora] Look at the graph: it is a vertical line passin"
+  },
+  {
+    "lec": 25,
+    "slide": 8,
+    "title": "Section 2.4 Complete Mastery Summary",
+    "problemShort": "### Summary of Section 2.4 Functions - **Definition:** Every input $x$ has exactly one output $y$. - **Ordered Pairs:** No $x$-value can repeat with d",
+    "scriptShort": "[Prof. Park] On Slide 8, we present the Section 2.4 Complete Mastery Summary. You now hold the complete conceptual toolkit for Relations, Domain, Range, and Functions!  [TA Sora] Let us review our mas"
+  },
+  {
+    "lec": 26,
+    "slide": 1,
+    "title": "Section 2.5: Function Notation f(x)",
+    "problemShort": "### Decoding Function Notation (Workbook p. 47) $$\\mathbf{y = f(x)}$$ - **$f$:** The **name** of the function (the rule or machine). - **$x$:** The **",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 26 of M090! Today on page 47 of your workbook, we introduce the single most important symbolic language in all of modern STEM: Section 2.5, Function Notation.  [TA Sora"
+  },
+  {
+    "lec": 26,
+    "slide": 2,
+    "title": "Section 2.5 Example 1 & 2: Comparing y and f(x)",
+    "problemShort": "### Examples 1 & 2 (Workbook p. 47) - **Example 1:** Consider the linear equation $y = 4x - 5$. Find the value of $y$ when $x = 2$. - **Example 2:** C",
+    "scriptShort": "[Prof. Park] On Slide 2, we compare the old language of $y$ with the new language of $f(x)$ using Examples 1 and 2 on page 47 of your workbook.  [TA Sora] In Example 1, we are given the familiar linea"
+  },
+  {
+    "lec": 26,
+    "slide": 3,
+    "title": "Three Reasons Why Function Notation is Essential",
+    "problemShort": "### Why We Use Function Notation (Workbook p. 47) 1. **Guarantee of Single Output:** Writing $f(x)$ guarantees that the relation is indeed a function ",
+    "scriptShort": "[Prof. Park] On Slide 3, we summarize the Three Primary Reasons Why Function Notation is Absolutely Essential in STEM fields.  [TA Sora] Reason 1: **Guaranteed Predictability (Single Output)**. Writin"
+  },
+  {
+    "lec": 26,
+    "slide": 4,
+    "title": "Section 2.5 Example 3A & 3B: Negative Inputs",
+    "problemShort": "### Example 3A & 3B (Workbook p. 48) Let $\\mathbf{g(x) = -2x + 7}$ and $\\mathbf{h(x) = 3x - 5}$. Evaluate: - **A.** $g(-1)$ - **B.** $h(-1)$ Use prope",
+    "scriptShort": "[Prof. Park] Turn to page 48 of your workbook for Example 3A and 3B: Evaluating Functions with Negative Inputs. We are given two distinct linear functions: $$g(x) = -2x + 7 \\quad \\text{and} \\quad h(x)"
+  },
+  {
+    "lec": 26,
+    "slide": 5,
+    "title": "Section 2.5 Example 3C & 3D: Evaluating at Zero & Y-Intercepts",
+    "problemShort": "### Example 3C & 3D (Workbook p. 48) Let $\\mathbf{g(x) = -2x + 7}$ and $\\mathbf{h(x) = 3x - 5}$. Evaluate: - **C.** $h(0)$ - **D.** $g(0)$ What graphi",
+    "scriptShort": "[Prof. Park] On Slide 5, we examine Example 3C and 3D on page 48: Evaluating Functions at Zero and Connecting to $y$-Intercepts. We continue with: $$g(x) = -2x + 7 \\quad \\text{and} \\quad h(x) = 3x - 5"
+  },
+  {
+    "lec": 26,
+    "slide": 6,
+    "title": "Section 2.5 Example 3E & 3F: Fraction & Variable Inputs",
+    "problemShort": "### Example 3E & 3F (Workbook p. 48) Let $\\mathbf{g(x) = -2x + 7}$ and $\\mathbf{h(x) = 3x - 5}$. Evaluate: - **E.** $g\\left(\\frac{5}{2}\\right)$ - **F.",
+    "scriptShort": "[Prof. Park] Turn to Example 3E and 3F on page 48: Evaluating Functions with Fractions and Variable Inputs! Our functions remain: $$g(x) = -2x + 7 \\quad \\text{and} \\quad h(x) = 3x - 5$$  [TA Sora] Let"
+  },
+  {
+    "lec": 26,
+    "slide": 7,
+    "title": "Section 2.5 Example 3G & 3H: Binomial Inputs",
+    "problemShort": "### Example 3G & 3H (Workbook p. 48) Let $\\mathbf{g(x) = -2x + 7}$ and $\\mathbf{h(x) = 3x - 5}$. Evaluate: - **G.** $g(x - 7)$ - **H.** $h(k + 1)$ Sub",
+    "scriptShort": "[Prof. Park] Now let us examine Example 3G and 3H on page 48: Binomial and Algebraic Expression Inputs. We have: $$g(x) = -2x + 7 \\quad \\text{and} \\quad h(x) = 3x - 5$$  [TA Sora] Look at Part G: Find"
+  },
+  {
+    "lec": 26,
+    "slide": 8,
+    "title": "Section 2.5 Example 4: Solving for x when f(x) = k",
+    "problemShort": "### Example 4 (Workbook p. 48) Let $\\mathbf{f(x) = 5x + 3}$. Solve the following for $x$: - **A.** $f(x) = 18$ - **B.** $f(x) = -8$ Notice the differe",
+    "scriptShort": "[Prof. Park] On Slide 8, we reach Example 4 on page 48, which introduces the single most critical conceptual distinction in Section 2.5: Evaluating a Function versus Solving for $x$! We are given: $$f"
+  },
+  {
+    "lec": 27,
+    "slide": 1,
+    "title": "Reading Function Values Directly from Graphs",
+    "problemShort": "### Graph-to-Function Connections (Workbook p. 49) Every point on the graph of $y = f(x)$ has the form: $$\\mathbf{(x, y) = (x, f(x))}$$ - To find $\\ma",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 27 of M090! Today on pages 49 and 50 of your workbook, we master the visual art of Function Notation: Reading Function Values Directly from Graphs.  [TA Sora] In Lectur"
+  },
+  {
+    "lec": 27,
+    "slide": 2,
+    "title": "Section 2.5 Example 5 (Part 1): Finding h(2) and h(4)",
+    "problemShort": "### Example 5A & 5C (Workbook p. 49) Use the graph of the function $y = h(x)$ shown below to answer: - **A.** $h(2) = \\underline{\\hspace{2cm}}$ - **C.",
+    "scriptShort": "[Prof. Park] On Slide 2, we examine Example 5 Part 1 on page 49: Finding $h(2)$ and $h(4)$ using the given graph of $y = h(x)$.  [TA Sora] Look at the graph of $y = h(x)$ on your screen. It is a strai"
+  },
+  {
+    "lec": 27,
+    "slide": 3,
+    "title": "Section 2.5 Example 5 (Part 2): Solving h(x) = -3 and h(x) = -2",
+    "problemShort": "### Example 5B & 5D (Workbook p. 49) Use the graph of $y = h(x)$ to solve: - **B.** $h(x) = -3$; find $x$. - **D.** $h(x) = -2$; find $x$.",
+    "scriptShort": "[Prof. Park] Now turn to Example 5 Part 2 on page 49: Solving $h(x) = -3$ and $h(x) = -2$ for $x$.  [TA Sora] Compare these questions with Slide 2! On Slide 2, the number was inside the parentheses ($"
+  },
+  {
+    "lec": 27,
+    "slide": 4,
+    "title": "Section 2.5 Example 5 (Part 3): Intercepts & Slope",
+    "problemShort": "### Example 5E, F, G (Workbook p. 49) From the graph of $y = h(x)$: - **E. $x$-intercept:** \\underline{\\hspace{2cm}} - **F. $y$-intercept:** \\underlin",
+    "scriptShort": "[Prof. Park] On Slide 4, we examine Example 5 Part 3 on page 49: Finding Intercepts and Slope from the Graph of $y = h(x)$.  [TA Sora] Question E asks for the **$x$-intercept** of the graph. Look at w"
+  },
+  {
+    "lec": 27,
+    "slide": 5,
+    "title": "Section 2.5 Practice #1 & #2: Multi-Function Practice",
+    "problemShort": "### Practice 1 & 2 (Workbook pp. 49–50) Let $\\mathbf{f(x) = 2x - 8}$ and $\\mathbf{g(x) = x - 9}$. Evaluate: - **1A.** $g(-2)$ - **1B.** $f(4)$ - **1C.",
+    "scriptShort": "[Prof. Park] Turn to page 50 for In-Class Practice Problems #1 and #2: Multi-Function Algebraic Practice. We are given two linear functions: $$f(x) = 2x - 8 \\quad \\text{and} \\quad g(x) = x - 9$$  [TA "
+  },
+  {
+    "lec": 27,
+    "slide": 6,
+    "title": "Section 2.5 Practice #3: Solving p(x) = 2x - 11",
+    "problemShort": "### Practice 3 (Workbook p. 50) Let $\\mathbf{p(x) = 2x - 11}$. Solve the following for $x$: - **A.** $p(x) = -15$ - **B.** $p(x) = 3$",
+    "scriptShort": "[Prof. Park] On Slide 6, we examine Practice Problem #3 on page 50: Solving for $x$ given $p(x) = 2x - 11$.  [TA Sora] Look at the wording of Problem #3: 'Solve the following for $x$.' Part A asks us "
+  },
+  {
+    "lec": 27,
+    "slide": 7,
+    "title": "Section 2.5 Practice #4: Reading Graph of f(x)",
+    "problemShort": "### Practice 4 (Workbook p. 50) Use the graph of $y = f(x)$ below to answer: - **A.** $f(2) = \\underline{\\hspace{2cm}}$ - **B.** $f(x) = -3 \\implies x",
+    "scriptShort": "[Prof. Park] On Slide 7, we examine Practice Problem #4 on page 50: Reading Values from a Curved Graph of $y = f(x)$.  [TA Sora] Look at the graph on your screen: it is a smooth curve passing through "
+  },
+  {
+    "lec": 27,
+    "slide": 8,
+    "title": "Section 2.5 Mastery: Evaluation vs Solving",
+    "problemShort": "### Golden Rule of Function Notation - **Evaluate $f(a)$:** $a$ is the input ($x$). Plug it into the formula to find output $y$. - **Solve $f(x) = b$:",
+    "scriptShort": "[Prof. Park] Slide 8 brings us to the Section 2.5 Mastery Summary: The Golden Rule of Function Notation.  [TA Sora] Let us summarize this core distinction once and for all so you never mix them up on "
+  },
+  {
+    "lec": 28,
+    "slide": 1,
+    "title": "Section 2.6: Linear Functions f(x) = mx + b",
+    "problemShort": "### Linear Functions (Workbook p. 51) $$\\mathbf{f(x) = mx + b}$$ - $m$ is the **constant rate of change** (slope). - $(0, b)$ is the **vertical interc",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 28 of M090! Today on pages 51 and 52 of your workbook, we formally unite two massive branches of algebra: Section 2.6, Linear Functions.  [TA Sora] In Sections 2.1 thro"
+  },
+  {
+    "lec": 28,
+    "slide": 2,
+    "title": "Section 2.6 Example 1: Graphing f(x) = 2x - 4",
+    "problemShort": "### Example 1 (Workbook p. 51) Graph the function $\\mathbf{f(x) = 2x - 4}$, and identify the following: - **Slope:** \\underline{\\hspace{2cm}} - **$y$-",
+    "scriptShort": "[Prof. Park] Example 1 on page 51: Graph the linear function $f(x) = 2x - 4$, and identify its slope, $y$-intercept, $x$-intercept, domain, and range.  [TA Sora] Let us extract our parameters directly"
+  },
+  {
+    "lec": 28,
+    "slide": 3,
+    "title": "Section 2.6 Example 2: Graphing g(x) = -x + 4",
+    "problemShort": "### Example 2 (Workbook p. 51) Graph the function $\\mathbf{g(x) = -x + 4}$, and identify the following: - **Slope:** \\underline{\\hspace{2cm}} - **$y$-",
+    "scriptShort": "[Prof. Park] Now turn to Example 2 on page 51: Graph the linear function $g(x) = -x + 4$, and identify its slope, $y$-intercept, $x$-intercept, domain, and range.  [TA Sora] Let us analyze $g(x) = -x "
+  },
+  {
+    "lec": 28,
+    "slide": 4,
+    "title": "Section 2.6 Example 3: Domain, Range & Values from Graph",
+    "problemShort": "### Example 3 (Workbook p. 52) Using the graph at the right, answer: - **Domain:** (in interval notation) - **Range:** (in interval notation) - **$f(-",
+    "scriptShort": "[Prof. Park] On Slide 4, we examine Example 3 on page 52: Determining Domain, Range, and Function Values from a Given Graph.  [TA Sora] Look at the graph on your screen. It displays a linear function "
+  },
+  {
+    "lec": 28,
+    "slide": 5,
+    "title": "Section 2.6 Example 4: Creating Function h(x)",
+    "problemShort": "### Example 4 (Workbook p. 52) Find the equation of the linear function $h(x)$ that has a **slope of $\\frac{3}{4}$** and a **$y$-intercept at $(0, -5)",
+    "scriptShort": "[Prof. Park] Turn to page 52 for Example 4: Creating a Linear Function $h(x)$ from Given Conditions. Find the equation of the linear function $h(x)$ that has a **slope of $\\frac{3}{4}$** and a **$y$-i"
+  },
+  {
+    "lec": 28,
+    "slide": 6,
+    "title": "Section 2.6 Example 5: Creating Function k(x)",
+    "problemShort": "### Example 5 (Workbook p. 52) Find the equation of the linear function $k(x)$ that has a **slope of $\\frac{1}{5}$** and passes through the point **$(",
+    "scriptShort": "[Prof. Park] Now examine Example 5 on page 52: Creating a Linear Function $k(x)$ given a slope of $\\frac{1}{3}$ that passes through the point $(6, -2)$.  [TA Sora] Look at the given point: $(6, -2)$. "
+  },
+  {
+    "lec": 28,
+    "slide": 7,
+    "title": "Section 2.6 Example 6: Function through (2, 3) and (4, 9)",
+    "problemShort": "### Example 6 (Workbook p. 52) Find the equation of the linear function $f(x)$ that passes through the points **$(2, 3)$** and **$(4, 9)$**. - Calcula",
+    "scriptShort": "[Prof. Park] Turn to Example 6 on page 52: Find the equation of the linear function $f(x)$ that passes through the two points $(2, 3)$ and $(4, 9)$.  [TA Sora] Here we are given TWO points, but no slo"
+  },
+  {
+    "lec": 28,
+    "slide": 8,
+    "title": "Section 2.6 Example 7: Constant Function through (7, 9) and (-4, 9)",
+    "problemShort": "### Example 7 (Workbook p. 52) Find the equation of the linear function $g(x)$ that contains the points **$(7, 9)$** and **$(-4, 9)$**. - Notice the s",
+    "scriptShort": "[Prof. Park] On Slide 8, we examine Example 7 on page 52: Find the equation of the linear function $g(x)$ that contains the points $(7, 9)$ and $(-4, 9)$.  [TA Sora] Apply TA Sora's Three-Second Scan!"
+  },
+  {
+    "lec": 29,
+    "slide": 1,
+    "title": "Section 2.7: Modeling with Linear Functions",
+    "problemShort": "### Modeling with Linear Functions (Workbook p. 53) $$\\mathbf{f(x) = mx + b}$$ In real-world applications: - **$m$ = Rate of Change:** (e.g. dollars p",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 29 of M090! Today on pages 53 and 54 of your workbook, we step into the true practical power of mathematics: Section 2.7, Modeling with Linear Functions.  [TA Sora] Up "
+  },
+  {
+    "lec": 29,
+    "slide": 2,
+    "title": "Section 2.7 Example 1 (Part 1): Kim's Bozeman Ski Rental Model",
+    "problemShort": "### Kim's Bozeman Ski Rental (Workbook p. 53) Kim owns a ski rental business in Bozeman. His monthly fixed costs are **$2450** (rent, utilities, suppl",
+    "scriptShort": "[Prof. Park] Example 1 Part 1 on page 53: Kim owns a ski rental business in Bozeman. His monthly fixed costs—which cover his shop lease on Main Street, insurance, and utilities—are **$350**. He pays a"
+  },
+  {
+    "lec": 29,
+    "slide": 3,
+    "title": "Section 2.7 Example 1 (Part 2): Monthly Cost for 25 Hours",
+    "problemShort": "### Example 1 Evaluation (Workbook p. 53) Find the monthly cost if Kim pays an employee to work **25 hours**. - Evaluate $C(25)$. - Plot the cost curv",
+    "scriptShort": "[Prof. Park] On Slide 3, we execute Example 1 Part 2 on page 53: Find Kim's total monthly cost if his employee works **25 hours**.  [TA Sora] Let us look at our mathematical model from Slide 2: $$C(x)"
+  },
+  {
+    "lec": 29,
+    "slide": 4,
+    "title": "Section 2.7 Example 2 (Part 1): Car Depreciation Model",
+    "problemShort": "### Car Depreciation (Workbook p. 53) You purchased your car in 2023 for **$22,500**. You learned that the car would **depreciate linearly by $1500 pe",
+    "scriptShort": "[Prof. Park] Now turn to Example 2 Part 1 on page 53: Car Depreciation Model. You purchased a reliable all-wheel-drive vehicle in Bozeman in the year 2023 for **$22,500**. You learned that the car **d"
+  },
+  {
+    "lec": 29,
+    "slide": 5,
+    "title": "Section 2.7 Example 2 (Part 2): When is Car Value Zero?",
+    "problemShort": "### Example 2 Graph & Zero Value (Workbook p. 53) Using $V(t) = -1500t + 22500$: - Find when the car's value reaches **$0** (the $t$-intercept). - Wha",
+    "scriptShort": "[Prof. Park] On Slide 5, we analyze Example 2 Part 2 on page 53: Using $V(t) = -1{,}500t + 22{,}500$, determine **when the car's value reaches $0$**, and graph the depreciation function.  [TA Sora] Lo"
+  },
+  {
+    "lec": 29,
+    "slide": 6,
+    "title": "Section 2.7 Example 3 (Part 1): Car Salesperson Commission Points",
+    "problemShort": "### Car Salesperson Commission (Workbook p. 54) A salesperson earns commission on car sales: - Sold **3 cars**, earned **$760** for the week. - Sold *",
+    "scriptShort": "[Prof. Park] Turn to page 54 for Example 3 Part 1: Automobile Salesperson Commission Points. A salesperson at a dealership in Bozeman earns a weekly salary plus commission on car sales. In a week wher"
+  },
+  {
+    "lec": 29,
+    "slide": 7,
+    "title": "Section 2.7 Example 3 (Part 2): Commission Function E(x)",
+    "problemShort": "### Example 3 Solution (Workbook p. 54) Find the linear function $E(x)$ that represents weekly earnings when $x$ cars are sold: - Calculate commission",
+    "scriptShort": "[Prof. Park] On Slide 7, we execute Example 3 Part 2 on page 54: Finding the Linear Function $E(x)$ representing weekly earnings when $x$ cars are sold.  [TA Sora] Step 1: Find the slope $m$ (the comm"
+  },
+  {
+    "lec": 29,
+    "slide": 8,
+    "title": "Section 2.7 Part 1 Mastery Summary",
+    "problemShort": "### Real-World Modeling Takeaways - **Rate = Slope ($m$):** Watch for words like 'per', 'each', 'rate of', 'depreciates'. - **Initial Value = Intercep",
+    "scriptShort": "[Prof. Park] On Slide 8, we present the Section 2.7 Part 1 Real-World Modeling Master Summary.  [TA Sora] Here are your core modeling takeaways: 1. **Rate = Slope ($m$):**    Look for unit rates like "
+  },
+  {
+    "lec": 30,
+    "slide": 1,
+    "title": "Section 2.7 Example 4: Adult Systolic Blood Pressure Model",
+    "problemShort": "### Adult Systolic Blood Pressure (Workbook p. 54) Let $x$ represent age in years and $P(x)$ represent systolic blood pressure in mmHg: - A **23-year-",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 30 of M090! Today on pages 54 and 55 of your workbook, we conclude Unit 2 with advanced real-world modeling and the Grand Synthesis of our entire coordinate geometry cu"
+  },
+  {
+    "lec": 30,
+    "slide": 2,
+    "title": "Section 2.7 Example 5 (Part 1): Bozeman Elevation & Boiling Point",
+    "problemShort": "### Bozeman Elevation vs Boiling Point (Workbook p. 55) The relationship between elevation $x$ (in feet) and boiling point of water $B(x)$ (in $^\\circ",
+    "scriptShort": "[Prof. Park] Now turn to page 55 for one of the most fascinating physical science applications in all of Montana: Example 5 Part 1, Bozeman Elevation versus the Boiling Point of Water!  [TA Sora] If y"
+  },
+  {
+    "lec": 30,
+    "slide": 3,
+    "title": "Section 2.7 Example 5 (Part 2): Boiling Point Function B(x)",
+    "problemShort": "### Example 5 Solution (Workbook p. 55) Write a linear function $B(x)$ that represents the boiling point of water in degrees Fahrenheit in terms of el",
+    "scriptShort": "[Prof. Park] On Slide 3, we execute Example 5 Part 2 on page 55: Writing the Boiling Point Function $B(x)$ and evaluating it for the city of Bozeman!  [TA Sora] Let us assemble our function from Slide"
+  },
+  {
+    "lec": 30,
+    "slide": 4,
+    "title": "Section 2.7 Example 6 (Part 1): Montana Grain Bin Storage",
+    "problemShort": "### Montana Grain Bin Depletion (Workbook p. 55) In **2001**, the volume in a grain bin is **45 tons**. In **2025**, there were only **15 tons** remai",
+    "scriptShort": "[Prof. Park] Turn to page 55 for Example 6 Part 1: Montana Grain Bin Storage Depletion. Agriculture is the foundation of Montana's economy. In the year **2001**, the volume of grain stored in a large "
+  },
+  {
+    "lec": 30,
+    "slide": 5,
+    "title": "Section 2.7 Example 6 (Part 2): Grain Model & When Empty",
+    "problemShort": "### Example 6 Solution (Workbook p. 55) - Find the linear model $V(t)$. - **Determine when the grain bin will be completely empty.**",
+    "scriptShort": "[Prof. Park] On Slide 5, we complete Example 6 Part 2 on page 55: Determining **when the grain bin will be completely empty**.  [TA Sora] What does 'empty' mean in mathematical terms? An empty bin has"
+  },
+  {
+    "lec": 30,
+    "slide": 6,
+    "title": "Unit 2 Master Principles: The Linear Universe",
+    "problemShort": "### Unit 2 Master Principles Recap (Sections 2.0 – 2.7) 1. **Cartesian Coordinates:** $(x, y)$, Quadrants I–IV, Intercepts $(a, 0)$ and $(0, b)$. 2. *",
+    "scriptShort": "[Prof. Park] On Slide 6, we step back and view the Master Principles of Unit 2: The Linear Universe. Over the past 15 lectures, we have built a complete, interconnected mathematical world.  [TA Sora] "
+  },
+  {
+    "lec": 30,
+    "slide": 7,
+    "title": "Unit 2 Master Coordinate Grid: All Line Types",
+    "problemShort": "### Visualizing Every Line Family on One Coordinate Plane Observe how all forms of lines coexist in the Cartesian coordinate system: - **Rising Line (",
+    "scriptShort": "[Prof. Park] On Slide 7, we present the Master Coordinate Grid: Visualizing Every Line Family simultaneously on a single canvas!  [TA Sora] Look at how all forms of lines coexist in the coordinate pla"
+  },
+  {
+    "lec": 30,
+    "slide": 8,
+    "title": "Unit 2 Mastered! Transition to Unit 3 (Quadratics)",
+    "problemShort": "### Milestone Achieved: Two-Thirds of M090 Complete! - **Unit 1 Conquered:** Algebraic Expressions, Signed Numbers, Fractions, Equations, Inequalities",
+    "scriptShort": "[Prof. Park] On Slide 8, we celebrate an immense academic milestone: You have officially mastered Unit 2 of M090 Introductory Algebra! Give yourselves a tremendous round of applause!  [TA Sora] Let us"
+  },
+  {
+    "lec": 31,
+    "slide": 1,
+    "title": "Welcome to Unit 3: Quadratic Functions & The Parabola World",
+    "problemShort": "### Welcome to Unit 3 of M090! (Workbook p. 60) In Unit 1, we learned the grammar of algebra (expressions, equations). In Unit 2, we mastered straight",
+    "scriptShort": "[Prof. Park] Hello everyone, and welcome to Unit 3 of M090 Introductory Algebra here at Gallatin College, Montana State University! I'm Professor Eunju Park, and joining me as always is our wonderful "
+  },
+  {
+    "lec": 31,
+    "slide": 2,
+    "title": "Anatomy of a Quadratic Function: Terms & Coefficients",
+    "problemShort": "### Anatomy of General Form (Workbook p. 60) $$\\mathbf{f(x) = ax^2 + bx + c}$$ - **Quadratic Term:** The term with $x^2$ $\\rightarrow$ **$ax^2$** (Coe",
+    "scriptShort": "[Prof. Park] Let's look at Slide 2 and examine the precise anatomy of our general quadratic form: $f(x) = ax^2 + bx + c$. Just like a builder inspects the foundation, framing, and roof of a house befo"
+  },
+  {
+    "lec": 31,
+    "slide": 3,
+    "title": "Section 3.0 Example 1: Terms in f(x) = -x^2 + 3x + 8",
+    "problemShort": "### Example 1 (Workbook p. 60) For the function $\\mathbf{f(x) = -x^2 + 3x + 8}$, identify: - **Quadratic term:** \\underline{\\hspace{2cm}} \\quad **Coef",
+    "scriptShort": "[Prof. Park] Now we arrive at our first official workbook problem on Slide 3: Section 3.0 Example 1 on page 60. The problem asks: For the function $f(x) = -x^2 + 3x + 8$, identify the quadratic term, "
+  },
+  {
+    "lec": 31,
+    "slide": 4,
+    "title": "Section 3.0 Example 2: Terms in f(x) = 2x^2 - 7",
+    "problemShort": "### Example 2 (Workbook p. 60) For the function $\\mathbf{f(x) = 2x^2 - 7}$, identify: - **Quadratic term:** \\underline{\\hspace{2cm}} \\quad **Coefficie",
+    "scriptShort": "[Prof. Park] Let's turn to Section 3.0 Example 2 on Slide 4: $f(x) = 2x^2 - 7$. At first glance, this function looks shorter than the previous one. Sora, what is missing here?  [TA Sora] There is no $"
+  },
+  {
+    "lec": 31,
+    "slide": 5,
+    "title": "Section 3.0 Example 3: Descending Order First",
+    "problemShort": "### Example 3 (Workbook p. 60) Consider $\\mathbf{f(x) = -2 - 3x + \\frac{x^2}{3}}$. - **Put in descending order first:** \\underline{\\hspace{2cm}} - **Q",
+    "scriptShort": "[Prof. Park] Slide 5 brings us to Example 3: $f(x) = 5 - 2x + 4x^2$. Sora, this is a classic textbook trap designed to test whether students are truly paying attention or just skimming from left to ri"
+  },
+  {
+    "lec": 31,
+    "slide": 6,
+    "title": "Section 3.0 Example 4: Linear vs Quadratic",
+    "problemShort": "### Example 4 (Workbook p. 60) What type of function is $\\mathbf{f(x) = 4x + 7}$? - **Quadratic term & coefficient:** \\underline{\\hspace{2cm}} - **Lin",
+    "scriptShort": "[Prof. Park] On Slide 6, Example 4 asks us to compare two functions side-by-side: $f(x) = 3x - 4$ versus $g(x) = 3x^2 - 4$. Sora, why did the MSU course designers include this comparison right here in"
+  },
+  {
+    "lec": 31,
+    "slide": 7,
+    "title": "Parabola Direction: Opening Upward vs Opening Downward",
+    "problemShort": "### Parabola Orientation Rules The sign of the leading coefficient $a$ determines which way the parabola opens: - **$a > 0$ (Positive):** Parabola ope",
+    "scriptShort": "[Prof. Park] Let's move to Slide 7, which explores one of the most visual and intuitive properties of any parabola: its direction of opening. Whether a parabola opens upward or downward is dictated en"
+  },
+  {
+    "lec": 31,
+    "slide": 8,
+    "title": "Section 3.0 Part 1 Mastery Summary",
+    "problemShort": "### Lecture 31 Key Takeaways - General form: $f(x) = ax^2 + bx + c$ with $a \\neq 0$. - Vertex form: $f(x) = a(x - h)^2 + k$. - Always rearrange into d",
+    "scriptShort": "[Prof. Park] We have reached the final slide of Lecture 31—our Section 3.0 Part 1 Mastery Summary! Let's take a moment to look back at the ground we've covered today and solidify these core principles"
+  },
+  {
+    "lec": 32,
+    "slide": 1,
+    "title": "The Anatomy of a Parabola Graph",
+    "problemShort": "### Key Features of Every Parabola (Workbook p. 61) When analyzing any quadratic graph, identify: 1. **$y$-intercept:** Where the graph crosses the ve",
+    "scriptShort": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our stellar teaching assistant, Sora. Today in Lecture 32, we transition from the algebraic formulas of Section 3."
+  },
+  {
+    "lec": 32,
+    "slide": 2,
+    "title": "Section 3.0 Example 5 (Part 1): Intercepts for f(x) = x^2 - 6x + 5",
+    "problemShort": "### Example 5 (Workbook p. 61) Using the graph of the function $\\mathbf{f(x) = x^2 - 6x + 5}$: - **A. $y$-intercept:** \\underline{\\hspace{2cm}} - **B.",
+    "scriptShort": "[Prof. Park] Slide 2 brings us to Section 3.0 Example 5 on page 61: $f(x) = x^2 - 9$. Part 1 asks us to find both the $y$-intercept and the $x$-intercepts. Sora, where should a student always begin?  "
+  },
+  {
+    "lec": 32,
+    "slide": 3,
+    "title": "Section 3.0 Example 5 (Part 2): Vertex & Axis of Symmetry",
+    "problemShort": "### Example 5 Continued (Workbook p. 61) From the graph of $\\mathbf{f(x) = x^2 - 6x + 5}$: - **C. Vertex:** \\underline{\\hspace{2cm}} - **D. Axis of Sy",
+    "scriptShort": "[Prof. Park] Continuing with $f(x) = x^2 - 9$ on Slide 3, Part 2 asks us to determine the Vertex and the Axis of Symmetry. Sora, how can we use our intercepts from the previous slide to find the verte"
+  },
+  {
+    "lec": 32,
+    "slide": 4,
+    "title": "Section 3.0 Example 5 (Part 3): Min/Max & Domain/Range",
+    "problemShort": "### Example 5 Min/Max & Intervals (Workbook p. 61) - **E. What is the minimum value of $f(x)$?** \\underline{\\hspace{2cm}} - **F. At what $x$-value doe",
+    "scriptShort": "[Prof. Park] Slide 4 covers Part 3 of Example 5: determining whether $f(x) = x^2 - 9$ has a minimum or maximum value, and finding its Domain and Range in interval notation.  [TA Sora] First, let's det"
+  },
+  {
+    "lec": 32,
+    "slide": 5,
+    "title": "Section 3.0 Example 6 (Part 1): Vertex Form f(x) = -2(x + 1)^2 + 8",
+    "problemShort": "### Example 6 (Workbook p. 61) Using the graph of the function $\\mathbf{f(x) = -2(x + 1)^2 + 8}$: - **A. $y$-intercept:** \\underline{\\hspace{2cm}} - *",
+    "scriptShort": "[Prof. Park] On Slide 5, we turn to Section 3.0 Example 6 on page 62: $f(x) = -2(x + 1)^2 + 8$. Sora, this equation looks completely different from Example 5. It is written in what we call Vertex Form"
+  },
+  {
+    "lec": 32,
+    "slide": 6,
+    "title": "Section 3.0 Example 6 (Part 2): Vertex & Axis of Symmetry",
+    "problemShort": "### Example 6 Vertex from Formula (Workbook p. 61) Compare $\\mathbf{f(x) = -2(x + 1)^2 + 8}$ to Vertex Form $\\mathbf{f(x) = a(x - h)^2 + k}$: - **C. V",
+    "scriptShort": "[Prof. Park] Let's continue with Example 6 on Slide 6: identifying the Vertex and Axis of Symmetry for $f(x) = -2(x + 1)^2 + 8$. As Sora pointed out, reading vertex form $a(x - h)^2 + k$ reveals the v"
+  },
+  {
+    "lec": 32,
+    "slide": 7,
+    "title": "Section 3.0 Example 6 (Part 3): Max Value & Range",
+    "problemShort": "### Example 6 Max & Range (Workbook p. 61) - **E. What is the maximum value of $f(x)$?** \\underline{\\hspace{2cm}} - **F. At what $x$-value does the ma",
+    "scriptShort": "[Prof. Park] Slide 7 covers Part 3 of Example 6: finding the maximum or minimum value and writing the Domain and Range for $f(x) = -2(x + 1)^2 + 8$.   [TA Sora] Since the leading coefficient is $a = -"
+  },
+  {
+    "lec": 32,
+    "slide": 8,
+    "title": "Section 3.0 Example 6 (Part 4): Converting to General Form",
+    "problemShort": "### Example 6H: Algebraic Expansion (Workbook p. 61) Simplify the function $\\mathbf{f(x) = -2(x + 1)^2 + 8}$ into **General Form** ($ax^2 + bx + c$): ",
+    "scriptShort": "[Prof. Park] On Slide 8, Part 4 of Example 6 asks us to do something very practical: convert our vertex form $f(x) = -2(x + 1)^2 + 8$ into General Form $f(x) = ax^2 + bx + c$. Sora, why would anyone w"
+  },
+  {
+    "lec": 32,
+    "slide": 9,
+    "title": "Section 3.0 Part 2 Mastery Summary",
+    "problemShort": "### Parabola Graphing Comparison - **General Form:** $f(x) = ax^2 + bx + c \\implies y$-intercept is $(0, c)$. - **Vertex Form:** $f(x) = a(x - h)^2 + ",
+    "scriptShort": "[Prof. Park] We have arrived at Slide 9, our Section 3.0 Part 2 Mastery Summary! Sora, we have covered an incredible amount of rich mathematics in Lecture 32.  [TA Sora] We truly have! Let's review th"
+  },
+  {
+    "lec": 33,
+    "slide": 1,
+    "title": "Section 3.0 Example 7A & 7B: Evaluating at -1",
+    "problemShort": "### Example 7A & 7B (Workbook p. 62) Let $\\mathbf{g(x) = -x^2 + 2x + 7}$ and $\\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate: - **A.** $g(-1)$ - **B.** $h(",
+    "scriptShort": "[Prof. Park] Hello Bobcats, and welcome to Lecture 33 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we tackle Section 3.0 Example 7 on p"
+  },
+  {
+    "lec": 33,
+    "slide": 2,
+    "title": "Section 3.0 Example 7C & 7D: Evaluating at Zero & Y-Intercepts",
+    "problemShort": "### Example 7C & 7D (Workbook p. 62) Let $\\mathbf{g(x) = -x^2 + 2x + 7}$ and $\\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate: - **C.** $h(0)$ - **D.** $g(0",
+    "scriptShort": "[Prof. Park] Slide 2 brings us to Parts C and D: evaluating at zero, $g(0)$ and $h(0)$, for $g(x) = 2x^2 - 7$ and $h(x) = 4x^2 - 2x + 5$. Sora, why is zero such a beloved number in algebra?  [TA Sora]"
+  },
+  {
+    "lec": 33,
+    "slide": 3,
+    "title": "Section 3.0 Example 7E: Fractional Input h(5/2)",
+    "problemShort": "### Example 7E (Workbook p. 62) Let $\\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate: $$\\mathbf{h\\left(\\frac{5}{2}\\right)}$$ - Subtract $\\frac{5}{2} - 2$ us",
+    "scriptShort": "[Prof. Park] On Slide 3, Part E tests our fraction arithmetic skills: evaluating $h(5/2)$ for $h(x) = 4x^2 - 2x + 5$. Sora, fractions tend to make developmental algebra students anxious. How do we bre"
+  },
+  {
+    "lec": 33,
+    "slide": 4,
+    "title": "Section 3.0 Example 7F: Variable Input g(a)",
+    "problemShort": "### Example 7F (Workbook p. 62) Let $\\mathbf{g(x) = -x^2 + 2x + 7}$. Evaluate: $$\\mathbf{g(a)}$$",
+    "scriptShort": "[Prof. Park] Turning to Slide 4, Part F asks us to evaluate $g(a)$ for the function $g(x) = 2x^2 - 7$. Sora, students often ask: 'Why are we replacing the letter $x$ with another letter $a$? Isn't tha"
+  },
+  {
+    "lec": 33,
+    "slide": 5,
+    "title": "Section 3.0 Example 7G: Binomial Input g(x - 6)",
+    "problemShort": "### Example 7G (Workbook p. 62) Let $\\mathbf{g(x) = -x^2 + 2x + 7}$. Evaluate and simplify: $$\\mathbf{g(x - 6)}$$ - Replace $x$ with $(x - 6)$. - Expa",
+    "scriptShort": "[Prof. Park] Slide 5 presents Part G: evaluating $g(x - 6)$ for $g(x) = 2x^2 - 7$. Now the input is not just a single number or letter—it is a two-term binomial, $x - 6$!  [TA Sora] This is where alge"
+  },
+  {
+    "lec": 33,
+    "slide": 6,
+    "title": "Section 3.0 Example 7H: Binomial Input h(k + 1)",
+    "problemShort": "### Example 7H (Workbook p. 62) Let $\\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate and simplify: $$\\mathbf{h(k + 1)}$$ - Simplify inside the parentheses f",
+    "scriptShort": "[Prof. Park] On Slide 6, Part H gives us our final evaluation challenge: evaluate $h(k + 1)$ for $h(x) = 4x^2 - 2x + 5$. This problem brings together every skill we have practiced today.  [TA Sora] Le"
+  },
+  {
+    "lec": 33,
+    "slide": 7,
+    "title": "The Negative Base Trap: -x^2 vs (-x)^2",
+    "problemShort": "### Why Students Lose Points on Negative Squares Evaluate both expressions when $x = 3$ and when $x = -3$: - **Case 1:** $-x^2$ - **Case 2:** $(-x)^2$",
+    "scriptShort": "[Prof. Park] Slide 7 addresses what is arguably the #1 sign trap in all of developmental algebra: the difference between $-x^2$ and $(-x)^2$. Sora, how many thousands of times have we seen students tr"
+  },
+  {
+    "lec": 33,
+    "slide": 8,
+    "title": "Section 3.0 Complete Mastery Summary",
+    "problemShort": "### Section 3.0 Complete Mastery Checklist - Identified terms and coefficients in general form $ax^2 + bx + c$. - Analyzed parabolas: vertex, axis of ",
+    "scriptShort": "[Prof. Park] We have reached Slide 8, our Section 3.0 Complete Mastery Summary! This concludes our foundational study of Section 3.0. Sora, what are the core takeaways every M090 student should carry "
+  },
+  {
+    "lec": 34,
+    "slide": 1,
+    "title": "Section 3.1: The Vertex Formula x_v = -b / (2a)",
+    "problemShort": "### The Vertex Formula (Workbook p. 63) For any quadratic function in General Form $\\mathbf{f(x) = ax^2 + bx + c}$: - **$x$-coordinate of the vertex:*",
+    "scriptShort": "[Prof. Park] Hello everyone, and welcome to Lecture 34 of M090 Introductory Algebra! I'm Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we step into Section 3.1 on pag"
+  },
+  {
+    "lec": 34,
+    "slide": 2,
+    "title": "Section 3.1 Example 1: Finding Vertex for f(x) = x^2 + 6x - 8",
+    "problemShort": "### Example 1 (Workbook p. 63) For $\\mathbf{f(x) = x^2 + 6x - 8}$: - **A. Find the vertex:** \\underline{\\hspace{2cm}} - **B. Find the $y$-intercept:**",
+    "scriptShort": "[Prof. Park] Slide 2 presents Section 3.1 Example 1 from page 67: For the quadratic function $f(x) = x^2 + 6x - 7$, find the vertex, the axis of symmetry, determine whether it has a minimum or maximum"
+  },
+  {
+    "lec": 34,
+    "slide": 3,
+    "title": "Section 3.1 Example 2: Fraction Leading Coefficient",
+    "problemShort": "### Example 2 (Workbook p. 63) For $\\mathbf{f(x) = -\\frac{1}{4}x^2 - 3x + 9}$: - **A. Find the vertex:** \\underline{\\hspace{2cm}} - **B. Find the $y$-",
+    "scriptShort": "[Prof. Park] Turning to Slide 3, Section 3.1 Example 2 gives us a function with a fraction coefficient: $f(x) = -\\frac{1}{2}x^2 + 2x + 3$. Sora, students see that fraction $-\\frac{1}{2}$ and immediate"
+  },
+  {
+    "lec": 34,
+    "slide": 4,
+    "title": "Why Does x = -b / (2a) Work? The Midpoint of Roots",
+    "problemShort": "### The Origin of the Vertex Formula Recall the Quadratic Formula for finding roots: $$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\mathbf{-\\frac{b}{2a}}",
+    "scriptShort": "[Prof. Park] On Slide 4, we pause to ask a deeper question: Why does $x = -b / (2a)$ work? In mathematics, we don't just memorize formulas like magical incantations; we understand their architectural "
+  },
+  {
+    "lec": 34,
+    "slide": 5,
+    "title": "Sora's Protocol for Finding the Vertex & Max/Min",
+    "problemShort": "### Sora's 4-Step Vertex Checklist 1. **Identify $a, b, c$:** Make sure the equation is in standard descending order $ax^2 + bx + c$. 2. **Calculate $",
+    "scriptShort": "[Prof. Park] Slide 5 brings us to 'Sora's Protocol for Finding the Vertex & Max/Min.' When you sit down for an exam or work through difficult engineering problems, having a checklist eliminates anxiet"
+  },
+  {
+    "lec": 34,
+    "slide": 6,
+    "title": "Check Your Understanding: Vertex of f(x) = -2x^2 + 8x - 3",
+    "problemShort": "### Checkpoint Practice Find the vertex, axis of symmetry, and state whether it is a maximum or minimum for: $$\\mathbf{f(x) = -2x^2 + 8x - 3}$$",
+    "scriptShort": "[Prof. Park] On Slide 6, we have a 'Check Your Understanding' problem: Find the vertex, axis of symmetry, max/min value, and range for $f(x) = -2x^2 + 8x - 3$. Sora, let's walk through our four-step p"
+  },
+  {
+    "lec": 34,
+    "slide": 7,
+    "title": "Visualizing Vertex & Symmetry on the Grid",
+    "problemShort": "### The Mirror Property of Parabolas Every point on a parabola has a reflection across the axis of symmetry $x = h$: - Point $(0, -3)$ is $2$ units le",
+    "scriptShort": "[Prof. Park] Let's look at Slide 7: Visualizing the Vertex & Symmetry on the Coordinate Grid. Take a look at the graph plotted on your screen. The vertex $(2, 5)$ sits at the highest peak, glowing wit"
+  },
+  {
+    "lec": 34,
+    "slide": 8,
+    "title": "Section 3.1 Part 1 Mastery Summary",
+    "problemShort": "### Section 3.1 Part 1 Master Summary - **Formula:** $x_v = -\\frac{b}{2a}$, $y_v = f(x_v)$. - **Axis of Symmetry:** $x = x_v$. - **$y$-intercept:** $(",
+    "scriptShort": "[Prof. Park] We have reached the final slide of Lecture 34—our Section 3.1 Part 1 Mastery Summary! Sora, let's summarize the key breakthroughs from today's session.  [TA Sora] The #1 star of today's l"
+  },
+  {
+    "lec": 35,
+    "slide": 1,
+    "title": "Section 3.1 Example 3: f(x) = -3(x - 4)^2 + 7",
+    "problemShort": "### Example 3 (Workbook p. 64) For $\\mathbf{f(x) = -3(x - 4)^2 + 7}$: - **A. Find the vertex:** \\underline{\\hspace{3cm}} - **B. Find the $y$-intercept",
+    "scriptShort": "[Prof. Park] Hello everyone, and welcome to Lecture 35 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me is our wonderful teaching assistant, Sora. Today we dive into Vertex Form "
+  },
+  {
+    "lec": 35,
+    "slide": 2,
+    "title": "Section 3.1 Example 4: f(x) = 5(x - 1)^2 + 3",
+    "problemShort": "### Example 4 (Workbook p. 64) For $\\mathbf{f(x) = 5(x - 1)^2 + 3}$: - **A. Find the vertex:** \\underline{\\hspace{3cm}} - **B. Find the $y$-intercept:",
+    "scriptShort": "[Prof. Park] Let's move to Slide 2 and examine Section 3.1 Example 4 on page 70: $f(x) = 5(x - 1)^2 + 3$. Sora, let's break down this function using our vertex form inspection method.  [TA Sora] Let's"
+  },
+  {
+    "lec": 35,
+    "slide": 3,
+    "title": "Section 3.1 Example 5: f(x) = -6(x + 2)^2 - 9",
+    "problemShort": "### Example 5 (Workbook p. 64) For $\\mathbf{f(x) = -6(x + 2)^2 - 9}$: - **A. Find the vertex:** \\underline{\\hspace{3cm}} - **B. Find the $y$-intercept",
+    "scriptShort": "[Prof. Park] Slide 3 brings us to Example 5: $f(x) = -6(x + 2)^2 - 9$. Sora, this problem is loaded with negative signs both inside and outside the parentheses. How do we prevent sign confusion here? "
+  },
+  {
+    "lec": 35,
+    "slide": 4,
+    "title": "Section 3.1 Example 6: Vertex of f(x) = 2x^2 - 7",
+    "problemShort": "### Example 6 (Workbook p. 66) For $\\mathbf{f(x) = 2x^2 - 7}$: - **A. Find the vertex:** \\underline{\\hspace{3cm}} - **B. Find the $y$-intercept:** \\un",
+    "scriptShort": "[Prof. Park] On Slide 4, Example 6 asks us to find the vertex of $f(x) = 2x^2 - 7$. Sora, students look at $2x^2 - 7$ and say: 'Wait, where are the parentheses? Is this in vertex form or general form?"
+  },
+  {
+    "lec": 35,
+    "slide": 5,
+    "title": "Section 3.1 Example 7 (Part 1): Comprehensive Graph f(x) = -x^2 - 4x - 5",
+    "problemShort": "### Example 7 (Workbook p. 66) Using the graph of the function $\\mathbf{f(x) = -x^2 - 4x - 5}$, find: - **A. $y$-intercept:** \\underline{\\hspace{2cm}}",
+    "scriptShort": "[Prof. Park] Slide 5 presents Section 3.1 Example 7 (Part 1) on page 71: a comprehensive graphing challenge for $f(x) = -2(x + 3)^2 + 8$. The problem asks us to find the vertex, axis of symmetry, $y$-"
+  },
+  {
+    "lec": 35,
+    "slide": 6,
+    "title": "Section 3.1 Example 7 (Part 2): Graph Interrogation",
+    "problemShort": "### Example 7 Function Values (Workbook p. 66) Using the graph of $f(x) = -x^2 - 4x - 5$: - **G.** $f(-4) = \\text{\\underline{\\hspace{3cm}}}$ - **H.** ",
+    "scriptShort": "[Prof. Park] On Slide 6, we interrogate the five key anchor points of our graph for $f(x) = -2(x + 3)^2 + 8$: the vertex $(-3, 8)$, the two $x$-intercepts $(-5, 0)$ and $(-1, 0)$, the $y$-intercept $("
+  },
+  {
+    "lec": 35,
+    "slide": 7,
+    "title": "General Form vs Vertex Form: Summary Matrix",
+    "problemShort": "### Choosing Your Method Compare the two primary forms of quadratic functions: - **General Form:** $f(x) = ax^2 + bx + c$   - Best for: $y$-intercept ",
+    "scriptShort": "[Prof. Park] Slide 7 provides what I consider the most valuable reference slide in this entire unit: The General Form versus Vertex Form Summary Matrix. Let's compare them side-by-side.  [TA Sora] In "
+  },
+  {
+    "lec": 35,
+    "slide": 8,
+    "title": "Section 3.1 Complete Mastery Summary",
+    "problemShort": "### Section 3.1 Master Checklist - Conquered the Vertex Formula: $x_v = -\\frac{b}{2a}$. - Mastered reading Vertex Form: $f(x) = a(x - h)^2 + k \\implie",
+    "scriptShort": "[Prof. Park] We have completed Lecture 35 and reached the end of Section 3.1! Sora, this marks the completion of the first major phase of Unit 3.  [TA Sora] Congratulations, Bobcats! You have mastered"
+  },
+  {
+    "lec": 36,
+    "slide": 1,
+    "title": "Finding x-Intercepts of Quadratic Functions",
+    "problemShort": "### The Goal of Solving Quadratic Equations (Workbook p. 67) To find the **$x$-intercepts** of any function $f(x)$, we set the output to zero: $$\\math",
+    "scriptShort": "[Prof. Park] Welcome back to M090, Bobcats! I'm Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we start Section 3.2 on page 75 of your workbook: Finding the $x$-intercepts"
+  },
+  {
+    "lec": 36,
+    "slide": 2,
+    "title": "The Square Root Property (SRP)",
+    "problemShort": "### The Square Root Property (Workbook p. 67) - **If $k > 0$ and $x^2 = k$, then:**   $$\\mathbf{x = \\pm \\sqrt{k}}$$   *(Two real solutions: $+\\sqrt{k}",
+    "scriptShort": "[Prof. Park] Slide 2 defines the Square Root Property (SRP): If $X^2 = k$, where $k$ is a real number, then $X = \\pm \\sqrt{k}$. Sora, notice that tiny symbol: $\\pm$, read as 'plus or minus.' Why is th"
+  },
+  {
+    "lec": 36,
+    "slide": 3,
+    "title": "Section 3.2 Example 1: Solving x^2 = 16",
+    "problemShort": "### Example 1 (Workbook p. 67) Solve the equation for $x$: $$\\mathbf{x^2 = 16}$$ - Apply the Square Root Property. - State both solutions and check th",
+    "scriptShort": "[Prof. Park] On Slide 3, we look at Section 3.2 Example 1 on page 75: Solve the equation $x^2 = 16$. Sora, this is the foundational textbook example.  [TA Sora] Let's follow our protocol step-by-step."
+  },
+  {
+    "lec": 36,
+    "slide": 4,
+    "title": "Section 3.2 Example 2: Solving 2x^2 + 2 = 10",
+    "problemShort": "### Example 2 (Workbook p. 67) Solve the equation for $x$: $$\\mathbf{2x^2 + 2 = 10}$$ - Isolate the $x^2$ term first. - Divide by the coefficient of $",
+    "scriptShort": "[Prof. Park] Slide 4 brings us to Example 2: Solve the equation $2x^2 + 2 = 10$. Sora, here the squared term $x^2$ is not by itself yet. What is our first priority?  [TA Sora] Our golden rule before a"
+  },
+  {
+    "lec": 36,
+    "slide": 5,
+    "title": "Section 3.2 Example 3: Intercepts & Vertex for f(x) = x^2 - 36",
+    "problemShort": "### Example 3 (Workbook p. 67) Find the intercepts and vertex for the function: $$\\mathbf{f(x) = x^2 - 36}$$ - **A. Find the $x$-intercept(s):** \\unde",
+    "scriptShort": "[Prof. Park] Turning to Slide 5, Section 3.2 Example 3 connects solving directly to graphing: For the function $f(x) = x^2 - 16$, find the $x$-intercepts, the $y$-intercept, the vertex, and sketch the"
+  },
+  {
+    "lec": 36,
+    "slide": 6,
+    "title": "Section 3.2 Example 4: Intercepts & Vertex for g(x) = 3x^2 - 27",
+    "problemShort": "### Example 4 (Workbook p. 68) Find the intercepts and vertex for the function: $$\\mathbf{g(x) = 3x^2 - 27}$$ - **A. Find the $x$-intercept(s):** \\und",
+    "scriptShort": "[Prof. Park] Slide 6 presents Example 4: For $g(x) = 3x^2 - 15$, find the $x$-intercepts and the vertex. Sora, notice the number 15—is 15 a perfect square?  [TA Sora] It is not! 15 is not like 4, 9, 1"
+  },
+  {
+    "lec": 36,
+    "slide": 7,
+    "title": "When x^2 = k Has No Real Solutions",
+    "problemShort": "### What Happens When $x^2 = -9$? Solve the equation $x^2 + 9 = 0$: - $x^2 = -9$ - Can any real number squared equal a negative number? - What does th",
+    "scriptShort": "[Prof. Park] On Slide 7, we address a profound conceptual question: What happens when $x^2 = k$ and $k$ is a negative number? For instance, what if we try to solve $x^2 = -9$?  [TA Sora] Let's test th"
+  },
+  {
+    "lec": 36,
+    "slide": 8,
+    "title": "Section 3.2 Part 1 Mastery Summary",
+    "problemShort": "### Lecture 36 Key Rules - **Square Root Property:** If $x^2 = k$ and $k > 0$, then $x = \\pm \\sqrt{k}$. - Always isolate $x^2$ before taking square ro",
+    "scriptShort": "[Prof. Park] We have arrived at Slide 8, our Section 3.2 Part 1 Mastery Summary! Let's review the ground we have conquered in Lecture 36.  [TA Sora] The headline theorem today was the Square Root Prop"
+  },
+  {
+    "lec": 37,
+    "slide": 1,
+    "title": "Square Root Property with Binomial Squares: (x - h)^2 = k",
+    "problemShort": "### The Generalized Square Root Property (Workbook p. 69) When a binomial squared equals a constant: $$\\mathbf{(x - h)^2 = k}$$ - Take the square root",
+    "scriptShort": "[Prof. Park] Hello everyone, and welcome to Lecture 37 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me as always is our stellar teaching assistant, Sora. Today we advance to Sec"
+  },
+  {
+    "lec": 37,
+    "slide": 2,
+    "title": "Section 3.2 Example 5: Solving (x - 3)^2 = 25",
+    "problemShort": "### Example 5 (Workbook p. 69) Solve the equation for $x$: $$\\mathbf{(x - 3)^2 = 25}$$ - Apply the Square Root Property. - Separate into two arithmeti",
+    "scriptShort": "[Prof. Park] On Slide 2, Section 3.2 Example 5 asks us to solve the equation $(x - 3)^2 = 25$. Let's demonstrate the speed and elegance of the Square Root Property!  [TA Sora] Step 1: Check that the b"
+  },
+  {
+    "lec": 37,
+    "slide": 3,
+    "title": "Section 3.2 Example 6: Intercepts & Vertex for f(x) = (x + 2)^2 - 9",
+    "problemShort": "### Example 6 (Workbook p. 69) Find the intercepts and vertex for the function: $$\\mathbf{f(x) = (x + 2)^2 - 9}$$ - **A. Find the $x$-intercept(s):** ",
+    "scriptShort": "[Prof. Park] Turning to Slide 3, Section 3.2 Example 6 connects this method to graphing a quadratic function in vertex form: For $f(x) = (x + 2)^2 - 9$, find the $x$-intercepts and the vertex, and ske"
+  },
+  {
+    "lec": 37,
+    "slide": 4,
+    "title": "Section 3.2 Example 7: Solving 2(x - 4)^2 = 32",
+    "problemShort": "### Example 7 (Workbook p. 70) Solve the equation for $x$: $$\\mathbf{2(x - 4)^2 = 32}$$ - Divide by 2 first to isolate $(x - 4)^2$. - Apply the Square",
+    "scriptShort": "[Prof. Park] On Slide 4, Example 7 adds one extra layer of algebra: Solve the equation $2(x - 4)^2 = 32$. Sora, what must a student NEVER do at the start of this problem?  [TA Sora] Never distribute t"
+  },
+  {
+    "lec": 37,
+    "slide": 5,
+    "title": "Section 3.2 Example 8: Non-Perfect Squares and Radicals",
+    "problemShort": "### Example 8 (Workbook p. 70) Solve the equation for $x$: $$\\mathbf{(x - 1)^2 = 12}$$ - Apply the Square Root Property. - Simplify the radical $\\sqrt",
+    "scriptShort": "[Prof. Park] Slide 5 presents Section 3.2 Example 8: $(x + 1)^2 = 12$. Here, 12 is not a perfect square. Sora, how do we handle non-perfect square radicals?  [TA Sora] We simplify the radical by facto"
+  },
+  {
+    "lec": 37,
+    "slide": 6,
+    "title": "Exact Radical Form vs Decimal Approximations",
+    "problemShort": "### Working with Irrational Roots For $x = 1 \\pm 2\\sqrt{3}$: - Compute the decimal approximations using $\\sqrt{3} \\approx 1.732$. - Verify where these",
+    "scriptShort": "[Prof. Park] On Slide 6, we explore 'Exact Radical Form versus Decimal Approximations.' In STEM disciplines—engineering, physics, computer science, and chemistry—knowing when to use which form is a vi"
+  },
+  {
+    "lec": 37,
+    "slide": 7,
+    "title": "Sora's Checklist for the Square Root Property",
+    "problemShort": "### When to Use the Square Root Property - **Use SRP when:**   - Equation has an isolated square: $x^2 = k$ or $(x - h)^2 = k$.   - There is NO separa",
+    "scriptShort": "[Prof. Park] Slide 7 presents 'Sora's Checklist for the Square Root Property.' Let's summarize the four non-negotiable steps to guarantee success on every homework and exam problem.  [TA Sora] Step 1:"
+  },
+  {
+    "lec": 37,
+    "slide": 8,
+    "title": "Section 3.2 Complete Mastery Summary",
+    "problemShort": "### Section 3.2 Master Summary - $(x - h)^2 = k \\implies x - h = \\pm\\sqrt{k} \\implies x = h \\pm \\sqrt{k}$. - Always simplify radicals to lowest terms ",
+    "scriptShort": "[Prof. Park] We have arrived at Slide 8, our Section 3.2 Complete Mastery Summary! Sora, what an empowering set of tools we've built in Lectures 36 and 37.  [TA Sora] We have truly expanded our algebr"
+  },
+  {
+    "lec": 38,
+    "slide": 1,
+    "title": "Section 3.3: Finding Intercepts by Factoring",
+    "problemShort": "### The Power of Factoring (Workbook p. 71) When a quadratic function has all three terms ($ax^2 + bx + c$), we set $f(x) = 0$: $$\\mathbf{ax^2 + bx + ",
+    "scriptShort": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we enter Section 3.3 on page 80 of your workbook: Solving Quadratic Equatio"
+  },
+  {
+    "lec": 38,
+    "slide": 2,
+    "title": "Section 3.3 Example 1: Solving x^2 - 5x + 6 = 0",
+    "problemShort": "### Example 1 (Workbook p. 71) Find the $x$-intercepts for $\\mathbf{f(x) = x^2 - 5x + 6}$ by factoring: - Set $x^2 - 5x + 6 = 0$. - Find two numbers t",
+    "scriptShort": "[Prof. Park] Slide 2 brings us to Section 3.3 Example 1 on page 80: Solve the equation $x^2 - 5x + 6 = 0$ by factoring.  [TA Sora] Let's follow our step-by-step factoring method. Step 1: Ensure the eq"
+  },
+  {
+    "lec": 38,
+    "slide": 3,
+    "title": "Section 3.3 Example 2: Intercepts & Vertex for f(x) = x^2 + 7x + 12",
+    "problemShort": "### Example 2 (Workbook p. 71) For $\\mathbf{f(x) = x^2 + 7x + 12}$: - **A. Find the $x$-intercept(s) by factoring:** \\underline{\\hspace{3cm}} - **B. F",
+    "scriptShort": "[Prof. Park] On Slide 3, Section 3.3 Example 2 asks us to find the $x$-intercepts and vertex for $f(x) = x^2 + 7x + 10$.  [TA Sora] Let's find the $x$-intercepts first by setting the function equal to"
+  },
+  {
+    "lec": 38,
+    "slide": 4,
+    "title": "Section 3.3 Example 3: Factoring with GCF: 2x^2 - 8x = 0",
+    "problemShort": "### Example 3 (Workbook p. 72) Find the $x$-intercepts for $\\mathbf{f(x) = 2x^2 - 8x}$: - Notice there is no constant term ($c = 0$). - Factor out the",
+    "scriptShort": "[Prof. Park] Turning to Slide 4, Example 3 presents a different factoring pattern: Solve $2x^2 - 8x = 0$. Sora, notice that this equation only has two terms. There is no constant term $c$!  [TA Sora] "
+  },
+  {
+    "lec": 38,
+    "slide": 5,
+    "title": "Section 3.3 Example 4: Difference of Squares 4x^2 - 25 = 0",
+    "problemShort": "### Example 4 (Workbook p. 72) Find the $x$-intercepts for $\\mathbf{f(x) = 4x^2 - 25}$: - Recognize the Difference of Two Squares pattern: $A^2 - B^2 ",
+    "scriptShort": "[Prof. Park] Slide 5 brings us to Example 4: Difference of Squares, $4x^2 - 25 = 0$. Sora, here we have two terms again, but this time there is no middle linear term ($b = 0$).  [TA Sora] Look at both"
+  },
+  {
+    "lec": 38,
+    "slide": 6,
+    "title": "The 'Must Equal Zero' Trap: x(x - 5) = 6",
+    "problemShort": "### Solve: $x(x - 5) = 6$ - **Fatal Student Error:** Setting $x = 6$ or $x - 5 = 6$! Why is this completely false? - **Correct Procedure:** Multiply o",
+    "scriptShort": "[Prof. Park] Slide 6 addresses what is known across mathematics departments as 'The Must Equal Zero Trap.' Look at the equation on your screen: $x(x - 5) = 6$. Sora, why does this problem cause so man"
+  },
+  {
+    "lec": 38,
+    "slide": 7,
+    "title": "Sora's Protocol for Solving by Factoring",
+    "problemShort": "### Factoring Protocol for Quadratic Equations 1. **Set to zero:** Move all terms to one side: $ax^2 + bx + c = 0$. 2. **Look for a GCF first:** Facto",
+    "scriptShort": "[Prof. Park] Slide 7 presents 'Sora's Protocol for Solving by Factoring.' Having a clear roadmap keeps your head cool and your pencil moving smoothly.  [TA Sora] Step 1: The 'Zero Invariant.' Move all"
+  },
+  {
+    "lec": 38,
+    "slide": 8,
+    "title": "Section 3.3 Part 1 Mastery Summary",
+    "problemShort": "### Lecture 38 Key Takeaways - $x$-intercepts correspond to roots of $ax^2 + bx + c = 0$. - Zero Product Property: $A \\cdot B = 0 \\implies A = 0$ or $",
+    "scriptShort": "[Prof. Park] We have reached Slide 8, our Section 3.3 Part 1 Mastery Summary! Let's reflect on the milestones of Lecture 38.  [TA Sora] Today we harnessed the power of the Zero Product Property: $A \\c"
+  },
+  {
+    "lec": 39,
+    "slide": 1,
+    "title": "Section 3.3 Example 5: Factoring 2x^2 + 7x + 3 = 0",
+    "problemShort": "### Example 5: Leading Coefficient $a \\neq 1$ (Workbook p. 73) Find the $x$-intercepts for $\\mathbf{f(x) = 2x^2 + 7x + 3}$ by factoring: - Use the $ac",
+    "scriptShort": "[Prof. Park] Hello everyone, and welcome to Lecture 39 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we advance to Section 3.3 Part 2 on"
+  },
+  {
+    "lec": 39,
+    "slide": 2,
+    "title": "Section 3.3 Example 6: Intercepts for g(x) = 3x^2 - 10x - 8",
+    "problemShort": "### Example 6 (Workbook p. 73) Find the intercepts for $\\mathbf{g(x) = 3x^2 - 10x - 8}$: - $ac = 3 \\cdot (-8) = -24$. - Find factors of $-24$ that add",
+    "scriptShort": "[Prof. Park] Turning to Slide 2, Example 6 asks us to find the $x$-intercepts for $g(x) = 3x^2 - 10x - 8$. Sora, let's guide our students through the ac-method with negative numbers!  [TA Sora] First,"
+  },
+  {
+    "lec": 39,
+    "slide": 3,
+    "title": "Section 3.3 Example 7: Negative Leading Coefficient -x^2 + 4x + 5 = 0",
+    "problemShort": "### Example 7 (Workbook p. 74) Find the $x$-intercepts for $\\mathbf{f(x) = -x^2 + 4x + 5}$: - Set $-x^2 + 4x + 5 = 0$. - Multiply or factor out $-1$ f",
+    "scriptShort": "[Prof. Park] Slide 3 brings us to Example 7: $-x^2 + 4x + 5 = 0$. Sora, look at that leading coefficient: it is negative ($-1$). What is our immediate tactical move?  [TA Sora] Never factor a quadrati"
+  },
+  {
+    "lec": 39,
+    "slide": 4,
+    "title": "Special Case: Exactly One x-Intercept (Tangent Vertex)",
+    "problemShort": "### Perfect Square Trinomial: $f(x) = x^2 - 6x + 9$ - Factor the equation $x^2 - 6x + 9 = 0$. - How many distinct roots are there? - What does this me",
+    "scriptShort": "[Prof. Park] On Slide 4, we examine a fascinating Special Case: When a Quadratic Has Exactly One $x$-Intercept. Look at $x^2 - 6x + 9 = 0$.  [TA Sora] Let's factor it: we need two numbers that multipl"
+  },
+  {
+    "lec": 39,
+    "slide": 5,
+    "title": "The Three Possibilities for x-Intercepts of a Parabola",
+    "problemShort": "### How Many x-Intercepts Can a Parabola Have? A parabola can intersect the horizontal axis in three distinct ways: 1. **Two $x$-intercepts:** The par",
+    "scriptShort": "[Prof. Park] Slide 5 synthesizes 'The Three Possibilities for $x$-Intercepts of a Parabola.' Every quadratic function in the universe falls into one of these three geometric categories.  [TA Sora] Cas"
+  },
+  {
+    "lec": 39,
+    "slide": 6,
+    "title": "Factored Form to Graph: f(x) = a(x - r_1)(x - r_2)",
+    "problemShort": "### Factored Form of a Quadratic Function If the $x$-intercepts are $r_1$ and $r_2$, the function can be written: $$\\mathbf{f(x) = a(x - r_1)(x - r_2)",
+    "scriptShort": "[Prof. Park] On Slide 6, we introduce Factored Form: $f(x) = a(x - r_1)(x - r_2)$. Sora, this is our third representation of a quadratic function, alongside General Form and Vertex Form!  [TA Sora] In"
+  },
+  {
+    "lec": 39,
+    "slide": 7,
+    "title": "Check Your Understanding: Factoring 3x^2 - 12 = 0",
+    "problemShort": "### Checkpoint Practice Find the $x$-intercepts for $\\mathbf{f(x) = 3x^2 - 12}$ using factoring: - Factor out the GCF first. - Factor the remaining di",
+    "scriptShort": "[Prof. Park] Slide 7 presents a 'Check Your Understanding' problem: Solve $3x^2 - 12 = 0$ by factoring.  [TA Sora] Step 1: Follow Sora's checklistâalways look for a Greatest Common Factor (GCF) firs"
+  },
+  {
+    "lec": 39,
+    "slide": 8,
+    "title": "Section 3.3 Complete Mastery Summary",
+    "problemShort": "### Section 3.3 Master Checklist - Factored quadratic equations using GCF, grouping ($ac$-method), and difference of squares. - Handled negative leadi",
+    "scriptShort": "[Prof. Park] We have reached Slide 8, our Section 3.3 Complete Mastery Summary!   [TA Sora] In Lecture 39, we mastered the ac-method for factoring when $a \\neq 1$, learned to flip signs by multiplying"
+  },
+  {
+    "lec": 40,
+    "slide": 1,
+    "title": "Section 3.4: Completing the Square",
+    "problemShort": "### Why Complete the Square? (Workbook p. 75) Many quadratic equations cannot be factored using whole numbers. **Completing the Square** is an algebra",
+    "scriptShort": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we enter Lecture 40 and Section 3.4 on page 86 of your workbook: Comple"
+  },
+  {
+    "lec": 40,
+    "slide": 2,
+    "title": "Section 3.4 Example 1: Finding the 'Magic Number'",
+    "problemShort": "### Example 1 (Workbook p. 75) Find the constant term that must be added to each binomial to make it a perfect square trinomial, then write the factor",
+    "scriptShort": "[Prof. Park] Slide 2 introduces the heart of this section: Finding the 'Magic Number' that completes the square for $x^2 + bx$.  [TA Sora] Here is the universal formula: to complete the square for $x^"
+  },
+  {
+    "lec": 40,
+    "slide": 3,
+    "title": "Section 3.4 Example 2: Solving x^2 + 6x = 7",
+    "problemShort": "### Example 2 (Workbook p. 75) Solve the equation by completing the square: $$\\mathbf{x^2 + 6x = 7}$$ - Add $(\\frac{6}{2})^2 = 9$ to both sides. - Fac",
+    "scriptShort": "[Prof. Park] On Slide 3, Section 3.4 Example 2 puts this to work on a full equation: Solve $x^2 + 6x = 7$ by completing the square.  [TA Sora] Step 1: The variable terms $x^2 + 6x$ are already isolate"
+  },
+  {
+    "lec": 40,
+    "slide": 4,
+    "title": "Section 3.4 Example 3: Solving x^2 - 8x - 5 = 0",
+    "problemShort": "### Example 3 (Workbook p. 76) Solve the equation by completing the square: $$\\mathbf{x^2 - 8x - 5 = 0}$$ - Move the constant $-5$ to the right side f",
+    "scriptShort": "[Prof. Park] Slide 4 presents Example 3: Solve $x^2 - 8x - 5 = 0$. Sora, notice that this equation cannot be factored over integers because no factors of $-5$ add to $-8$!  [TA Sora] This is where Com"
+  },
+  {
+    "lec": 40,
+    "slide": 5,
+    "title": "Section 3.4 Example 4: Leading Coefficient a != 1",
+    "problemShort": "### Example 4: When $a \\neq 1$ (Workbook p. 77) Solve by completing the square: $$\\mathbf{2x^2 + 12x - 10 = 0}$$ - **Golden Rule:** Completing the squ",
+    "scriptShort": "[Prof. Park] On Slide 5, Example 4 raises the difficulty bar: Solve $2x^2 - 12x + 10 = 0$. Sora, look at the leading coefficient: $a = 2$. Can we complete the square while $a = 2$?  [TA Sora] Absolute"
+  },
+  {
+    "lec": 40,
+    "slide": 6,
+    "title": "Converting General Form to Vertex Form via CTS",
+    "problemShort": "### Transforming $f(x) = x^2 - 6x + 5$ into Vertex Form Watch how completing the square transforms General Form into Vertex Form: - Group the $x$-term",
+    "scriptShort": "[Prof. Park] Slide 6 reveals a magnificent application of Completing the Square: Converting General Form $f(x) = ax^2 + bx + c$ into Vertex Form $f(x) = a(x - h)^2 + k$!  [TA Sora] In Section 3.1, we "
+  },
+  {
+    "lec": 40,
+    "slide": 7,
+    "title": "Sora's Complete CTS Protocol",
+    "problemShort": "### Master 5-Step CTS Protocol 1. **Ensure $a = 1$:** If $a \\neq 1$, divide all terms on both sides by $a$. 2. **Isolate variable terms:** Move consta",
+    "scriptShort": "[Prof. Park] Slide 7 presents 'Sora's Complete CTS Protocol.' Here is the master 5-step checklist for Completing the Square.  [TA Sora] Step 1: 'Make $a = 1$.' If there is a leading coefficient $a \\ne"
+  },
+  {
+    "lec": 40,
+    "slide": 8,
+    "title": "Section 3.4 Mastery Summary & The Gateway to the Formula",
+    "problemShort": "### The Gateway to Section 3.5 - Completing the square proved that ANY quadratic equation can be solved. - In Section 3.5, we complete the square on t",
+    "scriptShort": "[Prof. Park] We have arrived at Slide 8, our Section 3.4 Mastery Summary and the Gateway to the Quadratic Formula!  [TA Sora] What a milestone today was! Completing the Square gives us universal power"
+  },
+  {
+    "lec": 41,
+    "slide": 1,
+    "title": "Section 3.5: The Quadratic Formula",
+    "problemShort": "**The Quadratic Formula** can solve ANY quadratic equation once it is set equal to zero in general form.  $$\\text{If } ax^2 + bx + c = 0 \\text{ then:}",
+    "scriptShort": "[Prof. Park] Hello everyone, and welcome to Lecture 41 of M090 Introductory Algebra! I'm Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we reach the undisputed summit "
+  },
+  {
+    "lec": 41,
+    "slide": 2,
+    "title": "Quadratic Formula: $ g(x) = x^2 - 17x + 72 $",
+    "problemShort": "**Find the intercepts and vertex for:** $g(x) = x^2 - 17x + 72$  **Step 1 — Identify x-intercepts:** Set $g(x) = 0$ $$x^2 - 17x + 72 = 0$$  Identify: ",
+    "scriptShort": "[Prof. Park] On Slide 2, we solve Section 3.5 Example 1: $g(x) = x^2 - 17x + 72 = 0$. Here the numbers are large, and finding factors of 72 that add to 17 could take several minutes of trial and error"
+  },
+  {
+    "lec": 41,
+    "slide": 3,
+    "title": "Quadratic Formula: $ h(x) = x^2 - 5x - 7 $",
+    "problemShort": "**Find the intercepts and vertex for:** $h(x) = x^2 - 5x - 7$  Set $h(x) = 0$: $x^2 - 5x - 7 = 0$  Identify: $a = 1,\\; b = -5,\\; c = -7$  $$x = \\dfrac",
+    "scriptShort": "[Prof. Park] Slide 3 brings us to Example 2: Solve $2x^2 + 5x - 3 = 0$. Sora, here $a = 2$, and $c$ is negative. What sign danger should students watch out for?  [TA Sora] Watch out for the '$-4ac$' t"
+  },
+  {
+    "lec": 41,
+    "slide": 4,
+    "title": "Quadratic Formula: $ h(x) = 13x - x^2 + 1 $",
+    "problemShort": "**Find the intercepts and vertex for:** $h(x) = 13x - x^2 + 1$  **Step 1 — Rewrite in standard form** $ax^2 + bx + c$: $$h(x) = -x^2 + 13x + 1$$  Set ",
+    "scriptShort": "[Prof. Park] On Slide 4, Example 3 gives us: $3x^2 - 4x + 1 = 0$. Sora, let's execute the formula with discipline.  [TA Sora] Coefficients: $a = 3$, $b = -4$, and $c = 1$. Notice $b$ is negative, so $"
+  },
+  {
+    "lec": 41,
+    "slide": 5,
+    "title": "Quadratic Formula: $ f(x) = -x^2 - 5x + 7 $",
+    "problemShort": "**Find the intercepts and vertex for:** $f(x) = -x^2 - 5x + 7$  Set $f(x) = 0$: $-x^2 - 5x + 7 = 0$  Identify: $a = -1,\\; b = -5,\\; c = 7$  $$x = \\dfr",
+    "scriptShort": "[Prof. Park] Slide 5 presents Example 4: Solve $x^2 + 4x + 1 = 0$. Sora, notice that this equation cannot be factored because no factors of 1 add to 4. What happens when we use the Quadratic Formula? "
+  },
+  {
+    "lec": 41,
+    "slide": 6,
+    "title": "Quadratic Formula: $ f(x) = -1 + 2x^2 - 3x $",
+    "problemShort": "**Find the intercepts and vertex for:** $f(x) = -1 + 2x^2 - 3x$  **Step 1 — Rewrite in standard form:** $$f(x) = 2x^2 - 3x - 1$$  Set $f(x) = 0$: $2x^",
+    "scriptShort": "[Prof. Park] On Slide 6, we practice function evaluation with a quadratic model: Given $f(x) = 3x^2 - 5x + 7$, evaluate $f(-2)$ and $f(0)$. Sora, why do we continue practicing evaluations alongside ou"
+  },
+  {
+    "lec": 41,
+    "slide": 7,
+    "title": "Function Evaluation: $ f(x) = 3x^2 - 5x + 7 $",
+    "problemShort": "**Use $f(x) = 3x^2 - 5x + 7$ to find:**  **A.** $f(4)$  **B.** $f(p)$  **C.** $f(x+3)$  **D.** Solve $f(x) = 13$ for $x$",
+    "scriptShort": "[Prof. Park] Slide 7 provides another evaluation challenge: For $f(x) = 3x^2 - 5x + 7$, evaluate $f(3)$ and $f(1/3)$. Sora, let's walk through that fraction input $1/3$ step by step!  [TA Sora] For $f"
+  },
+  {
+    "lec": 41,
+    "slide": 8,
+    "title": "Quadratic Formula — Key Takeaways",
+    "problemShort": "**Quadratic Formula Summary:**  | Step | Action | |------|--------| | 1 | Write in standard form: $ax^2+bx+c=0$ | | 2 | Identify $a$, $b$, $c$ | | 3 |",
+    "scriptShort": "[Prof. Park] We have reached Slide 8, our Lecture 41 Recap! Today we mastered the most powerful formula in algebra: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.  [TA Sora] Let's review the three golden r"
+  },
+  {
+    "lec": 42,
+    "slide": 1,
+    "title": "Section 3.5 Part 2: The Discriminant",
+    "problemShort": "**The Discriminant** is the expression inside the square root of the Quadratic Formula:  $$\\Delta = b^2 - 4ac$$  **It tells us the number of x-interce",
+    "scriptShort": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our stellar teaching assistant, Sora. Today in Lecture 42, we explore Section 3.5 Part 2 on page 92: The Discrimin"
+  },
+  {
+    "lec": 42,
+    "slide": 2,
+    "title": "Discriminant $\\Delta > 0$: Two Real x-Intercepts",
+    "problemShort": "**Find and classify solutions for:** $f(x) = x^2 - 5x + 4$  **Step 1 — Compute discriminant:** $a=1, b=-5, c=4$ $$\\Delta = (-5)^2 - 4(1)(4) = 25 - 16 ",
+    "scriptShort": "[Prof. Park] On Slide 2, Example 5 asks us to find the discriminant and determine the number and type of solutions for $x^2 - 5x - 6 = 0$.  [TA Sora] Step 1: Identify our three coefficients: $a = 1$, "
+  },
+  {
+    "lec": 42,
+    "slide": 3,
+    "title": "Discriminant $\\Delta = 0$: Exactly One Real x-Intercept",
+    "problemShort": "**Find and classify solutions for:** $f(x) = x^2 - 6x + 9$  **Step 1 — Compute discriminant:** $a=1, b=-6, c=9$ $$\\Delta = (-6)^2 - 4(1)(9) = 36 - 36 ",
+    "scriptShort": "[Prof. Park] Slide 3 brings us to Example 6: $x^2 - 6x + 9 = 0$. Let's test the discriminant!  [TA Sora] Step 1: Coefficients: $a = 1$, $b = -6$, and $c = 9$.  [Prof. Park] Step 2: Compute the Discrim"
+  },
+  {
+    "lec": 42,
+    "slide": 4,
+    "title": "Discriminant $\\Delta < 0$: No Real x-Intercepts",
+    "problemShort": "**Find and classify solutions for:** $f(x) = x^2 + 2x + 5$  **Step 1 — Compute discriminant:** $a=1, b=2, c=5$ $$\\Delta = (2)^2 - 4(1)(5) = 4 - 20 = -",
+    "scriptShort": "[Prof. Park] On Slide 4, Example 7 tests: $2x^2 + 3x + 4 = 0$. Sora, let's see what the discriminant reveals here!  [TA Sora] Step 1: Coefficients: $a = 2$, $b = 3$, and $c = 4$.  [Prof. Park] Step 2:"
+  },
+  {
+    "lec": 42,
+    "slide": 5,
+    "title": "Classify Without Solving: $h(x) = -2x^2 + 3x - 5$",
+    "problemShort": "**Without fully solving, determine the number of x-intercepts for:** $$h(x) = -2x^2 + 3x - 5$$  Identify: $a = -2,\\; b = 3,\\; c = -5$  Compute the dis",
+    "scriptShort": "[Prof. Park] Slide 5 synthesizes the Discriminant Summary Matrix across all three possibilities. Let's review the complete landscape.  [TA Sora] Column 1: $\\Delta > 0$. Two real solutions. If $\\Delta$"
+  },
+  {
+    "lec": 42,
+    "slide": 6,
+    "title": "Function Evaluation: $ f(x) = 3x^2 - 5x + 7 $ (Parts A & B)",
+    "problemShort": "**Use $f(x) = 3x^2 - 5x + 7$ to find:**  **A.** $f(4)$  **B.** $f(p)$  **Recall:** To evaluate $f(\\text{input})$, replace every $x$ in the formula wit",
+    "scriptShort": "[Prof. Park] On Slide 6, we evaluate function values for $f(x) = 3x^2 - 5x + 7$: evaluating $f(1)$ and $f(-1)$.  [TA Sora] Let's evaluate $f(1)$: $f(1) = 3(1)^2 - 5(1) + 7 = 3(1) - 5 + 7 = 3 - 5 + 7 ="
+  },
+  {
+    "lec": 42,
+    "slide": 7,
+    "title": "Function Composition & Solving: $ f(x) = 3x^2 - 5x + 7 $ (Parts C & D)",
+    "problemShort": "**Use $f(x) = 3x^2 - 5x + 7$ to find:**  **C.** $f(x+3)$  **D.** Solve $f(x) = 13$ for $x$",
+    "scriptShort": "[Prof. Park] Slide 7 challenges us with function composition and equation solving: find all values of $x$ where $f(x) = 9$ for $f(x) = 3x^2 - 5x + 7$.  [TA Sora] We set the function output equal to 9:"
+  },
+  {
+    "lec": 42,
+    "slide": 8,
+    "title": "Discriminant Summary — Three Cases Visualized",
+    "problemShort": "**Discriminant Decision Chart:**  | Compute $\\Delta = b^2-4ac$ | Result | Parabola | |---|---|---| | $\\Delta > 0$ | **2** real solutions | Crosses x-a",
+    "scriptShort": "[Prof. Park] We have completed Lecture 42! Today we proved that $\\Delta = b^2 - 4ac$ tells the entire mathematical story of any quadratic equation before you lift a finger to solve it.  [TA Sora] Posi"
+  },
+  {
+    "lec": 43,
+    "slide": 1,
+    "title": "Section 3.6: Mixed Methods — Intercepts and Vertex",
+    "problemShort": "**Section 3.6 Strategy: Choose the Best Method**  | Equation Form | Best Method | |---|---| | $ax^2 + c = 0$ (no $bx$) | **Square Root Property** | | ",
+    "scriptShort": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we reach Section 3.6 on page 94 of your workbook: Mixed Methods for Interce"
+  },
+  {
+    "lec": 43,
+    "slide": 2,
+    "title": "x-Intercepts: $ g(x) = x^2 + 6x $ (Factor GCF)",
+    "problemShort": "**Find the x-intercepts of $g(x) = x^2 + 6x$**  Set $g(x) = 0$: $$x^2 + 6x = 0$$  **Method: Factor out the GCF** - Both terms share a factor of $x$ $$",
+    "scriptShort": "[Prof. Park] Slide 2 presents Problem 1: Solve the equation $x^2 - 36 = 0$. Sora, which tool should we grab from our toolbox?  [TA Sora] Look at the structure: there is an $x^2$ term, but there is NO "
+  },
+  {
+    "lec": 43,
+    "slide": 3,
+    "title": "x-Intercepts: $ h(x) = -2x^2 + 5x + 6 $ (Quadratic Formula)",
+    "problemShort": "**Find the x-intercepts of $h(x) = -2x^2 + 5x + 6$**  Set $h(x) = 0$: $-2x^2 + 5x + 6 = 0$  Identify: $a = -2,\\; b = 5,\\; c = 6$  $$x = \\dfrac{-5 \\pm ",
+    "scriptShort": "[Prof. Park] Turning to Slide 3, Problem 2 asks us to solve: $x^2 - 7x + 10 = 0$. Sora, what is our tactical assessment?  [TA Sora] Let's scan the equation: $a = 1$, $b = -7$, and $c = 10$. Can we fin"
+  },
+  {
+    "lec": 43,
+    "slide": 4,
+    "title": "x-Intercepts: $ f(x) = 4x^2 - 28 $ (Square Root Property)",
+    "problemShort": "**Find the x-intercepts of $f(x) = 4x^2 - 28$**  Set $f(x) = 0$: $$4x^2 - 28 = 0$$  **Method: Square Root Property** (no $bx$ term!)  **Step 1:** Isol",
+    "scriptShort": "[Prof. Park] Slide 4 presents Problem 3: Solve $x^2 + 6x - 2 = 0$. Let's scan this equation tactically.  [TA Sora] Let's check factoring first: factors of $-2$ are only $1$ and $-2$, or $-1$ and $2$. "
+  },
+  {
+    "lec": 43,
+    "slide": 5,
+    "title": "x-Intercepts: $ f(x) = x^2 - 15x + 50 $ (Factoring)",
+    "problemShort": "**Find the x-intercepts of $f(x) = x^2 - 15x + 50$**  Set $f(x) = 0$: $$x^2 - 15x + 50 = 0$$  **Method: Factoring** — Find two numbers that: - **Multi",
+    "scriptShort": "[Prof. Park] On Slide 5, Problem 4 presents: $3x^2 - 5x - 4 = 0$. Sora, what is our tactical assessment here?  [TA Sora] Let's scan: $a = 3$, $b = -5$, and $c = -4$. First, $a \\neq 1$, and $b = -5$ is"
+  },
+  {
+    "lec": 43,
+    "slide": 6,
+    "title": "All Features: $ f(x) = -2(x-15)^2 + 50 $",
+    "problemShort": "**Use $f(x) = -2(x-15)^2 + 50$ to find:**  **A.** x-intercept(s)  **B.** y-intercept  **C.** Vertex  **D.** $f(20)$  **Note:** This function is alread",
+    "scriptShort": "[Prof. Park] Slide 6 compares our two methods for finding the Vertex: using the Vertex Formula $x_v = -b / (2a)$ versus converting to Vertex Form via Completing the Square.  [TA Sora] Let's test both "
+  },
+  {
+    "lec": 43,
+    "slide": 7,
+    "title": "Intercept Summary Chart — All Four Methods",
+    "problemShort": "**Summary of Finding Intercepts:**  | Method | When to Use | Example | |---|---|---| | **Factor GCF** | No constant term $c$ | $x^2+6x=0$ | | **Square",
+    "scriptShort": "[Prof. Park] Slide 7 presents our Intercept Summary ChartÃ¢ÂÂthe master strategy guide to keep in your notes forever.  [TA Sora] Let's summarize the decision tree: 1. Is $b = 0$? Use the Square Root"
+  },
+  {
+    "lec": 43,
+    "slide": 8,
+    "title": "Section 3.6 Complete — Lecture 43 Recap",
+    "problemShort": "**Lecture 43 Complete Summary:**  | Function | x-intercepts | y-intercept | Vertex | |---|---|---|---| | $g(x)=x^2+6x$ | $0$ and $-6$ | $0$ | $(-3,-9)",
+    "scriptShort": "[Prof. Park] Section 3.6 is complete! You now possess tactical maturity in college algebra.  [TA Sora] In Lecture 44, we bring all these skills together into the 5-Point Graphing Method.   [Prof. Park"
+  },
+  {
+    "lec": 44,
+    "slide": 1,
+    "title": "Section 3.7: Graphing Quadratic Functions",
+    "problemShort": "**5-Point Graphing Method for $f(x) = ax^2 + bx + c$:**  1. **Find the Vertex** — $x = \\dfrac{-b}{2a}$, then compute $y$ 2. **Find the y-intercept** —",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 44 of M090! Today we enter Section 3.7 on page 96: Graphing Quadratic Functions with the 5-Point Method.  [TA Sora] Hello everyone! Up until now, we have calculated ind"
+  },
+  {
+    "lec": 44,
+    "slide": 2,
+    "title": "Graph $ g(x) = x^2 + 6x + 5 $ Using Vertex and Table",
+    "problemShort": "**Graph $g(x) = x^2 + 6x + 5$**  **Step 1 — Vertex:** $x = \\dfrac{-6}{2(1)} = -3$,\\quad $g(-3) = 9-18+5 = -4$  **Vertex:** $(-3,\\,-4)$  **Step 2 — Tab",
+    "scriptShort": "[Prof. Park] On Slide 2, we graph $f(x) = x^2 - 6x + 5$. Let's execute our 5-point protocol!  [TA Sora] Point 1: The Vertex! $a = 1$, $b = -6$, $c = 5$. $x_v = -(-6) / (2 \\cdot 1) = 3$. Plug in $x = 3"
+  },
+  {
+    "lec": 44,
+    "slide": 3,
+    "title": "Graph $ h(x) = -2x^2 + 4x + 6 $ Using All Key Points",
+    "problemShort": "**Graph $h(x) = -2x^2 + 4x + 6$**  **Step 1 — Vertex:** $a=-2,\\;b=4,\\;c=6$ $$x = \\dfrac{-4}{2(-2)} = \\dfrac{-4}{-4} = 1,\\quad h(1) = -2+4+6 = 8$$  **V",
+    "scriptShort": "[Prof. Park] Slide 3 brings us to a downward-opening parabola: $h(x) = -2x^2 + 4x + 6$.  [TA Sora] Point 1: The Vertex! $x_v = -4 / (2(-2)) = -4 / -4 = 1$. Evaluate $h(1) = -2(1)^2 + 4(1) + 6 = -2 + 4"
+  },
+  {
+    "lec": 44,
+    "slide": 4,
+    "title": "Graph $ g(x) = 2x^2 - 8x $",
+    "problemShort": "**Graph $g(x) = 2x^2 - 8x$**  **Step 1 — Vertex:** $a=2,\\;b=-8,\\;c=0$ $$x = \\dfrac{-(-8)}{2(2)} = \\dfrac{8}{4} = 2,\\quad g(2) = 2(4)-8(2) = 8-16 = -8$",
+    "scriptShort": "[Prof. Park] On Slide 4, we examine $g(x) = x^2 + 2x + 2$. What happens when a parabola has NO $x$-intercepts?  [TA Sora] Let's check the discriminant: $\\Delta = 2^2 - 4(1)(2) = 4 - 8 = -4 < 0$! It ha"
+  },
+  {
+    "lec": 44,
+    "slide": 5,
+    "title": "Graph $ f(x) = -\\frac{1}{2}(x+1)^2 + 8 $ (Vertex Form)",
+    "problemShort": "**Graph $f(x) = -\\dfrac{1}{2}(x+1)^2 + 8$**  **Vertex form:** $f(x) = a(x-h)^2 + k$  **Read directly:** - $a = -\\dfrac{1}{2}$ (opens downward, wide) -",
+    "scriptShort": "[Prof. Park] Slide 5 presents $k(x) = -x^2 + 4x - 4$. Here the discriminant is $16 - 16 = 0$. The vertex is $(2, 0)$Ã¢ÂÂa tangent vertex touching the axis at one single point!  [TA Sora] Since the v"
+  },
+  {
+    "lec": 44,
+    "slide": 6,
+    "title": "Evaluating Two Functions: $ f(x) = x^2-6x+4 $ and $ g(x) = -2x+25 $",
+    "problemShort": "**Given $f(x) = x^2 - 6x + 4$ and $g(x) = -2x + 25$, find:**  **A.** $f(-7)$  **B.** $g(-7)$",
+    "scriptShort": "[Prof. Park] Slide 6 compares quadratic and linear functions: evaluating $f(x) = x^2 - 6x + 4$ versus $g(x) = 2x - 3$. Linear growth is constant; quadratic growth accelerates!  [TA Sora] Look at the t"
+  },
+  {
+    "lec": 44,
+    "slide": 7,
+    "title": "Function Composition: $ f(x+5) $ and $ g(x+5) $",
+    "problemShort": "**Given $f(x) = x^2-6x+4$ and $g(x) = -2x+25$, find:**  **C.** $f(x+5)$  **D.** $g(x+5)$",
+    "scriptShort": "[Prof. Park] Slide 7 demonstrates function transformations: $f(x + 5)$ shifts the parabola 5 units to the left on the coordinate plane!  [TA Sora] Whenever you add inside the function argument, $(x + "
+  },
+  {
+    "lec": 44,
+    "slide": 8,
+    "title": "Solving: $ g(x) = 17 $ and $ f(x) = g(x) $",
+    "problemShort": "**Given $f(x) = x^2-6x+4$ and $g(x) = -2x+25$, find:**  **E.** Solve for $x$ if $g(x) = 17$  **F.** Solve for $x$ if $f(x) = g(x)$",
+    "scriptShort": "[Prof. Park] Slide 8 solves the system $f(x) = g(x)$: finding the two exact intersection points where the straight line cuts through the curved parabola!  [TA Sora] Set them equal: $x^2 - 6x + 4 = 2x "
+  },
+  {
+    "lec": 45,
+    "slide": 1,
+    "title": "Section 3.7 Part 2: Comprehensive Graphing Review",
+    "problemShort": "**Lecture 45 Agenda:**  1. **Domain and Range Review** — for all four graphed functions 2. **Graphing from Scratch Practice** — complete 5-point metho",
+    "scriptShort": "[Prof. Park] Welcome to Lecture 45ÃÂ¢ÃÂÃÂthe final lecture of Unit 3 and the grand capstone of our entire M090 journey at Gallatin College Montana State University!  [TA Sora] Congratulations Bob"
+  },
+  {
+    "lec": 45,
+    "slide": 2,
+    "title": "Domain and Range for All Four Section 3.7 Functions",
+    "problemShort": "**State Domain and Range for each function:**  | Function | Opens | Vertex | Domain | Range | |---|---|---|---|---| | $g(x)=x^2+6x+5$ | Up | $(-3,-4)$",
+    "scriptShort": "[Prof. Park] Slide 2 reviews Domain and Range across all four Section 3.7 functions: $f(x) = x^2 - 6x + 5$, $h(x) = -2x^2 + 4x + 6$, $g(x) = x^2 + 2x + 2$, and $k(x) = -x^2 + 4x - 4$.  [TA Sora] First"
+  },
+  {
+    "lec": 45,
+    "slide": 3,
+    "title": "Full Graph: $ p(x) = x^2 - 4x - 5 $ — 5-Point Method",
+    "problemShort": "**Graph $p(x) = x^2 - 4x - 5$ using the 5-point method:**  **Step 1 — Vertex:** $$x = \\dfrac{-(-4)}{2(1)} = \\dfrac{4}{2} = 2$$ $$p(2) = 4-8-5 = -9$$ *",
+    "scriptShort": "[Prof. Park] Slide 3 summarizes our 5-Point Graphing Masterclass: 1. Vertex $(h, k)$, 2. $y$-intercept $(0, c)$, 3. Symmetric reflection of the $y$-intercept, 4 & 5. The two $x$-intercepts (or test po"
+  },
+  {
+    "lec": 45,
+    "slide": 4,
+    "title": "Intersection of $ f(x) = x^2-6x+4 $ and $ g(x) = -2x+25 $",
+    "problemShort": "**Graph both $f(x) = x^2-6x+4$ (parabola) and $g(x) = -2x+25$ (line) on the same axes.**  **Parabola $f(x)$:** - Vertex: $x=3$, $f(3)=9-18+4=-5$ → $(3",
+    "scriptShort": "[Prof. Park] Slide 4 connects quadratics to real-world physics: projectile motion $h(t) = -16t^2 + v_0 t + h_0$, where $-16$ represents half the acceleration of gravity in feet per second squared!  [T"
+  },
+  {
+    "lec": 45,
+    "slide": 5,
+    "title": "Unit 3 Grand Review: All Methods for Quadratic Functions",
+    "problemShort": "**Unit 3 — All Methods Mastered:**  | Section | Topic | Method | |---|---|---| | 3.0 | Quadratic Functions intro | Identify vertex, direction | | 3.1 ",
+    "scriptShort": "[Prof. Park] Slide 5 presents the Grand Review of all four quadratic solving methods: 1. Square Root Property ($X^2 = k$), 2. Factoring ($(x - r_1)(x - r_2) = 0$), 3. Completing the Square ($(x + b/2)"
+  },
+  {
+    "lec": 45,
+    "slide": 6,
+    "title": "M090 Unit 3 Formula Card — Keep This Forever!",
+    "problemShort": "**Essential Unit 3 Formulas:**  $$\\textbf{Standard Form: } f(x) = ax^2 + bx + c$$  $$\\textbf{Vertex Form: } f(x) = a(x-h)^2 + k$$  $$\\textbf{Axis of S",
+    "scriptShort": "[Prof. Park] Slide 6 is your M090 Formula CardÃÂ¢ÃÂÃÂkeep this forever in your academic career!   [TA Sora] It contains: The General Form $ax^2 + bx + c = 0$, Vertex Form $a(x - h)^2 + k$, Vertex"
+  },
+  {
+    "lec": 45,
+    "slide": 7,
+    "title": "Challenge: Complete Analysis of $ q(x) = -3x^2 + 12x - 9 $",
+    "problemShort": "**Find all features and graph $q(x) = -3x^2 + 12x - 9$:**  1. Direction of opening 2. Vertex 3. Axis of symmetry 4. y-intercept 5. x-intercept(s) — us",
+    "scriptShort": "[Prof. Park] Slide 7 provides final mastery problem solving and reflection on personal growth, persistence, and logical reasoning.  [TA Sora] Remember where you started in Lecture 1. You may have felt"
+  },
+  {
+    "lec": 45,
+    "slide": 8,
+    "title": "Congratulations! You Have Completed M090 Unit 3!",
+    "problemShort": "**You have successfully completed Unit 3: Quadratic Functions!**  **What you have mastered:** - $\\checkmark$ Identifying and graphing quadratic functi",
+    "scriptShort": "[Prof. Park] Congratulations! You have officially completed M090 Introductory Algebra at Gallatin College Montana State University!  [TA Sora] We are so immensely proud of your hard work, your curiosi"
+  }
+]

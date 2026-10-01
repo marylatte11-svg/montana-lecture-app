@@ -1,0 +1,1603 @@
+
+========================================
+LECTURE 31 (8 slides)
+========================================
+
+--- Slide 1: Welcome to Unit 3: Quadratic Functions & The Parabola World ---
+[Problem]:
+### Welcome to Unit 3 of M090! (Workbook p. 60)
+In Unit 1, we learned the grammar of algebra (expressions, equations).
+In Unit 2, we mastered straight lines ($y = mx + b$).
+
+Now in **Unit 3**, we ente
+[Script]:
+[Prof. Park] Hello everyone, and welcome to Unit 3 of M090 Introductory Algebra here at Gallatin College, Montana State University! I'm Professor Eunju Park, and joining me as always is our wonderful teaching assistant, Sora. Sora, can you believe we are already entering Unit 3?
+
+[TA Sora] Welcome, 
+
+--- Slide 2: Anatomy of a Quadratic Function: Terms & Coefficients ---
+[Problem]:
+### Anatomy of General Form (Workbook p. 60)
+$$\mathbf{f(x) = ax^2 + bx + c}$$
+- **Quadratic Term:** The term with $x^2$ $\rightarrow$ **$ax^2$** (Coefficient is **$a$**).
+- **Linear Term:** The term 
+[Script]:
+[Prof. Park] Let's look at Slide 2 and examine the precise anatomy of our general quadratic form: $f(x) = ax^2 + bx + c$. Just like a builder inspects the foundation, framing, and roof of a house before construction, we must distinguish between the algebraic terms and their numerical coefficients.
+
+
+
+--- Slide 3: Section 3.0 Example 1: Terms in f(x) = -x^2 + 3x + 8 ---
+[Problem]:
+### Example 1 (Workbook p. 60)
+For the function $\mathbf{f(x) = -x^2 + 3x + 8}$, identify:
+- **Quadratic term:** \underline{\hspace{2cm}} \quad **Coefficient:** \underline{\hspace{2cm}}
+- **Linear ter
+[Script]:
+[Prof. Park] Now we arrive at our first official workbook problem on Slide 3: Section 3.0 Example 1 on page 60. The problem asks: For the function $f(x) = -x^2 + 3x + 8$, identify the quadratic term, its coefficient, the linear term, its coefficient, and the constant term.
+
+[TA Sora] Look at that fi
+
+--- Slide 4: Section 3.0 Example 2: Terms in f(x) = 2x^2 - 7 ---
+[Problem]:
+### Example 2 (Workbook p. 60)
+For the function $\mathbf{f(x) = 2x^2 - 7}$, identify:
+- **Quadratic term:** \underline{\hspace{2cm}} \quad **Coefficient:** \underline{\hspace{2cm}}
+- **Linear term:** 
+[Script]:
+[Prof. Park] Let's turn to Section 3.0 Example 2 on Slide 4: $f(x) = 2x^2 - 7$. At first glance, this function looks shorter than the previous one. Sora, what is missing here?
+
+[TA Sora] There is no $x$ term in the middle! We have $2x^2$, and then we jump straight to $-7$. A lot of students get nerv
+
+--- Slide 5: Section 3.0 Example 3: Descending Order First ---
+[Problem]:
+### Example 3 (Workbook p. 60)
+Consider $\mathbf{f(x) = -2 - 3x + \frac{x^2}{3}}$.
+- **Put in descending order first:** \underline{\hspace{2cm}}
+- **Quadratic term & coefficient:** \underline{\hspace{
+[Script]:
+[Prof. Park] Slide 5 brings us to Example 3: $f(x) = 5 - 2x + 4x^2$. Sora, this is a classic textbook trap designed to test whether students are truly paying attention or just skimming from left to right.
+
+[TA Sora] Yes! The biggest mistake here is assuming that whatever number comes first must be $
+
+--- Slide 6: Section 3.0 Example 4: Linear vs Quadratic ---
+[Problem]:
+### Example 4 (Workbook p. 60)
+What type of function is $\mathbf{f(x) = 4x + 7}$?
+- **Quadratic term & coefficient:** \underline{\hspace{2cm}}
+- **Linear term & coefficient:** \underline{\hspace{2cm}}
+[Script]:
+[Prof. Park] On Slide 6, Example 4 asks us to compare two functions side-by-side: $f(x) = 3x - 4$ versus $g(x) = 3x^2 - 4$. Sora, why did the MSU course designers include this comparison right here in Section 3.0?
+
+[TA Sora] Because one little exponent of 2 completely transforms the algebraic univer
+
+--- Slide 7: Parabola Direction: Opening Upward vs Opening Downward ---
+[Problem]:
+### Parabola Orientation Rules
+The sign of the leading coefficient $a$ determines which way the parabola opens:
+- **$a > 0$ (Positive):** Parabola opens **UPWARD** $\cup$.
+  - The vertex is the **lowe
+[Script]:
+[Prof. Park] Let's move to Slide 7, which explores one of the most visual and intuitive properties of any parabola: its direction of opening. Whether a parabola opens upward or downward is dictated entirely by a single sign—the sign of our leading coefficient $a$.
+
+[TA Sora] Here is Sora's memory tr
+
+--- Slide 8: Section 3.0 Part 1 Mastery Summary ---
+[Problem]:
+### Lecture 31 Key Takeaways
+- General form: $f(x) = ax^2 + bx + c$ with $a \neq 0$.
+- Vertex form: $f(x) = a(x - h)^2 + k$.
+- Always rearrange into descending order before identifying coefficients.
+-
+[Script]:
+[Prof. Park] We have reached the final slide of Lecture 31—our Section 3.0 Part 1 Mastery Summary! Let's take a moment to look back at the ground we've covered today and solidify these core principles.
+
+[TA Sora] We started by stepping into Unit 3, transitioning from straight lines into the curved, 
+
+========================================
+LECTURE 32 (9 slides)
+========================================
+
+--- Slide 1: The Anatomy of a Parabola Graph ---
+[Problem]:
+### Key Features of Every Parabola (Workbook p. 61)
+When analyzing any quadratic graph, identify:
+1. **$y$-intercept:** Where the graph crosses the vertical axis $(0, c)$.
+2. **$x$-intercepts:** Where
+[Script]:
+[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our stellar teaching assistant, Sora. Today in Lecture 32, we transition from the algebraic formulas of Section 3.0 into the visual architecture of the parabola.
+
+[TA Sora] Hello everyone! Slide 1 is what I call th
+
+--- Slide 2: Section 3.0 Example 5 (Part 1): Intercepts for f(x) = x^2 - 6x + 5 ---
+[Problem]:
+### Example 5 (Workbook p. 61)
+Using the graph of the function $\mathbf{f(x) = x^2 - 6x + 5}$:
+- **A. $y$-intercept:** \underline{\hspace{2cm}}
+- **B. $x$-intercepts:** \underline{\hspace{2cm}}
+[Script]:
+[Prof. Park] Slide 2 brings us to Section 3.0 Example 5 on page 61: $f(x) = x^2 - 9$. Part 1 asks us to find both the $y$-intercept and the $x$-intercepts. Sora, where should a student always begin?
+
+[TA Sora] I always recommend starting with the $y$-intercept because it requires almost zero heavy l
+
+--- Slide 3: Section 3.0 Example 5 (Part 2): Vertex & Axis of Symmetry ---
+[Problem]:
+### Example 5 Continued (Workbook p. 61)
+From the graph of $\mathbf{f(x) = x^2 - 6x + 5}$:
+- **C. Vertex:** \underline{\hspace{2cm}}
+- **D. Axis of Symmetry:** \underline{\hspace{2cm}}
+[Script]:
+[Prof. Park] Continuing with $f(x) = x^2 - 9$ on Slide 3, Part 2 asks us to determine the Vertex and the Axis of Symmetry. Sora, how can we use our intercepts from the previous slide to find the vertex without complicated formulas?
+
+[TA Sora] This is one of the most elegant geometric insights in alg
+
+--- Slide 4: Section 3.0 Example 5 (Part 3): Min/Max & Domain/Range ---
+[Problem]:
+### Example 5 Min/Max & Intervals (Workbook p. 61)
+- **E. What is the minimum value of $f(x)$?** \underline{\hspace{2cm}}
+- **F. At what $x$-value does the minimum occur?** \underline{\hspace{2cm}}
+- 
+[Script]:
+[Prof. Park] Slide 4 covers Part 3 of Example 5: determining whether $f(x) = x^2 - 9$ has a minimum or maximum value, and finding its Domain and Range in interval notation.
+
+[TA Sora] First, let's determine minimum versus maximum. We look at the leading coefficient $a$. For $f(x) = x^2 - 9$, the coe
+
+--- Slide 5: Section 3.0 Example 6 (Part 1): Vertex Form f(x) = -2(x + 1)^2 + 8 ---
+[Problem]:
+### Example 6 (Workbook p. 61)
+Using the graph of the function $\mathbf{f(x) = -2(x + 1)^2 + 8}$:
+- **A. $y$-intercept:** \underline{\hspace{2cm}}
+- **B. $x$-intercepts:** \underline{\hspace{2cm}}
+Not
+[Script]:
+[Prof. Park] On Slide 5, we turn to Section 3.0 Example 6 on page 62: $f(x) = -2(x + 1)^2 + 8$. Sora, this equation looks completely different from Example 5. It is written in what we call Vertex Form!
+
+[TA Sora] Yes! Standard Vertex Form is written as $f(x) = a(x - h)^2 + k$. Many students prefer v
+
+--- Slide 6: Section 3.0 Example 6 (Part 2): Vertex & Axis of Symmetry ---
+[Problem]:
+### Example 6 Vertex from Formula (Workbook p. 61)
+Compare $\mathbf{f(x) = -2(x + 1)^2 + 8}$ to Vertex Form $\mathbf{f(x) = a(x - h)^2 + k}$:
+- **C. Vertex:** \underline{\hspace{2cm}} *(Do you see the
+[Script]:
+[Prof. Park] Let's continue with Example 6 on Slide 6: identifying the Vertex and Axis of Symmetry for $f(x) = -2(x + 1)^2 + 8$. As Sora pointed out, reading vertex form $a(x - h)^2 + k$ reveals the vertex $(h, k)$ directly.
+
+[TA Sora] Here is my personal mental trick: 'Inside the parentheses, think
+
+--- Slide 7: Section 3.0 Example 6 (Part 3): Max Value & Range ---
+[Problem]:
+### Example 6 Max & Range (Workbook p. 61)
+- **E. What is the maximum value of $f(x)$?** \underline{\hspace{2cm}}
+- **F. At what $x$-value does the maximum occur?** \underline{\hspace{2cm}}
+- **G. Dom
+[Script]:
+[Prof. Park] Slide 7 covers Part 3 of Example 6: finding the maximum or minimum value and writing the Domain and Range for $f(x) = -2(x + 1)^2 + 8$. 
+
+[TA Sora] Since the leading coefficient is $a = -2 < 0$, our parabola opens downward. That means the vertex $(-1, 8)$ is the mountain peak—the absolu
+
+--- Slide 8: Section 3.0 Example 6 (Part 4): Converting to General Form ---
+[Problem]:
+### Example 6H: Algebraic Expansion (Workbook p. 61)
+Simplify the function $\mathbf{f(x) = -2(x + 1)^2 + 8}$ into **General Form** ($ax^2 + bx + c$):
+- FOIL $(x + 1)^2$ first.
+- Distribute $-2$.
+- Com
+[Script]:
+[Prof. Park] On Slide 8, Part 4 of Example 6 asks us to do something very practical: convert our vertex form $f(x) = -2(x + 1)^2 + 8$ into General Form $f(x) = ax^2 + bx + c$. Sora, why would anyone want to convert between these two forms?
+
+[TA Sora] Because each form gives you different superpowers
+
+--- Slide 9: Section 3.0 Part 2 Mastery Summary ---
+[Problem]:
+### Parabola Graphing Comparison
+- **General Form:** $f(x) = ax^2 + bx + c \implies y$-intercept is $(0, c)$.
+- **Vertex Form:** $f(x) = a(x - h)^2 + k \implies$ Vertex is $(h, k)$.
+- **Axis of Symmet
+[Script]:
+[Prof. Park] We have arrived at Slide 9, our Section 3.0 Part 2 Mastery Summary! Sora, we have covered an incredible amount of rich mathematics in Lecture 32.
+
+[TA Sora] We truly have! Let's review the big milestones: We explored the anatomy of parabolas in both General Form ($ax^2 + bx + c$) and Ve
+
+========================================
+LECTURE 33 (8 slides)
+========================================
+
+--- Slide 1: Section 3.0 Example 7A & 7B: Evaluating at -1 ---
+[Problem]:
+### Example 7A & 7B (Workbook p. 62)
+Let $\mathbf{g(x) = -x^2 + 2x + 7}$ and $\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate:
+- **A.** $g(-1)$
+- **B.** $h(-1)$
+Use proper notation and simplify completely.
+[Script]:
+[Prof. Park] Hello Bobcats, and welcome to Lecture 33 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we tackle Section 3.0 Example 7 on page 63 of your workbook—evaluating functions at various inputs.
+
+[TA Sora] Welcome back everyone! Fu
+
+--- Slide 2: Section 3.0 Example 7C & 7D: Evaluating at Zero & Y-Intercepts ---
+[Problem]:
+### Example 7C & 7D (Workbook p. 62)
+Let $\mathbf{g(x) = -x^2 + 2x + 7}$ and $\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate:
+- **C.** $h(0)$
+- **D.** $g(0)$
+Notice what both functions have in common!
+[Script]:
+[Prof. Park] Slide 2 brings us to Parts C and D: evaluating at zero, $g(0)$ and $h(0)$, for $g(x) = 2x^2 - 7$ and $h(x) = 4x^2 - 2x + 5$. Sora, why is zero such a beloved number in algebra?
+
+[TA Sora] Because multiplying by zero is the ultimate algebraic shortcut! Any term containing $x$ multiplied 
+
+--- Slide 3: Section 3.0 Example 7E: Fractional Input h(5/2) ---
+[Problem]:
+### Example 7E (Workbook p. 62)
+Let $\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate:
+$$\mathbf{h\left(\frac{5}{2}\right)}$$
+- Subtract $\frac{5}{2} - 2$ using a common denominator.
+- Square the fraction.
+-
+[Script]:
+[Prof. Park] On Slide 3, Part E tests our fraction arithmetic skills: evaluating $h(5/2)$ for $h(x) = 4x^2 - 2x + 5$. Sora, fractions tend to make developmental algebra students anxious. How do we break this down into friendly steps?
+
+[TA Sora] Fractions are just division waiting to happen, and when
+
+--- Slide 4: Section 3.0 Example 7F: Variable Input g(a) ---
+[Problem]:
+### Example 7F (Workbook p. 62)
+Let $\mathbf{g(x) = -x^2 + 2x + 7}$. Evaluate:
+$$\mathbf{g(a)}$$
+[Script]:
+[Prof. Park] Turning to Slide 4, Part F asks us to evaluate $g(a)$ for the function $g(x) = 2x^2 - 7$. Sora, students often ask: 'Why are we replacing the letter $x$ with another letter $a$? Isn't that just moving letters around?'
+
+[TA Sora] That is such a common question! But in advanced mathematic
+
+--- Slide 5: Section 3.0 Example 7G: Binomial Input g(x - 6) ---
+[Problem]:
+### Example 7G (Workbook p. 62)
+Let $\mathbf{g(x) = -x^2 + 2x + 7}$. Evaluate and simplify:
+$$\mathbf{g(x - 6)}$$
+- Replace $x$ with $(x - 6)$.
+- Expand $(x - 6)^2 = x^2 - 12x + 36$.
+- Distribute the 
+[Script]:
+[Prof. Park] Slide 5 presents Part G: evaluating $g(x - 6)$ for $g(x) = 2x^2 - 7$. Now the input is not just a single number or letter—it is a two-term binomial, $x - 6$!
+
+[TA Sora] This is where algebraic discipline really counts. We replace the input variable with $(x - 6)$: $g(x - 6) = 2(x - 6)^2
+
+--- Slide 6: Section 3.0 Example 7H: Binomial Input h(k + 1) ---
+[Problem]:
+### Example 7H (Workbook p. 62)
+Let $\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate and simplify:
+$$\mathbf{h(k + 1)}$$
+- Simplify inside the parentheses first: $(k + 1 - 2)$.
+- Square the simplified binom
+[Script]:
+[Prof. Park] On Slide 6, Part H gives us our final evaluation challenge: evaluate $h(k + 1)$ for $h(x) = 4x^2 - 2x + 5$. This problem brings together every skill we have practiced today.
+
+[TA Sora] Let's substitute $(k + 1)$ into every single spot where $x$ appears: $h(k + 1) = 4(k + 1)^2 - 2(k + 1)
+
+--- Slide 7: The Negative Base Trap: -x^2 vs (-x)^2 ---
+[Problem]:
+### Why Students Lose Points on Negative Squares
+Evaluate both expressions when $x = 3$ and when $x = -3$:
+- **Case 1:** $-x^2$
+- **Case 2:** $(-x)^2$
+Explain the difference using order of operations.
+[Script]:
+[Prof. Park] Slide 7 addresses what is arguably the #1 sign trap in all of developmental algebra: the difference between $-x^2$ and $(-x)^2$. Sora, how many thousands of times have we seen students trip over this distinction?
+
+[TA Sora] Oh, countless times! Every single semester, on every homework a
+
+--- Slide 8: Section 3.0 Complete Mastery Summary ---
+[Problem]:
+### Section 3.0 Complete Mastery Checklist
+- Identified terms and coefficients in general form $ax^2 + bx + c$.
+- Analyzed parabolas: vertex, axis of symmetry, intercepts, min/max.
+- Converted vertex 
+[Script]:
+[Prof. Park] We have reached Slide 8, our Section 3.0 Complete Mastery Summary! This concludes our foundational study of Section 3.0. Sora, what are the core takeaways every M090 student should carry forward?
+
+[TA Sora] First, the General Quadratic Form $f(x) = ax^2 + bx + c$ ($a \neq 0$) graphs as 
+
+========================================
+LECTURE 34 (8 slides)
+========================================
+
+--- Slide 1: Section 3.1: The Vertex Formula x_v = -b / (2a) ---
+[Problem]:
+### The Vertex Formula (Workbook p. 63)
+For any quadratic function in General Form $\mathbf{f(x) = ax^2 + bx + c}$:
+- **$x$-coordinate of the vertex:**
+  $$\mathbf{x_v = -\frac{b}{2a}}$$
+- **$y$-coord
+[Script]:
+[Prof. Park] Hello everyone, and welcome to Lecture 34 of M090 Introductory Algebra! I'm Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we step into Section 3.1 on page 67 of your workbook—a true turning point in our study of quadratics.
+
+[TA Sora] Welcome back, Bobc
+
+--- Slide 2: Section 3.1 Example 1: Finding Vertex for f(x) = x^2 + 6x - 8 ---
+[Problem]:
+### Example 1 (Workbook p. 63)
+For $\mathbf{f(x) = x^2 + 6x - 8}$:
+- **A. Find the vertex:** \underline{\hspace{2cm}}
+- **B. Find the $y$-intercept:** \underline{\hspace{2cm}}
+- **C. Axis of Symmetry:
+[Script]:
+[Prof. Park] Slide 2 presents Section 3.1 Example 1 from page 67: For the quadratic function $f(x) = x^2 + 6x - 7$, find the vertex, the axis of symmetry, determine whether it has a minimum or maximum, and state the domain and range.
+
+[TA Sora] Let's follow our step-by-step protocol. Step 1: Identif
+
+--- Slide 3: Section 3.1 Example 2: Fraction Leading Coefficient ---
+[Problem]:
+### Example 2 (Workbook p. 63)
+For $\mathbf{f(x) = -\frac{1}{4}x^2 - 3x + 9}$:
+- **A. Find the vertex:** \underline{\hspace{2cm}}
+- **B. Find the $y$-intercept:** \underline{\hspace{2cm}}
+- **C. Axis 
+[Script]:
+[Prof. Park] Turning to Slide 3, Section 3.1 Example 2 gives us a function with a fraction coefficient: $f(x) = -\frac{1}{2}x^2 + 2x + 3$. Sora, students see that fraction $-\frac{1}{2}$ and immediately brace for impact. How do we guide them through this?
+
+[TA Sora] Take a deep breath! When you mult
+
+--- Slide 4: Why Does x = -b / (2a) Work? The Midpoint of Roots ---
+[Problem]:
+### The Origin of the Vertex Formula
+Recall the Quadratic Formula for finding roots:
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \mathbf{-\frac{b}{2a}} \pm \frac{\sqrt{b^2 - 4ac}}{2a}$$
+- Notice the ce
+[Script]:
+[Prof. Park] On Slide 4, we pause to ask a deeper question: Why does $x = -b / (2a)$ work? In mathematics, we don't just memorize formulas like magical incantations; we understand their architectural origin!
+
+[TA Sora] I love this derivation so much. Think back to Section 3.0: we proved that because
+
+--- Slide 5: Sora's Protocol for Finding the Vertex & Max/Min ---
+[Problem]:
+### Sora's 4-Step Vertex Checklist
+1. **Identify $a, b, c$:** Make sure the equation is in standard descending order $ax^2 + bx + c$.
+2. **Calculate $x_v$:** $x_v = -\frac{b}{2a}$. Write out $-b$ and 
+[Script]:
+[Prof. Park] Slide 5 brings us to 'Sora's Protocol for Finding the Vertex & Max/Min.' When you sit down for an exam or work through difficult engineering problems, having a checklist eliminates anxiety.
+
+[TA Sora] Here is my four-step protocol: Step 1 is the 'Sign & Coefficient Scan.' Write down $a$
+
+--- Slide 6: Check Your Understanding: Vertex of f(x) = -2x^2 + 8x - 3 ---
+[Problem]:
+### Checkpoint Practice
+Find the vertex, axis of symmetry, and state whether it is a maximum or minimum for:
+$$\mathbf{f(x) = -2x^2 + 8x - 3}$$
+[Script]:
+[Prof. Park] On Slide 6, we have a 'Check Your Understanding' problem: Find the vertex, axis of symmetry, max/min value, and range for $f(x) = -2x^2 + 8x - 3$. Sora, let's walk through our four-step protocol together!
+
+[TA Sora] Step 1: Sign & Coefficient Scan! $a = -2$, $b = 8$, and $c = -3$. Becau
+
+--- Slide 7: Visualizing Vertex & Symmetry on the Grid ---
+[Problem]:
+### The Mirror Property of Parabolas
+Every point on a parabola has a reflection across the axis of symmetry $x = h$:
+- Point $(0, -3)$ is $2$ units left of $x = 2$.
+- Its reflection is $(4, -3)$, exac
+[Script]:
+[Prof. Park] Let's look at Slide 7: Visualizing the Vertex & Symmetry on the Coordinate Grid. Take a look at the graph plotted on your screen. The vertex $(2, 5)$ sits at the highest peak, glowing with a golden marker.
+
+[TA Sora] Notice that vertical dashed line running through $x = 2$. That is our 
+
+--- Slide 8: Section 3.1 Part 1 Mastery Summary ---
+[Problem]:
+### Section 3.1 Part 1 Master Summary
+- **Formula:** $x_v = -\frac{b}{2a}$, $y_v = f(x_v)$.
+- **Axis of Symmetry:** $x = x_v$.
+- **$y$-intercept:** $(0, c)$.
+- **Optimization:** If $a > 0$, vertex is 
+[Script]:
+[Prof. Park] We have reached the final slide of Lecture 34—our Section 3.1 Part 1 Mastery Summary! Sora, let's summarize the key breakthroughs from today's session.
+
+[TA Sora] The #1 star of today's lecture was the Vertex Formula: $x_v = -b / (2a)$. It works on every single quadratic function in gen
+
+========================================
+LECTURE 35 (8 slides)
+========================================
+
+--- Slide 1: Section 3.1 Example 3: f(x) = -3(x - 4)^2 + 7 ---
+[Problem]:
+### Example 3 (Workbook p. 64)
+For $\mathbf{f(x) = -3(x - 4)^2 + 7}$:
+- **A. Find the vertex:** \underline{\hspace{3cm}}
+- **B. Find the $y$-intercept:** \underline{\hspace{3cm}}
+- **C. Axis of Symmet
+[Script]:
+[Prof. Park] Hello everyone, and welcome to Lecture 35 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me is our wonderful teaching assistant, Sora. Today we dive into Vertex Form in complete depth, beginning on page 70 of your workbook.
+
+[TA Sora] Welcome, Bobcats! In Lecture 34
+
+--- Slide 2: Section 3.1 Example 4: f(x) = 5(x - 1)^2 + 3 ---
+[Problem]:
+### Example 4 (Workbook p. 64)
+For $\mathbf{f(x) = 5(x - 1)^2 + 3}$:
+- **A. Find the vertex:** \underline{\hspace{3cm}}
+- **B. Find the $y$-intercept:** \underline{\hspace{3cm}}
+- **C. Axis of Symmetr
+[Script]:
+[Prof. Park] Let's move to Slide 2 and examine Section 3.1 Example 4 on page 70: $f(x) = 5(x - 1)^2 + 3$. Sora, let's break down this function using our vertex form inspection method.
+
+[TA Sora] Let's look inside the parentheses first: we see $(x - 1)$. Reversing that sign gives $h = +1$. Outside th
+
+--- Slide 3: Section 3.1 Example 5: f(x) = -6(x + 2)^2 - 9 ---
+[Problem]:
+### Example 5 (Workbook p. 64)
+For $\mathbf{f(x) = -6(x + 2)^2 - 9}$:
+- **A. Find the vertex:** \underline{\hspace{3cm}}
+- **B. Find the $y$-intercept:** \underline{\hspace{3cm}}
+- **C. Axis of Symmet
+[Script]:
+[Prof. Park] Slide 3 brings us to Example 5: $f(x) = -6(x + 2)^2 - 9$. Sora, this problem is loaded with negative signs both inside and outside the parentheses. How do we prevent sign confusion here?
+
+[TA Sora] Don't let the cluster of minus signs intimidate you! Stick strictly to our principle: Ins
+
+--- Slide 4: Section 3.1 Example 6: Vertex of f(x) = 2x^2 - 7 ---
+[Problem]:
+### Example 6 (Workbook p. 66)
+For $\mathbf{f(x) = 2x^2 - 7}$:
+- **A. Find the vertex:** \underline{\hspace{3cm}}
+- **B. Find the $y$-intercept:** \underline{\hspace{3cm}}
+- **C. Axis of Symmetry:** \
+[Script]:
+[Prof. Park] On Slide 4, Example 6 asks us to find the vertex of $f(x) = 2x^2 - 7$. Sora, students look at $2x^2 - 7$ and say: 'Wait, where are the parentheses? Is this in vertex form or general form?'
+
+[TA Sora] It is actually both at the exact same time! Notice that there are no parentheses around
+
+--- Slide 5: Section 3.1 Example 7 (Part 1): Comprehensive Graph f(x) = -x^2 - 4x - 5 ---
+[Problem]:
+### Example 7 (Workbook p. 66)
+Using the graph of the function $\mathbf{f(x) = -x^2 - 4x - 5}$, find:
+- **A. $y$-intercept:** \underline{\hspace{2cm}}
+- **B. $x$-intercepts:** \underline{\hspace{2cm}}
+[Script]:
+[Prof. Park] Slide 5 presents Section 3.1 Example 7 (Part 1) on page 71: a comprehensive graphing challenge for $f(x) = -2(x + 3)^2 + 8$. The problem asks us to find the vertex, axis of symmetry, $y$-intercept, $x$-intercepts, and sketch the graph.
+
+[TA Sora] This is the complete package! Let's harv
+
+--- Slide 6: Section 3.1 Example 7 (Part 2): Graph Interrogation ---
+[Problem]:
+### Example 7 Function Values (Workbook p. 66)
+Using the graph of $f(x) = -x^2 - 4x - 5$:
+- **G.** $f(-4) = \text{\underline{\hspace{3cm}}}$
+- **H.** $f(x) = -2 \implies x = \text{\underline{\hspace{3
+[Script]:
+[Prof. Park] On Slide 6, we interrogate the five key anchor points of our graph for $f(x) = -2(x + 3)^2 + 8$: the vertex $(-3, 8)$, the two $x$-intercepts $(-5, 0)$ and $(-1, 0)$, the $y$-intercept $(0, -10)$, and its symmetric partner $(-6, -10)$.
+
+[TA Sora] Look at the coordinate grid on your scre
+
+--- Slide 7: General Form vs Vertex Form: Summary Matrix ---
+[Problem]:
+### Choosing Your Method
+Compare the two primary forms of quadratic functions:
+- **General Form:** $f(x) = ax^2 + bx + c$
+  - Best for: $y$-intercept $(0, c)$, factoring, and quadratic formula.
+  - Ve
+[Script]:
+[Prof. Park] Slide 7 provides what I consider the most valuable reference slide in this entire unit: The General Form versus Vertex Form Summary Matrix. Let's compare them side-by-side.
+
+[TA Sora] In column 1, we have General Form: $f(x) = ax^2 + bx + c$. What are its advantages? First, the $y$-inte
+
+--- Slide 8: Section 3.1 Complete Mastery Summary ---
+[Problem]:
+### Section 3.1 Master Checklist
+- Conquered the Vertex Formula: $x_v = -\frac{b}{2a}$.
+- Mastered reading Vertex Form: $f(x) = a(x - h)^2 + k \implies (h, k)$.
+- Identified Axis of Symmetry as the eq
+[Script]:
+[Prof. Park] We have completed Lecture 35 and reached the end of Section 3.1! Sora, this marks the completion of the first major phase of Unit 3.
+
+[TA Sora] Congratulations, Bobcats! You have mastered the foundations of quadratic functions. In Lectures 31 through 35, you learned to identify terms an
+
+========================================
+LECTURE 36 (8 slides)
+========================================
+
+--- Slide 1: Finding x-Intercepts of Quadratic Functions ---
+[Problem]:
+### The Goal of Solving Quadratic Equations (Workbook p. 67)
+To find the **$x$-intercepts** of any function $f(x)$, we set the output to zero:
+$$\mathbf{f(x) = 0 \implies ax^2 + bx + c = 0}$$
+- The re
+[Script]:
+[Prof. Park] Welcome back to M090, Bobcats! I'm Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we start Section 3.2 on page 75 of your workbook: Finding the $x$-intercepts of Quadratic Functions.
+
+[TA Sora] Hello everyone! In Section 3.0 and 3.1, we focused heavily on th
+
+--- Slide 2: The Square Root Property (SRP) ---
+[Problem]:
+### The Square Root Property (Workbook p. 67)
+- **If $k > 0$ and $x^2 = k$, then:**
+  $$\mathbf{x = \pm \sqrt{k}}$$
+  *(Two real solutions: $+\sqrt{k}$ and $-\sqrt{k}$)*
+- **If $x^2 = 0$, then:**
+  $$
+[Script]:
+[Prof. Park] Slide 2 defines the Square Root Property (SRP): If $X^2 = k$, where $k$ is a real number, then $X = \pm \sqrt{k}$. Sora, notice that tiny symbol: $\pm$, read as 'plus or minus.' Why is that the #1 trap in this entire section?
+
+[TA Sora] That 'plus or minus' symbol is where 80% of studen
+
+--- Slide 3: Section 3.2 Example 1: Solving x^2 = 16 ---
+[Problem]:
+### Example 1 (Workbook p. 67)
+Solve the equation for $x$:
+$$\mathbf{x^2 = 16}$$
+- Apply the Square Root Property.
+- State both solutions and check them.
+[Script]:
+[Prof. Park] On Slide 3, we look at Section 3.2 Example 1 on page 75: Solve the equation $x^2 = 16$. Sora, this is the foundational textbook example.
+
+[TA Sora] Let's follow our protocol step-by-step. Step 1: The squared term $x^2$ is already completely isolated on the left side, and the number 16 i
+
+--- Slide 4: Section 3.2 Example 2: Solving 2x^2 + 2 = 10 ---
+[Problem]:
+### Example 2 (Workbook p. 67)
+Solve the equation for $x$:
+$$\mathbf{2x^2 + 2 = 10}$$
+- Isolate the $x^2$ term first.
+- Divide by the coefficient of $x^2$.
+- Apply the Square Root Property.
+[Script]:
+[Prof. Park] Slide 4 brings us to Example 2: Solve the equation $2x^2 + 2 = 10$. Sora, here the squared term $x^2$ is not by itself yet. What is our first priority?
+
+[TA Sora] Our golden rule before applying the Square Root Property is: 'Isolate the squared term completely before taking any square r
+
+--- Slide 5: Section 3.2 Example 3: Intercepts & Vertex for f(x) = x^2 - 36 ---
+[Problem]:
+### Example 3 (Workbook p. 67)
+Find the intercepts and vertex for the function:
+$$\mathbf{f(x) = x^2 - 36}$$
+- **A. Find the $x$-intercept(s):** \underline{\hspace{3cm}}
+- **B. Find the $y$-intercept:
+[Script]:
+[Prof. Park] Turning to Slide 5, Section 3.2 Example 3 connects solving directly to graphing: For the function $f(x) = x^2 - 16$, find the $x$-intercepts, the $y$-intercept, the vertex, and sketch the graph.
+
+[TA Sora] This is where algebra and geometry shake hands! First, let's find the $x$-interce
+
+--- Slide 6: Section 3.2 Example 4: Intercepts & Vertex for g(x) = 3x^2 - 27 ---
+[Problem]:
+### Example 4 (Workbook p. 68)
+Find the intercepts and vertex for the function:
+$$\mathbf{g(x) = 3x^2 - 27}$$
+- **A. Find the $x$-intercept(s):** \underline{\hspace{3cm}}
+- **B. Find the $y$-intercept
+[Script]:
+[Prof. Park] Slide 6 presents Example 4: For $g(x) = 3x^2 - 15$, find the $x$-intercepts and the vertex. Sora, notice the number 15—is 15 a perfect square?
+
+[TA Sora] It is not! 15 is not like 4, 9, 16, or 25. But that is completely fine! In college algebra, we embrace radicals and work with exact i
+
+--- Slide 7: When x^2 = k Has No Real Solutions ---
+[Problem]:
+### What Happens When $x^2 = -9$?
+Solve the equation $x^2 + 9 = 0$:
+- $x^2 = -9$
+- Can any real number squared equal a negative number?
+- What does this look like geometrically on the Cartesian coordi
+[Script]:
+[Prof. Park] On Slide 7, we address a profound conceptual question: What happens when $x^2 = k$ and $k$ is a negative number? For instance, what if we try to solve $x^2 = -9$?
+
+[TA Sora] Let's test this logically! Suppose someone claims that $x = 3$. Well, $3 \times 3 = +9$, not $-9$. Then they say:
+
+--- Slide 8: Section 3.2 Part 1 Mastery Summary ---
+[Problem]:
+### Lecture 36 Key Rules
+- **Square Root Property:** If $x^2 = k$ and $k > 0$, then $x = \pm \sqrt{k}$.
+- Always isolate $x^2$ before taking square roots.
+- $x$-intercepts are ordered pairs $(+\sqrt{k
+[Script]:
+[Prof. Park] We have arrived at Slide 8, our Section 3.2 Part 1 Mastery Summary! Let's review the ground we have conquered in Lecture 36.
+
+[TA Sora] The headline theorem today was the Square Root Property: If $X^2 = k$, then $X = \pm \sqrt{k}$. Never forget the $\pm$ sign—it accounts for both positi
+
+========================================
+LECTURE 37 (8 slides)
+========================================
+
+--- Slide 1: Square Root Property with Binomial Squares: (x - h)^2 = k ---
+[Problem]:
+### The Generalized Square Root Property (Workbook p. 69)
+When a binomial squared equals a constant:
+$$\mathbf{(x - h)^2 = k}$$
+- Take the square root of both sides:
+  $$\mathbf{x - h = \pm \sqrt{k}}$
+[Script]:
+[Prof. Park] Hello everyone, and welcome to Lecture 37 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me as always is our stellar teaching assistant, Sora. Today we advance to Section 3.2 Part 2 on page 77 of your workbook: The Square Root Property with Binomial Squares.
+
+[TA So
+
+--- Slide 2: Section 3.2 Example 5: Solving (x - 3)^2 = 25 ---
+[Problem]:
+### Example 5 (Workbook p. 69)
+Solve the equation for $x$:
+$$\mathbf{(x - 3)^2 = 25}$$
+- Apply the Square Root Property.
+- Separate into two arithmetic cases and simplify.
+[Script]:
+[Prof. Park] On Slide 2, Section 3.2 Example 5 asks us to solve the equation $(x - 3)^2 = 25$. Let's demonstrate the speed and elegance of the Square Root Property!
+
+[TA Sora] Step 1: Check that the binomial square is isolated on the left side. It is! $(x - 3)^2$ is all by itself, and 25 is on the r
+
+--- Slide 3: Section 3.2 Example 6: Intercepts & Vertex for f(x) = (x + 2)^2 - 9 ---
+[Problem]:
+### Example 6 (Workbook p. 69)
+Find the intercepts and vertex for the function:
+$$\mathbf{f(x) = (x + 2)^2 - 9}$$
+- **A. Find the $x$-intercept(s):** \underline{\hspace{3cm}}
+- **B. Find the $y$-inter
+[Script]:
+[Prof. Park] Turning to Slide 3, Section 3.2 Example 6 connects this method to graphing a quadratic function in vertex form: For $f(x) = (x + 2)^2 - 9$, find the $x$-intercepts and the vertex, and sketch the graph.
+
+[TA Sora] Look at how familiar this form is! $f(x) = (x + 2)^2 - 9$ is written in Ve
+
+--- Slide 4: Section 3.2 Example 7: Solving 2(x - 4)^2 = 32 ---
+[Problem]:
+### Example 7 (Workbook p. 70)
+Solve the equation for $x$:
+$$\mathbf{2(x - 4)^2 = 32}$$
+- Divide by 2 first to isolate $(x - 4)^2$.
+- Apply the Square Root Property.
+- Solve for both values of $x$.
+[Script]:
+[Prof. Park] On Slide 4, Example 7 adds one extra layer of algebra: Solve the equation $2(x - 4)^2 = 32$. Sora, what must a student NEVER do at the start of this problem?
+
+[TA Sora] Never distribute that 2 inside the parentheses! Many students want to multiply 2 by $(x - 4)$ and write $(2x - 8)^2$. 
+
+--- Slide 5: Section 3.2 Example 8: Non-Perfect Squares and Radicals ---
+[Problem]:
+### Example 8 (Workbook p. 70)
+Solve the equation for $x$:
+$$\mathbf{(x - 1)^2 = 12}$$
+- Apply the Square Root Property.
+- Simplify the radical $\sqrt{12} = \sqrt{4 \cdot 3} = 2\sqrt{3}$.
+- Express th
+[Script]:
+[Prof. Park] Slide 5 presents Section 3.2 Example 8: $(x + 1)^2 = 12$. Here, 12 is not a perfect square. Sora, how do we handle non-perfect square radicals?
+
+[TA Sora] We simplify the radical by factoring out the largest perfect square factor! Let's follow our steps: Step 1: The binomial square is a
+
+--- Slide 6: Exact Radical Form vs Decimal Approximations ---
+[Problem]:
+### Working with Irrational Roots
+For $x = 1 \pm 2\sqrt{3}$:
+- Compute the decimal approximations using $\sqrt{3} \approx 1.732$.
+- Verify where these points lie on the $x$-axis of the coordinate plan
+[Script]:
+[Prof. Park] On Slide 6, we explore 'Exact Radical Form versus Decimal Approximations.' In STEM disciplines—engineering, physics, computer science, and chemistry—knowing when to use which form is a vital professional skill.
+
+[TA Sora] Let's define the difference clearly: Exact Radical Form contains 
+
+--- Slide 7: Sora's Checklist for the Square Root Property ---
+[Problem]:
+### When to Use the Square Root Property
+- **Use SRP when:**
+  - Equation has an isolated square: $x^2 = k$ or $(x - h)^2 = k$.
+  - There is NO separate linear $x$ term outside the parentheses.
+- **Do
+[Script]:
+[Prof. Park] Slide 7 presents 'Sora's Checklist for the Square Root Property.' Let's summarize the four non-negotiable steps to guarantee success on every homework and exam problem.
+
+[TA Sora] Step 1: The 'Isolation Phase.' Look at your equation. Is the squared quantity $(X)^2$ or $(x - h)^2$ comple
+
+--- Slide 8: Section 3.2 Complete Mastery Summary ---
+[Problem]:
+### Section 3.2 Master Summary
+- $(x - h)^2 = k \implies x - h = \pm\sqrt{k} \implies x = h \pm \sqrt{k}$.
+- Always simplify radicals to lowest terms ($
+\sqrt{12} = 2\sqrt{3}$).
+- If $k$ is not a perf
+[Script]:
+[Prof. Park] We have arrived at Slide 8, our Section 3.2 Complete Mastery Summary! Sora, what an empowering set of tools we've built in Lectures 36 and 37.
+
+[TA Sora] We have truly expanded our algebraic toolkit! We mastered the Square Root Property for simple variables ($x^2 = k$) and for binomial 
+
+========================================
+LECTURE 38 (8 slides)
+========================================
+
+--- Slide 1: Section 3.3: Finding Intercepts by Factoring ---
+[Problem]:
+### The Power of Factoring (Workbook p. 71)
+When a quadratic function has all three terms ($ax^2 + bx + c$), we set $f(x) = 0$:
+$$\mathbf{ax^2 + bx + c = 0}$$
+- If the trinomial can be factored into t
+[Script]:
+[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we enter Section 3.3 on page 80 of your workbook: Solving Quadratic Equations by Factoring.
+
+[TA Sora] Hello everyone! Section 3.3 is one of my absolute favorite sections in a
+
+--- Slide 2: Section 3.3 Example 1: Solving x^2 - 5x + 6 = 0 ---
+[Problem]:
+### Example 1 (Workbook p. 71)
+Find the $x$-intercepts for $\mathbf{f(x) = x^2 - 5x + 6}$ by factoring:
+- Set $x^2 - 5x + 6 = 0$.
+- Find two numbers that multiply to $+6$ and add to $-5$.
+- Apply the 
+[Script]:
+[Prof. Park] Slide 2 brings us to Section 3.3 Example 1 on page 80: Solve the equation $x^2 - 5x + 6 = 0$ by factoring.
+
+[TA Sora] Let's follow our step-by-step factoring method. Step 1: Ensure the equation is set equal to zero! It is: $x^2 - 5x + 6 = 0$.
+
+[Prof. Park] Step 2: Identify the target nu
+
+--- Slide 3: Section 3.3 Example 2: Intercepts & Vertex for f(x) = x^2 + 7x + 12 ---
+[Problem]:
+### Example 2 (Workbook p. 71)
+For $\mathbf{f(x) = x^2 + 7x + 12}$:
+- **A. Find the $x$-intercept(s) by factoring:** \underline{\hspace{3cm}}
+- **B. Find the $y$-intercept:** \underline{\hspace{3cm}}
+
+[Script]:
+[Prof. Park] On Slide 3, Section 3.3 Example 2 asks us to find the $x$-intercepts and vertex for $f(x) = x^2 + 7x + 10$.
+
+[TA Sora] Let's find the $x$-intercepts first by setting the function equal to zero: $x^2 + 7x + 10 = 0$. We need two numbers that multiply to $+10$ and add to $+7$.
+
+[Prof. Park
+
+--- Slide 4: Section 3.3 Example 3: Factoring with GCF: 2x^2 - 8x = 0 ---
+[Problem]:
+### Example 3 (Workbook p. 72)
+Find the $x$-intercepts for $\mathbf{f(x) = 2x^2 - 8x}$:
+- Notice there is no constant term ($c = 0$).
+- Factor out the Greatest Common Factor (GCF).
+- Apply the Zero Pr
+[Script]:
+[Prof. Park] Turning to Slide 4, Example 3 presents a different factoring pattern: Solve $2x^2 - 8x = 0$. Sora, notice that this equation only has two terms. There is no constant term $c$!
+
+[TA Sora] When a quadratic equation is missing its constant term, students sometimes freeze because they are l
+
+--- Slide 5: Section 3.3 Example 4: Difference of Squares 4x^2 - 25 = 0 ---
+[Problem]:
+### Example 4 (Workbook p. 72)
+Find the $x$-intercepts for $\mathbf{f(x) = 4x^2 - 25}$:
+- Recognize the Difference of Two Squares pattern: $A^2 - B^2 = (A - B)(A + B)$.
+- Factor and solve for $x$.
+[Script]:
+[Prof. Park] Slide 5 brings us to Example 4: Difference of Squares, $4x^2 - 25 = 0$. Sora, here we have two terms again, but this time there is no middle linear term ($b = 0$).
+
+[TA Sora] Look at both terms: $4x^2$ is $(2x)^2$, a perfect square! And 25 is $5^2$, another perfect square! And they are 
+
+--- Slide 6: The 'Must Equal Zero' Trap: x(x - 5) = 6 ---
+[Problem]:
+### Solve: $x(x - 5) = 6$
+- **Fatal Student Error:** Setting $x = 6$ or $x - 5 = 6$! Why is this completely false?
+- **Correct Procedure:** Multiply out, subtract 6 to set equation equal to ZERO, and 
+[Script]:
+[Prof. Park] Slide 6 addresses what is known across mathematics departments as 'The Must Equal Zero Trap.' Look at the equation on your screen: $x(x - 5) = 6$. Sora, why does this problem cause so many heartaches on exams?
+
+[TA Sora] Because students see factors on the left side, and they say: 'Oh, 
+
+--- Slide 7: Sora's Protocol for Solving by Factoring ---
+[Problem]:
+### Factoring Protocol for Quadratic Equations
+1. **Set to zero:** Move all terms to one side: $ax^2 + bx + c = 0$.
+2. **Look for a GCF first:** Factor out any common monomial factor.
+3. **Count the t
+[Script]:
+[Prof. Park] Slide 7 presents 'Sora's Protocol for Solving by Factoring.' Having a clear roadmap keeps your head cool and your pencil moving smoothly.
+
+[TA Sora] Step 1: The 'Zero Invariant.' Move all terms to one side of the equals sign so that one side is strictly 0: $ax^2 + bx + c = 0$. If the le
+
+--- Slide 8: Section 3.3 Part 1 Mastery Summary ---
+[Problem]:
+### Lecture 38 Key Takeaways
+- $x$-intercepts correspond to roots of $ax^2 + bx + c = 0$.
+- Zero Product Property: $A \cdot B = 0 \implies A = 0$ or $B = 0$.
+- Always set to zero before factoring.
+- W
+[Script]:
+[Prof. Park] We have reached Slide 8, our Section 3.3 Part 1 Mastery Summary! Let's reflect on the milestones of Lecture 38.
+
+[TA Sora] Today we harnessed the power of the Zero Product Property: $A \cdot B = 0 \implies A = 0$ or $B = 0$. It allows us to break second-degree quadratic equations into t
+
+========================================
+LECTURE 39 (8 slides)
+========================================
+
+--- Slide 1: Section 3.3 Example 5: Factoring 2x^2 + 7x + 3 = 0 ---
+[Problem]:
+### Example 5: Leading Coefficient $a \neq 1$ (Workbook p. 73)
+Find the $x$-intercepts for $\mathbf{f(x) = 2x^2 + 7x + 3}$ by factoring:
+- Use the $ac$-method: $a \cdot c = 2 \cdot 3 = 6$.
+- Find fact
+[Script]:
+[Prof. Park] Hello everyone, and welcome to Lecture 39 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we advance to Section 3.3 Part 2 on page 82 of your workbookâfactoring when the leading coefficient $a$ is not 1.
+
+[TA Sora] Welcome 
+
+--- Slide 2: Section 3.3 Example 6: Intercepts for g(x) = 3x^2 - 10x - 8 ---
+[Problem]:
+### Example 6 (Workbook p. 73)
+Find the intercepts for $\mathbf{g(x) = 3x^2 - 10x - 8}$:
+- $ac = 3 \cdot (-8) = -24$.
+- Find factors of $-24$ that add to $-10$.
+- Factor and solve for $x$-intercepts a
+[Script]:
+[Prof. Park] Turning to Slide 2, Example 6 asks us to find the $x$-intercepts for $g(x) = 3x^2 - 10x - 8$. Sora, let's guide our students through the ac-method with negative numbers!
+
+[TA Sora] First, set $g(x) = 0$: $3x^2 - 10x - 8 = 0$. Step 1: Calculate $a \times c$. Here $a = 3$ and $c = -8$, so
+
+--- Slide 3: Section 3.3 Example 7: Negative Leading Coefficient -x^2 + 4x + 5 = 0 ---
+[Problem]:
+### Example 7 (Workbook p. 74)
+Find the $x$-intercepts for $\mathbf{f(x) = -x^2 + 4x + 5}$:
+- Set $-x^2 + 4x + 5 = 0$.
+- Multiply or factor out $-1$ from all terms first.
+- Factor the resulting trinom
+[Script]:
+[Prof. Park] Slide 3 brings us to Example 7: $-x^2 + 4x + 5 = 0$. Sora, look at that leading coefficient: it is negative ($-1$). What is our immediate tactical move?
+
+[TA Sora] Never factor a quadratic equation when the leading coefficient is negative! Factoring with a negative $a$ creates a nightma
+
+--- Slide 4: Special Case: Exactly One x-Intercept (Tangent Vertex) ---
+[Problem]:
+### Perfect Square Trinomial: $f(x) = x^2 - 6x + 9$
+- Factor the equation $x^2 - 6x + 9 = 0$.
+- How many distinct roots are there?
+- What does this mean geometrically for the parabola on the Cartesian
+[Script]:
+[Prof. Park] On Slide 4, we examine a fascinating Special Case: When a Quadratic Has Exactly One $x$-Intercept. Look at $x^2 - 6x + 9 = 0$.
+
+[TA Sora] Let's factor it: we need two numbers that multiply to $+9$ and add to $-6$. That is $-3$ and $-3$! So it factors into $(x - 3)(x - 3) = 0$, or $(x - 
+
+--- Slide 5: The Three Possibilities for x-Intercepts of a Parabola ---
+[Problem]:
+### How Many x-Intercepts Can a Parabola Have?
+A parabola can intersect the horizontal axis in three distinct ways:
+1. **Two $x$-intercepts:** The parabola crosses through the axis twice (e.g. $x^2 - 
+[Script]:
+[Prof. Park] Slide 5 synthesizes 'The Three Possibilities for $x$-Intercepts of a Parabola.' Every quadratic function in the universe falls into one of these three geometric categories.
+
+[TA Sora] Case 1: Exactly TWO Real $x$-Intercepts. This happens when the vertex lies on one side of the $x$-axis 
+
+--- Slide 6: Factored Form to Graph: f(x) = a(x - r_1)(x - r_2) ---
+[Problem]:
+### Factored Form of a Quadratic Function
+If the $x$-intercepts are $r_1$ and $r_2$, the function can be written:
+$$\mathbf{f(x) = a(x - r_1)(x - r_2)}$$
+- The roots $r_1$ and $r_2$ appear directly in
+[Script]:
+[Prof. Park] On Slide 6, we introduce Factored Form: $f(x) = a(x - r_1)(x - r_2)$. Sora, this is our third representation of a quadratic function, alongside General Form and Vertex Form!
+
+[TA Sora] In Factored Form, the numbers $r_1$ and $r_2$ are the roots or $x$-intercepts! If a function is writte
+
+--- Slide 7: Check Your Understanding: Factoring 3x^2 - 12 = 0 ---
+[Problem]:
+### Checkpoint Practice
+Find the $x$-intercepts for $\mathbf{f(x) = 3x^2 - 12}$ using factoring:
+- Factor out the GCF first.
+- Factor the remaining difference of squares.
+- State both $x$-intercepts.
+[Script]:
+[Prof. Park] Slide 7 presents a 'Check Your Understanding' problem: Solve $3x^2 - 12 = 0$ by factoring.
+
+[TA Sora] Step 1: Follow Sora's checklistâalways look for a Greatest Common Factor (GCF) first! Both $3x^2$ and $12$ are divisible by 3. Factor out 3: $3(x^2 - 4) = 0$!
+
+[Prof. Park] Step 2: No
+
+--- Slide 8: Section 3.3 Complete Mastery Summary ---
+[Problem]:
+### Section 3.3 Master Checklist
+- Factored quadratic equations using GCF, grouping ($ac$-method), and difference of squares.
+- Handled negative leading coefficients by factoring out $-1$.
+- Discovere
+[Script]:
+[Prof. Park] We have reached Slide 8, our Section 3.3 Complete Mastery Summary! 
+
+[TA Sora] In Lecture 39, we mastered the ac-method for factoring when $a \neq 1$, learned to flip signs by multiplying by $-1$, explored the tangent vertex special case with 1 root, analyzed the three possibilities for
+
+========================================
+LECTURE 40 (8 slides)
+========================================
+
+--- Slide 1: Section 3.4: Completing the Square ---
+[Problem]:
+### Why Complete the Square? (Workbook p. 75)
+Many quadratic equations cannot be factored using whole numbers.
+**Completing the Square** is an algebraic technique that turns ANY quadratic expression i
+[Script]:
+[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we enter Lecture 40 and Section 3.4 on page 86 of your workbook: Completing the Square.
+
+[TA Sora] Hello everyone! Section 3.4 is one of the most intellectually rewarding 
+
+--- Slide 2: Section 3.4 Example 1: Finding the 'Magic Number' ---
+[Problem]:
+### Example 1 (Workbook p. 75)
+Find the constant term that must be added to each binomial to make it a perfect square trinomial, then write the factored form:
+- **A.** $x^2 + 6x + \underline{\quad}$
+-
+[Script]:
+[Prof. Park] Slide 2 introduces the heart of this section: Finding the 'Magic Number' that completes the square for $x^2 + bx$.
+
+[TA Sora] Here is the universal formula: to complete the square for $x^2 + bx$, you take half of the linear coefficient $b$, and square it! The magic number is $(b/2)^2$!
+
+
+--- Slide 3: Section 3.4 Example 2: Solving x^2 + 6x = 7 ---
+[Problem]:
+### Example 2 (Workbook p. 75)
+Solve the equation by completing the square:
+$$\mathbf{x^2 + 6x = 7}$$
+- Add $(\frac{6}{2})^2 = 9$ to both sides.
+- Factor the left side as a perfect square.
+- Apply the
+[Script]:
+[Prof. Park] On Slide 3, Section 3.4 Example 2 puts this to work on a full equation: Solve $x^2 + 6x = 7$ by completing the square.
+
+[TA Sora] Step 1: The variable terms $x^2 + 6x$ are already isolated on the left side, and the constant 7 is on the right side. That is our ideal starting position!
+
+[
+
+--- Slide 4: Section 3.4 Example 3: Solving x^2 - 8x - 5 = 0 ---
+[Problem]:
+### Example 3 (Workbook p. 76)
+Solve the equation by completing the square:
+$$\mathbf{x^2 - 8x - 5 = 0}$$
+- Move the constant $-5$ to the right side first.
+- Add $(\frac{-8}{2})^2 = 16$ to both sides.
+[Script]:
+[Prof. Park] Slide 4 presents Example 3: Solve $x^2 - 8x - 5 = 0$. Sora, notice that this equation cannot be factored over integers because no factors of $-5$ add to $-8$!
+
+[TA Sora] This is where Completing the Square proves its true worth! It doesn't care if numbers factor or not; it works every s
+
+--- Slide 5: Section 3.4 Example 4: Leading Coefficient a != 1 ---
+[Problem]:
+### Example 4: When $a \neq 1$ (Workbook p. 77)
+Solve by completing the square:
+$$\mathbf{2x^2 + 12x - 10 = 0}$$
+- **Golden Rule:** Completing the square requires the leading coefficient to be **$1$**
+[Script]:
+[Prof. Park] On Slide 5, Example 4 raises the difficulty bar: Solve $2x^2 - 12x + 10 = 0$. Sora, look at the leading coefficient: $a = 2$. Can we complete the square while $a = 2$?
+
+[TA Sora] Absolutely not! This is the #1 rule of Completing the Square: 'The leading coefficient MUST be 1 before you 
+
+--- Slide 6: Converting General Form to Vertex Form via CTS ---
+[Problem]:
+### Transforming $f(x) = x^2 - 6x + 5$ into Vertex Form
+Watch how completing the square transforms General Form into Vertex Form:
+- Group the $x$-terms: $(x^2 - 6x) + 5$.
+- Complete the square inside:
+[Script]:
+[Prof. Park] Slide 6 reveals a magnificent application of Completing the Square: Converting General Form $f(x) = ax^2 + bx + c$ into Vertex Form $f(x) = a(x - h)^2 + k$!
+
+[TA Sora] In Section 3.1, we loved vertex form because the vertex $(h, k)$ was obvious. Now, Completing the Square gives us the e
+
+--- Slide 7: Sora's Complete CTS Protocol ---
+[Problem]:
+### Master 5-Step CTS Protocol
+1. **Ensure $a = 1$:** If $a \neq 1$, divide all terms on both sides by $a$.
+2. **Isolate variable terms:** Move constant $c$ to the right side: $x^2 + bx = -c$.
+3. **Co
+[Script]:
+[Prof. Park] Slide 7 presents 'Sora's Complete CTS Protocol.' Here is the master 5-step checklist for Completing the Square.
+
+[TA Sora] Step 1: 'Make $a = 1$.' If there is a leading coefficient $a \neq 1$, divide every term in the equation by $a$.
+
+[Prof. Park] Step 2: 'Isolate Variables.' Move the 
+
+--- Slide 8: Section 3.4 Mastery Summary & The Gateway to the Formula ---
+[Problem]:
+### The Gateway to Section 3.5
+- Completing the square proved that ANY quadratic equation can be solved.
+- In Section 3.5, we complete the square on the abstract symbols $ax^2 + bx + c = 0$ once and f
+[Script]:
+[Prof. Park] We have arrived at Slide 8, our Section 3.4 Mastery Summary and the Gateway to the Quadratic Formula!
+
+[TA Sora] What a milestone today was! Completing the Square gives us universal power: it solves any quadratic equation, regardless of whether it factors.
+
+[Prof. Park] We learned that 
+
+========================================
+LECTURE 41 (8 slides)
+========================================
+
+--- Slide 1: Section 3.5: The Quadratic Formula ---
+[Problem]:
+**The Quadratic Formula** can solve ANY quadratic equation once it is set equal to zero in general form.
+
+$$\text{If } ax^2 + bx + c = 0 \text{ then:}$$
+
+$$\boxed{x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2
+[Script]:
+[Prof. Park] Hello everyone, and welcome to Lecture 41 of M090 Introductory Algebra! I'm Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we reach the undisputed summit of introductory algebra: Section 3.5 on page 90 of your workbookâThe Quadratic Formula!
+
+[TA Sora]
+
+--- Slide 2: Quadratic Formula: $ g(x) = x^2 - 17x + 72 $ ---
+[Problem]:
+**Find the intercepts and vertex for:** $g(x) = x^2 - 17x + 72$
+
+**Step 1 — Identify x-intercepts:** Set $g(x) = 0$
+$$x^2 - 17x + 72 = 0$$
+
+Identify: $a = 1,\; b = -17,\; c = 72$
+
+Apply the Quadratic 
+[Script]:
+[Prof. Park] On Slide 2, we solve Section 3.5 Example 1: $g(x) = x^2 - 17x + 72 = 0$. Here the numbers are large, and finding factors of 72 that add to 17 could take several minutes of trial and error. Let's see how the Quadratic Formula handles it!
+
+[TA Sora] Step 1: Identify our three coefficients
+
+--- Slide 3: Quadratic Formula: $ h(x) = x^2 - 5x - 7 $ ---
+[Problem]:
+**Find the intercepts and vertex for:** $h(x) = x^2 - 5x - 7$
+
+Set $h(x) = 0$: $x^2 - 5x - 7 = 0$
+
+Identify: $a = 1,\; b = -5,\; c = -7$
+
+$$x = \dfrac{-(-5) \pm \sqrt{(-5)^2 - 4(1)(-7)}}{2(1)} = \dfra
+[Script]:
+[Prof. Park] Slide 3 brings us to Example 2: Solve $2x^2 + 5x - 3 = 0$. Sora, here $a = 2$, and $c$ is negative. What sign danger should students watch out for?
+
+[TA Sora] Watch out for the '$-4ac$' term! When $c$ is negative, you have $-4(a)(-c)$, which means two negative signs multiplying together
+
+--- Slide 4: Quadratic Formula: $ h(x) = 13x - x^2 + 1 $ ---
+[Problem]:
+**Find the intercepts and vertex for:** $h(x) = 13x - x^2 + 1$
+
+**Step 1 — Rewrite in standard form** $ax^2 + bx + c$:
+$$h(x) = -x^2 + 13x + 1$$
+
+Set $h(x) = 0$: $-x^2 + 13x + 1 = 0$
+
+Identify: $a = -
+[Script]:
+[Prof. Park] On Slide 4, Example 3 gives us: $3x^2 - 4x + 1 = 0$. Sora, let's execute the formula with discipline.
+
+[TA Sora] Coefficients: $a = 3$, $b = -4$, and $c = 1$. Notice $b$ is negative, so $-b$ becomes $-(-4) = +4$!
+
+[Prof. Park] Substitute into the formula: $x = \frac{-(-4) \pm \sqrt{(-4)
+
+--- Slide 5: Quadratic Formula: $ f(x) = -x^2 - 5x + 7 $ ---
+[Problem]:
+**Find the intercepts and vertex for:** $f(x) = -x^2 - 5x + 7$
+
+Set $f(x) = 0$: $-x^2 - 5x + 7 = 0$
+
+Identify: $a = -1,\; b = -5,\; c = 7$
+
+$$x = \dfrac{-(-5) \pm \sqrt{(-5)^2 - 4(-1)(7)}}{2(-1)} = \d
+[Script]:
+[Prof. Park] Slide 5 presents Example 4: Solve $x^2 + 4x + 1 = 0$. Sora, notice that this equation cannot be factored because no factors of 1 add to 4. What happens when we use the Quadratic Formula?
+
+[TA Sora] This is where the formula truly shines! It handles non-factorable equations with irration
+
+--- Slide 6: Quadratic Formula: $ f(x) = -1 + 2x^2 - 3x $ ---
+[Problem]:
+**Find the intercepts and vertex for:** $f(x) = -1 + 2x^2 - 3x$
+
+**Step 1 — Rewrite in standard form:**
+$$f(x) = 2x^2 - 3x - 1$$
+
+Set $f(x) = 0$: $2x^2 - 3x - 1 = 0$
+
+Identify: $a = 2,\; b = -3,\; c =
+[Script]:
+[Prof. Park] On Slide 6, we practice function evaluation with a quadratic model: Given $f(x) = 3x^2 - 5x + 7$, evaluate $f(-2)$ and $f(0)$. Sora, why do we continue practicing evaluations alongside our formula?
+
+[TA Sora] Because evaluating functions is how we verify our algebraic roots in real appl
+
+--- Slide 7: Function Evaluation: $ f(x) = 3x^2 - 5x + 7 $ ---
+[Problem]:
+**Use $f(x) = 3x^2 - 5x + 7$ to find:**
+
+**A.** $f(4)$
+
+**B.** $f(p)$
+
+**C.** $f(x+3)$
+
+**D.** Solve $f(x) = 13$ for $x$
+[Script]:
+[Prof. Park] Slide 7 provides another evaluation challenge: For $f(x) = 3x^2 - 5x + 7$, evaluate $f(3)$ and $f(1/3)$. Sora, let's walk through that fraction input $1/3$ step by step!
+
+[TA Sora] For $f(3)$: $f(3) = 3(3)^2 - 5(3) + 7 = 3(9) - 15 + 7 = 27 - 15 + 7 = 12 + 7 = 19$! That gives the ordered
+
+--- Slide 8: Quadratic Formula — Key Takeaways ---
+[Problem]:
+**Quadratic Formula Summary:**
+
+| Step | Action |
+|------|--------|
+| 1 | Write in standard form: $ax^2+bx+c=0$ |
+| 2 | Identify $a$, $b$, $c$ |
+| 3 | Compute discriminant: $b^2 - 4ac$ |
+| 4 | Apply: 
+[Script]:
+[Prof. Park] We have reached Slide 8, our Lecture 41 Recap! Today we mastered the most powerful formula in algebra: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
+
+[TA Sora] Let's review the three golden rules of the Quadratic Formula: Rule 1: Set the equation strictly equal to zero first, and arrange in
+
+========================================
+LECTURE 42 (8 slides)
+========================================
+
+--- Slide 1: Section 3.5 Part 2: The Discriminant ---
+[Problem]:
+**The Discriminant** is the expression inside the square root of the Quadratic Formula:
+
+$$\Delta = b^2 - 4ac$$
+
+**It tells us the number of x-intercepts WITHOUT solving:**
+
+| Discriminant | Solutions
+[Script]:
+[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our stellar teaching assistant, Sora. Today in Lecture 42, we explore Section 3.5 Part 2 on page 92: The Discriminant.
+
+[TA Sora] Hello everyone! The Discriminant is the mathematical crystal ball of algebra. It is 
+
+--- Slide 2: Discriminant $\Delta > 0$: Two Real x-Intercepts ---
+[Problem]:
+**Find and classify solutions for:** $f(x) = x^2 - 5x + 4$
+
+**Step 1 — Compute discriminant:** $a=1, b=-5, c=4$
+$$\Delta = (-5)^2 - 4(1)(4) = 25 - 16 = 9 > 0$$
+
+**Conclusion:** The parabola crosses th
+[Script]:
+[Prof. Park] On Slide 2, Example 5 asks us to find the discriminant and determine the number and type of solutions for $x^2 - 5x - 6 = 0$.
+
+[TA Sora] Step 1: Identify our three coefficients: $a = 1$, $b = -5$, and $c = -6$.
+
+[Prof. Park] Step 2: Compute the Discriminant formula: $\Delta = b^2 - 4ac 
+
+--- Slide 3: Discriminant $\Delta = 0$: Exactly One Real x-Intercept ---
+[Problem]:
+**Find and classify solutions for:** $f(x) = x^2 - 6x + 9$
+
+**Step 1 — Compute discriminant:** $a=1, b=-6, c=9$
+$$\Delta = (-6)^2 - 4(1)(9) = 36 - 36 = 0$$
+
+**Conclusion:** The parabola **touches** th
+[Script]:
+[Prof. Park] Slide 3 brings us to Example 6: $x^2 - 6x + 9 = 0$. Let's test the discriminant!
+
+[TA Sora] Step 1: Coefficients: $a = 1$, $b = -6$, and $c = 9$.
+
+[Prof. Park] Step 2: Compute the Discriminant: $\Delta = b^2 - 4ac = (-6)^2 - 4(1)(9) = 36 - 36 = 0$!
+
+[TA Sora] The Discriminant is exactly
+
+--- Slide 4: Discriminant $\Delta < 0$: No Real x-Intercepts ---
+[Problem]:
+**Find and classify solutions for:** $f(x) = x^2 + 2x + 5$
+
+**Step 1 — Compute discriminant:** $a=1, b=2, c=5$
+$$\Delta = (2)^2 - 4(1)(5) = 4 - 20 = -16 < 0$$
+
+**Conclusion:** There are **no real x-in
+[Script]:
+[Prof. Park] On Slide 4, Example 7 tests: $2x^2 + 3x + 4 = 0$. Sora, let's see what the discriminant reveals here!
+
+[TA Sora] Step 1: Coefficients: $a = 2$, $b = 3$, and $c = 4$.
+
+[Prof. Park] Step 2: Compute $\Delta = b^2 - 4ac = 3^2 - 4(2)(4) = 9 - 32 = -23$!
+
+[TA Sora] Look at that: $\Delta = -23
+
+--- Slide 5: Classify Without Solving: $h(x) = -2x^2 + 3x - 5$ ---
+[Problem]:
+**Without fully solving, determine the number of x-intercepts for:**
+$$h(x) = -2x^2 + 3x - 5$$
+
+Identify: $a = -2,\; b = 3,\; c = -5$
+
+Compute the discriminant:
+$$\Delta = b^2 - 4ac = (3)^2 - 4(-2)(-5
+[Script]:
+[Prof. Park] Slide 5 synthesizes the Discriminant Summary Matrix across all three possibilities. Let's review the complete landscape.
+
+[TA Sora] Column 1: $\Delta > 0$. Two real solutions. If $\Delta$ is a perfect square, the roots are rational (factorable). If $\Delta$ is not a perfect square (like
+
+--- Slide 6: Function Evaluation: $ f(x) = 3x^2 - 5x + 7 $ (Parts A & B) ---
+[Problem]:
+**Use $f(x) = 3x^2 - 5x + 7$ to find:**
+
+**A.** $f(4)$
+
+**B.** $f(p)$
+
+**Recall:** To evaluate $f(\text{input})$, replace every $x$ in the formula with the input.
+[Script]:
+[Prof. Park] On Slide 6, we evaluate function values for $f(x) = 3x^2 - 5x + 7$: evaluating $f(1)$ and $f(-1)$.
+
+[TA Sora] Let's evaluate $f(1)$: $f(1) = 3(1)^2 - 5(1) + 7 = 3(1) - 5 + 7 = 3 - 5 + 7 = 5$. That gives the point $(1, 5)$!
+
+[Prof. Park] Now evaluate $f(-1)$: remember protective parenthe
+
+--- Slide 7: Function Composition & Solving: $ f(x) = 3x^2 - 5x + 7 $ (Parts C & D) ---
+[Problem]:
+**Use $f(x) = 3x^2 - 5x + 7$ to find:**
+
+**C.** $f(x+3)$
+
+**D.** Solve $f(x) = 13$ for $x$
+[Script]:
+[Prof. Park] Slide 7 challenges us with function composition and equation solving: find all values of $x$ where $f(x) = 9$ for $f(x) = 3x^2 - 5x + 7$.
+
+[TA Sora] We set the function output equal to 9: $3x^2 - 5x + 7 = 9$. Remember our golden rule from Lecture 38: the equation MUST equal zero before 
+
+--- Slide 8: Discriminant Summary — Three Cases Visualized ---
+[Problem]:
+**Discriminant Decision Chart:**
+
+| Compute $\Delta = b^2-4ac$ | Result | Parabola |
+|---|---|---|
+| $\Delta > 0$ | **2** real solutions | Crosses x-axis at 2 points |
+| $\Delta = 0$ | **1** real solu
+[Script]:
+[Prof. Park] We have completed Lecture 42! Today we proved that $\Delta = b^2 - 4ac$ tells the entire mathematical story of any quadratic equation before you lift a finger to solve it.
+
+[TA Sora] Positive gives two roots; zero gives one tangent root; negative gives zero real roots. 
+
+[Prof. Park] In
+
+========================================
+LECTURE 43 (8 slides)
+========================================
+
+--- Slide 1: Section 3.6: Mixed Methods — Intercepts and Vertex ---
+[Problem]:
+**Section 3.6 Strategy: Choose the Best Method**
+
+| Equation Form | Best Method |
+|---|---|
+| $ax^2 + c = 0$ (no $bx$) | **Square Root Property** |
+| $ax^2 + bx = 0$ (no constant) | **Factor out GCF**
+[Script]:
+[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we reach Section 3.6 on page 94 of your workbook: Mixed Methods for Intercepts and Vertex.
+
+[TA Sora] Hello everyone! Over the past two weeks, we have learned four distinct ma
+
+--- Slide 2: x-Intercepts: $ g(x) = x^2 + 6x $ (Factor GCF) ---
+[Problem]:
+**Find the x-intercepts of $g(x) = x^2 + 6x$**
+
+Set $g(x) = 0$:
+$$x^2 + 6x = 0$$
+
+**Method: Factor out the GCF**
+- Both terms share a factor of $x$
+$$x(x + 6) = 0$$
+
+**Zero-Product Property:**
+$$x = 0
+[Script]:
+[Prof. Park] Slide 2 presents Problem 1: Solve the equation $x^2 - 36 = 0$. Sora, which tool should we grab from our toolbox?
+
+[TA Sora] Look at the structure: there is an $x^2$ term, but there is NO linear $x$ term ($b = 0$)! When $b = 0$, our fastest weapon is the Square Root Property!
+
+[Prof. Par
+
+--- Slide 3: x-Intercepts: $ h(x) = -2x^2 + 5x + 6 $ (Quadratic Formula) ---
+[Problem]:
+**Find the x-intercepts of $h(x) = -2x^2 + 5x + 6$**
+
+Set $h(x) = 0$: $-2x^2 + 5x + 6 = 0$
+
+Identify: $a = -2,\; b = 5,\; c = 6$
+
+$$x = \dfrac{-5 \pm \sqrt{5^2 - 4(-2)(6)}}{2(-2)} = \dfrac{-5 \pm \sqr
+[Script]:
+[Prof. Park] Turning to Slide 3, Problem 2 asks us to solve: $x^2 - 7x + 10 = 0$. Sora, what is our tactical assessment?
+
+[TA Sora] Let's scan the equation: $a = 1$, $b = -7$, and $c = 10$. Can we find two numbers that multiply to $+10$ and add to $-7$?
+
+[Prof. Park] Factors of 10: $-2$ and $-5$! $-
+
+--- Slide 4: x-Intercepts: $ f(x) = 4x^2 - 28 $ (Square Root Property) ---
+[Problem]:
+**Find the x-intercepts of $f(x) = 4x^2 - 28$**
+
+Set $f(x) = 0$:
+$$4x^2 - 28 = 0$$
+
+**Method: Square Root Property** (no $bx$ term!)
+
+**Step 1:** Isolate $x^2$:
+$$4x^2 = 28 \Rightarrow x^2 = 7$$
+
+**St
+[Script]:
+[Prof. Park] Slide 4 presents Problem 3: Solve $x^2 + 6x - 2 = 0$. Let's scan this equation tactically.
+
+[TA Sora] Let's check factoring first: factors of $-2$ are only $1$ and $-2$, or $-1$ and $2$. Neither pair adds to $+6$! So factoring is completely impossible.
+
+[Prof. Park] Factoring is off the
+
+--- Slide 5: x-Intercepts: $ f(x) = x^2 - 15x + 50 $ (Factoring) ---
+[Problem]:
+**Find the x-intercepts of $f(x) = x^2 - 15x + 50$**
+
+Set $f(x) = 0$:
+$$x^2 - 15x + 50 = 0$$
+
+**Method: Factoring** — Find two numbers that:
+- **Multiply** to $+50$
+- **Add** to $-15$
+
+Search: $-5 \ti
+[Script]:
+[Prof. Park] On Slide 5, Problem 4 presents: $3x^2 - 5x - 4 = 0$. Sora, what is our tactical assessment here?
+
+[TA Sora] Let's scan: $a = 3$, $b = -5$, and $c = -4$. First, $a \neq 1$, and $b = -5$ is an odd number. If we tried Completing the Square, we would have to divide by 3 and get messy fracti
+
+--- Slide 6: All Features: $ f(x) = -2(x-15)^2 + 50 $ ---
+[Problem]:
+**Use $f(x) = -2(x-15)^2 + 50$ to find:**
+
+**A.** x-intercept(s)
+
+**B.** y-intercept
+
+**C.** Vertex
+
+**D.** $f(20)$
+
+**Note:** This function is already in **vertex form** $f(x) = a(x-h)^2 + k$!
+[Script]:
+[Prof. Park] Slide 6 compares our two methods for finding the Vertex: using the Vertex Formula $x_v = -b / (2a)$ versus converting to Vertex Form via Completing the Square.
+
+[TA Sora] Let's test both on $f(x) = 2x^2 - 8x + 3$: Method 1, Vertex Formula: $a = 2$, $b = -8$. $x_v = -(-8) / (2 \cdot 2) =
+
+--- Slide 7: Intercept Summary Chart — All Four Methods ---
+[Problem]:
+**Summary of Finding Intercepts:**
+
+| Method | When to Use | Example |
+|---|---|---|
+| **Factor GCF** | No constant term $c$ | $x^2+6x=0$ |
+| **Square Root Property** | No middle term $b$ | $4x^2=28$ 
+[Script]:
+[Prof. Park] Slide 7 presents our Intercept Summary ChartÃ¢ÂÂthe master strategy guide to keep in your notes forever.
+
+[TA Sora] Let's summarize the decision tree: 1. Is $b = 0$? Use the Square Root Property ($x^2 = k$). 2. Does it factor easily? Use Factoring ($A \cdot B = 0$). 3. Is $a = 1$ and 
+
+--- Slide 8: Section 3.6 Complete — Lecture 43 Recap ---
+[Problem]:
+**Lecture 43 Complete Summary:**
+
+| Function | x-intercepts | y-intercept | Vertex |
+|---|---|---|---|
+| $g(x)=x^2+6x$ | $0$ and $-6$ | $0$ | $(-3,-9)$ |
+| $h(x)=-2x^2+5x+6$ | $-0.89$ and $3.39$ | $6$
+[Script]:
+[Prof. Park] Section 3.6 is complete! You now possess tactical maturity in college algebra.
+
+[TA Sora] In Lecture 44, we bring all these skills together into the 5-Point Graphing Method. 
+
+[Prof. Park] Complete your Section 3.6 practice problems on pages 94 and 95 tonight.
+
+[TA Sora] Great job today
+
+========================================
+LECTURE 44 (8 slides)
+========================================
+
+--- Slide 1: Section 3.7: Graphing Quadratic Functions ---
+[Problem]:
+**5-Point Graphing Method for $f(x) = ax^2 + bx + c$:**
+
+1. **Find the Vertex** — $x = \dfrac{-b}{2a}$, then compute $y$
+2. **Find the y-intercept** — $(0, c)$
+3. **Find the x-intercept(s)** — Set $f(
+[Script]:
+[Prof. Park] Welcome to Lecture 44 of M090! Today we enter Section 3.7 on page 96: Graphing Quadratic Functions with the 5-Point Method.
+
+[TA Sora] Hello everyone! Up until now, we have calculated individual features of parabolas in isolationÃ¢ÂÂthe vertex, the intercepts, the axis of symmetry. To
+
+--- Slide 2: Graph $ g(x) = x^2 + 6x + 5 $ Using Vertex and Table ---
+[Problem]:
+**Graph $g(x) = x^2 + 6x + 5$**
+
+**Step 1 — Vertex:** $x = \dfrac{-6}{2(1)} = -3$,\quad $g(-3) = 9-18+5 = -4$
+
+**Vertex:** $(-3,\,-4)$
+
+**Step 2 — Table** (centered at vertex x=-3):
+
+| $x$ | $g(x)$ |
+
+[Script]:
+[Prof. Park] On Slide 2, we graph $f(x) = x^2 - 6x + 5$. Let's execute our 5-point protocol!
+
+[TA Sora] Point 1: The Vertex! $a = 1$, $b = -6$, $c = 5$. $x_v = -(-6) / (2 \cdot 1) = 3$. Plug in $x = 3$: $f(3) = 3^2 - 6(3) + 5 = 9 - 18 + 5 = -4$. Vertex is $(3, -4)$!
+
+[Prof. Park] Point 2: The $y$-in
+
+--- Slide 3: Graph $ h(x) = -2x^2 + 4x + 6 $ Using All Key Points ---
+[Problem]:
+**Graph $h(x) = -2x^2 + 4x + 6$**
+
+**Step 1 — Vertex:** $a=-2,\;b=4,\;c=6$
+$$x = \dfrac{-4}{2(-2)} = \dfrac{-4}{-4} = 1,\quad h(1) = -2+4+6 = 8$$
+
+**Vertex:** $(1,\,8)$ — Maximum!
+
+**Step 2 — y-interc
+[Script]:
+[Prof. Park] Slide 3 brings us to a downward-opening parabola: $h(x) = -2x^2 + 4x + 6$.
+
+[TA Sora] Point 1: The Vertex! $x_v = -4 / (2(-2)) = -4 / -4 = 1$. Evaluate $h(1) = -2(1)^2 + 4(1) + 6 = -2 + 4 + 6 = 8$. Vertex is $(1, 8)$! Because $a = -2 < 0$, it opens downward.
+
+[Prof. Park] Point 2: The $
+
+--- Slide 4: Graph $ g(x) = 2x^2 - 8x $ ---
+[Problem]:
+**Graph $g(x) = 2x^2 - 8x$**
+
+**Step 1 — Vertex:** $a=2,\;b=-8,\;c=0$
+$$x = \dfrac{-(-8)}{2(2)} = \dfrac{8}{4} = 2,\quad g(2) = 2(4)-8(2) = 8-16 = -8$$
+
+**Vertex:** $(2,\,-8)$ — Minimum!
+
+**Step 2 — x
+[Script]:
+[Prof. Park] On Slide 4, we examine $g(x) = x^2 + 2x + 2$. What happens when a parabola has NO $x$-intercepts?
+
+[TA Sora] Let's check the discriminant: $\Delta = 2^2 - 4(1)(2) = 4 - 8 = -4 < 0$! It has zero real $x$-intercepts! But we still need five points!
+
+[Prof. Park] When there are no $x$-inter
+
+--- Slide 5: Graph $ f(x) = -\frac{1}{2}(x+1)^2 + 8 $ (Vertex Form) ---
+[Problem]:
+**Graph $f(x) = -\dfrac{1}{2}(x+1)^2 + 8$**
+
+**Vertex form:** $f(x) = a(x-h)^2 + k$
+
+**Read directly:**
+- $a = -\dfrac{1}{2}$ (opens downward, wide)
+- $h = -1$ (vertex x-coordinate)
+- $k = 8$ (vertex 
+[Script]:
+[Prof. Park] Slide 5 presents $k(x) = -x^2 + 4x - 4$. Here the discriminant is $16 - 16 = 0$. The vertex is $(2, 0)$Ã¢ÂÂa tangent vertex touching the axis at one single point!
+
+[TA Sora] Since the vertex is ON the axis, the vertex and the $x$-intercept are the exact same point $(2, 0)$! To get fiv
+
+--- Slide 6: Evaluating Two Functions: $ f(x) = x^2-6x+4 $ and $ g(x) = -2x+25 $ ---
+[Problem]:
+**Given $f(x) = x^2 - 6x + 4$ and $g(x) = -2x + 25$, find:**
+
+**A.** $f(-7)$
+
+**B.** $g(-7)$
+[Script]:
+[Prof. Park] Slide 6 compares quadratic and linear functions: evaluating $f(x) = x^2 - 6x + 4$ versus $g(x) = 2x - 3$. Linear growth is constant; quadratic growth accelerates!
+
+[TA Sora] Look at the table of values: for the line $g(x)$, every step of $x$ adds a constant 2 to $y$. But for $f(x)$, the
+
+--- Slide 7: Function Composition: $ f(x+5) $ and $ g(x+5) $ ---
+[Problem]:
+**Given $f(x) = x^2-6x+4$ and $g(x) = -2x+25$, find:**
+
+**C.** $f(x+5)$
+
+**D.** $g(x+5)$
+[Script]:
+[Prof. Park] Slide 7 demonstrates function transformations: $f(x + 5)$ shifts the parabola 5 units to the left on the coordinate plane!
+
+[TA Sora] Whenever you add inside the function argument, $(x + c)$, the entire curve shifts horizontally to the left by $c$ units! The shape, width, and vertex hei
+
+--- Slide 8: Solving: $ g(x) = 17 $ and $ f(x) = g(x) $ ---
+[Problem]:
+**Given $f(x) = x^2-6x+4$ and $g(x) = -2x+25$, find:**
+
+**E.** Solve for $x$ if $g(x) = 17$
+
+**F.** Solve for $x$ if $f(x) = g(x)$
+[Script]:
+[Prof. Park] Slide 8 solves the system $f(x) = g(x)$: finding the two exact intersection points where the straight line cuts through the curved parabola!
+
+[TA Sora] Set them equal: $x^2 - 6x + 4 = 2x - 3$. Subtract $2x$ and add 3: $x^2 - 8x + 7 = 0 \implies (x - 1)(x - 7) = 0 \implies x = 1$ and $x 
+
+========================================
+LECTURE 45 (8 slides)
+========================================
+
+--- Slide 1: Section 3.7 Part 2: Comprehensive Graphing Review ---
+[Problem]:
+**Lecture 45 Agenda:**
+
+1. **Domain and Range Review** — for all four graphed functions
+2. **Graphing from Scratch Practice** — complete 5-point method
+3. **Graph Comparison** — parabola vs. linear fu
+[Script]:
+[Prof. Park] Welcome to Lecture 45ÃÂ¢ÃÂÃÂthe final lecture of Unit 3 and the grand capstone of our entire M090 journey at Gallatin College Montana State University!
+
+[TA Sora] Congratulations Bobcats! Today we celebrate everything you have accomplished across 45 lectures of introductory algebra
+
+--- Slide 2: Domain and Range for All Four Section 3.7 Functions ---
+[Problem]:
+**State Domain and Range for each function:**
+
+| Function | Opens | Vertex | Domain | Range |
+|---|---|---|---|---|
+| $g(x)=x^2+6x+5$ | Up | $(-3,-4)$ | | |
+| $h(x)=-2x^2+4x+6$ | Down | $(1,8)$ | | |
+
+[Script]:
+[Prof. Park] Slide 2 reviews Domain and Range across all four Section 3.7 functions: $f(x) = x^2 - 6x + 5$, $h(x) = -2x^2 + 4x + 6$, $g(x) = x^2 + 2x + 2$, and $k(x) = -x^2 + 4x - 4$.
+
+[TA Sora] First, the Domain Invariant: For EVERY quadratic function, the Domain is always all real numbers: $(-\inf
+
+--- Slide 3: Full Graph: $ p(x) = x^2 - 4x - 5 $ — 5-Point Method ---
+[Problem]:
+**Graph $p(x) = x^2 - 4x - 5$ using the 5-point method:**
+
+**Step 1 — Vertex:**
+$$x = \dfrac{-(-4)}{2(1)} = \dfrac{4}{2} = 2$$
+$$p(2) = 4-8-5 = -9$$
+**Vertex:** $(2,\,-9)$ — Minimum
+
+**Step 2 — y-inte
+[Script]:
+[Prof. Park] Slide 3 summarizes our 5-Point Graphing Masterclass: 1. Vertex $(h, k)$, 2. $y$-intercept $(0, c)$, 3. Symmetric reflection of the $y$-intercept, 4 & 5. The two $x$-intercepts (or test points if roots are imaginary).
+
+[TA Sora] Remember to always sketch the Axis of Symmetry $x = h$ as a
+
+--- Slide 4: Intersection of $ f(x) = x^2-6x+4 $ and $ g(x) = -2x+25 $ ---
+[Problem]:
+**Graph both $f(x) = x^2-6x+4$ (parabola) and $g(x) = -2x+25$ (line) on the same axes.**
+
+**Parabola $f(x)$:**
+- Vertex: $x=3$, $f(3)=9-18+4=-5$ → $(3,-5)$
+- y-intercept: $(0,4)$
+- x-intercepts: $x^2-
+[Script]:
+[Prof. Park] Slide 4 connects quadratics to real-world physics: projectile motion $h(t) = -16t^2 + v_0 t + h_0$, where $-16$ represents half the acceleration of gravity in feet per second squared!
+
+[TA Sora] Look at how our algebraic tools answer real questions: 1. The $y$-intercept $h_0$ is the ini
+
+--- Slide 5: Unit 3 Grand Review: All Methods for Quadratic Functions ---
+[Problem]:
+**Unit 3 — All Methods Mastered:**
+
+| Section | Topic | Method |
+|---|---|---|
+| 3.0 | Quadratic Functions intro | Identify vertex, direction |
+| 3.1 | Vertex & y-intercept | $x=-b/2a$, plug in |
+| 3.
+[Script]:
+[Prof. Park] Slide 5 presents the Grand Review of all four quadratic solving methods: 1. Square Root Property ($X^2 = k$), 2. Factoring ($(x - r_1)(x - r_2) = 0$), 3. Completing the Square ($(x + b/2)^2 = k$), and 4. The Quadratic Formula ($x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$).
+
+[TA Sora] You no
+
+--- Slide 6: M090 Unit 3 Formula Card — Keep This Forever! ---
+[Problem]:
+**Essential Unit 3 Formulas:**
+
+$$\textbf{Standard Form: } f(x) = ax^2 + bx + c$$
+
+$$\textbf{Vertex Form: } f(x) = a(x-h)^2 + k$$
+
+$$\textbf{Axis of Symmetry: } x = \dfrac{-b}{2a}$$
+
+$$\textbf{Quadrat
+[Script]:
+[Prof. Park] Slide 6 is your M090 Formula CardÃÂ¢ÃÂÃÂkeep this forever in your academic career! 
+
+[TA Sora] It contains: The General Form $ax^2 + bx + c = 0$, Vertex Form $a(x - h)^2 + k$, Vertex Formula $x_v = -b / (2a)$, Quadratic Formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, Discriminant
+
+--- Slide 7: Challenge: Complete Analysis of $ q(x) = -3x^2 + 12x - 9 $ ---
+[Problem]:
+**Find all features and graph $q(x) = -3x^2 + 12x - 9$:**
+
+1. Direction of opening
+2. Vertex
+3. Axis of symmetry
+4. y-intercept
+5. x-intercept(s) — use best method
+6. Domain and Range
+[Script]:
+[Prof. Park] Slide 7 provides final mastery problem solving and reflection on personal growth, persistence, and logical reasoning.
+
+[TA Sora] Remember where you started in Lecture 1. You may have felt hesitant or anxious about algebra. But you showed up, you practiced on paper, you embraced protecti
+
+--- Slide 8: Congratulations! You Have Completed M090 Unit 3! ---
+[Problem]:
+**You have successfully completed Unit 3: Quadratic Functions!**
+
+**What you have mastered:**
+- $\checkmark$ Identifying and graphing quadratic functions
+- $\checkmark$ Finding vertices using $x = -b/
+[Script]:
+[Prof. Park] Congratulations! You have officially completed M090 Introductory Algebra at Gallatin College Montana State University!
+
+[TA Sora] We are so immensely proud of your hard work, your curiosity, and your resilience. You are ready for College Algebra and beyond. Go Bobcats! ÃÂ°ÃÂÃÂÃÂÃ
