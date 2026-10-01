@@ -1,0 +1,307 @@
+=== SLIDES_MONTANA_L01 (10 slides) ===
+  Slide 1: [Course Orientation & Welcome] Welcome to M090 Introductory Algebra at Gallatin College MSU
+    Subtitle: Unit 1 • Lecture 01 • Course Orientation & Section 1.0 (Workbook p. 3)
+  Slide 2: [Core Mathematical Definition] Section 1.0 Key Terms: Variables, Constants & The Distance Model
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 (Workbook p. 3)
+    Problem: $$\text{Algebra uses variables (letters) to generalize relationships: } D = r \cdot t$$ - **Variable:** A letter represe
+  Slide 3: [Conceptual Dissection] Expressions vs. Equations: The Equal Sign Threshold
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 (Workbook p. 3)
+    Problem: | Mathematical Category | Core Definition | Concrete Model | Permitted Operations | | :--- | :--- | :--- | :--- | | **Al
+  Slide 4: [Workbook Board Work #1] Section 1.0 Board Work #1: Adding Fractions with Unlike Denominators
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 Board Work #1 (Workbook p. 4)
+    Problem: $$\text{Board Work: Simplify into a single fraction or integer value: } \quad \dfrac{1}{8} + \dfrac{1}{6}$$
+  Slide 5: [Workbook Board Work #2] Section 1.0 Board Work #2: Multiplying Whole Numbers by Fractions
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 Board Work #2 (Workbook p. 4)
+    Problem: $$\text{Board Work: Simplify into a single fraction or integer value: } \quad (4)\left(\dfrac{6}{7}\right)$$
+  Slide 6: [Workbook Board Work #3] Section 1.0 Board Work #3: Fraction Addition with Coprime Denominators
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 Board Work #3 (Workbook p. 4)
+    Problem: $$\text{Board Work: Simplify into a single fraction or integer value: } \quad \dfrac{3}{5} + \dfrac{1}{4}$$
+  Slide 7: [Workbook Board Work #4] Section 1.0 Board Work #4: Subtracting Fractions when One Denominator is a Multiple
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 Board Work #4 (Workbook p. 4)
+    Problem: $$\text{Board Work: Simplify into a single fraction or integer value: } \quad \dfrac{3}{4} - \dfrac{5}{12}$$
+  Slide 8: [Workbook Board Work #5] Section 1.0 Board Work #5: Fraction Operations with Exponents
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 Board Work #5 (Workbook p. 4)
+    Problem: $$\text{Board Work: Simplify into a single fraction or integer value: } \quad \left(\dfrac{4}{7} - \dfrac{2}{3}\right)^2
+  Slide 9: [Workbook Board Work #6] Section 1.0 Board Work #6: Fraction Multiplication
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 Board Work #6 (Workbook p. 4)
+    Problem: $$\text{Board Work: Simplify into a single fraction or integer value: } \quad \dfrac{1}{9} \cdot \dfrac{1}{6}$$
+  Slide 10: [Workbook Board Work #7] Section 1.0 Board Work #7: Fraction Division via the Reciprocal
+    Subtitle: Unit 1 • Lecture 01 • Section 1.0 Board Work #7 (Workbook p. 4)
+    Problem: $$\text{Board Work: Simplify into an integer or fraction: } \quad \dfrac{3}{8} \div \dfrac{1}{16}$$
+=== SLIDES_MONTANA_L02 (9 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 02: Conquering Fraction Fear & Signed Numbers
+    Subtitle: Unit 1 • Lecture 02 • Unit 1 • Lecture 02
+  Slide 2: [Single Problem Master Breakdown] Multiplying Whole Numbers & Fractions ($(4)(\frac{6}{7})$)
+    Subtitle: Unit 1 • Lecture 02 • Section 1.0 Board Work #2 (Workbook p. 4)
+    Problem: $$\text{Simplify into a single improper fraction or mixed number: } \quad (4)\left(\dfrac{6}{7}\right)$$
+  Slide 3: [Single Problem Master Breakdown] Adding Fractions with Different Denominators ($\frac{3}{5} + \frac{1}{4}$)
+    Subtitle: Unit 1 • Lecture 02 • Section 1.0 Board Work #3 (Workbook p. 4)
+    Problem: $$\text{Simplify into a single fraction: } \quad \dfrac{3}{5} + \dfrac{1}{4}$$
+  Slide 4: [Single Problem Master Breakdown] Subtracting Fractions with Shared Multiples ($\frac{3}{4} - \frac{5}{12}$)
+    Subtitle: Unit 1 • Lecture 02 • Section 1.0 Board Work #4 (Workbook p. 4)
+    Problem: $$\text{Simplify into simplest fraction form: } \quad \dfrac{3}{4} - \dfrac{5}{12}$$
+  Slide 5: [Multi-Step Problem Breakdown] Order of Operations with Fraction Subtraction & Exponents ($(\frac{4}{7} - \frac{2}{3})^2$)
+    Subtitle: Unit 1 • Lecture 02 • Section 1.0 Board Work #5 (Workbook p. 4)
+    Problem: $$\text{Evaluate using order of operations: } \quad \left(\dfrac{4}{7} - \dfrac{2}{3}\right)^2$$
+  Slide 6: [Paired Concept Breakdown] Multiplying Small Unit Fractions ($\frac{1}{9} \cdot \frac{1}{6}$)
+    Subtitle: Unit 1 • Lecture 02 • Section 1.0 Board Work #6 (Workbook p. 4)
+    Problem: $$\text{A. Multiply: } \dfrac{1}{9} \cdot \dfrac{1}{6} \qquad \text{vs.} \qquad \text{B. Compare with Addition: } \dfrac
+  Slide 7: [Single Problem Master Breakdown] Dividing Fractions: The "Keep, Change, Flip" Rule ($\frac{3}{8} \div \frac{1}{16}$)
+    Subtitle: Unit 1 • Lecture 02 • Section 1.0 Board Work #7 (Workbook p. 4)
+    Problem: $$\text{Perform the division: } \quad \dfrac{3}{8} \div \dfrac{1}{16}$$
+  Slide 8: [Paired Problem Breakdown] Complex Fractions & Pre-simplifying Factors ($\frac{5/8}{3/4}$ and $\frac{(16)(3)}{(9)(4)}$)
+    Subtitle: Unit 1 • Lecture 02 • Section 1.0 Board Work #8 & #10 (Workbook p. 4)
+    Problem: $$\text{A. Simplify the complex fraction: } \dfrac{\ \frac{5}{8}\ }{\frac{3}{4}} \qquad \text{B. Simplify: } \dfrac{(16)
+  Slide 9: [Problem Breakdown & Conclusion] Mixed Order of Operations ($16 - \frac{3}{4} + 9$) & Sora's Fraction Mastery Takeaway
+    Subtitle: Unit 1 • Lecture 02 • Section 1.0 Board Work #9 (Workbook p. 4)
+    Problem: $$\begin{aligned} \text{Evaluate: } & 16 - \dfrac{3}{4} + 9 \\[0.5em] \text{Step 1: } & \text{Group whole numbers first 
+=== SLIDES_MONTANA_L03 (9 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 03: The Magic of Substitution
+    Subtitle: Unit 1 • Lecture 03 • Unit 1 • Lecture 03
+  Slide 2: [Core Methodological Framework] Golden Rule of Substitution: Protective Parentheses
+    Subtitle: Unit 1 • Lecture 03 • Unit 1 • Lecture 03
+    Problem: 1. **Empty Pockets First:** Everywhere you see a variable, replace the letter with empty parentheses $( \ )$. 2. **Depos
+  Slide 3: [Single Problem Master Breakdown] Example 1: Rational Fraction Evaluation ($\frac{d^2 - f^2}{d^2 + f^2}$ for $d=-2, f=5$)
+    Subtitle: Unit 1 • Lecture 03 • Section 1.1 Example 1 (Workbook p. 6)
+    Problem: $$\text{Evaluate for } d = -2 \text{ and } f = 5: \quad \dfrac{d^2 - f^2}{d^2 + f^2}$$
+  Slide 4: [Single Problem Master Breakdown] Example 2: Absolute Values & Cubes ($\frac{2x^2 + y^2}{|-10 + z^3|}$ for $x=-1, y=-3, z=2$)
+    Subtitle: Unit 1 • Lecture 03 • Section 1.1 Example 2 (Workbook p. 6)
+    Problem: $$\text{Evaluate if } x = -1, \ y = -3, \ z = 2: \quad \dfrac{2x^2 + y^2}{|-10 + z^3|}$$
+  Slide 5: [Single Problem Master Breakdown] Example 3: The Discriminant Formula ($b^2 - 4ac$ for $a=5, b=-6, c=-3$)
+    Subtitle: Unit 1 • Lecture 03 • Section 1.1 Example 3 (Workbook p. 6)
+    Problem: $$\text{For } a = 5, \ b = -6, \ c = -3, \text{ evaluate: } \quad b^2 - 4ac$$
+  Slide 6: [Single Problem Master Breakdown] Example 4: The Quadratic Formula Expression ($\frac{-b + \sqrt{b^2-4ac}}{2a}$ for $a=1, b=7, c=-6$)
+    Subtitle: Unit 1 • Lecture 03 • Section 1.1 Example 4 (Workbook p. 6)
+    Problem: $$\text{Given } a = 1, \ b = 7, \ c = -6, \text{ find: } \quad \dfrac{-b + \sqrt{b^2 - 4ac}}{2a}$$
+  Slide 7: [Single Problem Master Breakdown] Example 5: Simplifying Radical Outcomes ($\frac{-b + \sqrt{b^2-4ac}}{2a}$ for $a=2, b=-10, c=8$)
+    Subtitle: Unit 1 • Lecture 03 • Section 1.1 Example 5 (Workbook p. 6)
+    Problem: $$\text{Evaluate for } a = 2, \ b = -10, \ c = 8: \quad \dfrac{-b + \sqrt{b^2 - 4ac}}{2a}$$
+  Slide 8: [Study Skills & Technology] Calculator Pitfalls vs. Paper Algebra
+    Subtitle: Unit 1 • Lecture 03 • Unit 1 • Lecture 03
+  Slide 9: [Conclusion & Summary] Lecture 03 Wrap-Up & Sora's Substitution Checklist
+    Subtitle: Unit 1 • Lecture 03 • Unit 1 • Lecture 03
+=== SLIDES_MONTANA_L04 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 04: The English-to-Algebra Dictionary
+    Subtitle: Unit 1 • Lecture 04 • Unit 1 • Lecture 04
+  Slide 2: [Vocabulary & Concept Reference] The Big 4 Operation Signal Words (+, -, ×, ÷)
+    Subtitle: Unit 1 • Lecture 04 • Unit 1 • Lecture 04
+  Slide 3: [Common Pitfall Warning] Reversal Words Alert: "Less Than" and "Subtracted From"
+    Subtitle: Unit 1 • Lecture 04 • Unit 1 • Lecture 04
+  Slide 4: [Paired Problem Breakdown] Translations 1 & 2: Sums and Reversals ($x + 5$ and $3x - 6$)
+    Subtitle: Unit 1 • Lecture 04 • Section 1.1 Table rows 1 & 2 (Workbook p. 7)
+    Problem: - **Phrase 1:** "the sum of a number and five" $\implies \mathbf{x + 5}$ - **Phrase 2:** "six less than three times a nu
+  Slide 5: [Paired Problem Breakdown] Translations 3 & 4: Quotients & Multi-Operations ($\frac{x}{y}$ and $9x + 7$)
+    Subtitle: Unit 1 • Lecture 04 • Section 1.1 Table rows 3 & 4 (Workbook p. 7)
+    Problem: - **Phrase 3:** "the quotient of two unknown numbers" $\implies \mathbf{\dfrac{x}{y}}$ - **Phrase 4:** "seven more than 
+  Slide 6: [Paired Problem Breakdown] Translations 5 & 6: The Square of a Sum vs. Sum of Squares ($(x + 42)^2$ and $x - 11x$)
+    Subtitle: Unit 1 • Lecture 04 • Section 1.1 Table rows 5 & 6 (Workbook p. 7)
+    Problem: - **Phrase 5:** "the square of the sum of a number and forty-two" $\implies \mathbf{(x + 42)^2}$ - **Phrase 6:** "a numb
+  Slide 7: [Paired Problem Breakdown] Translations 7, 8, 9: Powers, Opposites & Fraction Coefficients ($x^3 - (-x)$ and $\frac{3}{4}x + 100$)
+    Subtitle: Unit 1 • Lecture 04 • Section 1.1 Table rows 7, 9, 10 (Workbook p. 7)
+    Problem: - **Phrase 7:** "the difference between a number cubed and the opposite of that number" $\implies \mathbf{x^3 - (-x)} = 
+  Slide 8: [Conclusion & Summary] Lecture 04 Wrap-Up & Sora's Word Problem Survival Code
+    Subtitle: Unit 1 • Lecture 04 • Unit 1 • Lecture 04
+=== SLIDES_MONTANA_L05 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 05: The Superpowers of Exponents
+    Subtitle: Unit 1 • Lecture 05 • Unit 1 • Lecture 05
+  Slide 2: [Definition & Conceptual Anchor] Exponent Foundation: Base vs. Power ($a^n = a \cdot a \cdots a$)
+    Subtitle: Unit 1 • Lecture 05 • Unit 1 • Lecture 05
+  Slide 3: [Core Rule & Problem Breakdown] The Product Rule: When Multiplying Bases, ADD Exponents ($a^m \cdot a^n = a^{m+n}$)
+    Subtitle: Unit 1 • Lecture 05 • Section 1.2 Table (Workbook p. 8)
+    Problem: $$\text{Simplify: } \quad x^3 \cdot x^4$$
+  Slide 4: [Core Rule & Problem Breakdown] The Quotient Rule: When Dividing Bases, SUBTRACT Exponents ($\frac{a^m}{a^n} = a^{m-n}$)
+    Subtitle: Unit 1 • Lecture 05 • Section 1.2 Table (Workbook p. 8)
+    Problem: $$\text{Simplify: } \quad \dfrac{x^6}{x^2}$$
+  Slide 5: [Core Rule & Problem Breakdown] Power to a Power Rule: MULTIPLY Exponents ($(a^m)^n = a^{mn}$)
+    Subtitle: Unit 1 • Lecture 05 • Section 1.2 Table (Workbook p. 8)
+    Problem: $$\text{Simplify: } \quad (x^3)^4$$
+  Slide 6: [Core Rule & Problem Breakdown] Power of a Product & Quotient ($(ab)^n = a^n b^n$ and $(\frac{a}{b})^n = \frac{a^n}{b^n}$)
+    Subtitle: Unit 1 • Lecture 05 • Section 1.2 Table (Workbook p. 8)
+    Problem: $$\text{Simplify: } \quad \text{A. } (2x^3)^4 \qquad \text{B. } \left(\dfrac{y^2}{3}\right)^3$$
+  Slide 7: [Paired Problem Breakdown] Multi-Rule Simplification: $(3x^4 y^2)(-5x^3 y^7)$ and $\frac{12x^8}{4x^3}$
+    Subtitle: Unit 1 • Lecture 05 • Section 1.2 Example 2 (Workbook p. 8)
+    Problem: $$\begin{aligned} \text{A. } (3x^4 y^2)(-5x^3 y^7) &= [3 \cdot (-5)] \cdot (x^{4+3}) \cdot (y^{2+7}) = \mathbf{-15x^7 y^
+  Slide 8: [Conclusion & Summary] Lecture 05 Wrap-Up & Sora's Exponent Cheat Sheet
+    Subtitle: Unit 1 • Lecture 05 • Unit 1 • Lecture 05
+=== SLIDES_MONTANA_L06 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 06: Demystifying Negative Exponents
+    Subtitle: Unit 1 • Lecture 06 • Unit 1 • Lecture 06
+  Slide 2: [Conceptual Proof & Definition] The Zero Exponent Rule ($a^0 = 1$) & The Division Proof
+    Subtitle: Unit 1 • Lecture 06 • Unit 1 • Lecture 06
+    Problem: $$\dfrac{x^4}{x^4} = 1 \quad (\text{Any non-zero quantity divided by itself is } 1)$$ $$\text{Using Quotient Rule: } \df
+  Slide 3: [Methodological Metaphor] The Negative Exponent Rule ($a^{-n} = \frac{1}{a^n}$): The Elevator Metaphor
+    Subtitle: Unit 1 • Lecture 06 • Unit 1 • Lecture 06
+  Slide 4: [Paired Problem Breakdown] Simplifying Basic Negative Exponents: $\frac{x^{-4}}{y^{-3}}$ and $(5x^4)^{-2}$
+    Subtitle: Unit 1 • Lecture 06 • Section 1.2 Examples 3 & 4 (Workbook p. 10)
+    Problem: $$\begin{aligned} \text{A. } \dfrac{x^{-4}}{y^{-3}} &\implies \text{Take the elevator: } x^{-4} \text{ goes down, } y^{-
+  Slide 5: [Single Problem Master Breakdown] Master Problem: Comprehensive Fraction Simplification ($\frac{-15x^3 y^{-2} z^0}{5x^{-2} y^4}$)
+    Subtitle: Unit 1 • Lecture 06 • Unit 1 • Lecture 06
+  Slide 6: [Single Problem Master Breakdown] Example 5 from Workbook: Compound Powers with Negatives ($\left(\frac{2a^{-3}b^4}{6a^2 b^{-2}}\right)^2$)
+    Subtitle: Unit 1 • Lecture 06 • Section 1.2 Example 5 (Workbook p. 11)
+  Slide 7: [Pitfall Warning] Common Trap: Negative Exponent vs. Negative Coefficient ($-4x^{-2}$ vs. $( -4x )^{-2}$)
+    Subtitle: Unit 1 • Lecture 06 • Unit 1 • Lecture 06
+  Slide 8: [Conclusion & Summary] Lecture 06 Wrap-Up & Sora's 3-Step Monomial Workflow
+    Subtitle: Unit 1 • Lecture 06 • Unit 1 • Lecture 06
+=== SLIDES_MONTANA_L07 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 07: The Anatomy of Polynomials
+    Subtitle: Unit 1 • Lecture 07 • Unit 1 • Lecture 07
+  Slide 2: [Definitions & Terminology] Monomials, Binomials, Trinomials & Degree
+    Subtitle: Unit 1 • Lecture 07 • Section 1.3 Key Terms (Workbook p. 12)
+  Slide 3: [Core Concept] Identifying Like Terms: Same Variables with Identical Exponents
+    Subtitle: Unit 1 • Lecture 07 • Unit 1 • Lecture 07
+  Slide 4: [Operational Rule] The Distributive Property ($a(b + c) = ab + ac$)
+    Subtitle: Unit 1 • Lecture 07 • Section 1.3 (Workbook p. 12)
+    Problem: $$\text{Simplify by distributing: } \quad 4(3x - 5)$$
+  Slide 5: [Common Pitfall Breakdown] Distributing Negative Signs: The Sign-Flip Trap ($ - (2x^2 - 5x + 3) $)
+    Subtitle: Unit 1 • Lecture 07 • Unit 1 • Lecture 07
+  Slide 6: [Paired Problem Breakdown] Adding and Subtracting Polynomials (Horizontal & Vertical Methods)
+    Subtitle: Unit 1 • Lecture 07 • Section 1.3 Examples (Workbook p. 13)
+    Problem: $$\begin{aligned} \text{A. Add: } & (3x^2 - 5x + 7) + (2x^2 + 8x - 4) \\ &= (3x^2 + 2x^2) + (-5x + 8x) + (7 - 4) = \math
+  Slide 7: [Applied Word Problem] Real-World Application: Perimeter of Algebraic Polygons
+    Subtitle: Unit 1 • Lecture 07 • Unit 1 • Lecture 07
+    Problem: $$\text{Find the perimeter of a rectangle with length } L = 3x - 4 \text{ and width } W = 2x + 7.$$
+  Slide 8: [Conclusion & Summary] Lecture 07 Wrap-Up & Sora's Like-Terms Rule
+    Subtitle: Unit 1 • Lecture 07 • Unit 1 • Lecture 07
+=== SLIDES_MONTANA_L08 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 08: The Power of FOIL
+    Subtitle: Unit 1 • Lecture 08 • Unit 1 • Lecture 08
+  Slide 2: [Foundation] Monomial Times Polynomial: $3x(2x - 5)$
+    Subtitle: Unit 1 • Lecture 08 • Unit 1 • Lecture 08
+  Slide 3: [Methodological Framework] Binomial Times Binomial: The FOIL Acronym Explained
+    Subtitle: Unit 1 • Lecture 08 • Unit 1 • Lecture 08
+  Slide 4: [Paired Problem Breakdown] Example 1A & 1B: Standard FOIL Practice ($(2x+4)(3x+5)$ and $(x-4)(5x-1)$)
+    Subtitle: Unit 1 • Lecture 08 • Section 1.4 Example 1A & 1B (Workbook p. 14)
+  Slide 5: [Paired Problem Breakdown] Multiplying with Outer Coefficients ($2(b-3)(b+4)$ and $4(w+2)(w-2)$)
+    Subtitle: Unit 1 • Lecture 08 • Section 1.4 Example 1C & 1D (Workbook p. 14)
+  Slide 6: [Special Pattern] Special Product 1: The Difference of Squares ($(a-b)(a+b) = a^2 - b^2$)
+    Subtitle: Unit 1 • Lecture 08 • Unit 1 • Lecture 08
+    Problem: $$\text{Multiply: } \quad 4(w + 2)(w - 2)$$
+  Slide 7: [Critical Pitfall Breakdown] Special Product 2: Squaring a Binomial ($(2y - 7)^2 \neq 4y^2 + 49$!)
+    Subtitle: Unit 1 • Lecture 08 • Section 1.4 Example 1E (Workbook p. 14)
+  Slide 8: [Conclusion & Summary] Lecture 08 Wrap-Up & Area vs. Perimeter Formulas
+    Subtitle: Unit 1 • Lecture 08 • Unit 1 • Lecture 08
+=== SLIDES_MONTANA_L09 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 09: What is a Rational Expression?
+    Subtitle: Unit 1 • Lecture 09 • Unit 1 • Lecture 09
+  Slide 2: [Core Operational Law] The Golden Rational Rule: $\frac{A}{C} \pm \frac{B}{C} = \frac{A \pm B}{C}$
+    Subtitle: Unit 1 • Lecture 09 • Unit 1 • Lecture 09
+  Slide 3: [Single Problem Breakdown] Basic Like Denominators: $\frac{7}{y} - \frac{x}{y}$
+    Subtitle: Unit 1 • Lecture 09 • Section 1.5 Example 1B (Workbook p. 16)
+  Slide 4: [Comparison] Combining Variable Numerators: $\frac{2}{7r} + \frac{3}{7}$ (Wait, are these like?)
+    Subtitle: Unit 1 • Lecture 09 • Section 1.5 Example 1C (Workbook p. 16)
+  Slide 5: [Single Problem Master Breakdown] The Subtraction Distribution Trap: $\frac{3x+1}{x-4} - \frac{x+9}{x-4}$
+    Subtitle: Unit 1 • Lecture 09 • Unit 1 • Lecture 09
+  Slide 6: [Continuation & Simplification] Factoring to Reduce Final Answers: $\frac{2(x-4)}{x-4} = 2$
+    Subtitle: Unit 1 • Lecture 09 • Unit 1 • Lecture 09
+  Slide 7: [Mathematical Restriction] Restrictions on the Domain: When Denominator Equals Zero!
+    Subtitle: Unit 1 • Lecture 09 • Unit 1 • Lecture 09
+  Slide 8: [Conclusion & Summary] Lecture 09 Wrap-Up & Sora's Rational Numerator Shield
+    Subtitle: Unit 1 • Lecture 09 • Unit 1 • Lecture 09
+=== SLIDES_MONTANA_L10 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 10: The Art of Finding the Algebraic LCD
+    Subtitle: Unit 1 • Lecture 10 • Unit 1 • Lecture 10
+  Slide 2: [Methodological Anchor] Finding the LCD of Monomials (Coefficients & Highest Powers)
+    Subtitle: Unit 1 • Lecture 10 • Unit 1 • Lecture 10
+  Slide 3: [Single Problem Breakdown] Example 2A: Variable Multiples ($\frac{5}{w} - \frac{7}{2w}$)
+    Subtitle: Unit 1 • Lecture 10 • Section 1.5 Example 2A (Workbook p. 16)
+  Slide 4: [Single Problem Breakdown] Example 2B: Multiple Variable Coefficients ($\frac{1}{6x} + \frac{2}{9x}$)
+    Subtitle: Unit 1 • Lecture 10 • Section 1.5 Example 2B (Workbook p. 16)
+  Slide 5: [Single Problem Breakdown] Example 2C: Two Different Variables ($\frac{3}{y} + \frac{5}{x}$)
+    Subtitle: Unit 1 • Lecture 10 • Section 1.5 Example 2C (Workbook p. 16)
+  Slide 6: [Single Problem Breakdown] Example 2D: Compound Monomials ($\frac{11y}{2x} - \frac{x}{5y}$)
+    Subtitle: Unit 1 • Lecture 10 • Section 1.5 Example 2D (Workbook p. 16)
+  Slide 7: [Single Problem Breakdown] Example 2F: Integers and Variables ($\frac{4}{5} - \frac{9}{5w}$)
+    Subtitle: Unit 1 • Lecture 10 • Section 1.5 Example 2F (Workbook p. 16)
+  Slide 8: [Conclusion & Summary] Lecture 10 Wrap-Up & Sora's 4-Step Rational Blueprint
+    Subtitle: Unit 1 • Lecture 10 • Unit 1 • Lecture 10
+=== SLIDES_MONTANA_L11 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 11: The Balance Scale of Algebra
+    Subtitle: Unit 1 • Lecture 11 • Unit 1 • Lecture 11
+  Slide 2: [Core Mathematical Principles] Properties of Equality: Addition & Multiplication Properties
+    Subtitle: Unit 1 • Lecture 11 • Unit 1 • Lecture 11
+  Slide 3: [Single Problem Breakdown] Example 1A: Two-Step Linear Equation ($3x - 8 = -12$)
+    Subtitle: Unit 1 • Lecture 11 • Section 1.6 Example 1A (Workbook p. 18)
+  Slide 4: [Single Problem Breakdown] Example 1B: Negative Coefficient Trap ($6 - 4w = 15$)
+    Subtitle: Unit 1 • Lecture 11 • Section 1.6 Example 1B (Workbook p. 18)
+  Slide 5: [Single Problem Breakdown] Example 1C: Combining Like Terms First ($y + 4 + 5y - 9 = 87$)
+    Subtitle: Unit 1 • Lecture 11 • Section 1.6 Example 1C (Workbook p. 18)
+  Slide 6: [Single Problem Breakdown] Example 1D: Multi-Term Linear Equation ($6r - 3r + 94 + 2r = 18$)
+    Subtitle: Unit 1 • Lecture 11 • Section 1.6 Example 1D (Workbook p. 18)
+  Slide 7: [Verification Strategy] Checking Your Solution by Substitution
+    Subtitle: Unit 1 • Lecture 11 • Unit 1 • Lecture 11
+  Slide 8: [Conclusion & Summary] Lecture 11 Wrap-Up & Sora's Equation Solving Roadmap
+    Subtitle: Unit 1 • Lecture 11 • Unit 1 • Lecture 11
+=== SLIDES_MONTANA_L12 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 12: Conquering Multi-Step Equations
+    Subtitle: Unit 1 • Lecture 12 • Unit 1 • Lecture 12
+  Slide 2: [Single Problem Breakdown] Example 2A: Distribute First ($10(a - 5) + 2 = -3$)
+    Subtitle: Unit 1 • Lecture 12 • Section 1.6 Example 2A (Workbook p. 19)
+  Slide 3: [Single Problem Breakdown] Example 2B: Variables on Both Sides ($6(x - 2) - 8 = 3x - 20$)
+    Subtitle: Unit 1 • Lecture 12 • Section 1.6 Example 2B (Workbook p. 19)
+  Slide 4: [Conceptual Clarification] The Zero Solution Reality: $x = 0$ is a Real Number!
+    Subtitle: Unit 1 • Lecture 12 • Unit 1 • Lecture 12
+  Slide 5: [Special Case 1] Example 2C: The Identity ($2(7 - x) + 11 = 25 - 2x \implies$ All Real Numbers)
+    Subtitle: Unit 1 • Lecture 12 • Section 1.6 Example 2C (Workbook p. 19)
+  Slide 6: [Special Case 2] Example 2D: The Contradiction (Variables Cancel & False Statement $\implies$ No Solution)
+    Subtitle: Unit 1 • Lecture 12 • Unit 1 • Lecture 12
+  Slide 7: [Synthesis Table] Classification Matrix: Conditional vs. Identity vs. Contradiction
+    Subtitle: Unit 1 • Lecture 12 • Unit 1 • Lecture 12
+  Slide 8: [Conclusion & Summary] Lecture 12 Wrap-Up & Sora's Master Flowchart
+    Subtitle: Unit 1 • Lecture 12 • Unit 1 • Lecture 12
+=== SLIDES_MONTANA_L13 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 13: The Magic of Clearing Fractions
+    Subtitle: Unit 1 • Lecture 13 • Unit 1 • Lecture 13
+  Slide 2: [Core Methodological Law] The Golden Equation Trick: Multiplying Every Term by the LCD
+    Subtitle: Unit 1 • Lecture 13 • Unit 1 • Lecture 13
+  Slide 3: [Single Problem Breakdown] Example 1: Solving with Coefficients vs. Multiplying by Reciprocal ($\frac{2}{3}x = 8$)
+    Subtitle: Unit 1 • Lecture 13 • Section 1.7 Example 1 & 2 (Workbook p. 20)
+  Slide 4: [Single Problem Breakdown] Example 2: Three-Denominator Clearing ($\frac{x}{4} + \frac{2}{3} = \frac{5}{6}$)
+    Subtitle: Unit 1 • Lecture 13 • Unit 1 • Lecture 13
+  Slide 5: [Single Problem Master Breakdown] Master Problem: Fractional Binomial Numerators ($\frac{3x-2}{5} - \frac{x+1}{2} = 1$)
+    Subtitle: Unit 1 • Lecture 13 • Unit 1 • Lecture 13
+  Slide 6: [Common Pitfall Warning] The Fatal Trap: Forgetting to Multiply Integers on the Right Side!
+    Subtitle: Unit 1 • Lecture 13 • Unit 1 • Lecture 13
+  Slide 7: [Technique Focus] Distributing Subtraction When Denominators Vanish
+    Subtitle: Unit 1 • Lecture 13 • Unit 1 • Lecture 13
+  Slide 8: [Conclusion & Summary] Lecture 13 Wrap-Up & Sora's Fraction-Clearing Checklist
+    Subtitle: Unit 1 • Lecture 13 • Unit 1 • Lecture 13
+=== SLIDES_MONTANA_L14 (8 slides) ===
+  Slide 1: [Lecture Orientation] Welcome to Lecture 14: Rearranging Real-World Formulas
+    Subtitle: Unit 1 • Lecture 14 • Unit 1 • Lecture 14
+  Slide 2: [Conceptual Anchor] What is a Literal Equation? Treating Letters as Numbers
+    Subtitle: Unit 1 • Lecture 14 • Unit 1 • Lecture 14
+  Slide 3: [Paired Problem Breakdown] Example 1A & 1B: Solving for $y$ in Linear Equations ($3x + y = 8$ and $2x - 5y = 12$)
+    Subtitle: Unit 1 • Lecture 14 • Section 1.8 Example 1A & 1B (Workbook p. 23)
+  Slide 4: [Single Problem Breakdown] Example 1C: Factoring Out Variables ($Z = x + xwy$ solve for $y$)
+    Subtitle: Unit 1 • Lecture 14 • Section 1.8 Example 1C (Workbook p. 23)
+  Slide 5: [Single Problem Breakdown] Example 1D: Monomial Formulas ($5xy = 19$ solve for $y$)
+    Subtitle: Unit 1 • Lecture 14 • Section 1.8 Example 1D (Workbook p. 23)
+  Slide 6: [Single Problem Breakdown] Example 2: Multi-Variable Formula ($a + b - c = d$ solve for $b$)
+    Subtitle: Unit 1 • Lecture 14 • Section 1.8 Example 2 (Workbook p. 23)
+  Slide 7: [Applied Science Formulas] Famous Geometric & Physics Formulas: $P = 2l + 2w$ and $C = \frac{5}{9}(F - 32)$
+    Subtitle: Unit 1 • Lecture 14 • Unit 1 • Lecture 14
+  Slide 8: [Conclusion & Summary] Lecture 14 Wrap-Up & Sora's Formula Reorganization Protocol
+    Subtitle: Unit 1 • Lecture 14 • Unit 1 • Lecture 14
+=== SLIDES_MONTANA_L15 (10 slides) ===
+  Slide 1: [Milestone Celebration & Orientation] Welcome to Lecture 15: The Grand Finale of Unit 1!
+    Subtitle: Unit 1 • Lecture 15 • Unit 1 • Lecture 15
+  Slide 2: [Definitions & Symbols] Inequality Symbols & Number Line Representation ($<, \le, >, \ge$)
+    Subtitle: Unit 1 • Lecture 15 • Unit 1 • Lecture 15
+  Slide 3: [Notation Standards] Interval Notation Mastery: Parentheses $( \ )$ vs. Brackets $[ \ ]$
+    Subtitle: Unit 1 • Lecture 15 • Unit 1 • Lecture 15
+  Slide 4: [Critical Law] The Golden Rule of Inequalities: Flipping the Sign when Multiplying/Dividing by a Negative!
+    Subtitle: Unit 1 • Lecture 15 • Unit 1 • Lecture 15
+  Slide 5: [Paired Problem Breakdown] Example 1 from Workbook: Graphing Inequalities & Interval Notation
+    Subtitle: Unit 1 • Lecture 15 • Section 1.9 Example 1 (Workbook p. 25)
+    Problem: $$\begin{aligned} \text{A. } x > 5 &\implies \text{Open circle at 5, shade right} \implies \mathbf{(5, \infty)} \\ \text
+  Slide 6: [Single Problem Master Breakdown] Solving Linear Inequalities: $-3x + 7 \le 19$
+    Subtitle: Unit 1 • Lecture 15 • Unit 1 • Lecture 15
+  Slide 7: [Single Problem Breakdown] Multi-Step Inequality with Distribution: $4(2x - 1) > 10x + 8$
+    Subtitle: Unit 1 • Lecture 15 • Unit 1 • Lecture 15
+  Slide 8: [Paired Concept Breakdown] Compound Inequalities: $-3 < x < 1$ vs. $x < -7 \text{ or } x \ge 0$
+    Subtitle: Unit 1 • Lecture 15 • Section 1.9 Example 1E & 1G (Workbook p. 25)
+    Problem: $$\begin{aligned} \text{"AND" Compound (Trapped between): } & -3 < x < 1 \implies \mathbf{(-3, 1)} \\[0.8em] \text{"OR" 
+  Slide 9: [Comprehensive Synthesis] Unit 1 Grand Review & 10 Core Commandments Recap
+    Subtitle: Unit 1 • Lecture 15 • Unit 1 • Lecture 15
+  Slide 10: [Course Milestone & Blessing] Unit 1 Mastery Celebration & Transition to Unit 2 (Graphing & Lines)
+    Subtitle: Unit 1 • Lecture 15 • Unit 1 • Lecture 15

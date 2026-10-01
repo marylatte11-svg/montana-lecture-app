@@ -9,9 +9,13 @@ import EfficiencyChartSlide from './slides/EfficiencyChartSlide';
 import InteractivePollSlide from './slides/InteractivePollSlide';
 import ArchitectureSlide from './slides/ArchitectureSlide';
 import MottoSlide from './slides/MottoSlide';
+import MathSlide from './slides/MathSlide';
 
 export default function SlideDeck({ slideData }) {
   const renderSlideContent = () => {
+    if (slideData.problem || slideData.solution || slideData.type === 'math_problem') {
+      return <MathSlide slideData={slideData} />;
+    }
     switch (slideData.type) {
       case 'title':
         return <TitleSlide slideData={slideData} />;
@@ -45,7 +49,7 @@ export default function SlideDeck({ slideData }) {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 1.02 }}
           transition={{ duration: 0.25, ease: 'easeOut' }}
-          className="w-full h-full max-w-7xl mx-auto"
+          className="w-full h-full max-w-[98vw] 2xl:max-w-[1880px] mx-auto flex flex-col justify-center px-1 md:px-3 py-1"
         >
           {renderSlideContent()}
         </motion.div>

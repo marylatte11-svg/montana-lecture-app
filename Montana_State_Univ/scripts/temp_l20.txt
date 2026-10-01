@@ -1,0 +1,13 @@
+SLIDES_MONTANA_L20 = [
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "The Slope of a Line: Rise Over Run & Formula",
+    "subtitle": "Unit 2 \u2022 Lecture 20 \u2022 Section 2.2 (Workbook p. 38)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park \u2022 TA Sora (Gallatin College MSU)",
+    "problem": "### Section 2.2: Slope of a Line (Workbook p. 38)\nSlope measures the **steepness and direction** of a straight line:\n$$\\mathbf{\\text{Slope } = m = \\frac{\\text{Rise}}{\\text{Run}} = \\frac{\\text{Change in } y}{\\text{Change in } x} = \\frac{y_2 - y_1}{x_2 - x_1}}$$\n- **Positive Slope ($m > 0$):** Line rises from left to right.\n- **Negative Slope ($m < 0$):** Line falls from left to right.\n- **Zero Slope ($m = 0$):** Horizontal line.\n- **Undefined Slope:** Vertical line (division by zero).",
+    "solution": "$$\\begin{aligned}\n\\text{Formula: } & m = \\frac{y_2 - y_1}{x_2 - x_1} \\\\[0.5em]\n\\text{Numerator: } & \\Delta y = y_2 - y_1 \\quad (\\text{vertical rise/fall}) \\\\\n\\text{Denominator: } & \\Delta x = x_2 - x_1 \\quad (\\text{horizontal run right})\n\\end{aligned}$$",
+    "pitfall": "**Y over X:** Slope is ALWAYS change in $y$ over change in $x$. Never flip it to $\\frac{x_2 - x_1}{y_2 - y_1}$!",
+    "script": "[Prof. Park] Welcome to Lecture 20 of M090! Today, on pages 38 and 39 of your workbook, we begin Section 2.2: The Slope of a Line and Rates of Change.\n\n[TA Sora] If there is one concept in all of introductory algebra that echoes through physics, engineering, chemistry, economics, and calculus, it is the concept of **Slope**!\n\n[Prof. Park] Geometrically, slope measures two distinct properties of a line: its **steepness** (how steeply it rises or falls) and its **direction** (whether it tilts uphill, downhill, flat, or vertical).\n\n[TA Sora] In English, we define slope as the ratio of the vertical change to the horizontal change:\n$$\\text{Slope } m = \\frac{\\text{Vertical Change}}{\\text{Horizontal Change}} = \\frac{\\text{Rise}}{\\text{Run}}$$\nAnd mathematically, if you are given any two points $(x_1, y_1)$ and $(x_2, y_2)$ on a line, the slope formula is:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\Delta y}{\\Delta x}$$\n\n[Prof. Park] Notice that Greek letter $\\Delta$ (Delta). In science, $\\Delta$ always symbolizes 'change in.' $\\Delta y$ is the change in vertical elevation, and $\\Delta x$ is the change in horizontal di

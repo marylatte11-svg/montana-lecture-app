@@ -1,0 +1,1037 @@
+============================== PDF PAGE INDEX 0 ==============================
+M090: Introductory Algebra 
+Notes Packet 
+ 
+ 
+ 
+ 
+Fall 2026 
+Sections 901-927 
+ 
+ 
+ 
+
+============================== PDF PAGE INDEX 1 ==============================
+ 
+ 
+ 
+
+============================== PDF PAGE INDEX 2 ==============================
+Table	of	Contents		Unit	1		 1	Section	1.0:	The	Language	of	Algebra	and	Arithmetic	Review	 3	Section	1.1:	Evaluating	and	Translating	Algebraic	Expressions	 6	Section	1.2:	Simplifying	Monomial	Expressions	with	Exponents	 8	Section	1.3:	Adding	and	Subtracting	Polynomials;	Distributive	Property	 12	Section	1.4:	Multiplying	Polynomials	 14	Section	1.5:	Adding	and	Subtracting	Rational	Expressions	 16	Section	1.6:	Solving	Linear	Equations	 18	Section	1.7:	Solving	Linear	Equations	with	Fractions	 20	Section	1.8:	Solving	Formulas	for	a	Specified	Variable	 23	Section	1.9:	Solving	Linear	Inequalities	 25	Unit	2		 27	Section	2.0:	Intro	to	Graphing	 29	Section	2.1:	Linear	Equations	in	Two	Variables	 32	Section	2.2:	Slope	of	a	Line	 38	Section	2.3:	Finding	the	Equation	of	a	Line	 41	Section	2.4	Intro	to	Functions	 45	Section	2.5	Function	Notation	 47	Section	2.6	Linear	Functions	 51	Section	2.7	Applications	of	Linear	Functions	 53	
+
+============================== PDF PAGE INDEX 3 ==============================
+Unit	3	 57	Section	3.0:	Intro	to	Quadratic	Functions	 59	Section	3.1:	Finding	the	Vertex	and	!-intercept	for	Quadratic	Functions	 63	Section	3.2:	Finding	Intercepts	of	Quadratic	Functions	(Square	Root	Property)	66	Section	3.3:	Finding	Intercepts	of	Quadratic	Functions	(Greatest	Common	Factor)	70	Section	3.4	Part	1:	Finding	Intercepts	of	Quadratic	Functions	(Factoring	Trinomials)	74	Section	3.4	Part	2:	Finding	Intercepts	of	Quadratic	Functions	(Factoring	Trinomials)	76	Section	3.5:	Finding	Intercepts	of	Quadratic	Functions	(Quadratic	Formula)	 79	Section	3.6:	Finding	Intercepts	and	Vertex	for	Quadratic	Functions	 83	Section	3.7:	Graphing	Quadratic	Functions	 87	     	
+
+============================== PDF PAGE INDEX 4 ==============================
+ 
+ 
+Unit 1 
+ 
+ 
+ 
+1
+
+============================== PDF PAGE INDEX 5 ==============================
+ 
+ 
+2
+
+============================== PDF PAGE INDEX 6 ==============================
+Section 1.0: The Language of Algebra and Arithmetic Review 
+Key Terms 
+Algebra: The branch of mathematics that uses variables (letters) to represent numbers in 
+expressions, equations and formulas. We use algebra because it helps us create generalized 
+formulas. For example, we know that the formula for distance traveled is to multiply the rate of 
+speed (r) by time (t) (ܦ = ݐݎ)  .
+Variable: A letter that represents a number whose value may change (vary) 
+ 
+Constant: A number whose value always stays the same (constant) 
+ 
+Expression: A number, a variable, or a combination of those 
+ 
+Term/s: A constant, or the product (multiplication) of a constant and one or more variables  
+When you have more than one term, they are separated by either addition or subtraction. 
+ 
+Factors: The multipliers in a term 
+ 
+Coefficient: The numerical quantity multiplied by the variable in an algebraic expression 
+ 
+Equation: Two expressions connected by an equal sign 
+ 
+Inequality: To show one expression is less than or greater than another expression (<, >,൑, ൒)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3
+
+============================== PDF PAGE INDEX 7 ==============================
+1
+8 +1
+6 
+(4) ൬6
+7൰ 
+ 
+ 
+ 
+3
+5 +1
+4 
+3
+4 −5
+12 
+ 
+ 
+ 
+൬4
+7 − 2
+3൰
+2
+ 
+1
+9 ή1
+6 
+3
+8 ÷1
+16   5
+8  
+3
+4
+ 
+16−3
+4+9  (16)(3)
+(9)(4)  
+16
+0  
+0
+16 
+24÷4ή2 17−5+8 
+Board Work: Simplify each expression into a single fraction or integer value 
+ 
+1.    2.  
+ 
+ 
+ 
+3.   4. 
+ 
+ 
+  
+5.  6.  
+ 
+ 
+ 
+7.   8.  
+ 
+ 
+ 
+ 
+9.    10.  
+ 
+ 
+ 
+11.  12.   
+ 
+ 
+ 
+13.  14.  
+ 
+4
+
+============================== PDF PAGE INDEX 8 ==============================
+ 
+Section 1.1: Evaluating and Translating Algebraic Expressions 
+ 
+ 
+ 
+ 
+ 
+Ex 1:  Evaluate given ݀ = −2 and 𝑓𝑓 =5 :  Ex 2: If 𝑥𝑥 = −1, 𝑦𝑦 = −3, and ݖ 2 , find: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ex 3: For ܽ 5 , ܾ = −6, and ܿ = −3, evaluate: Ex 4:  Given ܽ 1 , ܾ 7 , and ܿ = −6, find: 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+Ex 5: Evaluate for ܽ 2 , ܾ = −10, and ܿ 8 : 
+ 
+ 
+ 
+݀2−𝑓𝑓2
+݀2 + 𝑓𝑓2 2𝑥𝑥2+𝑦𝑦2
+|−10 + ݖଷ| 
+ܾ2−4ܽܿ ܾ + ξܾ2 − 4ܽܿ
+2ܽ  
+ܾ + ξܾ2 − 4ܽܿ
+2ܽ  
+Evaluating Algebraic Expressions  
+In math, to evaluate means to find the numerical value of an expression when the variable(s) 
+are replaced by given numbers.  
+1. Always use parentheses to substitute any variables with numbers. 
+2. Simplify the expression completely according to the correct order of operations. 
+  
+6
+
+============================== PDF PAGE INDEX 9 ==============================
+Translating between English Phrases and Algebraic Expressions  
+English Phrase Algebraic Expression 
+the sum of a number and five  
+six less than three times a number  
+the quotient of two unknown numbers  
+seven more than nine times a number  
+the square of the sum of a number and forty-two  
+a number decreased by the product of eleven and that same 
+number  
+the difference between a number cubed and the opposite of that 
+number  
+the product of three numbers  
+five times a number reduced by the square of a second number  
+three-fourths of a number increased by one hundred  
+fourteen less than half of a number  
+two-thirds of a number   
+the positive difference between two numbers  
+the square of the difference between a number and eight  
+ 6ܽଷ + 13 
+ 5ܾ2 − 12 
+ 2݉
+݊2  
+ 
+ 
+7
+
+============================== PDF PAGE INDEX 10 ==============================
+Section 1.2: Simplifying Monomial Expressions with Exponents 
+Exponent Properties for Monomial Expressions 
+RULE SYMBOLISM EXAMPLE DEFINITION 
+ZERO 
+EXPONENT ܽ଴ =1   Any nonzero number raised to the 
+power of 0 is 1 
+PRODUCT 
+RULE ܽ௠ ܽ ௡ = ܽ௠ା௡  
+When multiplying, if the bases are 
+the same, ADD the exponents (but 
+KEEP the bases). 
+QUOTIENT 
+RULE 
+ܽ௠
+ܽ௡ = ܽ௠ି௡  
+When dividing, if the bases are 
+the same, SUBTRACT the 
+exponents (but KEEP the bases) 
+POWER  
+TO A 
+POWER 
+(ܽ௠)௡ = ܽ௠௡  When raising a power to a power, 
+MULTIPLY the exponents. 
+NEGATIVE 
+EXPONENT ܽି௠ = 1
+ܽ௠  A negative exponent means to 
+apply the reciprocal property.  
+ 
+Example 1: Simplify each expression as much as possible.  
+ 
+A. ݐ଴ B. 8଴ ή𝑥𝑥 ଴ ݖ ଴  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C. 8 ή𝑥𝑥 ଴ ݖ ଴  D.  
+ 
+ቆ 3ܾܽହ
+6ܽଷܾଽቇ
+଴
+ 
+8
+
+============================== PDF PAGE INDEX 11 ==============================
+Example 2: Use the properties of exponents to fully simplify each expression.  
+ 
+A. ܽ2 ܽ ହ B. 3ܾଷ ή− 2଼ܿ ή 4ܾ2 ܿ   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C. (2𝑥𝑥𝑦𝑦2)(3𝑥𝑥𝑦𝑦ଷ)  D. (−𝑥𝑥଺𝑦𝑦2)(3𝑥𝑥ସ𝑦𝑦) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 3: Fully simplify the given expression using only positive integer exponents. 
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+ 
+ 
+ݎ1଴
+ݎ2  
+2݉2
+5݊ଷ ή10݊ହ
+݉ଷ  
+9
+
+============================== PDF PAGE INDEX 12 ==============================
+C.  D.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 4: Simplify using only positive integer exponents. 
+ 
+A. 12𝑥𝑥ିସ B. 3ܽି2ܾଽ 
+ 
+ 
+ 
+ 
+C.  D. (4𝑦𝑦)ିଷ  
+ 
+ 
+ 
+ 
+ 
+E.  F.   
+ 
+ 
+ 
+ 
+ 
+2݉2
+5݊ଷ ÷10݊ହ
+݉ଷ  8𝑥𝑥ଽ𝑦𝑦଼ݖହ
+12𝑥𝑥ସ𝑦𝑦12ݖ଴ 
+൬5
+8൰
+ି2
+ 
+݊1଴
+݌ି1଴ 15ݎିସݏ଼
+3ݏݎଷ  
+10
+
+============================== PDF PAGE INDEX 13 ==============================
+Example 5: Simplify fully.  
+ 
+A. (5𝑥𝑥ସ)2 B. (−2𝑥𝑥ଷ𝑦𝑦଻)ଷ 
+ 
+ 
+ 
+ 
+ 
+ 
+C. (ܽଽܾ଺)ହ D.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E.  F.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ݓଷήݓଽ
+(ݓହ)ସ  
+൬2𝑥𝑥଺ݓହ
+3𝑥𝑥ݓହ ൰
+൬7𝑥𝑥ହݓ2
+9𝑥𝑥2 ൰
+ 
+൬3𝑥𝑥11𝑦𝑦ହ
+2𝑥𝑥ି1𝑦𝑦଼൰
+൬2𝑥𝑥ହ𝑦𝑦12
+5𝑥𝑥 ൰
+ 
+11
+
+============================== PDF PAGE INDEX 14 ==============================
+Section 1.3: Adding and Subtracting Polynomials; Distributive Property 
+Key Terms 
+A monomial, or two or more monomials combined by addition or subtraction, is a polynomial. 
+Some polynomials have special names, based on the number of terms.  
+A monomial is a polynomial with exactly one term.  
+A binomial has exactly two terms.  
+A trinomial has exactly three terms.  
+There are no special names for polynomials with more than three terms. 
+Like Terms: When two terms are both constants OR have the exact same variable(s) and 
+exponent(s), we say they are like terms. Only the like terms can be combined through addition or 
+subtraction. To do so, add or subtract only the coefficients. The variables never change through 
+addition or subtraction. 
+ 
+Example 1: Simplify the polynomial by combining like terms.  
+ 
+A. 6𝑦𝑦 + 12 − 7𝑦𝑦 B. 9݉2 − 24݉ + 12− 32  
+ 
+ 
+ 
+ 
+C. 3݊2 − 17݊ 4 ݊2 D. 5𝑥𝑥ଷ +3 𝑥𝑥2 − 2𝑥𝑥− 9 − 12𝑥𝑥ଷ − 10𝑥𝑥 +4  
+ 
+ 
+ 
+ 
+ 
+Example 2: Perform the indicated operation and simplify.  
+ 
+A. (5𝑥𝑥ଷ +2 𝑥𝑥2 − 13𝑥𝑥) + (4𝑥𝑥ଷ − 10𝑥𝑥2 +9 ) B. (2𝑦𝑦଺ + 𝑦𝑦ସ −𝑦𝑦 ) − (8𝑦𝑦଺ − 3𝑦𝑦ସ +9 𝑦𝑦)  
+ 
+ 
+ 
+ 
+12
+
+============================== PDF PAGE INDEX 15 ==============================
+The distributive property of multiplication over addition or subtraction allows us to simplify 
+more complicated expressions involving parentheses. For example, 2(5𝑥𝑥2 − 3𝑥𝑥 +9 ) can be 
+written as 10𝑥𝑥2 − 6𝑥𝑥 + 18 by multiplying 2 by each term inside the parentheses. 
+ 
+Example 3: Perform the indicated operations and simplify fully.  
+ 
+A. −2𝑥𝑥(3𝑥𝑥2 +8 𝑥𝑥− 4) B.  2(8𝑦𝑦− 5) +7 (−2𝑦𝑦− 6) 
+ 
+ 
+ 
+ 
+ 
+ 
+C. −𝑥𝑥(𝑥𝑥2 − 4) − 2(𝑥𝑥ଷ +2 𝑥𝑥) D. 𝑦𝑦(7𝑦𝑦2 +4 𝑦𝑦− 9) − 3(8𝑦𝑦ଷ − 3𝑦𝑦2 − 4𝑦𝑦) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E. 3 + 2(5𝑥𝑥− 4(𝑥𝑥− 9))+7 𝑥𝑥  F. 11𝑥𝑥− 8(𝑦𝑦 +5 (𝑦𝑦− 2(𝑦𝑦−𝑥𝑥 ))) 
+ 
+13
+
+============================== PDF PAGE INDEX 16 ==============================
+Section 1.4: Multiplying Polynomials 
+ 
+Example 1: Use the distributive property to multiply and fully simplify each of the following.  
+ 
+A. (2𝑥𝑥 + 4)(3𝑥𝑥 +5 ) B. (𝑥𝑥− 4)(5𝑥𝑥− 1)  
+ 
+ 
+ 
+ 
+ 
+C. 2(− 3)(ܾ 4 ) D. 4(ݓ 2)(− 2) 
+ 
+ 
+ 
+ 
+ 
+ 
+E. (2𝑦𝑦− 7)2 F. 2(𝑦𝑦− 7)2  
+ 
+ 
+ 
+ 
+ 
+ 
+H. (ݓ 2)(ݓ2 − 2ݓ 9 ) I. (2𝑥𝑥− 1)(𝑥𝑥2 +3 𝑥𝑥− 10) 
+  
+ 
+ 
+ 
+ 
+ 
+14
+
+============================== PDF PAGE INDEX 17 ==============================
+ Example 2: Find the perimeter of a rectangle if the length is 3𝑥𝑥− 4 and the width is 2𝑥𝑥 +7 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 3: Find the area of a rectangle if the length is 3𝑥𝑥− 4 and the width is 2𝑥𝑥 +7 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 4: A given rectangle has a length of 2𝑥𝑥 +3  and a width of 𝑥𝑥− 6. If the length is decreased 
+by 7 and the width is increased by 12, find the area of the new rectangle in terms of 𝑥𝑥. 
+15
+
+============================== PDF PAGE INDEX 18 ==============================
+Section 1.5: Adding and Subtracting Rational Expressions 
+ 
+Example 1: Find the sum or difference.  
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+Example 2: Add or subtract the rational expressions by obtaining a common denominator.  
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+  
+ 
+C.  D.   
+ 
+ 
+ 
+ 
+ 
+ 
+E.  F.  
+ 
+ 
+ 
+ 
+ 
+ 
+1
+6 +3
+4 7
+𝑦𝑦 −𝑥𝑥
+𝑦𝑦 
+5
+ݓ −7
+2ݓ 1
+6𝑥𝑥 +2
+9𝑥𝑥 
+3
+𝑦𝑦 +5
+𝑥𝑥 
+11𝑦𝑦
+2𝑥𝑥 −𝑥𝑥
+5𝑦𝑦 
+2
+7ݎ +3
+7 4
+5 −9
+5ݓ 
+16
+
+============================== PDF PAGE INDEX 19 ==============================
+Example 3: Add or subtract the expressions. Simplify if possible. 
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C.  D.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E.  F.  
+ 
+ 
+ 
+ 
+  
+3
+7𝑥𝑥2 +5
+14𝑥𝑥 
+2
+𝑥𝑥 −9
+10𝑥𝑥ସ +3
+𝑥𝑥 
+2
+3ܾ +1
+4 +1
+6ܾ 2
+5ݎ −3
+4ݎ −7
+10 
+2𝑥𝑥−5
+3𝑥𝑥 −5𝑥𝑥+9
+6𝑥𝑥  
+3𝑦𝑦+7
+8𝑦𝑦 −9𝑦𝑦−11
+4𝑦𝑦  
+17
+
+============================== PDF PAGE INDEX 20 ==============================
+Section 1.6: Solving Linear Equations 
+ 
+Example 1: Solve the linear equation for the given variable.  
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+C.   D.  
+ 
+ 
+ 
+ 
+ 
+Example 2: Solve each equation. Write your answer in simplest fraction form. 
+ 
+A.  B.  
+ 
+ 
+ 
+ 
+ 
+ 
+C.  D.  
+ 
+ 
+ 
+3𝑥𝑥−8=−12 6−4ݓ=15 
+𝑦𝑦+4+5𝑦𝑦−9=87 6ݎ−3ݎ+94+2ݎ=18 
+10(ܽ−5)+2=−3 6(𝑥𝑥−2)−8=3𝑥𝑥−20 
+2(7−𝑥𝑥)+11=12−2𝑥𝑥 
+ −4−(3−𝑥𝑥)−2=9(𝑥𝑥−1)−8𝑥𝑥 
+18
+
+============================== PDF PAGE INDEX 21 ==============================
+ 
+ 
+ 
+ 
+ 
+ 
+Example 3: Go back to Examples 1 and 2 and classify each as conditional, contradiction, or 
+identity based on the solution(s) you found. 
+ 
+_________________________________________________________________________________________________________________ 
+In Class/Extra Practice: 
+  
+1.  2.   
+ 
+ 
+ 
+ 
+  
+ 
+3.  4.   
+ 
+ 
+ 
+ 
+ 
+ 
+5.  6.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Classifying linear equations 
+• An equation that has a finite number of unique real solutions is called conditional. 
+• An equation that has no solution is sometimes referred to as a contradiction. 
+• An equation that has infinitely many solutions (all real numbers) is called an identity. 
+3(ݓ−4)=3(ݓ−9)+15 
+ݎ−3−7+ݎ=10+2ݎ 
+−4𝑥𝑥+4(𝑥𝑥−4)=−11 
+ 
+−(−𝑦𝑦−28)=7(𝑦𝑦+4) −2(ݎ+3)+7=1−2ݎ 
+3𝑥𝑥−2=−9𝑥𝑥+15 
+19
+
+============================== PDF PAGE INDEX 22 ==============================
+Did you know that 
+ 
+Sometimes it is 
+easier to write it 
+one way vs the 
+other 
+Section 1.7: Solving Linear Equations with Fractions 
+ 
+Reminder about equations: We can do any operation we want to one side of an equation, so long 
+as we do it to the other side of the equation.  
+ 
+Example 1: Solve the equation by dividing both sides by the coefficient.   
+     
+ 
+ 
+ 
+ 
+Example 2: Now we will solve the same equation by the method of clearing fractions. With this 
+method, we will multiply both sides of the equation by a number (LCD) that will eliminate all the 
+fractions. Let’s try it! 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 3: For the following examples, use the method of clearing fractions to solve.  
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3
+4 𝑥𝑥 = 15 
+𝑥𝑥
+−5 = 10 
+3
+4 𝑥𝑥 = 15 
+3
+4𝑥𝑥 =3𝑥𝑥
+4 
+1
+2 𝑦𝑦 +3
+4 = 10 
+20
+
+============================== PDF PAGE INDEX 23 ==============================
+ 
+C.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1
+2 𝑥𝑥−2
+7 =5
+4 −𝑥𝑥   
+35+𝑥𝑥
+5 = 18 
+1
+7 (𝑥𝑥− 4) +5=1
+2 (3𝑥𝑥 +4 ) 
+21
+
+============================== PDF PAGE INDEX 24 ==============================
+F.    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+G.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+𝑥𝑥−7
+8 =5
+6 
+1
+3 (3݉ 1 ) =1
+4 (− 4) +1  
+22
+
+============================== PDF PAGE INDEX 25 ==============================
+Section 1.8: Solving Formulas for a Specified Variable 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 1: Solve each formula for 𝑦𝑦.  
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+ 
+C.   D.  
+ 
+ 
+ 
+ 
+ 
+ 
+Example 2: Solve each literal equation for the specified variable. 
+ 
+A.  B.  
+ 
+ 
+ 
+ 
+ 
+ 
+3𝑥𝑥+𝑦𝑦=8 2𝑥𝑥−5𝑦𝑦=12 
+ܼ=𝑥𝑥+ݓ𝑥𝑥𝑦𝑦 5𝑥𝑥𝑦𝑦=19 
+ܽ+ܾ−ܿ=݀; solve for ܾ 
+Equations which contain multiple variables are often referred to as literal equations or 
+formulas. 
+ 
+The process of isolating a specific variable in the equation or formula is known as solving for the 
+specified variable.  
+ 
+ܽ𝑥𝑥2+ܾ𝑥𝑥+ܿ=0; solve for ܾ 
+23
+
+============================== PDF PAGE INDEX 26 ==============================
+C.  D.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E.  F.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REVIEW: Solve the following equations by clearing fractions. 
+  
+A.  B.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+𝑦𝑦−2
+5 =3
+2 𝑦𝑦 +4
+5 
+݉ =ݎ−7݊
+5 ; solve for ݎ ݐ =݀
+ݎ  ; solve for ݎ 
+ܲ=2ܮ+2ܹ; solve for ܹ ܸ=ܮܹܪ; solve for ܹ 
+2
+7 =3
+7 (𝑥𝑥− 4) −5
+7 
+24
+
+============================== PDF PAGE INDEX 27 ==============================
+Section 1.9: Solving Linear Inequalities 
+ 
+Example 1: Represent each inequality on a number line graph. Use the graph to convert to 
+interval notation. 
+A.  B.   
+ 
+ 
+ 
+ 
+ 
+C.   D.  
+ 
+ 
+ 
+ 
+ 
+E.   F.  
+ 
+ 
+ 
+ 
+ 
+ 
+G.   H.    
+ 
+ 
+𝑥𝑥>5 𝑥𝑥<−6 
+−3൑𝑥𝑥 12൒𝑥𝑥 
+−3<𝑥𝑥<1 2൑𝑥𝑥<3 
+𝑥𝑥<−7 or  𝑥𝑥൒0 𝑥𝑥൑2 or  𝑥𝑥>5 
+25
+
+============================== PDF PAGE INDEX 28 ==============================
+ 
+ 
+ 
+ 
+ 
+Example 2: Solve each inequality. Write your final answer in interval notation. 
+A.  B.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C.  D.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E.  F.  
+ 
+ 
+−6+3𝑥𝑥൑−12+5𝑥𝑥 4(5𝑥𝑥−7)>10+5𝑥𝑥 
+The process of solving linear inequalities is similar to solving linear equations, with one major 
+exception:  
+In order for the inequality to remain a true statement, the direction of the inequality 
+symbol must be reversed upon dividing or multiplying by a negative number. 
+ 
+4
+5𝑦𝑦 +5<6  2 ൑ 𝑥𝑥 
+−8 − 3 
+𝑥𝑥−30
+−4 ൒ 50 
+𝑥𝑥−30
+4 > 50 
+26
+
+============================== PDF PAGE INDEX 29 ==============================
+ 
+5
+
+============================== PDF PAGE INDEX 30 ==============================
+ 
+ 
+Unit 2 
+ 
+ 
+ 
+27
+
+============================== PDF PAGE INDEX 31 ==============================
+ 
+ 
+28
+
+============================== PDF PAGE INDEX 32 ==============================
+Section 2.0: Intro to Graphing 
+ 
+Plotting Solutions to an Equation in the Rectangular Coordinate System 
+ 
+We can represent an ordered pair (𝑥𝑥, 𝑦𝑦) using the coordinate (Cartesian) plane.  
+ 
+Example 1:  Plot and label the following ordered 
+pairs in the rectangular (Cartesian) coordinate 
+plane. 
+A. (૝, ૙) 
+B. (−૚, ૜) 
+C. (૙, ૞) 
+D. (−૜, −૝) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Basic Graphing Strategy 
+When graphing, 𝑥𝑥-coordinates are the input values and 𝑦𝑦-coordinates are the output values. The 
+graph is the set of all such (𝑥𝑥, 𝑦𝑦) points. Hence, when graphing, choose 𝑥𝑥-values and use the 
+algebraic expression of the equation to calculate corresponding 𝑦𝑦-values. Plot enough points to be 
+able to determine the overall shape of the graph.  
+Definition:  Solution of an Equation Involving 𝒙𝒙 and 𝒚𝒚 
+ 
+An ordered pair (𝑥𝑥, 𝑦𝑦) is a solution to an equation involving 𝑥𝑥 and 𝑦𝑦 if the equation 
+is a true statement when the 𝑥𝑥- and 𝑦𝑦- values of the ordered pair are substituted 
+into the equation. 
+ 
+29
+

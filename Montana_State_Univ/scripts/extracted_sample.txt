@@ -1,0 +1,584 @@
+--- PDF Page Index 4 (Book Page ~1) ---
+ 
+ 
+Unit 1 
+ 
+ 
+ 
+1
+
+--- PDF Page Index 5 (Book Page ~2) ---
+ 
+ 
+2
+
+--- PDF Page Index 6 (Book Page ~3) ---
+Section 1.0: The Language of Algebra and Arithmetic Review 
+Key Terms 
+Algebra: The branch of mathematics that uses variables (letters) to represent numbers in 
+expressions, equations and formulas. We use algebra because it helps us create generalized 
+formulas. For example, we know that the formula for distance traveled is to multiply the rate of 
+speed (r) by time (t) (ܦ = ݐݎ)  .
+Variable: A letter that represents a number whose value may change (vary) 
+ 
+Constant: A number whose value always stays the same (constant) 
+ 
+Expression: A number, a variable, or a combination of those 
+ 
+Term/s: A constant, or the product (multiplication) of a constant and one or more variables  
+When you have more than one term, they are separated by either addition or subtraction. 
+ 
+Factors: The multipliers in a term 
+ 
+Coefficient: The numerical quantity multiplied by the variable in an algebraic expression 
+ 
+Equation: Two expressions connected by an equal sign 
+ 
+Inequality: To show one expression is less than or greater than another expression (<, >,൑, ൒)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3
+
+--- PDF Page Index 7 (Book Page ~4) ---
+1
+8 +1
+6 
+(4) ൬6
+7൰ 
+ 
+ 
+ 
+3
+5 +1
+4 
+3
+4 −5
+12 
+ 
+ 
+ 
+൬4
+7 − 2
+3൰
+2
+ 
+1
+9 ή1
+6 
+3
+8 ÷1
+16   5
+8  
+3
+4
+ 
+16−3
+4+9  (16)(3)
+(9)(4)  
+16
+0  
+0
+16 
+24÷4ή2 17−5+8 
+Board Work: Simplify each expression into a single fraction or integer value 
+ 
+1.    2.  
+ 
+ 
+ 
+3.   4. 
+ 
+ 
+  
+5.  6.  
+ 
+ 
+ 
+7.   8.  
+ 
+ 
+ 
+ 
+9.    10.  
+ 
+ 
+ 
+11.  12.   
+ 
+ 
+ 
+13.  14.  
+ 
+4
+
+--- PDF Page Index 8 (Book Page ~5) ---
+ 
+Section 1.1: Evaluating and Translating Algebraic Expressions 
+ 
+ 
+ 
+ 
+ 
+Ex 1:  Evaluate given ݀ = −2 and 𝑓𝑓 =5 :  Ex 2: If 𝑥𝑥 = −1, 𝑦𝑦 = −3, and ݖ 2 , find: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ex 3: For ܽ 5 , ܾ = −6, and ܿ = −3, evaluate: Ex 4:  Given ܽ 1 , ܾ 7 , and ܿ = −6, find: 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+Ex 5: Evaluate for ܽ 2 , ܾ = −10, and ܿ 8 : 
+ 
+ 
+ 
+݀2−𝑓𝑓2
+݀2 + 𝑓𝑓2 2𝑥𝑥2+𝑦𝑦2
+|−10 + ݖଷ| 
+ܾ2−4ܽܿ ܾ + ξܾ2 − 4ܽܿ
+2ܽ  
+ܾ + ξܾ2 − 4ܽܿ
+2ܽ  
+Evaluating Algebraic Expressions  
+In math, to evaluate means to find the numerical value of an expression when the variable(s) 
+are replaced by given numbers.  
+1. Always use parentheses to substitute any variables with numbers. 
+2. Simplify the expression completely according to the correct order of operations. 
+  
+6
+
+--- PDF Page Index 9 (Book Page ~6) ---
+Translating between English Phrases and Algebraic Expressions  
+English Phrase Algebraic Expression 
+the sum of a number and five  
+six less than three times a number  
+the quotient of two unknown numbers  
+seven more than nine times a number  
+the square of the sum of a number and forty-two  
+a number decreased by the product of eleven and that same 
+number  
+the difference between a number cubed and the opposite of that 
+number  
+the product of three numbers  
+five times a number reduced by the square of a second number  
+three-fourths of a number increased by one hundred  
+fourteen less than half of a number  
+two-thirds of a number   
+the positive difference between two numbers  
+the square of the difference between a number and eight  
+ 6ܽଷ + 13 
+ 5ܾ2 − 12 
+ 2݉
+݊2  
+ 
+ 
+7
+
+--- PDF Page Index 10 (Book Page ~7) ---
+Section 1.2: Simplifying Monomial Expressions with Exponents 
+Exponent Properties for Monomial Expressions 
+RULE SYMBOLISM EXAMPLE DEFINITION 
+ZERO 
+EXPONENT ܽ଴ =1   Any nonzero number raised to the 
+power of 0 is 1 
+PRODUCT 
+RULE ܽ௠ ܽ ௡ = ܽ௠ା௡  
+When multiplying, if the bases are 
+the same, ADD the exponents (but 
+KEEP the bases). 
+QUOTIENT 
+RULE 
+ܽ௠
+ܽ௡ = ܽ௠ି௡  
+When dividing, if the bases are 
+the same, SUBTRACT the 
+exponents (but KEEP the bases) 
+POWER  
+TO A 
+POWER 
+(ܽ௠)௡ = ܽ௠௡  When raising a power to a power, 
+MULTIPLY the exponents. 
+NEGATIVE 
+EXPONENT ܽି௠ = 1
+ܽ௠  A negative exponent means to 
+apply the reciprocal property.  
+ 
+Example 1: Simplify each expression as much as possible.  
+ 
+A. ݐ଴ B. 8଴ ή𝑥𝑥 ଴ ݖ ଴  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C. 8 ή𝑥𝑥 ଴ ݖ ଴  D.  
+ 
+ቆ 3ܾܽହ
+6ܽଷܾଽቇ
+଴
+ 
+8
+
+--- PDF Page Index 11 (Book Page ~8) ---
+Example 2: Use the properties of exponents to fully simplify each expression.  
+ 
+A. ܽ2 ܽ ହ B. 3ܾଷ ή− 2଼ܿ ή 4ܾ2 ܿ   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C. (2𝑥𝑥𝑦𝑦2)(3𝑥𝑥𝑦𝑦ଷ)  D. (−𝑥𝑥଺𝑦𝑦2)(3𝑥𝑥ସ𝑦𝑦) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 3: Fully simplify the given expression using only positive integer exponents. 
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+ 
+ 
+ݎ1଴
+ݎ2  
+2݉2
+5݊ଷ ή10݊ହ
+݉ଷ  
+9
+
+--- PDF Page Index 12 (Book Page ~9) ---
+C.  D.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 4: Simplify using only positive integer exponents. 
+ 
+A. 12𝑥𝑥ିସ B. 3ܽି2ܾଽ 
+ 
+ 
+ 
+ 
+C.  D. (4𝑦𝑦)ିଷ  
+ 
+ 
+ 
+ 
+ 
+E.  F.   
+ 
+ 
+ 
+ 
+ 
+2݉2
+5݊ଷ ÷10݊ହ
+݉ଷ  8𝑥𝑥ଽ𝑦𝑦଼ݖହ
+12𝑥𝑥ସ𝑦𝑦12ݖ଴ 
+൬5
+8൰
+ି2
+ 
+݊1଴
+݌ି1଴ 15ݎିସݏ଼
+3ݏݎଷ  
+10
+
+--- PDF Page Index 13 (Book Page ~10) ---
+Example 5: Simplify fully.  
+ 
+A. (5𝑥𝑥ସ)2 B. (−2𝑥𝑥ଷ𝑦𝑦଻)ଷ 
+ 
+ 
+ 
+ 
+ 
+ 
+C. (ܽଽܾ଺)ହ D.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E.  F.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ݓଷήݓଽ
+(ݓହ)ସ  
+൬2𝑥𝑥଺ݓହ
+3𝑥𝑥ݓହ ൰
+൬7𝑥𝑥ହݓ2
+9𝑥𝑥2 ൰
+ 
+൬3𝑥𝑥11𝑦𝑦ହ
+2𝑥𝑥ି1𝑦𝑦଼൰
+൬2𝑥𝑥ହ𝑦𝑦12
+5𝑥𝑥 ൰
+ 
+11
+
+--- PDF Page Index 14 (Book Page ~11) ---
+Section 1.3: Adding and Subtracting Polynomials; Distributive Property 
+Key Terms 
+A monomial, or two or more monomials combined by addition or subtraction, is a polynomial. 
+Some polynomials have special names, based on the number of terms.  
+A monomial is a polynomial with exactly one term.  
+A binomial has exactly two terms.  
+A trinomial has exactly three terms.  
+There are no special names for polynomials with more than three terms. 
+Like Terms: When two terms are both constants OR have the exact same variable(s) and 
+exponent(s), we say they are like terms. Only the like terms can be combined through addition or 
+subtraction. To do so, add or subtract only the coefficients. The variables never change through 
+addition or subtraction. 
+ 
+Example 1: Simplify the polynomial by combining like terms.  
+ 
+A. 6𝑦𝑦 + 12 − 7𝑦𝑦 B. 9݉2 − 24݉ + 12− 32  
+ 
+ 
+ 
+ 
+C. 3݊2 − 17݊ 4 ݊2 D. 5𝑥𝑥ଷ +3 𝑥𝑥2 − 2𝑥𝑥− 9 − 12𝑥𝑥ଷ − 10𝑥𝑥 +4  
+ 
+ 
+ 
+ 
+ 
+Example 2: Perform the indicated operation and simplify.  
+ 
+A. (5𝑥𝑥ଷ +2 𝑥𝑥2 − 13𝑥𝑥) + (4𝑥𝑥ଷ − 10𝑥𝑥2 +9 ) B. (2𝑦𝑦଺ + 𝑦𝑦ସ −𝑦𝑦 ) − (8𝑦𝑦଺ − 3𝑦𝑦ସ +9 𝑦𝑦)  
+ 
+ 
+ 
+ 
+12
+
+--- PDF Page Index 15 (Book Page ~12) ---
+The distributive property of multiplication over addition or subtraction allows us to simplify 
+more complicated expressions involving parentheses. For example, 2(5𝑥𝑥2 − 3𝑥𝑥 +9 ) can be 
+written as 10𝑥𝑥2 − 6𝑥𝑥 + 18 by multiplying 2 by each term inside the parentheses. 
+ 
+Example 3: Perform the indicated operations and simplify fully.  
+ 
+A. −2𝑥𝑥(3𝑥𝑥2 +8 𝑥𝑥− 4) B.  2(8𝑦𝑦− 5) +7 (−2𝑦𝑦− 6) 
+ 
+ 
+ 
+ 
+ 
+ 
+C. −𝑥𝑥(𝑥𝑥2 − 4) − 2(𝑥𝑥ଷ +2 𝑥𝑥) D. 𝑦𝑦(7𝑦𝑦2 +4 𝑦𝑦− 9) − 3(8𝑦𝑦ଷ − 3𝑦𝑦2 − 4𝑦𝑦) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E. 3 + 2(5𝑥𝑥− 4(𝑥𝑥− 9))+7 𝑥𝑥  F. 11𝑥𝑥− 8(𝑦𝑦 +5 (𝑦𝑦− 2(𝑦𝑦−𝑥𝑥 ))) 
+ 
+13
+
+--- PDF Page Index 16 (Book Page ~13) ---
+Section 1.4: Multiplying Polynomials 
+ 
+Example 1: Use the distributive property to multiply and fully simplify each of the following.  
+ 
+A. (2𝑥𝑥 + 4)(3𝑥𝑥 +5 ) B. (𝑥𝑥− 4)(5𝑥𝑥− 1)  
+ 
+ 
+ 
+ 
+ 
+C. 2(− 3)(ܾ 4 ) D. 4(ݓ 2)(− 2) 
+ 
+ 
+ 
+ 
+ 
+ 
+E. (2𝑦𝑦− 7)2 F. 2(𝑦𝑦− 7)2  
+ 
+ 
+ 
+ 
+ 
+ 
+H. (ݓ 2)(ݓ2 − 2ݓ 9 ) I. (2𝑥𝑥− 1)(𝑥𝑥2 +3 𝑥𝑥− 10) 
+  
+ 
+ 
+ 
+ 
+ 
+14
+
+--- PDF Page Index 17 (Book Page ~14) ---
+ Example 2: Find the perimeter of a rectangle if the length is 3𝑥𝑥− 4 and the width is 2𝑥𝑥 +7 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 3: Find the area of a rectangle if the length is 3𝑥𝑥− 4 and the width is 2𝑥𝑥 +7 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 4: A given rectangle has a length of 2𝑥𝑥 +3  and a width of 𝑥𝑥− 6. If the length is decreased 
+by 7 and the width is increased by 12, find the area of the new rectangle in terms of 𝑥𝑥. 
+15
+
+--- PDF Page Index 18 (Book Page ~15) ---
+Section 1.5: Adding and Subtracting Rational Expressions 
+ 
+Example 1: Find the sum or difference.  
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+Example 2: Add or subtract the rational expressions by obtaining a common denominator.  
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+  
+ 
+C.  D.   
+ 
+ 
+ 
+ 
+ 
+ 
+E.  F.  
+ 
+ 
+ 
+ 
+ 
+ 
+1
+6 +3
+4 7
+𝑦𝑦 −𝑥𝑥
+𝑦𝑦 
+5
+ݓ −7
+2ݓ 1
+6𝑥𝑥 +2
+9𝑥𝑥 
+3
+𝑦𝑦 +5
+𝑥𝑥 
+11𝑦𝑦
+2𝑥𝑥 −𝑥𝑥
+5𝑦𝑦 
+2
+7ݎ +3
+7 4
+5 −9
+5ݓ 
+16
+
+--- PDF Page Index 19 (Book Page ~16) ---
+Example 3: Add or subtract the expressions. Simplify if possible. 
+ 
+A.  B.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C.  D.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E.  F.  
+ 
+ 
+ 
+ 
+  
+3
+7𝑥𝑥2 +5
+14𝑥𝑥 
+2
+𝑥𝑥 −9
+10𝑥𝑥ସ +3
+𝑥𝑥 
+2
+3ܾ +1
+4 +1
+6ܾ 2
+5ݎ −3
+4ݎ −7
+10 
+2𝑥𝑥−5
+3𝑥𝑥 −5𝑥𝑥+9
+6𝑥𝑥  
+3𝑦𝑦+7
+8𝑦𝑦 −9𝑦𝑦−11
+4𝑦𝑦  
+17
+

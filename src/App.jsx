@@ -3,17 +3,16 @@ import Header from './components/Header';
 import SlideDeck from './components/SlideDeck';
 import PresenterMode from './components/PresenterMode';
 import SlideOverviewModal from './components/SlideOverviewModal';
-import CurriculumModal from './components/CurriculumModal';
 import PrintSlidesView from './components/PrintSlidesView';
-import { SLIDES_SESSION_1, SLIDES_SESSION_2, SLIDES_SESSION_3, SLIDES_SESSION_4, SLIDES_SESSION_5, SLIDES_SESSION_6, SLIDES_SESSION_7, SLIDES_SESSION_8, SLIDES_SESSION_9, SLIDES_SESSION_10, SLIDES_SESSION_11, SLIDES_SESSION_12, SLIDES_SESSION_13, SLIDES_SESSION_14, SLIDES_SESSION_15 } from './data/slidesData';
+import { MONTANA_ALL_SLIDES, SLIDES_MONTANA_L01 } from './data/montanaSlidesData';
 import { Keyboard } from 'lucide-react';
 
 export default function App() {
   const getInitialSession = () => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
-      const s = parseInt(params.get('session') || params.get('s'), 10);
-      if (s >= 1 && s <= 15) return s;
+      const s = parseInt(params.get('lecture') || params.get('l') || params.get('session') || params.get('s'), 10);
+      if (s >= 1 && s <= 50) return s;
     }
     return 1;
   };
@@ -31,39 +30,10 @@ export default function App() {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(getInitialSlideIndex);
   const [isPresenterOpen, setIsPresenterOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
-  const [isCurriculumOpen, setIsCurriculumOpen] = useState(false);
   const [showShortcutHint, setShowShortcutHint] = useState(true);
   const [isPrinting, setIsPrinting] = useState(false);
 
-  const currentSlides = 
-    selectedSession === 1 ? SLIDES_SESSION_1 : 
-    selectedSession === 2 ? SLIDES_SESSION_2 : 
-    selectedSession === 3 ? SLIDES_SESSION_3 : 
-    selectedSession === 4 ? SLIDES_SESSION_4 : 
-    selectedSession === 5 ? SLIDES_SESSION_5 : 
-    selectedSession === 6 ? SLIDES_SESSION_6 : 
-    selectedSession === 7 ? SLIDES_SESSION_7 : 
-    selectedSession === 8 ? SLIDES_SESSION_8 : 
-    selectedSession === 9 ? SLIDES_SESSION_9 : 
-    selectedSession === 10 ? SLIDES_SESSION_10 : 
-    selectedSession === 11 ? SLIDES_SESSION_11 : 
-    selectedSession === 12 ? SLIDES_SESSION_12 : 
-    selectedSession === 13 ? SLIDES_SESSION_13 : 
-    selectedSession === 14 ? SLIDES_SESSION_14 : 
-    (SLIDES_SESSION_15 || SLIDES_SESSION_1);
-
-
-
-
-
-
-
-
-
-
-
-
-
+  const currentSlides = MONTANA_ALL_SLIDES[selectedSession] || SLIDES_MONTANA_L01;
   const totalSlides = currentSlides.length;
   const currentSlideData = currentSlides[currentSlideIndex] || currentSlides[0];
   const nextSlideData = currentSlideIndex < totalSlides - 1 ? currentSlides[currentSlideIndex + 1] : null;
@@ -75,7 +45,7 @@ export default function App() {
 
   // BroadcastChannel for Dual-Monitor Multi-Window Sync
   useEffect(() => {
-    const channel = new BroadcastChannel('oikos_slide_sync');
+    const channel = new BroadcastChannel('msu_slide_sync');
     channel.onmessage = (event) => {
       if (typeof event.data?.slideIndex === 'number') {
         setCurrentSlideIndex(event.data.slideIndex);
@@ -87,7 +57,7 @@ export default function App() {
   const broadcastSlideChange = (newIndex) => {
     setCurrentSlideIndex(newIndex);
     try {
-      const channel = new BroadcastChannel('oikos_slide_sync');
+      const channel = new BroadcastChannel('msu_slide_sync');
       channel.postMessage({ slideIndex: newIndex });
       channel.close();
     } catch (e) {
@@ -107,39 +77,37 @@ export default function App() {
     }
   };
 
-  const handleSelectSlide = (num) => {
-    broadcastSlideChange(num - 1);
+  const handleSelectSlide = (slideNum) => {
+    broadcastSlideChange(slideNum - 1);
+    setIsOverviewOpen(false);
   };
 
   const handleExportPDF = () => {
     setIsPrinting(true);
     setTimeout(() => {
       window.print();
-      // Keep isPrinting true briefly during print dialog
-      setTimeout(() => setIsPrinting(false), 2000);
-    }, 800);
+      setIsPrinting(false);
+    }, 500);
   };
 
-  // Keyboard Shortcuts Listener
+  // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
-
-      if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') {
+        return;
+      }
+      if (e.key === 'ArrowRight' || e.key === 'Space') {
         e.preventDefault();
         handleNext();
-      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      } else if (e.key === 'ArrowLeft') {
         e.preventDefault();
         handlePrev();
-      } else if (e.key.toLowerCase() === 'p') {
+      } else if (e.key === 'p' || e.key === 'P') {
         e.preventDefault();
         setIsPresenterOpen(prev => !prev);
-      } else if (e.key.toLowerCase() === 'm') {
+      } else if (e.key === 'm' || e.key === 'M' || e.key === 'o' || e.key === 'O') {
         e.preventDefault();
         setIsOverviewOpen(prev => !prev);
-      } else if (e.key.toLowerCase() === 's' || e.key.toLowerCase() === 'c') {
-        e.preventDefault();
-        setIsCurriculumOpen(prev => !prev);
       }
     };
 
@@ -153,11 +121,11 @@ export default function App() {
   }, []);
 
   return (
-    <div className="w-screen h-screen flex flex-col bg-[#0B132B] text-white overflow-hidden font-sans select-text">
-      {/* Printable All 40 Slides View (Rendered only during PDF Export / Print) */}
+    <div className="w-screen h-screen flex flex-col bg-[#00122e] text-white overflow-hidden font-sans select-text">
+      {/* Printable View */}
       {isPrinting && <PrintSlidesView slides={currentSlides} />}
 
-      {/* Header Bar */}
+      {/* Montana State University Header Bar */}
       <Header
         currentSlide={currentSlideIndex + 1}
         totalSlides={totalSlides}
@@ -166,14 +134,13 @@ export default function App() {
         onTogglePresenter={() => setIsPresenterOpen(prev => !prev)}
         isPresenterOpen={isPresenterOpen}
         onToggleOverview={() => setIsOverviewOpen(prev => !prev)}
-        onToggleCurriculum={() => setIsCurriculumOpen(prev => !prev)}
         onExportPDF={handleExportPDF}
         selectedSession={selectedSession}
         onSelectSession={handleSelectSession}
       />
 
       {/* Main Slide Presentation Area */}
-      <main className="no-print flex-1 relative overflow-hidden">
+      <main className="no-print flex-1 relative overflow-hidden bg-gradient-to-br from-[#00173D] via-[#021027] to-[#010814]">
         <SlideDeck slideData={currentSlideData} />
 
         {/* Presenter Teleprompter Sidebar Mode */}
@@ -190,11 +157,11 @@ export default function App() {
         )}
       </main>
 
-      {/* Keyboard Shortcut Hint Toast */}
+      {/* Keyboard Shortcut Hint Toast - 100% English */}
       {showShortcutHint && (
-        <div className="no-print fixed bottom-4 left-4 bg-slate-900/90 border border-cyan-500/30 text-xs text-slate-300 px-3 py-2 rounded-xl backdrop-blur-md shadow-lg flex items-center gap-2 z-20">
-          <Keyboard className="w-4 h-4 text-cyan-400" />
-          <span>Use <b>← →</b> for slides | <b>S</b> for Syllabus 목차 | <b>P</b> for Presenter | <b>Export PDF</b> to save</span>
+        <div className="no-print fixed bottom-4 left-4 bg-slate-900/90 border border-amber-500/30 text-xs text-slate-300 px-3 py-2 rounded-xl backdrop-blur-md shadow-lg flex items-center gap-2 z-20">
+          <Keyboard className="w-4 h-4 text-amber-400" />
+          <span>Use <b>← →</b> for slides | <b>P</b> for Presenter | <b>M</b> for Overview | <b>Export PDF</b> to save</span>
           <button 
             onClick={() => setShowShortcutHint(false)}
             className="text-slate-500 hover:text-white ml-1 font-bold"
@@ -204,7 +171,7 @@ export default function App() {
         </div>
       )}
 
-      {/* 40-Slide Grid Overview Modal */}
+      {/* Grid Overview Modal */}
       {isOverviewOpen && (
         <SlideOverviewModal
           slides={currentSlides}
@@ -213,15 +180,6 @@ export default function App() {
           onClose={() => setIsOverviewOpen(false)}
         />
       )}
-
-      {/* 15-Session Master Course Curriculum / Syllabus Modal */}
-      <CurriculumModal
-        isOpen={isCurriculumOpen}
-        onClose={() => setIsCurriculumOpen(false)}
-        onSelectSession={handleSelectSession}
-        currentSessionId={selectedSession}
-      />
     </div>
   );
 }
-

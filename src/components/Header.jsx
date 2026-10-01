@@ -7,9 +7,10 @@ import {
   Maximize, 
   Printer,
   Sparkles,
-  BookOpen
+  BookOpen,
+  GraduationCap
 } from 'lucide-react';
-import { SESSIONS } from '../data/slidesData';
+import { MONTANA_LECTURES } from '../data/montanaSlidesData';
 
 export default function Header({ 
   currentSlide, 
@@ -35,52 +36,50 @@ export default function Header({
   };
 
   return (
-    <header className="no-print h-16 bg-[#0B132B]/90 backdrop-blur-md border-b border-cyan-500/20 px-4 flex items-center justify-between z-30 sticky top-0">
-      {/* Brand & Logo */}
+    <header className="no-print h-16 bg-[#00173D]/95 backdrop-blur-md border-b border-amber-500/25 px-4 flex items-center justify-between z-30 sticky top-0 shadow-lg">
+      {/* Brand & Logo: Montana State University Bobcats */}
       <div className="flex items-center gap-3">
-        <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
-          <Sparkles className="w-5 h-5 text-white animate-pulse" />
+        <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-amber-400 via-amber-500 to-blue-800 flex items-center justify-center shadow-lg shadow-amber-500/20 border border-amber-400/30">
+          <GraduationCap className="w-5 h-5 text-white" />
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <span className="font-bold text-white tracking-wide text-sm">OIKOS UNIVERSITY</span>
-            <span className="text-[10px] px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-semibold border border-amber-500/30">
-              SOLI DEO GLORIA
+            <span className="font-extrabold text-white tracking-wide text-xs md:text-sm">
+              MONTANA STATE UNIVERSITY
+            </span>
+            <span className="text-[10px] px-2 py-0.5 rounded font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">
+              GALLATIN COLLEGE • M090
             </span>
           </div>
-          <div className="flex items-center gap-1.5 mt-0.5">
-            <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded bg-blue-500/20 text-blue-300 text-[10px] font-bold border border-blue-500/30">
+          <div className="flex items-center gap-2 mt-0.5">
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded bg-blue-500/25 text-blue-200 text-[10px] font-bold border border-blue-400/30">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
-              Prof. Peter
+              Prof. Eunju Park
             </span>
-            <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded bg-purple-500/20 text-purple-300 text-[10px] font-bold border border-purple-500/30">
-              <span className="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
-              TA Sarah
-            </span>
-            <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 text-[10px] font-bold border border-emerald-500/30">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-              TA James
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded bg-amber-500/25 text-amber-200 text-[10px] font-bold border border-amber-400/30">
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+              TA Sora
             </span>
           </div>
         </div>
       </div>
 
-      {/* Session Selector & Progress */}
+      {/* Lecture Selector & Progress */}
       <div className="hidden md:flex items-center gap-4">
         <select 
           value={selectedSession} 
           onChange={(e) => onSelectSession(Number(e.target.value))}
-          className="bg-slate-800/80 border border-cyan-500/30 text-xs text-white rounded-lg px-3 py-1.5 focus:outline-none focus:border-cyan-400 transition"
+          className="bg-slate-900/90 border border-amber-500/30 text-xs text-white rounded-lg px-3 py-1.5 focus:outline-none focus:border-amber-400 transition"
         >
-          {SESSIONS.map(s => (
+          {MONTANA_LECTURES.map(s => (
             <option key={s.id} value={s.id} disabled={!s.active}>
-              {s.title} {!s.active ? "(Upcoming)" : ""}
+              {s.title}
             </option>
           ))}
         </select>
 
         {/* Counter Badge */}
-        <div className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold text-cyan-400 flex items-center gap-1.5">
+        <div className="px-3 py-1 rounded-full bg-slate-900/80 border border-amber-500/30 text-xs font-semibold text-amber-300 flex items-center gap-1.5">
           <span>Slide</span>
           <span className="text-white font-bold">{currentSlide}</span>
           <span className="text-slate-500">/</span>

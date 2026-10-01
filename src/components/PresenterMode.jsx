@@ -262,18 +262,26 @@ export default function PresenterMode({
 
             <div className="space-y-3">
               {slideData?.script ? (
-                slideData.script.split('\n\n').map((paragraph, idx) => {
-                  const isPeter = paragraph.startsWith('[Prof. Peter]') || paragraph.startsWith('[Prof. Peter Kim]');
-                  const isSarah = paragraph.startsWith('[TA Sarah]') || paragraph.startsWith('[Sarah (TA)]') || paragraph.startsWith('[Prof. Sarah]');
-                  const isJames = paragraph.startsWith('[TA James]') || paragraph.startsWith('[James (TA)]') || paragraph.startsWith('[James]');
-                  const cleanText = paragraph.replace(/^\[(Prof\.\s*Peter(\s*Kim)?|TA\s*Sarah|Sarah\s*\(TA\)|Prof\.\s*Sarah|TA\s*James|James\s*\(TA\)|James)\]\s*/i, '');
+                slideData.script.split(/\n\n+|\n(?=\[(?:Prof|TA)|(?:Prof\.|TA\s)[\w\s]+:)/).map((paragraph, idx) => {
+                  const trimmed = paragraph.trim();
+                  if (!trimmed) return null;
+
+                  const isPark = trimmed.startsWith('[Prof. Park]') || trimmed.startsWith('Prof. Park:');
+                  const isSora = trimmed.startsWith('[TA Sora]') || trimmed.startsWith('TA Sora:');
+                  const isPeter = trimmed.startsWith('[Prof. Peter]') || trimmed.startsWith('[Prof. Peter Kim]');
+                  const isSarah = trimmed.startsWith('[TA Sarah]') || trimmed.startsWith('[Sarah (TA)]') || trimmed.startsWith('[Prof. Sarah]');
+                  const isJames = trimmed.startsWith('[TA James]') || trimmed.startsWith('[James (TA)]') || trimmed.startsWith('[James]');
+                  
+                  const cleanText = trimmed.replace(/^(\[(Prof\.\s*Park|TA\s*Sora|Prof\.\s*Peter(\s*Kim)?|TA\s*Sarah|Sarah\s*\(TA\)|Prof\.\s*Sarah|TA\s*James|James\s*\(TA\)|James)\]|(Prof\.\s*Park|TA\s*Sora):)\s*/i, '');
                   
                   return (
                     <div 
                       key={idx} 
                       className={`group relative p-3.5 rounded-xl border transition ${
-                        isPeter 
+                        isPark || isPeter
                           ? 'bg-blue-950/40 border-blue-500/40 text-blue-50 shadow-sm shadow-blue-950/50' 
+                          : isSora
+                            ? 'bg-amber-950/40 border-amber-500/40 text-amber-50 shadow-sm shadow-amber-950/50'
                           : isSarah 
                             ? 'bg-purple-950/40 border-purple-500/40 text-purple-50 shadow-sm shadow-purple-950/50' 
                             : isJames
@@ -283,6 +291,18 @@ export default function PresenterMode({
                     >
                       {/* Speaker Badge */}
                       <div className="flex items-center justify-between mb-2">
+                        {isPark && (
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40">
+                            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+                            👨‍🏫 Prof. Eunju Park (Lead Professor)
+                          </span>
+                        )}
+                        {isSora && (
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">
+                            <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                            👩‍💻 TA Sora (Teaching Assistant)
+                          </span>
+                        )}
                         {isPeter && (
                           <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40">
                             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
@@ -301,7 +321,7 @@ export default function PresenterMode({
                             👨‍💻 TA James Wilson (DevOps & Infrastructure TA)
                           </span>
                         )}
-                        {!isPeter && !isSarah && !isJames && (
+                        {!isPark && !isSora && !isPeter && !isSarah && !isJames && (
                           <span className="text-[11px] font-bold text-cyan-300">🎙️ Spoken Script</span>
                         )}
 

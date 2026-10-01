@@ -1,0 +1,885 @@
+--- PDF PAGE 30 (Book p. 28) ---
+ 
+ 
+Unit 2 
+ 
+ 
+ 
+27
+
+--- PDF PAGE 31 (Book p. 29) ---
+ 
+ 
+28
+
+--- PDF PAGE 32 (Book p. 30) ---
+Section 2.0: Intro to Graphing 
+ 
+Plotting Solutions to an Equation in the Rectangular Coordinate System 
+ 
+We can represent an ordered pair (𝑥𝑥, 𝑦𝑦) using the coordinate (Cartesian) plane.  
+ 
+Example 1:  Plot and label the following ordered 
+pairs in the rectangular (Cartesian) coordinate 
+plane. 
+A. (૝, ૙) 
+B. (−૚, ૜) 
+C. (૙, ૞) 
+D. (−૜, −૝) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Basic Graphing Strategy 
+When graphing, 𝑥𝑥-coordinates are the input values and 𝑦𝑦-coordinates are the output values. The 
+graph is the set of all such (𝑥𝑥, 𝑦𝑦) points. Hence, when graphing, choose 𝑥𝑥-values and use the 
+algebraic expression of the equation to calculate corresponding 𝑦𝑦-values. Plot enough points to be 
+able to determine the overall shape of the graph.  
+Definition:  Solution of an Equation Involving 𝒙𝒙 and 𝒚𝒚 
+ 
+An ordered pair (𝑥𝑥, 𝑦𝑦) is a solution to an equation involving 𝑥𝑥 and 𝑦𝑦 if the equation 
+is a true statement when the 𝑥𝑥- and 𝑦𝑦- values of the ordered pair are substituted 
+into the equation. 
+ 
+29
+
+--- PDF PAGE 33 (Book p. 31) ---
+Graphs of Basic Equations 
+Graph the following equations by plotting points. Use interval notation to state the domain (𝑥𝑥-
+values) and range (𝑦𝑦-values) of each equation.  
+A. 𝑦𝑦 =3  (Constant/Polynomial)   B. 𝑦𝑦 = 𝑥𝑥 (Linear/Polynomial) 
+ 
+ 
+ 
+ 
+ 
+ 
+Domain:       Domain: 
+Range:        Range:  
+ 
+ 
+ 
+ 
+C. 𝑦𝑦 = 𝑥𝑥2 (Quadratic/Polynomial)    D. 𝑦𝑦 = ξ𝑥𝑥 (Square Root) 
+     
+ 
+ 
+ 
+ 
+   
+ 
+Domain:       Domain: 
+Range:        Range:  
+ 
+ 
+ 
+ 
+𝑥𝑥 𝑦𝑦 
+  
+  
+  
+  
+  
+𝑥𝑥 𝑦𝑦 
+  
+  
+  
+  
+  
+𝑥𝑥 𝑦𝑦 
+  
+  
+  
+  
+  
+𝑥𝑥 𝑦𝑦 
+  
+  
+  
+  
+  
+30
+
+--- PDF PAGE 34 (Book p. 32) ---
+E. 𝑦𝑦 = |𝑥𝑥| (Absolute Value)   F. 𝑦𝑦 = 𝑥𝑥ଷ (Cubic/Polynomial) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Domain:        
+Range:          
+ 
+ 
+ 
+ 
+        Domain: 
+        Range:  
+ 
+G. 𝑦𝑦 = ξ𝑥𝑥
+య
+ (Cube Root) 
+ 
+ 
+ 
+ 
+ 
+ 
+Domain:        
+Range:         
+ 
+𝑥𝑥 𝑦𝑦 
+  
+  
+  
+  
+  
+𝑥𝑥 𝑦𝑦 
+  
+  
+  
+  
+  
+𝑥𝑥 𝑦𝑦 
+  
+  
+  
+  
+  
+31
+
+--- PDF PAGE 35 (Book p. 33) ---
+Slope Intercept Form of a Line 
+𝑦 = 𝑚𝑥 + 𝑏 
+where 𝑚 is the slope of the line and (0, 𝑏) is the 𝑦-intercept 
+Section 2.1: Linear Equations in Two Variables  
+Example 1: Graph the following linear equation using a table. 2𝑥 + 3𝑦 = 6 
+ 
+ 
+ 
+ 
+       Now solve the equation for 𝒚. 
+       2𝑥 + 3𝑦 = 6 
+        
+   
+ 
+ 
+ 
+ 
+Use the graph to identify the following. 
+𝑥-intercept:      𝑦-intercept:    Slope: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 2: Identify the slope and 𝒚-intercept for the following. 
+ 
+A.          B.  2𝑥 − 𝑦 = 7 
+ 
+ 
+ 
+ 
+𝑥 𝑦 
+0  
+ 0 
+𝑦 = 1
+4 𝑥 − 6 
+32
+
+--- PDF PAGE 36 (Book p. 34) ---
+Definition of Intercepts 
+𝒙-intercept: Any point on a graph with a 𝑦-value of 0. 
+𝒚-intercept: Any point on a graph with an 𝑥-value of 0. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 3: Find the 𝑥 and 𝑦-intercepts algebraically for the following. Then re-write the equation 
+into slope-intercept form.  
+A.  5𝑥 + 2𝑦 = 6      
+𝑥-intercept        𝑦-intercept 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Slope-intercept form 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+33
+
+--- PDF PAGE 37 (Book p. 35) ---
+B.  4𝑥 − 5𝑦 = 10 
+𝑥-intercept        𝑦-intercept 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Slope-intercept form 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+34
+
+--- PDF PAGE 38 (Book p. 36) ---
+𝑦 = − 3
+2 𝑥 − 3 
+𝑦 = 2𝑥 
+C.       
+𝑥-intercept        𝑦-intercept 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Slope-intercept form 
+ 
+ 
+ 
+    
+D.      
+𝑥-intercept        𝑦-intercept 
+ 
+  
+ 
+ 
+ 
+Slope-intercept form 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+35
+
+--- PDF PAGE 39 (Book p. 37) ---
+Horizontal and Vertical Lines 
+E.   𝑦 = −2      
+𝑥-intercept        𝑦-intercept 
+ 
+  
+ 
+ 
+ 
+Slope-intercept form 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+F. 𝑥 = 3 
+𝑥-intercept        𝑦-intercept 
+ 
+  
+ 
+ 
+ 
+Note: Equations of vertical lines cannot be written in  
+slope-intercept form.  
+ 
+ 
+ 
+ 
+   
+36
+
+--- PDF PAGE 40 (Book p. 38) ---
+Slope Between Two Points on a Line 
+݁݌݋݈ܵ = ݉ = ݏ݅ݎ݁
+݊ݑݎ = ℎܿܽ݊𝑔𝑔݁ ݊݅ 𝑦𝑦
+ℎܿܽ݊𝑔𝑔݁ ݊݅ 𝑥𝑥 = 𝑦𝑦2 −𝑦𝑦 1
+𝑥𝑥2 −𝑥𝑥 1
+ 
+where (𝑥𝑥1, 𝑦𝑦1) and (𝑥𝑥2, 𝑦𝑦2) are two points on the line 
+ 
+ 
+ 
+ 
+൬4
+3 ,1
+3൰ , ൬−3
+5 ,7
+5൰ ൬1
+7 ,2
+5൰ , ൬−4
+5 ,2
+5൰ 
+Section 2.2: Slope of a Line  
+ 
+ 
+ 
+ 
+ 
+Example 1: Find the slope of the line that passes through the two given points. 
+A.  (2, 3), (5, 7)      B.  (3, −4),( −2, −8) 
+ 
+ 
+  
+ 
+ 
+ 
+C.  (3, 7), (3,−10)      D.  (−2, −5), (3,−5) 
+ 
+ 
+ 
+ 
+ 
+E.          F.   
+ 
+ 
+ 
+ 
+ 
+38
+
+--- PDF PAGE 41 (Book p. 39) ---
+Example 2: Find the slope of the line shown in the graph. 
+A.          B.     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C.          D.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+39
+
+--- PDF PAGE 42 (Book p. 40) ---
+Parallel and Perpendicular Lines 
+Two lines are said to be parallel if they have the same 
+slope (with different 𝑦𝑦-intercepts) 
+Two lines are said to be perpendicular if their slopes 
+are opposite reciprocals.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 3: Determine if the two lines are parallel, perpendicular, or neither.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 4: Determine if the two lines are parallel, perpendicular, or neither.  
+ 
+      𝑥𝑥 + 𝑦𝑦 =5  
+−2𝑥𝑥− 2𝑦𝑦 =7  
+ 
+ 
+ 
+ 
+ 
+ 
+Example 5: Determine if the two lines are parallel, perpendicular, or neither. 
+ 
+2𝑦𝑦 = 𝑥𝑥− 2 
+  𝑦𝑦 = −2𝑥𝑥− 4 
+ 
+ 
+ 
+40
+
+--- PDF PAGE 43 (Book p. 41) ---
+Point Slope Form of a Line 
+𝑦𝑦−𝑦𝑦 1 = ݉(−𝑥𝑥 1) 
+Where ݉ is the slope and (𝑥𝑥1, 𝑦𝑦1) is any point on the line 
+*Can be used to find the equation of any non-vertical line.
+݉ = −4
+3
+݉ = −4
+3
+Section 2.3: Finding the Equation of a Line 
+Example 1: Find the equation of the line with a 𝑦𝑦-intercept of (0, −3) and a slope of                     . 
+Example 2: Find the equation of the line with 𝑥𝑥-intercept of (−3,0) and a slope of                 . 
+Example 3: Find the equation of the line that contains the points (2,3) and (−6,1). 
+41
+
+--- PDF PAGE 44 (Book p. 42) ---
+Example 4: Find the equation of the line that contains the points (1,7) and (−3,7). 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 5: Find the equation of the line that contains the points (2, −8) and (2,1). 
+ 
+ 
+ 
+ 
+ 
+Example 6: Find the equation of the line containing the point (−1,3) and parallel to the line    
+                        2𝑥𝑥 + 𝑦𝑦 = 10. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 7: Find the equation of the line containing the point (2, −3) and perpendicular to the line   
+                        4𝑦𝑦−𝑥𝑥 = 20. 
+ 
+ 
+ 
+ 
+ 
+ 
+42
+
+--- PDF PAGE 45 (Book p. 43) ---
+݉ = −3
+5 
+݉ =3
+5 
+In Class Practice  
+1. Find the equation of the line with a 𝑦𝑦-intercept of (0,5) and a slope of         . 
+ 
+ 
+ 
+ 
+ 
+2. Find the equation of the line with 𝑥𝑥-intercept of (5,0) and a slope of                       . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Find the equation of the line that contains the points (−2, −3) and (6,1).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4. Find the equation of the line that contains the points (2, −9) and (2, −3). 
+ 
+ 
+ 
+ 
+43
+
+--- PDF PAGE 46 (Book p. 44) ---
+5. Find the equation of the line that contains the points (5, −2) and (4, −2).
+6. Find the equation of the line containing the point (2,1) and parallel to the line 3𝑥𝑥 −𝑦𝑦 =7 .
+7. Find the equation of the line containing the point (6,3) and perpendicular to the line
+2𝑦𝑦−𝑥𝑥 = 20.
+44
+
+--- PDF PAGE 47 (Book p. 45) ---
+Relation: Any set of ordered pairs 
+Input: First value in the ordered pair 
+Output: Second value in the ordered pair 
+Domain: The set of all input values 
+Range: The set of all output values 
+ 
+ 
+ 
+ 
+ 
+Section 2.4 Intro to Functions 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Example 1: For the following relation, determine the domain and range. 
+{(1, −1), (2,5), (3,10), (4,16), (2, −3)} 
+ 
+Domain:  
+ 
+Range: 
+ 
+ 
+Example 2: For the following graphs, determine the domain and range.  
+ 
+ 
+Domain:        Domain: 
+Range:         Range: 
+ 
+ 
+ 
+45
+
+--- PDF PAGE 48 (Book p. 46) ---
+A function is a relation that assigns each element in its domain to exactly one element in its range. 
+• One input value cannot correspond to two different output values.
+• However, one output value can correspond to multiple input values.
+Vertical Line Test 
+A set of points in a rectangular coordinate system is the graph of a function if every vertical line 
+intersects the graph in at most one point.  
+If any vertical line intersects the graph in more than one point, the graph does not represent a 
+function.  
+Example 3: Based off the definition of a function, determine if Example 1 and Example 2 are 
+functions. 
+Example 4: Determine if the graphs below represent a function. 
+46
+
+--- PDF PAGE 49 (Book p. 47) ---
+Function Notation 
+The graph of a function is the graph of all its ordered pairs (𝑥𝑥, 𝑦𝑦) or using function 
+notation, (𝑥𝑥, 𝑓𝑓(𝑥𝑥)) where 𝑦𝑦 = 𝑓𝑓(𝑥𝑥). 
+𝑓𝑓 name of function 
+𝑥𝑥 𝑥𝑥-coordinate of the ordered pair (input) 
+𝑓𝑓(𝑥𝑥) 𝑦𝑦-coordinate of the ordered pair (output) 
+Section 2.5 Function Notation 
+Example 1: Consider the linear equation 𝑦𝑦 =4 𝑥𝑥− 5. Find the value of 𝑦𝑦 when 𝑥𝑥 =2 . 
+Example 2: Consider the linear function 𝑓𝑓(𝑥𝑥)=4 𝑥𝑥− 5. Find 𝑓𝑓(2). 
+Function notation is useful in mathematics for several reasons. 
+• It guarantees that the relation in question is a function, which means each element of the
+domain corresponds to exactly one element of the range and that its graph passes the
+vertical line test.
+• It provides a useful naming mechanism when working with multiple functions.
+• It yields a convenient shorthand (as in Example 2 above) that shows how the output
+depends on the input.
+47
+
+--- PDF PAGE 50 (Book p. 48) ---
+Example 3: Let 𝑔𝑔(𝑥𝑥) = −2𝑥𝑥 +7  and ℎ(𝑥𝑥) =3 𝑥𝑥− 5. Evaluate each of the following. Use proper 
+notation with each step. 
+A. 𝑔𝑔(−1) B. ℎ(−1)
+C. ℎ(0) D. 𝑔𝑔(0)
+E. 𝑔𝑔 ቀ
+ହ
+2ቁ F. ℎ(ܽ)
+G. 𝑔𝑔(𝑥𝑥− 7) H. ℎ(݇ 1 )
+Example 4: Let 𝑓𝑓(𝑥𝑥) =5 𝑥𝑥 +3 . Solve the following for 𝑥𝑥. 
+A. 𝑓𝑓(𝑥𝑥) = 18 B. 𝑓𝑓(𝑥𝑥) = −8
+48
+
+--- PDF PAGE 51 (Book p. 49) ---
+Example 5: Use the graph of the function 𝑦𝑦 = ℎ(𝑥𝑥) below to answer each prompt. 
+A. ℎ(2) =_ _ _ _ _ _ _ _ _ _ _ 
+ 
+B. ℎ(𝑥𝑥) = −3; 𝑥𝑥 =_ _ _ _ _ _ _ _ _ _ _ 
+ 
+C. ℎ(4) =_ _ _ _ _ _ _ _ _ _ _ 
+ 
+D. ℎ(𝑥𝑥) = −2 when 𝑥𝑥 =_ _ _ _ _ _ _ 
+ 
+E.  𝑥𝑥-intercept: ___________  
+ 
+F. 𝑦𝑦-intercept: ___________ 
+ 
+G. slope: ___________ 
+ 
+ 
+In Class Practice: 
+ 
+1. Let 𝑓𝑓(𝑥𝑥) =2 𝑥𝑥− 8 and 𝑔𝑔(𝑥𝑥) = 𝑥𝑥− 9. Evaluate each of the following. Use proper notation with 
+each step. 
+A. 𝑔𝑔(−2) B. 𝑓𝑓(4) 
+ 
+ 
+ 
+ 
+C. 𝑔𝑔(0) D. 𝑔𝑔 ቀ
+1
+2ቁ  
+ 
+ 
+ 
+ 
+49
+
+--- PDF PAGE 52 (Book p. 50) ---
+2. Let 𝑓𝑓(𝑥𝑥) = 2𝑥𝑥− 8 and 𝑔𝑔(𝑥𝑥) = 𝑥𝑥− 9. Evaluate each of the following. Use proper notation with
+each step.
+A. 𝑓𝑓 ቀ−
+1
+2ቁ B. 𝑔𝑔(݇)
+C. 𝑓𝑓(𝑥𝑥 + 7) D. 𝑔𝑔(− 1)
+3. Let ݌(𝑥𝑥) 2 𝑥𝑥− 11. Solve the following for 𝑥𝑥.
+A. ݌(𝑥𝑥) = −15 B. ݌(𝑥𝑥) 3
+4. Use the graph of the function 𝑦𝑦 = 𝑓𝑓(𝑥𝑥) to the right to answer each prompt.
+A. 𝑓𝑓(2) =_ _ _ _ _ _ _ _ _ _ _
+B. 𝑓𝑓(𝑥𝑥) = −3 when 𝑥𝑥 =_ _ _ _ _ _ _
+C. 𝑓𝑓(1.5) =_ _ _ _ _ _ _ _ _ _ _
+D. 𝑓𝑓(𝑥𝑥) = −1; 𝑥𝑥 =_ _ _ _ _ _ _ _ _ _ _
+E. 𝑥𝑥-intercept: ___________
+F. 𝑦𝑦-intercept: ___________
+G. slope: ___________
+50
+
+--- PDF PAGE 53 (Book p. 51) ---
+݉ =𝑦𝑦2−𝑦𝑦1
+𝑥𝑥2 −𝑥𝑥 1
+ 
+Function Notation for Lines 
+𝑓𝑓(𝑥𝑥) = ݉𝑥𝑥 + ܾ 
+where ݉ is the slope of the line and (0, ܾ) is the 𝑦𝑦-intercept 
+• When creating a linear function (writing the equation of a non-vertical line) 
+Creating a Linear Function 
+• If both the slope and 𝑦𝑦-intercept are known: 
+· Directly substitute your ݉ and ܾ into 𝑓𝑓(𝑥𝑥) = ݉𝑥𝑥 + ܾ 
+• If both the slope and/or the 𝑦𝑦-intercept are unknown: 
+· If necessary, find the slope using the formula:  
+· Identify an ordered pair (𝑥𝑥1, 𝑦𝑦1). 
+· Use point-slope form 𝑦𝑦−𝑦𝑦 1 = ݉(−𝑥𝑥 1) with your slope and point.  
+Then solve for 𝑦𝑦. 
+· Since it is a function, replace your 𝑦𝑦 with 𝑓𝑓(𝑥𝑥). 
+ 
+ 
+ 
+Section 2.6 Linear Functions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 1: Graph the function 𝑓𝑓(𝑥𝑥) =2 𝑥𝑥− 4, and identify the following: 
+Slope: 
+𝑦𝑦-intercept: 
+𝑥𝑥-intercept:  
+Domain: 
+Range:  
+ 
+ 
+Example 2: Graph the function 𝑔𝑔(𝑥𝑥) = −𝑥𝑥 +4 , and identify the following: 
+Slope: 
+𝑦𝑦-intercept: 
+𝑥𝑥-intercept:  
+Domain: 
+Range:  
+ 
+ 
+ 
+51
+
+--- PDF PAGE 54 (Book p. 52) ---
+3
+4 
+1
+5 
+Example 3: Using the graph at the right answer the following questions. 
+Domain (in interval notation): 
+Range (in interval notation): 
+𝑓𝑓(−2) =_ _ _ _ _  
+When 𝑓𝑓(𝑥𝑥) = −4, 𝑥𝑥 =_ _ _ _ _ 
+ 
+Example 4: Find the equation of the linear function ℎ(𝑥𝑥) that has a slope of        and a 𝑦𝑦-intercept 
+at (0, −5). 
+ 
+ 
+ 
+Example 5: Find the equation of the linear function ݇(𝑥𝑥) that has a slope of      and passes through 
+the point (−5,0). 
+ 
+ 
+ 
+ 
+ 
+Example 6: Find the equation of the linear function 𝑓𝑓(𝑥𝑥) that passes through the points (2,3) and 
+(4,9). 
+ 
+ 
+ 
+ 
+ 
+Example 7: Find the equation of the linear function 𝑔𝑔(𝑥𝑥) that contains the points (7,9) and (−4,9). 
+ 
+ 
+ 
+52
+
+--- PDF PAGE 55 (Book p. 53) ---
+Section 2.7 Applications of Linear Functions 
+𝒇(𝒙) = 𝒎𝒙 + 𝒃 where 𝒎 is the slope (rate) and 𝒃 is the 𝒚-intercept (initial value) 
+First decide if you are given the rate and initial value or if you will need to create two data 
+points from the information given.  
+ 
+ 
+Example 1: Kim owns a ski rental business in Bozeman. His monthly fixed costs are $2450. This 
+includes his rent, utilities and supplies. Additionally, Kim has one worker whom he pays $15 per 
+hour. Write a linear function 𝐶(ℎ) that models Kim’s monthly cost in terms of ℎ, the number of 
+hours his employee works. 
+ 
+ 
+ 
+ 
+ 
+Find the monthly cost if Kim pays an employee to work 25 hours. 
+ 
+ 
+ 
+Example 2: You purchased your car in 2023 for $22,500. After researching that particular model 
+you learned that the car would depreciate linearly by $1500 per year. Write a function 𝑉(𝑡) that 
+gives the value of the car 𝑡 years after 2023.  
+ 
+ 
+ 
+ 
+53
+
+--- PDF PAGE 56 (Book p. 54) ---
+Example 3: Speaking of buying cars, did you know that a car salesperson earns commission on the 
+sale of a car? The week that you bought your car in 2023 the salesperson sold 3 cars and earned 
+$760 for the week. The week after that, they sold 5 cars and earned $920 for the week. Find a 
+linear function 𝐸(𝑥) that represents the amount of money earned in dollars when 𝑥 cars are sold 
+in a week.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 4: The systolic blood pressure in adults can be modeled using a linear function. Let 𝑥 
+represent the age of an adult in years and 𝑃(𝑥) represent the systolic blood pressure in 
+millimeters of mercury (mmHg). A 23 year old adult has a systolic blood pressure of 120 mmHg 
+whereas a 53 year old adult has a systolic blood pressure of 132 mmHg. Find the linear function 
+𝑃(𝑥).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+54
+
+--- PDF PAGE 57 (Book p. 55) ---
+Example 5: The relationship between elevation and the boiling point of water can be modeled 
+with a linear function. The boiling point of water at 0 ft elevation (think about that camping trip on 
+the beach) is 212℉. But, if you were to hike up to the “M” here in Bozeman where the elevation is 
+5700 ft, you will only need to reach a temperature of 200℉ for your water to boil. Write a linear 
+function 𝐵(𝑥) that represents the boiling point of water, in degrees Fahrenheit, in terms of your 
+elevation, 𝑥, in feet.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 6: In 2001 the volume in a grain bin is 45 tons. In 2025, there were only 15 tons 
+remaining. Create a linear model 𝑉(𝑡) that represents the volume of grain left in the bin, 𝑡 years 
+after 2000.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Determine when the grain bin will be empty.   
+55
+
+--- PDF PAGE 58 (Book p. 56) ---
+56
+
+--- PDF PAGE 59 (Book p. 57) ---
+ 
+ 
+Unit 3 
+ 
+ 
+ 
+57
+

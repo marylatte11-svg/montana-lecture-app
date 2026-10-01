@@ -40,3 +40,7 @@ session*_videos/
 
 .vercel
 archive/
+scratch/
+.env
+.env.*
+!.env.example
