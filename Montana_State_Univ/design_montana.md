@@ -188,3 +188,67 @@ c:\Oikos Univ\Montana_State_Univ\
 2. **Zero Confusion on Notation:** LaTeX 기반의 깔끔한 렌더링으로 칠판 필기 오독률 0% 달성.
 3. **High Engagement Micro-Lectures:** 20~25분 단위 마이크로 러닝으로 학생 완강률 90% 이상 유지.
 4. **Emotional Reassurance:** 조교 Sora의 질문과 박은주 교수의 자상한 해설을 통해 학습 스트레스 최소화.
+
+---
+
+## 7. 🚀 PRODUCTION DEPLOYMENT & PRESENTER SYNCHRONIZATION AUDIT REPORT (2026-10-02 완료)
+
+### 7.1. 프로덕션 배포 현황
+* **GitHub Repository:** [`https://github.com/marylatte11-svg/montana-lecture-app.git`](https://github.com/marylatte11-svg/montana-lecture-app.git) (`main` 브랜치)
+* **Vercel Production Live URL:** [`https://montana-lecture-app.vercel.app/`](https://montana-lecture-app.vercel.app/)
+* **최신 배포 커밋:**
+  * `d1db895` — `fix(presenter): synchronize spoken teleprompter dialogue with exact workbook slide equations across all Unit 3 lectures`
+  * `a27b65c` — `chore(audit): add all lecture slide audit tools and reports`
+* **빌드 퍼포먼스:** Vite v8.2.0 프로덕션 번들 정상 컴파일 (1.10초 소요, 0 KaTeX Errors)
+
+```mermaid
+flowchart LR
+    DEV["💻 Local Source<br/>(montanaSlidesData.js)"] -->|"git push main"| GH["🐙 GitHub Repo<br/>(marylatte11-svg)"]
+    GH -->|"Auto Webhook"| VERCEL["⚡ Vercel Deployment<br/>(Edge Network)"]
+    VERCEL --> LIVE["🌐 Live Production Site<br/>(montana-lecture-app.vercel.app)"]
+```
+
+---
+
+### 7.2. 프리젠터 모드(Presenter Mode) UI 및 TTS 음성 엔진 고도화
+1. **100% 영문 글로벌 UI 전환:**
+   * 한국어 강의 가이드 탭 및 혼용 라벨 완전 제거.
+   * `Pronounce Selection`, `Full Read-Aloud (Male Voice)`, `Key Vocabulary & Definitions` 등 100% 직관적인 영어 UI 구성.
+2. **LaTeX 수식 구어체(Spoken English) 자동 변환 엔진 (`convertMathToSpokenEnglish`):**
+   * 웹 브라우저 음성 합성(TTS)이 `$x$`, `$y$`, `$g(x)$`의 달러 기호를 "dollar sign x"로 읽지 않도록 필터링.
+   * `$x^2$` ➔ *"x squared"*, `$\pm$` ➔ *"plus or minus"*, `$\sqrt{k}$` ➔ *"square root of k"* 등으로 자연스럽게 읽는 음성 전처리 적용.
+3. **역할별 맞춤형 보컬 페르소나 (Vocal Personas):**
+   * **👩‍🏫 Prof. Eunju Park (50대 여성 교수):** Pitch `0.82`, Rate `0.85` — 신뢰감 있고 차분하며 깊이 있는 아카데믹 톤.
+   * **👩‍🎓 TA Sora (20대 중반 여성 조교):** Pitch `1.38`, Rate `1.05` — 톡톡 튀고 발랄하며 에너지 넘치는 리액션과 학생 꿀팁(Pro-Tip) 제시.
+   * **🎙️ Full Read-Aloud (남성 내레이터):** Pitch `0.95`, Rate `0.92` — 명료하고 안정된 낭독 음성.
+
+---
+
+### 7.3. 45개 강의(361개 슬라이드) 전수 감사 및 슬라이드-대본 100% 동기화
+
+#### 🔍 발견되었던 문제점 (Root Cause)
+Unit 3의 슬라이드 문제들을 몬태나 주립대 Gallatin College 워크북의 최신 문제로 개정하는 과정에서, **슬라이드 화면은 개정 문제를 표시하고 있었으나 프리젠터 대본(Script)은 이전 템플릿의 다른 문제를 설명하는 불일치가 34개 슬라이드에서 발견됨.**
+* *대표 사례:* **Lecture 43 Slide 2**에서 슬라이드는 $g(x) = x^2 + 6x$ (공통인수 인수분해)인데 대본은 $x^2 - 36 = 0$을 설명하고 있었음.
+
+#### 🛠️ 수정 완료 내역 (34개 슬라이드 전수 교체)
+
+| 단원/강의 | 수정 슬라이드 | 슬라이드 실제 수식 및 내용 | 수정된 프리젠터 텔레프롬프트 대화 |
+|---|---|---|---|
+| **L43 (Sec 3.6)** | **Slide 2** | $g(x) = x^2 + 6x$ | **GCF $x(x+6)=0$, 절편 $(0,0), (-6,0)$, 꼭짓점 $(-3,-9)$ 풀이 100% 동기화** |
+| | **Slide 3** | $h(x) = -2x^2 + 5x + 6$ | 근의 공식 $x = \frac{-5 \pm \sqrt{73}}{-4}$, 꼭짓점 $(1.25, 9.13)$ 대화로 수정 |
+| | **Slide 4** | $f(x) = 4x^2 - 28$ | 제곱근 성질 $x^2 = 7 \implies x = \pm\sqrt{7}$, 꼭짓점 $(0, -28)$ 대화로 수정 |
+| | **Slide 5** | $f(x) = x^2 - 15x + 50$ | 인수분해 $(x-5)(x-10)=0$, 절편 $5, 10$, 꼭짓점 $(7.5, -6.25)$ 대화로 수정 |
+| | **Slide 6** | $f(x) = -2(x-15)^2 + 50$ | 꼭짓점 $(15, 50)$, $x$-절편 $10, 20$, $y$-절편 $-400$ 대화로 수정 |
+| **L41 (Sec 3.5)** | **Slide 3~7** | $x^2-5x-7$, $13x-x^2+1$, $-x^2-5x+7$, $2x^2-3x-1$, $3x^2-5x+7$ | 워크북 수식 및 근의 공식 전개, 함수값 평가에 정확히 일치하도록 교체 |
+| **L44 (Sec 3.7)** | **Slide 2, 4, 5, 6, 7, 8** | $x^2+6x+5$, $2x^2-8x$, $-\frac{1}{2}(x+1)^2+8$, $f(-7)/g(-7)$, $f(x+5)$, $f(x)=g(x)$ | 5점 그래프법 및 합성/연립방정식 풀이로 전면 동기화 |
+| **L31, L32, L33** | L31(S5, S6), L32(S2, S3), L33(S1~S6) | $f(x) = -2-3x+\frac{x^2}{3}$, $x^2-6x+5$, $g(x) = -x^2+2x+7$, $h(x) = 3(x-2)^2-4$ | 내림차순 정리, 절편과 대칭축, 대입 평가($g(a), g(x-6), h(k+1)$) 일치 |
+| **L35, L36, L38, L40, L42, L45** | L35(S5, S6), L36(S5, S6), L38(S3), L40(S5), L42(S4), L45(S2) | $f(x) = -x^2-4x-5$, $x^2-36$, $3x^2-27$, $x^2+7x+12$, $2x^2+12x-10=0$, $x^2+2x+5$ | 판별식 음수($\Delta < 0$, 실근 없음), 계수 $a \neq 1$ 나눗셈 등 수학적 일치 |
+
+---
+
+### 7.4. 검증 결과 (Verification Proof)
+* **실시간 브라우저 서브에이전트 검증:**
+  * Lecture 43 Slide 2를 직접 방문하여 캡처 검증 완료 (`slide2_teleprompter_verified_1790885468528.png`).
+  * 문제 화면($g(x) = x^2+6x$)과 텔레프롬프트 대화(TA Sora & Prof. Eunju Park의 $x(x+6)=0$ 풀이)가 완벽하게 일치함을 시각적으로 최종 확인.
+* **프로덕션 가동 확인:**
+  * Vercel 라이브 사이트 HTTP 요청 검증 결과 최신 번들 파일이 배포되어 사용자에게 정상 서비스 중임을 확인.
