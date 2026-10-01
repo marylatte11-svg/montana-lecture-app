@@ -149,31 +149,32 @@ export default function PresenterMode({
 
   // Text-To-Speech Role Helper
   // - 'narrator': Male Voice (entire script read-through)
-  // - 'park': Late 50s Female (Prof. Eunju Park: mature, calm, authoritative)
-  // - 'sora': Early 30s Female (TA Sora: energetic, warm, friendly)
+  // - 'park': Late 50s Female (Prof. Eunju Park: mature, calm, authoritative, lower pitch)
+  // - 'sora': Mid 20s Female (TA Sora: lively, bouncy, youthful, upbeat, higher pitch)
   const getVoiceForRole = (role) => {
     if (!voices.length) return null;
     const englishVoices = voices.filter(v => v.lang.startsWith('en'));
     const pool = englishVoices.length > 0 ? englishVoices : voices;
 
+    const maleVoices = pool.filter(v => /david|guy|george|mark|christopher|eric|male/i.test(v.name));
+    const femaleVoices = pool.filter(v => !/david|guy|george|mark|christopher|eric|male/i.test(v.name));
+
     if (role === 'narrator') {
-      // Prioritize male voices
-      const maleVoice = pool.find(v => 
-        /david|guy|george|mark|christopher|eric|male/i.test(v.name)
-      );
-      return maleVoice || pool[0];
+      return maleVoices[0] || pool[0];
     } else if (role === 'park') {
-      // Prof. Park: 50s female voice
-      const femaleVoice = pool.find(v => 
-        /zira|susan|hazel|jenny|female/i.test(v.name)
-      );
-      return femaleVoice || pool.find(v => !/david|guy|george|mark|male/i.test(v.name)) || pool[0];
+      // 50s professor: deep, mature, calm tone (Zira, Susan, Hazel, Catherine, or 1st female)
+      const matureVoice = femaleVoices.find(v => /zira|susan|hazel|catherine|linda/i.test(v.name));
+      return matureVoice || femaleVoices[0] || pool[0];
     } else if (role === 'sora') {
-      // TA Sora: 30s female voice (energetic)
-      const brightFemale = pool.find(v => 
-        /aria|ava|samantha|victoria|jenny|female/i.test(v.name)
-      );
-      return brightFemale || pool.find(v => !/david|guy|george|mark|male/i.test(v.name)) || pool[0];
+      // Mid-20s TA: bubbly, energetic, youthful tone (Aria, Ava, Jenny, Samantha, Victoria)
+      const youngVoice = femaleVoices.find(v => /aria|ava|jenny|samantha|victoria|stephanie|karen/i.test(v.name));
+      if (youngVoice) return youngVoice;
+      
+      // If no explicit match, pick a DIFFERENT female voice from Prof. Park if available
+      if (femaleVoices.length > 1) {
+        return femaleVoices[femaleVoices.length - 1];
+      }
+      return femaleVoices[0] || pool[0];
     }
     return pool[0];
   };
@@ -203,11 +204,11 @@ export default function PresenterMode({
       utterance.pitch = 0.95; // Steady, composed male narrator
       utterance.rate = 0.92;
     } else if (role === 'park') {
-      utterance.pitch = 0.90; // Mature, dignified 50s female professor
-      utterance.rate = 0.88;
+      utterance.pitch = 0.82; // Mature, dignified 50s professor (calm, deep, authoritative)
+      utterance.rate = 0.85;  // Deliberate, clear, academic pacing
     } else if (role === 'sora') {
-      utterance.pitch = 1.15; // Bright, enthusiastic early 30s female TA
-      utterance.rate = 0.95;
+      utterance.pitch = 1.38; // Bouncy, bubbly mid-20s TA (톡톡 튀는 상큼하고 밝은 톤!)
+      utterance.rate = 1.05;  // Upbeat, enthusiastic, energetic rhythm
     } else {
       utterance.pitch = 1.0;
       utterance.rate = 0.90;
@@ -433,15 +434,15 @@ export default function PresenterMode({
                       {/* Speaker Badge */}
                       <div className="flex items-center justify-between mb-2">
                         {isPark && (
-                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40" title="50대 후반 여성 주임교수">
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40" title="50대 후반 여성 주임교수 • 차분하고 깊이 있는 학구적 톤">
                             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-                            👩‍🏫 Prof. Eunju Park (50대 후반 여성 교수)
+                            👩‍🏫 Prof. Eunju Park (50대 여성 교수 • 차분한 톤)
                           </span>
                         )}
                         {isSora && (
-                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40" title="30대 초반 여성 수석조교">
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40" title="20대 중반 여성 수석조교 • 상큼하고 톡톡 튀는 발랄한 톤">
                             <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-                            👩‍🎓 TA Sora (30대 초반 여성 조교)
+                            👩‍🎓 TA Sora (20대 조교 • 톡톡 튀는 톤)
                           </span>
                         )}
                         {isPeter && (
@@ -469,11 +470,11 @@ export default function PresenterMode({
                         <button
                           onClick={() => speakText(cleanText || paragraph, currentRole)}
                           className="opacity-60 group-hover:opacity-100 p-1 text-slate-300 hover:text-white transition rounded bg-slate-800/80 hover:bg-slate-700 flex items-center gap-1 text-[10px]"
-                          title={`${isPark ? '박교수 (50대 여성)' : isSora ? 'Sora 조교 (30대 여성)' : '남성 내레이터'} 음성으로 듣기`}
+                          title={`${isPark ? '박교수 (50대 차분한 여성)' : isSora ? 'Sora 조교 (20대 톡톡 튀는 여성)' : '남성 내레이터'} 음성으로 듣기`}
                         >
                           <Volume2 className="w-3.5 h-3.5" />
                           <span className="hidden group-hover:inline text-[9px] text-slate-300">
-                            {isPark ? '50대 여성' : isSora ? '30대 여성' : '남성'}
+                            {isPark ? '50대 차분한 톤' : isSora ? '20대 톡톡 튀는 톤' : '남성'}
                           </span>
                         </button>
                       </div>
