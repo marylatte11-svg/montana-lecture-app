@@ -252,3 +252,27 @@ Unit 3의 슬라이드 문제들을 몬태나 주립대 Gallatin College 워크�
   * 문제 화면($g(x) = x^2+6x$)과 텔레프롬프트 대화(TA Sora & Prof. Eunju Park의 $x(x+6)=0$ 풀이)가 완벽하게 일치함을 시각적으로 최종 확인.
 * **프로덕션 가동 확인:**
   * Vercel 라이브 사이트 HTTP 요청 검증 결과 최신 번들 파일이 배포되어 사용자에게 정상 서비스 중임을 확인.
+
+---
+
+## 8. 🎬 RECORDLY MOTION VIDEO ENGINE & 2026-10-03 MASTER REVISIONS (최신 개편 완료)
+> **종합 보고서 원문:** [MASTER_REVISION_SUMMARY_20261003.md](file:///c:/Oikos%20Univ/Montana_State_Univ/MASTER_REVISION_SUMMARY_20261003.md)  
+> **비디오 연출 보고서:** [RECORDLY_VIDEO_ENGINE_REVISION_REPORT.md](file:///c:/Oikos%20Univ/Montana_State_Univ/RECORDLY_VIDEO_ENGINE_REVISION_REPORT.md)  
+> **슬라이드-대본 조화원칙:** [SLIDE_SCRIPT_HARMONY_PRINCIPLES.md](file:///c:/Oikos%20Univ/Montana_State_Univ/SLIDE_SCRIPT_HARMONY_PRINCIPLES.md)
+
+### 8.1. 4대 핵심 아키텍처 개선
+1. **문제 문항 카드 2줄 분리 배치 (가로 스크롤 및 잘림 완벽 해결):**
+   - 1행(문제 설명 텍스트) + 2행(독립 디스플레이 수식 `$$\mathbf{...}$$`) 분리로 가로 폭 초과 및 청록색 스크롤바 생성 문제를 근본적으로 해결.
+2. **슬라이드-대본-음성 3위 1체 정합성 복원:**
+   - Slide 2 번분수 오류($\frac{3/4}{5/8} \to \mathbf{\frac{5/8}{3/4} = \frac{5}{6}}$) 교정.
+   - Slide 3, 4, 6 및 후속 슬라이드 대본을 워크북 원문($16-\frac{3}{4}+9=\frac{97}{4}$, $\frac{(16)(3)}{(9)(4)}=\frac{4}{3}$, $24\div4\cdot2=12$)으로 전수 동기화.
+3. **수식 기호 무결성 복원:**
+   - 근호(`√`) 및 복부호(`±`)가 자막 정규식에서 탈락되어 `$16=4$` 등으로 왜곡되던 현상을 원천 방지하는 특수 기호 보호 레이어 구축.
+4. **조교 Sora 20대 보컬 페르소나 복원:**
+   - `en-US-AriaNeural` (Pitch `+2Hz`, Rate `+4%`) 적용으로 상큼하고 발랄한 20대 대학생 멘토 보이스 확립.
+
+### 8.2. 고화질 1080p 60fps 마스터 비디오 완성 현황
+* **Lecture 01:** [MSU_M090_Lecture01_Full_Master.mp4](file:///c:/Oikos%20Univ/Montana_State_Univ/recordly_videos/Lecture01/MSU_M090_Lecture01_Full_Master.mp4) (10개 슬라이드 전편, 11분 3초, 83.21 MB)
+* **Lecture 02:** [MSU_M090_Lecture02_Full_Master.mp4](file:///c:/Oikos%20Univ/Montana_State_Univ/recordly_videos/Lecture02/MSU_M090_Lecture02_Full_Master.mp4) (10개 슬라이드 전편, 13분 56초, 109.82 MB)
+* **Lecture 36:** [MSU_M090_Lecture36_Full_Master.mp4](file:///c:/Oikos%20Univ/Montana_State_Univ/recordly_videos/Lecture36/MSU_M090_Lecture36_Full_Master.mp4) (8개 슬라이드 전편, 14분 59초, 96.28 MB)
+
