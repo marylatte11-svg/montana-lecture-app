@@ -25,6 +25,10 @@ export default function MathSlide({ slideData }) {
 
   const activeGraph = graph || coordinate;
 
+  const searchParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
+  const activeTurnParam = searchParams ? searchParams.get('activeTurn') : null;
+  const activeTurn = activeTurnParam !== null ? parseInt(activeTurnParam, 10) : null;
+
   const isConceptSlide = !solution || slideTypeLabel.toLowerCase().includes('concept') || slideTypeLabel.toLowerCase().includes('definition');
   const problemCardLabel = isConceptSlide ? 'Concept Focus & Definitions' : 'Problem Statement';
   const isWorkbookMatch = (subtitle && subtitle.toLowerCase().includes('workbook')) || (slideTypeLabel && slideTypeLabel.toLowerCase().includes('workbook'));
@@ -168,29 +172,39 @@ export default function MathSlide({ slideData }) {
                       <MathRenderer content={solution} />
                     </div>
                   ) : script ? (
-                    <div className="space-y-3.5">
-                      <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-1.5 mb-2">
+                    <div className="space-y-2.5">
+                      <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-1.5 mb-1.5">
                         <MessageSquare className="w-3.5 h-3.5 text-amber-400" />
                         Instructor Dialogue Highlights:
                       </div>
-                      {script.split(/\n\n+|\n(?=\[(?:Prof|TA)|(?:Prof\.|TA\s)[\w\s]+:)/).slice(0, 6).map((para, pIdx) => {
+                      {script.split(/\n\n+|\n(?=\[(?:Prof|TA)|(?:Prof\.|TA\s)[\w\s]+:)/).map((para, pIdx) => {
                         const trimmed = para.trim();
                         if (!trimmed) return null;
                         const isProf = trimmed.startsWith('[Prof. Park]') || trimmed.startsWith('Prof. Park:');
                         const isSora = trimmed.startsWith('[TA Sora]') || trimmed.startsWith('TA Sora:');
                         const cleanText = trimmed.replace(/^(\[(Prof\.\s*Park|TA\s*Sora)\]|(Prof\.\s*Park|TA\s*Sora):)\s*/i, '');
+                        const isActive = activeTurn !== null && activeTurn === pIdx;
+                        const isDimmed = activeTurn !== null && activeTurn !== pIdx;
+
                         return (
                           <div
                             key={pIdx}
-                            className={`p-4 rounded-xl border text-sm md:text-base leading-relaxed ${
-                              isProf
+                            id={`dialogue-turn-${pIdx}`}
+                            className={`p-2.5 px-3 rounded-xl border text-xs md:text-sm leading-snug transition-all duration-300 ${
+                              isActive
+                                ? isProf
+                                  ? 'bg-blue-900/90 border-blue-400 text-white shadow-xl shadow-blue-500/50 scale-[1.02] ring-2 ring-blue-400'
+                                  : 'bg-amber-900/90 border-amber-400 text-white shadow-xl shadow-amber-500/50 scale-[1.02] ring-2 ring-amber-400'
+                                : isDimmed
+                                ? 'opacity-35 border-slate-800/80 bg-slate-900/30 text-slate-400 scale-[0.99]'
+                                : isProf
                                 ? 'bg-blue-950/40 border-blue-500/30 text-blue-50 shadow-sm'
                                 : isSora
                                 ? 'bg-amber-950/30 border-amber-500/30 text-amber-50 shadow-sm'
                                 : 'bg-slate-800/50 border-slate-700 text-slate-200'
                             }`}
                           >
-                            <div className="flex items-center gap-2 mb-1.5">
+                            <div className="flex items-center gap-2 mb-1">
                               <span
                                 className={`text-[10px] font-extrabold uppercase px-2 py-0.5 rounded ${
                                   isProf

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recordly Studio Stage</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      user-select: none;
+    }
+    body, html {
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #090b10;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    /* Studio Wallpaper & Ambient Canvas */
+    .studio-canvas {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      background: radial-gradient(circle at 50% 30%, #1e2640 0%, #0d111a 60%, #06080d 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    /* Ambient Glow Effects */
+    .ambient-glow-1 {
+      position: absolute;
+      width: 800px;
+      height: 800px;
+      top: -200px;
+      left: 100px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, transparent 70%);
+      filter: blur(80px);
+      pointer-events: none;
+    }
+    .ambient-glow-2 {
+      position: absolute;
+      width: 900px;
+      height: 900px;
+      bottom: -300px;
+      right: 150px;
+      background: radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, transparent 70%);
+      filter: blur(90px);
+      pointer-events: none;
+    }
+
+    /* Studio Window Frame (Screen Studio style) */
+    .studio-window {
+      width: 1760px;
+      height: 980px;
+      background: #0f172a;
+      border-radius: 18px;
+      box-shadow: 
+        0 35px 80px -15px rgba(0, 0, 0, 0.85),
+        0 0 0 1px rgba(255, 255, 255, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* Window Titlebar (macOS / Modern Studio style) */
+    .window-titlebar {
+      height: 38px;
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      padding: 0 18px;
+      position: relative;
+      z-index: 20;
+    }
+
+    .traffic-lights {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .traffic-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.3);
+    }
+    .dot-close { background: #ff5f56; border: 1px solid #e0443e; }
+    .dot-minimize { background: #ffbd2e; border: 1px solid #dea123; }
+    .dot-maximize { background: #27c93f; border: 1px solid #1aab29; }
+
+    .window-title {
+      flex: 1;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 500;
+      color: #94a3b8;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .title-badge {
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: #38bdf8;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    /* Slide Viewport with Recordly Auto-Zoom Camera Transform */
+    .slide-viewport {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+      background: #090d16;
+    }
+
+    .camera-rig {
+      width: 100%;
+      height: 100%;
+      transform-origin: 50% 50%;
+      transition: transform 0.9s cubic-bezier(0.2, 0.8, 0.2, 1);
+      will-change: transform;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .slide-content-frame {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Smooth Mouse Cursor & Spotlight Trail */
+    .studio-cursor {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      top: 0;
+      left: 0;
+      transform: translate(500px, 400px);
+      transition: transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+      z-index: 50;
+      pointer-events: none;
+      filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.6));
+    }
+
+    .cursor-icon {
+      width: 28px;
+      height: 28px;
+    }
+
+    /* Ripple Click Effect */
+    .click-ripple {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 3px solid rgba(56, 189, 248, 0.8);
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.3) 0%, transparent 70%);
+      top: -14px;
+      left: -14px;
+      transform: scale(0);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .click-ripple.animate {
+      animation: rippleEffect 0.75s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+    }
+
+    @keyframes rippleEffect {
+      0% { transform: scale(0.2); opacity: 1; }
+      50% { opacity: 0.8; }
+      100% { transform: scale(2.2); opacity: 0; }
+    }
+
+    /* Presenter Avatar Bubble (Screen Studio / Recordly Style) */
+    .presenter-bubble {
+      position: absolute;
+      bottom: 22px;
+      right: 28px;
+      width: 220px;
+      height: 82px;
+      background: rgba(15, 23, 42, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+      border-radius: 41px 20px 20px 41px;
+      display: flex;
+      align-items: center;
+      padding: 6px 14px 6px 6px;
+      gap: 12px;
+      z-index: 60;
+      transition: all 0.4s ease;
+    }
+
+    .avatar-wrapper {
+      position: relative;
+      width: 68px;
+      height: 68px;
+      flex-shrink: 0;
+    }
+
+    .avatar-img {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      position: relative;
+      z-index: 5;
+    }
+
+    /* Pulsing Audio Ring when Speaking */
+    .sound-pulse-ring {
+      position: absolute;
+      top: -4px;
+      left: -4px;
+      right: -4px;
+      bottom: -4px;
+      border-radius: 50%;
+      border: 2px solid #38bdf8;
+      opacity: 0;
+      transform: scale(0.9);
+      transition: all 0.3s ease;
+      z-index: 2;
+    }
+
+    .presenter-bubble.speaking .sound-pulse-ring {
+      animation: pulseWave 1.4s infinite ease-out;
+    }
+
+    @keyframes pulseWave {
+      0% { transform: scale(0.95); opacity: 0.9; }
+      50% { transform: scale(1.18); opacity: 0.4; }
+      100% { transform: scale(1.35); opacity: 0; }
+    }
+
+    .presenter-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .presenter-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #f8fafc;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      letter-spacing: 0.2px;
+    }
+
+    .presenter-role {
+      font-size: 11px;
+      color: #94a3b8;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 2px;
+    }
+
+    .speaking-indicator {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 10px #10b981;
+      display: inline-block;
+    }
+
+    .presenter-bubble.silent .speaking-indicator {
+      background: #64748b;
+      box-shadow: none;
+    }
+
+    /* Glassmorphism Subtitle Floating Bar */
+    .subtitle-dock {
+      position: absolute;
+      bottom: 22px;
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 1200px;
+      min-width: 580px;
+      background: rgba(15, 23, 42, 0.92);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.75);
+      border-radius: 16px;
+      padding: 12px 24px;
+      text-align: center;
+      z-index: 55;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .subtitle-speaker-tag {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.12);
+      padding: 2px 10px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    .subtitle-text {
+      font-size: 19px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 1.4;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="studio-canvas">
+    <div class="ambient-glow-1"></div>
+    <div class="ambient-glow-2"></div>
+
+    <!-- Recordly Studio Window Frame -->
+    <div class="studio-window">
+      <div class="window-titlebar">
+        <div class="traffic-lights">
+          <div class="traffic-dot dot-close"></div>
+          <div class="traffic-dot dot-minimize"></div>
+          <div class="traffic-dot dot-maximize"></div>
+        </div>
+        <div class="window-title" id="windowTitle">
+          <span class="title-badge" id="lectureBadge">OIKOS UNIV</span>
+          <span id="slideTitle">Lecture Presentation</span>
+        </div>
+      </div>
+
+      <!-- Slide Viewport with Auto-Zoom Camera Rig -->
+      <div class="slide-viewport" id="slideViewport">
+        <div class="camera-rig" id="cameraRig">
+          <img id="slideImg" class="slide-content-frame" src="" alt="Slide View">
+        </div>
+
+        <!-- Animated Mouse Cursor -->
+        <div class="studio-cursor" id="studioCursor">
+          <svg class="cursor-icon" viewBox="0 0 24 24" fill="none">
+            <path d="M4 3L11.5 21L14.5 13.5L22 10.5L4 3Z" fill="#FFFFFF" stroke="#000000" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+          <div class="click-ripple" id="clickRipple"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Presenter Avatar Bubble -->
+    <div class="presenter-bubble speaking" id="presenterBubble">
+      <div class="avatar-wrapper">
+        <div class="sound-pulse-ring" id="pulseRing"></div>
+        <img class="avatar-img" id="avatarImg" src="" alt="Speaker">
+      </div>
+      <div class="presenter-info">
+        <div class="presenter-name" id="presenterName">Prof. Peter Kim</div>
+        <div class="presenter-role">
+          <span class="speaking-indicator" id="speakingIndicator"></span>
+          <span id="presenterRole">Lead Instructor</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Glassmorphic Subtitle Bar -->
+    <div class="subtitle-dock" id="subtitleDock">
+      <span class="subtitle-speaker-tag" id="subSpeaker">Prof. Peter Kim</span>
+      <div class="subtitle-text" id="subText">Welcome to the lecture.</div>
+    </div>
+  </div>
+
+  <script>
+    // Timeline Controller & Motion Engine
+    window.RecordlyEngine = {
+      timeline: [],
+      startTime: null,
+      running: false,
+
+      init: function(config) {
+        document.getElementById('slideImg').src = config.slideImage;
+        document.getElementById('lectureBadge').textContent = config.badge || 'LECTURE';
+        document.getElementById('slideTitle').textContent = config.title || 'Slide';
+        this.timeline = config.timeline || [];
+        this.presenters = config.presenters || {};
+      },
+
+      setCamera: function(scale, panX = 0, panY = 0) {
+        const rig = document.getElementById('cameraRig');
+        rig.style.transformOrigin = "50% 50%";
+        // Support percentage strings or pixel numbers
+        const tx = typeof panX === 'number' ? `${panX}px` : panX;
+        const ty = typeof panY === 'number' ? `${panY}px` : panY;
+        rig.style.transform = `scale(${scale}) translate(${tx}, ${ty})`;
+      },
+
+      setCursor: function(x, y, click = false) {
+        const cursor = document.getElementById('studioCursor');
+        cursor.style.transform = `translate(${x}px, ${y}px)`;
+        if (click) {
+          const ripple = document.getElementById('clickRipple');
+          ripple.classList.remove('animate');
+          void ripple.offsetWidth; // reflow
+          ripple.classList.add('animate');
+        }
+      },
+
+      setSpeaker: function(speakerKey, isSpeaking = true) {
+        const p = this.presenters[speakerKey] || {
+          name: speakerKey,
+          role: "Speaker",
+          avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150"
+        };
+        const bubble = document.getElementById('presenterBubble');
+        document.getElementById('avatarImg').src = p.avatar;
+        document.getElementById('presenterName').textContent = p.name;
+        document.getElementById('presenterRole').textContent = p.role;
+        document.getElementById('subSpeaker').textContent = p.name;
+
+        if (isSpeaking) {
+          bubble.classList.remove('silent');
+          bubble.classList.add('speaking');
+        } else {
+          bubble.classList.remove('speaking');
+          bubble.classList.add('silent');
+        }
+      },
+
+      setSubtitle: function(text) {
+        document.getElementById('subText').textContent = text;
+      },
+
+      startTimeline: function() {
+        this.running = true;
+        this.startTime = performance.now();
+        const self = this;
+        let eventIdx = 0;
+
+        function tick() {
+          if (!self.running) return;
+          const elapsed = performance.now() - self.startTime;
+
+          while (eventIdx < self.timeline.length && elapsed >= self.timeline[eventIdx].t) {
+            const ev = self.timeline[eventIdx];
+            if (ev.type === 'camera') {
+              self.setCamera(ev.scale, ev.panX || 0, ev.panY || 0);
+            } else if (ev.type === 'cursor') {
+              self.setCursor(ev.x, ev.y, ev.click);
+            } else if (ev.type === 'speaker') {
+              self.setSpeaker(ev.speaker, ev.isSpeaking);
+            } else if (ev.type === 'subtitle') {
+              self.setSubtitle(ev.text);
+            } else if (ev.type === 'slideImage') {
+              const img = document.getElementById('slideImg');
+              if (img && ev.src && img.src !== ev.src) {
+                img.src = ev.src;
+              }
+            }
+            eventIdx++;
+          }
+
+          if (eventIdx < self.timeline.length) {
+            requestAnimationFrame(tick);
+          } else {
+            console.log('Recordly Timeline Completed');
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+    };
+  </script>
+</body>
+</html>

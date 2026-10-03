@@ -1,0 +1,419 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Finding x-Intercepts of Quadratic Functions",
+    "subtitle": "Unit 3 • Lecture 36 • Section 3.2 (Workbook p. 67)",
+    "detail": "Lecture 36: The Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Goal of Solving Quadratic Equations (Workbook p. 67)\nTo find the **$x$-intercepts** of any function $f(x)$, we set the output to zero:\n$$\\mathbf{f(x) = 0 \\implies ax^2 + bx + c = 0}$$\n- The real solutions to this equation are the **$x$-intercepts** $(x_1, 0)$ and $(x_2, 0)$ of the parabola.\n- When the linear term is missing ($b = 0$), the equation looks like **$x^2 = k$**.\n- This leads directly to our first algebraic method: **The Square Root Property**!",
+    "solution": "$$\\begin{aligned}\n\\text{To find } y\\text{-intercept: } & \\text{Evaluate } f(0) = c \\implies (0, c) \\\\\n\\text{To find } x\\text{-intercepts: } & \\text{Solve } f(x) = 0 \\implies (x_1, 0), \\; (x_2, 0)\n\\end{aligned}$$",
+    "pitfall": "**Never confuse the two intercepts:** $y$-intercept is found by plugging in $0$ for $x$. $x$-intercepts are found by setting $f(x) = 0$ and solving for $x$!",
+    "script": "[Prof. Park] Welcome back to M090, Bobcats! I'm Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we start Section 3.2 on page 75 of your workbook: Finding the $x$-intercepts of Quadratic Functions.\n\n[TA Sora] Hello everyone! In Section 3.0 and 3.1, we focused heavily on the Vertex—the highest peak or lowest valley of the parabola. But now, we turn our attention to the ground level: the $x$-intercepts, also known as the roots or zeros of the function!\n\n[Prof. Park] Think about why $x$-intercepts are so important in real life. If you launch a water rocket in a Bozeman city park, the vertex tells you how high it flew, but the $x$-intercepts tell you where it launched and where it landed! If you run a business, the $x$-intercepts represent your Break-Even Points—where your profit is exactly zero ($P(x) = 0$).\n\n[TA Sora] And algebraically, the definition of an $x$-intercept is where the output $y$ or $f(x)$ equals zero. That means every single $x$-intercept problem requires us to solve a Quadratic Equation: $ax^2 + bx + c = 0$!\n\n[Prof. Park] In this unit, we will learn four distinct methods to solve quadratic equations: the Square Root Property, Factoring, Completing the Square, and the Quadratic Formula. \n\n[TA Sora] And Section 3.2 introduces the fastest and most direct of all four methods: the Square Root Property (SRP)! \n\n[Prof. Park] When can we use the Square Root Property? We use it whenever the variable is isolated inside a squared term, with no independent linear $x$ term floating around outside!\n\n[TA Sora] Open your workbook to page 75. Let's inspect the theoretical foundation of the Square Root Property on Slide 2!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Formal Mathematical Rule",
+    "title": "The Square Root Property (SRP)",
+    "subtitle": "Unit 3 • Lecture 36 • Section 3.2 (Workbook p. 67)",
+    "detail": "Lecture 36: The Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Square Root Property (Workbook p. 67)\n- **If $k > 0$ and $x^2 = k$, then:**\n  $$\\mathbf{x = \\pm \\sqrt{k}}$$\n  *(Two real solutions: $+\\sqrt{k}$ and $-\\sqrt{k}$)*\n- **If $x^2 = 0$, then:**\n  $$\\mathbf{x = 0}$$\n  *(One real solution)*\n- **If $k < 0$ and $x^2 = k$, then:**\n  $$\\mathbf{\\text{No Real Solutions}}$$\n  *(The parabola does not cross the $x$-axis!)*",
+    "solution": "$$\\begin{aligned}\nx^2 = 9 & \\implies x = \\pm \\sqrt{9} = \\mathbf{\\pm 3} \\quad \\implies x = 3 \\text{ or } x = -3 \\\\\nx^2 = -9 & \\implies x = \\pm \\sqrt{-9} \\implies \\mathbf{\\text{No real number solution}}\n\\end{aligned}$$",
+    "pitfall": "**The Plus-or-Minus Sign is MANDATORY:** When you take the square root of both sides to solve an equation, you MUST write $\\pm$! Writing only $x = 3$ misses half of the answers!",
+    "script": "[Prof. Park] Slide 2 defines the Square Root Property (SRP): If $X^2 = k$, where $k$ is a real number, then $X = \\pm \\sqrt{k}$. Sora, notice that tiny symbol: $\\pm$, read as 'plus or minus.' Why is that the #1 trap in this entire section?\n\n[TA Sora] That 'plus or minus' symbol is where 80% of student mistakes occur! When people see $x^2 = 16$, their brain automatically thinks 4 because $4 \\times 4 = 16$. But they forget that negative numbers exist! $(-4) \\times (-4)$ also equals positive 16!\n\n[Prof. Park] Exactly! Both $+4$ and $-4$, when squared, produce positive 16. If you forget the $\\pm$ sign, you lose half your solutions and erase half of your parabola's roots!\n\n[TA Sora] Here is Sora's Rule: 'Whenever YOU physically write a square root symbol across an equals sign to solve an equation, you MUST immediately write a $\\pm$ in front of it!' The square root operation itself gives the principal (positive) root, but the equation demands BOTH signs!\n\n[Prof. Park] Now let's consider the number $k$ on the right side: First, if $k > 0$ (positive), there are two distinct real solutions: $X = +\\sqrt{k}$ and $X = -\\sqrt{k}$.\n\n[TA Sora] Second, if $k = 0$, there is exactly ONE real solution: $X = \\pm \\sqrt{0} = 0$. That corresponds to a parabola whose vertex is tangent to the $x$-axis!\n\n[Prof. Park] And third, what if $k < 0$ (negative)? If $x^2 = -9$, there is NO real number that squares to give a negative number! That means the equation has NO real solutions, and the parabola never crosses the $x$-axis!\n\n[TA Sora] Three clear cases: $k > 0$ gives two real roots; $k = 0$ gives one real root; $k < 0$ gives zero real roots. Keep that $\\pm$ firmly in place as we work through Example 1 on Slide 3!"
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.2 Example 1: Solving x^2 = 16",
+    "subtitle": "Unit 3 • Lecture 36 • Section 3.2 Example 1 (Workbook p. 67)",
+    "detail": "Lecture 36: The Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 (Workbook p. 67)\nSolve the equation for $x$:\n$$\\mathbf{x^2 = 16}$$\n- Apply the Square Root Property.\n- State both solutions and check them.",
+    "solution": "$$\\begin{aligned}\nx^2 & = 16 \\\\[0.5em]\nx & = \\pm \\sqrt{16} \\\\[0.5em]\n\\mathbf{x} & = \\mathbf{\\pm 4} \\quad \\implies \\quad \\mathbf{x = 4 \\quad \\text{or} \\quad x = -4} \\\\[0.8em]\n\\text{Check: } & (4)^2 = 16 \\; (\\text{True}), \\quad (-4)^2 = 16 \\; (\\text{True})\n\\end{aligned}$$",
+    "pitfall": "**Don't forget the negative root:** $-4$ is just as valid as $+4$. Both satisfy the equation perfectly.",
+    "script": "[Prof. Park] On Slide 3, we look at Section 3.2 Example 1 on page 75: Solve the equation $x^2 = 16$. Sora, this is the foundational textbook example.\n\n[TA Sora] Let's follow our protocol step-by-step. Step 1: The squared term $x^2$ is already completely isolated on the left side, and the number 16 is on the right side. \n\n[Prof. Park] Step 2: Apply the Square Root Property: take the square root of both sides, and instantly place a $\\pm$ on the right side: $x = \\pm \\sqrt{16}$.\n\n[TA Sora] Step 3: Simplify the radical! 16 is a perfect square because $4^2 = 16$. So $\\sqrt{16} = 4$. That gives us $x = \\pm 4$, which means $x = 4$ or $x = -4$!\n\n[Prof. Park] Step 4: Always check your answers by substituting them back into the original equation! For $x = 4$: $(4)^2 = 16$ (True). For $x = -4$: $(-4)^2 = 16$ (True). Both answers check out with 100% certainty!\n\n[TA Sora] Now let's connect this to the graph of $f(x) = x^2 - 16$. If you set $f(x) = 0$, you get $x^2 - 16 = 0$, which is $x^2 = 16$. The two solutions $x = 4$ and $x = -4$ are the two $x$-intercepts on the coordinate grid: $(-4, 0)$ and $(4, 0)$!\n\n[Prof. Park] Notice how the two roots sit at equal distances from the $y$-axis: 4 units to the left, and 4 units to the right. That perfect balance is reflected in the $\\pm$ symbol!\n\n[TA Sora] In set notation, write your solution set as $\\{-4, 4\\}$. Two real solutions, completely verified!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -2,
+      "yMax": 20,
+      "title": "Example 1: Intersections of y = x^2 and y = 16 at x = ±4",
+      "points": [
+        {
+          "x": -4,
+          "y": 16,
+          "label": "(-4, 16)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 4,
+          "y": 16,
+          "label": "(4, 16)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = x^2"
+        }
+      ],
+      "lines": [
+        {
+          "horizontal": 16,
+          "color": "#f59e0b",
+          "strokeWidth": 2,
+          "dashed": true,
+          "label": "y = 16"
+        }
+      ]
+    },
+    "coordinate": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 25,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 4,
+          "y": 16,
+          "color": "#ff6b6b",
+          "label": "(4,16)"
+        },
+        {
+          "x": -4,
+          "y": 16,
+          "color": "#ff6b6b",
+          "label": "(-4,16)"
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "color": "#ffd700",
+          "label": "V(0,0)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.2 Example 2: Solving 2x^2 + 2 = 10",
+    "subtitle": "Unit 3 • Lecture 36 • Section 3.2 Example 2 (Workbook p. 67)",
+    "detail": "Lecture 36: The Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 (Workbook p. 67)\nSolve the equation for $x$:\n$$\\mathbf{2x^2 + 2 = 10}$$\n- Isolate the $x^2$ term first.\n- Divide by the coefficient of $x^2$.\n- Apply the Square Root Property.",
+    "solution": "$$\\begin{aligned}\n2x^2 + 2 & = 10 \\\\[0.5em]\n2x^2 & = 8 \\quad (\\text{subtract } 2) \\\\[0.5em]\nx^2 & = 4 \\quad (\\text{divide by } 2) \\\\[0.5em]\nx & = \\pm \\sqrt{4} \\\\[0.5em]\n\\mathbf{x} & = \\mathbf{\\pm 2} \\quad \\implies \\quad \\mathbf{x = 2 \\quad \\text{or} \\quad x = -2}\n\\end{aligned}$$",
+    "pitfall": "**Isolate x^2 FIRST:** Do NOT take the square root of $2x^2 + 2$ directly! You must isolate $x^2$ alone before taking square roots!",
+    "script": "[Prof. Park] Slide 4 brings us to Example 2: Solve the equation $2x^2 + 2 = 10$. Sora, here the squared term $x^2$ is not by itself yet. What is our first priority?\n\n[TA Sora] Our golden rule before applying the Square Root Property is: 'Isolate the squared term completely before taking any square roots!' You cannot take the square root while there are other numbers added to or multiplying $x^2$!\n\n[Prof. Park] Let's peel away the numbers around $x^2$ using reverse order of operations. First, subtract 2 from both sides of the equation: $2x^2 + 2 - 2 = 10 - 2$, which simplifies to $2x^2 = 8$.\n\n[TA Sora] Next, divide both sides by 2 to eliminate the coefficient: $2x^2 / 2 = 8 / 2$, which gives $x^2 = 4$!\n\n[Prof. Park] Now, and only now, is the squared term isolated: $x^2 = 4$. Now we unleash the Square Root Property: take the square root of both sides and insert the $\\pm$ sign: $x = \\pm \\sqrt{4}$.\n\n[TA Sora] Since 4 is a perfect square, $\\sqrt{4} = 2$. So our solutions are $x = \\pm 2$, meaning $x = 2$ and $x = -2$!\n\n[Prof. Park] Let's check both solutions in the original equation $2x^2 + 2 = 10$. If $x = 2$: $2(2)^2 + 2 = 2(4) + 2 = 8 + 2 = 10$ (Check!). If $x = -2$: $2(-2)^2 + 2 = 2(4) + 2 = 8 + 2 = 10$ (Check!).\n\n[TA Sora] Notice how important it was to isolate $x^2$ first. If a student mistakenly took the square root at the beginning, they would get an algebraic mess. Always isolate first, square root second!\n\n[Prof. Park] Solution set: $\\{-2, 2\\}$. A disciplined, clean execution!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -2,
+      "yMax": 15,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 2,
+          "b": 0,
+          "c": 2,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": 10,
+          "color": "#ff6b6b",
+          "label": "(2,10)"
+        },
+        {
+          "x": -2,
+          "y": 10,
+          "color": "#ff6b6b",
+          "label": "(-2,10)"
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "color": "#ffd700",
+          "label": "V(0,2)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.2 Example 3: Intercepts & Vertex for f(x) = x^2 - 36",
+    "subtitle": "Unit 3 • Lecture 36 • Section 3.2 Example 3 (Workbook p. 67)",
+    "detail": "Lecture 36: The Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 (Workbook p. 67)\nFind the intercepts and vertex for the function:\n$$\\mathbf{f(x) = x^2 - 36}$$\n- **A. Find the $x$-intercept(s):** \\underline{\\hspace{3cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{3cm}}\n- **C. Find the vertex:** \\underline{\\hspace{3cm}}",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. x-intercepts: } & \\text{Set } f(x) = 0: x^2 - 36 = 0 \\implies x^2 = 36 \\\\\n& x = \\pm \\sqrt{36} = \\pm 6 \\implies \\mathbf{(6, 0) \\quad \\text{and} \\quad (-6, 0)} \\\\[0.8em]\n\\textbf{B. y-intercept: } & f(0) = 0^2 - 36 = -36 \\implies \\mathbf{(0, -36)} \\\\[0.8em]\n\\textbf{C. Vertex: } & x_v = -\\frac{0}{2(1)} = 0, \\; y_v = -36 \\implies \\mathbf{(0, -36)}\n\\end{aligned}$$",
+    "pitfall": "**Intercept format:** Remember that intercepts are points on a plane: write $(6, 0)$ and $(-6, 0)$, not just $x = \\pm 6$!",
+    "script": "[Prof. Park] Turning to Slide 5, Section 3.2 Example 3 connects solving directly to graphing: For the function $f(x) = x^2 - 36$, find the $x$-intercepts and the vertex.\n\n[TA Sora] To find the $x$-intercepts, set $f(x) = 0$: $x^2 - 36 = 0$. Using the Square Root Property: $x^2 = 36$, so $x = \\pm \\sqrt{36} = \\pm 6$!\n\n[Prof. Park] So the two $x$-intercepts are $(6, 0)$ and $(-6, 0)$.\n\n[TA Sora] Now for the vertex: notice there is no linear $x$ term, so $b = 0$. That means $x_v = -\\frac{0}{2(1)} = 0$!\n\n[Prof. Park] Evaluating $f(0) = 0^2 - 36 = -36$. The vertex is located at $(0, -36)$, which is also the $y$-intercept!\n\n[TA Sora] Because $a = 1 > 0$, the parabola opens upward from $(0, -36)$, crossing the horizontal axis at $-6$ and $+6$!",
+    "graph": {
+      "xMin": -9,
+      "xMax": 9,
+      "yMin": -42,
+      "yMax": 10,
+      "title": "Example 3: f(x) = x^2 - 36 (x-ints at ±6, Vertex at (0, -36))",
+      "points": [
+        {
+          "x": -6,
+          "y": 0,
+          "label": "(-6, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 6,
+          "y": 0,
+          "label": "(6, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": -36,
+          "label": "Vertex & y-int (0, -36)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": -36,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 0
+    },
+    "coordinate": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -18,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 4,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": -16,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 4,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(4,0)"
+        },
+        {
+          "x": -4,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-4,0)"
+        },
+        {
+          "x": 0,
+          "y": -16,
+          "color": "#ffd700",
+          "label": "V(0,-16)"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.2 Example 4: Intercepts & Vertex for g(x) = 3x^2 - 27",
+    "subtitle": "Unit 3 • Lecture 36 • Section 3.2 Example 4 (Workbook p. 68)",
+    "detail": "Lecture 36: The Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 (Workbook p. 68)\nFind the intercepts and vertex for the function:\n$$\\mathbf{g(x) = 3x^2 - 27}$$\n- **A. Find the $x$-intercept(s):** \\underline{\\hspace{3cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{3cm}}\n- **C. Find the vertex:** \\underline{\\hspace{3cm}}",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. x-intercepts: } & \\text{Set } g(x) = 0: 3x^2 - 27 = 0 \\implies 3x^2 = 27 \\\\\n& x^2 = 9 \\implies x = \\pm \\sqrt{9} = \\pm 3 \\\\\n& \\implies \\mathbf{(3, 0) \\quad \\text{and} \\quad (-3, 0)} \\\\[0.8em]\n\\textbf{B. y-intercept: } & g(0) = 3(0)^2 - 27 = -27 \\implies \\mathbf{(0, -27)} \\\\[0.8em]\n\\textbf{C. Vertex: } & \\mathbf{(0, -27)}\n\\end{aligned}$$",
+    "pitfall": "**Divide before taking square root:** $3x^2 = 27 \\implies x^2 = 9$. Don't take square root until the coefficient 3 is cleared!",
+    "script": "[Prof. Park] Slide 6 presents Example 4: For $g(x) = 3x^2 - 27$, find the $x$-intercepts and the vertex. Sora, what is our first move?\n\n[TA Sora] Set $g(x) = 0$: $3x^2 - 27 = 0$. Add 27 to both sides: $3x^2 = 27$. Remember to isolate $x^2$ before taking square roots—divide both sides by 3 to get $x^2 = 9$!\n\n[Prof. Park] Now apply the Square Root Property: $x = \\pm \\sqrt{9} = \\pm 3$. That gives $x$-intercepts at $(3, 0)$ and $(-3, 0)$.\n\n[TA Sora] And for the vertex, since $b = 0$, $x = 0$. $g(0) = 3(0)^2 - 27 = -27$. The vertex is $(0, -27)$!\n\n[Prof. Park] The curve has its minimum at $(0, -27)$ and passes symmetrically through $(-3, 0)$ and $(3, 0)$. Clean, rapid execution!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -32,
+      "yMax": 10,
+      "title": "Example 4: g(x) = 3x^2 - 27 (x-ints at ±3)",
+      "points": [
+        {
+          "x": -3,
+          "y": 0,
+          "label": "(-3, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "label": "(3, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": -27,
+          "label": "Vertex (0, -27)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 3,
+          "b": 0,
+          "c": -27,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 0
+    },
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": -30,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 3,
+          "b": 0,
+          "c": -27,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-3,0)"
+        },
+        {
+          "x": 0,
+          "y": -27,
+          "color": "#ffd700",
+          "label": "V(0,-27)"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "When x^2 = k Has No Real Solutions",
+    "subtitle": "Unit 3 • Lecture 36 • Section 3.2 Negative Radicands",
+    "detail": "Lecture 36: The Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### What Happens When $x^2 = -9$?\nSolve the equation $x^2 + 9 = 0$:\n- $x^2 = -9$\n- Can any real number squared equal a negative number?\n- What does this look like geometrically on the Cartesian coordinate plane?",
+    "solution": "$$\\begin{aligned}\nx^2 & = -9 \\\\[0.5em]\nx & = \\pm \\sqrt{-9} \\\\[0.5em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{NO REAL NUMBER SOLUTION.}} \\\\[0.8em]\n\\text{Geometric Meaning: } & \\text{The parabola } f(x) = x^2 + 9 \\text{ has vertex at } (0, 9) \\\\\n& \\text{and opens UPWARD. It } \\mathbf{\\text{never crosses the }} x\\mathbf{\\text{-axis!}}\n\\end{aligned}$$",
+    "pitfall": "**No real solution vs No solution:** In algebra of real numbers, $\\sqrt{-9}$ is not real, which means the graph has zero $x$-intercepts!",
+    "script": "[Prof. Park] On Slide 7, we address a profound conceptual question: What happens when $x^2 = k$ and $k$ is a negative number? For instance, what if we try to solve $x^2 = -9$?\n\n[TA Sora] Let's test this logically! Suppose someone claims that $x = 3$. Well, $3 \\times 3 = +9$, not $-9$. Then they say: 'What about $x = -3$?' But $(-3) \\times (-3)$ is ALSO $+9$! \n\n[Prof. Park] In the set of real numbers, whenever you multiply any real number by itself, the result is ALWAYS positive or zero: $x^2 \\geq 0$. It is physically impossible for the square of a real number to be negative!\n\n[TA Sora] Therefore, the equation $x^2 = -9$ has NO real solutions! If you try to write $x = \\pm \\sqrt{-9}$, in intermediate algebra we introduce imaginary numbers ($3i$), but on the real Cartesian coordinate plane, there are NO real coordinates!\n\n[Prof. Park] Now think about what this means for the graph of $f(x) = x^2 + 9$. The vertex is at $(0, 9)$, and since $a = 1 > 0$, the parabola opens upward from $y = 9$ towards positive infinity!\n\n[TA Sora] Look at that picture in your mind: the entire parabola is floating high up in the sky above the $x$-axis! The lowest point is at height 9, so it never descends to touch ground level ($y = 0$).\n\n[Prof. Park] This is why an equation having 'no real solutions' is not a failure—it is a geometric fact! The graph simply does not intersect the $x$-axis.\n\n[TA Sora] Remember: if $x^2 = \\text{negative}$, write 'No Real Solutions.' The parabola floats completely above or below the $x$-axis!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 20,
+      "title": "Parabola f(x) = x^2 + 9 (Never Touches x-Axis)",
+      "points": [
+        {
+          "x": 0,
+          "y": 9,
+          "label": "Vertex (0, 9)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": 9,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ]
+    },
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -2,
+      "yMax": 20,
+      "xTicks": 1,
+      "yTicks": 4,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": 9,
+          "color": "#ff6b6b",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 9,
+          "color": "#ffd700",
+          "label": "V(0,9)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.2 Part 1 Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 36 • Section 3.2 Wrap-up",
+    "detail": "Lecture 36: The Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Lecture 36 Key Rules\n- **Square Root Property:** If $x^2 = k$ and $k > 0$, then $x = \\pm \\sqrt{k}$.\n- Always isolate $x^2$ before taking square roots.\n- $x$-intercepts are ordered pairs $(+\\sqrt{k}, 0)$ and $(-\\sqrt{k}, 0)$.\n- If $k < 0$, there are no real $x$-intercepts.",
+    "solution": "$$\\mathbf{\\text{Lecture 36 Complete! Next Up: Lecture 37 — SRP with Binomial Squares } (x-h)^2 = k!}$$",
+    "pitfall": "**Never forget the $\\pm$:** Write $\\pm$ the instant you write the square root radical!",
+    "script": "[Prof. Park] We have arrived at Slide 8, our Section 3.2 Part 1 Mastery Summary! Let's review the ground we have conquered in Lecture 36.\n\n[TA Sora] The headline theorem today was the Square Root Property: If $X^2 = k$, then $X = \\pm \\sqrt{k}$. Never forget the $\\pm$ sign—it accounts for both positive and negative roots!\n\n[Prof. Park] We learned the essential two-step strategy: Step 1, isolate the squared term completely (e.g., $2x^2 + 2 = 10 \\implies x^2 = 4$). Step 2, apply the square root property and simplify the radical.\n\n[TA Sora] We saw that if $k$ is not a perfect square, like $x^2 = 5$, we keep the exact radical form $x = \\pm \\sqrt{5}$, and we can use a decimal approximation ($\\approx \\pm 2.24$) for practical measurements.\n\n[Prof. Park] And we proved that if $k$ is negative, like $x^2 = -9$, there are NO real solutions because no real number squares to a negative. Geometrically, this means the parabola floats entirely above or below the $x$-axis.\n\n[TA Sora] In everyday life, knowing when a problem has two solutions, one solution, or no solutions helps you avoid chasing impossible outcomes and focuses your energy on real, achievable targets.\n\n[Prof. Park] In Lecture 37, we will expand the Square Root Property to binomial squares of the form $(x - h)^2 = k$. Practice the exercises on page 76 tonight!\n\n[TA Sora] Fantastic work today, Bobcats! We will see you in Lecture 37!"
+  }
+]

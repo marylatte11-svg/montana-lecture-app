@@ -20,6 +20,21 @@ export function renderInlineMathAndBold(text, keyPrefix = 'in') {
     ));
   }
 
+  const formatPlainText = (str) => {
+    if (!str) return str;
+    return str
+      .replace(/\\sqrt\{([^}]+)\}/g, '√$1')
+      .replace(/\\sqrt\s*(\d+|[a-zA-Z])/g, '√$1')
+      .replace(/\\pm/g, '±')
+      .replace(/\\mp/g, '∓')
+      .replace(/\\times/g, '×')
+      .replace(/\\div/g, '÷')
+      .replace(/\\neq/g, '≠')
+      .replace(/\\approx/g, '≈')
+      .replace(/\\leq?/g, '≤')
+      .replace(/\\geq?/g, '≥');
+  };
+
   // Pattern matches $...$, **bold**, or *italic*
   const regex = /(\$[^$]+?\$|\*\*([^*]+?)\*\*|\*([^*]+?)\*)/g;
   const elements = [];
@@ -28,7 +43,7 @@ export function renderInlineMathAndBold(text, keyPrefix = 'in') {
 
   while ((match = regex.exec(text)) !== null) {
     if (match.index > lastIndex) {
-      elements.push(text.substring(lastIndex, match.index));
+      elements.push(formatPlainText(text.substring(lastIndex, match.index)));
     }
 
     const raw = match[0];
@@ -69,7 +84,7 @@ export function renderInlineMathAndBold(text, keyPrefix = 'in') {
   }
 
   if (lastIndex < text.length) {
-    elements.push(text.substring(lastIndex));
+    elements.push(formatPlainText(text.substring(lastIndex)));
   }
 
   return elements;

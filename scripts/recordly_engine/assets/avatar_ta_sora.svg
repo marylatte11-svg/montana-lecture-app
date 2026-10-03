@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="bgGradSora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="80" cy="80" r="80" fill="url(#bgGradSora)"/>
+  
+  <!-- Outer Ring Accent -->
+  <circle cx="80" cy="80" r="77" fill="none" stroke="#bae6fd" stroke-width="2.5" stroke-dasharray="5 3"/>
+
+  <!-- Body / College Hoodie -->
+  <path d="M26 160 C26 116 52 108 80 108 C108 108 134 116 134 160 Z" fill="url(#hoodieGrad)"/>
+  <!-- Hoodie collar & strings -->
+  <path d="M68 116 Q80 132 92 116" fill="none" stroke="#e0f2fe" stroke-width="3"/>
+  <line x1="74" y1="126" x2="74" y2="142" stroke="#e0f2fe" stroke-width="2"/>
+  <line x1="86" y1="126" x2="86" y2="142" stroke="#e0f2fe" stroke-width="2"/>
+
+  <!-- Neck -->
+  <rect x="72" y="90" width="16" height="20" fill="#fed7aa" rx="4"/>
+
+  <!-- Head -->
+  <ellipse cx="80" cy="68" rx="25" ry="30" fill="#ffedd5"/>
+
+  <!-- Ponytail Hair -->
+  <path d="M102 54 C120 40 132 55 125 75 C118 85 105 78 102 70 Z" fill="#451a03"/>
+  <circle cx="103" cy="60" r="5" fill="#f59e0b"/>
+  <path d="M52 62 C50 40 64 32 80 32 C96 32 108 40 106 62 C98 42 88 40 80 40 C70 40 60 44 54 62 Z" fill="#451a03"/>
+
+  <!-- Headset Mic -->
+  <path d="M52 64 C50 50 62 38 80 38 C98 38 110 50 108 64" fill="none" stroke="#e2e8f0" stroke-width="3"/>
+  <ellipse cx="52" cy="68" rx="5" ry="7" fill="#0369a1"/>
+  <path d="M53 72 Q56 90 74 92" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="75" cy="92" r="3" fill="#38bdf8"/>
+
+  <!-- Cheerful Eyes -->
+  <ellipse cx="71" cy="66" rx="2.5" ry="3" fill="#0f172a"/>
+  <ellipse cx="89" cy="66" rx="2.5" ry="3" fill="#0f172a"/>
+
+  <!-- Bright Smile -->
+  <path d="M73 82 Q80 89 87 82" fill="none" stroke="#e11d48" stroke-width="2" stroke-linecap="round"/>
+</svg>
