@@ -392,7 +392,7 @@ async def capture_slide_image(slide_num, page, lecture_id=1, slides_img_dir=None
     try:
         await page.goto(url, wait_until="networkidle", timeout=8000)
     except Exception:
-        url_remote = f"https://oikos-lecture-app.vercel.app/?lecture={lecture_id}&slide={slide_num}"
+        url_remote = f"https://montana-lecture-app.vercel.app/?lecture={lecture_id}&slide={slide_num}"
         try:
             await page.goto(url_remote, wait_until="networkidle", timeout=20000)
         except Exception:
