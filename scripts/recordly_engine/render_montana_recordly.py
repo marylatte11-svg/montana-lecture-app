@@ -32,7 +32,7 @@ import imageio_ffmpeg
 import edge_tts
 from playwright.async_api import async_playwright
 
-BASE_DIR = r"c:\Oikos Univ"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 MONTANA_DIR = os.path.join(BASE_DIR, "Montana_State_Univ")
 ENGINE_DIR = os.path.join(BASE_DIR, "scripts", "recordly_engine")
 
@@ -222,12 +222,16 @@ def get_audio_duration_ms(audio_path):
 
 def load_official_montana_slides(lecture_id=1):
     """
-    Loads official lecture slide objects directly from src/data/montanaSlidesData.js
-    (matching exactly what PresenterMode.jsx uses) via export_lecture.mjs.
+    Loads official lecture slide objects directly from exported JSON or generates via export_lecture.mjs.
     """
-    export_script = os.path.join(ENGINE_DIR, "export_lecture.mjs")
-    subprocess.run(["node", export_script, str(lecture_id)], cwd=BASE_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     json_path = os.path.join(ENGINE_DIR, f"lecture_{lecture_id}_slides.json")
+    if not os.path.exists(json_path):
+        export_script = os.path.join(ENGINE_DIR, "export_lecture.mjs")
+        try:
+            subprocess.run(["node", export_script, str(lecture_id)], cwd=BASE_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except Exception:
+            pass
+
     if not os.path.exists(json_path):
         print(f"❌ Failed to load exported JSON: {json_path}")
         return []
@@ -409,15 +413,20 @@ async def capture_slide_image(slide_num, page, lecture_id=1, slides_img_dir=None
     if not force_recapture and os.path.exists(img_path) and os.path.getsize(img_path) > 40000:
         return img_path
 
-    url = f"http://localhost:4173/?lecture={lecture_id}&slide={slide_num}"
+    import urllib.request
+    local_available = False
     try:
-        await page.goto(url, wait_until="networkidle", timeout=8000)
+        with urllib.request.urlopen("http://localhost:4173", timeout=0.2) as r:
+            if r.status == 200:
+                local_available = True
     except Exception:
-        url_remote = f"https://montana-lecture-app.vercel.app/?lecture={lecture_id}&slide={slide_num}"
-        try:
-            await page.goto(url_remote, wait_until="networkidle", timeout=20000)
-        except Exception:
-            await page.goto(url_remote, wait_until="domcontentloaded")
+        pass
+
+    target_url = f"http://localhost:4173/?lecture={lecture_id}&slide={slide_num}" if local_available else f"https://montana-lecture-app.vercel.app/?lecture={lecture_id}&slide={slide_num}"
+    try:
+        await page.goto(target_url, wait_until="domcontentloaded", timeout=12000)
+    except Exception:
+        await page.goto(f"https://montana-lecture-app.vercel.app/?lecture={lecture_id}&slide={slide_num}", wait_until="domcontentloaded", timeout=20000)
 
     await asyncio.sleep(0.4)
     await page.evaluate("""() => {
