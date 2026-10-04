@@ -3,13 +3,13 @@
 **Generated / Consolidated:** 2026-10-03 20:35:35
 - **Total Lectures:** 15 / 15 (100% Completed)
 - **Total Slides Rendered:** 116 Slides
-- **Total Unit 1 Storage:** 1689.82 MB (1.65 GB)
+- **Total Unit 1 Storage:** 1698.05 MB (1.66 GB)
 
 
 | Lecture | Title | Slides | Master Video File | Size | Status |
 | :---: | :--- | :---: | :--- | :---: | :---: |
 | **L01** | Section 1.0 Welcome to M090 & Algebra Language | 10장 | [MSU_M090_Lecture01_Full_Master.mp4](file:///c:/Oikos Univ/Montana_State_Univ/recordly_videos/Lecture01/MSU_M090_Lecture01_Full_Master.mp4) | **85.86 MB** | ✅ Completed |
-| **L02** | Section 1.0 Real Numbers & Order of Operations | 10장 | [MSU_M090_Lecture02_Full_Master.mp4](file:///c:/Oikos Univ/Montana_State_Univ/recordly_videos/Lecture02/MSU_M090_Lecture02_Full_Master.mp4) | **109.82 MB** | ✅ Completed |
+| **L02** | Section 1.0 Real Numbers & Order of Operations | 10장 | [MSU_M090_Lecture02_Full_Master.mp4](file:///c:/Oikos Univ/Montana_State_Univ/recordly_videos/Lecture02/MSU_M090_Lecture02_Full_Master.mp4) | **118.05 MB** | ✅ Completed |
 | **L03** | Section 1.1 Evaluating Algebraic Expressions | 9장 | [MSU_M090_Lecture03_Full_Master.mp4](file:///c:/Oikos Univ/Montana_State_Univ/recordly_videos/Lecture03/MSU_M090_Lecture03_Full_Master.mp4) | **92.27 MB** | ✅ Completed |
 | **L04** | Section 1.1 Translating English Phrases to Algebra | 10장 | [MSU_M090_Lecture04_Full_Master.mp4](file:///c:/Oikos Univ/Montana_State_Univ/recordly_videos/Lecture04/MSU_M090_Lecture04_Full_Master.mp4) | **97.80 MB** | ✅ Completed |
 | **L05** | Section 1.2 Simplifying Monomials (Product/Quotient) | 10장 | [MSU_M090_Lecture05_Full_Master.mp4](file:///c:/Oikos Univ/Montana_State_Univ/recordly_videos/Lecture05/MSU_M090_Lecture05_Full_Master.mp4) | **110.68 MB** | ✅ Completed |
