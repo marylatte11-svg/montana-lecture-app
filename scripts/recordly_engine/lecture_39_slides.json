@@ -1,0 +1,473 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.3 Example 5: Factoring 2x^2 + 7x + 3 = 0",
+    "subtitle": "Unit 3 • Lecture 39 • Section 3.3 Example 5 (Workbook p. 73)",
+    "detail": "Lecture 39: Advanced Factoring & Root Types",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5: Leading Coefficient $a \\neq 1$ (Workbook p. 73)\nFind the $x$-intercepts for $\\mathbf{f(x) = 2x^2 + 7x + 3}$ by factoring:\n- Use the $ac$-method: $a \\cdot c = 2 \\cdot 3 = 6$.\n- Find factors of $6$ that add to $7$.\n- Factor by grouping and solve.",
+    "solution": "$$\\begin{aligned}\n2x^2 + 7x + 3 & = 0 \\\\[0.5em]\nac & = 2 \\cdot 3 = 6 \\implies \\text{factors } 1 \\text{ and } 6 \\; (1 \\cdot 6 = 6, \\; 1 + 6 = 7) \\\\[0.5em]\n2x^2 + 6x + x + 3 & = 0 \\quad (\\text{split middle term}) \\\\[0.5em]\n2x(x + 3) + 1(x + 3) & = 0 \\\\[0.5em]\n(2x + 1)(x + 3) & = 0 \\\\[0.5em]\n2x + 1 = 0 & \\implies \\mathbf{x = -\\frac{1}{2} = -0.5} \\\\\nx + 3 = 0 & \\implies \\mathbf{x = -3} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & \\mathbf{\\left(-\\frac{1}{2}, 0\\right) \\quad \\text{and} \\quad (-3, 0)}\n\\end{aligned}$$",
+    "pitfall": "**Fraction root from 2x + 1:** $2x + 1 = 0 \\implies 2x = -1 \\implies x = -\\frac{1}{2}$. Don't forget to divide by 2!",
+    "script": "[Prof. Park] Hello everyone, and welcome to Lecture 39 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we advance to Section 3.3 Part 2 on page 82 of your workbookâfactoring when the leading coefficient $a$ is not 1.\n\n[TA Sora] Welcome back, Bobcats! When $a = 1$, finding factors that add to $b$ and multiply to $c$ is relatively straightforward. But when $a \\neq 1$, such as in $2x^2 + 7x + 3 = 0$, that leading number 2 influences the middle term!\n\n[Prof. Park] Let's look at Slide 1, Section 3.3 Example 5: Solve $2x^2 + 7x + 3 = 0$. Sora, what factoring method do you recommend for trinomials with $a \\neq 1$?\n\n[TA Sora] I teach the 'ac-Method' (factoring by grouping)! Step 1: Multiply $a$ and $c$ together. Here $a = 2$ and $c = 3$, so $a \\times c = 2 \\times 3 = 6$. Now, we need two numbers that multiply to $+6$ and add to the middle coefficient $+7$!\n\n[Prof. Park] What two numbers multiply to 6 and add to 7? That's 1 and 6! $1 \\times 6 = 6$, and $1 + 6 = 7$.\n\n[TA Sora] Step 2: Split the middle term $7x$ using those two numbers: write $7x$ as $1x + 6x$ (or $6x + 1x$). Our equation becomes: $2x^2 + 6x + 1x + 3 = 0$!\n\n[Prof. Park] Step 3: Now factor by grouping! Group the first two terms and the last two terms: from $2x^2 + 6x$, factor out $2x$, leaving $2x(x + 3)$. From $1x + 3$, factor out $+1$, leaving $+1(x + 3)$.\n\n[TA Sora] Look at that common binomial factor: $(x + 3)$ appears in both groups! Factor out $(x + 3)$, and what remains is $(2x + 1)$. So our equation is $(2x + 1)(x + 3) = 0$!\n\n[Prof. Park] Step 4: Apply the Zero Product Property: $2x + 1 = 0 \\implies 2x = -1 \\implies x = -1/2$. And $x + 3 = 0 \\implies x = -3$!\n\n[TA Sora] Our two solutions are $x = -1/2$ and $x = -3$. Two clean roots found by structured grouping!\n\n[Prof. Park] When factoring a trinomial with leading coefficient a not equal to 1, like 2x^2 + 7x + 3 = 0, many students waste time guessing and checking endless combinations. The ac method eliminates all guesswork: multiply a times c: 2 · 3 = 6. Now find two numbers that multiply to 6 and add to b = 7: 6 and 1! Split the middle term: 2x^2 + 6x + 1x + 3 = 0. Now group: 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3) = 0! Setting each factor to zero gives x = -1/2 and x = -3. The ac method transforms trial-and-error into a deterministic, repeatable algorithm!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 2,
+      "yMin": -5,
+      "yMax": 8,
+      "title": "Example 5: f(x) = 2x^2 + 7x + 3 (x-ints at -3 and -0.5)",
+      "points": [
+        {
+          "x": -3,
+          "y": 0,
+          "label": "(-3, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -0.5,
+          "y": 0,
+          "label": "(-0.5, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "label": "y-int (0, 3)",
+          "color": "#10b981"
+        },
+        {
+          "x": -1.75,
+          "y": -3.125,
+          "label": "Vertex (-1.75, -3.125)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 2,
+          "b": 7,
+          "c": 3,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": -1.75
+    },
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 2,
+      "yMin": -5,
+      "yMax": 15,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 2,
+          "b": 7,
+          "c": 3,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-3,0)"
+        },
+        {
+          "x": -0.5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-0.5,0)"
+        },
+        {
+          "x": -1.75,
+          "y": -3.125,
+          "color": "#ffd700",
+          "label": "V(-1.75,-3.13)"
+        }
+      ],
+      "axisOfSymmetry": -1.75
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.3 Example 6: Intercepts for g(x) = 3x^2 - 10x - 8",
+    "subtitle": "Unit 3 • Lecture 39 • Section 3.3 Example 6 (Workbook p. 73)",
+    "detail": "Lecture 39: Advanced Factoring & Root Types",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 (Workbook p. 73)\nFind the intercepts for $\\mathbf{g(x) = 3x^2 - 10x - 8}$:\n- $ac = 3 \\cdot (-8) = -24$.\n- Find factors of $-24$ that add to $-10$.\n- Factor and solve for $x$-intercepts and $y$-intercept.",
+    "solution": "$$\\begin{aligned}\nac & = -24 \\implies \\text{factors: } -12 \\text{ and } +2 \\quad (-12 \\cdot 2 = -24, \\; -12 + 2 = -10) \\\\[0.5em]\n3x^2 - 12x + 2x - 8 & = 0 \\\\[0.5em]\n3x(x - 4) + 2(x - 4) & = 0 \\\\[0.5em]\n(3x + 2)(x - 4) & = 0 \\\\[0.5em]\n3x + 2 = 0 & \\implies \\mathbf{x = -\\frac{2}{3}} \\\\\nx - 4 = 0 & \\implies \\mathbf{x = 4} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & \\mathbf{\\left(-\\frac{2}{3}, 0\\right) \\quad \\text{and} \\quad (4, 0)} \\\\[0.5em]\n\\mathbf{y\\text{-intercept: }} & \\mathbf{(0, -8)}\n\\end{aligned}$$",
+    "pitfall": "**Check factors signs:** $-12$ and $+2$ gives $-10$. Using $-6$ and $-4$ gives $+24$, NOT $-24$! Always check the multiplication sign!",
+    "script": "[Prof. Park] Turning to Slide 2, Example 6 asks us to find the $x$-intercepts for $g(x) = 3x^2 - 10x - 8$. Sora, let's guide our students through the ac-method with negative numbers!\n\n[TA Sora] First, set $g(x) = 0$: $3x^2 - 10x - 8 = 0$. Step 1: Calculate $a \\times c$. Here $a = 3$ and $c = -8$, so $a \\times c = 3 \\times (-8) = -24$! We need two numbers that multiply to $-24$ and add to the middle coefficient $-10$.\n\n[Prof. Park] Let's test pairs of factors of $-24$: how about $-12$ and $+2$? $-12 \\times 2 = -24$, and $-12 + 2 = -10$! They match the middle term perfectly!\n\n[TA Sora] Step 2: Split the middle term $-10x$ into $-12x + 2x$: $3x^2 - 12x + 2x - 8 = 0$.\n\n[Prof. Park] Step 3: Factor by grouping: from the first pair $3x^2 - 12x$, factor out $3x$: $3x(x - 4)$. From the second pair $2x - 8$, factor out $+2$: $+2(x - 4)$.\n\n[TA Sora] The shared binomial is $(x - 4)$! Grouping gives: $(3x + 2)(x - 4) = 0$!\n\n[Prof. Park] Step 4: Set each factor equal to zero: $3x + 2 = 0 \\implies 3x = -2 \\implies x = -2/3$. And $x - 4 = 0 \\implies x = 4$!\n\n[TA Sora] So our $x$-intercepts as ordered pairs on the coordinate plane are $(-2/3, 0)$ and $(4, 0)$.\n\n[Prof. Park] Look at how dependable the ac-method is: it eliminates all guessing. Solution set: $\\{-2/3, 4\\}$!\n\n[TA Sora] In Example 6 with g(x) = 3x^2 - 10x - 8, notice that finding the x-intercepts corresponds to finding the roots or zeros of the function. In projectile physics, such as launching an avalanche control projectile at Bridger Bowl, if height h(t) = -16t^2 + v0 t + s0, the t-intercepts tell the safety crew exactly when the projectile leaves the launcher and when it impacts the snowpack. Factoring is how engineers calculate physical impact timing!",
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -18,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 4,
+      "curves": [
+        {
+          "a": 3,
+          "b": -10,
+          "c": -8,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 4,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(4,0)"
+        },
+        {
+          "x": -0.67,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-2/3,0)"
+        },
+        {
+          "x": 1.67,
+          "y": -16.33,
+          "color": "#ffd700",
+          "label": "V(1.67,-16.3)"
+        }
+      ],
+      "axisOfSymmetry": 1.67
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.3 Example 7: Negative Leading Coefficient -x^2 + 4x + 5 = 0",
+    "subtitle": "Unit 3 • Lecture 39 • Section 3.3 Example 7 (Workbook p. 74)",
+    "detail": "Lecture 39: Advanced Factoring & Root Types",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7 (Workbook p. 74)\nFind the $x$-intercepts for $\\mathbf{f(x) = -x^2 + 4x + 5}$:\n- Set $-x^2 + 4x + 5 = 0$.\n- Multiply or factor out $-1$ from all terms first.\n- Factor the resulting trinomial and solve.",
+    "solution": "$$\\begin{aligned}\n-x^2 + 4x + 5 & = 0 \\\\[0.5em]\n-(x^2 - 4x - 5) & = 0 \\quad (\\text{factor out } -1) \\\\[0.5em]\n-(x - 5)(x + 1) & = 0 \\\\[0.5em]\nx - 5 = 0 & \\implies \\mathbf{x = 5} \\\\\nx + 1 = 0 & \\implies \\mathbf{x = -1} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & \\mathbf{(5, 0) \\quad \\text{and} \\quad (-1, 0)}\n\\end{aligned}$$",
+    "pitfall": "**Factoring with negative a:** Factoring is 10 times easier if you factor out $-1$ first: $x^2 - 4x - 5 = 0$ is simple to factor into $(x - 5)(x + 1)$!",
+    "script": "[Prof. Park] Slide 3 brings us to Example 7: $-x^2 + 4x + 5 = 0$. Sora, look at that leading coefficient: it is negative ($-1$). What is our immediate tactical move?\n\n[TA Sora] Never factor a quadratic equation when the leading coefficient is negative! Factoring with a negative $a$ creates a nightmare of double negatives. Instead, multiply the ENTIRE equation on both sides by $-1$!\n\n[Prof. Park] Let's multiply both sides by $-1$: $-1 \\cdot (-x^2 + 4x + 5) = -1 \\cdot 0$. Every single sign on the left flips: $x^2 - 4x - 5 = 0$!\n\n[TA Sora] Look at how friendly that looks now! Now $a = +1$. We just need two numbers that multiply to $-5$ and add to $-4$. That's $-5$ and $+1$!\n\n[Prof. Park] So it factors instantly into: $(x - 5)(x + 1) = 0$. Set each factor equal to zero: $x - 5 = 0 \\implies x = 5$, and $x + 1 = 0 \\implies x = -1$!\n\n[TA Sora] The two roots are $x = 5$ and $x = -1$. \n\n[Prof. Park] Notice that multiplying by $-1$ does NOT change the roots! It flips the parabola upside down (from opening down to opening up), but both parabolas cross the ground at the exact same two points: $(-1, 0)$ and $(5, 0)$!\n\n[TA Sora] Multiplying by $-1$ clears the fog. Always make $a$ positive before factoring!\n\n[Prof. Park] In Example 7 with -x^2 + 4x + 5 = 0, notice Sora's golden advice: Whenever a quadratic equation has a negative leading coefficient, multiply both sides of the equation by -1 before factoring! Multiplying 0 by -1 is still 0, but -x^2 becomes +x^2, +4x becomes -4x, and +5 becomes -5: x^2 - 4x - 5 = 0! Factoring (x - 5)(x + 1) = 0 gives x = 5 and x = -1. Notice that while multiplying by -1 reflects the parabola upside down, its x-intercepts remain completely unchanged because zero multiplied by -1 is still zero!",
+    "graph": {
+      "xMin": -3,
+      "xMax": 7,
+      "yMin": -4,
+      "yMax": 11,
+      "title": "Example 7: f(x) = -x^2 + 4x + 5 (Opens Down, x-ints -1, 5)",
+      "points": [
+        {
+          "x": -1,
+          "y": 0,
+          "label": "(-1, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "label": "(5, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 2,
+          "y": 9,
+          "label": "Vertex (2, 9)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "label": "y-int (0, 5)",
+          "color": "#10b981"
+        }
+      ],
+      "curves": [
+        {
+          "a": -1,
+          "b": 4,
+          "c": 5,
+          "color": "#ec4899",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 2
+    },
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 4,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": -1,
+          "b": 4,
+          "c": -3,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1,0)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "color": "#ffd700",
+          "label": "V(2,1)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Special Case & Tangent Vertex",
+    "title": "Special Case: Exactly One x-Intercept (Tangent Vertex)",
+    "subtitle": "Unit 3 • Lecture 39 • Section 3.3 Perfect Square Trinomials",
+    "detail": "Lecture 39: Advanced Factoring & Root Types",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Perfect Square Trinomial: $f(x) = x^2 - 6x + 9$\n- Factor the equation $x^2 - 6x + 9 = 0$.\n- How many distinct roots are there?\n- What does this mean geometrically for the parabola on the Cartesian plane?",
+    "solution": "$$\\begin{aligned}\nx^2 - 6x + 9 & = 0 \\\\[0.5em]\n(x - 3)(x - 3) & = 0 \\implies (x - 3)^2 = 0 \\\\[0.5em]\nx - 3 = 0 & \\implies \\mathbf{x = 3} \\; (\\text{Multiplicity 2}) \\\\[0.8em]\n\\mathbf{x\\text{-intercept: }} & \\mathbf{(3, 0) \\; [\\text{Exactly ONE } x\\text{-intercept!}]} \\\\[0.5em]\n\\text{Geometric Meaning: } & \\mathbf{\\text{The vertex sits directly ON the }} x\\mathbf{\\text{-axis (Tangent!)}}.\n\\end{aligned}$$",
+    "pitfall": "**Single intercept = Vertex on axis:** When a quadratic has only ONE $x$-intercept, that intercept IS the vertex $(3, 0)$! The parabola bounces off the axis without crossing.",
+    "script": "[Prof. Park] On Slide 4, we examine a fascinating Special Case: When a Quadratic Has Exactly One $x$-Intercept. Look at $x^2 - 6x + 9 = 0$.\n\n[TA Sora] Let's factor it: we need two numbers that multiply to $+9$ and add to $-6$. That is $-3$ and $-3$! So it factors into $(x - 3)(x - 3) = 0$, or $(x - 3)^2 = 0$!\n\n[Prof. Park] When we apply the Zero Product Property, both factors yield the exact same solution: $x - 3 = 0 \\implies x = 3$. This is called a repeated root or a root of multiplicity 2!\n\n[TA Sora] What does this look like geometrically on the coordinate grid? The parabola does NOT pass through the $x$-axis into negative territory! Instead, it sweeps down from above, touches the $x$-axis at the single point $(3, 0)$, and immediately turns around and bounces back up!\n\n[Prof. Park] That single touch point is tangent to the axis! That means the $x$-intercept $(3, 0)$ IS the vertex of the parabola!\n\n[TA Sora] Think of a basketball bouncing on the hardwood floor at the MSU Brick Breeden Fieldhouse. The ball touches the floor at one single instantaneous point and reverses direction.\n\n[Prof. Park] Whenever you see a Perfect Square Trinomial like $(x - 3)^2 = 0$, the parabola has exactly one $x$-intercept, and that intercept is the vertex!\n\n[TA Sora] On slide 4, when f(x) = x^2 - 6x + 9 = (x - 3)^2 = 0, we get x = 3 with multiplicity 2! On the graph, this means the parabola does not cross through the x-axis—it kisses the x-axis at the single point (3, 0) and bounces right back up! Whenever a quadratic has exactly one x-intercept, that intercept is GUARANTEED to be the vertex of the parabola!",
+    "graph": {
+      "xMin": 0,
+      "xMax": 6,
+      "yMin": -2,
+      "yMax": 10,
+      "title": "Tangent Vertex at (3, 0): f(x) = (x - 3)^2",
+      "points": [
+        {
+          "x": 3,
+          "y": 0,
+          "label": "Tangent Vertex (3, 0)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": 9,
+          "label": "y-int (0, 9)",
+          "color": "#10b981"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 9,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 3
+    },
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 5,
+      "yMin": -1,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": 1,
+          "b": -4,
+          "c": 4,
+          "color": "#00ff88",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": 0,
+          "color": "#ffd700",
+          "label": "V(2,0) tangent!"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "The Three Possibilities for x-Intercepts of a Parabola",
+    "subtitle": "Unit 3 • Lecture 39 • Section 3.3 Geometric Classification",
+    "detail": "Lecture 39: Advanced Factoring & Root Types",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### How Many x-Intercepts Can a Parabola Have?\nA parabola can intersect the horizontal axis in three distinct ways:\n1. **Two $x$-intercepts:** The parabola crosses through the axis twice (e.g. $x^2 - 5x + 6 = 0$).\n2. **One $x$-intercept:** The vertex touches the axis (tangent) once (e.g. $(x - 3)^2 = 0$).\n3. **Zero $x$-intercepts:** The parabola never touches the axis (e.g. $x^2 + 9 = 0$).",
+    "solution": "$$\\begin{array}{|c|c|c|} \n\\hline\n\\textbf{Case} & \\textbf{Number of } x\\text{-ints} & \\textbf{Graphical Behavior} \\\\\n\\hline\n\\text{Case 1} & \\mathbf{2} & \\text{Crosses axis twice} \\\\\n\\hline\n\\text{Case 2} & \\mathbf{1} & \\text{Vertex touches axis (tangent)} \\\\\n\\hline\n\\text{Case 3} & \\mathbf{0} & \\text{Floats entirely above or below axis} \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**At most 2:** A quadratic equation can NEVER have 3 or more $x$-intercepts! The degree is 2, so the maximum number of real roots is 2.",
+    "script": "[Prof. Park] Slide 5 synthesizes 'The Three Possibilities for $x$-Intercepts of a Parabola.' Every quadratic function in the universe falls into one of these three geometric categories.\n\n[TA Sora] Case 1: Exactly TWO Real $x$-Intercepts. This happens when the vertex lies on one side of the $x$-axis and the parabola opens towards the axis! The curve slices through the axis twice, like $f(x) = x^2 - 5x + 6$ with roots at $(2, 0)$ and $(3, 0)$.\n\n[Prof. Park] Case 2: Exactly ONE Real $x$-Intercept. This happens when the vertex sits directly ON the $x$-axis ($y_v = 0$), like $f(x) = (x - 3)^2$. The vertex kisses the axis and turns around.\n\n[TA Sora] Case 3: ZERO Real $x$-Intercepts. This happens when the vertex sits above the axis and opens upward (like $f(x) = x^2 + 4$), or sits below the axis and opens downward! The parabola never touches ground level!\n\n[Prof. Park] In physics, if you model the trajectory of a spacecraft trying to enter planetary orbit: Case 1 means it crashes into the surface; Case 2 means it grazes the upper atmosphere at one point; Case 3 means it passes harmlessly above the planet!\n\n[TA Sora] Looking at your vertex and direction of opening tells you immediately whether you will find 2 roots, 1 root, or 0 roots!\n\n[Prof. Park] Visualizing the three geometric cases is crucial: Case 1: The parabola crosses the axis twice (two distinct real roots). Case 2: The vertex rests directly on the axis (one repeated real root). Case 3: The parabola floats entirely above or below the axis (no real roots, two complex roots). Understanding these geometric configurations allows you to instantly anticipate solution sets.",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -5,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": -4,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "label": "2 intercepts"
+        },
+        {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "color": "#ffd700",
+          "strokeWidth": 2,
+          "label": "1 intercept"
+        },
+        {
+          "a": 1,
+          "b": 0,
+          "c": 4,
+          "color": "#ff6b6b",
+          "strokeWidth": 2,
+          "label": "0 intercepts"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Connection to Factored Form",
+    "title": "Factored Form to Graph: f(x) = a(x - r_1)(x - r_2)",
+    "subtitle": "Unit 3 • Lecture 39 • Section 3.3 Root Form",
+    "detail": "Lecture 39: Advanced Factoring & Root Types",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Factored Form of a Quadratic Function\nIf the $x$-intercepts are $r_1$ and $r_2$, the function can be written:\n$$\\mathbf{f(x) = a(x - r_1)(x - r_2)}$$\n- The roots $r_1$ and $r_2$ appear directly in the factors.\n- The vertex $x$-coordinate is always the exact average of the roots:\n  $$\\mathbf{x_v = \\frac{r_1 + r_2}{2}}$$",
+    "solution": "$$\\begin{aligned}\n\\text{If roots are } 2 \\text{ and } 6: & \\implies f(x) = a(x - 2)(x - 6) \\\\\n\\text{Vertex } x\\text{-coordinate: } & x_v = \\frac{2 + 6}{2} = \\mathbf{4}\n\\end{aligned}$$",
+    "pitfall": "**Finding the vertex from roots:** When you factor and find roots $r_1$ and $r_2$, average them to get the vertex $x$-value! You don't even need $-b/(2a)$!",
+    "script": "[Prof. Park] On Slide 6, we introduce Factored Form: $f(x) = a(x - r_1)(x - r_2)$. Sora, this is our third representation of a quadratic function, alongside General Form and Vertex Form!\n\n[TA Sora] In Factored Form, the numbers $r_1$ and $r_2$ are the roots or $x$-intercepts! If a function is written as $f(x) = 2(x - 1)(x - 5)$, you know immediately that the $x$-intercepts are at $(1, 0)$ and $(5, 0)$!\n\n[Prof. Park] And where is the Axis of Symmetry? It is always the average of the two roots: $x = (r_1 + r_2) / 2 = (1 + 5) / 2 = 6 / 2 = 3$!\n\n[TA Sora] And to find the vertex height, just plug in $x = 3$: $f(3) = 2(3 - 1)(3 - 5) = 2(2)(-2) = -8$! The vertex is $(3, -8)$!\n\n[Prof. Park] And what about the $y$-intercept? Plug in $x = 0$: $f(0) = 2(0 - 1)(0 - 5) = 2(-1)(-5) = +10$! The $y$-intercept is $(0, 10)$.\n\n[TA Sora] Look at how fast you can graph an entire parabola when it is in factored form: you plot the two roots $(1, 0)$ and $(5, 0)$, the vertex $(3, -8)$, and the $y$-intercept $(0, 10)$, and your sketch is complete in under a minute!\n\n[Prof. Park] Factored form is beloved by engineers because it directly reveals the operational thresholds where output is zero.",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 7,
+      "yMin": -6,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 5,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1,0)"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(5,0)"
+        },
+        {
+          "x": 3,
+          "y": -4,
+          "color": "#ffd700",
+          "label": "V(3,-4)"
+        }
+      ],
+      "axisOfSymmetry": 3
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Practice Problem",
+    "title": "Check Your Understanding: Factoring 3x^2 - 12 = 0",
+    "subtitle": "Unit 3 • Lecture 39 • Section 3.3 Practice",
+    "detail": "Lecture 39: Advanced Factoring & Root Types",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Checkpoint Practice\nFind the $x$-intercepts for $\\mathbf{f(x) = 3x^2 - 12}$ using factoring:\n- Factor out the GCF first.\n- Factor the remaining difference of squares.\n- State both $x$-intercepts.",
+    "solution": "$$\\begin{aligned}\n3x^2 - 12 & = 0 \\\\[0.5em]\n3(x^2 - 4) & = 0 \\quad (\\text{factor out GCF } 3) \\\\[0.5em]\n3(x - 2)(x + 2) & = 0 \\\\[0.5em]\nx - 2 = 0 & \\implies \\mathbf{x = 2} \\\\\nx + 2 = 0 & \\implies \\mathbf{x = -2} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & \\mathbf{(2, 0) \\quad \\text{and} \\quad (-2, 0)}\n\\end{aligned}$$",
+    "pitfall": "**The GCF 3 doesn't yield a root:** Setting $3 = 0$ is impossible! Only factors with variables produce solutions.",
+    "script": "[Prof. Park] Slide 7 presents a 'Check Your Understanding' problem: Solve $3x^2 - 12 = 0$ by factoring.\n\n[TA Sora] Step 1: Follow Sora's checklistâalways look for a Greatest Common Factor (GCF) first! Both $3x^2$ and $12$ are divisible by 3. Factor out 3: $3(x^2 - 4) = 0$!\n\n[Prof. Park] Step 2: Now look inside the parentheses: $x^2 - 4$ is a Difference of Squares! $x^2 - 2^2 = (x - 2)(x + 2)$. So our fully factored equation is: $3(x - 2)(x + 2) = 0$!\n\n[TA Sora] Step 3: Apply the Zero Product Property! Can the number 3 equal zero? No, $3 \\neq 0$. So we set the variable factors equal to zero: $x - 2 = 0 \\implies x = 2$, and $x + 2 = 0 \\implies x = -2$!\n\n[Prof. Park] Our two solutions are $x = 2$ and $x = -2$. Notice that factoring out the GCF made the Difference of Squares effortless!\n\n[TA Sora] If someone forgot the GCF and tried to factor $3x^2 - 12$ directly, they would get confused. The GCF simplifies the numbers immediately.\n\n[Prof. Park] Solution set: $\\{-2, 2\\}$. Clean, fast, and verified!\n\n[TA Sora] In Checkpoint Practice 3x^2 - 12 = 0, always look for a Greatest Common Factor (GCF) first! Factoring out 3 gives 3(x^2 - 4) = 0. Now x^2 - 4 is a Difference of Squares from Section 1.4: 3(x - 2)(x + 2) = 0! The solutions are x = 2 and x = -2. Factoring out the GCF first keeps your numbers small and prevents complicated quadratic calculations.",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -15,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 3,
+          "b": 0,
+          "c": -12,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2,0)"
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-2,0)"
+        },
+        {
+          "x": 0,
+          "y": -12,
+          "color": "#ffd700",
+          "label": "V(0,-12)"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.3 Complete Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 39 • Section 3.3 Wrap-up",
+    "detail": "Lecture 39: Advanced Factoring & Root Types",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Section 3.3 Master Checklist\n- Factored quadratic equations using GCF, grouping ($ac$-method), and difference of squares.\n- Handled negative leading coefficients by factoring out $-1$.\n- Discovered tangent vertices when roots repeat.\n- Connected roots $(r_1, 0)$ and $(r_2, 0)$ to the vertex midpoint $x_v = \\frac{r_1 + r_2}{2}$.",
+    "solution": "$$\\mathbf{\\text{Section 3.3 Mastered! Next Up: Section 3.4 — Completing the Square!}}$$",
+    "pitfall": "**The Big Question:** What if a trinomial DOES NOT FACTOR? (e.g. $x^2 + 6x - 7 = 0$ factors, but what about $x^2 + 6x - 2 = 0$?) In Section 3.4, Completing the Square solves ANY quadratic equation!",
+    "script": "[Prof. Park] We have reached Slide 8, our Section 3.3 Complete Mastery Summary! \n\n[TA Sora] In Lecture 39, we mastered the ac-method for factoring when $a \\neq 1$, learned to flip signs by multiplying by $-1$, explored the tangent vertex special case with 1 root, analyzed the three possibilities for parabola intercepts, and used factored form $a(x - r_1)(x - r_2)$ to sketch graphs rapidly.\n\n[Prof. Park] Remember: algebra is a toolkit of multiple strategies. When factoring is easy, use it! But what happens when an equation CANNOT be factored, like $x^2 + 6x - 7 = 0$ or $x^2 - 8x - 5 = 0$?\n\n[TA Sora] That brings us to our next grand topic: Completing the Square in Lecture 40! Completing the square is the engine that proves the Quadratic Formula!\n\n[Prof. Park] Complete the Section 3.3 practice exercises on pages 82 through 85 of your workbook tonight.\n\n[TA Sora] Keep up the incredible momentum, Bobcats! We will see you all in Lecture 40!\n\n[Prof. Park] That concludes Section 3.3! You have mastered factoring by GCF, grouping, difference of squares, and the ac method for quadratic equations. In Lecture 40, we explore what to do when a quadratic CANNOT be factored: Section 3.4: Completing the Square!"
+  }
+]

@@ -1,0 +1,412 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Lesson Introduction",
+    "title": "Section 3.5: The Quadratic Formula",
+    "subtitle": "Unit 3 • Lecture 41 • Section 3.5 (Workbook p. 79)",
+    "detail": "Lecture 41: Finding Intercepts via the Quadratic Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**The Quadratic Formula** can solve ANY quadratic equation once it is set equal to zero in general form.\n\n$$\\text{If } ax^2 + bx + c = 0 \\text{ then:}$$\n\n$$\\boxed{x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}}$$\n\n**Why do we need this?**\n- Square Root Property works when there is no middle $bx$ term.\n- Factoring works when nice integer roots exist.\n- The **Quadratic Formula** always works, no matter what!",
+    "solution": "**Formula Components:**\n- $a$ = leading coefficient\n- $b$ = middle coefficient\n- $c$ = constant term\n- $b^2 - 4ac$ = **discriminant** (determines the number of solutions)\n\n**Three possible outcomes:**\n$$b^2 - 4ac > 0 \\Rightarrow \\text{2 real x-intercepts}$$\n$$b^2 - 4ac = 0 \\Rightarrow \\text{1 real x-intercept (vertex on x-axis)}$$\n$$b^2 - 4ac < 0 \\Rightarrow \\text{No real x-intercepts (parabola doesn’t cross x-axis)}$$",
+    "pitfall": "**Sora’s Warning:** The $\\pm$ sign means you compute TWO values: one with $+$ and one with $-$. Never skip one!",
+    "script": "[Prof. Park] Hello everyone, and welcome to Lecture 41 of M090 Introductory Algebra! I'm Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we reach the undisputed summit of introductory algebra: Section 3.5 on page 90 of your workbookâThe Quadratic Formula!\n\n[TA Sora] Welcome, Bobcats! In our previous lectures, we saw that Factoring is great when numbers are friendly, and Completing the Square works on everything but can produce heavy fractions. But today, we unlock the master universal key that solves EVERY single quadratic equation in human history with zero guesswork!\n\n[Prof. Park] The Quadratic Formula: For any equation $ax^2 + bx + c = 0$ where $a \\neq 0$, the solutions are given by $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$!\n\n[TA Sora] Every algebra student remembers the classic melody: '$x$ equals negative $b$, plus or minus square root, of $b$ squared minus $4ac$, all over $2a$!' Singing it fixes the algebraic rhythm in your memory forever!\n\n[Prof. Park] Look at the anatomy of this formula: The leading part is $-b / (2a)$âour Vertex Formula from Section 3.1! The part under the square root is $b^2 - 4ac$âthe Discriminant! And the whole thing is divided by $2a$!\n\n[TA Sora] Warning from Sora's desk: Notice the big fraction bar goes under the ENTIRE numerator, including $-b$! Do not divide just the square root by $2a$; the entire top expression is divided by $2a$!\n\n[Prof. Park] In physics, ballistics, civil engineering, and aerospace, whenever you solve for trajectory impact or structural tension, the Quadratic Formula is the equation programmed into every computer and calculator.\n\n[TA Sora] Open your workbook to page 90. Let's conquer Example 1 together on Slide 2!\n\n[Prof. Park] The Quadratic Formula: x = [ -b plus or minus sqrt(b^2 - 4ac) ] / (2a). It solves 100% of all quadratic equations in existence—whether the coefficients are integers, fractions, decimals, or square roots! It is the Swiss Army knife of high school and college algebra. Whenever an equation resists factoring or completing the square looks tedious, the Quadratic Formula delivers the exact solution every time.",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -6,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -2,
+          "c": -3,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x-int"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x-int"
+        },
+        {
+          "x": 1,
+          "y": -4,
+          "color": "#ffd700",
+          "label": "Vertex"
+        }
+      ],
+      "axisOfSymmetry": 1
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 1A",
+    "title": "Quadratic Formula: $ g(x) = x^2 - 17x + 72 $",
+    "subtitle": "Unit 3 • Lecture 41 • Section 3.5 Example 1A (Workbook p. 79)",
+    "detail": "Find the x-intercepts, y-intercept, and vertex.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the intercepts and vertex for:** $g(x) = x^2 - 17x + 72$\n\n**Step 1 — Identify x-intercepts:** Set $g(x) = 0$\n$$x^2 - 17x + 72 = 0$$\n\nIdentify: $a = 1,\\; b = -17,\\; c = 72$\n\nApply the Quadratic Formula:\n$$x = \\dfrac{-(-17) \\pm \\sqrt{(-17)^2 - 4(1)(72)}}{2(1)}$$",
+    "solution": "$$x = \\dfrac{17 \\pm \\sqrt{289 - 288}}{2} = \\dfrac{17 \\pm \\sqrt{1}}{2} = \\dfrac{17 \\pm 1}{2}$$\n\n$$x = \\dfrac{17+1}{2} = \\dfrac{18}{2} = \\mathbf{9} \\qquad x = \\dfrac{17-1}{2} = \\dfrac{16}{2} = \\mathbf{8}$$\n\n**x-intercepts:** $(9,0)$ and $(8,0)$\n\n**y-intercept:** $g(0) = 0 - 0 + 72 = \\mathbf{72}$ → $(0, 72)$\n\n**Vertex:** $x = \\dfrac{-(-17)}{2(1)} = \\dfrac{17}{2} = 8.5$\n$$g(8.5) = (8.5)^2 - 17(8.5) + 72 = 72.25 - 144.5 + 72 = -0.25$$\n\n**Vertex:** $(8.5,\\; -0.25)$",
+    "pitfall": "**Sora’s Note:** $\\sqrt{1} = 1$, not 0! The discriminant being 1 (very close to 0) means the two roots are almost equal but still distinct: $x = 8$ and $x = 9$.",
+    "script": "[Prof. Park] On Slide 2, we solve Section 3.5 Example 1: $g(x) = x^2 - 17x + 72 = 0$. Here the numbers are large, and finding factors of 72 that add to 17 could take several minutes of trial and error. Let's see how the Quadratic Formula handles it!\n\n[TA Sora] Step 1: Identify our three coefficients: $a = 1$, $b = -17$, and $c = 72$. Write them down clearly with their signs!\n\n[Prof. Park] Step 2: Set up the formula with protective parentheses: $x = \\frac{-(-17) \\pm \\sqrt{(-17)^2 - 4(1)(72)}}{2(1)}$. Look at that $-(-17)$: two negatives make $+17$!\n\n[TA Sora] Step 3: Calculate the Discriminant under the radical: $(-17)^2 = 289$. And $4 \\times 1 \\times 72 = 288$! Subtract them: $289 - 288 = 1$!\n\n[Prof. Park] Look at that! The number under the radical simplified to 1! And what is $\\sqrt{1}$? It is 1! So our equation becomes: $x = \\frac{17 \\pm 1}{2}$!\n\n[TA Sora] Step 4: Branch out into our two solutions: Branch 1: $x = (17 + 1) / 2 = 18 / 2 = 9$! Branch 2: $x = (17 - 1) / 2 = 16 / 2 = 8$!\n\n[Prof. Park] The two solutions are $x = 8$ and $x = 9$! Look at the coordinate plane on your right: the parabola crosses the $x$-axis at $(8, 0)$ and $(9, 0)$!\n\n[TA Sora] And notice where the vertex sits: right at $x = 8.5$, down at $-0.25$! Notice how cleanly the labels display: the vertex label below, and the roots $(8, 0)$ and $(9, 0)$ on either side!\n\n[Prof. Park] The formula plowed through large numbers and gave exact integer roots. Solution set: $\\{8, 9\\}$!\n\n[TA Sora] In Example 1 with g(x) = x^2 - 17x + 72: Notice the term b^2: (-17)^2 = +289! A negative number squared is ALWAYS positive! A fatal student error is typing -17^2 into a calculator without parentheses and getting -289. Always remember: b squared can NEVER be negative! Here, 289 - 4(1)(72) = 289 - 288 = 1. sqrt(1) = 1, giving roots (17 + 1)/2 = 9 and (17 - 1)/2 = 8!",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 15,
+      "yMin": -5,
+      "yMax": 80,
+      "xTicks": 2,
+      "yTicks": 10,
+      "curves": [
+        {
+          "a": 1,
+          "b": -17,
+          "c": 72,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 8,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(8,0)"
+        },
+        {
+          "x": 9,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(9,0)"
+        },
+        {
+          "x": 8.5,
+          "y": -0.25,
+          "color": "#ffd700",
+          "label": "V(8.5,-0.25)"
+        }
+      ],
+      "axisOfSymmetry": 8.5
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 1B",
+    "title": "Quadratic Formula: $ h(x) = x^2 - 5x - 7 $",
+    "subtitle": "Unit 3 • Lecture 41 • Section 3.5 Example 1B (Workbook p. 80)",
+    "detail": "Find the x-intercepts, y-intercept, and vertex.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the intercepts and vertex for:** $h(x) = x^2 - 5x - 7$\n\nSet $h(x) = 0$: $x^2 - 5x - 7 = 0$\n\nIdentify: $a = 1,\\; b = -5,\\; c = -7$\n\n$$x = \\dfrac{-(-5) \\pm \\sqrt{(-5)^2 - 4(1)(-7)}}{2(1)} = \\dfrac{5 \\pm \\sqrt{25 + 28}}{2}$$",
+    "solution": "$$x = \\dfrac{5 \\pm \\sqrt{53}}{2}$$\n\n$$\\sqrt{53} \\approx 7.28$$\n\n$$x = \\dfrac{5 + 7.28}{2} = \\dfrac{12.28}{2} \\approx \\mathbf{6.14} \\qquad x = \\dfrac{5 - 7.28}{2} = \\dfrac{-2.28}{2} \\approx \\mathbf{-1.14}$$\n\n**x-intercepts:** $\\approx (6.14,\\,0)$ and $\\approx (-1.14,\\,0)$\n\n**y-intercept:** $h(0) = -7$ → $(0,\\,-7)$\n\n**Vertex:** $x = \\dfrac{5}{2} = 2.5$,\\quad $h(2.5) = 6.25 - 12.5 - 7 = -13.25$\n\n**Vertex:** $(2.5,\\,-13.25)$",
+    "pitfall": "**Sora’s Note:** When $c$ is negative, $-4ac$ becomes positive (negative times negative). Always double-check: $-4(1)(-7) = +28$.",
+    "script": "[Prof. Park] Slide 3 brings us to Example 2: Find the intercepts and vertex for $h(x) = x^2 - 5x - 7$. Sora, let's identify $a$, $b$, and $c$.\n\n[TA Sora] Coefficients: $a = 1$, $b = -5$, and $c = -7$. Be extra careful with the negative signs when plugging into the Quadratic Formula!\n\n[Prof. Park] $x = \\frac{-(-5) \\pm \\sqrt{(-5)^2 - 4(1)(-7)}}{2(1)} = \\frac{5 \\pm \\sqrt{25 + 28}}{2} = \\frac{5 \\pm \\sqrt{53}}{2}$.\n\n[TA Sora] Since 53 is a prime number, $\\frac{5 \\pm \\sqrt{53}}{2}$ is the exact radical answer! In decimals, $\\sqrt{53} \\approx 7.28$, so $x \\approx 6.14$ and $x \\approx -1.14$.\n\n[Prof. Park] Now for the vertex: $x_v = -\\frac{b}{2a} = -\\frac{-5}{2(1)} = 2.5$. $h(2.5) = (2.5)^2 - 5(2.5) - 7 = 6.25 - 12.5 - 7 = -13.25$.\n\n[TA Sora] Vertex is $(2.5, -13.25)$ and $y$-intercept is $(0, -7)$! Complete analysis accomplished.",
+    "coordinate": {
+      "xMin": -3,
+      "xMax": 8,
+      "yMin": -16,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -5,
+          "c": -7,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 6.14,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(6.14,0)"
+        },
+        {
+          "x": -1.14,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1.14,0)"
+        },
+        {
+          "x": 2.5,
+          "y": -13.25,
+          "color": "#ffd700",
+          "label": "V(2.5,-13.25)"
+        }
+      ],
+      "axisOfSymmetry": 2.5
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 1C",
+    "title": "Quadratic Formula: $ h(x) = 13x - x^2 + 1 $",
+    "subtitle": "Unit 3 • Lecture 41 • Section 3.5 Example 1C (Workbook p. 80)",
+    "detail": "Rewrite in standard form first, then find intercepts and vertex.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the intercepts and vertex for:** $h(x) = 13x - x^2 + 1$\n\n**Step 1 — Rewrite in standard form** $ax^2 + bx + c$:\n$$h(x) = -x^2 + 13x + 1$$\n\nSet $h(x) = 0$: $-x^2 + 13x + 1 = 0$\n\nIdentify: $a = -1,\\; b = 13,\\; c = 1$\n\n$$x = \\dfrac{-13 \\pm \\sqrt{13^2 - 4(-1)(1)}}{2(-1)} = \\dfrac{-13 \\pm \\sqrt{169+4}}{-2}$$",
+    "solution": "$$x = \\dfrac{-13 \\pm \\sqrt{173}}{-2}$$\n\n$$\\sqrt{173} \\approx 13.15$$\n\n$$x = \\dfrac{-13 + 13.15}{-2} = \\dfrac{0.15}{-2} \\approx \\mathbf{-0.08}$$\n\n$$x = \\dfrac{-13 - 13.15}{-2} = \\dfrac{-26.15}{-2} \\approx \\mathbf{13.08}$$\n\n**x-intercepts:** $\\approx (-0.08,\\,0)$ and $\\approx (13.08,\\,0)$\n\n**y-intercept:** $h(0) = 1$ → $(0,\\,1)$\n\n**Vertex:** $x = \\dfrac{-13}{2(-1)} = \\dfrac{13}{2} = 6.5$\n$$h(6.5) = -(6.5)^2 + 13(6.5) + 1 = -42.25 + 84.5 + 1 = 43.25$$\n\n**Vertex:** $(6.5,\\;43.25)$",
+    "pitfall": "**Sora’s Warning:** Always rearrange to $ax^2 + bx + c = 0$ FIRST! And with $a = -1$, remember dividing by $-2$ flips sign.",
+    "script": "[Prof. Park] On Slide 4, Example 3 gives us: $h(x) = 13x - x^2 + 1$. Sora, what must we do before applying the formula?\n\n[TA Sora] Rewrite it in standard descending form: $h(x) = -x^2 + 13x + 1$! So $a = -1$, $b = 13$, and $c = 1$.\n\n[Prof. Park] Now set it equal to zero and apply the formula: $x = \\frac{-13 \\pm \\sqrt{13^2 - 4(-1)(1)}}{2(-1)} = \\frac{-13 \\pm \\sqrt{169 + 4}}{-2} = \\frac{-13 \\pm \\sqrt{173}}{-2}$.\n\n[TA Sora] Divide top and bottom by $-1$: $x = \\frac{13 \\pm \\sqrt{173}}{2}$! Since $\\sqrt{173} \\approx 13.15$, our solutions are $x \\approx 13.08$ and $x \\approx -0.08$.\n\n[Prof. Park] And the vertex: $x_v = -\\frac{13}{2(-1)} = 6.5$. $h(6.5) = 13(6.5) - (6.5)^2 + 1 = 84.5 - 42.25 + 1 = 43.25$.\n\n[TA Sora] Vertex is $(6.5, 43.25)$, a high maximum since $a = -1 < 0$!",
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 15,
+      "yMin": -10,
+      "yMax": 50,
+      "xTicks": 2,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": -1,
+          "b": 13,
+          "c": 1,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -0.08,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-0.08,0)"
+        },
+        {
+          "x": 13.08,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(13.08,0)"
+        },
+        {
+          "x": 6.5,
+          "y": 43.25,
+          "color": "#ffd700",
+          "label": "V(6.5,43.25)"
+        }
+      ],
+      "axisOfSymmetry": 6.5
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 1D",
+    "title": "Quadratic Formula: $ f(x) = -x^2 - 5x + 7 $",
+    "subtitle": "Unit 3 • Lecture 41 • Section 3.5 Example 1D (Workbook p. 81)",
+    "detail": "Find the x-intercepts, y-intercept, and vertex.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the intercepts and vertex for:** $f(x) = -x^2 - 5x + 7$\n\nSet $f(x) = 0$: $-x^2 - 5x + 7 = 0$\n\nIdentify: $a = -1,\\; b = -5,\\; c = 7$\n\n$$x = \\dfrac{-(-5) \\pm \\sqrt{(-5)^2 - 4(-1)(7)}}{2(-1)} = \\dfrac{5 \\pm \\sqrt{25 + 28}}{-2}$$",
+    "solution": "$$x = \\dfrac{5 \\pm \\sqrt{53}}{-2}$$\n\n$$\\sqrt{53} \\approx 7.28$$\n\n$$x = \\dfrac{5 + 7.28}{-2} = \\dfrac{12.28}{-2} \\approx \\mathbf{-6.14}$$\n\n$$x = \\dfrac{5 - 7.28}{-2} = \\dfrac{-2.28}{-2} \\approx \\mathbf{1.14}$$\n\n**x-intercepts:** $\\approx (-6.14,\\,0)$ and $\\approx (1.14,\\,0)$\n\n**y-intercept:** $f(0) = 7$ → $(0,\\,7)$\n\n**Vertex:** $x = \\dfrac{-(-5)}{2(-1)} = \\dfrac{5}{-2} = -2.5$\n$$f(-2.5) = -(-2.5)^2 - 5(-2.5) + 7 = -6.25 + 12.5 + 7 = 13.25$$\n\n**Vertex:** $(-2.5,\\;13.25)$",
+    "pitfall": "**Sora’s Note:** Two negatives in a=-1, b=-5. Be extra careful. $-b = -(-5) = +5$ and $-4(-1)(7) = +28$.",
+    "script": "[Prof. Park] Slide 5 presents Example 4: Find the intercepts and vertex for $f(x) = -x^2 - 5x + 7$. Sora, let's identify the parameters.\n\n[TA Sora] Here $a = -1$, $b = -5$, and $c = 7$.\n\n[Prof. Park] Set $f(x) = 0$: $x = \\frac{-(-5) \\pm \\sqrt{(-5)^2 - 4(-1)(7)}}{2(-1)} = \\frac{5 \\pm \\sqrt{25 + 28}}{-2} = \\frac{5 \\pm \\sqrt{53}}{-2}$.\n\n[TA Sora] Using $\\sqrt{53} \\approx 7.28$, $\\frac{5 + 7.28}{-2} \\approx -6.14$, and $\\frac{5 - 7.28}{-2} \\approx 1.14$!\n\n[Prof. Park] And the vertex: $x_v = -\\frac{-5}{2(-1)} = -2.5$. $f(-2.5) = -(-2.5)^2 - 5(-2.5) + 7 = -6.25 + 12.5 + 7 = 13.25$.\n\n[TA Sora] The vertex is $(-2.5, 13.25)$ and the $y$-intercept is $(0, 7)$. Exact and decimal forms mastered!",
+    "coordinate": {
+      "xMin": -8,
+      "xMax": 4,
+      "yMin": -5,
+      "yMax": 16,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -1,
+          "b": -5,
+          "c": 7,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -6.14,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-6.14,0)"
+        },
+        {
+          "x": 1.14,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1.14,0)"
+        },
+        {
+          "x": -2.5,
+          "y": 13.25,
+          "color": "#ffd700",
+          "label": "V(-2.5,13.25)"
+        }
+      ],
+      "axisOfSymmetry": -2.5
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 1E",
+    "title": "Quadratic Formula: $ f(x) = -1 + 2x^2 - 3x $",
+    "subtitle": "Unit 3 • Lecture 41 • Section 3.5 Example 1E (Workbook p. 81)",
+    "detail": "Rewrite in standard form, then find intercepts and vertex.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the intercepts and vertex for:** $f(x) = -1 + 2x^2 - 3x$\n\n**Step 1 — Rewrite in standard form:**\n$$f(x) = 2x^2 - 3x - 1$$\n\nSet $f(x) = 0$: $2x^2 - 3x - 1 = 0$\n\nIdentify: $a = 2,\\; b = -3,\\; c = -1$\n\n$$x = \\dfrac{-(-3) \\pm \\sqrt{(-3)^2 - 4(2)(-1)}}{2(2)} = \\dfrac{3 \\pm \\sqrt{9 + 8}}{4}$$",
+    "solution": "$$x = \\dfrac{3 \\pm \\sqrt{17}}{4}$$\n\n$$\\sqrt{17} \\approx 4.12$$\n\n$$x = \\dfrac{3 + 4.12}{4} = \\dfrac{7.12}{4} \\approx \\mathbf{1.78}$$\n\n$$x = \\dfrac{3 - 4.12}{4} = \\dfrac{-1.12}{4} \\approx \\mathbf{-0.28}$$\n\n**x-intercepts:** $\\approx (1.78,\\,0)$ and $\\approx (-0.28,\\,0)$\n\n**y-intercept:** $f(0) = -1$ → $(0,\\,-1)$\n\n**Vertex:** $x = \\dfrac{-(-3)}{2(2)} = \\dfrac{3}{4} = 0.75$\n$$f(0.75) = 2(0.75)^2 - 3(0.75) - 1 = 1.125 - 2.25 - 1 = -2.125$$\n\n**Vertex:** $(0.75,\\;-2.125)$",
+    "pitfall": "**Sora’s Tip:** $-4(2)(-1) = +8$. Two negatives make a positive! The discriminant 9+8=17 is positive, so two real roots exist.",
+    "script": "[Prof. Park] On Slide 6, Example 5 asks us to find intercepts and vertex for $f(x) = -1 + 2x^2 - 3x$. Sora, let's standardize this first.\n\n[TA Sora] Standard form is $f(x) = 2x^2 - 3x - 1$. So $a = 2$, $b = -3$, and $c = -1$.\n\n[Prof. Park] Set $f(x) = 0$: $x = \\frac{-(-3) \\pm \\sqrt{(-3)^2 - 4(2)(-1)}}{2(2)} = \\frac{3 \\pm \\sqrt{9 + 8}}{4} = \\frac{3 \\pm \\sqrt{17}}{4}$.\n\n[TA Sora] With $\\sqrt{17} \\approx 4.12$, $x \\approx \\frac{3 + 4.12}{4} \\approx 1.78$ and $x \\approx \\frac{3 - 4.12}{4} \\approx -0.28$!\n\n[Prof. Park] For the vertex: $x_v = -\\frac{-3}{2(2)} = 0.75$. $f(0.75) = 2(0.75)^2 - 3(0.75) - 1 = 1.125 - 2.25 - 1 = -2.125$.\n\n[TA Sora] Vertex is $(0.75, -2.125)$ and $y$-intercept is $(0, -1)$!",
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 3,
+      "yMin": -4,
+      "yMax": 6,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": 2,
+          "b": -3,
+          "c": -1,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1.78,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1.78,0)"
+        },
+        {
+          "x": -0.28,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-0.28,0)"
+        },
+        {
+          "x": 0.75,
+          "y": -2.125,
+          "color": "#ffd700",
+          "label": "V(0.75,-2.13)"
+        }
+      ],
+      "axisOfSymmetry": 0.75
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 2 — Function Evaluation",
+    "title": "Function Evaluation: $ f(x) = 3x^2 - 5x + 7 $",
+    "subtitle": "Unit 3 • Lecture 41 • Section 3.5 Example 2 (Workbook p. 82)",
+    "detail": "Evaluate f(4), f(p), f(x+3), and solve f(x) = 13.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Use $f(x) = 3x^2 - 5x + 7$ to find:**\n\n**A.** $f(4)$\n\n**B.** $f(p)$\n\n**C.** $f(x+3)$\n\n**D.** Solve $f(x) = 13$ for $x$",
+    "solution": "**A.** $f(4) = 3(4)^2 - 5(4) + 7 = 48 - 20 + 7 = \\mathbf{35}$\n\n**B.** $f(p) = 3p^2 - 5p + 7$\n\n**C.** $f(x+3) = 3(x+3)^2 - 5(x+3) + 7$\n$$= 3(x^2+6x+9) - 5x - 15 + 7 = 3x^2+18x+27-5x-15+7$$\n$$= \\mathbf{3x^2 + 13x + 19}$$\n\n**D.** Set $f(x) = 13$:\n$$3x^2 - 5x + 7 = 13 \\Rightarrow 3x^2 - 5x - 6 = 0$$\n$$x = \\dfrac{5 \\pm \\sqrt{25+72}}{6} = \\dfrac{5 \\pm \\sqrt{97}}{6} \\approx \\dfrac{5 \\pm 9.85}{6}$$\n$$x \\approx \\mathbf{2.47} \\quad \\text{or} \\quad x \\approx \\mathbf{-0.81}$$",
+    "pitfall": "**Sora’s Note for Part C:** Use FOIL or the perfect-square pattern for $(x+3)^2 = x^2 + 6x + 9$. Then distribute the 3!",
+    "script": "[Prof. Park] Slide 7 provides an evaluation and solving challenge with $f(x) = 3x^2 - 5x + 7$. Sora, let's walk through Parts A, B, C, and D.\n\n[TA Sora] Part A: $f(4) = 3(4)^2 - 5(4) + 7 = 3(16) - 20 + 7 = 48 - 20 + 7 = 35$! Part B: $f(p) = 3p^2 - 5p + 7$.\n\n[Prof. Park] Part C: $f(x + 3) = 3(x + 3)^2 - 5(x + 3) + 7 = 3(x^2 + 6x + 9) - 5x - 15 + 7 = 3x^2 + 18x + 27 - 5x - 8 = 3x^2 + 13x + 19$.\n\n[TA Sora] And Part D: Solve $f(x) = 13$! Set $3x^2 - 5x + 7 = 13$. Subtract 13: $3x^2 - 5x - 6 = 0$!\n\n[Prof. Park] Now apply the Quadratic Formula with $a = 3, b = -5, c = -6$: $x = \\frac{5 \\pm \\sqrt{25 - 4(3)(-6)}}{6} = \\frac{5 \\pm \\sqrt{25 + 72}}{6} = \\frac{5 \\pm \\sqrt{97}}{6} \\approx 2.47$ and $-0.81$.\n\n[TA Sora] That covers all four parts with precision!",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 4,
+      "yMin": -1,
+      "yMax": 40,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 3,
+          "b": -5,
+          "c": 7,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0.83,
+          "y": 4.92,
+          "color": "#ffd700",
+          "label": "V(0.83,4.92)"
+        },
+        {
+          "x": 4,
+          "y": 35,
+          "color": "#ff6b6b",
+          "label": "f(4)=35"
+        },
+        {
+          "x": 0,
+          "y": 7,
+          "color": "#00ff88",
+          "label": "f(0)=7"
+        }
+      ],
+      "axisOfSymmetry": 0.83
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Lecture 41 Review",
+    "title": "Quadratic Formula — Key Takeaways",
+    "subtitle": "Unit 3 • Lecture 41 Summary",
+    "detail": "Review of the Quadratic Formula and its applications.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Quadratic Formula Summary:**\n\n| Step | Action |\n|------|--------|\n| 1 | Write in standard form: $ax^2+bx+c=0$ |\n| 2 | Identify $a$, $b$, $c$ |\n| 3 | Compute discriminant: $b^2 - 4ac$ |\n| 4 | Apply: $x = \\dfrac{-b \\pm \\sqrt{b^2-4ac}}{2a}$ |\n| 5 | Simplify both $+$ and $-$ solutions |",
+    "solution": "**Examples covered today:**\n- $g(x) = x^2-17x+72$ → $x = 8, 9$\n- $h(x) = x^2-5x-7$ → $x \\approx 6.14,\\,-1.14$\n- $h(x) = 13x-x^2+1$ → $x \\approx -0.08,\\,13.08$\n- $f(x) = -x^2-5x+7$ → $x \\approx -6.14,\\,1.14$\n- $f(x) = -1+2x^2-3x$ → $x \\approx 1.78,\\,-0.28$\n\n**Next Lecture:** The Discriminant — predicting solutions before solving!",
+    "pitfall": "**Sora’s Final Reminder:** Always check that your equation equals ZERO before applying the Quadratic Formula. If it equals a non-zero constant, move it first!",
+    "script": "[Prof. Park] We have reached Slide 8, our Lecture 41 Recap! Today we mastered the most powerful formula in algebra: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\n\n[TA Sora] Let's review the three golden rules of the Quadratic Formula: Rule 1: Set the equation strictly equal to zero first, and arrange in descending order $ax^2 + bx + c = 0$! Rule 2: Wrap negative numbers in parentheses when calculating $b^2$ and $-4ac$! Rule 3: The fraction bar extends under the ENTIRE numerator, including $-b$!\n\n[Prof. Park] Remember that when $c$ is negative, the $-4ac$ term becomes positive addition under the radical. And when simplifying radicals like $2\\sqrt{3}$, factor out the common divisor from both terms in the numerator before reducing!\n\n[TA Sora] In Lecture 42, we will zoom in on the expression under the square rootâ$b^2 - 4ac$âand discover how it predicts the exact nature and number of solutions before you do any math!\n\n[Prof. Park] Complete all Section 3.5 practice problems on pages 90 and 91 of your workbook tonight.\n\n[TA Sora] Great work today, Bobcats! See you in Lecture 42 for The Discriminant!\n\n[TA Sora] To conclude Lecture 41: Always write down a, b, and c explicitly in the margin of your test paper before plugging into the formula! In Lecture 42, we will study the expression inside the radical—the Discriminant b^2 - 4ac—and how it reveals the nature of solutions before you ever solve the equation!",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 15,
+      "yMin": -15,
+      "yMax": 10,
+      "xTicks": 2,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -17,
+          "c": 72,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "label": "1A"
+        },
+        {
+          "a": 1,
+          "b": -5,
+          "c": -7,
+          "color": "#ff9500",
+          "strokeWidth": 2,
+          "label": "1B"
+        }
+      ],
+      "points": [
+        {
+          "x": 8,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x=8"
+        },
+        {
+          "x": 9,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x=9"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Section 3.4: Completing the Square",
+    "subtitle": "Unit 3 • Lecture 40 • Section 3.4 (Workbook p. 75)",
+    "detail": "Lecture 40: Completing the Square",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Why Complete the Square? (Workbook p. 75)\nMany quadratic equations cannot be factored using whole numbers.\n**Completing the Square** is an algebraic technique that turns ANY quadratic expression into a **perfect square binomial**:\n$$x^2 + bx + \\mathbf{\\left(\\frac{b}{2}\\right)^2} = \\mathbf{\\left(x + \\frac{b}{2}\\right)^2}$$\n- Then we can solve it using the **Square Root Property** from Section 3.2!\n- The 'magic number' you must add to both sides is **$\\left(\\frac{b}{2}\\right)^2$**.",
+    "solution": "$$\\begin{aligned}\n\\text{Magic Number: } & \\mathbf{\\left(\\frac{b}{2}\\right)^2} \\\\[0.5em]\n\\text{Take half of } b: & \\frac{b}{2} \\\\\n\\text{Square it: } & \\left(\\frac{b}{2}\\right)^2 \\\\\n\\text{Factor result: } & \\left(x + \\frac{b}{2}\\right)^2\n\\end{aligned}$$",
+    "pitfall": "**Add to BOTH sides:** When solving an equation, if you add $(\\frac{b}{2})^2$ to the left side, you MUST add it to the right side to keep the balance!",
+    "script": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we enter Lecture 40 and Section 3.4 on page 86 of your workbook: Completing the Square.\n\n[TA Sora] Hello everyone! Section 3.4 is one of the most intellectually rewarding topics in all of algebra. So far, we've solved quadratics using the Square Root Property (when $b = 0$) and Factoring (when numbers factor nicely). But what if a quadratic doesn't factor, and $b \\neq 0$?\n\n[Prof. Park] That's where Completing the Square comes in. It is a brilliant mathematical technique that allows us to take ANY quadratic expression, no matter how stubborn or messy, and physically reshape it into a perfect binomial square of the form $(x + d)^2$!\n\n[TA Sora] And once it is packaged as a binomial square $(x + d)^2 = k$, we can solve it instantly using the Square Root Property from Section 3.2! Completing the Square is the bridge that turns an impossible factoring problem into a simple square root problem!\n\n[Prof. Park] Think about carpentry and tile work in Bozeman homes. If you have an L-shaped room of tiles measuring $x^2 + bx$, it is almost a complete square, but it has a missing corner! Completing the square literally calculates the exact missing tile piece needed to complete the square!\n\n[TA Sora] Turn to page 86 in your workbook. Let's find that missing corner pieceâthe 'Magic Number'âon Slide 2!\n\n[Prof. Park] Completing the Square is one of the most intellectually beautiful ideas in mathematics. It was invented over 1,200 years ago by Persian and Arabic astronomers who literally completed geometric physical squares of clay tiles! If you have an area x^2 + bx, you have a square of side x and two rectangular wings of width b/2. To make the entire shape into a perfect giant square, you are missing one tiny corner piece! That missing corner piece measures (b/2) by (b/2), which has area (b/2)^2! Adding (b/2)^2 physically completes the square!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.4 Example 1: Finding the 'Magic Number'",
+    "subtitle": "Unit 3 • Lecture 40 • Section 3.4 Example 1 (Workbook p. 75)",
+    "detail": "Lecture 40: Completing the Square",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 (Workbook p. 75)\nFind the constant term that must be added to each binomial to make it a perfect square trinomial, then write the factored form:\n- **A.** $x^2 + 6x + \\underline{\\quad}$\n- **B.** $x^2 - 10x + \\underline{\\quad}$\n- **C.** $x^2 + 5x + \\underline{\\quad}$",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. } b = 6: & \\quad \\left(\\frac{6}{2}\\right)^2 = (3)^2 = \\mathbf{9} \\implies x^2 + 6x + 9 = \\mathbf{(x + 3)^2} \\\\[0.8em]\n\\textbf{B. } b = -10: & \\quad \\left(\\frac{-10}{2}\\right)^2 = (-5)^2 = \\mathbf{25} \\implies x^2 - 10x + 25 = \\mathbf{(x - 5)^2} \\\\[0.8em]\n\\textbf{C. } b = 5: & \\quad \\left(\\frac{5}{2}\\right)^2 = \\mathbf{\\frac{25}{4}} \\implies x^2 + 5x + \\frac{25}{4} = \\mathbf{\\left(x + \\frac{5}{2}\\right)^2}\n\\end{aligned}$$",
+    "pitfall": "**The number inside the factored binomial:** The number inside the parentheses is ALWAYS half of $b$ ($\\frac{b}{2}$)! Look at $x+3$ (half of 6) and $x-5$ (half of $-10$)!",
+    "script": "[Prof. Park] Slide 2 introduces the heart of this section: Finding the 'Magic Number' that completes the square for $x^2 + bx$.\n\n[TA Sora] Here is the universal formula: to complete the square for $x^2 + bx$, you take half of the linear coefficient $b$, and square it! The magic number is $(b/2)^2$!\n\n[Prof. Park] Let's say that together: 'Half of $b$, squared!' Once you add $(b/2)^2$, the expression $x^2 + bx + (b/2)^2$ factors automatically into $(x + b/2)^2$!\n\n[TA Sora] Let's practice with three quick examples: Example A: $x^2 + 8x$. What is half of 8? It's 4. What is $4^2$? 16! Add 16, and you get $x^2 + 8x + 16 = (x + 4)^2$!\n\n[Prof. Park] Example B: $x^2 - 10x$. What is half of $-10$? It's $-5$. What is $(-5)^2$? $+25$! Notice the added number is ALWAYS positive because squaring any real number produces a positive! So $x^2 - 10x + 25 = (x - 5)^2$!\n\n[TA Sora] Example C: $x^2 + 5x$. What is half of 5? It's $5/2$. What is $(5/2)^2$? $25/4$! So $x^2 + 5x + 25/4 = (x + 5/2)^2$!\n\n[Prof. Park] Notice the pattern: inside the binomial square, the number is always $b/2$, including its sign! If $b$ is positive, it's $(x + b/2)^2$; if $b$ is negative, it's $(x - |b/2|)^2$.\n\n[TA Sora] Master that phrase: 'Half of $b$, squared!' That magic number unlocks everything!\n\n[TA Sora] That visual tile explanation is why the formula is (b/2)^2! You divide the middle coefficient by 2 because the rectangle was cut into two equal wings, and you square it because the missing corner is a square of side (b/2)! In Example 1: for x^2 + 8x, half of 8 is 4, and 4 squared is 16! Add 16, and you get x^2 + 8x + 16 = (x + 4)^2! Instant perfect square binomial!"
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.4 Example 2: Solving x^2 + 6x = 7",
+    "subtitle": "Unit 3 • Lecture 40 • Section 3.4 Example 2 (Workbook p. 75)",
+    "detail": "Lecture 40: Completing the Square",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 (Workbook p. 75)\nSolve the equation by completing the square:\n$$\\mathbf{x^2 + 6x = 7}$$\n- Add $(\\frac{6}{2})^2 = 9$ to both sides.\n- Factor the left side as a perfect square.\n- Apply the Square Root Property and solve.",
+    "solution": "$$\\begin{aligned}\nx^2 + 6x & = 7 \\\\[0.5em]\nx^2 + 6x + \\mathbf{9} & = 7 + \\mathbf{9} \\quad (\\text{add } 9 \\text{ to BOTH sides!}) \\\\[0.5em]\n(x + 3)^2 & = 16 \\\\[0.5em]\nx + 3 & = \\pm \\sqrt{16} \\\\[0.5em]\nx + 3 & = \\pm 4 \\\\[0.5em]\nx & = -3 \\pm 4 \\\\[0.8em]\n\\text{Case 1: } & x = -3 + 4 = \\mathbf{1} \\\\\n\\text{Case 2: } & x = -3 - 4 = \\mathbf{-7} \\\\[0.8em]\n\\mathbf{\\text{Solutions: }} & \\mathbf{x = 1 \\quad \\text{and} \\quad x = -7}\n\\end{aligned}$$",
+    "pitfall": "**Subtract 3 in front:** $x + 3 = \\pm 4 \\implies x = -3 \\pm 4$. Subtract 3 from both sides!",
+    "script": "[Prof. Park] On Slide 3, Section 3.4 Example 2 puts this to work on a full equation: Solve $x^2 + 6x = 7$ by completing the square.\n\n[TA Sora] Step 1: The variable terms $x^2 + 6x$ are already isolated on the left side, and the constant 7 is on the right side. That is our ideal starting position!\n\n[Prof. Park] Step 2: Find the magic number! Here $b = 6$. Take half of 6: $6 / 2 = 3$. Square it: $3^2 = 9$!\n\n[TA Sora] Step 3: The Golden Equation Rule! Whatever you add to the left side, you MUST add to the right side to keep the equation balanced! Add 9 to both sides: $x^2 + 6x + 9 = 7 + 9$!\n\n[Prof. Park] Step 4: The left side factors automatically into $(x + 3)^2$, and the right side is $7 + 9 = 16$! Look at our equation now: $(x + 3)^2 = 16$!\n\n[TA Sora] Look at that transformation! It is now an isolated binomial square equal to 16, exactly like our problems from Section 3.2!\n\n[Prof. Park] Step 5: Apply the Square Root Property: $x + 3 = \\pm \\sqrt{16} = \\pm 4$. Subtract 3: $x = -3 \\pm 4$!\n\n[TA Sora] Step 6: Branch out! $x = -3 + 4 = 1$, and $x = -3 - 4 = -7$!\n\n[Prof. Park] Our two solutions are $x = 1$ and $x = -7$. Let's check $x = 1$: $1^2 + 6(1) = 1 + 6 = 7$ (True!). For $x = -7$: $(-7)^2 + 6(-7) = 49 - 42 = 7$ (True!).\n\n[TA Sora] Completing the square took a general equation and converted it into a square root problem. Solution set: $\\{-7, 1\\}$!\n\n[Prof. Park] In Example 2: x^2 + 6x = 7. Notice the constant 7 is already isolated on the right side! Take half of 6: 3. Square it: 9. Now add 9 to BOTH sides: x^2 + 6x + 9 = 7 + 9. The left side factors into (x + 3)^2, and the right side is 16! Apply the Square Root Property: x + 3 = plus or minus sqrt(16) = plus or minus 4! x = -3 + 4 = 1, or x = -3 - 4 = -7. Clean, elegant, and completely justified by geometry!",
+    "graph": {
+      "xMin": -9,
+      "xMax": 3,
+      "yMin": -18,
+      "yMax": 10,
+      "title": "Example 2: f(x) = (x + 3)^2 - 16 = x^2 + 6x - 7",
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "label": "(1, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -7,
+          "y": 0,
+          "label": "(-7, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -3,
+          "y": -16,
+          "label": "Vertex (-3, -16)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": -7,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": -3
+    },
+    "coordinate": {
+      "xMin": -9,
+      "xMax": 4,
+      "yMin": -12,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": -7,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1,0)"
+        },
+        {
+          "x": -7,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-7,0)"
+        },
+        {
+          "x": -3,
+          "y": -16,
+          "color": "#ffd700",
+          "label": "V(-3,-16)"
+        }
+      ],
+      "axisOfSymmetry": -3
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.4 Example 3: Solving x^2 - 8x - 5 = 0",
+    "subtitle": "Unit 3 • Lecture 40 • Section 3.4 Example 3 (Workbook p. 76)",
+    "detail": "Lecture 40: Completing the Square",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 (Workbook p. 76)\nSolve the equation by completing the square:\n$$\\mathbf{x^2 - 8x - 5 = 0}$$\n- Move the constant $-5$ to the right side first.\n- Add $(\\frac{-8}{2})^2 = 16$ to both sides.\n- Solve for exact radical answers.",
+    "solution": "$$\\begin{aligned}\nx^2 - 8x & = 5 \\quad (\\text{move constant to right side}) \\\\[0.5em]\nx^2 - 8x + \\mathbf{16} & = 5 + \\mathbf{16} \\quad \\left(\\text{add } \\left(\\frac{-8}{2}\\right)^2 = 16\\right) \\\\[0.5em]\n(x - 4)^2 & = 21 \\\\[0.5em]\nx - 4 & = \\pm \\sqrt{21} \\\\[0.5em]\n\\mathbf{x} & = \\mathbf{4 \\pm \\sqrt{21}} \\\\[0.8em]\n\\text{Two exact roots: } & \\mathbf{x = 4 + \\sqrt{21} \\approx 8.58} \\quad \\text{and} \\quad \\mathbf{x = 4 - \\sqrt{21} \\approx -0.58}\n\\end{aligned}$$",
+    "pitfall": "**Notice this equation COULD NOT be factored:** There are no whole numbers multiplying to $-5$ and adding to $-8$. Completing the square solved it smoothly!",
+    "script": "[Prof. Park] Slide 4 presents Example 3: Solve $x^2 - 8x - 5 = 0$. Sora, notice that this equation cannot be factored over integers because no factors of $-5$ add to $-8$!\n\n[TA Sora] This is where Completing the Square proves its true worth! It doesn't care if numbers factor or not; it works every single time!\n\n[Prof. Park] Step 1: Move the constant term to the right side by adding 5 to both sides: $x^2 - 8x = 5$.\n\n[TA Sora] Step 2: Find the magic number! $b = -8$. Half of $-8$ is $-4$. Square it: $(-4)^2 = +16$!\n\n[Prof. Park] Step 3: Add 16 to BOTH sides of the equation: $x^2 - 8x + 16 = 5 + 16$!\n\n[TA Sora] Step 4: Package the left side as a square: $(x - 4)^2$. Simplify the right side: $5 + 16 = 21$! Our equation is $(x - 4)^2 = 21$!\n\n[Prof. Park] Step 5: Apply the Square Root Property: $x - 4 = \\pm \\sqrt{21}$. Add 4 to both sides: $x = 4 \\pm \\sqrt{21}$!\n\n[TA Sora] Since 21 has no perfect square factors ($21 = 3 \\times 7$), $\\sqrt{21}$ cannot be simplified. Our exact solutions are $x = 4 + \\sqrt{21}$ and $x = 4 - \\sqrt{21}$!\n\n[Prof. Park] And in decimal form: $\\sqrt{21} \\approx 4.58$, so $x \\approx 4 + 4.58 = 8.58$, and $x \\approx 4 - 4.58 = -0.58$.\n\n[TA Sora] Factoring was completely helpless on this problem, but Completing the Square solved it without breaking a sweat! Solution set: $\\{4 - \\sqrt{21}, 4 + \\sqrt{21}\\}$. Total victory!\n\n[TA Sora] In Example 3: x^2 - 8x - 5 = 0, we got x = 4 plus or minus sqrt(21). Notice that 21 is not a perfect square, so sqrt(21) is an irrational number (about 4.58). That explains why this equation could NEVER be factored with rational integers! Completing the square broke through the barrier where factoring failed!",
+    "graph": {
+      "xMin": -3,
+      "xMax": 10,
+      "yMin": -24,
+      "yMax": 6,
+      "title": "Example 3: f(x) = x^2 - 8x - 5 (x-ints at 4 ± sqrt(21))",
+      "points": [
+        {
+          "x": 4,
+          "y": -21,
+          "label": "Vertex (4, -21)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 8.58,
+          "y": 0,
+          "label": "4 + sqrt(21)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -0.58,
+          "y": 0,
+          "label": "4 - sqrt(21)",
+          "color": "#f59e0b"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": -8,
+          "c": -5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 4
+    },
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 10,
+      "yMin": -25,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -8,
+          "c": -5,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 8.58,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(8.58,0)"
+        },
+        {
+          "x": -0.58,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-0.58,0)"
+        },
+        {
+          "x": 4,
+          "y": -21,
+          "color": "#ffd700",
+          "label": "V(4,-21)"
+        }
+      ],
+      "axisOfSymmetry": 4
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.4 Example 4: Leading Coefficient a != 1",
+    "subtitle": "Unit 3 • Lecture 40 • Section 3.4 Example 4 (Workbook p. 77)",
+    "detail": "Lecture 40: Completing the Square",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4: When $a \\neq 1$ (Workbook p. 77)\nSolve by completing the square:\n$$\\mathbf{2x^2 + 12x - 10 = 0}$$\n- **Golden Rule:** Completing the square requires the leading coefficient to be **$1$**!\n- Divide EVERY term on both sides by $2$ first.",
+    "solution": "$$\\begin{aligned}\n\\frac{2x^2 + 12x - 10}{2} & = \\frac{0}{2} \\\\[0.5em]\nx^2 + 6x - 5 & = 0 \\\\[0.5em]\nx^2 + 6x & = 5 \\\\[0.5em]\nx^2 + 6x + \\mathbf{9} & = 5 + \\mathbf{9} \\quad \\left(\\text{add } \\left(\\frac{6}{2}\\right)^2 = 9\\right) \\\\[0.5em]\n(x + 3)^2 & = 14 \\\\[0.5em]\nx + 3 & = \\pm \\sqrt{14} \\\\[0.5em]\n\\mathbf{x} & = \\mathbf{-3 \\pm \\sqrt{14}}\n\\end{aligned}$$",
+    "pitfall": "**Divide by a FIRST:** You CANNOT find the magic number while the coefficient of $x^2$ is 2! Always divide everything by $a$ first!",
+    "script": "[Prof. Park] On Slide 5, Example 4 raises the difficulty bar: Solve $2x^2 + 12x - 10 = 0$. Sora, look at the leading coefficient: $a = 2$. Can we complete the square while $a = 2$?\n\n[TA Sora] Absolutely not! The #1 rule of Completing the Square is: 'The leading coefficient MUST be 1 before you take half of $b$!' If $a \\neq 1$, divide first!\n\n[Prof. Park] So divide every term on both sides by 2: $\\frac{2x^2}{2} + \\frac{12x}{2} - \\frac{10}{2} = 0$, giving $x^2 + 6x - 5 = 0$.\n\n[TA Sora] Step 2: Move the constant $-5$ to the right side: $x^2 + 6x = 5$.\n\n[Prof. Park] Step 3: Find the magic number! $b = 6$. Half of 6 is 3. Square it: $3^2 = 9$. Add 9 to both sides: $x^2 + 6x + 9 = 5 + 9 = 14$!\n\n[TA Sora] Step 4: Write the left side as a binomial square: $(x + 3)^2 = 14$!\n\n[Prof. Park] Step 5: Take the square root of both sides: $x + 3 = \\pm \\sqrt{14}$. Subtract 3: $x = -3 \\pm \\sqrt{14}$!\n\n[TA Sora] Exact radical solution set: $\\{-3 - \\sqrt{14}, -3 + \\sqrt{14}\\}$. Always divide by $a$ first!",
+    "coordinate": {
+      "xMin": -7,
+      "xMax": 4,
+      "yMin": -20,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 2,
+          "b": 8,
+          "c": -10,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1,0)"
+        },
+        {
+          "x": -5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-5,0)"
+        },
+        {
+          "x": -2,
+          "y": -18,
+          "color": "#ffd700",
+          "label": "V(-2,-18)"
+        }
+      ],
+      "axisOfSymmetry": -2
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Connection to Vertex Form",
+    "title": "Converting General Form to Vertex Form via CTS",
+    "subtitle": "Unit 3 • Lecture 40 • Section 3.4 Application",
+    "detail": "Lecture 40: Completing the Square",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Transforming $f(x) = x^2 - 6x + 5$ into Vertex Form\nWatch how completing the square transforms General Form into Vertex Form:\n- Group the $x$-terms: $(x^2 - 6x) + 5$.\n- Complete the square inside: add $9$ and subtract $9$ to keep balance!\n- State the vertex $(h, k)$.",
+    "solution": "$$\\begin{aligned}\nf(x) & = (x^2 - 6x) + 5 \\\\[0.5em]\n& = (x^2 - 6x + \\mathbf{9}) + 5 - \\mathbf{9} \\quad (\\text{add and subtract } 9) \\\\[0.5em]\n& = \\mathbf{(x - 3)^2 - 4} \\\\[0.8em]\n\\mathbf{\\text{Vertex: }} & \\mathbf{(3, -4)} \\quad \\implies \\quad \\text{Vertex Form matches Section 3.0 Example 5!}\n\\end{aligned}$$",
+    "pitfall": "**Add and subtract on the same side:** If you work on one side of an expression, adding $9$ and subtracting $9$ adds zero overall, preserving the equation!",
+    "script": "[Prof. Park] Slide 6 reveals a magnificent application of Completing the Square: Converting General Form $f(x) = ax^2 + bx + c$ into Vertex Form $f(x) = a(x - h)^2 + k$!\n\n[TA Sora] In Section 3.1, we loved vertex form because the vertex $(h, k)$ was obvious. Now, Completing the Square gives us the exact tool to create vertex form whenever we want!\n\n[Prof. Park] Let's convert $f(x) = x^2 - 6x + 13$ into vertex form: Step 1: Group the $x$ terms together and leave a space for the magic number: $f(x) = (x^2 - 6x + \\underline{\\quad}) + 13$.\n\n[TA Sora] Step 2: Find the magic number! Half of $-6$ is $-3$, and $(-3)^2 = 9$. We add 9 inside the parentheses. But wait! Since this is an expression on one side of a function, if we add 9, we must simultaneously SUBTRACT 9 to keep the function equal!\n\n[Prof. Park] Exactly! Add 9 and subtract 9: $f(x) = (x^2 - 6x + 9) + 13 - 9$.\n\n[TA Sora] Step 3: Package the trinomial into a square: $(x - 3)^2$. Combine the numbers outside: $13 - 9 = +4$!\n\n[Prof. Park] Look at our result: $f(x) = (x - 3)^2 + 4$! We have converted the general form into pristine vertex form!\n\n[TA Sora] And what can we read immediately from $(x - 3)^2 + 4$? The vertex is $(3, 4)$, the axis of symmetry is $x = 3$, and the minimum value is 4!\n\n[Prof. Park] Completing the square is not just a solving method; it is a structural transformation tool.\n\n[TA Sora] Notice the huge engineering advantage of completing the square: It converts general form f(x) = ax^2 + bx + c into VERTEX FORM f(x) = a(x - h)^2 + k! From vertex form, you can read the peak height and location (h, k) instantly with zero extra calculations! In satellite dish design and parabolic microphone engineering at MSU, vertex form is the industry standard.",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -4,
+          "c": 1,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": -3,
+          "color": "#ffd700",
+          "label": "V(2,-3)"
+        },
+        {
+          "x": 0.27,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2-√3,0)"
+        },
+        {
+          "x": 3.73,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2+√3,0)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Step-by-Step Summary",
+    "title": "Sora's Complete CTS Protocol",
+    "subtitle": "Unit 3 • Lecture 40 • Section 3.4 Protocol",
+    "detail": "Lecture 40: Completing the Square",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Master 5-Step CTS Protocol\n1. **Ensure $a = 1$:** If $a \\neq 1$, divide all terms on both sides by $a$.\n2. **Isolate variable terms:** Move constant $c$ to the right side: $x^2 + bx = -c$.\n3. **Compute magic number:** Calculate $(\\frac{b}{2})^2$.\n4. **Add to BOTH sides:** $x^2 + bx + (\\frac{b}{2})^2 = -c + (\\frac{b}{2})^2$.\n5. **Factor and solve:** $(x + \\frac{b}{2})^2 = k \\implies x = -\\frac{b}{2} \\pm \\sqrt{k}$.",
+    "solution": "$$\\mathbf{\\text{Result: Solves EVERY quadratic equation, factorable or unfactorable!}}$$",
+    "pitfall": "**Fraction b values:** If $b$ is odd (like $b = 5$), $(\\frac{5}{2})^2 = \\frac{25}{4}$. Don't fear fractions; just find common denominators!",
+    "script": "[Prof. Park] Slide 7 presents 'Sora's Complete CTS Protocol.' Here is the master 5-step checklist for Completing the Square.\n\n[TA Sora] Step 1: 'Make $a = 1$.' If there is a leading coefficient $a \\neq 1$, divide every term in the equation by $a$.\n\n[Prof. Park] Step 2: 'Isolate Variables.' Move the constant term to the right side of the equals sign: $x^2 + bx = \\text{constant}$.\n\n[TA Sora] Step 3: 'The Magic Number.' Calculate $(b/2)^2$. Add this magic number to BOTH sides of the equation without fail!\n\n[Prof. Park] Step 4: 'Package the Square.' Rewrite the left side as $(x + b/2)^2$, and simplify the numerical sum on the right side.\n\n[TA Sora] Step 5: 'Square Root & Solve.' Apply the Square Root Property: $x + b/2 = \\pm \\sqrt{k}$. Subtract $b/2$ to find your final exact solutions: $x = -b/2 \\pm \\sqrt{k}$!\n\n[Prof. Park] Look at that final formula: $x = -b/2 \\pm \\sqrt{k}$. Notice that $-b/2$! It is the exact same structure as the Quadratic Formula!\n\n[TA Sora] Practice this 5-step checklist until you can write it in your sleep!"
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.4 Mastery Summary & The Gateway to the Formula",
+    "subtitle": "Unit 3 • Lecture 40 • Section 3.4 Wrap-up",
+    "detail": "Lecture 40: Completing the Square",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Gateway to Section 3.5\n- Completing the square proved that ANY quadratic equation can be solved.\n- In Section 3.5, we complete the square on the abstract symbols $ax^2 + bx + c = 0$ once and for all.\n- That yields the crown jewel of algebra: **The Quadratic Formula**!",
+    "solution": "$$\\mathbf{\\text{Section 3.4 Mastered! Next Up: Section 3.5 — The Quadratic Formula!}}$$",
+    "pitfall": "**Celebrate your progress:** You have conquered Square Root Property, Factoring, and Completing the Square!",
+    "script": "[Prof. Park] We have arrived at Slide 8, our Section 3.4 Mastery Summary and the Gateway to the Quadratic Formula!\n\n[TA Sora] What a milestone today was! Completing the Square gives us universal power: it solves any quadratic equation, regardless of whether it factors.\n\n[Prof. Park] We learned that adding $(b/2)^2$ to both sides transforms $x^2 + bx$ into $(x + b/2)^2$. We used it to solve equations with irrational roots like $4 \\pm \\sqrt{21}$, and we used it to convert general form into vertex form.\n\n[TA Sora] And here is the grand historical reveal: If you take the literal general quadratic equation $ax^2 + bx + c = 0$ with unknown letters $a$, $b$, and $c$, and you apply our 5-step Completing the Square protocol to it...\n\n[Prof. Park] Out pops the most famous formula in the history of mathematics: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$âThe Quadratic Formula!\n\n[TA Sora] That's right! In Lecture 41, we will unleash the Quadratic Formula, knowing that its beating heart was born right here in Completing the Square.\n\n[Prof. Park] Complete your Section 3.4 homework on pages 86 through 89 tonight. Be proud of the immense mathematical strength you are developing.\n\n[TA Sora] Keep shining, Bobcats! We will see you in Lecture 41 for the Quadratic Formula!\n\n[Prof. Park] That concludes Section 3.4! Completing the Square proved that ANY quadratic equation can be solved analytically. And in fact, if you complete the square on the general formula ax^2 + bx + c = 0, you derive the most famous formula in algebra: The Quadratic Formula! We will master that universal master key in Lecture 41!"
+  }
+]

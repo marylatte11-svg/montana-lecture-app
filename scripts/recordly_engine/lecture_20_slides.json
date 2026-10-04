@@ -1,0 +1,374 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "The Slope of a Line: Rise Over Run & Formula",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 (Workbook p. 38)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Section 2.2: Slope of a Line (Workbook p. 38)\nSlope measures the **steepness and direction** of a straight line:\n$$\\mathbf{\\text{Slope } = m = \\frac{\\text{Rise}}{\\text{Run}} = \\frac{\\text{Change in } y}{\\text{Change in } x} = \\frac{y_2 - y_1}{x_2 - x_1}}$$\n- **Positive Slope ($m > 0$):** Line rises from left to right.\n- **Negative Slope ($m < 0$):** Line falls from left to right.\n- **Zero Slope ($m = 0$):** Horizontal line.\n- **Undefined Slope:** Vertical line (division by zero).",
+    "solution": "$$\\begin{aligned}\n\\text{Formula: } & m = \\frac{y_2 - y_1}{x_2 - x_1} \\\\[0.5em]\n\\text{Numerator: } & \\Delta y = y_2 - y_1 \\quad (\\text{vertical rise/fall}) \\\\\n\\text{Denominator: } & \\Delta x = x_2 - x_1 \\quad (\\text{horizontal run right})\n\\end{aligned}$$",
+    "pitfall": "**Y over X:** Slope is ALWAYS change in $y$ over change in $x$. Never flip it to $\\frac{x_2 - x_1}{y_2 - y_1}$!",
+    "script": "[Prof. Park] Welcome to Lecture 20 of M090! Today, on pages 38 and 39 of your workbook, we begin Section 2.2: The Slope of a Line and Rates of Change.\n\n[TA Sora] If there is one concept in all of introductory algebra that echoes through physics, engineering, chemistry, economics, and calculus, it is the concept of **Slope**!\n\n[Prof. Park] Geometrically, slope measures two distinct properties of a line: its **steepness** (how steeply it rises or falls) and its **direction** (whether it tilts uphill, downhill, flat, or vertical).\n\n[TA Sora] In English, we define slope as the ratio of the vertical change to the horizontal change:\n$$\\text{Slope } m = \\frac{\\text{Vertical Change}}{\\text{Horizontal Change}} = \\frac{\\text{Rise}}{\\text{Run}}$$\nAnd mathematically, if you are given any two points $(x_1, y_1)$ and $(x_2, y_2)$ on a line, the slope formula is:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\Delta y}{\\Delta x}$$\n\n[Prof. Park] Notice that Greek letter $\\Delta$ (Delta). In science, $\\Delta$ always symbolizes 'change in.' $\\Delta y$ is the change in vertical elevation, and $\\Delta x$ is the change in horizontal distance.\n\n[TA Sora] Think about real life here in Bozeman: when highway engineers build Interstate 90 over Bozeman Pass, road signs warn truckers of a '6% grade.' That means the road rises or drops 6 vertical feet for every 100 horizontal feet! In roofing, carpenters measure pitch as rise per 12 inches of run. Slope is woven into the physical world all around us!\n\n[Prof. Park] In the Rocky Mountains of Montana, slope is not an abstract formula—it is a physical reality that dictates highway design and avalanche safety. The Montana Department of Transportation posts yellow warning signs on Interstate 90 over Bozeman Pass: '6% Grade Next 5 Miles.' What does a 6% grade mean in algebra? It means a slope of m = 6 / 100 = 3 / 50: for every 100 feet of horizontal run, the highway rises or drops 6 vertical feet! Slope is the universal measure of steepness and rate of change."
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 1A: Slope between (2, 3) and (5, 7)",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 Example 1A (Workbook p. 38)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1A (Workbook p. 38)\nFind the slope of the line that passes through the two given points:\n$$\\mathbf{(2, 3) \\quad \\text{and} \\quad (5, 7)}$$\n- Label $(x_1, y_1)$ and $(x_2, y_2)$.\n- Apply the slope formula and simplify.\n- State the rise and run.",
+    "solution": "$$\\begin{aligned}\n\\text{Let } & (x_1, y_1) = (2, 3) \\quad \\text{and} \\quad (x_2, y_2) = (5, 7) \\\\[0.5em]\nm & = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{7 - 3}{5 - 2} \\\\[0.5em]\n& = \\frac{4}{3} \\\\[0.5em]\n\\mathbf{\\text{Slope } m: } & \\mathbf{\\frac{4}{3}} \\quad (\\text{Rise } = +4, \\; \\text{Run } = +3)\n\\end{aligned}$$",
+    "pitfall": "**Order consistency:** If you start with $y_2$ in the numerator, you MUST start with $x_2$ in the denominator!",
+    "script": "[Prof. Park] Let us apply the slope formula directly to Example 1A on page 38: Find the slope of the line passing through $(2, 3)$ and $(5, 7)$.\n\n[TA Sora] Step 1: Label your coordinates clearly to avoid mixing them up!\nLet $(x_1, y_1) = (2, 3)$ and $(x_2, y_2) = (5, 7)$.\nWrite down the formula before plugging in numbers:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$\n\n[Prof. Park] Now substitute our values carefully:\n$$m = \\frac{7 - 3}{5 - 2}$$\nIn the numerator, $7 - 3 = 4$. That is our Rise!\nIn the denominator, $5 - 2 = 3$. That is our Run!\nTherefore, our slope is:\n$$m = \\frac{4}{3}$$\n\n[TA Sora] What if a student swapped the order and labeled $(5, 7)$ as point 1 and $(2, 3)$ as point 2? Let us calculate:\n$$m = \\frac{3 - 7}{2 - 5} = \\frac{-4}{-3} = +\\frac{4}{3}!$$\nYou get the exact same answer! It does not matter which point you call Point 1 and which you call Point 2, as long as you subtract in the SAME order in both the numerator and the denominator!\n\n[Prof. Park] That is a crucial insight. The fatal error is subtracting $y$ in one direction and $x$ in the opposite direction. Always stay consistent! Since $m = +4/3 > 0$, the line rises from left to right.\n\n[TA Sora] In Example 1A, finding the slope between (2, 3) and (5, 7): m = (7 - 3) / (5 - 2) = 4 / 3. Notice what happens if you reverse the points: m = (3 - 7) / (2 - 5) = -4 / -3 = +4/3! You get the exact same answer! It does not matter which point you designate as Point 1 and which as Point 2, as long as you stay consistent: if you start with the y-value of the second point upstairs, you MUST start with the x-value of the second point downstairs!",
+    "graph": {
+      "xMin": 0,
+      "xMax": 8,
+      "yMin": 0,
+      "yMax": 9,
+      "title": "Slope Triangle: m = 4/3 between (2, 3) and (5, 7)",
+      "points": [
+        {
+          "x": 2,
+          "y": 3,
+          "label": "(2, 3)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 5,
+          "y": 7,
+          "label": "(5, 7)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "p1": [
+            2,
+            3
+          ],
+          "p2": [
+            5,
+            7
+          ],
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "m = 4/3"
+        }
+      ],
+      "slopeTriangle": {
+        "x1": 2,
+        "y1": 3,
+        "x2": 5,
+        "y2": 7,
+        "rise": 4,
+        "run": 3
+      }
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 1B: Slope between (3, -4) and (-2, -8)",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 Example 1B (Workbook p. 38)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1B (Workbook p. 38)\nFind the slope of the line that passes through the two given points:\n$$\\mathbf{(3, -4) \\quad \\text{and} \\quad (-2, -8)}$$\n- Watch the double negatives carefully when subtracting!\n- Simplify the fraction to lowest terms.",
+    "solution": "$$\\begin{aligned}\n\\text{Let } & (x_1, y_1) = (3, -4) \\quad \\text{and} \\quad (x_2, y_2) = (-2, -8) \\\\[0.5em]\nm & = \\frac{-8 - (-4)}{-2 - 3} \\\\[0.5em]\n& = \\frac{-8 + 4}{-5} = \\frac{-4}{-5} \\\\[0.5em]\n\\mathbf{\\text{Slope } m: } & \\mathbf{\\frac{4}{5}}\n\\end{aligned}$$",
+    "pitfall": "**Double negative sign trap:** $-8 - (-4) = -8 + 4 = -4$. And $\\frac{-4}{-5} = +\\frac{4}{5}$. A negative divided by a negative is positive!",
+    "script": "[Prof. Park] Now let us tackle Example 1B on page 38: Find the slope of the line passing through $(3, -4)$ and $(-2, -8)$.\n\n[TA Sora] Look at all those negative signs! This is where TA Sora's Protective Parentheses Rule becomes your best friend. Whenever you subtract a negative number, wrap it in parentheses so you do not drop a sign!\n\n[Prof. Park] Let $(x_1, y_1) = (3, -4)$ and $(x_2, y_2) = (-2, -8)$.\nSubstitute into the formula with protective parentheses:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-8 - (-4)}{-2 - 3}$$\n\n[TA Sora] Now simplify step by step:\nIn the numerator: $-8 - (-4)$ becomes $-8 + 4 = -4$!\nIn the denominator: $-2 - 3$ becomes $-5$!\nSo we have:\n$$m = \\frac{-4}{-5}$$\nAnd what is a negative divided by a negative, Professor?\n\n[Prof. Park] A negative divided by a negative is always a positive!\n$$m = \\frac{4}{5}$$\n\n[TA Sora] Exactly! Many students accidentally leave the answer as $\\frac{-4}{-5}$ or make a sign mistake and get $-\\frac{4}{5}$. By using protective parentheses, $-8 - (-4)$ clearly became $-8 + 4 = -4$, and the two negatives cancel out to give a positive slope $m = +4/5$. The line rises gently from left to right!\n\n[Prof. Park] In Example 1B, between (3, -4) and (-2, -8): Look at the double negative upstairs: y2 - y1 = -8 - (-4) = -8 + 4 = -4. And downstairs: x2 - x1 = -2 - 3 = -5. Then -4 / -5 = +4/5! That is where Sora's protective parentheses pay off: wrapping negative coordinates in parentheses prevents accidental addition errors!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 6,
+      "yMin": -10,
+      "yMax": 2,
+      "title": "Slope Triangle: m = 4/5 between (-2, -8) and (3, -4)",
+      "points": [
+        {
+          "x": -2,
+          "y": -8,
+          "label": "(-2, -8)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 3,
+          "y": -4,
+          "label": "(3, -4)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "p1": [
+            -2,
+            -8
+          ],
+          "p2": [
+            3,
+            -4
+          ],
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "m = 4/5"
+        }
+      ],
+      "slopeTriangle": {
+        "x1": -2,
+        "y1": -8,
+        "x2": 3,
+        "y2": -4,
+        "rise": 4,
+        "run": 5
+      }
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 1C: Slope between (3, 7) and (3, -10)",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 Example 1C (Workbook p. 38)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1C (Workbook p. 38)\nFind the slope of the line that passes through the two given points:\n$$\\mathbf{(3, 7) \\quad \\text{and} \\quad (3, -10)}$$\n- What happens to the denominator $x_2 - x_1$?\n- State the value of the slope.",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{-10 - 7}{3 - 3} \\\\[0.5em]\n& = \\frac{-17}{0} \\\\[0.5em]\n\\mathbf{\\text{Slope } m: } & \\mathbf{\\text{Undefined}} \\\\[0.5em]\n\\text{Line Type: } & \\mathbf{\\text{Vertical line } x = 3}\n\\end{aligned}$$",
+    "pitfall": "**Division by zero is undefined:** When the denominator is $0$, the slope is UNDEFINED. It is NOT zero! (Think of VUX: Vertical = Undefined = X).",
+    "script": "[Prof. Park] Look at Example 1C on page 38: Find the slope of the line passing through $(3, 7)$ and $(3, -10)$. Look very closely at those two points before writing anything down. What do you notice, Sora?\n\n[TA Sora] Both points have the exact same $x$-coordinate: $x_1 = 3$ and $x_2 = 3$! If both points share the same horizontal coordinate, they must sit vertically above and below each other on the grid!\n\n[Prof. Park] Let us run the formula and see what happens algebraically:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-10 - 7}{3 - 3}$$\nIn the numerator: $-10 - 7 = -17$.\nIn the denominator: $3 - 3 = 0$!\n$$m = \\frac{-17}{0}$$\n\n[TA Sora] Red alert! We have a zero in the denominator! In mathematics, dividing any number by zero is strictly impossible and undefined!\n\n[Prof. Park] Therefore, the slope of this line is **UNDEFINED**. It does not exist as a real number. \n\n[TA Sora] And remember our HOY VUX rule from Lecture 19:\nV - U - X!\nVertical line, Undefined slope, equation $x = 3$!\nWhenever the $x$-coordinates are identical, the denominator is zero, the slope is undefined, and the line is a vertical cliff!\n\n[TA Sora] Look at Example 1C between (3, 7) and (3, -10): Notice the x-coordinates: both are 3! Downstairs we get: 3 - 3 = 0. m = -17 / 0 = UNDEFINED! Whenever two points share the exact same x-coordinate, the line connecting them is VERTICAL (VUX: x = 3), and the slope is UNDEFINED!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 8,
+      "yMin": -12,
+      "yMax": 10,
+      "title": "Vertical Line x = 3: Undefined Slope",
+      "points": [
+        {
+          "x": 3,
+          "y": 7,
+          "label": "(3, 7)",
+          "color": "#10b981"
+        },
+        {
+          "x": 3,
+          "y": -10,
+          "label": "(3, -10)",
+          "color": "#ec4899"
+        }
+      ],
+      "lines": [
+        {
+          "vertical": 3,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "x = 3"
+        }
+      ]
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 1D: Slope between (-2, -5) and (3, -5)",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 Example 1D (Workbook p. 38)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1D (Workbook p. 38)\nFind the slope of the line that passes through the two given points:\n$$\\mathbf{(-2, -5) \\quad \\text{and} \\quad (3, -5)}$$\n- What happens to the numerator $y_2 - y_1$?\n- State the value of the slope.",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{-5 - (-5)}{3 - (-2)} \\\\[0.5em]\n& = \\frac{-5 + 5}{3 + 2} = \\frac{0}{5} \\\\[0.5em]\n\\mathbf{\\text{Slope } m: } & \\mathbf{0} \\\\[0.5em]\n\\text{Line Type: } & \\mathbf{\\text{Horizontal line } y = -5}\n\\end{aligned}$$",
+    "pitfall": "**Zero in numerator vs denominator:** $\\frac{0}{5} = 0$ (perfectly fine, zero slope). $\\frac{5}{0} = \\text{Undefined}$ (division by zero error)!",
+    "script": "[Prof. Park] Now examine Example 1D on page 38: Find the slope of the line passing through $(-2, -5)$ and $(3, -5)$. What do you notice about these two points?\n\n[TA Sora] Now the $y$-coordinates are identical: $y_1 = -5$ and $y_2 = -5$! Both points share the exact same vertical elevation!\n\n[Prof. Park] Let us apply the slope formula:\n$$m = \\frac{-5 - (-5)}{3 - (-2)}$$\nIn the numerator: $-5 - (-5) = -5 + 5 = 0$!\nIn the denominator: $3 - (-2) = 3 + 2 = 5$.\n$$m = \\frac{0}{5} = 0$$\n\n[TA Sora] Notice the enormous difference between Example 1C and Example 1D:\nIn Example 1C, the zero was in the denominator ($\frac{-17}{0}$), which is **Undefined**!\nHere in Example 1D, the zero is in the numerator ($\frac{0}{5}$), which is perfectly valid and equals **Zero** ($0$)!\n\n[Prof. Park] Think about sharing: If you have zero cookies to divide among five students, each student receives zero cookies! That is a perfectly legitimate real number. \n\n[TA Sora] And recall HOY:\nH - O - Y!\nHorizontal line, Zero ($0$) slope, equation $y = -5$!\nA flat horizontal line has a slope of zero. Do not mix up zero slope with undefined slope!\n\n[Prof. Park] And compare that with Example 1D between (-2, -5) and (3, -5): Notice the y-coordinates: both are -5! Upstairs we get: -5 - (-5) = -5 + 5 = 0. m = 0 / 5 = 0! Whenever two points share the exact same y-coordinate, the line is HORIZONTAL (HOY: y = -5), and the slope is exactly ZERO!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -8,
+      "yMax": 2,
+      "title": "Horizontal Line y = -5: Slope m = 0",
+      "points": [
+        {
+          "x": -2,
+          "y": -5,
+          "label": "(-2, -5)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 3,
+          "y": -5,
+          "label": "(3, -5)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "horizontal": -5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = -5"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 1E: Fraction Coordinates",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 Example 1E (Workbook p. 38)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1E: Fraction Coordinates (Workbook p. 38)\nFind the slope of the line passing through:\n$$\\mathbf{\\left(\\frac{4}{3}, \\frac{1}{3}\\right) \\quad \\text{and} \\quad \\left(-\\frac{3}{5}, \\frac{7}{5}\\right)}$$\n- Subtract the $y$-coordinates using a common denominator.\n- Subtract the $x$-coordinates using a common denominator.\n- Simplify the complex fraction.",
+    "solution": "$$\\begin{aligned}\n\\Delta y & = \\frac{7}{5} - \\frac{1}{3} = \\frac{21}{15} - \\frac{5}{15} = \\frac{16}{15} \\\\[0.6em]\n\\Delta x & = -\\frac{3}{5} - \\frac{4}{3} = -\\frac{9}{15} - \\frac{20}{15} = -\\frac{29}{15} \\\\[0.6em]\nm & = \\frac{\\frac{16}{15}}{-\\frac{29}{15}} = \\frac{16}{15} \\cdot \\left(-\\frac{15}{29}\\right) = \\mathbf{-\\frac{16}{29}}\n\\end{aligned}$$",
+    "pitfall": "**Simplifying complex fractions:** Multiply by the reciprocal of the denominator! Notice the LCD 15 cancels out beautifully.",
+    "script": "[Prof. Park] Turn to Example 1E on page 38: Fraction Coordinates! Find the slope of the line passing through $\\left(\\frac{1}{2}, \\frac{1}{3}\\right)$ and $\\left(\\frac{3}{4}, \\frac{7}{5}\\right)$.\n\n[TA Sora] When students see fraction coordinates, their hearts often beat a little faster! But don't panicâthis is simply Unit 1 fraction arithmetic combined with our slope formula. Take it one piece at a time!\n\n[Prof. Park] Let us compute the numerator ($\\Delta y$) first:\n$$\\Delta y = y_2 - y_1 = \\frac{7}{5} - \\frac{1}{3}$$\nFind the least common denominator between 5 and 3, which is 15:\n$$\\frac{7 \\times 3}{15} - \\frac{1 \\times 5}{15} = \\frac{21}{15} - \\frac{5}{15} = \\frac{16}{15}$$\n\n[TA Sora] Now compute the denominator ($\\Delta x$):\n$$\\Delta x = x_2 - x_1 = \\frac{3}{4} - \\frac{1}{2}$$\nThe common denominator between 4 and 2 is 4:\n$$\\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$$\n\n[Prof. Park] Now assemble the complex fraction:\n$$m = \\frac{\\Delta y}{\\Delta x} = \\frac{\\frac{16}{15}}{\\frac{1}{4}}$$\nHow do we divide two fractions, Sora?\n\n[TA Sora] Multiply by the reciprocal of the denominator! 'Keep, Change, Flip!'\n$$m = \\frac{16}{15} \\times \\frac{4}{1} = \\frac{64}{15}$$\nCan 64 and 15 be simplified? 64 has factors of 2; 15 has factors of 3 and 5. There are no common factors, so our final slope is $\\frac{64}{15}$! Beautiful, patient pencil work!\n\n[TA Sora] In Example 1E with fraction coordinates, always multiply numerator and denominator by the common denominator to clear inner fractions. Never fear fractions—treat them with our clear-by-LCD strategy from Lecture 13!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 3,
+      "yMin": -1,
+      "yMax": 3,
+      "title": "Slope with Fractional Coordinates: m = -16/29",
+      "points": [
+        {
+          "x": 1.3333333333333333,
+          "y": 0.3333333333333333,
+          "label": "(4/3, 1/3)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -0.6,
+          "y": 1.4,
+          "label": "(-3/5, 7/5)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "p1": [
+            -0.6,
+            1.4
+          ],
+          "p2": [
+            1.3333333333333333,
+            0.3333333333333333
+          ],
+          "color": "#38bdf8",
+          "strokeWidth": 2
+        }
+      ]
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 2A: Counting Slope from a Graph",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 Example 2A (Workbook p. 39)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2A (Workbook p. 39)\nFind the slope of the line shown in the graph:\n- Identify two grid intersections: $(0, 1)$ and $(3, 3)$.\n- Count the vertical rise from the first point to the second.\n- Count the horizontal run to the right.\n- Write the slope $m = \\frac{\\text{Rise}}{\\text{Run}}$.",
+    "solution": "$$\\begin{aligned}\n\\text{Point 1: } & (0, 1) \\\\\n\\text{Point 2: } & (3, 3) \\\\[0.5em]\n\\text{Rise: } & 3 - 1 = \\mathbf{+2 \\text{ units (UP)}} \\\\\n\\text{Run: } & 3 - 0 = \\mathbf{+3 \\text{ units (RIGHT)}} \\\\[0.8em]\n\\mathbf{\\text{Slope } m: } & \\mathbf{\\frac{2}{3}}\n\\end{aligned}$$",
+    "pitfall": "**Finding clean grid points:** When reading a slope from a graph, always pick points where the line crosses the grid corners exactly, avoiding fractional estimates!",
+    "script": "[Prof. Park] Moving to page 39, Example 2A: Finding the slope directly by counting Rise over Run from a given graph!\n\n[TA Sora] Sometimes on an exam, you are not given coordinates in a sentence; you are simply handed a graph with a line drawn on a grid. To find the slope visually:\nStep 1: Identify two clean grid intersectionsâpoints where the line crosses grid lines exactly at integer coordinates.\nLooking at Example 2A, the line crosses cleanly at Point 1: $(0, 1)$ and Point 2: $(3, 3)$!\n\n[Prof. Park] Step 2: Draw a right triangle between those two points, called a 'slope triangle.'\nStart at $(0, 1)$ and travel vertically to match the height of Point 2:\nYou climb upward from $y = 1$ to $y = 3$. That is a **Rise** of $+2$ units!\n\n[TA Sora] Step 3: Now travel horizontally to reach Point 2:\nYou run to the right from $x = 0$ to $x = 3$. That is a **Run** of $+3$ units!\n\n[Prof. Park] Step 4: Write the ratio of Rise over Run:\n$$m = \\frac{\\text{Rise}}{\\text{Run}} = \\frac{+2}{+3} = \\frac{2}{3}$$\n\n[TA Sora] And do a quick common-sense reality check: Does the line slant uphill from left to right? Yes, it rises like a gentle hiking trail up Peets Hill in Bozeman. Uphill lines must have positive slopes, so $+2/3$ makes total visual sense!\n\n[Prof. Park] In Example 2A, counting slope from a graph: Start at the lower point, count up (rise), then count right (run). Drawing a right-triangle on your graph paper makes finding slope completely visual and intuitive.",
+    "graph": {
+      "xMin": -3,
+      "xMax": 6,
+      "yMin": -2,
+      "yMax": 5,
+      "title": "Example 2A: Counting Rise = 2, Run = 3 (m = 2/3)",
+      "points": [
+        {
+          "x": 0,
+          "y": 1,
+          "label": "(0, 1)",
+          "color": "#10b981"
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "label": "(3, 3)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.6666666666666666,
+          "yIntercept": 1,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "slopeTriangle": {
+        "x1": 0,
+        "y1": 1,
+        "x2": 3,
+        "y2": 3,
+        "rise": 2,
+        "run": 3
+      }
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 2B: Counting Negative Slope from Graph",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 Example 2B (Workbook p. 39)",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2B (Workbook p. 39)\nFind the slope of the line shown in the graph:\n- Identify two grid intersections: $(0, 4)$ and $(2, 0)$.\n- Determine whether the line is rising or falling from left to right.\n- Count the rise and run to calculate $m$.",
+    "solution": "$$\\begin{aligned}\n\\text{Point 1: } & (0, 4) \\\\\n\\text{Point 2: } & (2, 0) \\\\[0.5em]\n\\text{Rise: } & 0 - 4 = \\mathbf{-4 \\text{ units (DOWN 4)}} \\\\\n\\text{Run: } & 2 - 0 = \\mathbf{+2 \\text{ units (RIGHT 2)}} \\\\[0.8em]\nm & = \\frac{-4}{2} = \\mathbf{-2}\n\\end{aligned}$$",
+    "pitfall": "**Downhill lines must have negative slope:** If the line goes downward as you read from left to right, your slope MUST be negative!",
+    "script": "[Prof. Park] Now let us inspect Example 2B on page 39: Finding a negative slope from a graph.\n\n[TA Sora] Let us locate two clean grid intersections on this line:\nPoint 1 is the $y$-intercept at $(0, 4)$.\nPoint 2 is the $x$-intercept at $(2, 0)$.\n\n[Prof. Park] Let us construct our slope triangle starting from $(0, 4)$ and moving to $(2, 0)$:\nFirst, look at the vertical movement: to go from height 4 down to height 0, you must travel DOWNWARD 4 units!\nBecause you are moving down, the **Rise** is negative four: $\\text{Rise} = -4$!\n\n[TA Sora] Next, look at the horizontal movement: from $x = 0$ to $x = 2$, you move to the right 2 units.\nThe **Run** is positive two: $\\text{Run} = +2$.\n\n[Prof. Park] Now compute the slope ratio:\n$$m = \\frac{\\text{Rise}}{\\text{Run}} = \\frac{-4}{+2} = -2$$\n\n[TA Sora] Notice the sign! The line slants downward from left to rightâlike skiing down the slopes at Bridger Bowl. Downhill lines always have **negative** slopes!\nIf you ever count a slope and get a positive number for a downhill line, you forgot the minus sign on the downward rise. Always check the overall direction!\n\n[TA Sora] In Example 2B, when counting a negative slope: If you count down, rise is negative: -3. Run is positive: +4. m = -3/4. Always verify that a downhill line gets a negative sign!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 5,
+      "yMin": -2,
+      "yMax": 6,
+      "title": "Example 2B: Counting Negative Slope (m = -2)",
+      "points": [
+        {
+          "x": 0,
+          "y": 4,
+          "label": "(0, 4)",
+          "color": "#10b981"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "label": "(2, 0)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -2,
+          "yIntercept": 4,
+          "color": "#ec4899",
+          "strokeWidth": 2.5
+        }
+      ],
+      "slopeTriangle": {
+        "x1": 0,
+        "y1": 4,
+        "x2": 2,
+        "y2": 0,
+        "rise": -4,
+        "run": 2
+      }
+    }
+  },
+  {
+    "num": 9,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 2.2 Part 1 Mastery Summary",
+    "subtitle": "Unit 2 • Lecture 20 • Section 2.2 Wrap-up",
+    "detail": "Lecture 20: Slope of a Line & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Four Types of Slope on the Coordinate Plane\n- **Positive ($m > 0$):** Slants uphill / rises to the right.\n- **Negative ($m < 0$):** Slants downhill / falls to the right.\n- **Zero ($m = 0$):** Horizontal line (flat ground).\n- **Undefined:** Vertical line (vertical cliff, division by zero).",
+    "solution": "$$\\mathbf{\\text{Lecture 20 Complete! Next Up: Section 2.2 Part 2 — Parallel \\& Perpendicular Slopes!}}$$",
+    "pitfall": "**Cross-check your algebra:** Always glance at your graph: if the line slants up, a negative algebraic answer means a sign error occurred!",
+    "script": "[Prof. Park] On Slide 9, we conclude Section 2.2 Part 1 with the Four Universal Types of Slope on the Coordinate Plane. Every line in the universe falls into one of these four categories.\n\n[TA Sora] Let us summarize them with full visual intuition:\n1. **Positive Slope ($m > 0$):** Slants uphill from left to right. As $x$ increases, $y$ increases. Like climbing a mountain ridge.\n2. **Negative Slope ($m < 0$):** Slants downhill from left to right. As $x$ increases, $y$ decreases. Like descending into Gallatin Canyon.\n\n[Prof. Park] And the two special extremes:\n3. **Zero Slope ($m = 0$):** Perfectly flat horizontal line ($y = c$). Rise is zero, so $0 / \\text{Run} = 0$. Like a calm lake or flat prairie.\n4. **Undefined Slope ($m = \\text{undefined}$):** Perfectly vertical line ($x = c$). Run is zero, and division by zero is undefined! Like a vertical cliff face.\n\n[TA Sora] Remember the ski analogies, remember HOY VUX, and remember protective parentheses when subtracting negative coordinates!\n\n[Prof. Park] In Lecture 21, we continue Section 2.2 with Parallel and Perpendicular Lines, comparing their slopes and proving their geometric relationships. Outstanding focus today, everyone!\n\n[Prof. Park] To summarize Section 2.2 Part 1: 1. Uphill lines have POSITIVE slope (m > 0). 2. Downhill lines have NEGATIVE slope (m < 0). 3. Flat horizontal lines have ZERO slope (m = 0). 4. Straight vertical lines have UNDEFINED slope (m = undefined). In Lecture 21, we will explore parallel and perpendicular line slopes!"
+  }
+]

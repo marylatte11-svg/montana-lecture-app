@@ -1,0 +1,186 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 7A & 7B: Evaluating at -1",
+    "subtitle": "Unit 3 • Lecture 33 • Section 3.0 Example 7A, B (Workbook p. 62)",
+    "detail": "Lecture 33: Advanced Quadratic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7A & 7B (Workbook p. 62)\nLet $\\mathbf{g(x) = -x^2 + 2x + 7}$ and $\\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate:\n- **A.** $g(-1)$\n- **B.** $h(-1)$\nUse proper notation and simplify completely.",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. } g(-1) & = -(-1)^2 + 2(-1) + 7 \\\\\n& = -(1) - 2 + 7 = -1 - 2 + 7 = \\mathbf{4} \\implies (-1, 4) \\\\[0.8em]\n\\textbf{B. } h(-1) & = 3(-1 - 2)^2 - 5 = 3(-3)^2 - 5 \\\\\n& = 3(9) - 5 = 27 - 5 = \\mathbf{22} \\implies (-1, 22)\n\\end{aligned}$$",
+    "pitfall": "**The minus sign outside the square:** $-(-1)^2 = -(1) = -1$. The negative sign is OUTSIDE the base, so it stays negative!",
+    "script": "[Prof. Park] Hello Bobcats, and welcome to Lecture 33! On Slide 1, Example 7 Parts A and B ask us to evaluate $g(-1)$ and $h(-1)$ for $g(x) = -x^2 + 2x + 7$ and $h(x) = 3(x - 2)^2 - 4$. Sora, watch out for negative signs!\n\n[TA Sora] Part A is where so many students slip up! When evaluating $g(-1)$, write $-(-1)^2 + 2(-1) + 7$. Notice the negative is OUTSIDE the square: $(-1)^2 = 1$, then apply the negative to get $-1$!\n\n[Prof. Park] Exactly. $-1 + (-2) + 7 = 4$. So $g(-1) = 4$.\n\n[TA Sora] Now for Part B with $h(x) = 3(x - 2)^2 - 4$: plug in $-1$: $h(-1) = 3(-1 - 2)^2 - 4 = 3(-3)^2 - 4$.\n\n[Prof. Park] Follow order of operations: square $-3$ first to get $+9$. Then $3(9) = 27$, and $27 - 4 = 23$. So $h(-1) = 23$!\n\n[TA Sora] Clean execution: $g(-1) = 4$ and $h(-1) = 23$!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 7C & 7D: Evaluating at Zero & Y-Intercepts",
+    "subtitle": "Unit 3 • Lecture 33 • Section 3.0 Example 7C, D (Workbook p. 62)",
+    "detail": "Lecture 33: Advanced Quadratic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7C & 7D (Workbook p. 62)\nLet $\\mathbf{g(x) = -x^2 + 2x + 7}$ and $\\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate:\n- **C.** $h(0)$\n- **D.** $g(0)$\nNotice what both functions have in common!",
+    "solution": "$$\\begin{aligned}\n\\textbf{C. } h(0) & = 3(0 - 2)^2 - 5 = 3(-2)^2 - 5 = 3(4) - 5 = 12 - 5 = \\mathbf{7} \\implies \\mathbf{(0, 7)} \\\\[0.8em]\n\\textbf{D. } g(0) & = -(0)^2 + 2(0) + 7 = 0 + 0 + 7 = \\mathbf{7} \\implies \\mathbf{(0, 7)} \\\\[0.8em]\n\\mathbf{\\text{Insight: }} & \\mathbf{\\text{Both parabolas cross the } y\\text{-axis at the EXACT SAME point } (0, 7)!}\n\\end{aligned}$$",
+    "pitfall": "**Zero in vertex form:** In $h(x)$, plugging in $0$ gives $(-2)^2 = 4$, times 3 is 12, minus 5 is 7. Do not assume the answer is $-5$!",
+    "script": "[Prof. Park] Slide 2 brings us to Parts C and D: evaluating at zero, $g(0)$ and $h(0)$, which gives the $y$-intercept of each function!\n\n[TA Sora] For $g(x) = -x^2 + 2x + 7$, setting $x = 0$ wipes out the first two terms: $g(0) = -(0)^2 + 2(0) + 7 = 7$. The $y$-intercept is $(0, 7)$!\n\n[Prof. Park] Now look closely at Part D with $h(x) = 3(x - 2)^2 - 4$. Sora, why is $h(0)$ NOT simply $-4$?\n\n[TA Sora] That is a huge trap! Because $h(x)$ is in vertex form, setting $x = 0$ leaves $(0 - 2)^2$, which is $(-2)^2 = 4$!\n\n[Prof. Park] Yes: $h(0) = 3(4) - 4 = 12 - 4 = 8$. The $y$-intercept of $h$ is $(0, 8)$, not $(0, -4)$!\n\n[TA Sora] Always compute $f(0)$ algebraically rather than guessing from vertex form!",
+    "graph": {
+      "xMin": -3,
+      "xMax": 5,
+      "yMin": -6,
+      "yMax": 12,
+      "title": "g(x) and h(x) Intersecting at y-intercept (0, 7)",
+      "points": [
+        {
+          "x": 0,
+          "y": 7,
+          "label": "Shared y-int (0, 7)",
+          "color": "#10b981"
+        },
+        {
+          "x": 2,
+          "y": -5,
+          "label": "Vertex h(2, -5)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 1,
+          "y": 8,
+          "label": "Vertex g(1, 8)",
+          "color": "#ec4899"
+        }
+      ],
+      "curves": [
+        {
+          "a": -1,
+          "b": 2,
+          "c": 7,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "g(x)"
+        },
+        {
+          "a": 3,
+          "b": -12,
+          "c": 7,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "h(x)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 7E: Fractional Input h(5/2)",
+    "subtitle": "Unit 3 • Lecture 33 • Section 3.0 Example 7E (Workbook p. 62)",
+    "detail": "Lecture 33: Advanced Quadratic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7E (Workbook p. 62)\nLet $\\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate:\n$$\\mathbf{h\\left(\\frac{5}{2}\\right)}$$\n- Subtract $\\frac{5}{2} - 2$ using a common denominator.\n- Square the fraction.\n- Multiply by 3 and subtract 5.",
+    "solution": "$$\\begin{aligned}\nh\\left(\\frac{5}{2}\\right) & = 3\\left(\\frac{5}{2} - 2\\right)^2 - 5 = 3\\left(\\frac{5}{2} - \\frac{4}{2}\\right)^2 - 5 \\\\[0.5em]\n& = 3\\left(\\frac{1}{2}\\right)^2 - 5 = 3\\left(\\frac{1}{4}\\right) - 5 \\\\[0.5em]\n& = \\frac{3}{4} - 5 = \\frac{3}{4} - \\frac{20}{4} \\\\[0.5em]\n\\mathbf{h\\left(\\frac{5}{2}\\right)} & = \\mathbf{-\\frac{17}{4} = -4.25}\n\\end{aligned}$$",
+    "pitfall": "**Squaring fractions:** $(\\frac{1}{2})^2 = \\frac{1}{4}$. Square both numerator and denominator!",
+    "script": "[Prof. Park] On Slide 3, Part E tests our fraction arithmetic skills: evaluating $h(5/2)$ for $h(x) = 3(x - 2)^2 - 4$. Sora, let's guide students through the common denominator.\n\n[TA Sora] Step 1: Substitute $\\frac{5}{2}$ into the parentheses: $\\frac{5}{2} - 2 = \\frac{5}{2} - \\frac{4}{2} = \\frac{1}{2}$!\n\n[Prof. Park] Step 2: Square that fraction: $(\\frac{1}{2})^2 = \\frac{1}{4}$.\n\n[TA Sora] Step 3: Multiply by the coefficient 3: $3 \\cdot \\frac{1}{4} = \\frac{3}{4}$.\n\n[Prof. Park] Step 4: Subtract 4: $\\frac{3}{4} - 4 = \\frac{3}{4} - \\frac{16}{4} = -\\frac{13}{4}$, which is $-3.25$.\n\n[TA Sora] Keep your fractions intact until the very end: $h(5/2) = -\\frac{13}{4}$!"
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 7F: Variable Input g(a)",
+    "subtitle": "Unit 3 • Lecture 33 • Section 3.0 Example 7F (Workbook p. 62)",
+    "detail": "Lecture 33: Advanced Quadratic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7F (Workbook p. 62)\nLet $\\mathbf{g(x) = -x^2 + 2x + 7}$. Evaluate:\n$$\\mathbf{g(a)}$$",
+    "solution": "$$\\begin{aligned}\ng(x) & = -x^2 + 2x + 7 \\\\[0.5em]\n\\mathbf{g(a)} & = \\mathbf{-a^2 + 2a + 7}\n\\end{aligned}$$",
+    "pitfall": "**Don't overcomplicate:** Replace every occurrence of $x$ with $a$. You're done!",
+    "script": "[Prof. Park] Turning to Slide 4, Part F asks us to evaluate $g(a)$ for $g(x) = -x^2 + 2x + 7$. Sora, students often wonder what to compute when the input is a letter.\n\n[TA Sora] Treat the variable $a$ just like a number! Everywhere you see $x$, replace it with $a$: $g(a) = -(a)^2 + 2(a) + 7 = -a^2 + 2a + 7$!\n\n[Prof. Park] Exactly. You cannot combine terms because they have different powers, so $-a^2 + 2a + 7$ is the complete and final simplified answer.\n\n[TA Sora] The function formula is a template—whatever is inside the parentheses replaces every $x$!"
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 7G: Binomial Input g(x - 6)",
+    "subtitle": "Unit 3 • Lecture 33 • Section 3.0 Example 7G (Workbook p. 62)",
+    "detail": "Lecture 33: Advanced Quadratic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7G (Workbook p. 62)\nLet $\\mathbf{g(x) = -x^2 + 2x + 7}$. Evaluate and simplify:\n$$\\mathbf{g(x - 6)}$$\n- Replace $x$ with $(x - 6)$.\n- Expand $(x - 6)^2 = x^2 - 12x + 36$.\n- Distribute the negative sign and combine like terms.",
+    "solution": "$$\\begin{aligned}\ng(x - 6) & = -(x - 6)^2 + 2(x - 6) + 7 \\\\[0.5em]\n& = -(x^2 - 12x + 36) + 2x - 12 + 7 \\\\[0.5em]\n& = -x^2 + 12x - 36 + 2x - 12 + 7 \\\\[0.5em]\n\\mathbf{g(x - 6)} & = \\mathbf{-x^2 + 14x - 41}\n\\end{aligned}$$",
+    "pitfall": "**Distribute negative to all 3 terms:** $-(x^2 - 12x + 36) = -x^2 + 12x - 36$. Watch the middle sign flip to $+12x$!",
+    "script": "[Prof. Park] Slide 5 presents Part G: evaluating $g(x - 6)$ for $g(x) = -x^2 + 2x + 7$. Now the input is a binomial!\n\n[TA Sora] Substitute $(x - 6)$ everywhere: $g(x - 6) = -(x - 6)^2 + 2(x - 6) + 7$.\n\n[Prof. Park] Careful with $(x - 6)^2$: expand it as $x^2 - 12x + 36$. Then distribute the outside negative sign: $-(x^2 - 12x + 36) = -x^2 + 12x - 36$.\n\n[TA Sora] Next distribute the $+2$: $2(x - 6) = 2x - 12$. Now combine all like terms: $-x^2 + (12x + 2x) + (-36 - 12 + 7)$.\n\n[Prof. Park] $12x + 2x = 14x$, and $-36 - 12 + 7 = -41$. So $g(x - 6) = -x^2 + 14x - 41$!\n\n[TA Sora] Beautiful algebraic distribution and combining like terms!"
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 7H: Binomial Input h(k + 1)",
+    "subtitle": "Unit 3 • Lecture 33 • Section 3.0 Example 7H (Workbook p. 62)",
+    "detail": "Lecture 33: Advanced Quadratic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7H (Workbook p. 62)\nLet $\\mathbf{h(x) = 3(x - 2)^2 - 5}$. Evaluate and simplify:\n$$\\mathbf{h(k + 1)}$$\n- Simplify inside the parentheses first: $(k + 1 - 2)$.\n- Square the simplified binomial.\n- Distribute 3 and subtract 5.",
+    "solution": "$$\\begin{aligned}\nh(k + 1) & = 3((k + 1) - 2)^2 - 5 \\\\[0.5em]\n& = 3(k - 1)^2 - 5 \\quad (\\text{combine inside first!}) \\\\[0.5em]\n& = 3(k^2 - 2k + 1) - 5 \\\\[0.5em]\n& = 3k^2 - 6k + 3 - 5 \\\\[0.5em]\n\\mathbf{h(k + 1)} & = \\mathbf{3k^2 - 6k - 2}\n\\end{aligned}$$",
+    "pitfall": "**Simplify inside parentheses first:** Notice how $(k + 1 - 2)$ simplifies to $(k - 1)$ immediately, saving you from a much messier expansion!",
+    "script": "[Prof. Park] On Slide 6, Part H gives us our final challenge: evaluate $h(k + 1)$ for $h(x) = 3(x - 2)^2 - 4$.\n\n[TA Sora] Substitute $(k + 1)$ for $x$: $h(k + 1) = 3((k + 1) - 2)^2 - 4$. Inside the parentheses, simplify first: $(k + 1) - 2 = k - 1$!\n\n[Prof. Park] That simplifies the expression to $3(k - 1)^2 - 4$. Now expand $(k - 1)^2 = k^2 - 2k + 1$.\n\n[TA Sora] Distribute the 3: $3(k^2 - 2k + 1) = 3k^2 - 6k + 3$. Finally, subtract 4: $3 - 4 = -1$.\n\n[Prof. Park] Our final simplified result is $h(k + 1) = 3k^2 - 6k - 1$.\n\n[TA Sora] Simplifying inside parentheses first saved us so much work! Section 3.0 evaluation mastered!"
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Sora's Pitfall Alert",
+    "title": "The Negative Base Trap: -x^2 vs (-x)^2",
+    "subtitle": "Unit 3 • Lecture 33 • Section 3.0 Pitfall Alert",
+    "detail": "Lecture 33: Advanced Quadratic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Why Students Lose Points on Negative Squares\nEvaluate both expressions when $x = 3$ and when $x = -3$:\n- **Case 1:** $-x^2$\n- **Case 2:** $(-x)^2$\nExplain the difference using order of operations.",
+    "solution": "$$\\begin{array}{|c|c|c|} \n\\hline\n\\textbf{Expression} & x = 3 & x = -3 \\\\\n\\hline\n-x^2 & -(3^2) = -(9) = \\mathbf{-9} & -((-3)^2) = -(9) = \\mathbf{-9} \\\\\n\\hline\n(-x)^2 & (-3)^2 = \\mathbf{+9} & (-(-3))^2 = (3)^2 = \\mathbf{+9} \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Order of operations rule:** Exponents come BEFORE negation! In $-x^2$, you square $x$ first, then apply the negative sign. It is ALWAYS negative (or zero)!",
+    "script": "[Prof. Park] Slide 7 addresses what is arguably the #1 sign trap in all of developmental algebra: the difference between $-x^2$ and $(-x)^2$. Sora, how many thousands of times have we seen students trip over this distinction?\n\n[TA Sora] Oh, countless times! Every single semester, on every homework and quiz. Students often think: 'A negative squared is always positive, right?' But without parentheses, the negative is NOT being squared!\n\n[Prof. Park] Let's state the rule in crystal clear terms: $(-x)^2$ means the base is $(-x)$. You multiply $(-x) \\cdot (-x)$, which equals $+x^2$ (positive). The negative is inside the parentheses, so it gets squared.\n\n[TA Sora] But $-x^2$ means $-(x^2)$! According to PEMDAS, exponentiation comes BEFORE negation! So you square $x$ first, and THEN apply the negative sign at the very end. The result is always negative or zero for any real number $x$!\n\n[Prof. Park] Let's test this with a real number: let $x = 3$. $(-3)^2 = (-3) \\cdot (-3) = +9$. But $-3^2 = -(3 \\cdot 3) = -9$! They are opposite numbers!\n\n[TA Sora] And what about a negative input, like $x = -4$? If you calculate $(-x)^2$, you get $(-(-4))^2 = (4)^2 = 16$. But if you calculate $-x^2$, you get $-(-4)^2 = -(16) = -16$!\n\n[Prof. Park] If you plug $-3^2$ into most scientific calculators or Google without parentheses, it will give you $-9$ because the calculator strictly follows the order of operations: exponents first, negation second!\n\n[TA Sora] Write this on a sticky note and put it on your bathroom mirror: $(-x)^2 = +x^2$, but $-x^2 = -x^2$. Protect your base with parentheses every single time!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -12,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -1,
+          "b": 0,
+          "c": 0,
+          "color": "#ff6b6b",
+          "strokeWidth": 3,
+          "label": "-x^2"
+        },
+        {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "dashed": true,
+          "label": "(-x)^2=x^2"
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "color": "#ffd700",
+          "label": "origin"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.0 Complete Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 33 • Section 3.0 Wrap-up",
+    "detail": "Lecture 33: Advanced Quadratic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Section 3.0 Complete Mastery Checklist\n- Identified terms and coefficients in general form $ax^2 + bx + c$.\n- Analyzed parabolas: vertex, axis of symmetry, intercepts, min/max.\n- Converted vertex form $a(x - h)^2 + k$ to general form.\n- Evaluated quadratic functions with negative, fractional, and binomial inputs.",
+    "solution": "$$\\mathbf{\\text{Section 3.0 Mastered! Next Up: Section 3.1 — The Vertex Formula } x = -\\frac{b}{2a}!}$$",
+    "pitfall": "**Ready for Section 3.1:** What if we have general form $ax^2 + bx + c$ without a graph? In Section 3.1, we derive the formula to find the vertex instantly!",
+    "script": "[Prof. Park] We have reached Slide 8, our Section 3.0 Complete Mastery Summary! This concludes our foundational study of Section 3.0. Sora, what are the core takeaways every M090 student should carry forward?\n\n[TA Sora] First, the General Quadratic Form $f(x) = ax^2 + bx + c$ ($a \\neq 0$) graphs as a parabola. Second, the sign of $a$ controls the direction: $a > 0$ opens upward with a minimum; $a < 0$ opens downward with a maximum.\n\n[Prof. Park] Third, in vertex form $f(x) = a(x - h)^2 + k$, the vertex is $(h, k)$ with the opposite sign on $h$, and the Axis of Symmetry is the vertical line $x = h$. Fourth, the $y$-intercept is always found by evaluating $f(0)$, and $x$-intercepts are found by solving $f(x) = 0$.\n\n[TA Sora] Fifth, the Domain of any quadratic function is always $(-\\infty, \\infty)$, while the Range is bounded by the vertex output $k$. And sixth, when evaluating functions with negative numbers or binomials, ALWAYS use protective parentheses!\n\n[Prof. Park] In mathematics, just like in building a career or personal discipline, small daily habits compound over time. Double-checking your signs, writing clean steps, and organizing terms creates excellence that extends far beyond the classroom.\n\n[TA Sora] You have built a rock-solid foundation in Section 3.0. Tonight, complete all remaining exercises on pages 63 through 66 of your workbook.\n\n[Prof. Park] In Lecture 34, we will introduce Section 3.1 and derive the famous Vertex Formula $x = -b / (2a)$. Congratulations on completing Section 3.0!\n\n[TA Sora] Fantastic work today, Bobcats! See you in Lecture 34!"
+  }
+]

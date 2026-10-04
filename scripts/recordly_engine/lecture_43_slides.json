@@ -1,0 +1,393 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Lesson Introduction",
+    "title": "Section 3.6: Mixed Methods — Intercepts and Vertex",
+    "subtitle": "Unit 3 • Lecture 43 • Section 3.6 (Workbook p. 83)",
+    "detail": "Lecture 43: Finding Intercepts Using the Best Method",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Section 3.6 Strategy: Choose the Best Method**\n\n| Equation Form | Best Method |\n|---|---|\n| $ax^2 + c = 0$ (no $bx$) | **Square Root Property** |\n| $ax^2 + bx = 0$ (no constant) | **Factor out GCF** |\n| $ax^2 + bx + c = 0$ (nice factors) | **Factor (FOIL-reverse)** |\n| Any quadratic | **Quadratic Formula** |\n\nIn Section 3.6, we practice ALL methods and find x-intercepts, y-intercepts, AND vertex for each function.",
+    "solution": "**Today’s four functions:**\n- $g(x) = x^2+6x$\n- $h(x) = -2x^2+5x+6$\n- $f(x) = 4x^2-28$\n- $f(x) = x^2-15x+50$\n\nFor each: find x-intercepts, y-intercept, and vertex. Then use them to graph!",
+    "pitfall": "**Sora’s Tip:** Always find the y-intercept by substituting $x=0$. Always find the vertex using $x = \\dfrac{-b}{2a}$, then plug back in.",
+    "script": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we reach Section 3.6 on page 94 of your workbook: Mixed Methods for Intercepts and Vertex.\n\n[TA Sora] Hello everyone! Over the past two weeks, we have learned four distinct mathematical weapons to solve quadratic equations: 1. The Square Root Property, 2. Factoring, 3. Completing the Square, and 4. The Quadratic Formula. But on an exam or in real-world engineering, nobody tells you which method to use!\n\n[Prof. Park] Exactly. That is the transition from being a student who just follows steps to becoming a master craftsman who chooses the right tool for the job. You wouldn't use a massive chainsaw to sharpen a pencil, and you wouldn't use a tiny hand drill to bore through granite in the Rocky Mountains!\n\n[TA Sora] Each method has its sweet spot. Today, we are going to train our tactical decision-making instincts. When you see an equation, you will know within five seconds which path is the fastest and least prone to mistakes!\n\n[Prof. Park] Let's outline our tactical hierarchy: If there is no middle $x$ term ($b = 0$), the Square Root Property is fastest. If the trinomial factors in your head in ten seconds, Factoring is fastest. If $a = 1$ and $b$ is an even number, Completing the Square is wonderful. And if numbers are ugly, fractions loom, or factoring fails, the Quadratic Formula is your unstoppable tank!\n\n[TA Sora] Keep your workbook open to page 94. Let's test our tactical instincts on Problem 1 on Slide 2!\n\n[Prof. Park] In Lecture 43, we address the most common question students ask right before Final Exams: 'Professor Park, how do I know WHICH method to use on a quadratic problem?' On an exam, problems are mixed up. Nobody tells you: 'Use factoring here' or 'Use the formula here.' You must be the mathematical doctor who diagnoses the equation and selects the most efficient surgical tool! Using the wrong toolâlike using the quadratic formula on an equation that factors in two secondsâwastes precious exam time.",
+    "coordinate": {
+      "xMin": -7,
+      "xMax": 12,
+      "yMin": -15,
+      "yMax": 15,
+      "xTicks": 2,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "label": "g(x)"
+        },
+        {
+          "a": 1,
+          "b": -15,
+          "c": 50,
+          "color": "#ff9500",
+          "strokeWidth": 2,
+          "label": "f(x)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Section 3.6, Example 1A",
+    "title": "x-Intercepts: $ g(x) = x^2 + 6x $ (Factor GCF)",
+    "subtitle": "Unit 3 • Lecture 43 • Section 3.6 Example 1A (Workbook p. 83)",
+    "detail": "Find the x-intercepts by factoring out the GCF.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the x-intercepts of $g(x) = x^2 + 6x$**\n\nSet $g(x) = 0$:\n$$x^2 + 6x = 0$$\n\n**Method: Factor out the GCF**\n- Both terms share a factor of $x$\n$$x(x + 6) = 0$$\n\n**Zero-Product Property:**\n$$x = 0 \\quad \\text{or} \\quad x+6 = 0$$",
+    "solution": "$$x = 0 \\qquad \\text{or} \\qquad x = -6$$\n\n**x-intercepts:** $(0,\\,0)$ and $(-6,\\,0)$\n\n**Note:** The x-intercept $(0,0)$ is also the y-intercept!\n\n**y-intercept:** $g(0) = 0 + 0 = 0$ → $(0,\\,0)$\n\n**Vertex:** $x = \\dfrac{-6}{2(1)} = -3$,\\quad $g(-3) = 9-18 = -9$\n\n**Vertex:** $(-3,\\,-9)$",
+    "pitfall": "**Sora’s Note:** Never divide both sides by $x$! That would make you lose the solution $x=0$. Always FACTOR instead.",
+    "script": "[Prof. Park] Slide 2 presents Section 3.6 Example 1A on page 83: Find the $x$-intercepts of $g(x) = x^2 + 6x$. Sora, which tool should we grab from our toolbox?\n\n[TA Sora] Look at the structure: there is no constant term ($c = 0$)! Both terms share a common factor of $x$. Factoring out the GCF is our fastest weapon!\n\n[Prof. Park] Let's factor it: set $g(x) = 0$, so $x^2 + 6x = 0$. Factoring out $x$ gives $x(x + 6) = 0$.\n\n[TA Sora] Now apply the Zero-Product Property: either $x = 0$ or $x + 6 = 0$, which gives $x = -6$! That took literally five seconds!\n\n[Prof. Park] So the two $x$-intercepts are $(0, 0)$ and $(-6, 0)$. Notice that $(0, 0)$ is also the $y$-intercept.\n\n[TA Sora] And for the vertex: the axis of symmetry is halfway between $0$ and $-6$, which is $x = -3$. Plug in $-3$: $g(-3) = (-3)^2 + 6(-3) = 9 - 18 = -9$. Vertex is $(-3, -9)$!\n\n[Prof. Park] One crucial pitfall to warn students about: never divide both sides by $x$! Dividing by $x$ loses the solution $x = 0$! Always factor!\n\n[TA Sora] Always factor the GCF when $c = 0$! Solution set: $\\{0, -6\\}$. Clean and effortless!",
+    "coordinate": {
+      "xMin": -8,
+      "xMax": 3,
+      "yMin": -12,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(0,0)"
+        },
+        {
+          "x": -6,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-6,0)"
+        },
+        {
+          "x": -3,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "V(-3,-9)"
+        }
+      ],
+      "axisOfSymmetry": -3
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Section 3.6, Example 1B",
+    "title": "x-Intercepts: $ h(x) = -2x^2 + 5x + 6 $ (Quadratic Formula)",
+    "subtitle": "Unit 3 • Lecture 43 • Section 3.6 Example 1B (Workbook p. 83)",
+    "detail": "Find the x-intercepts using the Quadratic Formula.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the x-intercepts of $h(x) = -2x^2 + 5x + 6$**\n\nSet $h(x) = 0$: $-2x^2 + 5x + 6 = 0$\n\nIdentify: $a = -2,\\; b = 5,\\; c = 6$\n\n$$x = \\dfrac{-5 \\pm \\sqrt{5^2 - 4(-2)(6)}}{2(-2)} = \\dfrac{-5 \\pm \\sqrt{25+48}}{-4}$$",
+    "solution": "$$x = \\dfrac{-5 \\pm \\sqrt{73}}{-4}$$\n\n$$\\sqrt{73} \\approx 8.54$$\n\n$$x = \\dfrac{-5+8.54}{-4} = \\dfrac{3.54}{-4} \\approx \\mathbf{-0.89}$$\n\n$$x = \\dfrac{-5-8.54}{-4} = \\dfrac{-13.54}{-4} \\approx \\mathbf{3.39}$$\n\n**x-intercepts:** $\\approx (-0.89,\\,0)$ and $\\approx (3.39,\\,0)$\n\n**y-intercept:** $h(0) = 6$ → $(0,\\,6)$\n\n**Vertex:** $x = \\dfrac{-5}{2(-2)} = \\dfrac{5}{4} = 1.25$\n$$h(1.25) = -2(1.5625)+5(1.25)+6 = -3.125+6.25+6 = 9.125$$\n\n**Vertex:** $(1.25,\\;9.125)$",
+    "pitfall": "**Sora’s Warning:** With $a=-2$, dividing by $-4$ FLIPS the sign direction. $\\dfrac{\\text{positive}}{-4}$ gives a negative result!",
+    "script": "[Prof. Park] Turning to Slide 3, Example 1B presents: $h(x) = -2x^2 + 5x + 6$. Sora, what is our tactical assessment?\n\n[TA Sora] Let's scan: $a = -2$, $b = 5$, and $c = 6$. Can we factor? Factors of $a \\cdot c = -12$ that add to 5 are $12$ and $-1$, or $6$ and $-2$... none add to 5! So we deploy the Quadratic Formula!\n\n[Prof. Park] Exactly. Set $h(x) = 0$: $x = \\frac{-5 \\pm \\sqrt{5^2 - 4(-2)(6)}}{2(-2)} = \\frac{-5 \\pm \\sqrt{25 + 48}}{-4} = \\frac{-5 \\pm \\sqrt{73}}{-4}$.\n\n[TA Sora] Since 73 is not a perfect square, $\\frac{-5 \\pm \\sqrt{73}}{-4}$ is our exact radical form!\n\n[Prof. Park] In decimals, $\\sqrt{73} \\approx 8.544$. That gives $x \\approx \\frac{-5 + 8.544}{-4} \\approx -0.89$ and $x \\approx \\frac{-5 - 8.544}{-4} \\approx 3.39$.\n\n[TA Sora] And the vertex: $x_v = -\\frac{b}{2a} = -\\frac{5}{2(-2)} = 1.25$. Evaluate $h(1.25) = -2(1.25)^2 + 5(1.25) + 6 = -3.125 + 6.25 + 6 = 9.13$. Vertex is $(1.25, 9.13)$!\n\n[Prof. Park] Downward-opening parabola with $y$-intercept at $(0, 6)$ and peak at $(1.25, 9.13)$.",
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -2,
+          "b": 5,
+          "c": 6,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -0.89,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-0.89,0)"
+        },
+        {
+          "x": 3.39,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3.39,0)"
+        },
+        {
+          "x": 1.25,
+          "y": 9.125,
+          "color": "#ffd700",
+          "label": "V(1.25,9.13)"
+        }
+      ],
+      "axisOfSymmetry": 1.25
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Section 3.6, Example 1C",
+    "title": "x-Intercepts: $ f(x) = 4x^2 - 28 $ (Square Root Property)",
+    "subtitle": "Unit 3 • Lecture 43 • Section 3.6 Example 1C (Workbook p. 83)",
+    "detail": "Find the x-intercepts using the Square Root Property.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the x-intercepts of $f(x) = 4x^2 - 28$**\n\nSet $f(x) = 0$:\n$$4x^2 - 28 = 0$$\n\n**Method: Square Root Property** (no $bx$ term!)\n\n**Step 1:** Isolate $x^2$:\n$$4x^2 = 28 \\Rightarrow x^2 = 7$$\n\n**Step 2:** Take square root of both sides:",
+    "solution": "$$x = \\pm\\sqrt{7} \\approx \\pm 2.646$$\n\n**x-intercepts:** $(-\\sqrt{7},\\,0)\\approx(-2.65,\\,0)$ and $(\\sqrt{7},\\,0)\\approx(2.65,\\,0)$\n\n**y-intercept:** $f(0) = 0-28 = -28$ → $(0,\\,-28)$\n\n**Vertex:** No $b$ term, so $x = 0$\n$$f(0) = -28$$\n\n**Vertex:** $(0,\\,-28)$ — The vertex is the y-intercept here!",
+    "pitfall": "**Sora’s Tip:** No middle term $bx$? Use the Square Root Property! It’s much faster than the Quadratic Formula for this form.",
+    "script": "[Prof. Park] Slide 4 presents Example 1C: Find the $x$-intercepts of $f(x) = 4x^2 - 28$. Let's scan this equation tactically.\n\n[TA Sora] Look at the structure: there is NO middle term $bx$ ($b = 0$)! When $b = 0$, the Square Root Property is our quickest weapon!\n\n[Prof. Park] Let's execute: set $4x^2 - 28 = 0$. Add 28 to both sides: $4x^2 = 28$. Now isolate $x^2$ by dividing by 4: $x^2 = 7$.\n\n[TA Sora] Now take the square root of both sides, remembering our mandatory plus-or-minus sign: $x = \\pm \\sqrt{7}$! That is approximately $\\pm 2.65$.\n\n[Prof. Park] So the $x$-intercepts are $(\\sqrt{7}, 0)$ and $(-\\sqrt{7}, 0)$.\n\n[TA Sora] And what about the vertex? Since $b = 0$, $x_v = 0$. $f(0) = -28$. The vertex is $(0, -28)$, which is also the $y$-intercept!\n\n[Prof. Park] Fast, clean, and avoids the Quadratic Formula entirely!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -32,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 4,
+          "b": 0,
+          "c": -28,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -2.646,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-√7,0)"
+        },
+        {
+          "x": 2.646,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(√7,0)"
+        },
+        {
+          "x": 0,
+          "y": -28,
+          "color": "#ffd700",
+          "label": "V(0,-28)"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Section 3.6, Example 1D",
+    "title": "x-Intercepts: $ f(x) = x^2 - 15x + 50 $ (Factoring)",
+    "subtitle": "Unit 3 • Lecture 43 • Section 3.6 Example 1D (Workbook p. 83)",
+    "detail": "Find the x-intercepts by factoring.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find the x-intercepts of $f(x) = x^2 - 15x + 50$**\n\nSet $f(x) = 0$:\n$$x^2 - 15x + 50 = 0$$\n\n**Method: Factoring** — Find two numbers that:\n- **Multiply** to $+50$\n- **Add** to $-15$\n\nSearch: $-5 \\times -10 = 50$ and $-5 + (-10) = -15$ \\checkmark",
+    "solution": "$$(x-5)(x-10) = 0$$\n\n**Zero-Product Property:**\n$$x-5 = 0 \\Rightarrow x = 5$$\n$$x-10 = 0 \\Rightarrow x = 10$$\n\n**x-intercepts:** $(5,\\,0)$ and $(10,\\,0)$\n\n**y-intercept:** $f(0) = 50$ → $(0,\\,50)$\n\n**Vertex:** $x = \\dfrac{15}{2} = 7.5$\n$$f(7.5) = 56.25-112.5+50 = -6.25$$\n\n**Vertex:** $(7.5,\\,-6.25)$",
+    "pitfall": "**Sora’s Factoring Check:** Always verify: $(x-5)(x-10) = x^2-10x-5x+50 = x^2-15x+50$ \\checkmark",
+    "script": "[Prof. Park] On Slide 5, Example 1D presents: $f(x) = x^2 - 15x + 50$. Sora, what is our tactical assessment here?\n\n[TA Sora] All three terms exist, $a = 1$, and $50$ has obvious factors! Can we find two numbers that multiply to $+50$ and add up to $-15$?\n\n[Prof. Park] Yes: $-5 \\times -10 = 50$, and $-5 + (-10) = -15$. It factors cleanly into $(x - 5)(x - 10) = 0$!\n\n[TA Sora] Setting each factor to zero gives $x = 5$ and $x = 10$! The $x$-intercepts are $(5, 0)$ and $(10, 0)$.\n\n[Prof. Park] The $y$-intercept is $(0, 50)$. And the vertex is halfway between 5 and 10: $x_v = 7.5$.\n\n[TA Sora] Evaluate $f(7.5) = (7.5)^2 - 15(7.5) + 50 = 56.25 - 112.5 + 50 = -6.25$. So the vertex is $(7.5, -6.25)$!\n\n[Prof. Park] When factoring works with integers, it is by far the most enjoyable method in algebra!",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 12,
+      "yMin": -10,
+      "yMax": 20,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -15,
+          "c": 50,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(5,0)"
+        },
+        {
+          "x": 10,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(10,0)"
+        },
+        {
+          "x": 7.5,
+          "y": -6.25,
+          "color": "#ffd700",
+          "label": "V(7.5,-6.25)"
+        }
+      ],
+      "axisOfSymmetry": 7.5
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Section 3.6, Example 4",
+    "title": "All Features: $ f(x) = -2(x-15)^2 + 50 $",
+    "subtitle": "Unit 3 • Lecture 43 • Section 3.6 Example 4 (Workbook p. 85)",
+    "detail": "Find x-intercepts, y-intercept, vertex, and f(20). Function is in vertex form.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Use $f(x) = -2(x-15)^2 + 50$ to find:**\n\n**A.** x-intercept(s)\n\n**B.** y-intercept\n\n**C.** Vertex\n\n**D.** $f(20)$\n\n**Note:** This function is already in **vertex form** $f(x) = a(x-h)^2 + k$!",
+    "solution": "**C. Vertex (read directly from vertex form):**\n$$h = 15,\\; k = 50 \\Rightarrow \\text{Vertex: } (15,\\,50)$$\n\n**B. y-intercept:** $f(0) = -2(0-15)^2+50 = -2(225)+50 = -450+50 = -400$\ny-intercept: $(0,\\,-400)$\n\n**A. x-intercepts:** Set $f(x)=0$:\n$$-2(x-15)^2+50=0 \\Rightarrow (x-15)^2=25 \\Rightarrow x-15=\\pm 5$$\n$$x = 20 \\quad \\text{or} \\quad x = 10$$\nx-intercepts: $(10,\\,0)$ and $(20,\\,0)$\n\n**D.** $f(20) = -2(20-15)^2+50 = -2(25)+50 = -50+50 = \\mathbf{0}$\nConfirmed: $(20,0)$ is an x-intercept!",
+    "pitfall": "**Sora’s Note:** The y-intercept at (0,-400) is FAR below the vertex at (15,50). The parabola is very wide and tall.",
+    "script": "[Prof. Park] Slide 6 presents Example 2 on page 84: $f(x) = -2(x - 15)^2 + 50$. Notice this function is already in Vertex Form $a(x - h)^2 + k$!\n\n[TA Sora] We can read the vertex directly off the page with zero computation! $h = 15$ and $k = 50$. So the vertex is $(15, 50)$!\n\n[Prof. Park] Since $a = -2 < 0$, the parabola opens downward, making $(15, 50)$ the absolute maximum. Now let's find the $x$-intercepts by setting $f(x) = 0$.\n\n[TA Sora] Subtract 50 from both sides: $-2(x - 15)^2 = -50$. Divide both sides by $-2$: $(x - 15)^2 = 25$!\n\n[Prof. Park] Take the square root of both sides: $x - 15 = \\pm 5$. Add 15: $x = 15 \\pm 5$. That gives $x = 20$ and $x = 10$!\n\n[TA Sora] Intercepts are $(10, 0)$ and $(20, 0)$. And $f(20) = 0$, exactly matching Part D!\n\n[Prof. Park] Finally, for the $y$-intercept: $f(0) = -2(-15)^2 + 50 = -2(225) + 50 = -400$, giving $(0, -400)$.",
+    "coordinate": {
+      "xMin": 5,
+      "xMax": 25,
+      "yMin": -10,
+      "yMax": 60,
+      "xTicks": 2,
+      "yTicks": 10,
+      "curves": [
+        {
+          "a": -2,
+          "b": 60,
+          "c": -400,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 10,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(10,0)"
+        },
+        {
+          "x": 20,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(20,0)"
+        },
+        {
+          "x": 15,
+          "y": 50,
+          "color": "#ffd700",
+          "label": "V(15,50)"
+        }
+      ],
+      "axisOfSymmetry": 15
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Section 3.6 Method Summary",
+    "title": "Intercept Summary Chart — All Four Methods",
+    "subtitle": "Unit 3 • Lecture 43 • Section 3.6 Summary (Workbook p. 84–85)",
+    "detail": "Summary of when to use each method to find intercepts.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Summary of Finding Intercepts:**\n\n| Method | When to Use | Example |\n|---|---|---|\n| **Factor GCF** | No constant term $c$ | $x^2+6x=0$ |\n| **Square Root Property** | No middle term $b$ | $4x^2=28$ |\n| **Factoring** | Integer roots exist | $x^2-15x+50=0$ |\n| **Quadratic Formula** | Always works! | $-2x^2+5x+6=0$ |\n| **Vertex Form** | Already in $a(x-h)^2+k$ | $-2(x-15)^2+50=0$ |",
+    "solution": "**Finding ALL Key Features:**\n\n| Feature | Method |\n|---|---|\n| **x-intercept(s)** | Set $f(x)=0$, solve |\n| **y-intercept** | Set $x=0$, evaluate $f(0)$ |\n| **Vertex** | $x = \\dfrac{-b}{2a}$, then plug in OR read from vertex form |",
+    "pitfall": "**Sora’s Final Tip:** ALWAYS check the discriminant before solving! If $\\Delta < 0$, skip solving for x-intercepts and write: \\textit{No real x-intercepts}.",
+    "script": "[Prof. Park] Slide 7 presents our Intercept Summary ChartÃ¢ÂÂthe master strategy guide to keep in your notes forever.\n\n[TA Sora] Let's summarize the decision tree: 1. Is $b = 0$? Use the Square Root Property ($x^2 = k$). 2. Does it factor easily? Use Factoring ($A \\cdot B = 0$). 3. Is $a = 1$ and $b$ even? Use Completing the Square. 4. Is it non-factorable or messy? Use the Quadratic Formula!\n\n[Prof. Park] Notice how this hierarchy organizes your thinking. You never feel lost or overwhelmed because you simply run down the four questions in order.\n\n[TA Sora] In everyday life, having a decision tree prevents analysis paralysis. When faced with a complex task, evaluate your tools, choose the most efficient path, and execute with focus.\n\n[Prof. Park] Knowing when to use which tool gives you total mastery over any quadratic problem!\n\n[Prof. Park] Study our summary decision chart on slide 7: 1. No constant (c = 0): Factor GCF x. 2. No middle term (b = 0): Square Root Property. 3. Nice trinomial: Factor (ac method). 4. Vertex form: Square Root Property. 5. Ugly trinomial or non-factoring: Quadratic Formula! Following this decision hierarchy guarantees maximum efficiency and speed on your exams.\n\n[TA Sora] Here is my personal test-taking strategy for Section 3.6: Spend the first five seconds of every quadratic problem categorizing it into our 5-row table! If you see only two terms, ask: Is the constant missing (c = 0)? Factor GCF! Is the middle term missing (b = 0)? Square Root Property! If it has all three terms, try quick mental factoring for ten seconds. If factors don't jump out immediately, don't stall—immediately jump to the Quadratic Formula! This disciplined strategy guarantees you will finish your exam with time to check your work.",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 6,
+      "yMin": -10,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "label": "GCF"
+        },
+        {
+          "a": 1,
+          "b": -15,
+          "c": 50,
+          "color": "#ff9500",
+          "strokeWidth": 2,
+          "label": "Factor"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Lecture 43 Review",
+    "title": "Section 3.6 Complete — Lecture 43 Recap",
+    "subtitle": "Unit 3 • Lecture 43 Summary",
+    "detail": "Review of all four quadratic functions and their features.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Lecture 43 Complete Summary:**\n\n| Function | x-intercepts | y-intercept | Vertex |\n|---|---|---|---|\n| $g(x)=x^2+6x$ | $0$ and $-6$ | $0$ | $(-3,-9)$ |\n| $h(x)=-2x^2+5x+6$ | $-0.89$ and $3.39$ | $6$ | $(1.25,9.13)$ |\n| $f(x)=4x^2-28$ | $\\pm\\sqrt{7}$ | $-28$ | $(0,-28)$ |\n| $f(x)=x^2-15x+50$ | $5$ and $10$ | $50$ | $(7.5,-6.25)$ |",
+    "solution": "**Key Rules Confirmed:**\n1. x-intercepts: Set $f(x) = 0$, solve\n2. y-intercept: Set $x = 0$, compute $f(0) = c$\n3. Vertex x-coordinate: $x = \\dfrac{-b}{2a}$\n4. Vertex y-coordinate: Plug vertex x back into $f(x)$\n\n**Next Lecture:** Section 3.7 — Graphing Quadratic Functions with the 5-point method!",
+    "pitfall": "**Sora’s Observation:** For every quadratic, the y-intercept is just $c$ (the constant term). No calculation needed!",
+    "script": "[Prof. Park] Section 3.6 is complete! You now possess tactical maturity in college algebra.\n\n[TA Sora] In Lecture 44, we bring all these skills together into the 5-Point Graphing Method. \n\n[Prof. Park] Complete your Section 3.6 practice problems on pages 94 and 95 tonight.\n\n[TA Sora] Great job today, Bobcats! We will see you in Lecture 44!\n\n[TA Sora] That concludes Section 3.6! In Lecture 44, we synthesize everything we have learned into Section 3.7: Graphing Quadratic Functions with the complete 5-Point Method!\n\n[Prof. Park] And remember our Golden Rule of Quadratic Equations: Before applying ANY method—whether factoring or the formula—you MUST set the equation equal to ZERO! If an equation is written as 2x^2 + 5x = -3, you cannot factor 2x^2 + 5x and set it equal to -3! You must add 3 to both sides first: 2x^2 + 5x + 3 = 0! Zero on one side is the mandatory ticket to solving quadratic equations.",
+    "coordinate": {
+      "xMin": -7,
+      "xMax": 12,
+      "yMin": -15,
+      "yMax": 15,
+      "xTicks": 2,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 2
+        },
+        {
+          "a": -2,
+          "b": 5,
+          "c": 6,
+          "color": "#ff9500",
+          "strokeWidth": 2
+        },
+        {
+          "a": 1,
+          "b": -15,
+          "c": 50,
+          "color": "#00ff88",
+          "strokeWidth": 2
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(0,0)"
+        },
+        {
+          "x": -6,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-6,0)"
+        }
+      ]
+    }
+  }
+]

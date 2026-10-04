@@ -1,0 +1,260 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Section 2.3: Point-Slope Form of a Line",
+    "subtitle": "Unit 2 • Lecture 22 • Section 2.3 (Workbook p. 41)",
+    "detail": "Lecture 22: Finding Linear Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Point-Slope Form (Workbook p. 41)\n$$\\mathbf{y - y_1 = m(x - x_1)}$$\n- $m$ is the slope.\n- $(x_1, y_1)$ is **any point** on the line.\n- Can be used to find the equation of **any non-vertical line**!\n- Once substituted, distribute $m$ and solve for $y$ to get slope-intercept form $y = mx + b$.",
+    "solution": "$$\\begin{aligned}\n\\text{Step 1: } & \\text{Identify slope } m \\text{ and given point } (x_1, y_1). \\\\\n\\text{Step 2: } & \\text{Substitute into } y - y_1 = m(x - x_1). \\\\\n\\text{Step 3: } & \\text{Distribute } m \\text{ across the parentheses.} \\\\\n\\text{Step 4: } & \\text{Add } y_1 \\text{ to both sides to isolate } y = mx + b.\n\\end{aligned}$$",
+    "pitfall": "**Minus sign in formula:** $y - y_1$ and $x - x_1$ contain subtraction signs. If $x_1$ is negative, $x - (-3)$ becomes $x + 3$!",
+    "script": "[Prof. Park] Welcome to Lecture 22 of M090 Introductory Algebra! Today on page 41 of your workbook, we open Section 2.3: Writing Equations of Lines.\n\n[TA Sora] In Sections 2.1 and 2.2, we played the role of an inspector: we were handed a mathematical equation, and our job was to find its slope, find its intercepts, and plot its graph. Today, we step into the shoes of the architect, the surveyor, and the field engineer! We are given raw real-world data points or geometric clues, and our job is to construct the mathematical equation of the line from scratch!\n\n[Prof. Park] To accomplish this, algebra gives us three primary linear forms:\n1. **Slope-Intercept Form:** $y = mx + b$. This is our favorite finishing format because it displays the slope $m$ and $y$-intercept $(0, b)$ directly.\n2. **Point-Slope Form:**\n$$y - y_1 = m(x - x_1)$$\nThis formula is the supreme powerhouse of linear algebra!\n3. **Standard Form:** $Ax + By = C$.\n\n[TA Sora] Why do we call Point-Slope Form the powerhouse? Because in real-world science, ranching, and engineering, you almost NEVER know the $y$-intercept in advance! Think about wildlife biologists tracking grizzly bears in Yellowstone National Park: you capture a GPS radio-collar reading at 2:00 PM at coordinates $(x_1, y_1)$, and you measure the bear's heading and speed (slope $m$). You don't know where the bear was at midnight ($x = 0$)! Point-Slope Form lets you plug in ANY known data point $(x_1, y_1)$ on the entire line and construct the exact equation instantly!\n\n[Prof. Park] And where does Point-Slope Form come from? Look at the slope formula we mastered in Lecture 20:\n$$m = \\frac{y - y_1}{x - x_1}$$\nMultiply both sides of that equation by the denominator $(x - x_1)$:\n$$m(x - x_1) = y - y_1 \\quad \\iff \\quad y - y_1 = m(x - x_1)$$\nIt is literally the slope formula rearranged to isolate the change in $y$! Notice how algebraic equations are never isolated tricks—they are interconnected relatives wearing different outfits.\n\n[TA Sora] Let us put this magnificent formula into action with Example 1 on page 41!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.3 Example 1: Slope -4/3 and Y-Intercept (0, -3)",
+    "subtitle": "Unit 2 • Lecture 22 • Section 2.3 Example 1 (Workbook p. 41)",
+    "detail": "Lecture 22: Finding Linear Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 (Workbook p. 41)\nFind the equation of the line with a $y$-intercept of $(0, -3)$ and a slope of $m = -\\frac{4}{3}$.\n- Write the equation in slope-intercept form.\n- Graph the line on the Cartesian coordinate plane.",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & m = -\\frac{4}{3}, \\quad b = -3 \\\\[0.5em]\n\\text{Direct substitution: } & y = mx + b \\\\[0.5em]\n\\mathbf{\\text{Equation: }} & \\mathbf{y = -\\frac{4}{3}x - 3}\n\\end{aligned}$$",
+    "pitfall": "**Immediate answer when given y-intercept:** If the point is $(0, b)$, you don't even need point-slope! Just drop $m$ and $b$ directly into $y = mx + b$!",
+    "script": "[Prof. Park] Example 1 on page 41: Find the equation of the line with a slope of $\\frac{3}{2}$ that contains the point $(-4, 1)$. Write your final answer in Slope-Intercept Form $y = mx + b$.\n\n[TA Sora] Step 1: Gather and label your given data with total clarity!\nWe are given:\nSlope: $m = \\frac{3}{2}$.\nKnown point: $(x_1, y_1) = (-4, 1)$.\nNotice that this given point has an $x$-coordinate of $-4$, not $0$! That means this point is NOT a $y$-intercept. Therefore, we cannot just plug $1$ into $b$ of $y = mx + b$. We MUST use Point-Slope Form!\n\n[Prof. Park] Step 2: Write down the point-slope formula clearly on your paper:\n$$y - y_1 = m(x - x_1)$$\nNow substitute our values, using TA Sora's Protective Parentheses Rule around the negative coordinate:\n$$y - 1 = \\frac{3}{2}(x - (-4))$$\nInside the parentheses, subtracting a negative four turns into addition: $x - (-4) = x + 4$:\n$$y - 1 = \\frac{3}{2}(x + 4)$$\n\n[TA Sora] Step 3: Distribute the fraction $\\frac{3}{2}$ to both terms inside the parentheses:\n$$\\frac{3}{2} \\cdot x = \\frac{3}{2}x$$\n$$\\frac{3}{2} \\cdot 4 = \\frac{12}{2} = 6$$\nSo our equation becomes:\n$$y - 1 = \\frac{3}{2}x + 6$$\n\n[Prof. Park] Step 4: Now isolate $y$ to finish in Slope-Intercept Form $y = mx + b$. Add 1 to both sides:\n$$y = \\frac{3}{2}x + 6 + 1 \\implies y = \\frac{3}{2}x + 7$$\n\n[TA Sora] Look at how magnificent that final equation is: $y = \\frac{3}{2}x + 7$.\nNow let us perform a 5-second sanity check:\nDoes it have a slope of $\\frac{3}{2}$? Yes!\nDoes it contain the point $(-4, 1)$? Let us plug in $x = -4$:\n$$y = \\frac{3}{2}(-4) + 7 = -6 + 7 = 1!$$\nThe output is 1! It passes through $(-4, 1)$ with 100% precision! Never leave a problem without verifying your known point in your finished formula.",
+    "graph": {
+      "xMin": -6,
+      "xMax": 4,
+      "yMin": -8,
+      "yMax": 3,
+      "title": "Example 1: y = -4/3x - 3",
+      "points": [
+        {
+          "x": 0,
+          "y": -3,
+          "label": "y-int (0, -3)",
+          "color": "#10b981"
+        },
+        {
+          "x": -3,
+          "y": 1,
+          "label": "(-3, 1)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -1.3333333333333333,
+          "yIntercept": -3,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = -4/3x - 3"
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.3 Example 2: Slope -4/3 and X-Intercept (-3, 0)",
+    "subtitle": "Unit 2 • Lecture 22 • Section 2.3 Example 2 (Workbook p. 41)",
+    "detail": "Lecture 22: Finding Linear Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 (Workbook p. 41)\nFind the equation of the line with $x$-intercept of $(-3, 0)$ and a slope of $m = -\\frac{4}{3}$.\n- Can you plug $-3$ in for $b$?\n- Use point-slope form $y - y_1 = m(x - x_1)$ to find the correct equation.",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & (x_1, y_1) = (-3, 0), \\quad m = -\\frac{4}{3} \\\\[0.5em]\ny - y_1 & = m(x - x_1) \\\\[0.5em]\ny - 0 & = -\\frac{4}{3}(x - (-3)) \\\\[0.5em]\ny & = -\\frac{4}{3}(x + 3) = -\\frac{4}{3}x - \\left(\\frac{4}{3} \\cdot 3\\right) \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{-\\frac{4}{3}x - 4}\n\\end{aligned}$$",
+    "pitfall": "**DO NOT confuse x-intercept with y-intercept!** $(-3, 0)$ is an $x$-intercept. The $y$-intercept is $(0, -4)$, NOT $(0, -3)$!",
+    "script": "[Prof. Park] Now turn to Example 2 on page 41: Find the equation of the line with an $x$-intercept of $(-3, 0)$ and a slope of $-\\frac{4}{3}$. Write the equation in slope-intercept form.\n\n[TA Sora] Students, please pay extreme attention to the wording of this problem! It says 'an $x$-intercept of $(-3, 0)$.'\nDuring tutoring sessions at Gallatin College, I see at least one student every semester who sees $(-3, 0)$ and writes: '$y = -\\frac{4}{3}x - 3$.'\nProfessor, explain why that is a total disaster!\n\n[Prof. Park] Because the letter $b$ in $y = mx + b$ stands strictly for the **$y$-intercept** $(0, b)$! An $x$-intercept is a point where $y = 0$, sitting on the horizontal axis. You can never plug an $x$-intercept into the $b$ slot of slope-intercept form!\nInstead, treat $(-3, 0)$ as an ordinary point: $(x_1, y_1) = (-3, 0)$, with slope $m = -\\frac{4}{3}$, and deploy Point-Slope Form!\n\n[TA Sora] Let us substitute into Point-Slope Form:\n$$y - y_1 = m(x - x_1)$$\n$$y - 0 = -\\frac{4}{3}(x - (-3))$$\nLook at how cleanly this simplifies:\nOn the left side: $y - 0$ is simply $y$!\nOn the right side: $x - (-3)$ becomes $(x + 3)$:\n$$y = -\\frac{4}{3}(x + 3)$$\n\n[Prof. Park] Now distribute the slope $-\\frac{4}{3}$ across the parentheses:\n$$-\\frac{4}{3} \\cdot x = -\\frac{4}{3}x$$\n$$-\\frac{4}{3} \\cdot 3 = -\\frac{12}{3} = -4$$\nSo our final equation is:\n$$y = -\\frac{4}{3}x - 4$$\n\n[TA Sora] Look at that result! The true $y$-intercept is $(0, -4)$, which is completely different from $-3$! If a student had plugged $-3$ into $b$, their entire line would have been parallel to the correct line, but shifted down by an entire unit. Always treat $x$-intercepts as $(x_1, 0)$ in point-slope form!\n\n[Prof. Park] In carpentry and surveying across Montana, mixing up horizontal offsets with vertical elevations will cause an entire building foundation to tilt. Precision in definitions protects you from expensive errors!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 4,
+      "yMin": -8,
+      "yMax": 3,
+      "title": "Example 2: y = -4/3x - 4 with x-int (-3, 0)",
+      "points": [
+        {
+          "x": -3,
+          "y": 0,
+          "label": "x-int (-3, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": -4,
+          "label": "y-int (0, -4)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -1.3333333333333333,
+          "yIntercept": -4,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "y = -4/3x - 4"
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.3 Example 3 (Step 1): Finding Slope between (2, 3) and (-6, 1)",
+    "subtitle": "Unit 2 • Lecture 22 • Section 2.3 Example 3 (Workbook p. 41)",
+    "detail": "Lecture 22: Finding Linear Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 Step 1 (Workbook p. 41)\nFind the equation of the line that contains the points:\n$$\\mathbf{(2, 3) \\quad \\text{and} \\quad (-6, 1)}$$\nFirst, calculate the slope $m$ using the two points.",
+    "solution": "$$\\begin{aligned}\n\\text{Let } & (x_1, y_1) = (2, 3) \\quad \\text{and} \\quad (x_2, y_2) = (-6, 1) \\\\[0.5em]\nm & = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{1 - 3}{-6 - 2} \\\\[0.5em]\n& = \\frac{-2}{-8} \\\\[0.5em]\n\\mathbf{m} & = \\mathbf{\\frac{1}{4}}\n\\end{aligned}$$",
+    "pitfall": "**Simplifying fractions:** $\\frac{-2}{-8}$ simplifies to positive $\\frac{1}{4}$. Always reduce slopes before writing equations!",
+    "script": "[Prof. Park] On Slide 4, we examine Example 3 Step 1 on page 41: Find the equation of the line that contains the two points $(2, 3)$ and $(-6, 1)$.\n\n[TA Sora] Look at what is given here: We are given TWO points, but we are NOT given the slope $m$!\nThink about what we need to build a line: We need a point and a slope. We have two points, but zero slopes! What is our first mission, Professor?\n\n[Prof. Park] Our first mission is to manufacture our own slope! Remember the slope formula from Lecture 20: Given any two points on a line, you can always compute the slope using:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$\nLet us label our coordinates carefully:\nLet $(x_1, y_1) = (2, 3)$ and $(x_2, y_2) = (-6, 1)$.\n\n[TA Sora] Now substitute with protective parentheses:\n$$m = \\frac{1 - 3}{-6 - 2}$$\nIn the numerator: $1 - 3 = -2$. That is our Rise (a drop of 2 units).\nIn the denominator: $-6 - 2 = -8$. That is our Run (a move of 8 units to the left).\nSo our slope fraction is:\n$$m = \\frac{-2}{-8}$$\n\n[Prof. Park] Now simplify: A negative divided by a negative is always positive! And reduce $\\frac{2}{8}$ by dividing numerator and denominator by 2:\n$$m = \\frac{1}{4}$$\nOur slope is positive $\\frac{1}{4}$!\n\n[TA Sora] What does a slope of $\\frac{1}{4}$ mean in practice? For every 4 miles you drive east toward Livingston, you gain 1 mile of elevation climbing up Bozeman Pass. It is a steady, gentle grade!\nNow we have conquered Step 1! We have our slope $m = \\frac{1}{4}$, and we have two points to choose from: $(2, 3)$ or $(-6, 1)$. On Slide 5, we will take these ingredients and construct the final equation!\n\n[TA Sora] Notice how clean our workflow is when we separate the calculation into two phases: First find the slope, then build the equation. When you try to do both at the same time in your head, that is when signs get crossed and fractions flip upside down. Order brings clarity!"
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.3 Example 3 (Step 2 & Graph): Point-Slope to Slope-Intercept",
+    "subtitle": "Unit 2 • Lecture 22 • Section 2.3 Example 3 Graph (Workbook p. 41)",
+    "detail": "Lecture 22: Finding Linear Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 Step 2 (Workbook p. 41)\nNow use $m = \\frac{1}{4}$ and point $(2, 3)$ to find the equation in slope-intercept form:\n- Apply $y - y_1 = m(x - x_1)$.\n- Graph the line passing through both $(2, 3)$ and $(-6, 1)$.",
+    "solution": "$$\\begin{aligned}\ny - 3 & = \\frac{1}{4}(x - 2) \\\\[0.5em]\ny - 3 & = \\frac{1}{4}x - \\frac{2}{4} = \\frac{1}{4}x - \\frac{1}{2} \\\\[0.5em]\ny & = \\frac{1}{4}x - \\frac{1}{2} + 3 \\quad \\left(\\text{note: } 3 = \\frac{6}{2}\\right) \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{\\frac{1}{4}x + \\frac{5}{2} = \\frac{1}{4}x + 2.5}\n\\end{aligned}$$",
+    "pitfall": "**Either point works:** You could also plug in $(-6, 1)$: $y - 1 = \\frac{1}{4}(x + 6) \\implies y = \\frac{1}{4}x + 2.5$. You get the exact same answer!",
+    "script": "[Prof. Park] On Slide 5, we execute Example 3 Step 2: Use the slope $m = \\frac{1}{4}$ and the point $(2, 3)$ to find the equation in Slope-Intercept Form $y = mx + b$.\n\n[TA Sora] A question students always ask: 'Sora, which point should I choose to plug into Point-Slope Form? $(2, 3)$ or $(-6, 1)$?'\nThe answer is: It does NOT matter! Both points lie on the exact same line, so both will lead to the exact same final equation. My practical advice: choose the point with smaller, positive numbers to keep your arithmetic clean and stress-free!\n\n[Prof. Park] Let us choose $(x_1, y_1) = (2, 3)$ with $m = \\frac{1}{4}$:\n$$y - y_1 = m(x - x_1)$$\n$$y - 3 = \\frac{1}{4}(x - 2)$$\nDistribute $\\frac{1}{4}$ across the parentheses:\n$$y - 3 = \\frac{1}{4}x - \\frac{2}{4}$$\nSimplify $\\frac{2}{4}$ to $\\frac{1}{2}$:\n$$y - 3 = \\frac{1}{4}x - \\frac{1}{2}$$\n\n[TA Sora] Now isolate $y$ by adding 3 to both sides:\n$$y = \\frac{1}{4}x - \\frac{1}{2} + 3$$\nTo add $-\\frac{1}{2}$ and $3$, convert 3 into an equivalent fraction with denominator 2: $3 = \\frac{6}{2}$:\n$$y = \\frac{1}{4}x - \\frac{1}{2} + \\frac{6}{2}$$\nCombine the fractions: $-\\frac{1}{2} + \\frac{6}{2} = +\\frac{5}{2}$:\n$$y = \\frac{1}{4}x + \\frac{5}{2}$$\n\n[Prof. Park] Look at the graph on your screen! The line passes through $(-6, 1)$ and $(2, 3)$, climbing gently with a slope of $\\frac{1}{4}$, and it cuts through the vertical axis at exactly $2.5$, which is $\\frac{5}{2}$! Let us test $(-6, 1)$ in our finished equation: $\\frac{1}{4}(-6) + \\frac{5}{2} = -\\frac{3}{2} + \\frac{5}{2} = \\frac{2}{2} = 1$! Everything checks out with total mathematical perfection! Two separate routes, one single truth!\n\n[Prof. Park] In physics and Montana transportation studies, finding a line between two data points is called 'linear interpolation.' If your car consumed 3 gallons after 100 miles and 8 gallons after 300 miles, this exact calculation reveals your vehicle's true miles-per-gallon rate and baseline fuel tank reserve!",
+    "graph": {
+      "xMin": -8,
+      "xMax": 5,
+      "yMin": -2,
+      "yMax": 6,
+      "title": "Example 3: Line through (2, 3) and (-6, 1)",
+      "points": [
+        {
+          "x": 2,
+          "y": 3,
+          "label": "(2, 3)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -6,
+          "y": 1,
+          "label": "(-6, 1)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": 2.5,
+          "label": "y-int (0, 2.5)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.25,
+          "yIntercept": 2.5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = 1/4x + 2.5"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.3 Example 4: Points (1, 7) and (-3, 7)",
+    "subtitle": "Unit 2 • Lecture 22 • Section 2.3 Example 4 (Workbook p. 42)",
+    "detail": "Lecture 22: Finding Linear Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 (Workbook p. 42)\nFind the equation of the line that contains the points:\n$$\\mathbf{(1, 7) \\quad \\text{and} \\quad (-3, 7)}$$\n- Notice the coordinates that match!\n- Calculate slope $m$ and state the equation directly.",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{7 - 7}{-3 - 1} = \\frac{0}{-4} = \\mathbf{0} \\\\[0.5em]\n\\text{Since } m = 0: & \\text{This is a } \\mathbf{\\text{Horizontal Line (HOY)}}. \\\\\n\\mathbf{\\text{Equation: }} & \\mathbf{y = 7}\n\\end{aligned}$$",
+    "pitfall": "**Spot identical coordinates:** Whenever both points share the same $y$-value (here $y = 7$), the line is simply $y = 7$!",
+    "script": "[Prof. Park] Turn to Example 4 on page 42: Find the equation of the line containing the points $(1, 7)$ and $(-3, 7)$.\n\n[TA Sora] Before you grab your pencil and start writing out point-slope formulas, stop and apply TA Sora's Three-Second Scan Rule! Look closely at the coordinates of both points:\nPoint 1: $(1, 7)$\nPoint 2: $(-3, 7)$\nWhat jumps out immediately? Both points have the exact same $y$-coordinate: $y = 7$!\n\n[Prof. Park] If both points share the exact same vertical elevation of 7, let us see what happens if you mechanically compute the slope:\n$$m = \\frac{7 - 7}{-3 - 1} = \\frac{0}{-4} = 0$$\nThe slope is zero!\n\n[TA Sora] And what does our famous HOY VUX rule from Lecture 19 tell us?\nH - O - Y!\n- **H** stands for **Horizontal** line.\n- **O** stands for **0 (Zero)** slope.\n- **Y** stands for **$y = \\text{number}$** equation!\nBecause the $y$-value is permanently locked at 7, the equation of the line is simply:\n$$y = 7$$\n\n[Prof. Park] You do not need point-slope form, you do not need fractions, you do not need four steps of algebra. The equation was right in front of you the entire time: $y = 7$!\n\n[TA Sora] Think of a flat runway at Bozeman Yellowstone International Airport: the elevation of the runway doesn't change whether you are 1 mile east or 3 miles west. The altitude is locked at 7. Whenever $y$-coordinates match, write $y = c$ and move immediately to the next question!\n\n[TA Sora] Never spend 5 minutes doing algebraic derivations when the coordinates are already screaming the answer at you! Always take a breath, scan the numbers, and let the geometry guide your algebra!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 4,
+      "yMin": 0,
+      "yMax": 10,
+      "title": "Example 4: Horizontal Line y = 7",
+      "points": [
+        {
+          "x": 1,
+          "y": 7,
+          "label": "(1, 7)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -3,
+          "y": 7,
+          "label": "(-3, 7)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "horizontal": 7,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = 7"
+        }
+      ]
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.3 Example 5: Points (2, -8) and (2, 1)",
+    "subtitle": "Unit 2 • Lecture 22 • Section 2.3 Example 5 (Workbook p. 42)",
+    "detail": "Lecture 22: Finding Linear Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 (Workbook p. 42)\nFind the equation of the line that contains the points:\n$$\\mathbf{(2, -8) \\quad \\text{and} \\quad (2, 1)}$$\n- Notice the coordinates that match!\n- Calculate slope $m$ and state the equation.",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{1 - (-8)}{2 - 2} = \\frac{9}{0} = \\mathbf{\\text{Undefined}} \\\\[0.5em]\n\\text{Since slope is undefined: } & \\text{This is a } \\mathbf{\\text{Vertical Line (VUX)}}. \\\\\n\\mathbf{\\text{Equation: }} & \\mathbf{x = 2}\n\\end{aligned}$$",
+    "pitfall": "**Do not use point-slope for vertical lines!** Because $m$ is undefined, you cannot multiply by $m$. Simply write $x = 2$!",
+    "script": "[Prof. Park] Now examine Example 5 on page 42: Find the equation of the line containing the points $(2, -8)$ and $(2, 1)$.\n\n[TA Sora] Again, run your Three-Second Scan! Look at the coordinates:\nPoint 1: $(2, -8)$\nPoint 2: $(2, 1)$\nNow the $x$-coordinates are identical: $x_1 = 2$ and $x_2 = 2$!\n\n[Prof. Park] Let us compute the slope and observe what happens algebraically:\n$$m = \\frac{1 - (-8)}{2 - 2} = \\frac{1 + 8}{0} = \\frac{9}{0}$$\nDivision by zero! The slope is **UNDEFINED**!\n\n[TA Sora] And what does HOY VUX command us?\nV - U - X!\n- **V** stands for **Vertical** line.\n- **U** stands for **Undefined** slope.\n- **X** stands for **$x = \\text{number}$** equation!\nBecause the $x$-coordinate is permanently locked at 2, you CANNOT write this line in Slope-Intercept Form $y = mx + b$ because there is no $y$ in the equation! The equation of the line is simply:\n$$x = 2$$\n\n[Prof. Park] Look at the symmetry of Examples 4 and 5 side by side:\nWhen the $y$-coordinates are identical, you have a horizontal line: $y = c$.\nWhen the $x$-coordinates are identical, you have a vertical line: $x = c$.\nRecognizing these patterns instantly saves you minutes on exams and protects you from division-by-zero confusion! In geology, think of a vertical fault line in the Madison Range—it drops straight down through the strata at a single fixed horizontal fault coordinate.\n\n[Prof. Park] Exactly. In engineering mechanics, when you calculate vertical shear loads on support columns in a Bozeman parking garage, a vertical load line has no horizontal deflection—$x$ is fixed, and the slope is undefined because there is no horizontal run!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -10,
+      "yMax": 4,
+      "title": "Example 5: Vertical Line x = 2",
+      "points": [
+        {
+          "x": 2,
+          "y": -8,
+          "label": "(2, -8)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "label": "(2, 1)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "vertical": 2,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "x = 2"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 2.3 Part 1 Mastery Summary",
+    "subtitle": "Unit 2 • Lecture 22 • Section 2.3 Wrap-up",
+    "detail": "Lecture 22: Finding Linear Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Line Equation Strategies\n1. **Given $m$ and $y$-intercept $(0, b)$:** Use $y = mx + b$.\n2. **Given $m$ and any point $(x_1, y_1)$:** Use $y - y_1 = m(x - x_1)$.\n3. **Given two points:** Find $m = \\frac{y_2 - y_1}{x_2 - x_1}$ first, then use point-slope.\n4. **Same $y$-values:** Horizontal line $y = c$.\n5. **Same $x$-values:** Vertical line $x = c$.",
+    "solution": "$$\\mathbf{\\text{Lecture 22 Complete! Next Up: Section 2.3 Part 2 — Parallel \\& Perpendicular Lines!}}$$",
+    "pitfall": "**Double check signs:** $y - (-4)$ is $y + 4$, and $x - (-2)$ is $x + 2$!",
+    "script": "[Prof. Park] On Slide 8, we present the Section 2.3 Part 1 Master Line-Building Flowchart. This is the master algorithm that professional mathematicians, GIS cartographers, and civil engineers use every single day.\n\n[TA Sora] Here is your complete decision tree:\n- **Scenario 1: Given Slope $m$ and $y$-intercept $(0, b)$:**\n  Plug directly into Slope-Intercept Form: $y = mx + b$. Done in 5 seconds!\n- **Scenario 2: Given Slope $m$ and ANY random point $(x_1, y_1)$:**\n  Use Point-Slope Form:\n  $$y - y_1 = m(x - x_1)$$\n  Distribute $m$, add or subtract $y_1$, and finish in $y = mx + b$.\n- **Scenario 3: Given TWO points $(x_1, y_1)$ and $(x_2, y_2)$:**\n  Step A: Calculate $m = \\frac{y_2 - y_1}{x_2 - x_1}$.\n  Step B: Pick either point and substitute into $y - y_1 = m(x - x_1)$.\n  Step C: Solve for $y$.\n- **Scenario 4: Special Lines (HOY VUX):**\n  If $y_1 = y_2$, horizontal line: $y = c$.\n  If $x_1 = x_2$, vertical line: $x = c$.\n\n[Prof. Park] Keep this mental flowchart etched in your notebook. When you sit down for Exam 2, you will never have to wonder 'what do I do first?' You simply identify your clues, follow the branch, and let algebra carry you to the solution.\n\n[TA Sora] In Lecture 23, we take this complete flowchart and apply it to advanced scenarios: finding lines parallel or perpendicular to existing equations through given points, followed by a comprehensive set of seven in-class practice problems. Outstanding work today, everyone!"
+  }
+]

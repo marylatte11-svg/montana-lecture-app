@@ -1,0 +1,261 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Course Orientation & Welcome to Unit 3",
+    "title": "Welcome to Unit 3: Quadratic Functions & The Parabola World",
+    "subtitle": "Unit 3 • Lecture 31 • Section 3.0 (Workbook p. 60)",
+    "detail": "Lecture 31: Intro to Quadratic Functions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Welcome to Unit 3 of M090! (Workbook p. 60)\nIn Unit 1, we learned the grammar of algebra (expressions, equations).\nIn Unit 2, we mastered straight lines ($y = mx + b$).\n\nNow in **Unit 3**, we enter the curved world of **Quadratic Functions & Parabolas**:\n- **General Form:** $\\mathbf{f(x) = ax^2 + bx + c}$ where $a \\neq 0$.\n- **Standard / Vertex Form:** $\\mathbf{f(x) = a(x - h)^2 + k}$.\n- **Graph:** A smooth, symmetric U-shaped curve called a **Parabola**!",
+    "solution": "$$\\begin{aligned}\n\\text{General Form: } & f(x) = ax^2 + bx + c \\quad (a \\neq 0) \\\\\n\\text{Degree: } & 2 \\quad (\\text{highest exponent is } 2) \\\\\n\\text{Shape: } & \\text{Parabola (opens upward if } a > 0, \\text{ downward if } a < 0)\n\\end{aligned}$$",
+    "pitfall": "**Quadratic requirement:** The coefficient $a$ CANNOT be zero! If $a = 0$, the $x^2$ term disappears and it becomes a linear function $bx + c$!",
+    "script": "[Prof. Park] Hello everyone, and welcome to Unit 3 of M090 Introductory Algebra here at Gallatin College, Montana State University! I'm Professor Eunju Park, and joining me as always is our wonderful teaching assistant, Sora. Sora, can you believe we are already entering Unit 3?\n\n[TA Sora] Welcome, Bobcats! Yes, Professor Park, it feels like just yesterday we were defining integers in Unit 1 and graphing straight ski slopes in Unit 2. But Unit 3 is truly where algebra comes to life because nature and real human experiences rarely move in rigid straight lines—they curve!\n\n[Prof. Park] Exactly right. In Unit 2, every equation was linear: $y = mx + b$. If you walked at a steady pace down Main Street in Bozeman, that was a line. But what happens when you throw a baseball, when water arches out of a Yellowstone geyser, or when a ski jumper launches off the ramp at Bridger Bowl? Gravity takes over, and the path bends into a graceful symmetrical curve known as a parabola.\n\n[TA Sora] That's one of my favorite things about quadratics. Whether you are studying nursing and calculating drug dosage curves, studying aviation at Gallatin College and analyzing flight glide paths, or working in carpentry and designing arched roof trusses that can withstand heavy Montana winter snow loads, quadratic functions are everywhere.\n\n[Prof. Park] That brings us to our core mathematical formula for this unit: the General Form of a Quadratic Function, $f(x) = ax^2 + bx + c$, where $a \\neq 0$. Notice that the highest exponent on the variable $x$ is 2. That single exponent of 2 changes everything.\n\n[TA Sora] And students, please make a big note right here on page 60 of your workbook: $a$ cannot equal 0. Professor Park, why is that condition so crucial?\n\n[Prof. Park] Think about it, Sora: if $a$ were 0, the $ax^2$ term would completely vanish, leaving us with just $bx + c$. That would demote our curved parabola back down to a straight line! We need that $x^2$ term alive and kicking.\n\n[TA Sora] So throughout this entire lecture, keep your eyes open for that $x^2$ power. Take a deep breath, grab your pencil and workbook, and let's explore the anatomy of these beautiful curves together!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Anatomy of a Quadratic Function: Terms & Coefficients",
+    "subtitle": "Unit 3 • Lecture 31 • Section 3.0 (Workbook p. 60)",
+    "detail": "Lecture 31: Intro to Quadratic Functions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Anatomy of General Form (Workbook p. 60)\n$$\\mathbf{f(x) = ax^2 + bx + c}$$\n- **Quadratic Term:** The term with $x^2$ $\\rightarrow$ **$ax^2$** (Coefficient is **$a$**).\n- **Linear Term:** The term with $x$ $\\rightarrow$ **$bx$** (Coefficient is **$b$**).\n- **Constant Term:** The numerical term without variables $\\rightarrow$ **$c$**.",
+    "solution": "$$\\begin{array}{|c|c|c|}\n\\hline\n\\textbf{Term Type} & \\textbf{Algebraic Expression} & \\textbf{Coefficient} \\\\\n\\hline\n\\text{Quadratic Term} & ax^2 & a \\\\\n\\hline\n\\text{Linear Term} & bx & b \\\\\n\\hline\n\\text{Constant Term} & c & c \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Coefficient vs Term:** The term includes the variable ($ax^2$). The coefficient is strictly the number in front ($a$)!",
+    "script": "[Prof. Park] Let's look at Slide 2 and examine the precise anatomy of our general quadratic form: $f(x) = ax^2 + bx + c$. Just like a builder inspects the foundation, framing, and roof of a house before construction, we must distinguish between the algebraic terms and their numerical coefficients.\n\n[TA Sora] This is where many students lose easy points on their first exam, so let's clarify the terminology right away. An algebraic 'term' includes both the number and the variable part, while a 'coefficient' is strictly the multiplying number sitting in front of that variable!\n\n[Prof. Park] Beautifully put, Sora. Let's break down the three parts: First, the quadratic term is $ax^2$, and its coefficient is $a$. Second, the linear term is $bx$, with coefficient $b$. And third, the constant term is $c$, which has no variable attached to it.\n\n[TA Sora] Professor Park, let's connect this to real-world financial planning. Suppose you run a small business in Bozeman, like a local food truck or custom fly-fishing rod workshop. Your total profit function often looks like $P(x) = -2x^2 + 80x - 300$, where $x$ is the price you charge.\n\n[Prof. Park] What a great real-life model, Sora! Look at the parts: the $-300$ is your constant overhead cost—rent, insurance, permits you pay even if you sell zero items. The $80x$ represents revenue coming in per customer. And the $-2x^2$ quadratic term reflects diminishing returns—if you price your rods too high, customer demand drops off!\n\n[TA Sora] Exactly! The quadratic term dictates the curve of profit reaching a peak and then falling. That's why understanding which number plays which role is essential not just for passing M090, but for making sound business and engineering decisions.\n\n[Prof. Park] And always remember: keep the sign attached to the coefficient! If a term is written as $-7x$, the coefficient is $-7$, not positive 7. \n\n[TA Sora] Yes! Treat the minus sign like a backpack that the number wears wherever it travels. Let's turn to page 60 in the workbook and put this into practice on Example 1!"
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 1: Terms in f(x) = -x^2 + 3x + 8",
+    "subtitle": "Unit 3 • Lecture 31 • Section 3.0 Example 1 (Workbook p. 60)",
+    "detail": "Lecture 31: Intro to Quadratic Functions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 (Workbook p. 60)\nFor the function $\\mathbf{f(x) = -x^2 + 3x + 8}$, identify:\n- **Quadratic term:** \\underline{\\hspace{2cm}} \\quad **Coefficient:** \\underline{\\hspace{2cm}}\n- **Linear term:** \\underline{\\hspace{2cm}} \\quad **Coefficient:** \\underline{\\hspace{2cm}}\n- **Constant term:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\textbf{Quadratic term: } & \\mathbf{-x^2} \\quad \\implies \\quad \\textbf{Coefficient: } \\mathbf{-1} \\\\[0.5em]\n\\textbf{Linear term: } & \\mathbf{3x} \\quad \\implies \\quad \\textbf{Coefficient: } \\mathbf{3} \\\\[0.5em]\n\\textbf{Constant term: } & \\mathbf{8}\n\\end{aligned}$$",
+    "pitfall": "**The invisible 1:** When you see $-x^2$, the coefficient is $-1$, NOT $0$ or just a minus sign!",
+    "script": "[Prof. Park] Now we arrive at our first official workbook problem on Slide 3: Section 3.0 Example 1 on page 60. The problem asks: For the function $f(x) = -x^2 + 3x + 8$, identify the quadratic term, its coefficient, the linear term, its coefficient, and the constant term.\n\n[TA Sora] Look at that first term: $-x^2$. Professor Park, every semester at the Gallatin tutoring center, I see students write down that the coefficient is 0, or they just write down a lonely minus sign! How should students read $-x^2$?\n\n[Prof. Park] That is what I call 'the invisible 1' trap! When you see $-x^2$, there is an understood 1 between the negative sign and the variable: it is $(-1)x^2$. So the quadratic term is $-x^2$, and its numerical coefficient is $a = -1$. Never leave a coefficient as just a minus sign, and never call it zero!\n\n[TA Sora] What a great reminder. If the coefficient were zero, the term wouldn't exist at all. Moving to the middle term, we have $+3x$. The linear term is $3x$, and its coefficient is $b = 3$. And finally, the standalone number at the end is the constant term, $c = 8$.\n\n[Prof. Park] Now take a glance at the Cartesian coordinate plane on the right side of your screen. Because $a = -1$, which is a negative number, the parabola curves downward like an umbrella or an arch bridge over the Madison River. Notice how the highest peak—the vertex—sits up at $(1.5, 10.25)$.\n\n[TA Sora] And look at where the curve crosses the vertical $y$-axis: right at $(0, 8)$! Notice that the $y$-intercept matches the constant term $c = 8$ exactly! That is not a coincidence, Bobcats. When you plug in $x = 0$, both variable terms vanish, leaving only $c$.\n\n[Prof. Park] Connecting the algebraic equation directly to its visual picture on the coordinate plane builds lasting intuition. Don't just memorize the labels; picture the graph in your mind as you identify each coefficient.\n\n[TA Sora] Double check your workbook notes: Quadratic term is $-x^2$ with coefficient $-1$; linear term is $3x$ with coefficient $3$; constant term is $8$. All three confirmed!",
+    "coordinate": {
+      "xMin": -3,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 14,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -1,
+          "b": 3,
+          "c": 8,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1.5,
+          "y": 10.25,
+          "color": "#ffd700",
+          "label": "V(1.5,10.25)"
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "color": "#00ff88",
+          "label": "(0,8)"
+        },
+        {
+          "x": -2,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-2,0)"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(4,0)"
+        }
+      ],
+      "axisOfSymmetry": 1.5
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 2: Terms in f(x) = 2x^2 - 7",
+    "subtitle": "Unit 3 • Lecture 31 • Section 3.0 Example 2 (Workbook p. 60)",
+    "detail": "Lecture 31: Intro to Quadratic Functions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 (Workbook p. 60)\nFor the function $\\mathbf{f(x) = 2x^2 - 7}$, identify:\n- **Quadratic term:** \\underline{\\hspace{2cm}} \\quad **Coefficient:** \\underline{\\hspace{2cm}}\n- **Linear term:** \\underline{\\hspace{2cm}} \\quad **Coefficient:** \\underline{\\hspace{2cm}}\n- **Constant term:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\textbf{Quadratic term: } & \\mathbf{2x^2} \\quad \\implies \\quad \\textbf{Coefficient: } \\mathbf{2} \\\\[0.5em]\n\\textbf{Linear term: } & \\mathbf{0x \\; (\\text{None})} \\quad \\implies \\quad \\textbf{Coefficient: } \\mathbf{0} \\\\[0.5em]\n\\textbf{Constant term: } & \\mathbf{-7}\n\\end{aligned}$$",
+    "pitfall": "**Missing terms have coefficient 0:** Because there is no $x$ term, the linear coefficient is $b = 0$. Do not write 'none'—mathematically, $b = 0$!",
+    "script": "[Prof. Park] Let's turn to Section 3.0 Example 2 on Slide 4: $f(x) = 2x^2 - 7$. At first glance, this function looks shorter than the previous one. Sora, what is missing here?\n\n[TA Sora] There is no $x$ term in the middle! We have $2x^2$, and then we jump straight to $-7$. A lot of students get nervous and write 'none' or leave the linear coefficient blank on their worksheet. But in mathematics, absence is represented by a very specific number.\n\n[Prof. Park] Precisely. The number that represents nothingness or absence is zero. We can rewrite $f(x) = 2x^2 - 7$ in complete standard form as $f(x) = 2x^2 + 0x - 7$. Writing in that placeholder of $0x$ makes the structure transparent.\n\n[TA Sora] So the quadratic term is $2x^2$ with coefficient $a = 2$. The linear term is $0x$ (or none) with coefficient $b = 0$. And the constant term is $-7$, keeping that negative sign firmly attached.\n\n[Prof. Park] Now look at the graph on your right! The leading coefficient is $a = 2$, which is positive ($a > 0$). Therefore, the parabola opens upward like a soup bowl or a satellite dish catching signals up in the Montana mountains.\n\n[TA Sora] And notice where the lowest point—the vertex—sits: right on the $y$-axis at $(0, -7)$! Because $b = 0$, the parabola doesn't shift left or right at all; its vertical line of symmetry is the $y$-axis itself, $x = 0$. \n\n[Prof. Park] This has immediate practical applications. If you are an engineer designing a parabolic solar collector or headlight reflector, having $b = 0$ means your focal point is centered perfectly along the axis of symmetry, simplifying manufacturing costs.\n\n[TA Sora] That is so satisfying. When a term is missing, its coefficient is 0. Write that in bold letters in your workbook margin: Missing linear term means $b = 0$, not undefined!",
+    "coordinate": {
+      "xMin": -3,
+      "xMax": 3,
+      "yMin": -9,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 2,
+          "b": 0,
+          "c": -7,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": -7,
+          "color": "#ffd700",
+          "label": "V(0,-7)"
+        },
+        {
+          "x": 1.87,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1.87,0)"
+        },
+        {
+          "x": -1.87,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1.87,0)"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 3: Descending Order First",
+    "subtitle": "Unit 3 • Lecture 31 • Section 3.0 Example 3 (Workbook p. 60)",
+    "detail": "Lecture 31: Intro to Quadratic Functions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 (Workbook p. 60)\nConsider $\\mathbf{f(x) = -2 - 3x + \\frac{x^2}{3}}$.\n- **Put in descending order first:** \\underline{\\hspace{2cm}}\n- **Quadratic term & coefficient:** \\underline{\\hspace{2cm}}\n- **Linear term & coefficient:** \\underline{\\hspace{2cm}}\n- **Constant term:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\textbf{Descending Order: } & \\mathbf{f(x) = \\frac{1}{3}x^2 - 3x - 2} \\\\[0.8em]\n\\textbf{Quadratic term: } & \\mathbf{\\frac{x^2}{3} = \\frac{1}{3}x^2} \\quad \\implies \\quad \\textbf{Coefficient: } \\mathbf{\\frac{1}{3}} \\\\[0.5em]\n\\textbf{Linear term: } & \\mathbf{-3x} \\quad \\implies \\quad \\textbf{Coefficient: } \\mathbf{-3} \\\\[0.5em]\n\\textbf{Constant term: } & \\mathbf{-2}\n\\end{aligned}$$",
+    "pitfall": "**Rearrange before identifying:** Don't assume the first term is quadratic! Always rearrange from highest exponent to lowest: $x^2$, then $x$, then constant!",
+    "script": "[Prof. Park] Slide 5 brings us to Section 3.0 Example 3 on page 60: $f(x) = -2 - 3x + \\frac{x^2}{3}$. Sora, what trap must students avoid here immediately?\n\n[TA Sora] Do NOT just read coefficients from left to right! The constant $-2$ is listed first, and the squared term $\\frac{x^2}{3}$ is waiting at the very end!\n\n[Prof. Park] Exactly right. Standard general form requires descending order of powers: $ax^2 + bx + c$. Let's rewrite it: $f(x) = \\frac{1}{3}x^2 - 3x - 2$.\n\n[TA Sora] Now everything is clear: $a = \\frac{1}{3}$, $b = -3$, and $c = -2$!\n\n[Prof. Park] Next, does the parabola open upward or downward? Since $a = \\frac{1}{3}$, which is positive ($a > 0$), the parabola opens upward like a cup!\n\n[TA Sora] And because it opens upward, the vertex sits at the lowest point, meaning the vertex represents a MINIMUM value!\n\n[Prof. Park] Finally, what is the $y$-intercept? When $x = 0$, $f(0) = -2$, so the $y$-intercept is the coordinate point $(0, -2)$.\n\n[TA Sora] Always reorder terms from highest power to lowest power first before extracting $a$, $b$, and $c$!"
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 4: Linear vs Quadratic",
+    "subtitle": "Unit 3 • Lecture 31 • Section 3.0 Example 4 (Workbook p. 60)",
+    "detail": "Lecture 31: Intro to Quadratic Functions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 (Workbook p. 60)\nWhat type of function is $\\mathbf{f(x) = 4x + 7}$?\n- **Quadratic term & coefficient:** \\underline{\\hspace{2cm}}\n- **Linear term & coefficient:** \\underline{\\hspace{2cm}}\n- **Constant term:** \\underline{\\hspace{2cm}}\n- Is this function quadratic?",
+    "solution": "$$\\begin{aligned}\n\\textbf{Quadratic term: } & \\mathbf{0x^2 \\; (\\text{None})} \\quad \\implies \\quad \\textbf{Coefficient: } \\mathbf{0} \\\\[0.5em]\n\\textbf{Linear term: } & \\mathbf{4x} \\quad \\implies \\quad \\textbf{Coefficient: } \\mathbf{4} \\\\[0.5em]\n\\textbf{Constant term: } & \\mathbf{7} \\\\[0.8em]\n\\mathbf{\\text{Function Type: }} & \\mathbf{\\text{LINEAR FUNCTION, NOT Quadratic!}}\n\\end{aligned}$$",
+    "pitfall": "**A quadratic function MUST have an x^2 term:** Since $a = 0$, the degree is 1, so this is a straight line, not a parabola!",
+    "script": "[Prof. Park] On Slide 6, Example 4 asks us to classify two functions: $f(x) = 4x + 7$ and $g(x) = -x^2 + 5$. Sora, how do we distinguish linear from quadratic?\n\n[TA Sora] Look at the highest exponent of $x$—that is the degree! If the degree is 1, it is linear. If the degree is 2, it is quadratic!\n\n[Prof. Park] Exactly. In $f(x) = 4x + 7$, $x$ has an exponent of 1. That makes $f(x)$ a linear function, and its graph is a straight line with slope 4 and $y$-intercept $(0, 7)$.\n\n[TA Sora] Now examine $g(x) = -x^2 + 5$. The highest power of $x$ is 2! That makes $g(x)$ a quadratic function!\n\n[Prof. Park] Notice also that in $g(x) = -x^2 + 5$, there is no linear $x$ term, so $b = 0$. And $a = -1 < 0$, so its graph is a parabola opening downward with vertex at $(0, 5)$.\n\n[TA Sora] Degree 1 produces a straight line, while degree 2 gives us the iconic curved parabola!"
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept & Parabola Orientation",
+    "title": "Parabola Direction: Opening Upward vs Opening Downward",
+    "subtitle": "Unit 3 • Lecture 31 • Section 3.0 Direction Rules",
+    "detail": "Lecture 31: Intro to Quadratic Functions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Parabola Orientation Rules\nThe sign of the leading coefficient $a$ determines which way the parabola opens:\n- **$a > 0$ (Positive):** Parabola opens **UPWARD** $\\cup$.\n  - The vertex is the **lowest point (Minimum)**.\n- **$a < 0$ (Negative):** Parabola opens **DOWNWARD** $\\cap$.\n  - The vertex is the **highest point (Maximum)**.",
+    "solution": "$$\\begin{array}{|c|c|c|c|}\n\\hline\n\\textbf{Sign of } a & \\textbf{Shape} & \\textbf{Orientation} & \\textbf{Vertex Type} \\\\\n\\hline\na > 0 & \\cup & \\text{Opens UP} & \\textbf{Minimum (Lowest Point)} \\\\\n\\hline\na < 0 & \\cap & \\text{Opens DOWN} & \\textbf{Maximum (Highest Point)} \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Happy face vs Sad face:** Positive $a > 0$ makes a smile (minimum valley). Negative $a < 0$ makes a frown (maximum peak)!",
+    "script": "[Prof. Park] Let's move to Slide 7, which explores one of the most visual and intuitive properties of any parabola: its direction of opening. Whether a parabola opens upward or downward is dictated entirely by a single sign—the sign of our leading coefficient $a$.\n\n[TA Sora] Here is Sora's memory trick that students at Gallatin College love: Think of the parabola as a smile or a frown! When $a > 0$ (positive, optimistic attitude), the parabola smiles upward like a U-shape! When $a < 0$ (negative, pessimistic attitude), the parabola frowns downward like an upside-down U!\n\n[Prof. Park] That is unforgettable, Sora! Let's look at the mathematical consequences of that smile and frown. When $a > 0$ and the parabola opens upward, the vertex represents the lowest possible valley on the curve. In mathematical terms, the vertex gives us the Minimum value of the function.\n\n[TA Sora] And conversely, when $a < 0$ and the parabola opens downward, the curve climbs to a peak and then descends. That means the vertex represents the Maximum value of the function!\n\n[Prof. Park] Think about what this means in practical problem-solving. If a rancher in the Gallatin Valley wants to minimize the cost of fencing a pasture, they model the cost with a quadratic where $a > 0$ and look for the minimum at the vertex. If a business wants to maximize revenue, they model revenue with $a < 0$ and look for the maximum at the vertex!\n\n[TA Sora] Look at the two curves plotted side-by-side on your screen right now: the blue curve $y = x^2$ opens upward with vertex at $(0, 0)$ as its absolute minimum. The orange curve $y = -x^2$ opens downward with vertex at $(0, 0)$ as its absolute maximum.\n\n[Prof. Park] The leading coefficient $a$ is the master conductor of the parabola. Its sign determines the direction (up or down), and its magnitude determines how narrow or wide the curve opens.\n\n[TA Sora] Always look at $a$ first: $a > 0$ means opens up with a minimum; $a < 0$ means opens down with a maximum. It takes two seconds to check, and it immediately sets your mental compass!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 6,
+      "title": "Parabolas: Upward (Blue, min) vs Downward (Pink, max)",
+      "points": [
+        {
+          "x": 0,
+          "y": -3,
+          "label": "Min Vertex (0, -3)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "label": "Max Vertex (0, 4)",
+          "color": "#ec4899"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": -3,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "a > 0 (Up)"
+        },
+        {
+          "a": -1,
+          "b": 0,
+          "c": 4,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "a < 0 (Down)"
+        }
+      ]
+    },
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -10,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 3,
+          "label": "a>0 opens up"
+        },
+        {
+          "a": -1,
+          "b": 0,
+          "c": 0,
+          "color": "#ff9500",
+          "strokeWidth": 3,
+          "label": "a<0 opens down"
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "color": "#ffd700",
+          "label": "Vertex"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.0 Part 1 Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 31 • Section 3.0 Wrap-up",
+    "detail": "Lecture 31: Intro to Quadratic Functions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Lecture 31 Key Takeaways\n- General form: $f(x) = ax^2 + bx + c$ with $a \\neq 0$.\n- Vertex form: $f(x) = a(x - h)^2 + k$.\n- Always rearrange into descending order before identifying coefficients.\n- Leading coefficient $a$ controls whether the parabola opens up or down.",
+    "solution": "$$\\mathbf{\\text{Lecture 31 Complete! Next Up: Lecture 32 — Reading Parabola Graphs (Vertex, Axis, Intercepts)!}}$$",
+    "pitfall": "**Never skip descending order:** Always write $ax^2 + bx + c$ so you never mix up $a, b,$ and $c$!",
+    "script": "[Prof. Park] We have reached the final slide of Lecture 31—our Section 3.0 Part 1 Mastery Summary! Let's take a moment to look back at the ground we've covered today and solidify these core principles.\n\n[TA Sora] We started by stepping into Unit 3, transitioning from straight lines into the curved, dynamic world of parabolas. We learned the General Form: $f(x) = ax^2 + bx + c$, where $a \\neq 0$. \n\n[Prof. Park] We mastered the identification of terms and coefficients: the quadratic term $ax^2$ with coefficient $a$, the linear term $bx$ with coefficient $b$, and the constant term $c$. We warned against the 'invisible 1' in $-x^2$ where $a = -1$, and we learned that missing terms simply have a coefficient of 0.\n\n[TA Sora] And we emphasized the golden rule of organization: always rearrange polynomials into descending order of powers before identifying coefficients, so you never get tricked by scrambled equations. Finally, we learned that the sign of $a$ tells us whether the parabola opens upward with a minimum ($a > 0$) or downward with a maximum ($a < 0$).\n\n[Prof. Park] To all our students watching: math is a skill built one brick at a time. If you struggled with algebra in high school, remember that this is a fresh start. You are building mental muscles that will serve you in your career, your financial life, and your critical thinking every single day.\n\n[TA Sora] Be patient with yourself, write out every step clearly on paper, and never skip the details. Tonight, complete the Section 3.0 practice exercises on pages 60 and 61 of your workbook. \n\n[Prof. Park] In Lecture 32, we will dive into calculating the exact coordinates of the vertex using the famous Vertex Formula and exploring domain and range. Thank you for your focus and dedication today.\n\n[TA Sora] Keep up the great work, Bobcats! We will see you all in Lecture 32!"
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.3 Example 6: Parallel Line through (-1, 3)",
+    "subtitle": "Unit 2 • Lecture 23 • Section 2.3 Example 6 (Workbook p. 42)",
+    "detail": "Lecture 23: Parallel & Perpendicular Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 (Workbook p. 42)\nFind the equation of the line containing the point $(-1, 3)$ and **parallel** to the line:\n$$\\mathbf{2x + y = 10}$$\n- Find the slope of the given line.\n- Use the same slope for the parallel line.\n- Write the new equation in slope-intercept form.",
+    "solution": "$$\\begin{aligned}\n\\text{Given line: } & 2x + y = 10 \\implies y = -2x + 10 \\implies \\mathbf{m = -2} \\\\[0.5em]\n\\text{Parallel line has: } & m = -2, \\quad \\text{point } (-1, 3) \\\\[0.5em]\ny - y_1 & = m(x - x_1) \\\\[0.5em]\ny - 3 & = -2(x - (-1)) = -2(x + 1) \\\\[0.5em]\ny - 3 & = -2x - 2 \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{-2x + 1}\n\\end{aligned}$$",
+    "pitfall": "**Throw away the old intercept:** Only steal the SLOPE ($m = -2$) from the given line! Discard the $+10$ intercept!",
+    "script": "[Prof. Park] Welcome to Lecture 23 of M090! Today on pages 42 through 44 of your workbook, we reach the grand synthesis of Section 2.3: Writing equations of lines that pass through specific points and are Parallel or Perpendicular to existing lines, followed by comprehensive in-class practice problems.\n\n[TA Sora] In construction, surveying, and civil engineering across Montana, this is the daily bread and butter of technical work! If you are laying out a new subdivision in Bozeman or designing an agricultural access road parallel to an existing canal, you cannot simply eyeball the angle. You must compute the exact slope and anchor it to a known survey monument!\n\n[Prof. Park] Let us begin on page 42 with Example 6: Find the equation of the line containing the point $(-1, 3)$ and **parallel** to the line $y = 4x - 5$. Write the final answer in slope-intercept form. Let us break this problem down like an investigator piecing together clues:\nClue 1: Our target line must pass through the specific survey point $(x_1, y_1) = (-1, 3)$.\nClue 2: Our target line must be **parallel** to the given reference line $y = 4x - 5$.\n\n[TA Sora] What does 'parallel' tell us about the slope? Parallel lines have the **identical slope**!\nLook at the reference line: $y = 4x - 5$. Its slope is $m = 4$.\nBecause our new line is parallel, it must inherit that exact same steepness:\n$$m = 4$$\n\n[Prof. Park] Now we have our two essential building blocks:\nWe have our slope $m = 4$, and we have our point $(x_1, y_1) = (-1, 3)$.\nNow we deploy Point-Slope Form:\n$$y - y_1 = m(x - x_1)$$\nSubstitute with protective parentheses:\n$$y - 3 = 4(x - (-1))$$\nInside the parentheses, $x - (-1)$ becomes $x + 1$:\n$$y - 3 = 4(x + 1)$$\n\n[TA Sora] Now distribute the 4:\n$$y - 3 = 4x + 4$$\nAdd 3 to both sides to isolate $y$:\n$$y = 4x + 4 + 3 \\implies y = 4x + 7$$\n\n[Prof. Park] Look at that finished equation: $y = 4x + 7$.\nLet us verify both conditions:\n1. Is its slope 4? Yes, so it is parallel to $y = 4x - 5$!\n2. Does it pass through $(-1, 3)$? Plug in $x = -1$: $4(-1) + 7 = -4 + 7 = 3$!\nIt satisfies every condition with total mathematical perfection! Think of a civil engineer adding a parallel passing lane to Highway 191 in Gallatin Canyon—it shares the exact road curvature (slope 4), but has an offset boundary passing through a specific landmark point!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 6,
+      "yMin": -4,
+      "yMax": 12,
+      "title": "Example 6: Parallel Lines y = -2x + 10 and y = -2x + 1",
+      "points": [
+        {
+          "x": -1,
+          "y": 3,
+          "label": "(-1, 3)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "label": "(0, 1)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -2,
+          "yIntercept": 10,
+          "color": "#64748b",
+          "strokeWidth": 2,
+          "dashed": true,
+          "label": "2x + y = 10"
+        },
+        {
+          "slope": -2,
+          "yIntercept": 1,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = -2x + 1"
+        }
+      ]
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.3 Example 7: Perpendicular Line through (2, -3)",
+    "subtitle": "Unit 2 • Lecture 23 • Section 2.3 Example 7 (Workbook p. 42)",
+    "detail": "Lecture 23: Parallel & Perpendicular Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7 (Workbook p. 42)\nFind the equation of the line containing the point $(2, -3)$ and **perpendicular** to the line:\n$$\\mathbf{4y - x = 20}$$\n- Solve for $y$ to find the slope of the given line.\n- Take the opposite reciprocal for $m_\\perp$.\n- Write the equation in slope-intercept form.",
+    "solution": "$$\\begin{aligned}\n\\text{Given line: } & 4y = x + 20 \\implies y = \\frac{1}{4}x + 5 \\implies \\mathbf{m_1 = \\frac{1}{4}} \\\\[0.5em]\n\\text{Perpendicular slope: } & \\mathbf{m_\\perp = -4} \\quad (\\text{opposite reciprocal}) \\\\[0.5em]\ny - (-3) & = -4(x - 2) \\\\[0.5em]\ny + 3 & = -4x + 8 \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{-4x + 5}\n\\end{aligned}$$",
+    "pitfall": "**Opposite AND Reciprocal:** The reciprocal of $\\frac{1}{4}$ is $4$, and making it opposite gives $-4$!",
+    "script": "[Prof. Park] Now turn to Example 7 on page 42: Find the equation of the line containing the point $(2, -3)$ and **perpendicular** to the line $y = -\\frac{1}{3}x + 2$.\n\n[TA Sora] Notice that crucial word: **PERPENDICULAR**!\nIn Montana roofing and solar energy, perpendicularity is vital. When technicians install solar panel arrays on residential roofs in Bozeman, the mounting rails must be bolted at a precise 90-degree angle to the roof rafters. If the mounting rails are skewed even two degrees, the winter snow load won't shed evenly, creating uneven structural stress that can crack the mounts!\n\n[Prof. Park] Let us extract our slope using TA Sora's Two-Flip Rule:\nThe reference line is $y = -\\frac{1}{3}x + 2$, so its slope is $m_{\\text{ref}} = -\\frac{1}{3}$.\nTo find our perpendicular slope $m_{\\perp}$, we perform our two flips:\nFlip 1 (the fraction): Invert $\\frac{1}{3} \\implies \\frac{3}{1} = 3$.\nFlip 2 (the sign): Invert negative to positive $\\implies +3$!\nTherefore, our perpendicular slope is:\n$$m_{\\perp} = 3$$\n\n[TA Sora] Now we assemble our pieces:\nSlope: $m = 3$.\nTarget point: $(x_1, y_1) = (2, -3)$.\nSubstitute into Point-Slope Form:\n$$y - y_1 = m(x - x_1)$$\n$$y - (-3) = 3(x - 2)$$\nOn the left side, $y - (-3)$ becomes $y + 3$:\n$$y + 3 = 3(x - 2)$$\n\n[Prof. Park] Distribute the 3 on the right side:\n$$y + 3 = 3x - 6$$\nSubtract 3 from both sides to isolate $y$:\n$$y = 3x - 6 - 3 \\implies y = 3x - 9$$\n\n[TA Sora] Let us verify our answer:\n1. Is the slope perpendicular? $3 \\cdot \\left(-\\frac{1}{3}\\right) = -1$. Yes!\n2. Does it pass through $(2, -3)$? Plug in $x = 2$: $y = 3(2) - 9 = 6 - 9 = -3$!\nBoth checks pass cleanly! $y = 3x - 9$ is our exact, verified perpendicular line!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 8,
+      "yMin": -6,
+      "yMax": 8,
+      "title": "Example 7: Perpendicular Lines y = 1/4x + 5 and y = -4x + 5",
+      "points": [
+        {
+          "x": 2,
+          "y": -3,
+          "label": "(2, -3)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "label": "Shared y-int (0, 5)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.25,
+          "yIntercept": 5,
+          "color": "#38bdf8",
+          "strokeWidth": 2,
+          "label": "y = 1/4x + 5"
+        },
+        {
+          "slope": -4,
+          "yIntercept": 5,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "y = -4x + 5"
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "In-Class Practice #1: Y-intercept (0, 5) and m = -3/5",
+    "subtitle": "Unit 2 • Lecture 23 • Section 2.3 Practice #1 (Workbook p. 43)",
+    "detail": "Lecture 23: Parallel & Perpendicular Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### In-Class Practice 1 (Workbook p. 43)\nFind the equation of the line with a $y$-intercept of $(0, 5)$ and a slope of $m = -\\frac{3}{5}$.\n- Write the equation in slope-intercept form.\n- Graph the line on the Cartesian coordinate plane.",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & m = -\\frac{3}{5}, \\quad b = 5 \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{-\\frac{3}{5}x + 5}\n\\end{aligned}$$",
+    "pitfall": "**Direct form:** When $y$-intercept $(0, 5)$ is given, $b = 5$ immediately!",
+    "script": "[Prof. Park] On Slide 3, we begin the in-class practice marathon on page 43 with Problem #1: Find the equation of the line with a $y$-intercept of $(0, 5)$ and a slope of $-\\frac{3}{5}$.\n\n[TA Sora] This problem is an absolute gift on an exam if you read the clues carefully!\nLook at the given information:\nSlope: $m = -\\frac{3}{5}$.\nGiven point: $(0, 5)$.\nNotice that the $x$-coordinate of the given point is $0$! That means $(0, 5)$ is literally the **$y$-intercept** $b = 5$!\n\n[Prof. Park] Because we are given the slope $m$ and the $y$-intercept $b$, we do not need to do any algebraic manipulations at all. We write down Slope-Intercept Form:\n$$y = mx + b$$\nAnd substitute directly:\n$$y = -\\frac{3}{5}x + 5$$\n\n[TA Sora] Done in five seconds! Students often ask: 'Sora, what if I didn't notice it was the $y$-intercept and used point-slope form instead?'\nLet us check: $y - 5 = -\\frac{3}{5}(x - 0) \\implies y - 5 = -\\frac{3}{5}x \\implies y = -\\frac{3}{5}x + 5$.\nYou get the exact same answer! But recognizing the $y$-intercept $(0, b)$ instantly saves you valuable exam time.\n\n[Prof. Park] In real-world terms, think of an agricultural water reservoir on a ranch near Belgrade: it starts at an initial water level of 5 feet on July 1st ($b = 5$), and decreases by $\\frac{3}{5}$ of a foot per week during peak summer alfalfa irrigation ($m = -3/5$). The linear model $y = -\\frac{3}{5}x + 5$ predicts exactly when the rancher will need to switch to groundwater pumps before the reservoir runs dry! Mathematical modeling turns numbers into practical wisdom.\n\n[Prof. Park] This is why civil engineers love slope-intercept form for municipal water towers: the $y$-intercept is the initial storage capacity, and the slope represents the steady draw rate during Bozeman morning peak hours. You can read the whole system's status at a single glance!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 10,
+      "yMin": -2,
+      "yMax": 8,
+      "title": "Practice 1: y = -3/5x + 5",
+      "points": [
+        {
+          "x": 0,
+          "y": 5,
+          "label": "(0, 5)",
+          "color": "#10b981"
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "label": "(5, 2)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -0.6,
+          "yIntercept": 5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = -3/5x + 5"
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "In-Class Practice #2: X-intercept (5, 0) and m = 3/5",
+    "subtitle": "Unit 2 • Lecture 23 • Section 2.3 Practice #2 (Workbook p. 43)",
+    "detail": "Lecture 23: Parallel & Perpendicular Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### In-Class Practice 2 (Workbook p. 43)\nFind the equation of the line with $x$-intercept of $(5, 0)$ and a slope of $m = \\frac{3}{5}$.\n- Use point-slope form $y - y_1 = m(x - x_1)$.\n- Graph the line on the Cartesian coordinate plane.",
+    "solution": "$$\\begin{aligned}\n\\text{Point: } & (x_1, y_1) = (5, 0), \\quad m = \\frac{3}{5} \\\\[0.5em]\ny - 0 & = \\frac{3}{5}(x - 5) \\\\[0.5em]\ny & = \\frac{3}{5}x - \\left(\\frac{3}{5} \\cdot 5\\right) \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{\\frac{3}{5}x - 3}\n\\end{aligned}$$",
+    "pitfall": "**Don't assume b = 5:** $(5, 0)$ is an $x$-intercept! The $y$-intercept solves to $(0, -3)$!",
+    "script": "[Prof. Park] Now examine In-Class Practice Problem #2 on page 43: Find the equation of the line with an $x$-intercept of $(5, 0)$ and a slope of $\\frac{3}{5}$.\n\n[TA Sora] Compare Problem #2 side by side with Problem #1 from Slide 3!\nIn Problem #1, we had a $y$-intercept of $(0, 5)$.\nHere in Problem #2, we have an **$x$-intercept** of $(5, 0)$!\nRemember the fatal trap: You CANNOT plug an $x$-intercept into the $b$ slot of $y = mx + b$! $b$ is strictly the $y$-intercept!\nIf you write $y = \\frac{3}{5}x + 5$, you have drawn a line that is shifted ten vertical units away from the correct location!\n\n[Prof. Park] Exactly. We must treat $(5, 0)$ as our point $(x_1, y_1) = (5, 0)$ with slope $m = \\frac{3}{5}$, and deploy Point-Slope Form:\n$$y - y_1 = m(x - x_1)$$\n$$y - 0 = \\frac{3}{5}(x - 5)$$\n\n[TA Sora] Look at how smoothly this works out:\n$y - 0$ is simply $y$:\n$$y = \\frac{3}{5}(x - 5)$$\nNow distribute $\\frac{3}{5}$:\n$$\\frac{3}{5} \\cdot x = \\frac{3}{5}x$$\n$$\\frac{3}{5} \\cdot (-5) = -3$$\nSo our equation is:\n$$y = \\frac{3}{5}x - 3$$\n\n[Prof. Park] Look at that: the true $y$-intercept is $(0, -3)$! If a student had mistakenly written $y = \\frac{3}{5}x + 5$, their line would have had a positive intercept at $+5$ instead of a negative intercept at $-3$. Always distinguish between $(0, 5)$ and $(5, 0)$! One sits on the vertical spine; the other sits on the horizontal floor. In surveying, confusing north-south coordinates with east-west coordinates puts you on the wrong parcel of land!\n\n[TA Sora] Always remember: the $x$-intercept is where the graph hits the ground ($y=0$), like an airplane wheels touching down on the Bozeman runway. The $y$-intercept is where the flight path began at time zero ($x=0$)! They are fundamentally different physical events!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 8,
+      "yMin": -5,
+      "yMax": 4,
+      "title": "Practice 2: y = 3/5x - 3 with x-int (5, 0)",
+      "points": [
+        {
+          "x": 5,
+          "y": 0,
+          "label": "x-int (5, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "label": "y-int (0, -3)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.6,
+          "yIntercept": -3,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = 3/5x - 3"
+        }
+      ]
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "In-Class Practice #3: Through (-2, -3) and (6, 1)",
+    "subtitle": "Unit 2 • Lecture 23 • Section 2.3 Practice #3 (Workbook p. 43)",
+    "detail": "Lecture 23: Parallel & Perpendicular Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### In-Class Practice 3 (Workbook p. 43)\nFind the equation of the line that contains the points:\n$$\\mathbf{(-2, -3) \\quad \\text{and} \\quad (6, 1)}$$\n- Calculate the slope $m$.\n- Use point-slope form to find the equation.",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{1 - (-3)}{6 - (-2)} = \\frac{1 + 3}{6 + 2} = \\frac{4}{8} = \\mathbf{\\frac{1}{2}} \\\\[0.5em]\ny - 1 & = \\frac{1}{2}(x - 6) \\\\[0.5em]\ny - 1 & = \\frac{1}{2}x - 3 \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{\\frac{1}{2}x - 2}\n\\end{aligned}$$",
+    "pitfall": "**Double negatives:** In the slope calculation, $-(-3) = +3$ and $-(-2) = +2$, giving $\\frac{4}{8} = \\frac{1}{2}$!",
+    "script": "[Prof. Park] Turn to In-Class Practice Problem #3 on page 43: Find the equation of the line containing the points $(-2, -3)$ and $(6, 1)$.\n\n[TA Sora] This is the classic two-point challenge!\nImagine a Montana backcountry trail connecting two backcountry shelters in the Absaroka-Beartooth Wilderness: Shelter A at coordinates $(-2, -3)$ and Shelter B at coordinates $(6, 1)$. We need to establish the linear trail connecting them.\nStep 1: Find the slope $m$ between the two shelters using the slope formula:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{1 - (-3)}{6 - (-2)}$$\nUse protective parentheses:\nIn the numerator: $1 - (-3) = 1 + 3 = 4$.\nIn the denominator: $6 - (-2) = 6 + 2 = 8$.\n$$m = \\frac{4}{8} = \\frac{1}{2}$$\n\n[Prof. Park] Step 2: Now pick one point to plug into Point-Slope Form. Let us choose $(6, 1)$ because both coordinates are positive:\n$$y - y_1 = m(x - x_1)$$\n$$y - 1 = \\frac{1}{2}(x - 6)$$\n\n[TA Sora] Distribute the $\\frac{1}{2}$:\n$$y - 1 = \\frac{1}{2}x - 3$$\nAdd 1 to both sides:\n$$y = \\frac{1}{2}x - 3 + 1 \\implies y = \\frac{1}{2}x - 2$$\n\n[Prof. Park] Let us verify with our other point $(-2, -3)$:\n$$\\frac{1}{2}(-2) - 2 = -1 - 2 = -3!$$\nIt works with 100% precision! The trail climbs at a gentle grade of 1 vertical foot for every 2 horizontal feet, crossing the vertical axis at base elevation $-2$!\n\n[Prof. Park] Notice how we checked our answer using the other point $(-2, -3)$. In all engineering and surveying across Montana, this is called 'closing the traverse.' You calculate using one reference point, and you verify using the second reference point. When both points agree, you can sleep soundly knowing your calculations are 100% sound!",
+    "graph": {
+      "xMin": -4,
+      "xMax": 8,
+      "yMin": -5,
+      "yMax": 4,
+      "title": "Practice 3: y = 1/2x - 2 through (-2, -3) and (6, 1)",
+      "points": [
+        {
+          "x": -2,
+          "y": -3,
+          "label": "(-2, -3)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 6,
+          "y": 1,
+          "label": "(6, 1)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": -2,
+          "label": "y-int (0, -2)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.5,
+          "yIntercept": -2,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = 1/2x - 2"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "In-Class Practice #4 & #5: Special Lines",
+    "subtitle": "Unit 2 • Lecture 23 • Section 2.3 Practice #4 & #5 (Workbook pp. 43-44)",
+    "detail": "Lecture 23: Parallel & Perpendicular Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### In-Class Practice 4 & 5 (Workbook pp. 43–44)\nFind the equations of the lines:\n- **#4:** Points $(2, -9)$ and $(2, -3)$\n- **#5:** Points $(5, -2)$ and $(4, -2)$",
+    "solution": "$$\\begin{aligned}\n\\mathbf{\\#4: } & \\text{Both points have } x = 2 \\implies \\mathbf{x = 2} \\quad (\\text{Vertical line, } m = \\text{undefined}) \\\\[0.8em]\n\\mathbf{\\#5: } & \\text{Both points have } y = -2 \\implies \\mathbf{y = -2} \\quad (\\text{Horizontal line, } m = 0)\n\\end{aligned}$$",
+    "pitfall": "**Instant inspection:** When $x$-coordinates are the same, $x = c$. When $y$-coordinates are the same, $y = c$!",
+    "script": "[Prof. Park] On Slide 6, we examine In-Class Practice Problems #4 and #5 from pages 43 and 44: The Special Lines.\n\n[TA Sora] Problem #4 asks for the equation of the line containing $(4, 2)$ and $(4, -1)$.\nApply Sora's Three-Second Scan: Both points share $x = 4$!\nIf the $x$-coordinates are identical:\n$$m = \\frac{-1 - 2}{4 - 4} = \\frac{-3}{0} \\implies \\text{Undefined!}$$\nBy HOY VUX: V - U - X!\nVertical line, Undefined slope, equation $x = \\text{number}$.\nTherefore, the equation is:\n$$x = 4$$\n\n[Prof. Park] Now examine Problem #5: Find the equation containing $(-1, 6)$ and $(5, 6)$.\nScan the coordinates: both points share $y = 6$!\n$$m = \\frac{6 - 6}{5 - (-1)} = \\frac{0}{6} = 0$$\nThe slope is zero!\nBy HOY VUX: H - O - Y!\nHorizontal line, 0 slope, equation $y = \\text{number}$.\nTherefore, the equation is:\n$$y = 6$$\n\n[TA Sora] Look at how effortless these problems become when you train your eyes to scan for identical coordinates before touching any algebra! Problem #4 is $x = 4$; Problem #5 is $y = 6$! \n\n[Prof. Park] In the American Public Land Survey System (PLSS) that divided all of Montana into 6-mile-square townships and 1-mile-square sections, boundary lines run strictly along meridians (vertical lines $x = k$) and parallels of latitude (horizontal lines $y = c$). Every fence line in Gallatin County follows these exact special equations!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 8,
+      "yMin": -10,
+      "yMax": 2,
+      "title": "Practice 4 & 5: x = 2 (Vertical) and y = -2 (Horizontal)",
+      "points": [
+        {
+          "x": 2,
+          "y": -3,
+          "label": "(2, -3)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 5,
+          "y": -2,
+          "label": "(5, -2)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "vertical": 2,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "x = 2"
+        },
+        {
+          "horizontal": -2,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = -2"
+        }
+      ]
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "In-Class Practice #6: Parallel to 3x - y = 7 through (2, 1)",
+    "subtitle": "Unit 2 • Lecture 23 • Section 2.3 Practice #6 (Workbook p. 44)",
+    "detail": "Lecture 23: Parallel & Perpendicular Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### In-Class Practice 6 (Workbook p. 44)\nFind the equation of the line containing the point $(2, 1)$ and **parallel** to the line:\n$$\\mathbf{3x - y = 7}$$",
+    "solution": "$$\\begin{aligned}\n\\text{Given line: } & -y = -3x + 7 \\implies y = 3x - 7 \\implies \\mathbf{m = 3} \\\\[0.5em]\n\\text{Parallel line: } & m = 3, \\quad \\text{point } (2, 1) \\\\[0.5em]\ny - 1 & = 3(x - 2) = 3x - 6 \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{3x - 5}\n\\end{aligned}$$",
+    "pitfall": "**Solving for y:** Don't forget $-y = -3x + 7$ means $y = +3x - 7$. The slope is $+3$!",
+    "script": "[Prof. Park] In-Class Practice Problem #6 on page 44: Find the equation of the line containing $(2, 1)$ and **parallel** to $3x - y = 7$.\n\n[TA Sora] Step 1: Find the slope of the reference line by solving for $y$:\n$$3x - y = 7$$\nSubtract $3x$:\n$$-y = -3x + 7$$\nDivide every single term by $-1$:\n$$y = 3x - 7$$\nThe slope of the reference line is $m = 3$.\n\n[Prof. Park] Step 2: Since our target line is **parallel**, it must inherit the exact same slope:\n$$m = 3$$\nStep 3: Now use Point-Slope Form with point $(2, 1)$:\n$$y - 1 = 3(x - 2)$$\nDistribute the 3:\n$$y - 1 = 3x - 6$$\nAdd 1 to both sides:\n$$y = 3x - 5$$\n\n[TA Sora] Verify: Slope is 3 (parallel to $3x - y = 7$), and when $x = 2$, $y = 3(2) - 5 = 1$, matching point $(2, 1)$! Clean, precise, and fast!\n\n[Prof. Park] Notice how systematic this workflow is. In surveying, if you are establishing a new irrigation ditch parallel to a ranch property line $3x - y = 7$ through headgate $(2, 1)$, $y = 3x - 5$ gives the exact ditch path that guarantees equal spacing along the entire pasture!\n\n[TA Sora] This is the exact principle used by agricultural GPS guidance systems on modern Montana tractors: the tractor locks onto a reference property line and steers perfectly parallel across hundreds of acres of wheat fields, maintaining an exact offset without overlapping or missing a single furrow!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 5,
+      "yMin": -8,
+      "yMax": 6,
+      "title": "Practice 6: Parallel Lines y = 3x - 7 and y = 3x - 5",
+      "points": [
+        {
+          "x": 2,
+          "y": 1,
+          "label": "(2, 1)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 3,
+          "yIntercept": -7,
+          "color": "#64748b",
+          "strokeWidth": 2,
+          "dashed": true,
+          "label": "3x - y = 7"
+        },
+        {
+          "slope": 3,
+          "yIntercept": -5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = 3x - 5"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "In-Class Practice #7: Perpendicular to 2y - x = 20 through (6, 3)",
+    "subtitle": "Unit 2 • Lecture 23 • Section 2.3 Practice #7 (Workbook p. 44)",
+    "detail": "Lecture 23: Parallel & Perpendicular Equations",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### In-Class Practice 7 (Workbook p. 44)\nFind the equation of the line containing the point $(6, 3)$ and **perpendicular** to the line:\n$$\\mathbf{2y - x = 20}$$",
+    "solution": "$$\\begin{aligned}\n\\text{Given line: } & 2y = x + 20 \\implies y = \\frac{1}{2}x + 10 \\implies \\mathbf{m_1 = \\frac{1}{2}} \\\\[0.5em]\n\\text{Perpendicular slope: } & \\mathbf{m_\\perp = -2} \\\\[0.5em]\ny - 3 & = -2(x - 6) = -2x + 12 \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{-2x + 15}\n\\end{aligned}$$",
+    "pitfall": "**Reciprocal sign check:** Opposite reciprocal of $\\frac{1}{2}$ is $-2$. Then $-2 \\cdot (-6) = +12$!",
+    "script": "[Prof. Park] In-Class Practice Problem #7 on page 44: Find the equation of the line containing $(6, 3)$ and **perpendicular** to $2y - x = 20$.\n\n[TA Sora] Step 1: Solve the reference line for $y$:\n$$2y - x = 20$$\nAdd $x$ to both sides:\n$$2y = x + 20$$\nDivide every term by 2:\n$$y = \\frac{1}{2}x + 10$$\nThe reference slope is $m_{\\text{ref}} = \\frac{1}{2}$.\n\n[Prof. Park] Step 2: Because our line is **perpendicular**, we find the negative reciprocal using our Two-Flip Rule:\nFlip $\\frac{1}{2} \\implies 2$.\nFlip the sign from positive to negative $\\implies -2$.\nSo our perpendicular slope is:\n$$m_{\\perp} = -2$$\n\n[TA Sora] Step 3: Use Point-Slope Form with point $(6, 3)$:\n$$y - 3 = -2(x - 6)$$\nDistribute $-2$:\n$$y - 3 = -2x + 12$$\nAdd 3 to both sides:\n$$y = -2x + 15$$\n\n[Prof. Park] Outstanding! Verify: $(-2) \\cdot (1/2) = -1$ (perpendicular!). At $x = 6$, $y = -2(6) + 15 = -12 + 15 = 3$, passing right through $(6, 3)$!\n\n[TA Sora] In mountain road construction across the Rockies, water drainage culverts are installed perpendicular to the road to divert torrential spring snowmelt off the embankment. If the road climbs at slope $\\frac{1}{2}$, the culverts drop across at slope $-2$!\n\n[Prof. Park] You have completely mastered Section 2.3! In Lecture 24, we enter Section 2.4: Relations, Domain, Range, and the foundation of Functions! See you there!\n\n[Prof. Park] If you ever go into timber framing or cabinet making in Montana, having your cuts off by even one degree ruins thousands of dollars of fine wood. Negative reciprocal slopes guarantee that every joint forms a true 90-degree corner that will never buckle or twist over time!"
+  }
+]

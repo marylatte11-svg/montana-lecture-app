@@ -1,0 +1,426 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Section 3.1: The Vertex Formula x_v = -b / (2a)",
+    "subtitle": "Unit 3 • Lecture 34 • Section 3.1 (Workbook p. 63)",
+    "detail": "Lecture 34: The Vertex Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Vertex Formula (Workbook p. 63)\nFor any quadratic function in General Form $\\mathbf{f(x) = ax^2 + bx + c}$:\n- **$x$-coordinate of the vertex:**\n  $$\\mathbf{x_v = -\\frac{b}{2a}}$$\n- **$y$-coordinate of the vertex:**\n  $$\\mathbf{y_v = f(x_v)} = f\\left(-\\frac{b}{2a}\\right)$$\n- **Axis of Symmetry:** The vertical line $\\mathbf{x = -\\frac{b}{2a}}$.\n- **$y$-intercept:** Always $\\mathbf{(0, c)}$ since $f(0) = c$.",
+    "solution": "$$\\begin{aligned}\n\\text{Step 1: } & \\text{Identify } a, b, c \\text{ from } ax^2 + bx + c. \\\\\n\\text{Step 2: } & \\text{Compute } x_v = -\\frac{b}{2a}. \\\\\n\\text{Step 3: } & \\text{Substitute } x_v \\text{ into } f(x) \\text{ to find } y_v. \\\\\n\\text{Step 4: } & \\text{Vertex is } (x_v, y_v). \\text{ Axis of symmetry is } x = x_v.\n\\end{aligned}$$",
+    "pitfall": "**Division by 2a:** Make sure to multiply $2 \\cdot a$ in the denominator before dividing! Use protective parentheses: $-b / (2a)$.",
+    "script": "[Prof. Park] Hello everyone, and welcome to Lecture 34 of M090 Introductory Algebra! I'm Professor Eunju Park, and with me is our course teaching assistant, Sora. Today we step into Section 3.1 on page 67 of your workbook—a true turning point in our study of quadratics.\n\n[TA Sora] Welcome back, Bobcats! In Section 3.0, whenever we needed the vertex from general form, we had to find the $x$-intercepts first and take their average. But what happens if a parabola doesn't have nice $x$-intercepts, or what if it floats completely above the $x$-axis and never touches the ground at all?\n\n[Prof. Park] That is the exact dilemma that mathematicians faced centuries ago. We needed a universal, foolproof formula that extracts the vertex directly from the coefficients $a$, $b$, and $c$, without needing any intercepts! And that formula is the celebrated Vertex Formula: $x_v = -\\frac{b}{2a}$.\n\n[TA Sora] Memorize this formula, tattoo it on your mental chalkboard, write it in gold ink: $x = -b / (2a)$! That tiny fraction gives you the horizontal coordinate of the vertex every single time, guaranteed!\n\n[Prof. Park] And once you have that $x$-value, finding the corresponding vertical height $y_v$ is as simple as plugging $x_v$ right back into the function: $y_v = f(x_v) = f(-b/(2a))$. Together, the ordered pair is $(x_v, y_v)$.\n\n[TA Sora] Think about real-world optimization in Montana. If you are an agricultural manager monitoring a center-pivot irrigation system, or an architect calculating the optimal crown slope of a highway to prevent rainwater pooling, the highest or lowest point is where efficiency happens. The vertex formula takes you straight to that critical point in two lines of math!\n\n[Prof. Park] Look at Slide 1: General Form $f(x) = ax^2 + bx + c$. The $x$-coordinate of the vertex is $x = -b/(2a)$. The vertical Axis of Symmetry is the equation $x = -b/(2a)$. \n\n[TA Sora] Keep your workbook open to page 67. Let's apply this power on our first official workbook problem on Slide 2!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.1 Example 1: Finding Vertex for f(x) = x^2 + 6x - 8",
+    "subtitle": "Unit 3 • Lecture 34 • Section 3.1 Example 1 (Workbook p. 63)",
+    "detail": "Lecture 34: The Vertex Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 (Workbook p. 63)\nFor $\\mathbf{f(x) = x^2 + 6x - 8}$:\n- **A. Find the vertex:** \\underline{\\hspace{2cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{2cm}}\n- **C. Axis of Symmetry:** \\underline{\\hspace{2cm}}\n- **D. Maximum or Minimum Value:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\text{Identify: } & a = 1, \\quad b = 6, \\quad c = -8 \\\\[0.5em]\n\\mathbf{x_v} & = -\\frac{b}{2a} = -\\frac{6}{2(1)} = \\mathbf{-3} \\\\[0.5em]\n\\mathbf{y_v} & = f(-3) = (-3)^2 + 6(-3) - 8 = 9 - 18 - 8 = \\mathbf{-17} \\\\[0.8em]\n\\textbf{A. Vertex: } & \\mathbf{(-3, -17)} \\\\\n\\textbf{B. y-intercept: } & \\mathbf{(0, -8)} \\quad (c = -8) \\\\\n\\textbf{C. Axis of Symmetry: } & \\mathbf{x = -3} \\\\\n\\textbf{D. Minimum Value: } & \\mathbf{-17} \\quad (a = 1 > 0 \\implies \\text{opens up})\n\\end{aligned}$$",
+    "pitfall": "**Squaring negative 3:** $(-3)^2 = +9$. Then $9 - 18 = -9$, and $-9 - 8 = -17$!",
+    "script": "[Prof. Park] Slide 2 presents Section 3.1 Example 1 from page 67: For the quadratic function $f(x) = x^2 + 6x - 7$, find the vertex, the axis of symmetry, determine whether it has a minimum or maximum, and state the domain and range.\n\n[TA Sora] Let's follow our step-by-step protocol. Step 1: Identify the coefficients $a$, $b$, and $c$. Here, $a = 1$, $b = 6$, and $c = -7$. Make sure you write those three numbers down explicitly!\n\n[Prof. Park] Step 2: Apply the Vertex Formula for $x$: $x_v = -\\frac{b}{2a} = -\\frac{6}{2(1)} = -\\frac{6}{2} = -3$. Look at how clean that calculation was: $x_v = -3$!\n\n[TA Sora] Step 3: Find the $y$-value by evaluating $f(-3)$. Remember Sora's rule from Lecture 33: protective parentheses around $-3$! $f(-3) = (-3)^2 + 6(-3) - 7$.\n\n[Prof. Park] Let's calculate carefully: $(-3)^2 = +9$. Then $6(-3) = -18$. Finally, $-7$. So we have $9 - 18 - 7 = -9 - 7 = -16$! So the vertical coordinate is $y_v = -16$.\n\n[TA Sora] That gives us the complete vertex: $(-3, -16)$! And immediately, the Axis of Symmetry is the vertical line passing through $x = -3$: the equation is $x = -3$.\n\n[Prof. Park] Now let's examine min/max and range. The leading coefficient is $a = 1 > 0$, so the parabola opens upward like a cup. That means the vertex sits at the bottom—it is a Minimum value! And that minimum value is $-16$.\n\n[TA Sora] For the Domain, it is always all real numbers: $(-\\infty, \\infty)$. For the Range, the outputs start at the minimum $-16$ and go up to infinity: $[-16, \\infty)$, with a solid square bracket on $-16$!\n\n[Prof. Park] Look at how seamlessly everything locked into place: Vertex $(-3, -16)$, Axis of Symmetry $x = -3$, Minimum value $-16$, Domain $(-\\infty, \\infty)$, Range $[-16, \\infty)$. Complete mastery!",
+    "graph": {
+      "xMin": -8,
+      "xMax": 2,
+      "yMin": -20,
+      "yMax": 4,
+      "title": "Example 1: f(x) = x^2 + 6x - 8 (Vertex (-3, -17))",
+      "points": [
+        {
+          "x": -3,
+          "y": -17,
+          "label": "Min Vertex (-3, -17)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": -8,
+          "label": "y-int (0, -8)",
+          "color": "#10b981"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": -8,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": -3
+    },
+    "coordinate": {
+      "xMin": -7,
+      "xMax": 2,
+      "yMin": -15,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 3,
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": -4,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -3,
+          "y": -13,
+          "color": "#ffd700",
+          "label": "V(-3,-13)"
+        },
+        {
+          "x": 0,
+          "y": -4,
+          "color": "#00ff88",
+          "label": "(0,-4)"
+        }
+      ],
+      "axisOfSymmetry": -3
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.1 Example 2: Fraction Leading Coefficient",
+    "subtitle": "Unit 3 • Lecture 34 • Section 3.1 Example 2 (Workbook p. 63)",
+    "detail": "Lecture 34: The Vertex Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 (Workbook p. 63)\nFor $\\mathbf{f(x) = -\\frac{1}{4}x^2 - 3x + 9}$:\n- **A. Find the vertex:** \\underline{\\hspace{2cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{2cm}}\n- **C. Axis of Symmetry:** \\underline{\\hspace{2cm}}\n- **D. Maximum or Minimum Value:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\text{Identify: } & a = -\\frac{1}{4}, \\quad b = -3, \\quad c = 9 \\\\[0.5em]\n\\mathbf{x_v} & = -\\frac{b}{2a} = -\\frac{-3}{2\\left(-\\frac{1}{4}\\right)} = -\\frac{-3}{-\\frac{1}{2}} = -\\left(3 \\cdot 2\\right) = \\mathbf{-6} \\\\[0.8em]\n\\mathbf{y_v} & = f(-6) = -\\frac{1}{4}(-6)^2 - 3(-6) + 9 \\\\\n& = -\\frac{1}{4}(36) + 18 + 9 = -9 + 18 + 9 = \\mathbf{18} \\\\[0.8em]\n\\textbf{A. Vertex: } & \\mathbf{(-6, 18)} \\\\\n\\textbf{B. y-intercept: } & \\mathbf{(0, 9)} \\\\\n\\textbf{C. Axis of Symmetry: } & \\mathbf{x = -6} \\\\\n\\textbf{D. Maximum Value: } & \\mathbf{18} \\quad (a < 0 \\implies \\text{opens down})\n\\end{aligned}$$",
+    "pitfall": "**Watch triple negatives:** In $x_v = -\\frac{-3}{2(-1/4)}$, three minus signs equal a negative: $-6$!",
+    "script": "[Prof. Park] Turning to Slide 3, Section 3.1 Example 2 gives us a function with a fraction coefficient: $f(x) = -\\frac{1}{2}x^2 + 2x + 3$. Sora, students see that fraction $-\\frac{1}{2}$ and immediately brace for impact. How do we guide them through this?\n\n[TA Sora] Take a deep breath! When you multiply a fraction by 2 in the denominator, something wonderful often happens. Let's write out our coefficients first: $a = -\\frac{1}{2}$, $b = 2$, and $c = 3$.\n\n[Prof. Park] Now apply the Vertex Formula: $x_v = -\\frac{b}{2a} = -\\frac{2}{2(-1/2)}$. Look at that denominator: $2 \\cdot (-1/2) = -1$! The fraction completely vanished!\n\n[TA Sora] Wow! So we have $x_v = -\\frac{2}{-1} = -(-2) = +2$! Look at that: $x_v$ turned out to be a positive integer, $+2$!\n\n[Prof. Park] That is why you should never run from fractions. Now Step 3: find $y_v$ by calculating $f(2)$: $f(2) = -\\frac{1}{2}(2)^2 + 2(2) + 3$. Square the 2 first: $2^2 = 4$. Half of 4 is 2, with the negative sign outside: $-\\frac{1}{2}(4) = -2$.\n\n[TA Sora] Then $2(2) = 4$, and the constant is $+3$. Combine them: $-2 + 4 + 3 = 2 + 3 = 5$! So $y_v = 5$, giving us a vertex at $(2, 5)$!\n\n[Prof. Park] And what about the direction? The leading coefficient $a = -\\frac{1}{2}$ is negative ($a < 0$), so the parabola opens downward! That means our vertex $(2, 5)$ is the peak—a Maximum value of 5!\n\n[TA Sora] Axis of Symmetry is the vertical line $x = 2$. Domain is $(-\\infty, \\infty)$. And because it opens downward, the Range comes from negative infinity up to 5: $(-\\infty, 5]$!\n\n[Prof. Park] If you are modeling projectile motion—say, launching a flare into the night sky in Yellowstone—the flare reaches a maximum height of 5 units at time 2. \n\n[TA Sora] Everything worked out to clean integers. Vertex $(2, 5)$, Axis of Symmetry $x = 2$, Max value 5, Range $(-\\infty, 5]$. Beautiful!",
+    "graph": {
+      "xMin": -12,
+      "xMax": 2,
+      "yMin": 0,
+      "yMax": 22,
+      "title": "Example 2: f(x) = -1/4x^2 - 3x + 9 (Vertex (-6, 18))",
+      "points": [
+        {
+          "x": -6,
+          "y": 18,
+          "label": "Max Vertex (-6, 18)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 0,
+          "y": 9,
+          "label": "y-int (0, 9)",
+          "color": "#10b981"
+        }
+      ],
+      "curves": [
+        {
+          "a": -0.25,
+          "b": -3,
+          "c": 9,
+          "color": "#ec4899",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": -6
+    },
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 7,
+      "yMin": -1,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": 0.5,
+          "b": -3,
+          "c": 5,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 3,
+          "y": 0.5,
+          "color": "#ffd700",
+          "label": "V(3,0.5)"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "color": "#00ff88",
+          "label": "(0,5)"
+        }
+      ],
+      "axisOfSymmetry": 3
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Why Does x = -b / (2a) Work? The Midpoint of Roots",
+    "subtitle": "Unit 3 • Lecture 34 • Section 3.1 Geometric Derivation",
+    "detail": "Lecture 34: The Vertex Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Origin of the Vertex Formula\nRecall the Quadratic Formula for finding roots:\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\mathbf{-\\frac{b}{2a}} \\pm \\frac{\\sqrt{b^2 - 4ac}}{2a}$$\n- Notice the central starting value: **$-\\frac{b}{2a}$**!\n- The two $x$-intercepts spread out symmetrically to the left and right by $\\pm \\frac{\\sqrt{b^2 - 4ac}}{2a}$.\n- Therefore, the exact middle (axis of symmetry) is always at **$x = -\\frac{b}{2a}$**!",
+    "solution": "$$\\begin{aligned}\n\\text{Root 1: } & x_1 = -\\frac{b}{2a} - \\frac{\\sqrt{D}}{2a} \\\\\n\\text{Root 2: } & x_2 = -\\frac{b}{2a} + \\frac{\\sqrt{D}}{2a} \\\\[0.5em]\n\\text{Midpoint: } & \\frac{x_1 + x_2}{2} = \\frac{-2b / (2a)}{2} = \\mathbf{-\\frac{b}{2a}}\n\\end{aligned}$$",
+    "pitfall": "**Even when there are no real x-intercepts:** Even if a parabola never touches the $x$-axis, $-\\frac{b}{2a}$ STILL gives the exact vertex!",
+    "script": "[Prof. Park] On Slide 4, we pause to ask a deeper question: Why does $x = -b / (2a)$ work? In mathematics, we don't just memorize formulas like magical incantations; we understand their architectural origin!\n\n[TA Sora] I love this derivation so much. Think back to Section 3.0: we proved that because of symmetry, the vertex is always the exact midpoint between the two roots or $x$-intercepts!\n\n[Prof. Park] Exactly. Now, consider the celebrated Quadratic Formula, which gives the two roots: $x = \\frac{-b + \\sqrt{b^2 - 4ac}}{2a}$ and $x = \\frac{-b - \\sqrt{b^2 - 4ac}}{2a}$. Notice how both roots share the common base $-\\frac{b}{2a}$, and then add or subtract that radical deviation $\\frac{\\sqrt{b^2 - 4ac}}{2a}$!\n\n[TA Sora] Look at that! The two roots are located at $-\\frac{b}{2a} + \\text{distance}$ and $-\\frac{b}{2a} - \\text{distance}$! If you take the average of those two numbers—adding them together and dividing by 2—the positive and negative square root parts cancel out completely!\n\n[Prof. Park] What is left behind? Exactly $-\\frac{b}{2a}$! The vertex formula is literally the center anchor around which the two symmetric roots branch outward!\n\n[TA Sora] And here is the profound beauty: even when a parabola floats above the $x$-axis and has NO real roots—meaning $b^2 - 4ac < 0$—that center anchor $-\\frac{b}{2a}$ still exists in the real numbers! The roots might become imaginary, but the physical vertex and its axis of symmetry remain 100% real and visible on your graph!\n\n[Prof. Park] That is why $x = -b / (2a)$ works for every single quadratic function in existence. It is the geometric heartbeat of the parabola.\n\n[TA Sora] Understanding the 'why' transforms math from a burden into an art form. Keep that midpoint image in your mind whenever you write $-b / (2a)$!",
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -6,
+      "yMax": 6,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": 1,
+          "b": -4,
+          "c": 3,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "r1"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "r2"
+        },
+        {
+          "x": 2,
+          "y": -1,
+          "color": "#ffd700",
+          "label": "V(midpoint)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Step-by-Step Guide",
+    "title": "Sora's Protocol for Finding the Vertex & Max/Min",
+    "subtitle": "Unit 3 • Lecture 34 • Section 3.1 Protocol",
+    "detail": "Lecture 34: The Vertex Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Sora's 4-Step Vertex Checklist\n1. **Identify $a, b, c$:** Make sure the equation is in standard descending order $ax^2 + bx + c$.\n2. **Calculate $x_v$:** $x_v = -\\frac{b}{2a}$. Write out $-b$ and $(2a)$ with parentheses.\n3. **Calculate $y_v$:** Substitute $x_v$ back into the original function: $y_v = f(x_v)$.\n4. **Classify Max vs Min:**\n   - If $a > 0$: **Minimum value is $y_v$ at $x = x_v$.\n   - If $a < 0$: **Maximum value is $y_v$ at $x = x_v$.",
+    "solution": "$$\\begin{array}{|c|c|} \n\\hline\n\\textbf{Feature} & \\textbf{How to Report} \\\\\n\\hline\n\\text{Vertex} & (x_v, y_v) \\\\\n\\hline\n\\text{Axis of Symmetry} & \\mathbf{x = x_v} \\; (\\text{include 'x ='}) \\\\\n\\hline\n\\text{Max or Min Value} & y_v \\; (\\text{just the number}) \\\\\n\\hline\n\\text{Where it occurs} & \\text{at } x = x_v \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Reporting Max/Min:** Exam question: 'Find the maximum value of $f(x)$'. Correct answer: $18$. Incorrect answer: $(-6, 18)$. The value is strictly the $y$-coordinate!",
+    "script": "[Prof. Park] Slide 5 brings us to 'Sora's Protocol for Finding the Vertex & Max/Min.' When you sit down for an exam or work through difficult engineering problems, having a checklist eliminates anxiety.\n\n[TA Sora] Here is my four-step protocol: Step 1 is the 'Sign & Coefficient Scan.' Write down $a$, $b$, and $c$. Immediately check the sign of $a$: if $a > 0$, draw a little smiling U (opens up, minimum). If $a < 0$, draw an upside-down U (opens down, maximum).\n\n[Prof. Park] That two-second scan instantly anchors your expectations. Step 2 is the 'Vertex Formula Execution': write $x_v = -b / (2a)$. Substitute carefully with parentheses, simplify the denominator first, and reduce the fraction.\n\n[TA Sora] Step 3 is the 'Plug-In Evaluation': calculate $y_v = f(x_v)$. Use protective parentheses around $x_v$, especially if $x_v$ is negative! Compute powers first, then multiplications, then additions and subtractions. Write down your vertex as an ordered pair $(x_v, y_v)$.\n\n[Prof. Park] And Step 4 is the 'Summary Packaging': write the Axis of Symmetry as the line equation $x = x_v$. State the max or min value as $y_v$. Write the Domain as $(-\\infty, \\infty)$, and assemble the Range: $[y_v, \\infty)$ if opening up, or $(-\\infty, y_v]$ if opening down.\n\n[TA Sora] Think of this protocol like a pre-flight checklist for an aviation mechanic at Gallatin College. You don't skip steps or rely on memory; you follow the checklist, and you land safely every single time!\n\n[Prof. Park] Let's put this protocol to the test on Slide 6 with a comprehensive challenge problem!"
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Practice Problem",
+    "title": "Check Your Understanding: Vertex of f(x) = -2x^2 + 8x - 3",
+    "subtitle": "Unit 3 • Lecture 34 • Section 3.1 Checkpoint",
+    "detail": "Lecture 34: The Vertex Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Checkpoint Practice\nFind the vertex, axis of symmetry, and state whether it is a maximum or minimum for:\n$$\\mathbf{f(x) = -2x^2 + 8x - 3}$$",
+    "solution": "$$\\begin{aligned}\n\\text{Identify: } & a = -2, \\quad b = 8, \\quad c = -3 \\\\[0.5em]\nx_v & = -\\frac{8}{2(-2)} = -\\frac{8}{-4} = \\mathbf{2} \\\\[0.5em]\ny_v & = f(2) = -2(2)^2 + 8(2) - 3 = -2(4) + 16 - 3 = -8 + 16 - 3 = \\mathbf{5} \\\\[0.8em]\n\\mathbf{\\text{Vertex: }} & \\mathbf{(2, 5)} \\\\\n\\mathbf{\\text{Axis of Symmetry: }} & \\mathbf{x = 2} \\\\\n\\mathbf{\\text{Maximum Value: }} & \\mathbf{5} \\quad (a = -2 < 0 \\implies \\text{opens down})\n\\end{aligned}$$",
+    "pitfall": "**Negative leading coefficient:** $-2(2)^2 = -2(4) = -8$. Don't make it $+8$!",
+    "script": "[Prof. Park] On Slide 6, we have a 'Check Your Understanding' problem: Find the vertex, axis of symmetry, max/min value, and range for $f(x) = -2x^2 + 8x - 3$. Sora, let's walk through our four-step protocol together!\n\n[TA Sora] Step 1: Sign & Coefficient Scan! $a = -2$, $b = 8$, and $c = -3$. Because $a = -2 < 0$, the parabola opens downward! I immediately draw an upside-down U: we are dealing with a Maximum!\n\n[Prof. Park] Step 2: The Vertex Formula! $x_v = -\\frac{b}{2a} = -\\frac{8}{2(-2)} = -\\frac{8}{-4} = +2$. The horizontal coordinate is $+2$!\n\n[TA Sora] Step 3: Plug-In Evaluation for $y_v$! $f(2) = -2(2)^2 + 8(2) - 3$. Order of operations: $2^2 = 4$. Then $-2(4) = -8$. For the linear term: $8(2) = +16$. And constant: $-3$.\n\n[Prof. Park] Adding them up: $-8 + 16 - 3 = 8 - 3 = 5$! So $y_v = 5$, and our vertex is $(2, 5)$!\n\n[TA Sora] Step 4: Summary Packaging! Axis of symmetry: the vertical line $x = 2$. Maximum value: 5 (reached at $x = 2$). Domain: $(-\\infty, \\infty)$. Range: since it opens downward, $(-\\infty, 5]$!\n\n[Prof. Park] Now let's connect this to real-world business economics. Imagine $f(x)$ models the net profit in thousands of dollars for a local Bozeman bakery producing $x$ hundred specialty artisan sourdough loaves per week.\n\n[TA Sora] Yes! The vertex $(2, 5)$ tells the bakery owner: 'If you bake 200 loaves per week ($x = 2$), you achieve your absolute maximum profit of $5,000 ($y = 5$)!' If you bake fewer loaves, you leave profit on the table; if you bake more, excess flour costs and unsold bread drag your profits down!\n\n[Prof. Park] The vertex is the optimal sweet spot. That's the real power of algebra in decision-making!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 7,
+      "title": "Checkpoint: f(x) = -2x^2 + 8x - 3 (Vertex (2, 5))",
+      "points": [
+        {
+          "x": 2,
+          "y": 5,
+          "label": "Max Vertex (2, 5)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "label": "y-int (0, -3)",
+          "color": "#10b981"
+        }
+      ],
+      "curves": [
+        {
+          "a": -2,
+          "b": 8,
+          "c": -3,
+          "color": "#ec4899",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 2
+    },
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 5,
+      "yMin": -6,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": -2,
+          "b": 8,
+          "c": -3,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": 5,
+          "color": "#ffd700",
+          "label": "V(2,5)"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "color": "#00ff88",
+          "label": "(0,-3)"
+        },
+        {
+          "x": 0.42,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(0.42,0)"
+        },
+        {
+          "x": 3.58,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3.58,0)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Visual & Coordinate Grid",
+    "title": "Visualizing Vertex & Symmetry on the Grid",
+    "subtitle": "Unit 3 • Lecture 34 • Section 3.1 Visual Analysis",
+    "detail": "Lecture 34: The Vertex Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Mirror Property of Parabolas\nEvery point on a parabola has a reflection across the axis of symmetry $x = h$:\n- Point $(0, -3)$ is $2$ units left of $x = 2$.\n- Its reflection is $(4, -3)$, exactly $2$ units right of $x = 2$!\nVerify: $f(4) = -2(4)^2 + 8(4) - 3 = -32 + 32 - 3 = -3$.",
+    "solution": "$$\\begin{aligned}\n\\text{Left Point: } & (0, -3) \\quad [\\text{distance to } x=2 \\text{ is } 2] \\\\\n\\text{Right Point: } & (4, -3) \\quad [\\text{distance to } x=2 \\text{ is } 2] \\\\[0.5em]\n\\text{Symmetric Heights: } & f(0) = f(4) = -3\n\\end{aligned}$$",
+    "pitfall": "**Use symmetry to graph quickly:** If you know the $y$-intercept $(0, c)$, reflect it across the axis of symmetry to instantly get a free second point!",
+    "script": "[Prof. Park] Let's look at Slide 7: Visualizing the Vertex & Symmetry on the Coordinate Grid. Take a look at the graph plotted on your screen. The vertex $(2, 5)$ sits at the highest peak, glowing with a golden marker.\n\n[TA Sora] Notice that vertical dashed line running through $x = 2$. That is our Axis of Symmetry. Look at the two points on either side at height $y = 3$: to the left, when $x = 1$, $f(1) = -2(1)^2 + 8(1) - 3 = 3$, giving $(1, 3)$. To the right, when $x = 3$, $f(3) = -2(9) + 24 - 3 = 3$, giving $(3, 3)$!\n\n[Prof. Park] Both points are exactly 1 unit away from the axis of symmetry ($2 - 1 = 1$ and $2 + 1 = 3$), and both sit at the exact same height of $y = 3$! That balance is the defining feature of a parabola.\n\n[TA Sora] Now look 2 units away from the axis of symmetry: to the left at $x = 0$, the $y$-intercept is $(0, -3)$. If you travel 2 units to the right of the symmetry line to $x = 4$, $f(4)$ also equals $-3$, giving the symmetric point $(4, -3)$!\n\n[Prof. Park] This gives you a fast and elegant way to graph parabolas without a calculator: once you find the vertex and the $y$-intercept on the left, you can reflect that point across the axis of symmetry to get a free third point on the right!\n\n[TA Sora] I love free points in math! If $(0, -3)$ is 2 units to the left of $x = 2$, then 2 units to the right at $x = 4$ must also have $y = -3$. You connect those points with a smooth curve, and your graph is complete.\n\n[Prof. Park] Never sketch a parabola with sharp, V-shaped corners. A parabola is smooth and rounded at its vertex, like the bottom of a canoe floating on Flathead Lake.\n\n[TA Sora] Symmetry is your best friend when graphing. Use it to check your calculations and save time!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 7,
+      "title": "Bilateral Symmetry: Reflection across x = 2",
+      "points": [
+        {
+          "x": 0,
+          "y": -3,
+          "label": "(0, -3)",
+          "color": "#10b981"
+        },
+        {
+          "x": 4,
+          "y": -3,
+          "label": "Mirror (4, -3)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 2,
+          "y": 5,
+          "label": "Vertex (2, 5)",
+          "color": "#ec4899"
+        }
+      ],
+      "curves": [
+        {
+          "a": -2,
+          "b": 8,
+          "c": -3,
+          "color": "#ec4899",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 2
+    },
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 6,
+      "yMin": -8,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -2,
+          "c": -3,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": -4,
+          "color": "#ffd700",
+          "label": "V(1,-4)"
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1,0)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "color": "#00ff88",
+          "label": "(0,-3)"
+        }
+      ],
+      "axisOfSymmetry": 1
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.1 Part 1 Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 34 • Section 3.1 Wrap-up",
+    "detail": "Lecture 34: The Vertex Formula",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Section 3.1 Part 1 Master Summary\n- **Formula:** $x_v = -\\frac{b}{2a}$, $y_v = f(x_v)$.\n- **Axis of Symmetry:** $x = x_v$.\n- **$y$-intercept:** $(0, c)$.\n- **Optimization:** If $a > 0$, vertex is minimum; if $a < 0$, vertex is maximum.",
+    "solution": "$$\\mathbf{\\text{Lecture 34 Complete! Next Up: Lecture 35 — Vertex from Vertex Form } a(x-h)^2 + k!}$$",
+    "pitfall": "**Double check signs:** A sign error in $x = -b/(2a)$ ruins both the vertex and axis of symmetry!",
+    "script": "[Prof. Park] We have reached the final slide of Lecture 34—our Section 3.1 Part 1 Mastery Summary! Sora, let's summarize the key breakthroughs from today's session.\n\n[TA Sora] The #1 star of today's lecture was the Vertex Formula: $x_v = -b / (2a)$. It works on every single quadratic function in general form, regardless of whether the intercepts are pretty, messy, or nonexistent!\n\n[Prof. Park] We learned that the vertical line $x = -b / (2a)$ is the Axis of Symmetry. We learned that substituting $x_v$ back into the function gives the vertical coordinate $y_v = f(x_v)$, producing the complete vertex $(x_v, y_v)$.\n\n[TA Sora] We reinforced that the sign of $a$ dictates the curve: if $a > 0$, the parabola smiles upward with a minimum value of $y_v$, and Range $[y_v, \\infty)$. If $a < 0$, it opens downward with a maximum value of $y_v$, and Range $(-\\infty, y_v]$.\n\n[Prof. Park] We discovered that the vertex formula is fundamentally the center midpoint of the quadratic formula's roots, explaining why symmetry is embedded in the very DNA of quadratic algebra.\n\n[TA Sora] And we applied this to real-world economics and optimization: finding the maximum profit for a business, the optimal launch height for a projectile, or the lowest point of sag in an electrical transmission cable across the Montana plains.\n\n[Prof. Park] To all our students: you are mastering tools that empower you to think logically, systematically, and analytically. Tonight, complete the Section 3.1 practice problems on pages 67 through 69 of your workbook.\n\n[TA Sora] In Lecture 35, we will explore Vertex Form $f(x) = a(x - h)^2 + k$ in full depth and compare it side-by-side with General Form. \n\n[Prof. Park] Thank you for your wonderful energy and focus today. \n\n[TA Sora] Keep shining, Bobcats! We will see you in Lecture 35!"
+  }
+]

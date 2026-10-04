@@ -1,0 +1,300 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept & Cartesian Grid",
+    "title": "The Rectangular (Cartesian) Coordinate System",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Rectangular (Cartesian) Coordinate Plane (Workbook p. 30)\n- **Axes:** The horizontal line is the **$x$-axis**, and the vertical line is the **$y$-axis**.\n- **Origin:** The intersection of the two axes at $(0, 0)$.\n- **Quadrants:** The axes divide the plane into four quadrants:\n  - **Quadrant I:** $(+, +)$\n  - **Quadrant II:** $(-, +)$\n  - **Quadrant III:** $(- , -)$\n  - **Quadrant IV:** $(+, -)$\n- **Ordered Pair:** $(x, y)$ where $x$ is horizontal position and $y$ is vertical position.",
+    "solution": "$$\\begin{aligned}\n\\text{Origin: } & (0, 0) \\\\\n\\text{Quadrant I: } & x > 0, y > 0 \\quad (+, +) \\\\\n\\text{Quadrant II: } & x < 0, y > 0 \\quad (-, +) \\\\\n\\text{Quadrant III: } & x < 0, y < 0 \\quad (-, -) \\\\\n\\text{Quadrant IV: } & x > 0, y < 0 \\quad (+, -)\n\\end{aligned}$$",
+    "pitfall": "**Ordered Pair Sequence:** Always move horizontally along the $x$-axis first, then vertically along the $y$-axis! $(x, y) \\neq (y, x)$.",
+    "script": "[Prof. Park] Welcome, everyone, to Unit 2 of M090 Introductory Algebra! In Unit 1, we worked primarily along a single dimension—the one-dimensional real number line. Today, we make a tremendous conceptual leap into two-dimensional space: the Rectangular Coordinate System, also universally known as the Cartesian Coordinate Plane.\n\n[TA Sora] Named after the seventeenth-century French philosopher and mathematician René Descartes! Legend has it that Descartes was lying in bed watching a fly crawl across a tiled ceiling and realized he could pinpoint the fly's exact location at every moment simply by measuring its distance from two perpendicular walls.\n\n[Prof. Park] That simple, brilliant realization revolutionized all of modern science. On the screen before you, look at those two perpendicular number lines. The horizontal axis is our $x$-axis, running from left to right, while the vertical axis is our $y$-axis, running from bottom to top. Where those two number lines intersect at right angles is our anchor: the Origin, denoted by the ordered pair $(0, 0)$.\n\n[TA Sora] And notice how those two intersecting axes divide the entire infinite plane into four distinct regions called Quadrants. We label them with Roman numerals, starting from the upper-right corner as Quadrant I and moving counterclockwise: Quadrant I is top-right, Quadrant II is top-left, Quadrant III is bottom-left, and Quadrant IV is bottom-right!\n\n[Prof. Park] Why counterclockwise, students often ask? In trigonometry and navigation, positive angles rotate counterclockwise from the positive horizontal axis. Notice the sign signatures in each quadrant: Quadrant I has positive $x$ and positive $y$, $(+, +)$. Quadrant II has negative $x$ and positive $y$, $(-, +)$. Quadrant III is entirely negative, $(-, -)$. And Quadrant IV has positive $x$ and negative $y$, $(+, -)$.\n\n[TA Sora] Here is my favorite paper-and-pencil memory hack for every beginner: 'Walk along the hallway before you take the elevator!' Alphabetically, $x$ comes before $y$. In the ordered pair $(x, y)$, the first number always commands horizontal travel along the $x$-axis, and the second number commands vertical travel up or down. If you reverse them, you end up on the wrong floor in the wrong building!",
+    "graph": {
+      "xMin": -8,
+      "xMax": 8,
+      "yMin": -8,
+      "yMax": 8,
+      "title": "Cartesian Coordinate Plane: Quadrants & Axes",
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "label": "Origin (0,0)",
+          "color": "#38bdf8",
+          "labelOffsetX": 8,
+          "labelOffsetY": 14
+        }
+      ]
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.0 Example 1A: Plotting Point (4, 0)",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Example 1A (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1A (Workbook p. 30)\nPlot and label the ordered pair on the Cartesian plane:\n$$\\mathbf{A.\\; (4, 0)}$$\n- Identify the $x$-coordinate and $y$-coordinate.\n- State its location: Does it lie in a quadrant or on an axis?",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & (x, y) = (4, 0) \\\\[0.5em]\n\\text{Step 1: } & \\text{Start at the origin } (0, 0). \\\\\n\\text{Step 2: } & \\text{Move } \\mathbf{4 \\text{ units right}} \\text{ along the } x\\text{-axis.} \\\\\n\\text{Step 3: } & y = 0 \\implies \\text{Do not move vertically.} \\\\[0.5em]\n\\text{Location: } & \\mathbf{\\text{On the positive } x\\text{-axis (an } x\\text{-intercept)}}.\n\\end{aligned}$$",
+    "pitfall": "**Points with zero coordinates:** If $y = 0$, the point lies directly on the $x$-axis. It does NOT belong to any quadrant!",
+    "script": "[Prof. Park] Let us put Sora's hallway-and-elevator rule immediately into practice with Example 1A from page 30 of your workbook: plot and label the ordered pair $A(4, 0)$, and determine whether it lies in a quadrant or on an axis.\n\n[TA Sora] First, let us identify our coordinates clearly. In the ordered pair $(4, 0)$, our horizontal coordinate is $x = 4$, and our vertical coordinate is $y = 0$. We always begin our journey at the center of the universe: the origin, $(0, 0)$.\n\n[Prof. Park] Now follow the coordinates step by step. Since $x = +4$, we walk four units to the right along the horizontal $x$-axis: one, two, three, four. Now look at the vertical coordinate: $y = 0$. How many units do we travel vertically, Sora?\n\n[TA Sora] Exactly zero units! We do not move up, and we do not move down. We place our pencil point firmly on the grid right there at 4 on the horizontal axis, draw a clear solid dot, and label it with a capital letter $A$ and its coordinates $(4, 0)$.\n\n[Prof. Park] Now comes the crucial conceptual question: does point $A$ lie in Quadrant I, Quadrant IV, or neither? This is one of the most frequent trap questions on the first midterm!\n\n[TA Sora] It lies in neither quadrant! Points that sit directly on the boundary lines—the axes—do not belong to any quadrant. Because its $y$-coordinate is zero, point $A$ lies directly on the positive $x$-axis. In fact, throughout Unit 2, we will call any point where a graph crosses the $x$-axis an '$x$-intercept.'\n\n[Prof. Park] Exactly right. Whenever $y = 0$, you are standing on the $x$-axis. Keep that principle etched in your mind: $(a, 0)$ is always on the $x$-axis!",
+    "graph": {
+      "xMin": -8,
+      "xMax": 8,
+      "yMin": -8,
+      "yMax": 8,
+      "title": "Plotting Point A: (4, 0) on X-Axis",
+      "points": [
+        {
+          "x": 4,
+          "y": 0,
+          "label": "A (4, 0)",
+          "color": "#f59e0b",
+          "labelOffsetX": 8,
+          "labelOffsetY": -18
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.0 Example 1B: Plotting Point (-1, 3)",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Example 1B (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1B (Workbook p. 30)\nPlot and label the ordered pair on the Cartesian plane:\n$$\\mathbf{B.\\; (-1, 3)}$$\n- Identify the direction of horizontal and vertical displacement.\n- State which quadrant contains this point.",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & (x, y) = (-1, 3) \\\\[0.5em]\n\\text{Step 1: } & \\text{Start at the origin } (0, 0). \\\\\n\\text{Step 2: } & x = -1 \\implies \\text{Move } \\mathbf{1 \\text{ unit left}}. \\\\\n\\text{Step 3: } & y = 3 \\implies \\text{Move } \\mathbf{3 \\text{ units up}}. \\\\[0.5em]\n\\text{Location: } & \\mathbf{\\text{Quadrant II } (-, +)}.\n\\end{aligned}$$",
+    "pitfall": "**Sign awareness:** A negative $x$ means move left, while a positive $y$ means move up. That places us in Quadrant II!",
+    "script": "[Prof. Park] Moving directly to Example 1B on page 30: plot and classify the ordered pair $B(-1, 3)$.\n\n[TA Sora] Let us break down the address: $x = -1$ and $y = +3$. Starting at the origin $(0, 0)$, our $x$-coordinate is negative one. That means we travel one unit to the left along the horizontal axis, stopping at $-1$.\n\n[Prof. Park] Now look at the vertical coordinate: $y = +3$. Since it is positive three, we take our elevator up three full units: up one, two, three. We mark our dot right at that intersection, label it $B(-1, 3)$, and observe where we landed.\n\n[TA Sora] We are in the upper-left territory! Going left means $x < 0$, and going up means $y > 0$. That matches our signature $(-, +)$, which places point $B$ squarely inside Quadrant II!\n\n[Prof. Park] Notice how clear and unambiguous the coordinate grid is. In geography, when you navigate around the Gallatin Valley using GPS coordinates, your GPS receiver is doing this exact calculation in spherical coordinates. West is negative longitude, North is positive latitude. Point $B$ is like driving one mile west of downtown Bozeman and three miles north toward Springhill!\n\n[TA Sora] A common student pitfall here is accidentally plotting $(3, -1)$ instead of $(-1, 3)$. That happens when someone rushes and grabs the positive number first! Remember: $x$ comes first in the alphabet, $x$ comes first in the ordered pair, horizontal motion is always first. Guard against flipping your axes!",
+    "graph": {
+      "xMin": -8,
+      "xMax": 8,
+      "yMin": -8,
+      "yMax": 8,
+      "title": "Plotting Point B: (-1, 3) in Quadrant II",
+      "points": [
+        {
+          "x": -1,
+          "y": 3,
+          "label": "B (-1, 3)",
+          "color": "#38bdf8",
+          "labelOffsetX": 8,
+          "labelOffsetY": -18
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.0 Example 1C: Plotting Point (0, 5)",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Example 1C (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1C (Workbook p. 30)\nPlot and label the ordered pair on the Cartesian plane:\n$$\\mathbf{C.\\; (0, 5)}$$\n- Identify the $x$-coordinate and $y$-coordinate.\n- State its location: Does it lie in a quadrant or on an axis?",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & (x, y) = (0, 5) \\\\[0.5em]\n\\text{Step 1: } & \\text{Start at the origin } (0, 0). \\\\\n\\text{Step 2: } & x = 0 \\implies \\text{No horizontal movement.} \\\\\n\\text{Step 3: } & y = 5 \\implies \\text{Move } \\mathbf{5 \\text{ units up}} \\text{ along the } y\\text{-axis.} \\\\[0.5em]\n\\text{Location: } & \\mathbf{\\text{On the positive } y\\text{-axis (a } y\\text{-intercept)}}.\n\\end{aligned}$$",
+    "pitfall": "**Do not confuse $(0, 5)$ with $(5, 0)$!** $(0, 5)$ is 5 units straight UP on the vertical axis. $(5, 0)$ is 5 units to the RIGHT on the horizontal axis.",
+    "script": "[Prof. Park] Next up is Example 1C: plot and classify point $C(0, 5)$. Look closely at this coordinate pair, students. How does this compare with point $A(4, 0)$ that we graphed two slides ago?\n\n[TA Sora] This is the exact mirror counterpart of the zero-coordinate trap! Here, $x = 0$ and $y = 5$. If $x = 0$, we start at the origin $(0, 0)$, and our horizontal movement is zero—we do not move left, and we do not move right!\n\n[Prof. Park] We remain right on the vertical spine of the plane. Then we read $y = +5$, which commands us to move five units straight up along the vertical axis: one, two, three, four, five. We plot our point and label it $C(0, 5)$.\n\n[TA Sora] And just like point $A$, point $C$ sits directly on a boundary line! Because it rests on the vertical number line, it does not belong to Quadrant I or Quadrant II. It lies directly on the positive $y$-axis.\n\n[Prof. Park] In algebraic graphing, any point of the form $(0, b)$ where $x = 0$ is called a '$y$-intercept' because it is where a line or curve intercepts the vertical $y$-axis. \n\n[TA Sora] Think about this in real life: if $x$ represents time elapsed in seconds and $y$ represents your elevation or bank account balance, $x = 0$ is the starting line—the initial condition! That $y$-intercept tells you where you began before any time ticked away.",
+    "graph": {
+      "xMin": -8,
+      "xMax": 8,
+      "yMin": -8,
+      "yMax": 8,
+      "title": "Plotting Point C: (0, 5) on Y-Axis",
+      "points": [
+        {
+          "x": 0,
+          "y": 5,
+          "label": "C (0, 5)",
+          "color": "#10b981",
+          "labelOffsetX": 8,
+          "labelOffsetY": -18
+        }
+      ]
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.0 Example 1D: Plotting Point (-3, -4)",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Example 1D (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1D (Workbook p. 30)\nPlot and label the ordered pair on the Cartesian plane:\n$$\\mathbf{D.\\; (-3, -4)}$$\n- Identify the horizontal and vertical displacement.\n- State which quadrant contains this point.",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & (x, y) = (-3, -4) \\\\[0.5em]\n\\text{Step 1: } & \\text{Start at the origin } (0, 0). \\\\\n\\text{Step 2: } & x = -3 \\implies \\text{Move } \\mathbf{3 \\text{ units left}}. \\\\\n\\text{Step 3: } & y = -4 \\implies \\text{Move } \\mathbf{4 \\text{ units down}}. \\\\[0.5em]\n\\text{Location: } & \\mathbf{\\text{Quadrant III } (-, -)}.\n\\end{aligned}$$",
+    "pitfall": "**Both coordinates negative:** When both $x < 0$ and $y < 0$, the point is strictly in Quadrant III (bottom-left quadrant).",
+    "script": "[Prof. Park] Let us examine Example 1D: plot and classify point $D(-3, -4)$. Both coordinates are now negative numbers. Sora, walk us through the movement.\n\n[TA Sora] We reset to the origin $(0, 0)$. First, our horizontal address is $x = -3$. A negative $x$ means we travel left three units on the horizontal axis: left 1, 2, 3 to $-3$. Next, our vertical address is $y = -4$. A negative $y$ means we travel downward four units: down 1, 2, 3, 4 to $-4$.\n\n[Prof. Park] We locate the intersection of the vertical grid line at $x = -3$ and the horizontal grid line at $y = -4$. We draw a crisp dot and label it $D(-3, -4)$. Since both coordinates are negative, $(- , -)$, point $D$ lies deep in the lower-left section: Quadrant III.\n\n[TA Sora] Students often ask me during tutoring sessions: 'Sora, why does Quadrant III have both negative numbers?' Think about temperature and depth. To the left is below zero horizontally, and downwards is below zero vertically—like measuring depth beneath the surface of the Madison River in sub-zero winter temperatures!\n\n[Prof. Park] That is a memorable visual. Notice the contrast: Quadrant I is $(+, +)$, completely positive. Quadrant III is $(- , -)$, completely negative. They are diagonal opposites across the origin. If you reflect a point across the origin, both signs flip!",
+    "graph": {
+      "xMin": -8,
+      "xMax": 8,
+      "yMin": -8,
+      "yMax": 8,
+      "title": "Plotting Point D: (-3, -4) in Quadrant III",
+      "points": [
+        {
+          "x": -3,
+          "y": -4,
+          "label": "D (-3, -4)",
+          "color": "#ec4899",
+          "labelOffsetX": 8,
+          "labelOffsetY": 12
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Synthesis & Comparison",
+    "title": "Section 2.0 Example 1 Synthesis: All 4 Points",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Complete Set (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 Complete Grid Overview (Workbook p. 30)\nCompare all four points plotted together on the same Cartesian coordinate plane:\n- $\\mathbf{A(4, 0)}$ — $x$-axis intercept\n- $\\mathbf{B(-1, 3)}$ — Quadrant II\n- $\\mathbf{C(0, 5)}$ — $y$-axis intercept\n- $\\mathbf{D(-3, -4)}$ — Quadrant III",
+    "solution": "$$\\begin{array}{|c|c|c|c|}\n\\hline\n\\textbf{Point} & \\textbf{Coordinates} & \\textbf{Signs } (x, y) & \\textbf{Location} \\\\\n\\hline\nA & (4, 0) & (+, 0) & x\\text{-axis (Intercept)} \\\\\nB & (-1, 3) & (-, +) & \\text{Quadrant II} \\\\\nC & (0, 5) & (0, +) & y\\text{-axis (Intercept)} \\\\\nD & (-3, -4) & (-, -) & \\text{Quadrant III} \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Axis points are NOT in quadrants:** Remember points on axes (like $A$ and $C$) do not belong to any quadrant.",
+    "script": "[Prof. Park] On Slide 6, we have brought all four points together onto a single, unified Cartesian coordinate grid: Point $A(4, 0)$, Point $B(-1, 3)$, Point $C(0, 5)$, and Point $D(-3, -4)$. Take a wide-angle view of this canvas.\n\n[TA Sora] Look at how beautifully balanced this display is! Point $A(4, 0)$ anchors the positive $x$-axis. Point $C(0, 5)$ anchors the positive $y$-axis. Point $B(-1, 3)$ stands proudly in Quadrant II. And Point $D(-3, -4)$ sits in Quadrant III.\n\n[Prof. Park] Compare points $A(4, 0)$ and $C(0, 5)$ side by side. Notice how students who confuse $(x, y)$ with $(y, x)$ will accidentally swap these two types of points. An ordered pair is called 'ordered' precisely because the order of elements conveys meaning: $(4, 0) \\neq (0, 4)$!\n\n[TA Sora] One is four miles east of the town square; the other is four miles north! If you swap them on a Montana mountain trail map, you end up on the ridge of Mount Ellis instead of downtown Bozeman.\n\n[Prof. Park] When working on your homework, always verify the quadrant signs before lifting your pencil: Quadrant I is $(+, +)$, Quadrant II is $(-, +)$, Quadrant III is $(-, -)$, Quadrant IV is $(+, -)$, and zero coordinates always belong to an axis, never a quadrant.",
+    "graph": {
+      "xMin": -8,
+      "xMax": 8,
+      "yMin": -8,
+      "yMax": 8,
+      "title": "Example 1 All 4 Points: A(4,0), B(-1,3), C(0,5), D(-3,-4)",
+      "points": [
+        {
+          "x": 4,
+          "y": 0,
+          "label": "A (4, 0)",
+          "color": "#f59e0b",
+          "labelOffsetX": 8,
+          "labelOffsetY": -18
+        },
+        {
+          "x": -1,
+          "y": 3,
+          "label": "B (-1, 3)",
+          "color": "#38bdf8",
+          "labelOffsetX": 8,
+          "labelOffsetY": -18
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "label": "C (0, 5)",
+          "color": "#10b981",
+          "labelOffsetX": 8,
+          "labelOffsetY": -18
+        },
+        {
+          "x": -3,
+          "y": -4,
+          "label": "D (-3, -4)",
+          "color": "#ec4899",
+          "labelOffsetX": 8,
+          "labelOffsetY": 12
+        }
+      ]
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Basic Graphing Strategy: Input (x) & Output (y)",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Strategy (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Basic Graphing Strategy (Workbook p. 30)\n- **Input values ($x$):** The independent variable chosen from the domain.\n- **Output values ($y$):** The dependent variable computed from the algebraic expression.\n- **Graph:** The set of all ordered pairs $(x, y)$ that satisfy the equation.\n- **Rule of Thumb:** Plot enough points to clearly see the geometric trend (straight line, curve, or V-shape)!",
+    "solution": "$$\\begin{aligned}\n\\text{Step 1: } & \\text{Choose a convenient set of } x\\text{-values (e.g. } -2, -1, 0, 1, 2\\text{).} \\\\\n\\text{Step 2: } & \\text{Substitute each } x \\text{ into the equation to calculate } y. \\\\\n\\text{Step 3: } & \\text{List ordered pairs } (x, y) \\text{ in a table of values.} \\\\\n\\text{Step 4: } & \\text{Plot each point on the coordinate plane.} \\\\\n\\text{Step 5: } & \\text{Connect the points with a smooth line or curve with arrows.}\n\\end{aligned}$$",
+    "pitfall": "**Picking convenient numbers:** Choose $x$-values that keep calculations simple, like $0$ and values that cancel out denominators if fractions are involved!",
+    "script": "[Prof. Park] Now that we know how to plot static points, let us talk about the dynamic bridge between algebra and geometry: the Basic Graphing Strategy on page 30 of your workbook. \n\n[TA Sora] This is where mathematics becomes truly powerful. An equation with two variables, like $y = 2x + 1$, is an input-output machine. You feed in an input value for the independent variable $x$, the equation processes it through arithmetic operations, and it produces an output value for the dependent variable $y$!\n\n[Prof. Park] Why do we call $x$ the 'independent variable'? Because you, the mathematician, have the total freedom to choose any valid number from the domain to plug in for $x$. You can choose $x = 0$, $x = 1$, $x = -2$, or $x = 100$. But once you pick $x$, the value of $y$ is entirely dependent on the equation's rule.\n\n[TA Sora] And each pair of input and output forms an ordered pair $(x, y)$! When you plot several of these ordered pairs on your Cartesian coordinate grid, a visual pattern begins to emerge—a line, a gentle curve, a parabola, or a V-shape.\n\n[Prof. Park] That geometric figure is what we call the 'graph' of the equation. A graph is not just a pretty picture; it is a visual picture of infinitely many true solutions packed together side by side.\n\n[TA Sora] My golden recommendation for building a table of values: always pick $x = 0$ first because arithmetic with zero is effortless! Then pick a small positive number like $x = 1$ or $x = 2$, and a small negative number like $x = -1$ or $x = -2$. That gives you a balanced view across both sides of the vertical axis!"
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Formal Definition",
+    "title": "Definition: Solution of an Equation in Two Variables",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Definition (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Definition of a Solution (Workbook p. 30)\nAn ordered pair $(x, y)$ is a **solution to an equation involving $x$ and $y$** if the equation becomes a **true statement** when the $x$- and $y$-values of the ordered pair are substituted into the equation.\n\n$$\\text{If substituted: } \\text{Left Side} = \\text{Right Side} \\implies \\text{Solution (Point lies on graph)}$$",
+    "solution": "$$\\begin{aligned}\n\\text{Given equation: } & 2x + y = 7 \\\\[0.5em]\n\\text{Test Point } (2, 3): & 2(2) + 3 = 4 + 3 = 7 \\implies \\mathbf{7 = 7 \\; (\\text{TRUE! Solution})} \\\\\n\\text{Test Point } (1, 4): & 2(1) + 4 = 2 + 4 = 6 \\neq 7 \\implies \\mathbf{6 = 7 \\; (\\text{FALSE! Not a solution})}\n\\end{aligned}$$",
+    "pitfall": "**Check both coordinates:** Always put $x$ into the $x$-spot and $y$ into the $y$-spot. Don't swap them!",
+    "script": "[Prof. Park] Let us formalize that definition on Slide 8: What does it mean for an ordered pair to be a 'solution' to an equation in two variables?\n\n[TA Sora] By strict algebraic definition: an ordered pair $(x, y)$ is a solution to an equation if substituting the first number for $x$ and the second number for $y$ turns the equation into a true mathematical statement!\n\n[Prof. Park] Let us test that with an example right now. Suppose we have the equation $3x - 2y = 8$. Is the ordered pair $(4, 2)$ a solution? Let us check: replace $x$ with 4 inside protective parentheses, and replace $y$ with 2 inside protective parentheses: $3(4) - 2(2) = 12 - 4 = 8$. Does $8 = 8$? Absolutely true! Therefore, $(4, 2)$ is a valid solution.\n\n[TA Sora] Now test the ordered pair $(2, 1)$ in that same equation: $3(2) - 2(1) = 6 - 2 = 4$. Does $4 = 8$? No, that is completely false! Therefore, $(2, 1)$ is NOT a solution.\n\n[Prof. Park] And here is the profound connection between algebra and the Cartesian coordinate plane: If a point is a solution, it sits directly ON the graph. If a point is NOT a solution, it floats somewhere off the graph!\n\n[TA Sora] That means a drawn line or curve is literally the collection of every single point in the entire universe that makes the equation true! Every single microscopic point on that line satisfies the equation. Algebra and geometry are two languages speaking the exact same truth!"
+  },
+  {
+    "num": 9,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Testing Solutions on the Coordinate Plane: 2x + y = 7",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Verification (Workbook p. 30)",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Testing Points for $2x + y = 7$\nDetermine algebraically and visually whether the following points are solutions to $2x + y = 7$:\n- **Point P:** $(2, 3)$\n- **Point Q:** $(4, -1)$\n- **Point R:** $(1, 2)$",
+    "solution": "$$\\begin{aligned}\n\\text{Point P } (2, 3): & 2(2) + 3 = 4 + 3 = 7 \\implies \\mathbf{\\text{TRUE } \\implies \\text{ON LINE}} \\\\[0.5em]\n\\text{Point Q } (4, -1): & 2(4) + (-1) = 8 - 1 = 7 \\implies \\mathbf{\\text{TRUE } \\implies \\text{ON LINE}} \\\\[0.5em]\n\\text{Point R } (1, 2): & 2(1) + 2 = 2 + 2 = 4 \\neq 7 \\implies \\mathbf{\\text{FALSE } \\implies \\text{OFF LINE}}\n\\end{aligned}$$",
+    "pitfall": "**Visual connection:** Notice on the coordinate plane how $(2, 3)$ and $(4, -1)$ sit perfectly on the line $y = -2x + 7$, while $(1, 2)$ is completely off the line!",
+    "script": "[Prof. Park] Let us apply this verification method to the equation given on Slide 9: $2x + y = 7$. We are given three test points: $P_1(2, 3)$, $P_2(1, 5)$, and $P_3(4, -1)$. Let us test each one algebraically and visually.\n\n[TA Sora] Let us test Point 1: $(2, 3)$. Here $x = 2$ and $y = 3$. We substitute: $2(2) + 3 = 4 + 3 = 7$. That is $7 = 7$, perfectly true! So $(2, 3)$ is a solution and lies on the line.\n\n[Prof. Park] Now test Point 2: $(1, 5)$. We substitute $x = 1$ and $y = 5$: $2(1) + 5 = 2 + 5 = 7$. Again, $7 = 7$, true! Point $(1, 5)$ is also on the line.\n\n[TA Sora] Now test Point 3: $(4, -1)$. We substitute $x = 4$ and $y = -1$: $2(4) + (-1) = 8 - 1 = 7$. True again! Point $(4, -1)$ is on the line.\n\n[Prof. Park] Now look at the graph on your screen. Notice how those three points—$(1, 5)$, $(2, 3)$, and $(4, -1)$—fall in a perfectly straight line! If you lay a straightedge across them, they line up without any wobble or deviation.\n\n[TA Sora] What if someone tested $(3, 2)$? Let us check: $2(3) + 2 = 6 + 2 = 8 \\neq 7$. If you plot $(3, 2)$ on that coordinate grid, you will see it sits just slightly to the right of the line, hovering off the path. Only the points that satisfy $2x + y = 7$ lie on the line!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 8,
+      "yMin": -3,
+      "yMax": 9,
+      "title": "Testing Solutions to 2x + y = 7 (y = -2x + 7)",
+      "points": [
+        {
+          "x": 2,
+          "y": 3,
+          "label": "P(2,3) [ON]",
+          "color": "#10b981",
+          "labelOffsetX": 8,
+          "labelOffsetY": -18
+        },
+        {
+          "x": 4,
+          "y": -1,
+          "label": "Q(4,-1) [ON]",
+          "color": "#10b981",
+          "labelOffsetX": 8,
+          "labelOffsetY": 12
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "label": "R(1,2) [OFF]",
+          "color": "#ef4444",
+          "labelOffsetX": 8,
+          "labelOffsetY": -18
+        }
+      ],
+      "lines": [
+        {
+          "slope": -2,
+          "yIntercept": 7,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "2x + y = 7"
+        }
+      ]
+    }
+  },
+  {
+    "num": 10,
+    "type": "math_problem",
+    "slideTypeLabel": "Sora's Pro-Tip & Mastery",
+    "title": "Lecture 16 Mastery: Quadrant Signs & Coordinate Plane",
+    "subtitle": "Unit 2 • Lecture 16 • Section 2.0 Wrap-up",
+    "detail": "Lecture 16: The Cartesian Plane & Plotting Points",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Summary of Cartesian Coordinates\n- **Quadrant I:** $(+, +)$ — Upper Right\n- **Quadrant II:** $(-, +)$ — Upper Left\n- **Quadrant III:** $(-, -)$ — Lower Left\n- **Quadrant IV:** $(+, -)$ — Lower Right\n- **$x$-axis intercept:** $(a, 0)$ where $y = 0$\n- **$y$-axis intercept:** $(0, b)$ where $x = 0$\n- **Origin:** $(0, 0)$ where both axes cross",
+    "solution": "$$\\mathbf{\\text{Lecture 16 Complete! Ready for Section 2.0 Part 2: Basic Graphs \\& Domain/Range!}}$$",
+    "pitfall": "**Memory Anchor:** Quadrants are numbered counterclockwise (I $\\rightarrow$ II $\\rightarrow$ III $\\rightarrow$ IV), forming the shape of a capital 'C' for Cartesian!",
+    "script": "[Prof. Park] Outstanding work on Lecture 16! You have officially entered the world of two-dimensional coordinate geometry. Let us review the foundational principles we established today.\n\n[TA Sora] Principle 1: The Cartesian plane is formed by two perpendicular number lines intersecting at the origin $(0, 0)$. Horizontal is $x$, vertical is $y$.\n\n[Prof. Park] Principle 2: In any ordered pair $(x, y)$, order is sacred. Always walk horizontally first, then travel vertically.\n\n[TA Sora] Principle 3: Quadrants are numbered counterclockwise I, II, III, IV starting from top-right. Quadrant I is $(+,+)$, Quadrant II is $(-,+)$, Quadrant III is $(-,-)$, and Quadrant IV is $(+,-)$. Any point containing a zero sits directly on an axis, not in any quadrant.\n\n[Prof. Park] Principle 4: A point is a solution to an equation if and only if substituting its coordinates makes the equation true. The graph is the visual collection of all true solutions.\n\n[TA Sora] In Lecture 17, we take this exact coordinate grid and explore the Seven Fundamental Parent Functions of algebra—from straight lines to parabolas, square roots, and absolute value curves! Rest up, review your workbook page 30, and we will see you in Lecture 17!"
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Lesson Introduction",
+    "title": "Section 3.5 Part 2: The Discriminant",
+    "subtitle": "Unit 3 • Lecture 42 • Section 3.5 (Workbook p. 79–82)",
+    "detail": "Lecture 42: Using the Discriminant to Classify Solutions",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**The Discriminant** is the expression inside the square root of the Quadratic Formula:\n\n$$\\Delta = b^2 - 4ac$$\n\n**It tells us the number of x-intercepts WITHOUT solving:**\n\n| Discriminant | Solutions | Graph |\n|---|---|---|\n| $\\Delta > 0$ | 2 real x-intercepts | Crosses x-axis twice |\n| $\\Delta = 0$ | 1 real x-intercept | Touches x-axis at vertex |\n| $\\Delta < 0$ | No real x-intercepts | Parabola floats above or below x-axis |",
+    "solution": "**Why does this matter?**\n- Saves time! If $\\Delta < 0$, you know immediately there are no real x-intercepts.\n- Tells you the shape of your parabola’s relationship with the x-axis.\n- Discriminant zero means vertex is ON the x-axis (special case!).",
+    "pitfall": "**Sora’s Warning:** The discriminant is $b^2 - 4ac$, NOT $\\sqrt{b^2-4ac}$. Compute it BEFORE taking the square root.",
+    "script": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our stellar teaching assistant, Sora. Today in Lecture 42, we explore Section 3.5 Part 2 on page 92: The Discriminant.\n\n[TA Sora] Hello everyone! The Discriminant is the mathematical crystal ball of algebra. It is the special quantity sitting directly underneath the square root symbol in the Quadratic Formula: $\\Delta = b^2 - 4ac$!\n\n[Prof. Park] Think about why it is named the 'Discriminant'Ã¢ÂÂthe word means to distinguish or tell apart. By calculating just this one simple number, we can predict the exact number and type of solutions WITHOUT having to solve the entire equation or draw a single graph!\n\n[TA Sora] Let's look at the three possibilities: Case 1: If $b^2 - 4ac > 0$ (positive), you are taking the square root of a positive number! That yields TWO distinct real solutions, and the parabola crosses the $x$-axis twice!\n\n[Prof. Park] Case 2: If $b^2 - 4ac = 0$, you have $\\pm \\sqrt{0} = 0$. Adding or subtracting zero changes nothing, so you get exactly ONE real solution! The vertex touches the $x$-axis at one single tangent point!\n\n[TA Sora] Case 3: If $b^2 - 4ac < 0$ (negative), you are taking the square root of a negative number! In the real number system, you cannot take the square root of a negative! That yields ZERO real solutions, meaning the parabola floats completely above or below the $x$-axis!\n\n[Prof. Park] In structural engineering and aviation, calculating the discriminant tells you instantly whether a flight trajectory will intersect a safe glide path or miss it entirely.\n\n[TA Sora] Open your workbook to page 92. Let's analyze Example 5 on Slide 2!\n\n[Prof. Park] In scientific computing and engineering simulations at Montana State University, calculating full roots of quadratic systems is often computationally expensive. Engineers designing radar detection systems or structural truss stability checks first compute the DISCRIMINANT: Delta = b^2 - 4ac. In one single arithmetic step, the discriminant reveals the structural fate of the system: Will the beams cross? Will the laser beam focus on the target? Will the vehicle skid or stop? The sign of Delta is a diagnostic crystal ball that answers these questions instantly!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -6,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": -4,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "label": "Δ>0"
+        },
+        {
+          "a": 1,
+          "b": 0,
+          "c": 0,
+          "color": "#ffd700",
+          "strokeWidth": 2,
+          "label": "Δ=0"
+        },
+        {
+          "a": 1,
+          "b": 0,
+          "c": 4,
+          "color": "#ff6b6b",
+          "strokeWidth": 2,
+          "label": "Δ<0"
+        }
+      ]
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Discriminant — Two Solutions",
+    "title": "Discriminant $\\Delta > 0$: Two Real x-Intercepts",
+    "subtitle": "Unit 3 • Lecture 42 • Discriminant Case 1",
+    "detail": "When the discriminant is positive, the parabola crosses the x-axis twice.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find and classify solutions for:** $f(x) = x^2 - 5x + 4$\n\n**Step 1 — Compute discriminant:** $a=1, b=-5, c=4$\n$$\\Delta = (-5)^2 - 4(1)(4) = 25 - 16 = 9 > 0$$\n\n**Conclusion:** The parabola crosses the x-axis at **2 distinct points**.",
+    "solution": "**Apply the formula:**\n$$x = \\dfrac{5 \\pm \\sqrt{9}}{2} = \\dfrac{5 \\pm 3}{2}$$\n\n$$x = \\dfrac{5+3}{2} = 4 \\qquad x = \\dfrac{5-3}{2} = 1$$\n\n**x-intercepts:** $(1,\\,0)$ and $(4,\\,0)$\n\n**Vertex:** $x = 2.5$, $f(2.5) = 6.25-12.5+4 = -2.25$\n\n**Vertex:** $(2.5,\\,-2.25)$",
+    "pitfall": "**Sora’s Note:** $\\sqrt{9} = 3$ (a perfect square!). When $\\Delta$ is a perfect square, solutions are rational numbers.",
+    "script": "[Prof. Park] On Slide 2, Example 5 asks us to find the discriminant and determine the number and type of solutions for $x^2 - 5x - 6 = 0$.\n\n[TA Sora] Step 1: Identify our three coefficients: $a = 1$, $b = -5$, and $c = -6$.\n\n[Prof. Park] Step 2: Compute the Discriminant formula: $\\Delta = b^2 - 4ac = (-5)^2 - 4(1)(-6)$.\n\n[TA Sora] Watch the signs carefully: $(-5)^2 = +25$. And $-4(1)(-6) = +24$! So $\\Delta = 25 + 24 = 49$!\n\n[Prof. Park] Since $\\Delta = 49 > 0$, there are TWO distinct real solutions. Furthermore, 49 is a perfect square ($7^2 = 49$), which means the square root will resolve cleanly as $\\sqrt{49} = 7$! That tells us the solutions are not just realÃ¢ÂÂthey are Rational numbers (integers or simple fractions)!\n\n[TA Sora] Look at the graph on your screen: the parabola clearly slices through the $x$-axis at two clean integer points: $x = 6$ and $x = -1$! \n\n[Prof. Park] When $\\Delta > 0$ and is a perfect square, the original equation could have been solved by factoring! Here $(x - 6)(x + 1) = 0$. The discriminant confirms that factoring was possible!\n\n[TA Sora] Discriminant: $\\Delta = 49$. Number and type of solutions: Two real rational solutions. Prediction verified 100%!\n\n[TA Sora] In Case 1 when Delta > 0, the number inside the square root is strictly positive, like Delta = 9 in f(x) = x^2 - 5x + 4. Because sqrt(9) = 3, the plus-or-minus operator creates TWO distinct real solutions: x = (5 + 3)/2 = 4, and x = (5 - 3)/2 = 1. On the graph, the parabola plunges down through the x-axis at (1, 0), reaches its vertex at (2.5, -2.25), and climbs back up through (4, 0). It acts like a secant line cutting through the axis in two distinct places!",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 6,
+      "yMin": -4,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": 1,
+          "b": -5,
+          "c": 4,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1,0)"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(4,0)"
+        },
+        {
+          "x": 2.5,
+          "y": -2.25,
+          "color": "#ffd700",
+          "label": "V(2.5,-2.25)"
+        }
+      ],
+      "axisOfSymmetry": 2.5
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Discriminant — One Solution",
+    "title": "Discriminant $\\Delta = 0$: Exactly One Real x-Intercept",
+    "subtitle": "Unit 3 • Lecture 42 • Discriminant Case 2",
+    "detail": "When the discriminant is zero, the vertex sits exactly on the x-axis.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find and classify solutions for:** $f(x) = x^2 - 6x + 9$\n\n**Step 1 — Compute discriminant:** $a=1, b=-6, c=9$\n$$\\Delta = (-6)^2 - 4(1)(9) = 36 - 36 = 0$$\n\n**Conclusion:** The parabola **touches** the x-axis at exactly **one point** (the vertex).",
+    "solution": "**Apply the formula:**\n$$x = \\dfrac{6 \\pm \\sqrt{0}}{2} = \\dfrac{6 \\pm 0}{2} = \\dfrac{6}{2} = 3$$\n\n**One x-intercept:** $(3,\\,0)$\n\n**Vertex = x-intercept:** $(3,\\,0)$\n\n**Note:** $f(x) = x^2-6x+9 = (x-3)^2$. The vertex form confirms vertex is at $(3,0)$, sitting ON the x-axis.",
+    "pitfall": "**Sora’s Insight:** $\\Delta = 0$ means it’s a perfect square trinomial! $x^2-6x+9 = (x-3)^2$. So the answer is a double root: $x=3$ repeated twice.",
+    "script": "[Prof. Park] Slide 3 brings us to Example 6: $x^2 - 6x + 9 = 0$. Let's test the discriminant!\n\n[TA Sora] Step 1: Coefficients: $a = 1$, $b = -6$, and $c = 9$.\n\n[Prof. Park] Step 2: Compute the Discriminant: $\\Delta = b^2 - 4ac = (-6)^2 - 4(1)(9) = 36 - 36 = 0$!\n\n[TA Sora] The Discriminant is exactly ZERO! When $\\Delta = 0$, the $\\pm \\sqrt{b^2 - 4ac}$ part of the Quadratic Formula collapses to zero: $x = \\frac{-(-6) \\pm 0}{2(1)} = \\frac{6}{2} = 3$!\n\n[Prof. Park] There is exactly ONE real rational solution: $x = 3$. Look at the coordinate grid: the vertex is $(3, 0)$, touching the $x$-axis at one single tangent point without crossing through!\n\n[TA Sora] Whenever $\\Delta = 0$, the trinomial is a perfect square: $(x - 3)^2 = 0$. In manufacturing and physics, this represents critical dampingÃ¢ÂÂwhere a system returns to equilibrium as fast as possible without oscillating back and forth!\n\n[Prof. Park] Discriminant $\\Delta = 0 \\implies$ Exactly one real rational root (tangent vertex). A beautiful geometric result!\n\n[Prof. Park] In Case 2 when Delta = 0, look at what happens in the formula: plus or minus sqrt(0) = plus or minus 0! Adding zero and subtracting zero gives the EXACT same number: x = -b / (2a)! In f(x) = x^2 - 6x + 9, Delta = (-6)^2 - 4(1)(9) = 36 - 36 = 0! The only root is x = 6/2 = 3. Notice that x = -b / (2a) is the exact formula for the x-coordinate of the VERTEX! That proves mathematically that when Delta = 0, the vertex of the parabola rests directly on the x-axis!",
+    "coordinate": {
+      "xMin": 0,
+      "xMax": 6,
+      "yMin": -1,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 9,
+          "color": "#00ff88",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ffd700",
+          "label": "V(3,0)"
+        }
+      ],
+      "axisOfSymmetry": 3
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Discriminant — No Real Solutions",
+    "title": "Discriminant $\\Delta < 0$: No Real x-Intercepts",
+    "subtitle": "Unit 3 • Lecture 42 • Discriminant Case 3",
+    "detail": "When the discriminant is negative, the parabola floats above or below the x-axis.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find and classify solutions for:** $f(x) = x^2 + 2x + 5$\n\n**Step 1 — Compute discriminant:** $a=1, b=2, c=5$\n$$\\Delta = (2)^2 - 4(1)(5) = 4 - 20 = -16 < 0$$\n\n**Conclusion:** There are **no real x-intercepts**. The parabola floats entirely above the x-axis.",
+    "solution": "**Why no real solutions?**\n$$x = \\dfrac{-2 \\pm \\sqrt{-16}}{2}$$\n\n$$\\sqrt{-16} \\text{ is not a real number!}$$\n\nWe cannot take the square root of a negative number in the real number system.\n\n**Vertex:** $x = \\dfrac{-2}{2} = -1$, $f(-1) = 1-2+5 = 4$\n\n**Vertex:** $(-1,\\,4)$ — The parabola opens upward with minimum at $y=4 > 0$. Never crosses the x-axis!",
+    "pitfall": "**Sora’s Note:** You will encounter imaginary numbers ($\\sqrt{-16} = 4i$) in future math courses. For M090, we just state: NO REAL SOLUTIONS.",
+    "script": "[Prof. Park] On Slide 4, Example 7 tests: $f(x) = x^2 + 2x + 5$. Sora, let's see what the discriminant reveals here!\n\n[TA Sora] Step 1: Identify coefficients: $a = 1$, $b = 2$, and $c = 5$.\n\n[Prof. Park] Step 2: Compute $\\Delta = b^2 - 4ac = 2^2 - 4(1)(5) = 4 - 20 = -16$!\n\n[TA Sora] Look at that: $\\Delta = -16$, which is strictly negative ($\\Delta < 0$)!\n\n[Prof. Park] Because you cannot take the square root of a negative number in the real number system, there are ZERO real solutions to $x^2 + 2x + 5 = 0$.\n\n[TA Sora] That means there are NO real $x$-intercepts! On the coordinate plane, the vertex sits up at $(-1, 4)$, and since $a = 1 > 0$, the parabola opens upward! It floats entirely above the $x$-axis.\n\n[Prof. Park] Negative discriminant: zero real $x$-intercepts. The graph never touches the horizontal axis!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 2,
+      "yMin": -1,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": 1,
+          "b": 2,
+          "c": 5,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -1,
+          "y": 4,
+          "color": "#ffd700",
+          "label": "V(-1,4)"
+        }
+      ],
+      "axisOfSymmetry": -1
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Discriminant Practice — Classify Only",
+    "title": "Classify Without Solving: $h(x) = -2x^2 + 3x - 5$",
+    "subtitle": "Unit 3 • Lecture 42 • Discriminant Application",
+    "detail": "Use the discriminant to classify the number of x-intercepts.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Without fully solving, determine the number of x-intercepts for:**\n$$h(x) = -2x^2 + 3x - 5$$\n\nIdentify: $a = -2,\\; b = 3,\\; c = -5$\n\nCompute the discriminant:\n$$\\Delta = b^2 - 4ac = (3)^2 - 4(-2)(-5)$$",
+    "solution": "$$\\Delta = 9 - 40 = -31 < 0$$\n\n**Conclusion: No real x-intercepts.**\n\nThe parabola opens **downward** (a=-2<0) and sits entirely **below** the x-axis.\n\n**Vertex:** $x = \\dfrac{-3}{2(-2)} = \\dfrac{3}{4} = 0.75$\n$$h(0.75) = -2(0.5625)+3(0.75)-5 = -1.125+2.25-5 = -3.875$$\n\n**Vertex:** $(0.75,\\,-3.875)$ — Maximum is negative, parabola entirely below x-axis.",
+    "pitfall": "**Sora’s Check:** $-4(-2)(-5) = -4 \\times 10 = -40$. Two negatives in a=-2 and c=-5 give a negative product! Don’t accidentally make it positive.",
+    "script": "[Prof. Park] Slide 5 synthesizes the Discriminant Summary Matrix across all three possibilities. Let's review the complete landscape.\n\n[TA Sora] Column 1: $\\Delta > 0$. Two real solutions. If $\\Delta$ is a perfect square, the roots are rational (factorable). If $\\Delta$ is not a perfect square (like $\\Delta = 73$), the roots are irrational containing square roots! The graph crosses the $x$-axis twice.\n\n[Prof. Park] Column 2: $\\Delta = 0$. Exactly one real rational solution. The trinomial is a perfect square $(x - h)^2$, and the vertex sits directly on the $x$-axis.\n\n[TA Sora] Column 3: $\\Delta < 0$. Zero real solutions. The graph floats completely above or below the $x$-axis.\n\n[Prof. Park] Notice how this gives you an immediate audit tool: before spending five minutes solving an equation on an exam, take fifteen seconds to check $b^2 - 4ac$. If it's negative, you immediately write 'No real solutions' and move on!\n\n[TA Sora] The Discriminant saves time, prevents frustration, and gives you total situational awareness!\n\n[Prof. Park] In slide 5 with h(x) = -2x^2 + 3x - 5, we are asked to classify the intercepts WITHOUT solving the equation! This is a classic high-value exam question. Compute Delta = b^2 - 4ac: a = -2, b = 3, c = -5. Delta = 3^2 - 4(-2)(-5) = 9 - 40 = -31. Because -31 is negative, we immediately state: ZERO real x-intercepts (the parabola opens downward with vertex below the axis)! We answered the question in thirty seconds without ever touching the quadratic formula.",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 3,
+      "yMin": -8,
+      "yMax": 2,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": -2,
+          "b": 3,
+          "c": -5,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0.75,
+          "y": -3.875,
+          "color": "#ffd700",
+          "label": "V(0.75,-3.88)"
+        }
+      ],
+      "axisOfSymmetry": 0.75
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 2A & 2B",
+    "title": "Function Evaluation: $ f(x) = 3x^2 - 5x + 7 $ (Parts A & B)",
+    "subtitle": "Unit 3 • Lecture 42 • Section 3.5 Example 2 (Workbook p. 82)",
+    "detail": "Evaluate f(4) and f(p).",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Use $f(x) = 3x^2 - 5x + 7$ to find:**\n\n**A.** $f(4)$\n\n**B.** $f(p)$\n\n**Recall:** To evaluate $f(\\text{input})$, replace every $x$ in the formula with the input.",
+    "solution": "**A.** $f(4)$: Replace $x$ with $4$\n$$f(4) = 3(4)^2 - 5(4) + 7 = 3(16) - 20 + 7 = 48 - 20 + 7 = \\mathbf{35}$$\n\n**B.** $f(p)$: Replace $x$ with $p$\n$$f(p) = 3p^2 - 5p + 7$$\n\nThis stays as an **algebraic expression** — we substitute the variable $p$ directly.",
+    "pitfall": "**Sora’s Note on Part B:** When the input is a variable (like $p$), the output is a new expression, not a number. Just replace every $x$ with $p$!",
+    "script": "[Prof. Park] On Slide 6, we evaluate function values for $f(x) = 3x^2 - 5x + 7$: evaluating $f(1)$ and $f(-1)$.\n\n[TA Sora] Let's evaluate $f(1)$: $f(1) = 3(1)^2 - 5(1) + 7 = 3(1) - 5 + 7 = 3 - 5 + 7 = 5$. That gives the point $(1, 5)$!\n\n[Prof. Park] Now evaluate $f(-1)$: remember protective parentheses around $-1$! $f(-1) = 3(-1)^2 - 5(-1) + 7$. Exponent first: $(-1)^2 = +1$. Multiply: $3(1) = 3$, and $-5(-1) = +5$. Then add: $3 + 5 + 7 = 15$! That gives the point $(-1, 15)$.\n\n[TA Sora] Notice how steep the parabola climbs: moving from $x = 0$ (where $y = 7$) to $x = -1$, the height jumps up to 15! That accelerating rate of change is the hallmark of quadratic growth.\n\n[Prof. Park] Solution points: $(1, 5)$ and $(-1, 15)$. Disciplined substitution leads to effortless precision!\n\n[TA Sora] On slide 6, function notation review: Remember that f(input) means: wherever you see x, open a set of empty parentheses and place the input inside! For f(4): 3(4)^2 - 5(4) + 7 = 3(16) - 20 + 7 = 48 - 20 + 7 = 35. For f(p): 3(p)^2 - 5(p) + 7 = 3p^2 - 5p + 7. Treating function evaluation as a mechanical substitution protocol prevents sign errors.\n\n[Prof. Park] Let's also evaluate f(-2) for extra practice with negative inputs: f(-2) = 3(-2)^2 - 5(-2) + 7 = 3(4) + 10 + 7 = 12 + 10 + 7 = 29! Notice again: (-2)^2 is POSITIVE 4, and -5(-2) is POSITIVE 10. Every negative sign was handled with protective parentheses.",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 4,
+      "yMin": 0,
+      "yMax": 40,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 3,
+          "b": -5,
+          "c": 7,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 4,
+          "y": 35,
+          "color": "#ff6b6b",
+          "label": "f(4)=35"
+        },
+        {
+          "x": 0,
+          "y": 7,
+          "color": "#00ff88",
+          "label": "f(0)=7"
+        }
+      ]
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 2C & 2D",
+    "title": "Function Composition & Solving: $ f(x) = 3x^2 - 5x + 7 $ (Parts C & D)",
+    "subtitle": "Unit 3 • Lecture 42 • Section 3.5 Example 2 (Workbook p. 82)",
+    "detail": "Find f(x+3) and solve f(x)=13.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Use $f(x) = 3x^2 - 5x + 7$ to find:**\n\n**C.** $f(x+3)$\n\n**D.** Solve $f(x) = 13$ for $x$",
+    "solution": "**C.** $f(x+3)$: Replace every $x$ with $(x+3)$\n$$f(x+3) = 3(x+3)^2 - 5(x+3) + 7$$\n$$= 3(x^2+6x+9) - 5x - 15 + 7$$\n$$= 3x^2 + 18x + 27 - 5x - 8$$\n$$= \\mathbf{3x^2 + 13x + 19}$$\n\n**D.** Set $f(x) = 13$:\n$$3x^2 - 5x + 7 = 13$$\n$$3x^2 - 5x - 6 = 0$$\n$$x = \\dfrac{5 \\pm \\sqrt{25+72}}{6} = \\dfrac{5 \\pm \\sqrt{97}}{6} \\approx \\dfrac{5 \\pm 9.85}{6}$$\n$$x \\approx \\mathbf{2.47} \\quad \\text{or} \\quad x \\approx \\mathbf{-0.81}$$",
+    "pitfall": "**Sora’s FOIL Reminder for Part C:** $(x+3)^2 = x^2+6x+9$, NOT $x^2+9$! Always expand fully.",
+    "script": "[Prof. Park] Slide 7 challenges us with function composition and equation solving: find all values of $x$ where $f(x) = 9$ for $f(x) = 3x^2 - 5x + 7$.\n\n[TA Sora] We set the function output equal to 9: $3x^2 - 5x + 7 = 9$. Remember our golden rule from Lecture 38: the equation MUST equal zero before we solve! Subtract 9 from both sides: $3x^2 - 5x - 2 = 0$!\n\n[Prof. Park] Now let's check the Discriminant of this new equation: $a = 3$, $b = -5$, $c = -2$. $\\Delta = (-5)^2 - 4(3)(-2) = 25 + 24 = 49$!\n\n[TA Sora] $\\Delta = 49$! It's positive and a perfect square ($7^2$)! That means it factors! Using the ac-method: $3 \\times (-2) = -6$. Factors of $-6$ that add to $-5$ are $-6$ and $+1$!\n\n[Prof. Park] Rewrite: $3x^2 - 6x + 1x - 2 = 0 \\implies 3x(x - 2) + 1(x - 2) = 0 \\implies (3x + 1)(x - 2) = 0$!\n\n[TA Sora] Set each factor to zero: $3x + 1 = 0 \\implies x = -1/3$. And $x - 2 = 0 \\implies x = 2$!\n\n[Prof. Park] The two solutions are $x = -1/3$ and $x = 2$. At both of these inputs, the parabola reaches an exact height of $y = 9$!\n\n[TA Sora] Solution set: $\\{-1/3, 2\\}$. The discriminant predicted rational roots, and factoring delivered!\n\n[Prof. Park] On slide 7, look at Part C: f(x + 3): f(x + 3) = 3(x + 3)^2 - 5(x + 3) + 7. Remember Section 1.4: (x + 3)^2 = x^2 + 6x + 9! Do NOT forget the middle term 6x! Then 3(x^2 + 6x + 9) = 3x^2 + 18x + 27. Distribute -5: -5x - 15. Combine: 3x^2 + 13x + 19! And in Part D, solving f(x) = 7 means setting the OUTPUT to 7: 3x^2 - 5x + 7 = 7 -> 3x^2 - 5x = 0 -> x(3x - 5) = 0 -> x = 0, 5/3!",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 4,
+      "yMin": 0,
+      "yMax": 40,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 3,
+          "b": -5,
+          "c": 7,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2.47,
+          "y": 13,
+          "color": "#ff6b6b",
+          "label": "f(x)=13"
+        },
+        {
+          "x": -0.81,
+          "y": 13,
+          "color": "#ff6b6b",
+          "label": "f(x)=13"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Lecture 42 Review",
+    "title": "Discriminant Summary — Three Cases Visualized",
+    "subtitle": "Unit 3 • Lecture 42 Summary",
+    "detail": "Visual summary of all three discriminant cases.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Discriminant Decision Chart:**\n\n| Compute $\\Delta = b^2-4ac$ | Result | Parabola |\n|---|---|---|\n| $\\Delta > 0$ | **2** real solutions | Crosses x-axis at 2 points |\n| $\\Delta = 0$ | **1** real solution | Vertex touches x-axis |\n| $\\Delta < 0$ | **0** real solutions | No x-intercepts exist |\n\n**Remember:** This works for ANY quadratic, regardless of the value of $a$!",
+    "solution": "**Lecture 42 examples covered:**\n- $f(x)=x^2-5x+4$: $\\Delta=9>0$ → $x=1,4$\n- $f(x)=x^2-6x+9$: $\\Delta=0$ → $x=3$ (double root)\n- $f(x)=x^2+2x+5$: $\\Delta=-16<0$ → No real solutions\n- $h(x)=-2x^2+3x-5$: $\\Delta=-31<0$ → No real solutions\n\n**Next Lecture:** Master decision strategy — which method to use and when!",
+    "pitfall": "**Sora’s Final Tip:** Before solving ANY quadratic, compute the discriminant first. It tells you what to expect and saves time if there are no real solutions.",
+    "script": "[Prof. Park] We have completed Lecture 42! Today we proved that $\\Delta = b^2 - 4ac$ tells the entire mathematical story of any quadratic equation before you lift a finger to solve it.\n\n[TA Sora] Positive gives two roots; zero gives one tangent root; negative gives zero real roots. \n\n[Prof. Park] In Lecture 43, we compare all four solving methods side-by-side: Square Root Property, Factoring, Completing the Square, and the Quadratic Formula. \n\n[TA Sora] Keep your confidence high, Bobcats! We will see you in Lecture 43!\n\n[TA Sora] To summarize Section 3.5 Part 2: The Discriminant Delta = b^2 - 4ac is your navigational compass for quadratic equations: Delta > 0: 2 real x-intercepts. Delta = 0: 1 real x-intercept (tangent vertex). Delta < 0: 0 real x-intercepts (floating parabola). In Lecture 43, we compare all four intercept methods side-by-side!\n\n[Prof. Park] Let's visualize the three cases on paper before an exam: Draw three quick sketches side by side: Sketch 1 (Delta > 0): A U-curve crossing the horizontal axis at two distinct points like an arch over a road. Sketch 2 (Delta = 0): A U-curve resting gently on the axis like a ball sitting on the floor. Sketch 3 (Delta < 0): A U-curve floating up in the air like a hot air balloon over the Gallatin Valley. Connecting the algebra to these three pictures makes the discriminant concept impossible to forget!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 6,
+      "yMin": -6,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -5,
+          "c": 4,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "label": "Δ>0 (2 roots)"
+        },
+        {
+          "a": 1,
+          "b": -6,
+          "c": 9,
+          "color": "#00ff88",
+          "strokeWidth": 2,
+          "label": "Δ=0 (1 root)"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "c": 5,
+          "color": "#ff6b6b",
+          "strokeWidth": 2,
+          "label": "Δ<0 (no roots)"
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#00d4ff",
+          "label": "x=1"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "color": "#00d4ff",
+          "label": "x=4"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#00ff88",
+          "label": "x=3"
+        }
+      ]
+    }
+  }
+]

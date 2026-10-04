@@ -1,0 +1,258 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Reading Function Values Directly from Graphs",
+    "subtitle": "Unit 2 • Lecture 27 • Section 2.5 (Workbook p. 49)",
+    "detail": "Lecture 27: Graph-Based Function Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Graph-to-Function Connections (Workbook p. 49)\nEvery point on the graph of $y = f(x)$ has the form:\n$$\\mathbf{(x, y) = (x, f(x))}$$\n- To find $\\mathbf{f(a)}$: Find $x = a$ on the horizontal axis, move vertically to the graph, and read the height $y$.\n- To solve $\\mathbf{f(x) = k}$: Find $y = k$ on the vertical axis, move horizontally to the graph, and read the $x$-position.",
+    "solution": "$$\\begin{aligned}\n\\text{Given input } a: & \\text{Look on } x\\text{-axis} \\rightarrow \\text{find graph height } y = f(a) \\\\\n\\text{Given output } k: & \\text{Look on } y\\text{-axis} \\rightarrow \\text{find graph position } x \\text{ where } y = k\n\\end{aligned}$$",
+    "pitfall": "**Horizontal vs Vertical Search:** Remember: Inputs are horizontal ($x$). Outputs are vertical ($y$)!",
+    "script": "[Prof. Park] Welcome to Lecture 27 of M090! Today on pages 49 and 50 of your workbook, we master the visual art of Function Notation: Reading Function Values Directly from Graphs.\n\n[TA Sora] In Lecture 26, we evaluated functions using algebraic formulas. But in the real world—in meteorology, hospital telemetry, stock markets, and aeronautics—data rarely arrives as a neat polynomial formula! It arrives as a live, continuous line graph on a monitor or computer display!\n\n[Prof. Park] To read a graph fluently using function notation, you must remember the fundamental geometric translation we proved in Lecture 26:\n$$\\mathbf{(x, y) \\iff (x, f(x))}$$\nEvery single point on the graph of a function is an ordered pair where:\n- The **horizontal coordinate** along the $x$-axis is the **input**: $x$.\n- The **vertical height** along the $y$-axis is the **output**: $f(x)$!\n\n[TA Sora] That gives us two straightforward navigation protocols for reading any graph:\n1. **Finding $f(a)$:** You are given the input $x = a$.\nStart on the horizontal $x$-axis at $a$. Walk vertically until you hit the graph. Read the corresponding height on the vertical $y$-axis! That height is $f(a)$!\n2. **Solving $f(x) = b$ for $x$:** You are given the output height $y = b$.\nStart on the vertical $y$-axis at height $b$. Walk horizontally until you hit the graph. Look straight down or up at the horizontal $x$-axis to read the input $x$!\n\n[Prof. Park] Think of a high-altitude weather balloon launched from Bozeman measuring temperature as it climbs through the atmosphere: $T(h)$ gives the temperature at altitude $h$. If you want $T(10{,}000)$, you look at altitude 10,000 feet and read the thermometer. If you want to know at what altitude the temperature hits freezing ($T(h) = 32^\\circ\\text{F}$), you start at 32 degrees and trace across to find the altitude!\n\n[TA Sora] Let us put this visual protocol into action on Example 5 on page 49!\n\n[TA Sora] In our modern visual culture, being able to read and interpret charts and graphs is one of the top five skills employers look for in technical and business careers. When an executive or engineer looks at a performance graph, they don't solve equations by hand—they read inputs and outputs directly from the axes using this exact visual protocol!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 5 (Part 1): Finding h(2) and h(4)",
+    "subtitle": "Unit 2 • Lecture 27 • Section 2.5 Example 5A, C (Workbook p. 49)",
+    "detail": "Lecture 27: Graph-Based Function Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5A & 5C (Workbook p. 49)\nUse the graph of the function $y = h(x)$ shown below to answer:\n- **A.** $h(2) = \\underline{\\hspace{2cm}}$\n- **C.** $h(4) = \\underline{\\hspace{2cm}}$",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. } h(2): & \\text{Find } x = 2 \\text{ on } x\\text{-axis. Move up to the graph.} \\\\\n& \\text{The point is } (2, 1) \\implies \\mathbf{h(2) = 1} \\\\[0.8em]\n\\textbf{C. } h(4): & \\text{Find } x = 4 \\text{ on } x\\text{-axis. Move up to the graph.} \\\\\n& \\text{The point is } (4, 4) \\implies \\mathbf{h(4) = 4}\n\\end{aligned}$$",
+    "pitfall": "**Ordered pair check:** $h(2) = 1$ corresponds to $(2, 1)$. $h(4) = 4$ corresponds to $(4, 4)$. Both points are highlighted on the grid!",
+    "script": "[Prof. Park] On Slide 2, we examine Example 5 Part 1 on page 49: Finding $h(2)$ and $h(4)$ using the given graph of $y = h(x)$.\n\n[TA Sora] Look at the graph of $y = h(x)$ on your screen. It is a straight line cutting through the Cartesian coordinate plane.\nLet us answer Question A: 'Find $h(2)$.'\nStep 1: Where is the number 2 located? It is inside the parentheses, which means **$x = 2$ is our input**!\nStep 2: Go to the horizontal $x$-axis and find $2$.\nStep 3: Move your pencil vertically to touch the line.\nNotice that from $x = 2$, you must move DOWNWARD to reach the graph!\n\n[Prof. Park] Where does your pencil touch the line? It lands squarely on the grid intersection at height $-1$!\nThat means the point on the line is $(2, -1)$.\nTherefore:\n$$\\mathbf{h(2) = -1}$$\n\n[TA Sora] Now let us answer Question C: 'Find $h(4)$.'\nThe number 4 is inside the parentheses, so our input is $x = 4$.\nGo to $4$ on the horizontal $x$-axis.\nLook vertically: to hit the line, we must travel upward!\nFollow the vertical grid line at $x = 4$ up to the graph. Your pencil hits the line at height $+2$!\nThe point on the line is $(4, 2)$.\nTherefore:\n$$\\mathbf{h(4) = 2}$$\n\n[Prof. Park] Look at how effortless and visual that is!\n$h(2) = -1$ corresponds to $(2, -1)$.\n$h(4) = 2$ corresponds to $(4, 2)$.\nNo algebraic scratch work required—just clean, disciplined coordinate reading!\n\n[Prof. Park] When students practice graph reading, I always tell them to trace with their finger or pencil tip: start at the horizontal coordinate, move perpendicular to the axis until you hit the line, then turn 90 degrees and read the vertical scale. That physical movement builds muscle memory that prevents axis-swapping errors!",
+    "graph": {
+      "xMin": -4,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 6,
+      "title": "Graph of y = h(x): Evaluating h(2) = 1 and h(4) = 4",
+      "points": [
+        {
+          "x": 2,
+          "y": 1,
+          "label": "h(2) = 1 -> (2, 1)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "label": "h(4) = 4 -> (4, 4)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 1.5,
+          "yIntercept": -2,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "h(x) = 1.5x - 2"
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 5 (Part 2): Solving h(x) = -3 and h(x) = -2",
+    "subtitle": "Unit 2 • Lecture 27 • Section 2.5 Example 5B, D (Workbook p. 49)",
+    "detail": "Lecture 27: Graph-Based Function Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5B & 5D (Workbook p. 49)\nUse the graph of $y = h(x)$ to solve:\n- **B.** $h(x) = -3$; find $x$.\n- **D.** $h(x) = -2$; find $x$.",
+    "solution": "$$\\begin{aligned}\n\\textbf{B. } h(x) = -3: & \\text{Find } y = -3 \\text{ on } y\\text{-axis. Move horizontally to the line.} \\\\\n& \\text{At } y = -3, \\; x = -0.67 = -\\frac{2}{3} \\implies \\mathbf{x = -\\frac{2}{3}} \\\\[0.8em]\n\\textbf{D. } h(x) = -2: & \\text{Find } y = -2 \\text{ on } y\\text{-axis. The line crosses at } (0, -2). \\\\\n& \\text{Therefore, } \\mathbf{x = 0} \\quad (\\text{this is the } y\\text{-intercept!})\n\\end{aligned}$$",
+    "pitfall": "**Finding x from y:** When $h(x) = -2$, look at height $-2$. The line hits the $y$-axis directly at $x = 0$!",
+    "script": "[Prof. Park] Now turn to Example 5 Part 2 on page 49: Solving $h(x) = -3$ and $h(x) = -2$ for $x$.\n\n[TA Sora] Compare these questions with Slide 2!\nOn Slide 2, the number was inside the parentheses ($h(2)$).\nHere, the number is on the outside:\n$$\\mathbf{h(x) = -3}$$\nThis means we are GIVEN the vertical output $y = -3$, and our mission is to find the horizontal input $x$!\n\n[Prof. Park] Let us execute the reverse protocol:\nStep 1: Go to the vertical $y$-axis and locate height $-3$.\nStep 2: Move horizontally across the grid until you intersect the line $y = h(x)$.\nYour pencil hits the line at horizontal coordinate $x = \\frac{2}{3}$, or looking at the grid lines, let us check the slope!\nNotice that at height $-2$, the graph crosses cleanly at an integer:\n\n[TA Sora] Let us check Question D: 'Solve $h(x) = -2$; find $x$.'\nStart on the vertical $y$-axis at height $-2$.\nTravel horizontally to the graph: You hit the line at $x = 1$!\nThe point is $(1, -2)$.\nSince $h(1) = -2$, the solution to $h(x) = -2$ is:\n$$\\mathbf{x = 1}$$\n\n[Prof. Park] And for $h(x) = -3$, tracing horizontally to the line, we find $x = 0$!\nThe line crosses the vertical axis at $(0, -3)$!\nSince $h(0) = -3$, the solution to $h(x) = -3$ is:\n$$\\mathbf{x = 0}$$\n\n[TA Sora] Notice that point $(0, -3)$! When $x = 0$, that point sits directly on the vertical axis—it is our $y$-intercept! Slide 4 explores intercepts in function notation!\n\n[TA Sora] When solving $h(x) = -2$, think of setting a horizontal laser line across the room at height $-2$. Wherever that laser beam intersects the graph, look down at your feet to find the floor coordinate $x$! Looking horizontally first, then vertically down, is the reverse of evaluating!",
+    "graph": {
+      "xMin": -4,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 4,
+      "title": "Solving h(x) = -2 at x = 0 (y-intercept)",
+      "points": [
+        {
+          "x": 0,
+          "y": -2,
+          "label": "h(0) = -2",
+          "color": "#10b981"
+        },
+        {
+          "x": -0.6666666666666666,
+          "y": -3,
+          "label": "h(-2/3) = -3",
+          "color": "#ec4899"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 1.5,
+          "yIntercept": -2,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "h(x)"
+        },
+        {
+          "horizontal": -2,
+          "color": "#10b981",
+          "strokeWidth": 1.5,
+          "dashed": true
+        },
+        {
+          "horizontal": -3,
+          "color": "#ec4899",
+          "strokeWidth": 1.5,
+          "dashed": true
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 5 (Part 3): Intercepts & Slope",
+    "subtitle": "Unit 2 • Lecture 27 • Section 2.5 Example 5E, F, G (Workbook p. 49)",
+    "detail": "Lecture 27: Graph-Based Function Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5E, F, G (Workbook p. 49)\nFrom the graph of $y = h(x)$:\n- **E. $x$-intercept:** \\underline{\\hspace{2cm}}\n- **F. $y$-intercept:** \\underline{\\hspace{2cm}}\n- **G. Slope ($m$):** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\mathbf{x\\text{-intercept: }} & \\mathbf{\\left(\\frac{4}{3}, 0\\right) \\approx (1.33, 0)} \\quad (\\text{where line crosses } x\\text{-axis}) \\\\[0.5em]\n\\mathbf{y\\text{-intercept: }} & \\mathbf{(0, -2)} \\quad (\\text{where line crosses } y\\text{-axis}) \\\\[0.5em]\n\\mathbf{\\text{Slope } m: } & \\text{From } (0, -2) \\text{ to } (2, 1): \\\\\n& m = \\frac{1 - (-2)}{2 - 0} = \\mathbf{\\frac{3}{2} = 1.5}\n\\end{aligned}$$",
+    "pitfall": "**Slope triangle on graph:** Look at the slope triangle from $(0, -2)$ to $(2, 1)$: rise is $+3$, run is $+2$, giving $m = \\frac{3}{2}$!",
+    "script": "[Prof. Park] On Slide 4, we examine Example 5 Part 3 on page 49: Finding Intercepts and Slope from the Graph of $y = h(x)$.\n\n[TA Sora] Question E asks for the **$x$-intercept** of the graph.\nLook at where the line crosses the horizontal $x$-axis:\nIt cuts cleanly through at $x = 3$!\nAs an ordered pair, the $x$-intercept is $(3, 0)$.\nIn function notation, how do we write an $x$-intercept?\nAn $x$-intercept always has an output of zero:\n$$\\mathbf{h(3) = 0}$$\n\n[Prof. Park] Question F asks for the **$y$-intercept** of the graph.\nLook at where the line crosses the vertical $y$-axis:\nIt cuts cleanly through at height $y = -3$!\nAs an ordered pair, the $y$-intercept is $(0, -3)$.\nIn function notation, how do we write a $y$-intercept?\nA $y$-intercept always has an input of zero:\n$$\\mathbf{h(0) = -3}$$\n\n[TA Sora] Question G asks: 'What is the slope of the line $y = h(x)$?'\nLet us count Rise over Run between our two clean intercepts:\nPoint 1: $(0, -3)$\nPoint 2: $(3, 0)$\nStarting from $(0, -3)$, to reach $(3, 0)$:\nYou climb UPWARD from $-3$ to $0$: That is a **Rise** of $+3$!\nYou run to the RIGHT from $0$ to $3$: That is a **Run** of $+3$!\n$$m = \\frac{\\text{Rise}}{\\text{Run}} = \\frac{+3}{+3} = 1$$\n\n[Prof. Park] The slope is $m = 1$, and the $y$-intercept is $b = -3$.\nTherefore, the full equation of this function is:\n$$\\mathbf{h(x) = 1x - 3 \\implies h(x) = x - 3}$$\nLook at how everything connects: the graph, the intercepts, the slope, and the algebraic formula all tell the exact same unified story!\n\n[Prof. Park] In geotechnical engineering across Gallatin County, when surveyors analyze slope stability on mountain hillsides, identifying where the surface profile intersects horizontal bedrock and vertical survey stakes determines safe excavation limits for new homes!\n\n[TA Sora] Notice how finding the slope directly from the graph allows us to write the function $h(x) = x - 3$. Once you have the formula, you can compute values far beyond the boundaries of your graph paper—like $h(50) = 47$! Algebra gives you infinite foresight!",
+    "graph": {
+      "xMin": -3,
+      "xMax": 5,
+      "yMin": -4,
+      "yMax": 4,
+      "title": "h(x) Intercepts: (0, -2) and Slope m = 3/2",
+      "points": [
+        {
+          "x": 0,
+          "y": -2,
+          "label": "y-int (0, -2)",
+          "color": "#10b981"
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "label": "(2, 1)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 1.3333333333333333,
+          "y": 0,
+          "label": "x-int (4/3, 0)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 1.5,
+          "yIntercept": -2,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "h(x) = 3/2x - 2"
+        }
+      ],
+      "slopeTriangle": {
+        "x1": 0,
+        "y1": -2,
+        "x2": 2,
+        "y2": 1,
+        "rise": 3,
+        "run": 2
+      }
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Practice #1 & #2: Multi-Function Practice",
+    "subtitle": "Unit 2 • Lecture 27 • Section 2.5 Practice 1 & 2 (Workbook pp. 49-50)",
+    "detail": "Lecture 27: Graph-Based Function Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Practice 1 & 2 (Workbook pp. 49–50)\nLet $\\mathbf{f(x) = 2x - 8}$ and $\\mathbf{g(x) = x - 9}$. Evaluate:\n- **1A.** $g(-2)$\n- **1B.** $f(4)$\n- **1C.** $g(0)$\n- **1D.** $g\\left(\\frac{1}{2}\\right)$\n- **2A.** $f\\left(-\\frac{1}{2}\\right)$",
+    "solution": "$$\\begin{aligned}\n\\textbf{1A. } g(-2) & = -2 - 9 = \\mathbf{-11} \\\\[0.5em]\n\\textbf{1B. } f(4) & = 2(4) - 8 = 8 - 8 = \\mathbf{0} \\implies (4, 0) \\; [x\\text{-intercept of } f] \\\\[0.5em]\n\\textbf{1C. } g(0) & = 0 - 9 = \\mathbf{-9} \\implies (0, -9) \\; [y\\text{-intercept of } g] \\\\[0.5em]\n\\textbf{1D. } g\\left(\\frac{1}{2}\\right) & = \\frac{1}{2} - 9 = \\mathbf{-\\frac{17}{2} = -8.5} \\\\[0.5em]\n\\textbf{2A. } f\\left(-\\frac{1}{2}\\right) & = 2\\left(-\\frac{1}{2}\\right) - 8 = -1 - 8 = \\mathbf{-9}\n\\end{aligned}$$",
+    "pitfall": "**Fraction operations:** $\\frac{1}{2} - 9 = \\frac{1}{2} - \\frac{18}{2} = -\\frac{17}{2}$. Always convert integers to common denominators!",
+    "script": "[Prof. Park] Turn to page 50 for In-Class Practice Problems #1 and #2: Multi-Function Algebraic Practice.\nWe are given two linear functions:\n$$f(x) = 2x - 8 \\quad \\text{and} \\quad g(x) = x - 9$$\n\n[TA Sora] In Practice Problem #1, we are asked to evaluate three expressions:\nPart A: Find $f(5)$.\nSubstitute $5$ into $f(x)$:\n$$f(5) = 2(5) - 8 = 10 - 8 = 2$$\nPoint on the graph: $(5, 2)$.\n\n[Prof. Park] Part B: Find $f(-1)$.\nSubstitute $-1$ inside protective parentheses:\n$$f(-1) = 2(-1) - 8 = -2 - 8 = -10$$\nPoint on the graph: $(-1, -10)$.\n\n[TA Sora] Part C: Find $f(0)$.\nSubstitute $0$:\n$$f(0) = 2(0) - 8 = 0 - 8 = -8$$\nThat gives the $y$-intercept: $(0, -8)$!\n\n[Prof. Park] Now let us tackle Practice Problem #2 using the function $g(x) = x - 9$:\nPart A: Find $g(-4)$.\n$$g(-4) = (-4) - 9 = -13$$\nPart B: Find $g(9)$.\n$$g(9) = 9 - 9 = 0$$\nNotice that $g(9) = 0$ means $(9, 0)$ is the $x$-intercept of $g$!\nPart C: Find $g(0)$.\n$$g(0) = 0 - 9 = -9$$\nThat is the $y$-intercept: $(0, -9)$!\n\n[TA Sora] Look at how rapid and confident you become when you know whether you are feeding inputs into the machine or reading outputs! Practice creates mastery!\n\n[Prof. Park] In medical diagnostics, think of patient monitoring: if $f(t)$ represents patient body temperature over time, $f(0)$ is baseline admission temperature, and solving $f(t) = 102$ finds the exact hour when fever peaked so nurses can administer medication!\n\n[TA Sora] Notice that finding $f(0) = -8$ gives us the vertical starting point, while finding $g(9) = 0$ gives us the horizontal landing point. In physics, these are initial position and final impact!"
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Practice #3: Solving p(x) = 2x - 11",
+    "subtitle": "Unit 2 • Lecture 27 • Section 2.5 Practice 3 (Workbook p. 50)",
+    "detail": "Lecture 27: Graph-Based Function Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Practice 3 (Workbook p. 50)\nLet $\\mathbf{p(x) = 2x - 11}$. Solve the following for $x$:\n- **A.** $p(x) = -15$\n- **B.** $p(x) = 3$",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. } p(x) = -15 \\implies 2x - 11 & = -15 \\\\\n2x & = -4 \\implies \\mathbf{x = -2} \\quad [\\text{Point: } (-2, -15)] \\\\[0.8em]\n\\textbf{B. } p(x) = 3 \\implies 2x - 11 & = 3 \\\\\n2x & = 14 \\implies \\mathbf{x = 7} \\quad [\\text{Point: } (7, 3)]\n\\end{aligned}$$",
+    "pitfall": "**Do not plug in for x:** $p(x) = 3$ means set the expression equal to $3$, add $11$, and divide by $2$!",
+    "script": "[Prof. Park] On Slide 6, we examine Practice Problem #3 on page 50: Solving for $x$ given $p(x) = 2x - 11$.\n\n[TA Sora] Look at the wording of Problem #3: 'Solve the following for $x$.'\nPart A asks us to solve:\n$$\\mathbf{p(x) = 1}$$\nRemember: 1 is the OUTPUT, not the input! Do not plug 1 in for $x$!\nReplace $p(x)$ with the expression $2x - 11$:\n$$2x - 11 = 1$$\n\n[Prof. Park] Now solve for $x$ using basic algebra:\nAdd 11 to both sides:\n$$2x = 1 + 11 = 12$$\nDivide both sides by 2:\n$$x = 6$$\nLet us verify: $p(6) = 2(6) - 11 = 12 - 11 = 1$! Perfectly true!\nThe ordered pair is $(6, 1)$.\n\n[TA Sora] Now let us solve Part B:\n$$\\mathbf{p(x) = -15}$$\nSet the formula equal to $-15$:\n$$2x - 11 = -15$$\nAdd 11 to both sides:\n$$2x = -15 + 11 = -4$$\nDivide by 2:\n$$x = -2$$\nLet us check: $p(-2) = 2(-2) - 11 = -4 - 11 = -15$! True!\nThe ordered pair is $(-2, -15)$.\n\n[Prof. Park] Look at the symmetry:\nWhen given $p(x) = k$, you write an equation with $k$ on the right side and solve for the unknown input $x$. It is the reverse journey of evaluating a function!\n\n[TA Sora] Notice how solving $p(x) = k$ is literally finding the $x$-coordinate of the intersection between the line $y = p(x)$ and the horizontal line $y = k$! Algebra and geometry are two mirrors reflecting the exact same truth!\n\n[Prof. Park] In civil engineering, solving $p(x) = 1$ is how bridge designers determine the exact thermal expansion joint spacing needed on Montana bridges during 100-degree summer heatwaves!"
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Practice #4: Reading Graph of f(x)",
+    "subtitle": "Unit 2 • Lecture 27 • Section 2.5 Practice 4 (Workbook p. 50)",
+    "detail": "Lecture 27: Graph-Based Function Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Practice 4 (Workbook p. 50)\nUse the graph of $y = f(x)$ below to answer:\n- **A.** $f(2) = \\underline{\\hspace{2cm}}$\n- **B.** $f(x) = -3 \\implies x = \\underline{\\hspace{2cm}}$\n- **C.** $f(1.5) = \\underline{\\hspace{2cm}}$\n- **D.** $f(x) = -1 \\implies x = \\underline{\\hspace{2cm}}$\n- **E, F, G.** Intercepts and Slope",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. } f(2) & = \\mathbf{1} \\implies (2, 1) \\\\[0.5em]\n\\textbf{B. } f(x) = -3 & \\implies \\mathbf{x = 0} \\implies (0, -3) \\; [y\\text{-intercept}] \\\\[0.5em]\n\\textbf{C. } f(1.5) & = \\mathbf{0} \\implies (1.5, 0) = \\left(\\frac{3}{2}, 0\\right) \\; [x\\text{-intercept}] \\\\[0.5em]\n\\textbf{D. } f(x) = -1 & \\implies \\mathbf{x = 1} \\implies (1, -1) \\\\[0.8em]\n\\mathbf{\\text{Slope } m: } & \\frac{1 - (-3)}{2 - 0} = \\frac{4}{2} = \\mathbf{2} \\implies \\mathbf{f(x) = 2x - 3}\n\\end{aligned}$$",
+    "pitfall": "**Verification:** Notice that $f(x) = 2x - 3$ satisfies every single point: $f(2) = 2(2) - 3 = 1$; $f(1.5) = 2(1.5) - 3 = 0$!",
+    "script": "[Prof. Park] On Slide 7, we examine Practice Problem #4 on page 50: Reading Values from a Curved Graph of $y = f(x)$.\n\n[TA Sora] Look at the graph on your screen: it is a smooth curve passing through multiple grid intersections. Let us answer the four questions systematically:\nQuestion A: 'Find $f(2)$.'\nInput is $x = 2$.\nGo to 2 on the horizontal axis. Move vertically to hit the curve. The curve passes through at height $-1$!\nTherefore:\n$$\\mathbf{f(2) = -1}$$\n\n[Prof. Park] Question B: 'Find $f(0)$.'\nInput is $x = 0$.\nLook at the vertical axis: where does the curve cross the $y$-axis?\nIt crosses cleanly at height $3$!\nTherefore:\n$$\\mathbf{f(0) = 3}$$\nThis is our $y$-intercept: $(0, 3)$!\n\n[TA Sora] Question C: 'Solve $f(x) = 0$ for $x$.'\nOutput is $y = 0$! This is asking for the **$x$-intercepts**—where the curve touches the horizontal ground!\nLooking at the horizontal axis, the curve crosses at $x = -1$ AND at $x = 3$!\nTherefore:\n$$\\mathbf{x = -1 \\quad \\text{and} \\quad x = 3}$$\nBoth inputs produce an output of zero!\n\n[Prof. Park] Question D: 'Solve $f(x) = 3$ for $x$.'\nFind height 3 on the vertical axis. Trace horizontally across:\nThe curve touches height 3 at $x = 0$ and at $x = 4$!\nTherefore:\n$$\\mathbf{x = 0 \\quad \\text{and} \\quad x = 4}$$\n\n[TA Sora] Notice how a single output can have two different inputs, while each input still has only one output! It completely satisfies the Vertical Line Test!\n\n[TA Sora] In hydrology, when river streamflow gauges record discharge during spring snowmelt, solving $f(t) = \text{flood stage}$ alerts the county emergency services to issue sandbag warnings to downstream ranches!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 4,
+      "title": "Practice 4: f(x) = 2x - 3 on Coordinate Grid",
+      "points": [
+        {
+          "x": 0,
+          "y": -3,
+          "label": "y-int (0, -3)",
+          "color": "#10b981"
+        },
+        {
+          "x": 1.5,
+          "y": 0,
+          "label": "x-int (1.5, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "label": "f(2) = 1",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 2,
+          "yIntercept": -3,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "f(x) = 2x - 3"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 2.5 Mastery: Evaluation vs Solving",
+    "subtitle": "Unit 2 • Lecture 27 • Section 2.5 Wrap-up",
+    "detail": "Lecture 27: Graph-Based Function Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Golden Rule of Function Notation\n- **Evaluate $f(a)$:** $a$ is the input ($x$). Plug it into the formula to find output $y$.\n- **Solve $f(x) = b$:** $b$ is the output ($y$). Set the formula equal to $b$ and solve for input $x$.\n- On a coordinate graph, points are always **$(x, f(x))$**!",
+    "solution": "$$\\mathbf{\\text{Section 2.5 Mastered! Next Up: Section 2.6 — Graphing Linear Functions!}}$$",
+    "pitfall": "**Never confuse input and output:** Check the position: Inside parentheses = $x$. Outside after equals = $y$!",
+    "script": "[Prof. Park] Slide 8 brings us to the Section 2.5 Mastery Summary: The Golden Rule of Function Notation.\n\n[TA Sora] Let us summarize this core distinction once and for all so you never mix them up on an exam:\n- **Evaluating $f(a)$:**\n  The value $a$ is the **INPUT** ($x = a$).\n  Plug $a$ into the formula, or locate $a$ on the horizontal axis and find the vertical height.\n- **Solving $f(x) = b$:**\n  The value $b$ is the **OUTPUT** ($y = b$).\n  Set the formula equal to $b$ and solve for $x$, or locate $b$ on the vertical axis and trace horizontally to find the input $x$.\n\n[Prof. Park] And remember our intercept identities in function notation:\n- The **$y$-intercept** is always found by evaluating **$f(0)$**.\n- The **$x$-intercepts** are always found by solving **$f(x) = 0$**.\n\n[TA Sora] In Lecture 28, we combine function notation with everything we learned about slopes and straight lines to study Section 2.6: Linear Functions $f(x) = mx + b$! You have done outstanding work today!\n\n[Prof. Park] Take a moment to reflect on your journey: in just a few lectures, you have transitioned from basic arithmetic on a number line to fluently reading and manipulating two-dimensional functional coordinate graphs. That is a massive intellectual milestone!"
+  }
+]

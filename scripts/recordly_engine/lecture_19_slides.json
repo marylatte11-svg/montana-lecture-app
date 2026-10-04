@@ -1,0 +1,303 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.1 Example 3B: Intercepts for 4x - 5y = 10",
+    "subtitle": "Unit 2 • Lecture 19 • Section 2.1 Example 3B (Workbook p. 35)",
+    "detail": "Lecture 19: Advanced Intercepts & Special Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3B (Workbook p. 35)\nFind the $x$- and $y$-intercepts algebraically for:\n$$\\mathbf{4x - 5y = 10}$$\nThen re-write the equation into slope-intercept form and graph the line.",
+    "solution": "$$\\begin{aligned}\n\\mathbf{x\\text{-intercept: }} & 4x - 5(0) = 10 \\implies 4x = 10 \\implies \\mathbf{x = \\frac{10}{4} = \\frac{5}{2} = 2.5} \\implies \\mathbf{\\left(\\frac{5}{2}, 0\\right)} \\\\[0.6em]\n\\mathbf{y\\text{-intercept: }} & 4(0) - 5y = 10 \\implies -5y = 10 \\implies \\mathbf{y = -2} \\implies \\mathbf{(0, -2)} \\\\[0.8em]\n\\text{Slope-Intercept: } & -5y = -4x + 10 \\implies \\mathbf{y = \\frac{4}{5}x - 2}\n\\end{aligned}$$",
+    "pitfall": "**Division by negative number:** $-5y = -4x + 10 \\implies y = \\frac{-4}{-5}x + \\frac{10}{-5} = +\\frac{4}{5}x - 2$. Watch the signs carefully!",
+    "script": "[Prof. Park] Welcome to Lecture 19 of M090! Today we continue Section 2.1, diving deeper into intercepts, direct variation through the origin, and the famous special lines: horizontal lines and vertical lines.\n\n[TA Sora] Let us pick up right where we left off on page 35 of your workbook with Example 3B: Find the $x$- and $y$-intercepts algebraically for the linear equation $4x - 5y = 10$, and then re-write it in slope-intercept form.\n\n[Prof. Park] Let us calculate the **$x$-intercept** first. Sora, what is our golden rule for $x$-intercepts?\n\n[TA Sora] Set $y = 0$! Substituting zero for $y$:\n$$4x - 5(0) = 10 \\implies 4x = 10$$\nDivide both sides by 4:\n$$x = \\frac{10}{4} = \\frac{5}{2} = 2.5$$\nAs a formal ordered pair, our $x$-intercept is $\\left(\\frac{5}{2}, 0\\right)$.\n\n[Prof. Park] Now calculate the **$y$-intercept**: Set $x = 0$:\n$$4(0) - 5y = 10 \\implies -5y = 10$$\nDivide both sides by $-5$:\n$$y = \\frac{10}{-5} = -2$$\nAs a formal ordered pair, our $y$-intercept is $(0, -2)$!\n\n[TA Sora] Now re-write in Slope-Intercept Form:\n$$4x - 5y = 10 \\implies -5y = -4x + 10$$\nDivide every single term by $-5$:\n$$y = \\frac{-4}{-5}x + \\frac{10}{-5} \\implies y = \\frac{4}{5}x - 2$$\n\n[Prof. Park] Notice how the negative divided by negative produces a positive slope $m = +4/5$, and the constant is $b = -2$, matching $(0, -2)$. Always write your intercepts as full ordered pairs $(x, y)$, never just single numbers!\n\n[TA Sora] In Example 3B: 4x - 5y = 10. Let's find the intercepts: Set y = 0: 4x = 10 -> x = 10/4 = 5/2 = 2.5. So the x-intercept is (5/2, 0). Set x = 0: -5y = 10 -> y = 10 / -5 = -2. So the y-intercept is (0, -2)! Notice how quickly the intercept method works when an equation is in standard form Ax + By = C: You simply cover up one term with your thumb and solve for the other in your head! That is why it's often called the 'Cover-Up Method!'",
+    "graph": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 4,
+      "title": "Graph of 4x - 5y = 10 (y = 4/5x - 2)",
+      "points": [
+        {
+          "x": 2.5,
+          "y": 0,
+          "label": "x-int (5/2, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": -2,
+          "label": "y-int (0, -2)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.8,
+          "yIntercept": -2,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "4x - 5y = 10"
+        }
+      ]
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.1 Example 3C: Intercepts for y = -3/2x - 3",
+    "subtitle": "Unit 2 • Lecture 19 • Section 2.1 Example 3C (Workbook p. 36)",
+    "detail": "Lecture 19: Advanced Intercepts & Special Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3C (Workbook p. 36)\nFind the $x$- and $y$-intercepts algebraically for:\n$$\\mathbf{y = -\\frac{3}{2}x - 3}$$\nThen graph the equation on the Cartesian coordinate plane.",
+    "solution": "$$\\begin{aligned}\n\\mathbf{y\\text{-intercept: }} & \\text{Directly from equation: } b = -3 \\implies \\mathbf{(0, -3)} \\\\[0.6em]\n\\mathbf{x\\text{-intercept: }} & 0 = -\\frac{3}{2}x - 3 \\implies \\frac{3}{2}x = -3 \\\\\n& x = -3 \\cdot \\frac{2}{3} = \\mathbf{-2} \\implies \\mathbf{(-2, 0)} \\\\[0.8em]\n\\mathbf{\\text{Slope } m: } & \\mathbf{-\\frac{3}{2}} \\quad (\\text{Down 3, Right 2})\n\\end{aligned}$$",
+    "pitfall": "**Solving with fractions:** When $\\frac{3}{2}x = -3$, multiply both sides by the reciprocal $\\frac{2}{3}$: $x = -3 \\cdot \\frac{2}{3} = -2$.",
+    "script": "[Prof. Park] Turn to page 36 for Example 3C: Find the intercepts for $y = -\\frac{3}{2}x - 3$.\n\n[TA Sora] Notice that this equation is already presented in slope-intercept form! That means we get the $y$-intercept for free without any algebraic work at all! The constant term is $b = -3$, which immediately tells us the $y$-intercept is $(0, -3)$.\n\n[Prof. Park] But what about the $x$-intercept? We must still do the algebraic work by substituting $y = 0$:\n$$0 = -\\frac{3}{2}x - 3$$\nHow do we solve for $x$ when a fraction is involved, Sora?\n\n[TA Sora] Add 3 to both sides first to isolate the fraction term:\n$$3 = -\\frac{3}{2}x$$\nNow, multiply both sides by the reciprocal of $-\\frac{3}{2}$, which is $-\\frac{2}{3}$:\n$$\\left(-\\frac{2}{3}\\right) \\cdot 3 = x \\implies x = -2!$$\n\n[Prof. Park] Clean and elegant: $x = -2$. That means our $x$-intercept is $(-2, 0)$.\n\n[TA Sora] Look at the graph on your screen. The line crosses the horizontal axis at $(-2, 0)$ and the vertical axis at $(0, -3)$. Between those two points, you drop down 3 units and run right 2 units, which perfectly confirms the slope $m = -3/2$!\n\n[Prof. Park] If you ever get stuck clearing fractions, remember that multiplying both sides of an equation by the denominator clears the fraction in one single step. Mathematics always gives you multiple paths to the truth!\n\n[Prof. Park] In Example 3C: y = -(3/2)x - 3. Notice the slope is negative: -3/2. That means as you move from left to right, the line goes DOWNHILL! Like skiing down the slopes at Bridger Bowl or Big Sky, negative slope always moves downward. The y-intercept is (0, -3), and the x-intercept is found by setting y = 0: 0 = -(3/2)x - 3 -> (3/2)x = -3 -> x = -2: (-2, 0).",
+    "graph": {
+      "xMin": -6,
+      "xMax": 4,
+      "yMin": -6,
+      "yMax": 3,
+      "title": "Graph of y = -3/2x - 3",
+      "points": [
+        {
+          "x": -2,
+          "y": 0,
+          "label": "x-int (-2, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "label": "y-int (0, -3)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -1.5,
+          "yIntercept": -3,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = -3/2x - 3"
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.1 Example 3D: Direct Variation y = 2x",
+    "subtitle": "Unit 2 • Lecture 19 • Section 2.1 Example 3D (Workbook p. 36)",
+    "detail": "Lecture 19: Advanced Intercepts & Special Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3D (Workbook p. 36)\nFind the $x$- and $y$-intercepts algebraically for:\n$$\\mathbf{y = 2x}$$\nWhat happens when both intercepts are $(0, 0)$? How do you graph the line?",
+    "solution": "$$\\begin{aligned}\n\\mathbf{y\\text{-intercept: }} & x = 0 \\implies y = 2(0) = 0 \\implies \\mathbf{(0, 0)} \\\\[0.5em]\n\\mathbf{x\\text{-intercept: }} & y = 0 \\implies 2x = 0 \\implies x = 0 \\implies \\mathbf{(0, 0)} \\\\[0.8em]\n\\text{Second Point: } & \\text{Use slope } m = \\frac{2}{1} \\text{ from } (0, 0): \\\\\n& \\text{Rise } +2, \\text{ Run } +1 \\implies \\mathbf{(1, 2)} \\\\\n& \\text{Or choose } x = 2 \\implies y = 2(2) = 4 \\implies \\mathbf{(2, 4)}\n\\end{aligned}$$",
+    "pitfall": "**When intercepts coincide:** If both intercepts are $(0, 0)$, the intercept method only gives ONE point. You MUST pick another $x$-value (or use slope) to get a second point!",
+    "script": "[Prof. Park] Now examine Example 3D on page 36: Find the $x$- and $y$-intercepts for the direct variation equation $y = 2x$. \n\n[TA Sora] This is a fascinating problem that surprises many students! Let us follow our standard procedure:\nTo find the $y$-intercept, set $x = 0$:\n$$y = 2(0) = 0 \\implies (0, 0)$$\nNow to find the $x$-intercept, set $y = 0$:\n$$0 = 2x \\implies x = 0 \\implies (0, 0)$$\n\n[Prof. Park] Both intercepts are the exact same point: the Origin $(0, 0)$! What does that mean for someone trying to graph this line using only the intercepts method?\n\n[TA Sora] It means the intercept method fails to give you two distinct points! You only have one pointâthe origin. And as we know, infinitely many different lines can pivot through the origin at different angles. You cannot draw a unique line with only one point!\n\n[Prof. Park] So what is the remedy? Whenever a line passes through the origin ($b = 0$), you must choose an additional test point by picking a non-zero input for $x$.\n\n[TA Sora] Let us pick $x = 1$: $y = 2(1) = 2$, giving us the point $(1, 2)$. Or pick $x = -1$: $y = 2(-1) = -2$, giving $(-1, -2)$. Now you have $(0, 0)$, $(1, 2)$, and $(-1, -2)$, which clearly define a line with slope $m = 2$ passing straight through the origin!\n\n[Prof. Park] Direct variation equations $y = kx$ always pass through the origin. If you work 0 hours, your paycheck is 0 dollars!\n\n[TA Sora] In Example 3D: y = 2x. Watch what happens with the intercept method here: If you set x = 0, y = 2(0) = 0, giving the origin (0, 0). If you set y = 0, 0 = 2x -> x = 0, giving the origin (0, 0) AGAIN! The x-intercept and y-intercept are the EXACT SAME POINT! Because you cannot draw a line with only one point, the intercept method fails here! Whenever a line passes through the origin (y = kx, direct variation), you MUST pick a second independent point, such as x = 1 -> y = 2: (1, 2)!",
+    "graph": {
+      "xMin": -4,
+      "xMax": 6,
+      "yMin": -4,
+      "yMax": 8,
+      "title": "Direct Variation: y = 2x (Passes through Origin)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "label": "Origin (0, 0)",
+          "color": "#10b981"
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "label": "(1, 2)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "label": "(2, 4)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 2,
+          "yIntercept": 0,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = 2x"
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.1 Example 3E: Horizontal Line y = -2",
+    "subtitle": "Unit 2 • Lecture 19 • Section 2.1 Example 3E (Workbook p. 37)",
+    "detail": "Lecture 19: Advanced Intercepts & Special Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Horizontal Lines: Example 3E (Workbook p. 37)\nFind the intercepts and slope-intercept form for:\n$$\\mathbf{y = -2}$$\n- State the $x$-intercept (if any).\n- State the $y$-intercept.\n- Identify the slope.",
+    "solution": "$$\\begin{aligned}\n\\mathbf{y\\text{-intercept: }} & x = 0 \\implies y = -2 \\implies \\mathbf{(0, -2)} \\\\[0.5em]\n\\mathbf{x\\text{-intercept: }} & \\text{Set } y = 0 \\implies 0 = -2 \\; (\\text{contradiction}) \\implies \\mathbf{\\text{None}} \\\\[0.5em]\n\\text{Slope-Intercept: } & y = 0x - 2 \\implies \\mathbf{m = 0} \\\\[0.5em]\n\\text{Orientation: } & \\mathbf{\\text{Horizontal Line at height } y = -2}\n\\end{aligned}$$",
+    "pitfall": "**No x-intercept:** A horizontal line parallel to the $x$-axis never crosses the $x$-axis. It has NO $x$-intercept!",
+    "script": "[Prof. Park] On page 37, we encounter two of the most famous special cases in all of algebra. First is Example 3E: Graph the equation $y = -2$ and analyze its intercepts and slope.\n\n[TA Sora] Look at that equation: $y = -2$. Where is $x$? There is no $x$ present! That means no matter what value $x$ takes, $y$ is permanently locked at $-2$.\nIf $x = -3$, $y = -2$. If $x = 0$, $y = -2$. If $x = 4$, $y = -2$.\n\n[Prof. Park] When you plot those points on the Cartesian grid, what shape do you get? A perfectly horizontal line hovering two units below the $x$-axis!\n\n[TA Sora] Now let us answer the intercept questions:\nDoes this line cross the vertical $y$-axis? Yes, at $(0, -2)$. So the $y$-intercept is $(0, -2)$.\nDoes this line ever cross the horizontal $x$-axis? Look at the graph: it runs completely parallel to the $x$-axis! It will never touch or cross the $x$-axis from $-\\infty$ to $+\\infty$. Therefore, there is **NO $x$-intercept**!\n\n[Prof. Park] And what is its slope? Can we write $y = -2$ in slope-intercept form? Yes:\n$$y = 0x - 2$$\nThe slope is $m = 0$! A horizontal line has zero slope. Think of cross-country skiing on a flat meadow near Bozeman: there is zero incline, zero tilt, slope equals zero!\n\n[Prof. Park] Now let's explore horizontal lines: Example 3E: y = -2. Notice there is NO x in this equation! That means x can be absolutely ANY real number in the universe: x = -10, x = 0, x = 500. No matter what x is, y is locked at -2! Points include (-3, -2), (0, -2), (4, -2). Connecting them gives a perfectly flat, horizontal line! What is the slope of a flat line? Zero! m = 0. Think of cross-country skiing on a frozen flat lake in Yellowstone: zero incline, zero effort, slope = 0!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -6,
+      "yMax": 4,
+      "title": "Horizontal Line: y = -2 (Slope m = 0)",
+      "points": [
+        {
+          "x": 0,
+          "y": -2,
+          "label": "y-int (0, -2)",
+          "color": "#10b981"
+        },
+        {
+          "x": -3,
+          "y": -2,
+          "label": "(-3, -2)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 3,
+          "y": -2,
+          "label": "(3, -2)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "horizontal": -2,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = -2"
+        }
+      ]
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.1 Example 3F: Vertical Line x = 3",
+    "subtitle": "Unit 2 • Lecture 19 • Section 2.1 Example 3F (Workbook p. 37)",
+    "detail": "Lecture 19: Advanced Intercepts & Special Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Vertical Lines: Example 3F (Workbook p. 37)\nFind the intercepts and slope-intercept form for:\n$$\\mathbf{x = 3}$$\n- State the $x$-intercept.\n- State the $y$-intercept (if any).\n- Can this equation be written in slope-intercept form $y = mx + b$?",
+    "solution": "$$\\begin{aligned}\n\\mathbf{x\\text{-intercept: }} & \\mathbf{(3, 0)} \\\\[0.5em]\n\\mathbf{y\\text{-intercept: }} & \\text{Set } x = 0 \\implies 0 = 3 \\; (\\text{contradiction}) \\implies \\mathbf{\\text{None}} \\\\[0.5em]\n\\mathbf{\\text{Slope: }} & \\mathbf{\\text{Undefined (Division by zero in run)}} \\\\[0.5em]\n\\mathbf{\\text{Note: }} & \\mathbf{\\text{Vertical lines CANNOT be written in } y = mx + b!}\n\\end{aligned}$$",
+    "pitfall": "**Vertical lines are not functions:** Because slope is undefined, you CANNOT write $x = 3$ in $y = mx + b$ format!",
+    "script": "[Prof. Park] Now turn to Example 3F on page 37: Graph the equation $x = 3$ and analyze its intercepts and slope.\n\n[TA Sora] This is the counterpart to Example 3E. Here, the equation is $x = 3$. There is no $y$ in the equation! That means no matter what vertical height $y$ you choose, $x$ is permanently locked at $+3$.\nPoints on this line include $(3, -2)$, $(3, 0)$, $(3, 4)$, and $(3, 100)$!\n\n[Prof. Park] Plot those points and connect them: you get a perfectly straight **Vertical Line** passing through 3 on the horizontal axis!\n\n[TA Sora] Let us analyze its intercepts:\nIt crosses the horizontal axis at $(3, 0)$, so its $x$-intercept is $(3, 0)$.\nDoes it ever touch the vertical $y$-axis? No! It runs perfectly parallel to the $y$-axis, so there is **NO $y$-intercept**!\n\n[Prof. Park] Now, what about its slope? Can you write $x = 3$ in slope-intercept form $y = mx + b$? No! Because there is no $y$ variable to solve for!\nIf you tried to calculate slope between $(3, 0)$ and $(3, 4)$:\n$$m = \\frac{4 - 0}{3 - 3} = \\frac{4}{0}$$\nDivision by zero is strictly undefined in mathematics! Therefore, the slope of a vertical line is **UNDEFINED**!\n\n[TA Sora] Do not confuse 'zero' with 'undefined!' Zero is a real number; undefined is an impossible division!\n\n[TA Sora] Now compare that with a vertical line: Example 3F: x = 3. Here, there is NO y in the equation! That means y can be anything: (3, -5), (3, 0), (3, 4). Connecting them gives a completely vertical line! What is the slope of a vertical line? If you try to calculate slope: m = (4 - 0) / (3 - 3) = 4 / 0! Division by zero is strictly UNDEFINED! Think of skiing: could you ski a vertical 90-degree cliff wall at the top of the Bridger Ridge? No! That is not a ski slope—you would fall into freefall! A vertical line has NO slope; its slope is UNDEFINED!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 8,
+      "yMin": -6,
+      "yMax": 6,
+      "title": "Vertical Line: x = 3 (Slope Undefined)",
+      "points": [
+        {
+          "x": 3,
+          "y": 0,
+          "label": "x-int (3, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 3,
+          "y": 4,
+          "label": "(3, 4)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 3,
+          "y": -4,
+          "label": "(3, -4)",
+          "color": "#ec4899"
+        }
+      ],
+      "lines": [
+        {
+          "vertical": 3,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "x = 3"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Sora's Memory Anchor",
+    "title": "The Famous 'HOY VUX' Mnemonic for Special Lines",
+    "subtitle": "Unit 2 • Lecture 19 • Section 2.1 (Workbook p. 37)",
+    "detail": "Lecture 19: Advanced Intercepts & Special Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The 'HOY VUX' Rule (Workbook p. 37)\nHow can you permanently remember the equations and slopes of horizontal and vertical lines?\n- **H - O - Y:**\n  - **H:** Horizontal line\n  - **O:** Zero slope ($m = 0$)\n  - **Y:** Equation is $\\mathbf{y = c}$\n- **V - U - X:**\n  - **V:** Vertical line\n  - **U:** Undefined slope ($m = \\text{undefined}$)\n  - **X:** Equation is $\\mathbf{x = c}$",
+    "solution": "$$\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\textbf{Mnemonic} & \\textbf{Line Type} & \\textbf{Slope } (m) & \\textbf{Equation Form} & \\textbf{Intercepts} \\\\\n\\hline\n\\textbf{HOY} & \\text{Horizontal} & 0 & y = c & (0, c), \\text{ No } x\\text{-int} \\\\\n\\hline\n\\textbf{VUX} & \\text{Vertical} & \\text{Undefined} & x = c & (c, 0), \\text{ No } y\\text{-int} \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Never say 'no slope':** Say 'Zero slope' for horizontal, and 'Undefined slope' for vertical. 'No slope' is ambiguous and loses exam points!",
+    "script": "[Prof. Park] On Slide 6, we introduce the single most famous, time-tested mnemonic in American algebra education: The HOY VUX Rule!\n\n[TA Sora] HOY VUX! Every student in Gallatin College should write HOY VUX at the top of their scratch paper on Exam 2:\n- **H - O - Y:**\n  - **H** stands for **Horizontal** line.\n  - **O** stands for **0 (Zero)** slope ($m = 0$).\n  - **Y** stands for **$y = \\text{number}$** equation!\n\n[Prof. Park] And its partner:\n- **V - U - X:**\n  - **V** stands for **Vertical** line.\n  - **U** stands for **Undefined** slope.\n  - **X** stands for **$x = \\text{number}$** equation!\n\n[TA Sora] Here is my favorite outdoor Montana analogy for remembering HOY vs VUX:\nThink of skiing at Bridger Bowl. If you are on a flat Nordic cross-country trail, your slope is 0âit takes effort to glide, but you are completely safe ($m = 0$, Horizontal, $y = c$).\nNow imagine skiing straight off the vertical cliff of the Bridger Ridge! That is a vertical freefallâyour skis have zero traction, division by zero, your survival is completely undefined! ($m = \\text{undefined}$, Vertical, $x = c$).\n\n[Prof. Park] That ski cliff visual will stick with you forever! Whenever you see an equation with only $y$, think HOY: Horizontal, zero slope. Whenever you see an equation with only $x$, think VUX: Vertical, undefined slope.\n\n[Prof. Park] Let's cement the famous 'HOY VUX' memory rule: H - O - Y: Horizontal lines have Zero (0) slope, and their equation is Y = [constant number]! V - U - X: Vertical lines have Undefined slope, and their equation is X = [constant number]! Write HOY VUX on the front cover of your course notebook! It guarantees you will never confuse horizontal and vertical lines on an exam."
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Synthesis",
+    "title": "Intersecting Special Lines: y = -2 and x = 3",
+    "subtitle": "Unit 2 • Lecture 19 • Section 2.1 Comparison",
+    "detail": "Lecture 19: Advanced Intercepts & Special Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Intersection of Horizontal & Vertical Lines\nPlot both $y = -2$ (from Example 3E) and $x = 3$ (from Example 3F) on the same coordinate grid:\n- State the point where these two perpendicular lines intersect.\n- Explain how their coordinates relate to their equations.",
+    "solution": "$$\\begin{aligned}\n\\text{Line 1: } & y = -2 \\quad (\\text{all points have } y = -2) \\\\\n\\text{Line 2: } & x = 3 \\quad (\\text{all points have } x = 3) \\\\[0.8em]\n\\mathbf{\\text{Intersection Point: }} & \\mathbf{(3, -2)} \\\\[0.5em]\n\\text{Angle of Intersection: } & \\mathbf{90^\\circ \\; (\\text{Perpendicular Lines})}\n\\end{aligned}$$",
+    "pitfall": "**Direct coordinate match:** The intersection of $x = a$ and $y = b$ is ALWAYS the ordered pair $(a, b)$!",
+    "script": "[Prof. Park] On Slide 7, we place both special lines together on the exact same coordinate plane: the horizontal line $y = -2$ and the vertical line $x = 3$.\n\n[TA Sora] Look at how they intersect! The horizontal line runs west-to-east at height $y = -2$. The vertical line runs south-to-north at position $x = 3$. They cross each other at a single unique point: $(3, -2)$!\n\n[Prof. Park] Notice that they meet at a crisp 90-degree right angle. Every horizontal line is perpendicular to every vertical line on the Cartesian plane!\n\n[TA Sora] And notice how easy it is to find their intersection: the $x$-coordinate must be 3 because $x = 3$, and the $y$-coordinate must be $-2$ because $y = -2$. The intersection point literally writes itself: $(3, -2)$!\n\n[Prof. Park] In Unit 2, when we solve systems of linear equations in Lectures 26 through 30, the intersection of two lines represents the simultaneous solution to the system. For the system $\\{x = 3, y = -2\\}$, the solution is simply the ordered pair $(3, -2)$.\n\n[TA Sora] Compare their slopes one more time: $y = -2$ has slope $0$; $x = 3$ has undefined slope. One is flat, one is a sheer cliff, and together they create a perfect perpendicular crosshair!\n\n[TA Sora] When you graph y = -2 and x = 3 on the same coordinate plane, the horizontal line and vertical line cross at a crisp 90-degree right angle at the coordinate point (3, -2)! In Cartesian geometry, horizontal and vertical lines are always perpendicular to each other.",
+    "graph": {
+      "xMin": -4,
+      "xMax": 8,
+      "yMin": -6,
+      "yMax": 4,
+      "title": "Intersection of y = -2 (HOY) and x = 3 (VUX) at (3, -2)",
+      "points": [
+        {
+          "x": 3,
+          "y": -2,
+          "label": "Intersection (3, -2)",
+          "color": "#f59e0b",
+          "labelOffsetX": 8,
+          "labelOffsetY": 14
+        }
+      ],
+      "lines": [
+        {
+          "horizontal": -2,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = -2"
+        },
+        {
+          "vertical": 3,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "x = 3"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 2.1 Mastery Review",
+    "subtitle": "Unit 2 • Lecture 19 • Section 2.1 Wrap-up",
+    "detail": "Lecture 19: Advanced Intercepts & Special Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Section 2.1 Graphing Summary\n- **Table Method:** Pick $x=0$, $y=0$, and a third checkpoint.\n- **Intercept Method:** Plot $(a, 0)$ and $(0, b)$.\n- **Slope-Intercept:** $y = mx + b$, begin at $(0, b)$ and move by $\\frac{\\text{Rise}}{\\text{Run}}$.\n- **HOY:** $y = c$, Horizontal, Slope = 0.\n- **VUX:** $x = c$, Vertical, Slope = Undefined.",
+    "solution": "$$\\mathbf{\\text{Section 2.1 Mastered! Next Up: Section 2.2 — The Slope of a Line!}}$$",
+    "pitfall": "**Exam Checklist:** Always check if a problem specifies 'use the intercept method' or 'use slope-intercept form'!",
+    "script": "[Prof. Park] Slide 8 brings us to the Section 2.1 Mastery Review. Let us consolidate our three graphing strategies so you can choose the optimal tool for any problem on your homework.\n\n[TA Sora] Strategy 1: **The Table Method**.\nBest when the equation is already solved for $y$, or when you want to pick specific inputs like $x = -1, 0, 1$. Always use three points to catch any arithmetic slips!\n\n[Prof. Park] Strategy 2: **The Intercept Method (Cover-Up Method)**.\nBest when the equation is in Standard Form $Ax + By = C$ and both $A$ and $B$ divide evenly into $C$. Set $y=0$ to find the $x$-intercept; set $x=0$ to find the $y$-intercept. Connect the two intercepts! (Unless the line passes through the origin, in which case pick a third point).\n\n[TA Sora] Strategy 3: **The Slope-Intercept Method**.\nBest when the equation is in form $y = mx + b$. Plot the $y$-intercept $(0, b)$ first, then count Rise over Run to find your next points!\n\n[Prof. Park] And never forget **HOY VUX** for lines with only one variable: $y = c$ is horizontal with zero slope; $x = c$ is vertical with undefined slope.\n\n[TA Sora] In Lecture 20, we zoom in on the most fundamental parameter of linear algebra: Section 2.2, The Slope of a Line, Rise over Run, and the Slope Formula! Outstanding work today!\n\n[Prof. Park] That brings us to the end of Section 2.1! You now have three powerful tools for graphing linear equations: 1. The Table Method (pick smart x-values). 2. The Intercept Method (set x=0, set y=0; best for Ax + By = C). 3. The HOY VUX rule for horizontal (y=b) and vertical (x=a) lines. In Lecture 20, we will dive deep into the numerical calculation of slope!"
+  }
+]

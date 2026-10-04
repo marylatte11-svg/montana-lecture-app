@@ -1,0 +1,202 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Section 2.7: Modeling with Linear Functions",
+    "subtitle": "Unit 2 • Lecture 29 • Section 2.7 (Workbook p. 53)",
+    "detail": "Lecture 29: Real-World Linear Modeling",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Modeling with Linear Functions (Workbook p. 53)\n$$\\mathbf{f(x) = mx + b}$$\nIn real-world applications:\n- **$m$ = Rate of Change:** (e.g. dollars per hour, miles per gallon, depreciation per year).\n- **$b$ = Initial Value / Fixed Cost:** (e.g. startup fee, purchase price, base charge at time $0$).\n- **Strategy:** Decide if you are directly given the rate $m$ and initial value $b$, or if you need to build two data points $(x_1, y_1)$ and $(x_2, y_2)$ from the story!",
+    "solution": "$$\\begin{aligned}\n\\text{Case 1: } & \\text{Given rate } m \\text{ and initial value } b \\implies \\mathbf{f(x) = mx + b} \\\\\n\\text{Case 2: } & \\text{Given two scenarios } (x_1, y_1), \\; (x_2, y_2) \\implies m = \\frac{y_2 - y_1}{x_2 - x_1}, \\; \\text{then point-slope}\n\\end{aligned}$$",
+    "pitfall": "**Units matter:** Always include units on the slope (e.g. 'dollars per hour') and the intercept (e.g. 'dollars')!",
+    "script": "[Prof. Park] Welcome to Lecture 29 of M090! Today on pages 53 and 54 of your workbook, we step into the true practical power of mathematics: Section 2.7, Modeling with Linear Functions.\n\n[TA Sora] Up to this point in Unit 2, we have studied the mechanics of lines—finding slopes, plotting intercepts, writing equations, and evaluating functions. Today, we put all of those tools to work solving real-world problems in Montana business, vehicle finance, and career economics!\n\n[Prof. Park] Every linear model in the real world follows our trusted master formula:\n$$\\mathbf{f(x) = mx + b}$$\nIn real-world applications, each piece of this formula has an immediate, concrete physical meaning:\n- **The Slope $m$ is the Rate of Change!** Whenever you read a word problem, look for action words like 'per', 'each', 'every', 'rate of', 'gaining', or 'depreciating'. That rate is always your slope $m$! If the value is increasing, $m$ is positive. If the value is decreasing, $m$ is negative.\n- **The $y$-Intercept $b$ is the Initial Value or Fixed Cost!** This is the baseline starting amount at time zero ($x = 0$)—the initial deposit, the flat rental fee, the purchase price, or the starting elevation before any activity begins.\n\n[TA Sora] In Montana business management, this separation of fixed costs ($b$) and variable costs ($m$) is how every small business owner calculates their operating budget and sets their customer prices. Whether you are running a fly-fishing guide service on the Madison River, an elk hunting outfitting company, or a winter ski shop in Bozeman, linear modeling gives you total financial control!\n\n[Prof. Park] Think of a cattle ranch in the Gallatin Valley: the ranch has fixed overhead costs—property taxes on the land, barn maintenance, and tractor loan payments—which exist even if zero calves are raised ($b$). Then there is the variable cost per head of cattle—feed, veterinary care, and ear tags ($m$). Total annual cost is directly $C(x) = mx + b$!\n\n[TA Sora] Understanding linear models allows you to separate what you cannot change (fixed overhead) from what you can control (variable activity). That financial clarity is essential for building a thriving enterprise!\n\n[Prof. Park] Let us look at Example 1 on page 53 and see how Kim models his Bozeman ski rental business!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 1 (Part 1): Kim's Bozeman Ski Rental Model",
+    "subtitle": "Unit 2 • Lecture 29 • Section 2.7 Example 1 (Workbook p. 53)",
+    "detail": "Lecture 29: Real-World Linear Modeling",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Kim's Bozeman Ski Rental (Workbook p. 53)\nKim owns a ski rental business in Bozeman. His monthly fixed costs are **$2450** (rent, utilities, supplies). Additionally, Kim pays his employee **$15 per hour**.\n- Write a linear function $C(h)$ that models Kim's monthly cost in terms of $h$, the number of hours his employee works.",
+    "solution": "$$\\begin{aligned}\n\\text{Fixed cost (initial value } b): & 2450 \\text{ dollars} \\\\[0.5em]\n\\text{Hourly wage (rate } m): & 15 \\text{ dollars/hour} \\\\[0.5em]\n\\mathbf{C(h)} & = \\mathbf{15h + 2450}\n\\end{aligned}$$",
+    "pitfall": "**Use variable h:** The prompt asks for $C(h)$, so use $h$ for hours, not $x$!",
+    "script": "[Prof. Park] Example 1 Part 1 on page 53: Kim owns a ski rental business in Bozeman. His monthly fixed costs—which cover his shop lease on Main Street, insurance, and utilities—are **$350**. He pays an employee **$15 per hour** to operate the tuning and rental desk. Let us build a linear cost model!\n\n[TA Sora] Let us identify our variables and parameters with complete clarity:\nStep 1: Define the independent variable:\nLet $x$ represent the **number of hours** the employee works during the month.\nStep 2: Define the dependent function:\nLet $C(x)$ represent the **total monthly operating cost** in dollars.\n\n[Prof. Park] Step 3: Identify the fixed cost ($b$):\nKim must pay $350 for the shop lease every month, even if the shop is closed and zero hours are worked!\nTherefore, the initial starting cost at $x = 0$ is:\n$$b = 350$$\n\n[TA Sora] Step 4: Identify the variable rate ($m$):\nKim pays the employee $15 *per hour*. That keyword 'per' signals our rate of change:\n$$m = 15$$\nStep 5: Assemble the linear cost function:\n$$\\mathbf{C(x) = 15x + 350}$$\n\n[Prof. Park] Look at how beautifully that formula models reality!\nIf $x = 0$ hours are worked: $C(0) = 15(0) + 350 = \\$350$ (just the fixed lease).\nFor every single additional hour the employee works, the total monthly cost increases by exactly $15. That is a constant rate of change!\n\n[TA Sora] In Bozeman's winter tourist season, when blizzards dump fresh powder at Bridger Bowl and Big Sky, Kim might need the shop open 60 hours a week! Having a linear cost model allows him to forecast his exact wage liabilities before the season even begins.\n\n[Prof. Park] Small business owners who fail to calculate their cost functions often run out of cash during slow shoulder seasons like April and May. Mathematical modeling provides the foresight needed to maintain healthy cash reserves year-round!\n\n[TA Sora] On Slide 3, we will use Kim's cost function to evaluate a specific monthly work schedule!"
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 1 (Part 2): Monthly Cost for 25 Hours",
+    "subtitle": "Unit 2 • Lecture 29 • Section 2.7 Example 1 Evaluation (Workbook p. 53)",
+    "detail": "Lecture 29: Real-World Linear Modeling",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 Evaluation (Workbook p. 53)\nFind the monthly cost if Kim pays an employee to work **25 hours**.\n- Evaluate $C(25)$.\n- Plot the cost curve and highlight $(25, C(25))$.",
+    "solution": "$$\\begin{aligned}\nC(25) & = 15(25) + 2450 \\\\[0.5em]\n& = 375 + 2450 \\\\[0.5em]\n\\mathbf{C(25)} & = \\mathbf{2825} \\\\[0.8em]\n\\mathbf{\\text{Sentence: }} & \\mathbf{\\text{The monthly cost for 25 employee hours is 2825 dollars.}}\n\\end{aligned}$$",
+    "pitfall": "**Always state answers in context:** Don't just write $2825$. State what it means: Kim pays $2825 in total monthly costs!",
+    "script": "[Prof. Park] On Slide 3, we execute Example 1 Part 2 on page 53: Find Kim's total monthly cost if his employee works **25 hours**.\n\n[TA Sora] Let us look at our mathematical model from Slide 2:\n$$C(x) = 15x + 350$$\nThe problem tells us: 'the employee works 25 hours.'\nIs 25 an input or an output? Hours worked is our independent input variable $x$!\nSo the problem commands us: 'Evaluate $C(25)$!'\n\n[Prof. Park] Let us substitute $x = 25$ inside protective parentheses:\n$$C(25) = 15(25) + 350$$\nMultiply first following PEMDAS:\n$$15 \\times 25 = 375$$\nKim pays $\\$375$ in employee wages.\nNow add the fixed lease cost:\n$$375 + 350 = 725$$\nTherefore:\n$$\\mathbf{C(25) = 725}$$\n\n[TA Sora] Now write the answer in a complete, professional English sentence:\n'If the employee works 25 hours, Kim's total monthly operating cost is **$725**.'\nNotice how we state the units: 25 hours, and 725 dollars.\n\n[Prof. Park] What if Kim rents out ski packages at $\\$45$ per rental? If his cost is $\\$725$, he needs to rent about 17 ski packages that month just to cover his operating expenses! That is the famous 'break-even point.'\n\n[TA Sora] Any rental beyond the 17th package is pure net profit! Linear cost models allow business owners in Bozeman to plan their break-even points with absolute precision and make smart hiring decisions!\n\n[Prof. Park] If Kim expects a busy holiday weekend in December, he can immediately calculate whether hiring a second part-time worker will generate enough additional rental volume to exceed the extra wage cost. Math turns gut feelings into profitable business strategy!",
+    "graph": {
+      "xMin": 0,
+      "xMax": 40,
+      "yMin": 2000,
+      "yMax": 3200,
+      "title": "Kim's Ski Rental Cost: C(h) = 15h + 2450",
+      "points": [
+        {
+          "x": 0,
+          "y": 2450,
+          "label": "Fixed Cost (0, 2450)",
+          "color": "#10b981"
+        },
+        {
+          "x": 25,
+          "y": 2825,
+          "label": "C(25) = 2825",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 15,
+          "yIntercept": 2450,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "C(h) = 15h + 2450"
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 2 (Part 1): Car Depreciation Model",
+    "subtitle": "Unit 2 • Lecture 29 • Section 2.7 Example 2 (Workbook p. 53)",
+    "detail": "Lecture 29: Real-World Linear Modeling",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Car Depreciation (Workbook p. 53)\nYou purchased your car in 2023 for **$22,500**. You learned that the car would **depreciate linearly by $1500 per year**.\n- Write a function $V(t)$ that gives the value of the car $t$ years after 2023.",
+    "solution": "$$\\begin{aligned}\n\\text{Initial purchase price } (b): & 22500 \\text{ dollars} \\\\[0.5em]\n\\text{Depreciation rate } (m): & \\mathbf{-1500} \\text{ dollars/year} \\quad (\\text{value decreases!}) \\\\[0.5em]\n\\mathbf{V(t)} & = \\mathbf{-1500t + 22500}\n\\end{aligned}$$",
+    "pitfall": "**Depreciation means negative slope:** The car is LOSING value, so $m = -1500$, NOT $+1500$!",
+    "script": "[Prof. Park] Now turn to Example 2 Part 1 on page 53: Car Depreciation Model.\nYou purchased a reliable all-wheel-drive vehicle in Bozeman in the year 2023 for **$22,500**. You learned that the car **depreciates (loses value) by $1,500 each year**.\n\n[TA Sora] Let us construct a linear model for the car's resale value over time!\nStep 1: Define our variables:\nLet $t$ represent the **time in years since purchase** (where $t = 0$ corresponds to 2023).\nLet $V(t)$ represent the **current resale value of the car in dollars**.\n\n[Prof. Park] Step 2: Identify the initial purchase value ($b$):\nAt time $t = 0$ (the year 2023), the car was purchased brand new for $\\$22,500$.\nTherefore, the $y$-intercept is:\n$$b = 22{,}500$$\n\n[TA Sora] Step 3: Identify the rate of depreciation ($m$):\nThe problem states: 'loses value by $1,500 each year.'\nLook at that word 'loses!' That means the car's value is DECREASING!\nWhen a quantity decreases over time, its slope MUST be negative:\n$$m = -1{,}500$$\n\n[Prof. Park] Step 4: Assemble the linear depreciation function:\n$$\\mathbf{V(t) = -1{,}500t + 22{,}500}$$\n\n[TA Sora] Look at how cleanly that formula captures the vehicle's financial life!\nAt $t = 1$ year (2024): $V(1) = -1500(1) + 22500 = \\$21{,}000$.\nAt $t = 2$ years (2025): $V(2) = -1500(2) + 22500 = \\$19{,}500$.\nIn Montana, vehicles experience wear and tear from winter road salt, gravel roads in Gallatin Canyon, and sub-zero cold starts. Depreciation is a real expense every vehicle owner must budget for!\n\n[Prof. Park] In accounting and tax preparation, straight-line depreciation is the standard method permitted by the IRS for business vehicle write-offs. Knowing how to write and graph this linear equation gives you practical personal finance literacy!\n\n[TA Sora] On Slide 5, let us determine when the car's book value drops all the way to zero!"
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 2 (Part 2): When is Car Value Zero?",
+    "subtitle": "Unit 2 • Lecture 29 • Section 2.7 Example 2 Analysis (Workbook p. 53)",
+    "detail": "Lecture 29: Real-World Linear Modeling",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 Graph & Zero Value (Workbook p. 53)\nUsing $V(t) = -1500t + 22500$:\n- Find when the car's value reaches **$0** (the $t$-intercept).\n- What calendar year does this correspond to?",
+    "solution": "$$\\begin{aligned}\n\\text{Set } V(t) = 0: & 0 = -1500t + 22500 \\\\[0.5em]\n1500t & = 22500 \\\\[0.5em]\nt & = \\frac{22500}{1500} = \\mathbf{15 \\text{ years}} \\\\[0.8em]\n\\text{Calendar Year: } & 2023 + 15 = \\mathbf{\\text{Year } 2038}\n\\end{aligned}$$",
+    "pitfall": "**Calendar year interpretation:** $t = 15$ means 15 years after 2023, which is 2038!",
+    "script": "[Prof. Park] On Slide 5, we analyze Example 2 Part 2 on page 53: Using $V(t) = -1{,}500t + 22{,}500$, determine **when the car's value reaches $0$**, and graph the depreciation function.\n\n[TA Sora] Look at the question carefully: 'when does the value reach zero?'\nWhat is zero here? The VALUE is zero! That means the OUTPUT $V(t) = 0$!\nThis is a solving problem, NOT an evaluating problem!\nWe set the entire formula equal to 0:\n$$-1{,}500t + 22{,}500 = 0$$\n\n[Prof. Park] Let us solve for $t$ step by step:\nAdd $1{,}500t$ to both sides to make the variable term positive:\n$$22{,}500 = 1{,}500t$$\nDivide both sides by $1{,}500$:\n$$t = \\frac{22{,}500}{1{,}500} = \\frac{225}{15} = 15$$\nTherefore:\n$$\\mathbf{t = 15 \\text{ years}}$$\n\n[TA Sora] What calendar year does that represent?\nSince $t = 0$ was 2023:\n$$\\text{Year} = 2023 + 15 = \\mathbf{2038}$$\nIn the year 2038, after 15 years of driving on Montana mountain roads and gravel highways, the vehicle's book value will reach zero!\n\n[Prof. Park] Now look at the graph on your screen!\nThe line starts high up at $(0, 22500)$ on the vertical axis (the purchase price).\nIt slopes steadily downward with slope $m = -1500$.\nIt hits the horizontal axis at $(15, 0)$—our $x$-intercept!\nNotice that in the real world, the graph STOPS at $t = 15$. A car's value cannot drop below zero into negative dollars!\nSo the practical **Domain** is $[0, 15]$ years, and the practical **Range** is $[0, 22{,}500]$ dollars! Practical boundaries protect models from absurd extrapolation!\n\n[TA Sora] Even if the car still runs in 2038, for tax and insurance accounting, its book asset value is fully depreciated! This is why businesses sell company trucks every 5 to 7 years to capture remaining residual value!",
+    "graph": {
+      "xMin": 0,
+      "xMax": 18,
+      "yMin": 0,
+      "yMax": 25000,
+      "title": "Car Depreciation: V(t) = -1500t + 22500",
+      "points": [
+        {
+          "x": 0,
+          "y": 22500,
+          "label": "Purchase (0, $22.5k)",
+          "color": "#10b981"
+        },
+        {
+          "x": 15,
+          "y": 0,
+          "label": "Zero Value (15, $0)",
+          "color": "#ec4899"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -1500,
+          "yIntercept": 22500,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "V(t)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 3 (Part 1): Car Salesperson Commission Points",
+    "subtitle": "Unit 2 • Lecture 29 • Section 2.7 Example 3 (Workbook p. 54)",
+    "detail": "Lecture 29: Real-World Linear Modeling",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Car Salesperson Commission (Workbook p. 54)\nA salesperson earns commission on car sales:\n- Sold **3 cars**, earned **$760** for the week.\n- Sold **5 cars**, earned **$920** for the week.\nTranslate these two statements into ordered pairs $(x, E)$ where $x$ is cars sold and $E$ is weekly earnings.",
+    "solution": "$$\\begin{aligned}\n\\text{Week 1: } & 3 \\text{ cars sold, } 760 \\text{ dollars earned} \\implies \\mathbf{(3, 760)} \\\\[0.5em]\n\\text{Week 2: } & 5 \\text{ cars sold, } 920 \\text{ dollars earned} \\implies \\mathbf{(5, 920)}\n\\end{aligned}$$",
+    "pitfall": "**Identify variables correctly:** $x$ = number of cars (input), $E(x)$ = earnings in dollars (output).",
+    "script": "[Prof. Park] Turn to page 54 for Example 3 Part 1: Automobile Salesperson Commission Points.\nA salesperson at a dealership in Bozeman earns a weekly salary plus commission on car sales.\nIn a week where she sold **3 cars**, her total paycheck was **$850**.\nIn another week where she sold **5 cars**, her total paycheck was **$1,250**.\n\n[TA Sora] Notice how this real-world problem is structured!\nAre we given the slope directly? No!\nAre we given the base salary ($y$-intercept) directly? No!\nWhat are we given? We are given **TWO DATA POINTS**!\nLet us translate the English story into mathematical ordered pairs $(x, y)$:\nLet $x$ represent the **number of cars sold**.\nLet $E(x)$ represent the **weekly earnings in dollars**.\n\n[Prof. Park] Let us write out our two coordinate points:\nWhen $x = 3$ cars, earnings are $\\$850$:\n$$\\text{Point 1: } (x_1, y_1) = (3, 850)$$\nWhen $x = 5$ cars, earnings are $\\$1,250$:\n$$\\text{Point 2: } (x_2, y_2) = (5, 1250)$$\n\n[TA Sora] Look at that: We have two points on a line! $(3, 850)$ and $(5, 1250)$.\nAnd what did we learn in Lectures 20 and 22? Whenever you have two points, you can construct the entire linear equation using the slope formula and Point-Slope Form!\n\n[Prof. Park] Think about what this means for a job applicant in Bozeman: when an employer says 'you earn commission on sales,' you can take two sample weeks and calculate your exact base pay and commission rate! Mathematics empowers you in contract negotiations!\n\n[TA Sora] Many sales positions in Montana offer a 'base draw plus commission' compensation package. Being able to extract the rate per sale and base salary from your paystubs ensures you are being paid accurately according to your agreement!\n\n[Prof. Park] On Slide 7, let us find her commission per car and her base weekly salary!"
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 3 (Part 2): Commission Function E(x)",
+    "subtitle": "Unit 2 • Lecture 29 • Section 2.7 Example 3 Solution (Workbook p. 54)",
+    "detail": "Lecture 29: Real-World Linear Modeling",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 Solution (Workbook p. 54)\nFind the linear function $E(x)$ that represents weekly earnings when $x$ cars are sold:\n- Calculate commission per car (slope $m$).\n- Use point-slope form to find base weekly salary (intercept $b$).",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{920 - 760}{5 - 3} = \\frac{160}{2} = \\mathbf{80 \\text{ dollars/car}} \\\\[0.5em]\nE - 760 & = 80(x - 3) \\\\[0.5em]\nE - 760 & = 80x - 240 \\\\[0.5em]\n\\mathbf{E(x)} & = \\mathbf{80x + 520} \\\\[0.8em]\n\\text{Interpretation: } & \\text{Base salary is } \\mathbf{520 \\text{ dollars/week}}, \\text{ plus } \\mathbf{80 \\text{ dollars per car sold}}.\n\\end{aligned}$$",
+    "pitfall": "**Meaning of intercept:** $b = 520$ means if the salesperson sells 0 cars ($x = 0$), they still take home a base salary of $520!",
+    "script": "[Prof. Park] On Slide 7, we execute Example 3 Part 2 on page 54: Finding the Linear Function $E(x)$ representing weekly earnings when $x$ cars are sold.\n\n[TA Sora] Step 1: Find the slope $m$ (the commission per car) between $(3, 850)$ and $(5, 1250)$:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{1250 - 850}{5 - 3}$$\nIn the numerator: $1250 - 850 = 400$.\nIn the denominator: $5 - 3 = 2$.\n$$m = \\frac{400}{2} = 200$$\nLook at what that slope means in real life: The salesperson earns a **commission of $200 per car sold**!\n\n[Prof. Park] Step 2: Now find her base weekly salary ($b$) using Point-Slope Form with point $(3, 850)$ and $m = 200$:\n$$y - y_1 = m(x - x_1)$$\n$$y - 850 = 200(x - 3)$$\nDistribute the 200:\n$$y - 850 = 200x - 600$$\nAdd 850 to both sides to isolate $y$:\n$$y = 200x - 600 + 850 \\implies y = 200x + 250$$\n\n[TA Sora] Step 3: Write in function notation:\n$$\\mathbf{E(x) = 200x + 250}$$\nLook at what that $y$-intercept $b = 250$ represents: Even if she sells ZERO cars ($x = 0$), she still earns a **base guaranteed salary of $250 per week**!\n\n[Prof. Park] Now let us evaluate for a stellar week where she sells 8 cars:\n$$E(8) = 200(8) + 250 = 1600 + 250 = \\mathbf{\\$1{,}850!}$$\nTwo data points unlocked her entire compensation structure! She can budget her living expenses in Bozeman with total financial confidence!\n\n[TA Sora] Notice how algebra connects two scattered observations into a permanent formula that predicts any future week. That is the magic of linear modeling!",
+    "graph": {
+      "xMin": 0,
+      "xMax": 8,
+      "yMin": 400,
+      "yMax": 1100,
+      "title": "Earnings Model: E(x) = 80x + 520",
+      "points": [
+        {
+          "x": 0,
+          "y": 520,
+          "label": "Base Salary (0, $520)",
+          "color": "#10b981"
+        },
+        {
+          "x": 3,
+          "y": 760,
+          "label": "(3, $760)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 5,
+          "y": 920,
+          "label": "(5, $920)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 80,
+          "yIntercept": 520,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "E(x) = 80x + 520"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 2.7 Part 1 Mastery Summary",
+    "subtitle": "Unit 2 • Lecture 29 • Section 2.7 Wrap-up",
+    "detail": "Lecture 29: Real-World Linear Modeling",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Real-World Modeling Takeaways\n- **Rate = Slope ($m$):** Watch for words like 'per', 'each', 'rate of', 'depreciates'.\n- **Initial Value = Intercept ($b$):** The value when input $x = 0$.\n- **Two Scenarios:** Build $(x_1, y_1)$ and $(x_2, y_2)$ and calculate $m = \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "solution": "$$\\mathbf{\\text{Lecture 29 Complete! Next Up: Lecture 30 — Blood Pressure, Elevation \\& Unit 2 Grand Review!}}$$",
+    "pitfall": "**Sentence answers:** Always conclude word problems with a complete English sentence describing the practical meaning of your solution!",
+    "script": "[Prof. Park] On Slide 8, we present the Section 2.7 Part 1 Real-World Modeling Master Summary.\n\n[TA Sora] Here are your core modeling takeaways:\n1. **Rate = Slope ($m$):**\n   Look for unit rates like dollars per hour, loss per year, or miles per gallon. Increasing quantities have $m > 0$; decreasing quantities have $m < 0$.\n2. **Initial Condition = $y$-Intercept ($b$):**\n   Look for the starting baseline at time zero: flat rental fees, initial car purchase price, base salary.\n3. **Two-Point Scenarios:**\n   If you are given two real-world observations $(x_1, y_1)$ and $(x_2, y_2)$, compute $m = \\frac{y_2 - y_1}{x_2 - x_1}$, deploy point-slope form, and solve for $y$!\n\n[Prof. Park] 4. **Evaluating vs Solving in Word Problems:**\n   - If they give you the input (e.g., 'find cost for 25 hours'), plug in $x = 25$!\n   - If they give you the target outcome (e.g., 'when is value zero?'), set $f(x) = 0$ and solve for $x$!\n\n[TA Sora] Modeling gives you the power to translate English stories into actionable algebraic formulas that make predictions about the future!\n\n[Prof. Park] Whether in agriculture, personal finance, healthcare, or business leadership across Montana, linear modeling is the tool that transforms raw numbers into wisdom and successful decision-making!\n\n[TA Sora] In Lecture 30, we conclude Unit 2 with advanced modeling—blood pressure, Bozeman boiling points, Montana grain storage—and the Grand Unit 2 Synthesis! See you in our final Unit 2 lecture!"
+  }
+]

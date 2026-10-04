@@ -1,0 +1,173 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Section 2.5: Function Notation f(x)",
+    "subtitle": "Unit 2 • Lecture 26 • Section 2.5 (Workbook p. 47)",
+    "detail": "Lecture 26: Function Notation & Algebraic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Decoding Function Notation (Workbook p. 47)\n$$\\mathbf{y = f(x)}$$\n- **$f$:** The **name** of the function (the rule or machine).\n- **$x$:** The **input** ($x$-coordinate of the ordered pair).\n- **$f(x)$:** The **output** value ($y$-coordinate of the ordered pair).\n- Read aloud as: **\"$f$ of $x$\"**.\n- Ordered Pair Representation: **$(x, f(x))$**",
+    "solution": "$$\\begin{aligned}\n\\text{Equation notation: } & y = 4x - 5 \\\\\n\\text{Function notation: } & f(x) = 4x - 5 \\\\[0.5em]\n\\text{Input } x = 2: & f(2) = 4(2) - 5 = 8 - 5 = 3 \\\\\n\\text{Ordered pair: } & \\mathbf{(2, 3)} \\iff \\mathbf{(2, f(2))}\n\\end{aligned}$$",
+    "pitfall": "**f(x) does NOT mean f times x!** The parentheses indicate the INPUT being fed into the function rule, NOT multiplication!",
+    "script": "[Prof. Park] Welcome to Lecture 26 of M090! Today on page 47 of your workbook, we introduce the single most important symbolic language in all of modern STEM: Section 2.5, Function Notation.\n\n[TA Sora] Up to this point in algebra, every relationship between two variables was written as an equation: $y = 4x - 5$, $y = x^2$, or $y = -2x + 7$. Today, we retire the simple variable $y$ and introduce its sophisticated, professional counterpart: **$f(x)$**, pronounced aloud as **'f of x'**!\n\n[Prof. Park] Let us decode that symbol with absolute clarity because beginners often make a dangerous mistake right here:\n$$\\mathbf{y = f(x)}$$\n- The letter **$f$** is simply the **name** of the function! Just like people have names like Sora or Eunju, functions have names like $f$, $g$, $h$, or $C$ for Cost and $P$ for Profit.\n- The parentheses do NOT mean multiplication! This is NOT '$f$ times $x$.'\n- The variable inside the parentheses, **$x$**, is the **input**!\n- The entire symbol, **$f(x)$**, is the **output**—the exact equivalent of $y$!\n\n[TA Sora] Think of a function as a physical machine with an input chute and an output tray. The name stamped on the side of the machine is $f$. You drop a raw number $x$ into the input chute, the gears inside the machine follow the formula's recipe, and out drops the finished product into the output tray: $f(x)$!\n\n[Prof. Park] In everyday life in Bozeman, think of postage: your input is the weight of a letter in ounces ($x$), and the output is the required postage in cents: $P(x)$. In pharmacy, your input is the patient's weight in kilograms ($w$), and the output is the safe antibiotic dosage in milligrams: $D(w)$. Function notation makes the input-output relationship explicit right on the page!\n\n[TA Sora] Let us look at Examples 1 and 2 on page 47 to see how $y$ and $f(x)$ work side by side!\n\n[TA Sora] Notice how this matches modern computer programming languages like Python or JavaScript! In Python, when you define a function `def calculate_tax(income):`, `calculate_tax` is the name, `income` is the input parameter, and the returned value is the output. Math notation was the original programming language centuries before computers existed!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 1 & 2: Comparing y and f(x)",
+    "subtitle": "Unit 2 • Lecture 26 • Section 2.5 Examples 1 & 2 (Workbook p. 47)",
+    "detail": "Lecture 26: Function Notation & Algebraic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Examples 1 & 2 (Workbook p. 47)\n- **Example 1:** Consider the linear equation $y = 4x - 5$. Find the value of $y$ when $x = 2$.\n- **Example 2:** Consider the linear function $f(x) = 4x - 5$. Find $f(2)$.\n- Plot the resulting point on the coordinate plane.",
+    "solution": "$$\\begin{aligned}\n\\textbf{Example 1: } & y = 4(2) - 5 = 8 - 5 = \\mathbf{3} \\\\[0.5em]\n\\textbf{Example 2: } & f(2) = 4(2) - 5 = 8 - 5 = \\mathbf{3} \\\\[0.8em]\n\\mathbf{\\text{Result: }} & \\mathbf{(2, 3)} \\text{ on the graph of } y = 4x - 5.\n\\end{aligned}$$",
+    "pitfall": "**Same math, better shorthand:** Notice how $f(2) = 3$ communicates both the input $2$ and output $3$ simultaneously!",
+    "script": "[Prof. Park] On Slide 2, we compare the old language of $y$ with the new language of $f(x)$ using Examples 1 and 2 on page 47 of your workbook.\n\n[TA Sora] In Example 1, we are given the familiar linear equation:\n$$y = 4x - 5$$\nThe problem asks: 'Find the value of $y$ when $x = 3$.'\nHow did we do this in previous lectures? We wrote:\n'Substitute $x = 3$ into the equation':\n$$y = 4(3) - 5 = 12 - 5 = 7$$\nNotice how many words we had to write in English: 'when $x = 3$, $y = 7$.' That took an entire sentence!\n\n[Prof. Park] Now look at Example 2 using **Function Notation**:\nWe write the exact same rule, but give it the name $f$:\n$$f(x) = 4x - 5$$\nAnd instead of writing a long English sentence, the question simply asks:\n$$\\text{Find } \\mathbf{f(3)}$$\nLook at how concise, elegant, and powerful that is! The number inside the parentheses is 3, which directly commands: 'Plug 3 into the input slot wherever you see $x$!'\n\n[TA Sora] Let us follow the command:\n$$f(3) = 4(3) - 5 = 12 - 5 = 7$$\nAnd look at what the notation preserves! In the old style, your final line was '$y = 7$.' But by itself, '$y = 7$' doesn't tell anyone what input produced that 7! You lost the history of your calculation!\n\n[Prof. Park] But with function notation, your final line reads:\n$$\\mathbf{f(3) = 7}$$\nThat single mathematical statement tells you everything! It tells you:\n1. The input was $x = 3$.\n2. The output is $y = 7$.\n3. As an ordered pair on the Cartesian grid, this point is $(3, 7)$!\n\n[TA Sora] It is an all-in-one information container: $(x, f(x)) = (3, 7)$! No lost data, zero ambiguity!\n\n[Prof. Park] In physics, if $v(t)$ represents the velocity of an avalanche projectile at time $t$, writing $v(3) = 45$ tells the whole story: at exactly 3 seconds after launch, the projectile travels at 45 meters per second! Compact, unambiguous, and mathematically elegant!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 5,
+      "yMin": -6,
+      "yMax": 6,
+      "title": "Graph of f(x) = 4x - 5 with Point (2, f(2)) = (2, 3)",
+      "points": [
+        {
+          "x": 2,
+          "y": 3,
+          "label": "(2, f(2)) = (2, 3)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": -5,
+          "label": "y-int (0, -5)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 4,
+          "yIntercept": -5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "f(x) = 4x - 5"
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Three Reasons Why Function Notation is Essential",
+    "subtitle": "Unit 2 • Lecture 26 • Section 2.5 (Workbook p. 47)",
+    "detail": "Lecture 26: Function Notation & Algebraic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Why We Use Function Notation (Workbook p. 47)\n1. **Guarantee of Single Output:** Writing $f(x)$ guarantees that the relation is indeed a function (passes the Vertical Line Test).\n2. **Naming Multiple Rules:** When working with several functions at once (cost $C(x)$, revenue $R(x)$, profit $P(x)$), distinct names prevent confusion.\n3. **Compact Input-Output Shorthand:** $f(2) = 3$ shows input and output in a single statement without saying 'when $x = 2$, $y = 3$'.",
+    "solution": "$$\\begin{aligned}\n\\text{Instead of } y_1, y_2, y_3: & \\implies f(x), \\; g(x), \\; h(x) \\\\\n\\text{Instead of \"when } x=5, y=12\": & \\implies f(5) = 12 \\\\\n\\text{Corresponding point: } & (5, 12)\n\\end{aligned}$$",
+    "pitfall": "**Don't divide by f:** If $f(x) = 10$, you CANNOT divide both sides by $f$. $f$ is a name, not a number!",
+    "script": "[Prof. Park] On Slide 3, we summarize the Three Primary Reasons Why Function Notation is Absolutely Essential in STEM fields.\n\n[TA Sora] Reason 1: **Guaranteed Predictability (Single Output)**.\nWriting an equation as $f(x)$ is an explicit guarantee to the reader that this mathematical rule represents a true function—it passes the Vertical Line Test! Every input $x$ will produce exactly one predictable output. You never have to wonder if it might branch out into multiple conflicting answers.\n\n[Prof. Park] Reason 2: **Managing Multiple Equations Simultaneously**.\nIn business economics or Montana agricultural management, you rarely deal with just one formula! Suppose you own a bakery in Bozeman. You have a Revenue formula, a Cost formula, and a Profit formula.\nIf you used the old notation, all three would start with '$y = \\dots$':\n$$y = 8x \\quad \\text{and} \\quad y = 3x + 500 \\quad \\text{and} \\quad y = 5x - 500$$\nIf someone says 'find $y$ when $x = 100$,' which $y$ do they mean? It creates total chaos!\n\n[TA Sora] But with function notation, you give each machine its own unique name!\n$$R(x) = 8x \\quad (\\text{Revenue})$$\n$$C(x) = 3x + 500 \\quad (\\text{Cost})$$\n$$P(x) = 5x - 500 \\quad (\\text{Profit})$$\nNow, if you want the cost of baking 100 loaves of sourdough bread, you write $C(100)$. If you want the profit, you write $P(100)$. There is zero confusion!\n\n[Prof. Park] Reason 3: **Clear Input-Output Pairing**.\nWriting $f(a) = b$ directly encodes the coordinate pair $(a, b)$ on the Cartesian plane. The input sits inside the parentheses, and the output sits on the other side of the equals sign.\n\n[TA Sora] It is the universal language of computer programming and science! Now let us practice evaluating diverse inputs in Example 3!\n\n[TA Sora] In Montana agriculture, if you manage both a wheat field and a barley field, you might write $W(x)$ for wheat yield and $B(x)$ for barley yield as a function of fertilizer $x$. Function notation lets you track both crops side by side without ever getting their outputs crossed!"
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 3A & 3B: Negative Inputs",
+    "subtitle": "Unit 2 • Lecture 26 • Section 2.5 Example 3A, B (Workbook p. 48)",
+    "detail": "Lecture 26: Function Notation & Algebraic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3A & 3B (Workbook p. 48)\nLet $\\mathbf{g(x) = -2x + 7}$ and $\\mathbf{h(x) = 3x - 5}$. Evaluate:\n- **A.** $g(-1)$\n- **B.** $h(-1)$\nUse proper notation with each step.",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. } g(-1) & = -2(-1) + 7 = 2 + 7 = \\mathbf{9} \\implies (-1, 9) \\\\[0.8em]\n\\textbf{B. } h(-1) & = 3(-1) - 5 = -3 - 5 = \\mathbf{-8} \\implies (-1, -8)\n\\end{aligned}$$",
+    "pitfall": "**Parentheses on negative inputs:** Always wrap negative substitutions in parentheses: $-2(-1) = +2$, NOT $-2 - 1 = -3$!",
+    "script": "[Prof. Park] Turn to page 48 of your workbook for Example 3A and 3B: Evaluating Functions with Negative Inputs.\nWe are given two distinct linear functions:\n$$g(x) = -2x + 7 \\quad \\text{and} \\quad h(x) = 3x - 5$$\n\n[TA Sora] Let us tackle Part A first: Find $g(-3)$.\nStep 1: Check the name of the function! The name is $g$, so we must use the formula for $g(x)$, NOT $h(x)$!\nStep 2: Identify the input: the number inside the parentheses is $-3$.\nStep 3: Replace $x$ with $-3$ using TA Sora's Protective Parentheses Rule:\n$$g(-3) = -2(-3) + 7$$\n\n[Prof. Park] Now compute the arithmetic carefully following PEMDAS:\nFirst, multiply: $-2 \\times (-3) = +6$. A negative multiplied by a negative is positive!\nNext, add: $6 + 7 = 13$.\nTherefore:\n$$g(-3) = 13$$\nAs an ordered pair on the graph of $g$, this represents the point $(-3, 13)$!\n\n[TA Sora] Now let us evaluate Part B: Find $h(-2)$.\nStep 1: Check the name: the name is $h$, so we switch to the formula $h(x) = 3x - 5$!\nStep 2: Substitute the input $-2$ inside protective parentheses:\n$$h(-2) = 3(-2) - 5$$\nMultiply first: $3 \\times (-2) = -6$.\nNow subtract 5: $-6 - 5 = -11$.\nTherefore:\n$$h(-2) = -11$$\nAs an ordered pair on the graph of $h$, this represents the point $(-2, -11)$!\n\n[Prof. Park] Notice how protective parentheses prevent sign errors. When you write $-2(-3)$, you instantly see it is multiplication resulting in positive 6. Order and precision guarantee success!\n\n[TA Sora] Here is my golden rule for negative inputs: Always whisper to yourself, 'protect the negative!' When you write parentheses around $(-3)$, your eyes immediately recognize that you are multiplying $-2$ by $-3$, avoiding the catastrophic mistake of treating it as subtraction $-2 - 3$!"
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 3C & 3D: Evaluating at Zero & Y-Intercepts",
+    "subtitle": "Unit 2 • Lecture 26 • Section 2.5 Example 3C, D (Workbook p. 48)",
+    "detail": "Lecture 26: Function Notation & Algebraic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3C & 3D (Workbook p. 48)\nLet $\\mathbf{g(x) = -2x + 7}$ and $\\mathbf{h(x) = 3x - 5}$. Evaluate:\n- **C.** $h(0)$\n- **D.** $g(0)$\nWhat graphical feature do these outputs represent?",
+    "solution": "$$\\begin{aligned}\n\\textbf{C. } h(0) & = 3(0) - 5 = 0 - 5 = \\mathbf{-5} \\implies \\mathbf{(0, -5) \\; [y\\text{-intercept of } h]} \\\\[0.8em]\n\\textbf{D. } g(0) & = -2(0) + 7 = 0 + 7 = \\mathbf{7} \\implies \\mathbf{(0, 7) \\; [y\\text{-intercept of } g]}\n\\end{aligned}$$",
+    "pitfall": "**Evaluating at zero:** Evaluating any function at $x = 0$ ALWAYS gives the $y$-intercept of the graph!",
+    "script": "[Prof. Park] On Slide 5, we examine Example 3C and 3D on page 48: Evaluating Functions at Zero and Connecting to $y$-Intercepts.\nWe continue with:\n$$g(x) = -2x + 7 \\quad \\text{and} \\quad h(x) = 3x - 5$$\n\n[TA Sora] Let us evaluate Part C: Find $g(0)$.\nThe input is 0. We plug 0 into $g(x)$:\n$$g(0) = -2(0) + 7 = 0 + 7 = 7$$\nSo $g(0) = 7$!\nAs an ordered pair, this is $(0, 7)$.\n\n[Prof. Park] Now evaluate Part D: Find $h(0)$.\nThe input is 0. We plug 0 into $h(x)$:\n$$h(0) = 3(0) - 5 = 0 - 5 = -5$$\nSo $h(0) = -5$!\nAs an ordered pair, this is $(0, -5)$.\n\n[TA Sora] Now, students, look at those two points: $(0, 7)$ and $(0, -5)$. What do they have in common?\nTheir $x$-coordinate is zero!\nAnd what did we learn back in Lecture 18 about any point with $x = 0$?\nAny point with $x = 0$ is a **$y$-intercept**!\n\n[Prof. Park] That gives us a profound algebraic theorem that you will use from now through calculus:\n$$\\mathbf{\\text{To find the } y\\text{-intercept of ANY function, compute } f(0)!}$$\nEvaluating a function at 0 wipes out all the variable terms and leaves only the constant term $b$!\nFor $g(x) = -2x + 7$, $g(0) = 7$, so the $y$-intercept is $(0, 7)$.\nFor $h(x) = 3x - 5$, $h(0) = -5$, so the $y$-intercept is $(0, -5)$.\n\n[TA Sora] Whenever you need the starting condition, the initial elevation, or the $y$-intercept, feed zero into the input chute!\n\n[Prof. Park] In chemistry, evaluating at zero gives the baseline temperature of an unheated solution. Finding $f(0)$ is universally the initial condition of any physical or financial system!",
+    "graph": {
+      "xMin": -4,
+      "xMax": 6,
+      "yMin": -8,
+      "yMax": 10,
+      "title": "Intercepts: g(0) = 7 and h(0) = -5",
+      "points": [
+        {
+          "x": 0,
+          "y": 7,
+          "label": "g(0) = (0, 7)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": -5,
+          "label": "h(0) = (0, -5)",
+          "color": "#ec4899"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -2,
+          "yIntercept": 7,
+          "color": "#38bdf8",
+          "strokeWidth": 2,
+          "label": "g(x) = -2x + 7"
+        },
+        {
+          "slope": 3,
+          "yIntercept": -5,
+          "color": "#ec4899",
+          "strokeWidth": 2,
+          "label": "h(x) = 3x - 5"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 3E & 3F: Fraction & Variable Inputs",
+    "subtitle": "Unit 2 • Lecture 26 • Section 2.5 Example 3E, F (Workbook p. 48)",
+    "detail": "Lecture 26: Function Notation & Algebraic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3E & 3F (Workbook p. 48)\nLet $\\mathbf{g(x) = -2x + 7}$ and $\\mathbf{h(x) = 3x - 5}$. Evaluate:\n- **E.** $g\\left(\\frac{5}{2}\\right)$\n- **F.** $h(a)$",
+    "solution": "$$\\begin{aligned}\n\\textbf{E. } g\\left(\\frac{5}{2}\\right) & = -2\\left(\\frac{5}{2}\\right) + 7 = -5 + 7 = \\mathbf{2} \\implies \\left(\\frac{5}{2}, 2\\right) \\\\[0.8em]\n\\textbf{F. } h(a) & = 3(a) - 5 = \\mathbf{3a - 5}\n\\end{aligned}$$",
+    "pitfall": "**Plugging in letters:** When the input is a variable like $a$, simply replace every $x$ with $a$. Do not try to solve for a number!",
+    "script": "[Prof. Park] Turn to Example 3E and 3F on page 48: Evaluating Functions with Fractions and Variable Inputs!\nOur functions remain:\n$$g(x) = -2x + 7 \\quad \\text{and} \\quad h(x) = 3x - 5$$\n\n[TA Sora] Let us tackle Part E: Find $g\\left(\\frac{1}{2}\\right)$.\nDo not be intimidated by fractions! Treat it like any other number:\nSubstitute $\\frac{1}{2}$ into $g(x)$:\n$$g\\left(\\frac{1}{2}\\right) = -2\\left(\\frac{1}{2}\\right) + 7$$\nMultiply first: $-2 \\times \\frac{1}{2} = -\\frac{2}{2} = -1$!\nNow add 7: $-1 + 7 = 6$.\nTherefore:\n$$g\\left(\\frac{1}{2}\\right) = 6$$\nAs an ordered pair, this is $\\left(\\frac{1}{2}, 6\\right)$!\n\n[Prof. Park] Now examine Part F: Find $h(a)$.\nMany students freeze when they see a letter inside the parentheses! They ask: 'Professor Park, what number is $a$?'\nYou don't need a number! The input slot is simply a placeholder. If the input is $a$, you replace $x$ with $a$:\n$$h(a) = 3(a) - 5 = 3a - 5$$\nThat is your final answer!\n\n[TA Sora] If the input was a picture of a smiley face, the output would be $3(\\text{smiley face}) - 5$! The function rule simply says: 'Multiply whatever enters the machine by 3, and subtract 5!' If $a$ enters the machine, $3a - 5$ comes out!\n\n[Prof. Park] That abstract flexibility is what allows scientists to create general formulas in physics and chemistry. Understanding variable inputs prepares you directly for composite functions!\n\n[Prof. Park] When evaluating fraction inputs like $g(1/2)$, always look for cancellation opportunities between the slope coefficient and the denominator before doing any multiplication. Simplifying before multiplying keeps numbers manageable and prevents computational errors!"
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 3G & 3H: Binomial Inputs",
+    "subtitle": "Unit 2 • Lecture 26 • Section 2.5 Example 3G, H (Workbook p. 48)",
+    "detail": "Lecture 26: Function Notation & Algebraic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3G & 3H (Workbook p. 48)\nLet $\\mathbf{g(x) = -2x + 7}$ and $\\mathbf{h(x) = 3x - 5}$. Evaluate:\n- **G.** $g(x - 7)$\n- **H.** $h(k + 1)$\nSubstitute the entire binomial expression into parentheses and distribute.",
+    "solution": "$$\\begin{aligned}\n\\textbf{G. } g(x - 7) & = -2(x - 7) + 7 = -2x + 14 + 7 = \\mathbf{-2x + 21} \\\\[0.8em]\n\\textbf{H. } h(k + 1) & = 3(k + 1) - 5 = 3k + 3 - 5 = \\mathbf{3k - 2}\n\\end{aligned}$$",
+    "pitfall": "**Distribute to BOTH terms:** $-2(x - 7) = -2x + 14$. A common mistake is forgetting to multiply the $-2$ by the $-7$!",
+    "script": "[Prof. Park] Now let us examine Example 3G and 3H on page 48: Binomial and Algebraic Expression Inputs.\nWe have:\n$$g(x) = -2x + 7 \\quad \\text{and} \\quad h(x) = 3x - 5$$\n\n[TA Sora] Look at Part G: Find $g(x + 2)$.\nHere, the entire expression $(x + 2)$ is being fed into the input chute!\nWhatever sits inside the parentheses replaces the variable $x$ inside protective parentheses:\n$$g(x + 2) = -2(x + 2) + 7$$\n\n[Prof. Park] Now distribute the $-2$ across both terms inside the parentheses:\n$$-2 \\cdot x = -2x$$\n$$-2 \\cdot 2 = -4$$\nSo we have:\n$$-2x - 4 + 7$$\nCombine like terms: $-4 + 7 = +3$:\n$$g(x + 2) = -2x + 3$$\n\n[TA Sora] Beautiful! Now let us evaluate Part H: Find $h(2x - 1)$.\nFeed $(2x - 1)$ into $h(x) = 3x - 5$:\n$$h(2x - 1) = 3(2x - 1) - 5$$\nDistribute the 3:\n$$3 \\cdot 2x = 6x$$\n$$3 \\cdot (-1) = -3$$\nSo we have:\n$$6x - 3 - 5$$\nCombine constant terms: $-3 - 5 = -8$:\n$$h(2x - 1) = 6x - 8$$\n\n[Prof. Park] In advanced mathematics and calculus, substituting an expression like $(x + h)$ into a function is the foundation of the Difference Quotient, which defines the instantaneous rate of change and the derivative! You are building college-level mathematical muscles today!\n\n[TA Sora] When substituting expressions like $(x+2)$, think of it as upgrading the input software inside the machine: the machine's internal mechanism stays the exact same, but it now processes an entire packet of information simultaneously!"
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.5 Example 4: Solving for x when f(x) = k",
+    "subtitle": "Unit 2 • Lecture 26 • Section 2.5 Example 4 (Workbook p. 48)",
+    "detail": "Lecture 26: Function Notation & Algebraic Evaluation",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 (Workbook p. 48)\nLet $\\mathbf{f(x) = 5x + 3}$. Solve the following for $x$:\n- **A.** $f(x) = 18$\n- **B.** $f(x) = -8$\nNotice the difference: Here you are given the OUTPUT and must find the INPUT!",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. } f(x) = 18 \\implies 5x + 3 & = 18 \\\\\n5x & = 15 \\implies \\mathbf{x = 3} \\quad \\text{[Point: } (3, 18)] \\\\[0.8em]\n\\textbf{B. } f(x) = -8 \\implies 5x + 3 & = -8 \\\\\n5x & = -11 \\implies \\mathbf{x = -\\frac{11}{5} = -2.2} \\quad \\text{[Point: } (-2.2, -8)]\n\\end{aligned}$$",
+    "pitfall": "**The Great Function Confusion:** 'Evaluate $f(3)$' means plug in $x = 3$ to find $y$. 'Solve $f(x) = 18$' means set the expression equal to $18$ and solve for $x$!",
+    "script": "[Prof. Park] On Slide 8, we reach Example 4 on page 48, which introduces the single most critical conceptual distinction in Section 2.5: Evaluating a Function versus Solving for $x$!\nWe are given:\n$$f(x) = 5x + 3$$\n\n[TA Sora] Compare these two questions very carefully:\nQuestion A: 'Evaluate $f(3)$.'\nQuestion B: 'Solve $f(x) = 18$ for $x$.'\nStudents, do you see the difference?\nIn Question A, the 3 is INSIDE the parentheses. That means $x = 3$ is the **input**! You plug 3 in and find the output: $5(3) + 3 = 18$.\nIn Question B, the 18 is on the OUTSIDE! 18 is the **output** ($y = 18$), and your job is to work backwards to find the input $x$ that created it!\n\n[Prof. Park] Let us solve Part A: $f(x) = 18$.\nReplace $f(x)$ with the formula $5x + 3$:\n$$5x + 3 = 18$$\nNow solve for $x$ using standard two-step algebra:\nSubtract 3 from both sides:\n$$5x = 15$$\nDivide both sides by 5:\n$$x = 3$$\nThe input that produced output 18 was $x = 3$!\n\n[TA Sora] Now let us solve Part B: $f(x) = -12$.\nSet the formula equal to $-12$:\n$$5x + 3 = -12$$\nSubtract 3 from both sides:\n$$5x = -15$$\nDivide by 5:\n$$x = -3$$\nThe input that produced output $-12$ was $x = -3$!\n\n[Prof. Park] Always look at where the number is sitting:\nIf the number is inside: $f(\\text{number})$, plug it in!\nIf the number is outside: $f(x) = \\text{number}$, set it equal and solve!\nIn Lecture 27, we take this exact distinction and read function values directly off coordinate graphs!\n\n[TA Sora] Remember: In evaluating, you are standing at the top of the mountain looking down; in solving, you are standing in the valley looking up to find which trail brought you here! Always check whether you are searching for input or output!"
+  }
+]

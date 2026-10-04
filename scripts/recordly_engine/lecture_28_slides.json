@@ -1,0 +1,320 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Section 2.6: Linear Functions f(x) = mx + b",
+    "subtitle": "Unit 2 • Lecture 28 • Section 2.6 (Workbook p. 51)",
+    "detail": "Lecture 28: Linear Functions & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Linear Functions (Workbook p. 51)\n$$\\mathbf{f(x) = mx + b}$$\n- $m$ is the **constant rate of change** (slope).\n- $(0, b)$ is the **vertical intercept** ($y$-intercept).\n- **Domain:** $(-\\infty, \\infty)$ for all non-vertical linear functions.\n- **Range:** $(-\\infty, \\infty)$ when $m \\neq 0$.\n  *(If $m = 0$, range is the single number $\\{b\\}$!)*",
+    "solution": "$$\\begin{aligned}\n\\text{Formula: } & f(x) = mx + b \\\\\n\\text{Slope: } & m = \\frac{f(x_2) - f(x_1)}{x_2 - x_1} \\\\\n\\text{Intercept: } & (0, b)\n\\end{aligned}$$",
+    "pitfall": "**Linear function range:** All linear functions with non-zero slope have range $(-\\infty, \\infty)$. Only constant functions $f(x) = c$ have range $\\{c\\}$!",
+    "script": "[Prof. Park] Welcome to Lecture 28 of M090! Today on pages 51 and 52 of your workbook, we formally unite two massive branches of algebra: Section 2.6, Linear Functions.\n\n[TA Sora] In Sections 2.1 through 2.3, we studied linear equations of the form $y = mx + b$. In Sections 2.4 and 2.5, we mastered the language of functions, domain, range, and $f(x)$. Today, we merge them into a single, unified mathematical structure:\n$$\\mathbf{f(x) = mx + b}$$\nA **Linear Function** is simply any function whose graph is a straight line!\n\n[Prof. Park] Look at the two key parameters in $f(x) = mx + b$:\n- The parameter **$m$** is the **slope**, which represents the **constant rate of change**! In science and economics, $m$ tells you how fast the output changes per unit of change in the input—dollars per hour, miles per gallon, or degrees per thousand feet of elevation.\n- The parameter **$b$** is the **$y$-intercept**, which represents the **initial condition** or starting value: $f(0) = b$.\n\n[TA Sora] What are the Domain and Range of a non-horizontal linear function?\nThink about an endless straight line slanting across the Cartesian plane:\nIt extends infinitely far to the left ($-\\infty$) and infinitely far to the right ($+\\infty$). So the **Domain** is $(-\\infty, \\infty)$!\nAnd it climbs infinitely high ($+\\infty$) and drops infinitely deep ($-\\infty$). So the **Range** is $(-\\infty, \\infty)$!\nEvery non-horizontal, non-vertical linear function has domain and range equal to all real numbers!\n\n[Prof. Park] Let us explore how to graph, analyze, and build these linear functions in Example 1 on page 51!\n\n[Prof. Park] In physics, Sir Isaac Newton built the foundation of classical mechanics on linear rates of change: velocity is the rate of change of position, and acceleration is the rate of change of velocity. Linear functions are the simplest, most fundamental building blocks of all physical laws in the universe!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.6 Example 1: Graphing f(x) = 2x - 4",
+    "subtitle": "Unit 2 • Lecture 28 • Section 2.6 Example 1 (Workbook p. 51)",
+    "detail": "Lecture 28: Linear Functions & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 (Workbook p. 51)\nGraph the function $\\mathbf{f(x) = 2x - 4}$, and identify the following:\n- **Slope:** \\underline{\\hspace{2cm}}\n- **$y$-intercept:** \\underline{\\hspace{2cm}}\n- **$x$-intercept:** \\underline{\\hspace{2cm}}\n- **Domain & Range** (in interval notation)",
+    "solution": "$$\\begin{aligned}\n\\mathbf{\\text{Slope } m: } & \\mathbf{2} = \\frac{2}{1} \\\\[0.5em]\n\\mathbf{y\\text{-intercept: }} & \\mathbf{(0, -4)} \\\\[0.5em]\n\\mathbf{x\\text{-intercept: }} & 0 = 2x - 4 \\implies 2x = 4 \\implies \\mathbf{x = 2} \\implies \\mathbf{(2, 0)} \\\\[0.5em]\n\\mathbf{\\text{Domain: }} & \\mathbf{(-\\infty, \\infty)} \\\\\n\\mathbf{\\text{Range: }} & \\mathbf{(-\\infty, \\infty)}\n\\end{aligned}$$",
+    "pitfall": "**Finding x-intercept in function notation:** Set $f(x) = 0$, NOT $x = 0$! Setting $f(x) = 0$ gives $2x - 4 = 0 \\implies x = 2$.",
+    "script": "[Prof. Park] Example 1 on page 51: Graph the linear function $f(x) = 2x - 4$, and identify its slope, $y$-intercept, $x$-intercept, domain, and range.\n\n[TA Sora] Let us extract our parameters directly from the equation $f(x) = 2x - 4$:\nStep 1: The slope $m$ is the coefficient of $x$:\n$$m = 2 \\quad \\left(\\text{or } \\frac{2}{1}\\right)$$\nThis means a **Rise of $+2$** for every **Run of $+1$**.\nStep 2: The $y$-intercept is the constant term $b = -4$:\n$$\\text{Point: } (0, -4)$$\n\n[Prof. Park] Step 3: Now let us find the **$x$-intercept** algebraically by setting $f(x) = 0$:\n$$0 = 2x - 4$$\nAdd 4 to both sides:\n$$2x = 4 \\implies x = 2$$\nSo the $x$-intercept is $(2, 0)$!\n\n[TA Sora] Step 4: Now let us plot and graph!\nPlace your first point at the $y$-intercept: $(0, -4)$.\nFrom $(0, -4)$, use your slope: rise up 2 units, run right 1 unit, landing at $(1, -2)$.\nRise up 2 units, run right 1 unit again, landing at $(2, 0)$, which confirms our $x$-intercept!\nDraw a straight line through these points with arrowheads on both ends.\n\n[Prof. Park] Step 5: State the Domain and Range:\nSince the line extends without bound in both horizontal directions:\n$$\\text{Domain: } (-\\infty, \\infty)$$\nSince it extends without bound in both vertical directions:\n$$\\text{Range: } (-\\infty, \\infty)$$\n\n[TA Sora] Everything connects with total clarity: Slope $+2$, intercepts at $(0, -4)$ and $(2, 0)$, domain and range all real numbers!\n\n[TA Sora] When graphing $f(x) = 2x - 4$, always verify that your slope triangle matches your calculated intercepts! Starting at $(0, -4)$, rising 2 and running 1 brings you to $(1, -2)$, and rising 2 and running 1 again hits $(2, 0)$—our exact $x$-intercept! When your slope steps land directly on your calculated intercepts, you have 100% confidence your graph is correct!",
+    "graph": {
+      "xMin": -3,
+      "xMax": 6,
+      "yMin": -6,
+      "yMax": 4,
+      "title": "Example 1: f(x) = 2x - 4 (m = 2, b = -4)",
+      "points": [
+        {
+          "x": 0,
+          "y": -4,
+          "label": "y-int (0, -4)",
+          "color": "#10b981"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "label": "x-int (2, 0)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 2,
+          "yIntercept": -4,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "f(x) = 2x - 4"
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.6 Example 2: Graphing g(x) = -x + 4",
+    "subtitle": "Unit 2 • Lecture 28 • Section 2.6 Example 2 (Workbook p. 51)",
+    "detail": "Lecture 28: Linear Functions & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 (Workbook p. 51)\nGraph the function $\\mathbf{g(x) = -x + 4}$, and identify the following:\n- **Slope:** \\underline{\\hspace{2cm}}\n- **$y$-intercept:** \\underline{\\hspace{2cm}}\n- **$x$-intercept:** \\underline{\\hspace{2cm}}\n- **Domain & Range** (in interval notation)",
+    "solution": "$$\\begin{aligned}\n\\mathbf{\\text{Slope } m: } & \\mathbf{-1} = \\frac{-1}{1} \\\\[0.5em]\n\\mathbf{y\\text{-intercept: }} & \\mathbf{(0, 4)} \\\\[0.5em]\n\\mathbf{x\\text{-intercept: }} & 0 = -x + 4 \\implies x = 4 \\implies \\mathbf{(4, 0)} \\\\[0.5em]\n\\mathbf{\\text{Domain: }} & \\mathbf{(-\\infty, \\infty)} \\\\\n\\mathbf{\\text{Range: }} & \\mathbf{(-\\infty, \\infty)}\n\\end{aligned}$$",
+    "pitfall": "**Negative slope:** In $g(x) = -x + 4$, the coefficient of $x$ is $-1$. The line falls at a 45-degree angle from left to right!",
+    "script": "[Prof. Park] Now turn to Example 2 on page 51: Graph the linear function $g(x) = -x + 4$, and identify its slope, $y$-intercept, $x$-intercept, domain, and range.\n\n[TA Sora] Let us analyze $g(x) = -x + 4$:\nLook in front of $x$: there is a negative sign, which means there is an understood $-1$ multiplying $x$!\nThe slope is:\n$$m = -1 \\quad \\left(\\text{or } \\frac{-1}{1}\\right)$$\nThis represents a **Rise of $-1$** (a drop of 1 unit) for every **Run of $+1$** to the right.\nThe $y$-intercept is:\n$$b = 4 \\implies (0, 4)$$\n\n[Prof. Park] Now find the **$x$-intercept** algebraically: set $g(x) = 0$:\n$$0 = -x + 4$$\nAdd $x$ to both sides:\n$$x = 4 \\implies \\text{Point: } (4, 0)$$\n\n[TA Sora] Let us graph the line:\nPlot the $y$-intercept at $(0, 4)$ on the vertical axis.\nCount your slope: drop down 1 unit, run right 1 unit to $(1, 3)$.\nDrop down 1, run right 1 to $(2, 2)$.\nContinue to $(3, 1)$ and $(4, 0)$—our exact $x$-intercept!\nDraw the line slanting downhill from left to right at a 45-degree angle.\n\n[Prof. Park] Now evaluate Domain and Range:\nHorizontal coverage has no barriers:\n$$\\text{Domain: } (-\\infty, \\infty)$$\nVertical coverage reaches both infinities:\n$$\\text{Range: } (-\\infty, \\infty)$$\n\n[TA Sora] Notice the difference between Examples 1 and 2: Example 1 had a positive slope ($m = 2$) and sloped uphill. Example 2 has a negative slope ($m = -1$) and sloped downhill. The sign of the slope dictates the entire visual personality of the function!\n\n[Prof. Park] Notice how in $g(x) = -x + 4$, the $x$-intercept is $(4, 0)$ and the $y$-intercept is $(0, 4)$. It forms an isosceles right triangle with the axes in Quadrant I, with both legs equal to 4 units! Geometric symmetry provides an instant visual verification!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 7,
+      "yMin": -2,
+      "yMax": 6,
+      "title": "Example 2: g(x) = -x + 4 (m = -1)",
+      "points": [
+        {
+          "x": 0,
+          "y": 4,
+          "label": "y-int (0, 4)",
+          "color": "#10b981"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "label": "x-int (4, 0)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -1,
+          "yIntercept": 4,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "g(x) = -x + 4"
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.6 Example 3: Domain, Range & Values from Graph",
+    "subtitle": "Unit 2 • Lecture 28 • Section 2.6 Example 3 (Workbook p. 52)",
+    "detail": "Lecture 28: Linear Functions & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 (Workbook p. 52)\nUsing the graph at the right, answer:\n- **Domain:** (in interval notation)\n- **Range:** (in interval notation)\n- **$f(-2) = \\underline{\\hspace{2cm}}$**\n- **When $f(x) = -4$, $x = \\underline{\\hspace{2cm}}$**",
+    "solution": "$$\\begin{aligned}\n\\mathbf{\\text{Domain: }} & \\mathbf{(-\\infty, \\infty)} \\\\\n\\mathbf{\\text{Range: }} & \\mathbf{(-\\infty, \\infty)} \\\\[0.5em]\n\\mathbf{f(-2): } & \\text{Find } x = -2 \\implies \\mathbf{f(-2) = 0} \\implies (-2, 0) \\\\[0.5em]\n\\mathbf{f(x) = -4: } & \\text{Find height } y = -4 \\implies \\mathbf{x = -4} \\implies (-4, -4)\n\\end{aligned}$$",
+    "pitfall": "**Reading zero height:** When $x = -2$, the line sits directly on the horizontal axis, so $f(-2) = 0$!",
+    "script": "[Prof. Park] On Slide 4, we examine Example 3 on page 52: Determining Domain, Range, and Function Values from a Given Graph.\n\n[TA Sora] Look at the graph on your screen. It displays a linear function cutting through the coordinate plane. Let us answer each question step by step:\nQuestion A: 'What is the Domain in interval notation?'\nSince the line has arrows on both ends extending infinitely left and right:\n$$\\text{Domain: } (-\\infty, \\infty)$$\nQuestion B: 'What is the Range in interval notation?'\nSince it extends infinitely down and up:\n$$\\text{Range: } (-\\infty, \\infty)$$\n\n[Prof. Park] Question C: 'Find the $y$-intercept.'\nLook at where the line crosses the vertical axis:\nIt crosses at $(0, 2)$. In function notation: $f(0) = 2$.\nQuestion D: 'Find the $x$-intercept.'\nLook at where the line crosses the horizontal axis:\nIt crosses at $(-4, 0)$. In function notation: $f(-4) = 0$.\n\n[TA Sora] Question E: 'Find the slope of the line.'\nLet us use our two intercepts: $(-4, 0)$ and $(0, 2)$:\nRise from 0 to 2 is $+2$.\nRun from $-4$ to 0 is $+4$.\n$$m = \\frac{\\text{Rise}}{\\text{Run}} = \\frac{+2}{+4} = \\frac{1}{2}$$\n\n[Prof. Park] Question F: 'Write the linear function formula.'\nWith slope $m = \\frac{1}{2}$ and $y$-intercept $b = 2$:\n$$\\mathbf{f(x) = \\frac{1}{2}x + 2}$$\nQuestion G: 'Evaluate $f(4)$ using the formula.'\n$$f(4) = \\frac{1}{2}(4) + 2 = 2 + 2 = 4$$\nCheck the graph at $x = 4$: the height is exactly 4! The formula and the graph confirm each other with 100% precision!\n\n[TA Sora] Notice that writing the formula as $f(x) = \frac{1}{2}x + 2$ lets you calculate the height at ANY point in the future—even $x = 1{,}000$—without having to draw graph paper miles wide! Math gives you infinite reach!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 4,
+      "yMin": -6,
+      "yMax": 4,
+      "title": "Example 3: Reading f(-2) = 0 and f(-4) = -4",
+      "points": [
+        {
+          "x": -2,
+          "y": 0,
+          "label": "f(-2) = 0",
+          "color": "#10b981"
+        },
+        {
+          "x": -4,
+          "y": -4,
+          "label": "f(-4) = -4",
+          "color": "#ec4899"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 2,
+          "yIntercept": 4,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ]
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.6 Example 4: Creating Function h(x)",
+    "subtitle": "Unit 2 • Lecture 28 • Section 2.6 Example 4 (Workbook p. 52)",
+    "detail": "Lecture 28: Linear Functions & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 (Workbook p. 52)\nFind the equation of the linear function $h(x)$ that has a **slope of $\\frac{3}{4}$** and a **$y$-intercept at $(0, -5)$**.\n- Express the final answer in function notation $h(x) = mx + b$.",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & m = \\frac{3}{4}, \\quad b = -5 \\\\[0.5em]\n\\text{Form: } & h(x) = mx + b \\\\[0.5em]\n\\mathbf{h(x)} & = \\mathbf{\\frac{3}{4}x - 5}\n\\end{aligned}$$",
+    "pitfall": "**Use function name h(x):** The problem asked for $h(x)$, NOT $y$. Always write $h(x) = \\frac{3}{4}x - 5$ to receive full credit!",
+    "script": "[Prof. Park] Turn to page 52 for Example 4: Creating a Linear Function $h(x)$ from Given Conditions.\nFind the equation of the linear function $h(x)$ that has a **slope of $\\frac{3}{4}$** and a **$y$-intercept of $(0, -5)$**.\n\n[TA Sora] This problem is an absolute breeze if you know your definitions!\nLook at what is given:\nSlope: $m = \\frac{3}{4}$.\n$y$-intercept: $(0, -5)$, which gives $b = -5$.\n\n[Prof. Park] Since we have $m$ and $b$, we write down the Linear Function template:\n$$h(x) = mx + b$$\nSubstitute $m = \\frac{3}{4}$ and $b = -5$:\n$$\\mathbf{h(x) = \\frac{3}{4}x - 5}$$\n\n[TA Sora] Notice that the problem asked for the function $h(x)$. If you write $y = \\frac{3}{4}x - 5$, you might lose a point on your exam for notation! When a problem asks for a function named $h$, use $h(x)$!\n\n[Prof. Park] Think of what this function models in Montana construction: Suppose you are building an access ramp at Gallatin College. The ramp starts 5 feet below ground level in an excavation trench ($b = -5$), and rises at a steady ADA-compliant incline of $\\frac{3}{4}$ of an inch per horizontal foot. The function $h(x) = \\frac{3}{4}x - 5$ predicts the ramp's elevation at any distance $x$!\n\n[TA Sora] When solving real-world construction problems, always double-check the units: if slope is given in inches of rise per foot of run, make sure your $x$ variable is measured in feet and your output in inches, or convert them to consistent units before building!\n\n[Prof. Park] In carpentry framing for a Bozeman timber home, when carpenters establish the roof pitch slope of $3/4$, knowing the exact starting offset from the foundation ($b = -5$) ensures the rafter plumb cuts align with the top plate!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 8,
+      "yMin": -7,
+      "yMax": 2,
+      "title": "Example 4: h(x) = 3/4x - 5",
+      "points": [
+        {
+          "x": 0,
+          "y": -5,
+          "label": "y-int (0, -5)",
+          "color": "#10b981"
+        },
+        {
+          "x": 4,
+          "y": -2,
+          "label": "(4, -2)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.75,
+          "yIntercept": -5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "h(x) = 3/4x - 5"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.6 Example 5: Creating Function k(x)",
+    "subtitle": "Unit 2 • Lecture 28 • Section 2.6 Example 5 (Workbook p. 52)",
+    "detail": "Lecture 28: Linear Functions & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 (Workbook p. 52)\nFind the equation of the linear function $k(x)$ that has a **slope of $\\frac{1}{5}$** and passes through the point **$(-5, 0)$**.\n- Use point-slope form with $k(x)$ replacing $y$.",
+    "solution": "$$\\begin{aligned}\n\\text{Given: } & m = \\frac{1}{5}, \\quad (x_1, y_1) = (-5, 0) \\\\[0.5em]\ny - 0 & = \\frac{1}{5}(x - (-5)) \\\\[0.5em]\ny & = \\frac{1}{5}(x + 5) = \\frac{1}{5}x + 1 \\\\[0.5em]\n\\mathbf{k(x)} & = \\mathbf{\\frac{1}{5}x + 1}\n\\end{aligned}$$",
+    "pitfall": "**Replace y with k(x):** In function problems, replace $y$ with $k(x)$ at the very end: $k(x) = \\frac{1}{5}x + 1$!",
+    "script": "[Prof. Park] Now examine Example 5 on page 52: Creating a Linear Function $k(x)$ given a slope of $\\frac{1}{3}$ that passes through the point $(6, -2)$.\n\n[TA Sora] Look at the given point: $(6, -2)$.\nNotice that $x = 6 \\neq 0$! This is NOT a $y$-intercept!\nTherefore, we cannot just plug $-2$ into $b$. We must deploy our trusted friend: **Point-Slope Form**!\n$$y - y_1 = m(x - x_1)$$\n\n[Prof. Park] Substitute $m = \\frac{1}{3}$ and $(x_1, y_1) = (6, -2)$ with protective parentheses:\n$$y - (-2) = \\frac{1}{3}(x - 6)$$\nOn the left side: $y - (-2) = y + 2$:\n$$y + 2 = \\frac{1}{3}(x - 6)$$\n\n[TA Sora] Distribute the slope $\\frac{1}{3}$:\n$$\\frac{1}{3} \\cdot x = \\frac{1}{3}x$$\n$$\\frac{1}{3} \\cdot (-6) = -2$$\nSo we have:\n$$y + 2 = \\frac{1}{3}x - 2$$\nSubtract 2 from both sides to isolate $y$:\n$$y = \\frac{1}{3}x - 2 - 2 \\implies y = \\frac{1}{3}x - 4$$\n\n[Prof. Park] Now convert to the requested function notation $k(x)$:\n$$\\mathbf{k(x) = \\frac{1}{3}x - 4}$$\nLet us verify: $k(6) = \\frac{1}{3}(6) - 4 = 2 - 4 = -2$! It passes through $(6, -2)$ with 100% accuracy!\n\n[Prof. Park] In mechanical engineering, when selecting gear ratios or pulley drives, the relationship between input motor rpm and output spindle rpm is a linear function passing through a specific operating design point!\n\n[TA Sora] Notice how we solved for $y$ step by step without skipping: $y + 2 = \\frac{1}{3}(x - 6) \\implies y + 2 = \\frac{1}{3}x - 2 \\implies y = \\frac{1}{3}x - 4$. Every line has a reason, and every reason brings total confidence!",
+    "graph": {
+      "xMin": -7,
+      "xMax": 5,
+      "yMin": -2,
+      "yMax": 4,
+      "title": "Example 5: k(x) = 1/5x + 1",
+      "points": [
+        {
+          "x": -5,
+          "y": 0,
+          "label": "(-5, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "label": "(0, 1)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.2,
+          "yIntercept": 1,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "k(x) = 1/5x + 1"
+        }
+      ]
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.6 Example 6: Function through (2, 3) and (4, 9)",
+    "subtitle": "Unit 2 • Lecture 28 • Section 2.6 Example 6 (Workbook p. 52)",
+    "detail": "Lecture 28: Linear Functions & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 (Workbook p. 52)\nFind the equation of the linear function $f(x)$ that passes through the points **$(2, 3)$** and **$(4, 9)$**.\n- Calculate the slope $m$.\n- Use point-slope form to find $f(x)$.",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{9 - 3}{4 - 2} = \\frac{6}{2} = \\mathbf{3} \\\\[0.5em]\ny - 3 & = 3(x - 2) = 3x - 6 \\\\[0.5em]\ny & = 3x - 3 \\\\[0.5em]\n\\mathbf{f(x)} & = \\mathbf{3x - 3}\n\\end{aligned}$$",
+    "pitfall": "**Check both points:** $f(2) = 3(2) - 3 = 3$ (works!). $f(4) = 3(4) - 3 = 9$ (works!). Verification takes only 5 seconds!",
+    "script": "[Prof. Park] Turn to Example 6 on page 52: Find the equation of the linear function $f(x)$ that passes through the two points $(2, 3)$ and $(4, 9)$.\n\n[TA Sora] Here we are given TWO points, but no slope!\nStep 1: Compute the slope $m$ between $(2, 3)$ and $(4, 9)$ using the slope formula:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{9 - 3}{4 - 2}$$\nIn the numerator: $9 - 3 = 6$.\nIn the denominator: $4 - 2 = 2$.\n$$m = \\frac{6}{2} = 3$$\nThe slope is $m = 3$!\n\n[Prof. Park] Step 2: Now choose one point and use Point-Slope Form. Let us select $(2, 3)$ with $m = 3$:\n$$y - y_1 = m(x - x_1)$$\n$$y - 3 = 3(x - 2)$$\nDistribute the 3:\n$$y - 3 = 3x - 6$$\nAdd 3 to both sides:\n$$y = 3x - 6 + 3 \\implies y = 3x - 3$$\n\n[TA Sora] Step 3: Write in the requested function notation $f(x)$:\n$$\\mathbf{f(x) = 3x - 3}$$\nLet us verify with our other point $(4, 9)$:\n$$f(4) = 3(4) - 3 = 12 - 3 = 9!$$\nIt works perfectly!\n\n[Prof. Park] In forestry science in Montana's Gallatin National Forest, if a lodgepole pine seedling is 3 inches tall at year 2 and 9 inches tall at year 4, this linear function $f(x) = 3x - 3$ models its annual growth rate of 3 inches per year!\n\n[TA Sora] Notice that between year 2 and year 4, 2 years elapsed and height increased by 6 inches. Dividing 6 inches by 2 years gives 3 inches per year! The slope formula is simply calculating average unit rate!\n\n[Prof. Park] In hydrology, if snowpack depth increases linearly by 3 inches per storm cycle, modeling cumulative winter precipitation allows reservoir managers to forecast springtime irrigation runoff for Gallatin Valley ranches!",
+    "graph": {
+      "xMin": -1,
+      "xMax": 6,
+      "yMin": -4,
+      "yMax": 11,
+      "title": "Example 6: f(x) = 3x - 3 through (2, 3) and (4, 9)",
+      "points": [
+        {
+          "x": 2,
+          "y": 3,
+          "label": "(2, 3)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 4,
+          "y": 9,
+          "label": "(4, 9)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "label": "y-int (0, -3)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 3,
+          "yIntercept": -3,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "f(x) = 3x - 3"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.6 Example 7: Constant Function through (7, 9) and (-4, 9)",
+    "subtitle": "Unit 2 • Lecture 28 • Section 2.6 Example 7 (Workbook p. 52)",
+    "detail": "Lecture 28: Linear Functions & Rate of Change",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7 (Workbook p. 52)\nFind the equation of the linear function $g(x)$ that contains the points **$(7, 9)$** and **$(-4, 9)$**.\n- Notice the shared coordinates!\n- State the equation in function notation.",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{9 - 9}{-4 - 7} = \\frac{0}{-11} = \\mathbf{0} \\\\[0.5em]\n\\text{Constant Function: } & g(x) = 0x + 9 \\\\[0.5em]\n\\mathbf{g(x)} & = \\mathbf{9} \\\\[0.5em]\n\\mathbf{\\text{Range: }} & \\mathbf{\\{9\\}}\n\\end{aligned}$$",
+    "pitfall": "**Constant linear function:** When $m = 0$, $g(x) = 9$. It is a flat horizontal line with domain $(-\\infty, \\infty)$ and range $\\{9\\}$!",
+    "script": "[Prof. Park] On Slide 8, we examine Example 7 on page 52: Find the equation of the linear function $g(x)$ that contains the points $(7, 9)$ and $(-4, 9)$.\n\n[TA Sora] Apply TA Sora's Three-Second Scan! Look at the coordinates:\nPoint 1: $(7, 9)$\nPoint 2: $(-4, 9)$\nWhat jumps out immediately? Both points share the exact same output: $y = 9$!\n\n[Prof. Park] Let us check the slope formula:\n$$m = \\frac{9 - 9}{-4 - 7} = \\frac{0}{-11} = 0$$\nThe slope is zero!\nBy HOY VUX: Horizontal line, zero slope, equation $y = 9$.\n\n[TA Sora] And how do we write that in function notation?\nReplace $y$ with $g(x)$:\n$$\\mathbf{g(x) = 9}$$\nThis is the **Constant Function**! No matter what input you feed into $g(x)$—whether $x = 7$, $x = -4$, or $x = 1{,}000$—the output is always 9!\n\n[Prof. Park] What are the Domain and Range of a constant function?\n- **Domain:** Any real number can enter, so $\\text{Domain} = (-\\infty, \\infty)$.\n- **Range:** It only touches one single height! So $\\text{Range} = \\{9\\}$.\n\n[TA Sora] In food science and pharmaceutical storage in Bozeman, refrigeration units must maintain a constant temperature of $9^\\circ\\text{C}$ regardless of outside weather fluctuations. That is a constant function $g(x) = 9$!\n\n[Prof. Park] In Lecture 29, we take all of these skills and step into full real-world modeling: ski shop economics, car depreciation, and sales commissions! Fantastic job today, everyone!\n\n[Prof. Park] In computer software, a constant function represents a locked configuration setting or a flat subscription fee. It reminds us that horizontal lines are the peaceful ground floor of linear algebra!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 9,
+      "yMin": 0,
+      "yMax": 12,
+      "title": "Example 7: Constant Function g(x) = 9",
+      "points": [
+        {
+          "x": -4,
+          "y": 9,
+          "label": "(-4, 9)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "label": "(7, 9)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "horizontal": 9,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "g(x) = 9"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Parallel & Perpendicular Lines: Definitions & Slopes",
+    "subtitle": "Unit 2 • Lecture 21 • Section 2.2 (Workbook p. 40)",
+    "detail": "Lecture 21: Parallel & Perpendicular Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Parallel & Perpendicular Lines (Workbook p. 40)\n- **Parallel Lines:** Two lines that never intersect in a plane.\n  $$\\mathbf{m_1 = m_2 \\quad \\text{and} \\quad b_1 \\neq b_2}$$\n  *(Same slope, different $y$-intercepts)*\n- **Perpendicular Lines:** Two lines that intersect at a $90^\\circ$ right angle.\n  $$\\mathbf{m_1 \\cdot m_2 = -1 \\iff m_2 = -\\frac{1}{m_1}}$$\n  *(Slopes are opposite reciprocals)*",
+    "solution": "$$\\begin{aligned}\n\\text{Parallel: } & m_1 = \\frac{2}{3} \\implies m_2 = \\frac{2}{3} \\\\[0.5em]\n\\text{Perpendicular: } & m_1 = \\frac{2}{3} \\implies m_2 = -\\frac{3}{2} \\quad (\\text{flip fraction and negate sign})\n\\end{aligned}$$",
+    "pitfall": "**Both conditions for perpendicular:** Opposite reciprocal means TWO changes: change the sign (positive $\\leftrightarrow$ negative) AND flip the fraction upside-down!",
+    "script": "[Prof. Park] Welcome back, students, to Lecture 21 of M090 Introductory Algebra! Today on page 40 of your workbook, we step into one of the most practically vital topics in all of geometry and algebra: The Relationship Between Parallel and Perpendicular Lines.\n\n[TA Sora] Whether you are driving down Interstate 90 through the Gallatin Valley, framing a custom timber home in Big Sky, or watching the dual steel rails of the Montana Rail Link roll through Bozeman, you are looking directly at parallel lines. In pure geometry, two lines in the same plane are parallel if they never meet, no matter how far they stretch into infinity. \n\n[Prof. Park] But algebra demands a numerical explanation! What mathematical property guarantees that two lines will never touch, even if you follow them across the entire continent? The answer is their **slope**! If two non-vertical lines are to maintain the exact same distance between them forever, they must rise and run at the exact same rate. That gives us our primary algebraic theorem:\nTwo non-vertical lines are **parallel** if and only if they have the **identical slope**:\n$$m_1 = m_2 \\quad \\text{and} \\quad b_1 \\neq b_2$$\nNotice that second condition: $b_1 \\neq b_2$. If two lines had the same slope AND the same $y$-intercept, they wouldn't be parallel lines; they would be the exact same line drawn on top of itself!\n\n[TA Sora] Now let us talk about the opposite extreme: **Perpendicular Lines**! In construction, carpentry, and architecture, perpendicular lines are the foundation of structural stability. When carpenters frame a house in Montana to withstand 80-mile-per-hour winds and heavy winter snow loads, the wall studs must stand perfectly perpendicular—at a true 90-degree right angle—to the floor plates and foundation.\n\n[Prof. Park] And algebraically, perpendicular slopes do not match; they are **negative reciprocals** of each other!\n$$m_1 \\cdot m_2 = -1 \\quad \\iff \\quad m_2 = -\\frac{1}{m_1}$$\nThink about the geometry: If Line 1 is climbing uphill from southwest to northeast with a positive slope, Line 2 MUST plunge downhill from northwest to southeast with a negative slope! And their steepness must invert: if one line rises 2 feet for every 3 feet of run ($m = 2/3$), the perpendicular line must drop 3 feet for every 2 feet of run ($m = -3/2$).\n\n[TA Sora] Here is my golden paper-and-pencil rule that I teach every student at Gallatin College: **The Two-Flip Rule!** To find a perpendicular slope, you must perform two separate flips:\n1. **Flip the fraction** upside down (take the reciprocal).\n2. **Flip the sign** (positive becomes negative, or negative becomes positive).\nIf you only do one flip, your roof framing will be crooked and collapse under the first winter blizzard! Always do both flips!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 3: Comparing Slopes",
+    "subtitle": "Unit 2 • Lecture 21 • Section 2.2 Example 3 (Workbook p. 40)",
+    "detail": "Lecture 21: Parallel & Perpendicular Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 (Workbook p. 40)\nDetermine if the two lines with the given slopes are **parallel, perpendicular, or neither**:\n$$\\mathbf{m_1 = \\frac{2}{5} \\quad \\text{and} \\quad m_2 = -\\frac{5}{2}}$$",
+    "solution": "$$\\begin{aligned}\n\\text{Compare slopes: } & m_1 = \\frac{2}{5}, \\quad m_2 = -\\frac{5}{2} \\\\[0.5em]\n\\text{Check parallel: } & \\frac{2}{5} \\neq -\\frac{5}{2} \\implies \\text{Not parallel} \\\\[0.5em]\n\\text{Check product: } & m_1 \\cdot m_2 = \\left(\\frac{2}{5}\\right) \\left(-\\frac{5}{2}\\right) = -\\frac{10}{10} = \\mathbf{-1} \\\\[0.8em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{The lines are Perpendicular.}}\n\\end{aligned}$$",
+    "pitfall": "**Neither case:** If $m_1 = \\frac{2}{5}$ and $m_2 = \\frac{5}{2}$ (same sign), they are NEITHER, because the product is $+1$, not $-1$!",
+    "script": "[Prof. Park] Let us immediately apply Sora's Two-Flip Rule to Example 3 on page 40 of your workbook: Determine if the lines with the given pairs of slopes are parallel, perpendicular, or neither.\n\n[TA Sora] Let us analyze Pair A first: $m_1 = 2$ and $m_2 = 2$.\nLook at the numbers directly: $m_1$ is $+2$, and $m_2$ is $+2$.\nAre they identical? Yes, $m_1 = m_2 = 2$!\nBecause both lines rise 2 vertical feet for every 1 horizontal foot, they climb uphill at the exact same pitch—like two parallel cross-country ski tracks groomed through the snow at Bohart Ranch.\nTherefore, Pair A represents **PARALLEL LINES**!\n\n[Prof. Park] Now let us examine Pair B: $m_1 = -\\frac{3}{4}$ and $m_2 = \\frac{4}{3}$.\nLet us run our checks methodically:\nCheck 1: Are they equal? No, one is negative and one is positive, so they are definitely not parallel.\nCheck 2: Test for perpendicularity using the product formula:\n$$m_1 \\cdot m_2 = \\left(-\\frac{3}{4}\\right) \\cdot \\left(\\frac{4}{3}\\right) = -\\frac{12}{12} = -1!$$\nThe product is exactly $-1$!\n\n[TA Sora] Now test it using my Two-Flip Rule:\nStart with $m_1 = -\\frac{3}{4}$.\nFlip 1 (the fraction): $-\\frac{3}{4}$ flips upside down to $-\\frac{4}{3}$.\nFlip 2 (the sign): change negative to positive, giving $+\\frac{4}{3}$!\nThat matches $m_2$ perfectly! Therefore, Pair B represents **PERPENDICULAR LINES** meeting at a crisp 90-degree right angle!\n\n[Prof. Park] Now look at Pair C very carefully: $m_1 = 2$ and $m_2 = -2$.\nThis is the single most common trap question on Midterm Exam 2 across all of Gallatin College! A hurried student looks at $+2$ and $-2$, sees the minus sign, and instantly circles 'Perpendicular.' Sora, why is that completely wrong?\n\n[TA Sora] Because that student only did ONE flip! They flipped the sign from positive to negative, but they completely forgot to flip the fraction upside down! The reciprocal of $2$ (which is $\\frac{2}{1}$) is $\\frac{1}{2}$. For perpendicularity, we needed $-\\frac{1}{2}$!\nThink of an A-frame cabin roof: one side rises with slope $+2$, and the other side falls with slope $-2$. They meet at the roof peak, but they meet at an acute angle, NOT a 90-degree perpendicular angle!\nLet us test the product:\n$$m_1 \\cdot m_2 = (2) \\cdot (-2) = -4 \\neq -1$$\nAre they equal? $2 \\neq -2$, so not parallel.\nIs their product $-1$? $-4 \\neq -1$, so not perpendicular.\nTherefore, Pair C is strictly **NEITHER**! Always verify both flips!"
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 4 (Step 1): Solving Line 1",
+    "subtitle": "Unit 2 • Lecture 21 • Section 2.2 Example 4 (Workbook p. 40)",
+    "detail": "Lecture 21: Parallel & Perpendicular Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 (Workbook p. 40)\nDetermine if the two lines are parallel, perpendicular, or neither:\n$$\\text{Line 1: } \\mathbf{x + y = 5}$$\n$$\\text{Line 2: } \\mathbf{-2x - 2y = 7}$$\nSolve Line 1 for $y$ to determine its slope $m_1$ and $y$-intercept $b_1$.",
+    "solution": "$$\\begin{aligned}\nx + y & = 5 \\\\[0.5em]\ny & = -x + 5 \\\\[0.8em]\n\\mathbf{\\text{Slope } m_1: } & \\mathbf{-1} \\\\\n\\mathbf{y\\text{-intercept } b_1: } & \\mathbf{(0, 5)}\n\\end{aligned}$$",
+    "pitfall": "**Implicit coefficient of 1:** In $y = -x + 5$, the slope is $m = -1$, NOT $0$ or just the minus sign!",
+    "script": "[Prof. Park] Now turn to Example 4 on page 40 of your workbook: Determine if the two lines $x + y = 5$ and $-2x - 2y = 7$ are parallel, perpendicular, or neither. On this slide, we tackle Step 1: Analyzing Line 1.\n\n[TA Sora] Notice how both equations are presented in Standard Form: $Ax + By = C$. You cannot determine whether lines are parallel or perpendicular simply by glancing at their coefficients in standard form! You must convert each equation into the universal comparison format: **Slope-Intercept Form** $y = mx + b$!\n\n[Prof. Park] Let us isolate $y$ in Line 1 step by step:\n$$x + y = 5$$\nOur objective is to get $y$ completely alone on the left-hand side with a coefficient of positive 1.\nWe eliminate the $x$-term from the left by subtracting $x$ from both sides:\n$$y = -x + 5$$\nNotice how we intentionally write the $-x$ term before the $+5$. That aligns our equation directly with $y = mx + b$!\n\n[TA Sora] Now let us extract the vital parameters from Line 1:\nWhat is multiplying $x$? There is a negative sign, which represents an invisible $-1$:\n$$m_1 = -1$$\nAnd what is the constant term at the end? It is $+5$:\n$$b_1 = 5 \\implies \\text{The } y\\text{-intercept is } (0, 5)$$\n\n[Prof. Park] Think about what this line represents in real life. Suppose you have a fixed budget of $500 for a weekend ski trip to Bridger Bowl. If $x$ represents the amount you spend on lift tickets and $y$ represents what you have left for food and lodging, $x + y = 5$ (in hundreds of dollars) means every single dollar you spend on skiing decreases your lodging budget by exactly one dollar! That is a negative slope of $-1$.\n\n[TA Sora] As you run 1 unit right, you drop 1 unit down. Keep $m_1 = -1$ and $b_1 = 5$ locked in your mind. On Slide 4, we solve Line 2!"
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 4 (Step 2): Solving Line 2",
+    "subtitle": "Unit 2 • Lecture 21 • Section 2.2 Example 4 (Workbook p. 40)",
+    "detail": "Lecture 21: Parallel & Perpendicular Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 Step 2 (Workbook p. 40)\nNow solve Line 2 for $y$:\n$$\\mathbf{-2x - 2y = 7}$$\n- Add $2x$ to both sides.\n- Divide each term by $-2$.\n- Identify slope $m_2$ and $y$-intercept $b_2$.",
+    "solution": "$$\\begin{aligned}\n-2x - 2y & = 7 \\\\[0.5em]\n-2y & = 2x + 7 \\quad (\\text{add } 2x) \\\\[0.5em]\ny & = \\frac{2x + 7}{-2} = \\frac{2}{-2}x + \\frac{7}{-2} \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{-x - \\frac{7}{2} = -x - 3.5} \\\\[0.8em]\n\\mathbf{\\text{Slope } m_2: } & \\mathbf{-1} \\\\\n\\mathbf{y\\text{-intercept } b_2: } & \\mathbf{\\left(0, -\\frac{7}{2}\\right) = (0, -3.5)}\n\\end{aligned}$$",
+    "pitfall": "**Watch signs during division:** $2x / (-2) = -1x$, and $7 / (-2) = -3.5$.",
+    "script": "[Prof. Park] On Slide 4, we execute Step 2 of Example 4: Converting Line 2, $-2x - 2y = 7$, into Slope-Intercept Form.\n\n[TA Sora] Look at all those negative signs! This equation requires disciplined, step-by-step algebra.\nOur equation is:\n$$-2x - 2y = 7$$\nFirst, we want the $y$-term alone on the left side. We eliminate the $-2x$ term by adding $2x$ to both sides of the equation:\n$$-2y = 2x + 7$$\nAgain, place the $x$-term first so we maintain the $mx + b$ structure.\n\n[Prof. Park] Now comes the most dangerous moment where many students slip up: We must divide EVERY single term on both sides by the coefficient of $y$, which is $-2$!\n$$y = \\frac{2x}{-2} + \\frac{7}{-2}$$\nLet us simplify each fraction individually with absolute precision:\nFirst term: $\\frac{2x}{-2} = -1x = -x$.\nSecond term: $\\frac{7}{-2} = -\\frac{7}{2} = -3.5$.\nSo our simplified slope-intercept equation is:\n$$y = -x - \\frac{7}{2}$$\n\n[TA Sora] Let us read off the parameters for Line 2:\nThe slope is the coefficient of $x$, which is:\n$$m_2 = -1$$\nAnd the constant term is:\n$$b_2 = -\\frac{7}{2} = -3.5 \\implies \\text{The } y\\text{-intercept is } (0, -3.5)$$\n\n[Prof. Park] Compare those numbers with Line 1 from Slide 3:\nLine 1 had slope $m_1 = -1$ and intercept $b_1 = 5$.\nLine 2 has slope $m_2 = -1$ and intercept $b_2 = -3.5$.\nLook at those slopes: both are $-1$! On Slide 5, let us put them together on the Cartesian grid and deliver our final conclusion."
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 4 (Conclusion & Graph): Parallel Lines",
+    "subtitle": "Unit 2 • Lecture 21 • Section 2.2 Example 4 Graph (Workbook p. 40)",
+    "detail": "Lecture 21: Parallel & Perpendicular Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 Conclusion & Graph\nCompare slopes $m_1 = -1$ and $m_2 = -1$ with intercepts $b_1 = 5$ and $b_2 = -3.5$:\n- State the final relationship.\n- Visualize both lines on the Cartesian plane.",
+    "solution": "$$\\begin{aligned}\nm_1 = -1 & = m_2 = -1 \\quad (\\text{slopes are identical}) \\\\\nb_1 = 5 & \\neq b_2 = -3.5 \\quad (\\text{different } y\\text{-intercepts}) \\\\[0.8em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{The two lines are strictly PARALLEL.}}\n\\end{aligned}$$",
+    "pitfall": "**What if both slopes and intercepts were identical?** If $m_1 = m_2$ AND $b_1 = b_2$, the lines would be the SAME line (coincident), not parallel!",
+    "script": "[Prof. Park] On Slide 5, we present the visual confirmation and mathematical conclusion for Example 4. Look at the coordinate plane on your screen!\n\n[TA Sora] Let us conduct our formal two-step comparison:\nStep 1: Check the slopes:\n$$m_1 = -1 \\quad \\text{and} \\quad m_2 = -1 \\implies m_1 = m_2$$\nBoth slopes are completely identical!\nStep 2: Check the $y$-intercepts:\n$$b_1 = 5 \\quad \\text{and} \\quad b_2 = -3.5 \\implies b_1 \\neq b_2$$\nThe intercepts are completely distinct!\n\n[Prof. Park] Therefore, by the formal definition of parallel lines:\n$$\\mathbf{\\text{Line 1 and Line 2 are PARALLEL!}}$$\nLook at the graph: Line 1 crosses the vertical axis high up at $(0, 5)$ and descends at a 45-degree angle. Line 2 crosses lower down at $(0, -3.5)$ and descends at the exact same 45-degree angle. They track across the plane like two cross-country skiers moving down a mountain trail in Bozeman, perfectly side by side, maintaining the exact same separation from negative infinity to positive infinity.\n\n[TA Sora] And think about what this means for solving equations! Later in Unit 2, in Lectures 26 through 30, we will solve systems of linear equations by finding where two lines intersect. If two lines are parallel, they never intersect—not even once! That means the system of equations formed by Line 1 and Line 2 has **NO SOLUTION**!\n\n[Prof. Park] That geometric insight connects algebra to calculus. A system with parallel lines is called 'inconsistent' because there is no point in the universe where both equations can be true at the same time. Remember: Equal slopes and different intercepts always mean Parallel!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 8,
+      "yMin": -6,
+      "yMax": 8,
+      "title": "Parallel Lines: x + y = 5 and -2x - 2y = 7 (m = -1)",
+      "points": [
+        {
+          "x": 0,
+          "y": 5,
+          "label": "(0, 5)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": -3.5,
+          "label": "(0, -3.5)",
+          "color": "#ec4899"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -1,
+          "yIntercept": 5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "x + y = 5"
+        },
+        {
+          "slope": -1,
+          "yIntercept": -3.5,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "-2x - 2y = 7"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 5 (Step 1): Solving Line 1",
+    "subtitle": "Unit 2 • Lecture 21 • Section 2.2 Example 5 (Workbook p. 40)",
+    "detail": "Lecture 21: Parallel & Perpendicular Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 (Workbook p. 40)\nDetermine if the two lines are parallel, perpendicular, or neither:\n$$\\text{Line 1: } \\mathbf{2y = x - 2}$$\n$$\\text{Line 2: } \\mathbf{y = -2x - 4}$$\nSolve Line 1 for $y$ and determine its slope $m_1$.",
+    "solution": "$$\\begin{aligned}\n2y & = x - 2 \\\\[0.5em]\ny & = \\frac{1}{2}x - \\frac{2}{2} \\\\[0.5em]\n\\mathbf{y} & = \\mathbf{\\frac{1}{2}x - 1} \\\\[0.8em]\n\\mathbf{\\text{Slope } m_1: } & \\mathbf{\\frac{1}{2}} \\\\\n\\mathbf{y\\text{-intercept } b_1: } & \\mathbf{(0, -1)}\n\\end{aligned}$$",
+    "pitfall": "**Coefficient in front of x:** When dividing $x$ by $2$, the coefficient is $\\frac{1}{2}$, NOT $2$!",
+    "script": "[Prof. Park] Now let us move to Example 5 on page 40 of your workbook: Determine if the two lines $-x + 2y = 6$ and $2x + y = 4$ are parallel, perpendicular, or neither. On this slide, we begin Step 1: Solving Line 1.\n\n[TA Sora] Our first equation is:\n$$-x + 2y = 6$$\nLet us isolate $y$ so we can read its slope and intercept clearly.\nStep 1: Add $x$ to both sides to move the $x$-term across the equals sign:\n$$2y = x + 6$$\nStep 2: Now divide every single term on both sides by the coefficient 2:\n$$y = \\frac{x}{2} + \\frac{6}{2}$$\n\n[Prof. Park] Now simplify those fractions. Many students get confused by $\\frac{x}{2}$. Remember that $\\frac{x}{2}$ is identical to $\\frac{1}{2}x$! There is an understood 1 in front of $x$. And $6$ divided by $2$ is $3$:\n$$y = \\frac{1}{2}x + 3$$\n\n[TA Sora] Let us extract the vital parameters for Line 1:\nThe slope is:\n$$m_1 = \\frac{1}{2}$$\nAnd the $y$-intercept is:\n$$b_1 = 3 \\implies (0, 3)$$\n\n[Prof. Park] Think about this slope in outdoor Montana hiking terms: A slope of $\\frac{1}{2}$ means for every 2 horizontal feet you walk along the trail toward Hyalite Canyon, you gain 1 vertical foot of elevation. It is a steady, gentle, gradual uphill climb!\nAnd where did you start? At basecamp elevation 3!\n\n[TA Sora] Record $m_1 = \\frac{1}{2}$ in your notebook. On Slide 7, we will solve Line 2, find its slope, and see how they interact!"
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.2 Example 5 (Step 2 & Graph): Perpendicular Lines",
+    "subtitle": "Unit 2 • Lecture 21 • Section 2.2 Example 5 Graph (Workbook p. 40)",
+    "detail": "Lecture 21: Parallel & Perpendicular Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 Conclusion & Graph (Workbook p. 40)\nCompare the slopes:\n$$\\mathbf{m_1 = \\frac{1}{2} \\quad \\text{and} \\quad m_2 = -2}$$\n- Calculate the product $m_1 \\cdot m_2$.\n- Graph both lines on the Cartesian plane to verify the $90^\\circ$ intersection.",
+    "solution": "$$\\begin{aligned}\nm_1 \\cdot m_2 & = \\left(\\frac{1}{2}\\right) (-2) = -\\frac{2}{2} = \\mathbf{-1} \\\\[0.8em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{The lines are strictly PERPENDICULAR.}} \\\\[0.5em]\n\\text{Intersection Point: } & \\frac{1}{2}x - 1 = -2x - 4 \\implies 2.5x = -3 \\implies \\mathbf{(-1.2, -1.6)}\n\\end{aligned}$$",
+    "pitfall": "**Opposite reciprocals product:** Two non-vertical lines are perpendicular if and only if their slopes multiply to $-1$!",
+    "script": "[Prof. Park] On Slide 7, we solve Line 2 of Example 5: $2x + y = 4$, and deliver our visual and algebraic conclusion.\n\n[TA Sora] Let us isolate $y$ in Line 2:\n$$2x + y = 4$$\nSubtract $2x$ from both sides:\n$$y = -2x + 4$$\nLook at how wonderfully quick that was! The coefficient of $y$ was already 1, so no division was necessary.\nLet us read off the parameters for Line 2:\nThe slope is:\n$$m_2 = -2 \\quad \\left(\\text{or } -\\frac{2}{1}\\right)$$\nAnd the $y$-intercept is:\n$$b_2 = 4 \\implies (0, 4)$$\n\n[Prof. Park] Now let us compare our two slopes side by side:\nFrom Slide 6: $m_1 = \\frac{1}{2}$.\nFrom Line 2: $m_2 = -2$.\nLet us test the perpendicular condition by multiplying them:\n$$m_1 \\cdot m_2 = \\left(\\frac{1}{2}\\right) \\cdot (-2) = -\\frac{2}{2} = -1!$$\n\n[TA Sora] The product is $-1$! And let us verify with my Two-Flip Rule:\nTake $m_1 = \\frac{1}{2}$.\nFlip 1: Invert the fraction $\\frac{1}{2} \\implies \\frac{2}{1} = 2$.\nFlip 2: Invert the sign from positive to negative $\\implies -2$!\nIt matches $m_2$ with 100% precision!\nTherefore:\n$$\\mathbf{\\text{Line 1 and Line 2 are PERPENDICULAR!}}$$\n\n[Prof. Park] Now look at the graph on your screen! Line 1 climbs gently uphill with slope $\\frac{1}{2}$, while Line 2 drops steeply downhill with slope $-2$. At their point of intersection, they form a perfect, rigid 90-degree right angle! In civil engineering and road construction, when engineers build drainage channels alongside Montana mountain highways, the culverts are cut perpendicular to the road to channel snowmelt away with maximum hydraulic efficiency!\n\n[TA Sora] Perpendicularity is everywhere around us. Whenever $m_1 \\cdot m_2 = -1$, you have guaranteed squareness!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -6,
+      "yMax": 6,
+      "title": "Perpendicular Lines: y = 1/2x - 1 and y = -2x - 4",
+      "points": [
+        {
+          "x": 0,
+          "y": -1,
+          "label": "y-int (0, -1)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": -4,
+          "label": "y-int (0, -4)",
+          "color": "#ec4899"
+        },
+        {
+          "x": -1.2,
+          "y": -1.6,
+          "label": "90° Intersection",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.5,
+          "yIntercept": -1,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = 1/2x - 1"
+        },
+        {
+          "slope": -2,
+          "yIntercept": -4,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "y = -2x - 4"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 2.2 Mastery: Parallel & Perpendicular Tests",
+    "subtitle": "Unit 2 • Lecture 21 • Section 2.2 Wrap-up",
+    "detail": "Lecture 21: Parallel & Perpendicular Lines",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Master Slope Comparison Rules\n- **Parallel:** $m_1 = m_2$ (Same slope, different intercepts)\n- **Perpendicular:** $m_1 \\cdot m_2 = -1$ (Opposite reciprocals)\n- **Special case:** Any horizontal line ($m=0$) is perpendicular to any vertical line ($m=\\text{undefined}$)\n- **Neither:** Any lines that fail both parallel and perpendicular criteria.",
+    "solution": "$$\\mathbf{\\text{Section 2.2 Mastered! Next Up: Section 2.3 — Finding Equations of Lines!}}$$",
+    "pitfall": "**Beware of identical signs:** $\\frac{3}{4}$ and $\\frac{4}{3}$ are reciprocals, but NOT opposite reciprocals! Their product is $+1$, so they are NEITHER!",
+    "script": "[Prof. Park] On Slide 8, we present the Section 2.2 Parallel & Perpendicular Master Summary Checklist. Let us cement these principles into your mathematical reflex system.\n\n[TA Sora] Here is your universal 3-step battle plan for any problem asking about parallel or perpendicular lines:\n1. **Always isolate $y$ first:** Convert every equation into Slope-Intercept Form $y = mx + b$. Never guess based on standard form coefficients!\n2. **Identify the slopes:** Extract $m_1$ and $m_2$ cleanly as numerical values, never including the letter $x$.\n3. **Run the Decision Matrix:**\n   - **Parallel:** Are $m_1 = m_2$ and $b_1 \\neq b_2$? (Same slope, different intercepts).\n   - **Perpendicular:** Is $m_1 \\cdot m_2 = -1$? (Negative reciprocals: flip the fraction and flip the sign).\n   - **Neither:** If they fail both tests, declare them Neither!\n\n[Prof. Park] And do not forget our special vertical and horizontal cases:\n- Any horizontal line ($m = 0$, $y = c$) is **perpendicular** to any vertical line ($m = \\text{undefined}$, $x = k$).\n- Any two distinct horizontal lines are **parallel** to each other.\n- Any two distinct vertical lines are **parallel** to each other.\n\n[TA Sora] Think about this as a life mindset as well: In college and in your career, when you work in parallel with great mentors, you learn to move forward at the same disciplined pace. But sometimes in life, you need to make a perpendicular pivot—a complete 90-degree change in direction that opens up an entirely new horizon!\n\n[Prof. Park] In Lecture 22, we step into Section 2.3: Writing Equations of Lines using the most powerful formula in algebra—the Point-Slope Formula! Outstanding effort today, everyone!"
+  }
+]

@@ -1,0 +1,447 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "The Anatomy of a Parabola Graph",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 (Workbook p. 61)",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Key Features of Every Parabola (Workbook p. 61)\nWhen analyzing any quadratic graph, identify:\n1. **$y$-intercept:** Where the graph crosses the vertical axis $(0, c)$.\n2. **$x$-intercepts:** Where the graph crosses the horizontal axis (at most 2).\n3. **Vertex $(h, k)$:** The turning point (maximum or minimum).\n4. **Axis of Symmetry:** The vertical line cutting through the vertex: $\\mathbf{x = h}$.\n5. **Domain:** Always $(-\\infty, \\infty)$.\n6. **Range:** Bounded by the vertex: $[k, \\infty)$ if opens up, or $(-\\infty, k]$ if opens down.",
+    "solution": "$$\\begin{aligned}\n\\text{Vertex: } & (h, k) \\\\\n\\text{Axis of Symmetry: } & x = h \\quad (\\text{vertical line}) \\\\\n\\text{Domain: } & (-\\infty, \\infty) \\\\\n\\text{Range: } & [k, \\infty) \\text{ if } a > 0, \\quad (-\\infty, k] \\text{ if } a < 0\n\\end{aligned}$$",
+    "pitfall": "**Axis of symmetry is an EQUATION:** The axis of symmetry is a line, so you MUST write $\\mathbf{x = h}$. Writing just the number $h$ will lose credit on exams!",
+    "script": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and with me is our stellar teaching assistant, Sora. Today in Lecture 32, we transition from the algebraic formulas of Section 3.0 into the visual architecture of the parabola.\n\n[TA Sora] Hello everyone! Slide 1 is what I call the 'Blueprint Slide.' When an architect designs a bridge in Bozeman or a roof truss for heavy mountain snow, they identify specific anchor points before drawing anything else. A parabola has four critical anatomical features!\n\n[Prof. Park] Let's list those four landmarks together: First, the Vertex—the turning point and single most important point on the entire curve. Second, the Axis of Symmetry—the vertical mirror line passing straight through the vertex. Third, the $y$-intercept—where the curve crosses the vertical axis. And fourth, the $x$-intercepts—where the curve touches the horizontal ground level.\n\n[TA Sora] Notice on the coordinate plane how symmetrical the parabola is! If you fold the paper along that golden dashed line—the Axis of Symmetry—the left wing lands perfectly on top of the right wing. Every point on the left has an identical twin on the right at the exact same height!\n\n[Prof. Park] Think of casting a fly-fishing line across the Gallatin River. As your weighted fly travels forward and arcs through the air, it reaches a peak height—that's your vertex. The left side where it rises and the right side where it descends are mirror images dictated by gravity.\n\n[TA Sora] And students, look at the equation for that mirror line: it is always written as a vertical line equation, $x = h$, NOT just a single number! If you write 'axis of symmetry = 1' on a quiz, that's just a number. You must write $x = 1$ because it is a physical line across the plane!\n\n[Prof. Park] Excellent warning, Sora. Today we will explore two complete examples—Example 5 in general form and Example 6 in vertex form—and extract all four features step-by-step.\n\n[TA Sora] Turn to page 61 in your workbook, and let's dissect Example 5 together!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -6,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -2,
+          "c": -3,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": -4,
+          "color": "#ffd700",
+          "label": "Vertex"
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x-int"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x-int"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "color": "#00ff88",
+          "label": "y-int"
+        }
+      ],
+      "axisOfSymmetry": 1
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 5 (Part 1): Intercepts for f(x) = x^2 - 6x + 5",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 Example 5A, B (Workbook p. 61)",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 (Workbook p. 61)\nUsing the graph of the function $\\mathbf{f(x) = x^2 - 6x + 5}$:\n- **A. $y$-intercept:** \\underline{\\hspace{2cm}}\n- **B. $x$-intercepts:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\mathbf{y\\text{-intercept: }} & \\text{Set } x = 0: f(0) = 0^2 - 6(0) + 5 = 5 \\implies \\mathbf{(0, 5)} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & \\text{Set } f(x) = 0: x^2 - 6x + 5 = 0 \\\\\n& (x - 1)(x - 5) = 0 \\\\\n& \\mathbf{x = 1 \\quad \\text{and} \\quad x = 5} \\implies \\mathbf{(1, 0) \\quad \\text{and} \\quad (5, 0)}\n\\end{aligned}$$",
+    "pitfall": "**List both x-intercepts:** Notice the parabola crosses the $x$-axis twice! List both points: $(1, 0)$ and $(5, 0)$.",
+    "script": "[Prof. Park] Slide 2 presents Section 3.0 Example 5 Part 1 on page 61: For $f(x) = x^2 - 6x + 5$, find the $y$-intercept and the $x$-intercepts. Sora, let's start with the $y$-intercept.\n\n[TA Sora] The $y$-intercept is always effortless! Set $x = 0$: $f(0) = 0^2 - 6(0) + 5 = 5$. So the $y$-intercept is $(0, 5)$! It is simply the constant term $c$.\n\n[Prof. Park] Now for Part B: to find the $x$-intercepts, we set the function value equal to zero: $x^2 - 6x + 5 = 0$. How should we solve this?\n\n[TA Sora] Factoring! We need two numbers that multiply to $+5$ and add up to $-6$. Those numbers are $-1$ and $-5$!\n\n[Prof. Park] That gives $(x - 1)(x - 5) = 0$. By the Zero-Product Property, $x - 1 = 0$ gives $x = 1$, and $x - 5 = 0$ gives $x = 5$.\n\n[TA Sora] As complete coordinate pairs, our $x$-intercepts are $(1, 0)$ and $(5, 0)$!\n\n[Prof. Park] We now have three critical points: $(0, 5)$, $(1, 0)$, and $(5, 0)$. Next, let's find the vertex on Slide 3!",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": -12,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": -9,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "V(0,-9)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-3,0)"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 5 (Part 2): Vertex & Axis of Symmetry",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 Example 5C, D (Workbook p. 61)",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 Continued (Workbook p. 61)\nFrom the graph of $\\mathbf{f(x) = x^2 - 6x + 5}$:\n- **C. Vertex:** \\underline{\\hspace{2cm}}\n- **D. Axis of Symmetry:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\mathbf{\\text{Vertex: }} & \\text{Lowest point at } x = 3, y = -4 \\implies \\mathbf{(3, -4)} \\\\[0.8em]\n\\mathbf{\\text{Axis of Symmetry: }} & \\text{Vertical line through vertex: } \\mathbf{x = 3}\n\\end{aligned}$$",
+    "pitfall": "**Notice the symmetry:** $x = 3$ is exactly halfway between the two $x$-intercepts $1$ and $5$: $\\frac{1 + 5}{2} = 3$!",
+    "script": "[Prof. Park] Continuing with $f(x) = x^2 - 6x + 5$ on Slide 3, Part 2 asks us for the Axis of Symmetry and the Vertex. Sora, how can we use our $x$-intercepts from Slide 2?\n\n[TA Sora] Because a parabola is perfectly symmetrical, the axis of symmetry is always halfway between the $x$-intercepts $x = 1$ and $x = 5$! The midpoint is $\\frac{1 + 5}{2} = 3$!\n\n[Prof. Park] And applying our formula $x = -\\frac{b}{2a} = -\\frac{-6}{2(1)} = 3$ confirms the Axis of Symmetry is the vertical line $x = 3$.\n\n[TA Sora] Now substitute $x = 3$ into $f(x)$ to get the vertex height: $f(3) = 3^2 - 6(3) + 5 = 9 - 18 + 5 = -4$!\n\n[Prof. Park] That gives the vertex $(3, -4)$. Since $a = 1 > 0$, the parabola opens upward, so the vertex is a minimum.\n\n[TA Sora] The minimum value is $-4$, occurring at $x = 3$! Vertex at $(3, -4)$ and line of symmetry at $x = 3$.",
+    "graph": {
+      "xMin": -1,
+      "xMax": 7,
+      "yMin": -5,
+      "yMax": 7,
+      "title": "Example 5: f(x) = x^2 - 6x + 5 (Vertex at (3, -4))",
+      "points": [
+        {
+          "x": 0,
+          "y": 5,
+          "label": "y-int (0, 5)",
+          "color": "#10b981"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "label": "x-int (1, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "label": "x-int (5, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 3,
+          "y": -4,
+          "label": "Vertex (3, -4)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 3
+    },
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": -12,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": -9,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "V(0,-9)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-3,0)"
+        },
+        {
+          "x": 0,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "min=-9"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 5 (Part 3): Min/Max & Domain/Range",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 Example 5E, F, G (Workbook p. 61)",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 Min/Max & Intervals (Workbook p. 61)\n- **E. What is the minimum value of $f(x)$?** \\underline{\\hspace{2cm}}\n- **F. At what $x$-value does the minimum occur?** \\underline{\\hspace{2cm}}\n- **G. Domain:** (in interval notation) \\quad **Range:** (in interval notation)",
+    "solution": "$$\\begin{aligned}\n\\textbf{E. Minimum Value: } & \\mathbf{-4} \\quad (\\text{the } y\\text{-coordinate of the vertex}) \\\\[0.5em]\n\\textbf{F. Occurs at: } & \\mathbf{x = 3} \\quad (\\text{the } x\\text{-coordinate of the vertex}) \\\\[0.8em]\n\\mathbf{\\text{Domain: }} & \\mathbf{(-\\infty, \\infty)} \\\\\n\\mathbf{\\text{Range: }} & \\mathbf{[-4, \\infty)} \\quad (\\text{starts at } -4 \\text{ and goes up to } +\\infty)\n\\end{aligned}$$",
+    "pitfall": "**Value vs Location:** The MINIMUM VALUE is the $y$-value ($-4$). The LOCATION where it occurs is the $x$-value ($3$)!",
+    "script": "[Prof. Park] Slide 4 covers Part 3 of Example 5: determining whether $f(x) = x^2 - 9$ has a minimum or maximum value, and finding its Domain and Range in interval notation.\n\n[TA Sora] First, let's determine minimum versus maximum. We look at the leading coefficient $a$. For $f(x) = x^2 - 9$, the coefficient in front of $x^2$ is an invisible positive 1 ($a = 1 > 0$). Since $a$ is positive, the parabola opens upward!\n\n[Prof. Park] And when a parabola opens upward like a cup, the vertex sits at the very bottom. That means the function has a Minimum value. But students, be careful: when a problem asks 'what is the minimum value?', it is asking for the lowest $y$-output, not the $x$-location!\n\n[TA Sora] Exactly! The minimum value is $-9$. It occurs at $x = 0$, but the value itself is $-9$. If you run a refrigeration truck carrying fresh Montana beef, your minimum operating temperature is the $y$-value, $-9^\\circ$, not the time of day.\n\n[Prof. Park] Now let's discuss Domain. For any standard polynomial or quadratic function with no square roots or fractions, you can substitute any real number you want for $x$. So the Domain is always all real numbers: $(-\\infty, \\infty)$.\n\n[TA Sora] But Range is restricted! Range is the set of all possible vertical outputs ($y$-values). Look at the graph: the curve never drops below $y = -9$. It starts at $-9$ and climbs upward to infinity without bound!\n\n[Prof. Park] Therefore, the Range in interval notation is $[-9, \\infty)$. Notice the square bracket on $-9$ because the point $(0, -9)$ is actually reached by the function.\n\n[TA Sora] Never put a parenthesis on a reached minimum: write $[-9, \\infty)$ with a bracket! Domain is $(-\\infty, \\infty)$, Range is $[-9, \\infty)$, and the minimum value is $-9$.",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": -12,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 0,
+          "c": -9,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "min y=-9"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 6 (Part 1): Vertex Form f(x) = -2(x + 1)^2 + 8",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 Example 6A, B (Workbook p. 61)",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 (Workbook p. 61)\nUsing the graph of the function $\\mathbf{f(x) = -2(x + 1)^2 + 8}$:\n- **A. $y$-intercept:** \\underline{\\hspace{2cm}}\n- **B. $x$-intercepts:** \\underline{\\hspace{2cm}}\nNotice $a = -2 < 0$, so this parabola opens **downward**!",
+    "solution": "$$\\begin{aligned}\n\\mathbf{y\\text{-intercept: }} & f(0) = -2(0 + 1)^2 + 8 = -2(1) + 8 = \\mathbf{6} \\implies \\mathbf{(0, 6)} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & 0 = -2(x + 1)^2 + 8 \\\\\n& 2(x + 1)^2 = 8 \\implies (x + 1)^2 = 4 \\\\\n& x + 1 = \\pm 2 \\implies \\mathbf{x = 1 \\quad \\text{and} \\quad x = -3} \\\\\n& \\implies \\mathbf{(1, 0) \\quad \\text{and} \\quad (-3, 0)}\n\\end{aligned}$$",
+    "pitfall": "**Don't assume y-intercept is 8:** In vertex form, the constant $8$ is $k$, NOT the $y$-intercept! Plug in $x = 0$ to get $y = 6$!",
+    "script": "[Prof. Park] On Slide 5, we turn to Section 3.0 Example 6 on page 62: $f(x) = -2(x + 1)^2 + 8$. Sora, this equation looks completely different from Example 5. It is written in what we call Vertex Form!\n\n[TA Sora] Yes! Standard Vertex Form is written as $f(x) = a(x - h)^2 + k$. Many students prefer vertex form over general form because the coordinates of the vertex $(h, k)$ are practically handed to you on a silver platter!\n\n[Prof. Park] But there is a huge psychological trap with the signs inside the parentheses! Notice the formula has a minus sign: $(x - h)$. That means the horizontal coordinate $h$ always has the OPPOSITE sign of what you see inside the parentheses!\n\n[TA Sora] Let's look closely at our function: we have $(x + 1)^2$. Because it says $+1$, $h$ is actually $-1$! Think of it as $(x - (-1))^2$. Outside the parentheses, we have $+8$, so $k = +8$. That gives us a vertex of $(-1, 8)$!\n\n[Prof. Park] Now let's find the $y$-intercept. Never assume the number at the end is the $y$-intercept when you are in vertex form! To find the $y$-intercept, you MUST substitute $x = 0$ into the function.\n\n[TA Sora] Let's do the arithmetic carefully: $f(0) = -2(0 + 1)^2 + 8$. Inside the parentheses, $0 + 1 = 1$. Square that: $1^2 = 1$. Multiply by $-2$: $-2(1) = -2$. Finally, add 8: $-2 + 8 = 6$!\n\n[Prof. Park] So the $y$-intercept is at $(0, 6)$! Notice that 6 is NOT the number 8 sitting at the end of the equation. In vertex form, the number at the end is $k$, not the $y$-intercept.\n\n[TA Sora] That is such a vital distinction. In general form, the constant $c$ was the $y$-intercept. In vertex form, $k$ is the vertex height, and you must calculate $f(0)$ to find the $y$-intercept. Here it is $(0, 6)$!",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 3,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -2,
+          "b": -4,
+          "c": 6,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -1,
+          "y": 8,
+          "color": "#ffd700",
+          "label": "V(-1,8)"
+        }
+      ],
+      "axisOfSymmetry": -1
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 6 (Part 2): Vertex & Axis of Symmetry",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 Example 6C, D (Workbook p. 61)",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 Vertex from Formula (Workbook p. 61)\nCompare $\\mathbf{f(x) = -2(x + 1)^2 + 8}$ to Vertex Form $\\mathbf{f(x) = a(x - h)^2 + k}$:\n- **C. Vertex:** \\underline{\\hspace{2cm}} *(Do you see the connection to the function?)*\n- **D. Axis of Symmetry:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\text{Formula: } & f(x) = a(x - h)^2 + k \\\\[0.5em]\n\\text{Identify: } & x + 1 = x - (-1) \\implies \\mathbf{h = -1} \\\\\n& \\mathbf{k = 8} \\\\[0.8em]\n\\mathbf{\\text{Vertex: }} & \\mathbf{(-1, 8)} \\\\[0.5em]\n\\mathbf{\\text{Axis of Symmetry: }} & \\mathbf{x = -1}\n\\end{aligned}$$",
+    "pitfall": "**The sign inside the parentheses flips!** In $(x + 1)^2$, $h = -1$, NOT $+1$! It's always the opposite sign of what's inside!",
+    "script": "[Prof. Park] Let's continue with Example 6 on Slide 6: identifying the Vertex and Axis of Symmetry for $f(x) = -2(x + 1)^2 + 8$. As Sora pointed out, reading vertex form $a(x - h)^2 + k$ reveals the vertex $(h, k)$ directly.\n\n[TA Sora] Here is my personal mental trick: 'Inside the parentheses, think opposite; outside the parentheses, keep it normal.' Inside, we see $+1$, so we flip the sign to $-1$. Outside, we see $+8$, so we keep $+8$. That gives us the vertex $(-1, 8)$!\n\n[Prof. Park] And once you have the vertex $(-1, 8)$, what is the equation of the Axis of Symmetry? The vertical mirror line must slice right through the $x$-coordinate of the vertex. So the Axis of Symmetry is simply $x = -1$.\n\n[TA Sora] Look at the graph on your right: the vertical dashed golden line is positioned at $x = -1$. Notice that our leading coefficient is $a = -2$. Because $a$ is negative, the parabola opens downward!\n\n[Prof. Park] And look at the factor of 2! The graph is narrower and steeper than a standard parabola because the factor of 2 stretches the curve vertically away from the horizontal axis. \n\n[TA Sora] If you are in civil engineering designing a storm water drainage culvert or an arched tunnel through the Rocky Mountains, you need to know the highest clearance point so tall trucks can pass safely. The vertex $(-1, 8)$ tells you the absolute highest clearance inside that arch!\n\n[Prof. Park] Exactly. The highest point is at 8 feet (or meters), located 1 unit to the left of your center reference line. \n\n[TA Sora] Write down both items: Vertex is $(-1, 8)$, and Axis of Symmetry is the vertical line $x = -1$. Now let's examine the maximum value and range on Slide 7!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 3,
+      "yMin": -2,
+      "yMax": 10,
+      "title": "Example 6: f(x) = -2(x + 1)^2 + 8 (Vertex (-1, 8))",
+      "points": [
+        {
+          "x": -1,
+          "y": 8,
+          "label": "Max Vertex (-1, 8)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "label": "y-int (0, 6)",
+          "color": "#10b981"
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "label": "x-int (-3, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "label": "x-int (1, 0)",
+          "color": "#f59e0b"
+        }
+      ],
+      "curves": [
+        {
+          "a": -2,
+          "b": -4,
+          "c": 6,
+          "color": "#ec4899",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": -1
+    },
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 3,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -2,
+          "b": -4,
+          "c": 6,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -1,
+          "y": 8,
+          "color": "#ffd700",
+          "label": "V(-1,8) MAX"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1,0)"
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-3,0)"
+        }
+      ],
+      "axisOfSymmetry": -1
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 6 (Part 3): Max Value & Range",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 Example 6E, F, G (Workbook p. 61)",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 Max & Range (Workbook p. 61)\n- **E. What is the maximum value of $f(x)$?** \\underline{\\hspace{2cm}}\n- **F. At what $x$-value does the maximum occur?** \\underline{\\hspace{2cm}}\n- **G. Domain:** (in interval notation) \\quad **Range:** (in interval notation)",
+    "solution": "$$\\begin{aligned}\n\\textbf{E. Maximum Value: } & \\mathbf{8} \\quad (\\text{peak height of the parabola}) \\\\[0.5em]\n\\textbf{F. Occurs at: } & \\mathbf{x = -1} \\\\[0.8em]\n\\mathbf{\\text{Domain: }} & \\mathbf{(-\\infty, \\infty)} \\\\\n\\mathbf{\\text{Range: }} & \\mathbf{(-\\infty, 8]} \\quad (\\text{goes down to } -\\infty, \\text{ capped at peak } 8)\n\\end{aligned}$$",
+    "pitfall": "**Range direction for downward parabolas:** The curve extends downward, so range is $(-\\infty, 8]$, NOT $[8, -\\infty)$ or $[8, \\infty)$!",
+    "script": "[Prof. Park] Slide 7 covers Part 3 of Example 6: finding the maximum or minimum value and writing the Domain and Range for $f(x) = -2(x + 1)^2 + 8$. \n\n[TA Sora] Since the leading coefficient is $a = -2 < 0$, our parabola opens downward. That means the vertex $(-1, 8)$ is the mountain peak—the absolute Maximum value of the function!\n\n[Prof. Park] And what is that maximum value? It is the $y$-value of the vertex: the maximum value is 8. The function reaches a height of 8 when $x = -1$, but it can never produce any output higher than 8.\n\n[TA Sora] Now let's write the Domain. Professor Park, does the domain ever change for a standard quadratic function?\n\n[Prof. Park] Never! A parabola extends infinitely to the left and infinitely to the right without any holes, vertical asymptotes, or breaks. So the Domain is always all real numbers: $(-\\infty, \\infty)$.\n\n[TA Sora] But look at the Range! Because the parabola opens downward, its vertical outputs come from deep down in the negative abyss, climb all the way up to the peak of 8, and stop right there!\n\n[Prof. Park] When writing interval notation, always list from smallest to largest—bottom to top! So the Range begins at $-\\infty$ and goes up to 8, with a solid bracket on 8: $(-\\infty, 8]$.\n\n[TA Sora] Common student mistake alert: Never write $[8, -\\infty)$! Interval notation must always read from left to right, lowest number first. So $-\\infty$ comes first: $(-\\infty, 8]$.\n\n[Prof. Park] Maximum value is 8, Domain is $(-\\infty, \\infty)$, and Range is $(-\\infty, 8]$. You have completely mastered the functional behavior!",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 3,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -2,
+          "b": -4,
+          "c": 6,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -1,
+          "y": 8,
+          "color": "#ffd700",
+          "label": "max=8"
+        }
+      ],
+      "axisOfSymmetry": -1
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.0 Example 6 (Part 4): Converting to General Form",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 Example 6H (Workbook p. 61)",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6H: Algebraic Expansion (Workbook p. 61)\nSimplify the function $\\mathbf{f(x) = -2(x + 1)^2 + 8}$ into **General Form** ($ax^2 + bx + c$):\n- FOIL $(x + 1)^2$ first.\n- Distribute $-2$.\n- Combine like terms.",
+    "solution": "$$\\begin{aligned}\nf(x) & = -2(x + 1)^2 + 8 \\\\[0.5em]\n& = -2(x^2 + 2x + 1) + 8 \\quad (\\text{FOIL first!}) \\\\[0.5em]\n& = -2x^2 - 4x - 2 + 8 \\quad (\\text{distribute } -2) \\\\[0.5em]\n\\mathbf{f(x)} & = \\mathbf{-2x^2 - 4x + 6}\n\\end{aligned}$$",
+    "pitfall": "**Order of operations:** Square $(x + 1)$ FIRST! Do NOT multiply $-2$ into $(x + 1)$ before squaring!",
+    "script": "[Prof. Park] On Slide 8, Part 4 of Example 6 asks us to do something very practical: convert our vertex form $f(x) = -2(x + 1)^2 + 8$ into General Form $f(x) = ax^2 + bx + c$. Sora, why would anyone want to convert between these two forms?\n\n[TA Sora] Because each form gives you different superpowers! Vertex form gives you the vertex instantly. But general form lets you see the $y$-intercept immediately and allows you to use the Quadratic Formula, which we will learn later in Section 3.5.\n\n[Prof. Park] To convert, we must follow the strict Order of Operations (PEMDAS). Step 1 is to expand the binomial square: $(x + 1)^2$. Sora, warn our students about the dangerous temptation here!\n\n[TA Sora] Oh, the 'Freshman's Dream' trap! Students often want to just square both terms and write $x^2 + 1$. That misses the entire middle term! Remember that $(x + 1)^2$ means $(x + 1)(x + 1) = x^2 + 2x + 1$. Never forget that middle term of $2x$!\n\n[Prof. Park] Now Step 2: substitute that expanded trinomial back into the function: $f(x) = -2(x^2 + 2x + 1) + 8$. Now distribute the $-2$ through every single term inside the parentheses: $-2 \\cdot x^2 = -2x^2$, $-2 \\cdot 2x = -4x$, and $-2 \\cdot 1 = -2$.\n\n[TA Sora] That gives us $f(x) = -2x^2 - 4x - 2 + 8$. And Step 3 is to combine the constant numbers at the end: $-2 + 8 = +6$!\n\n[Prof. Park] Bringing it all together: $f(x) = -2x^2 - 4x + 6$. Look at that: $a = -2$, $b = -4$, and $c = 6$. And notice our constant $c = 6$ matches the $y$-intercept $(0, 6)$ that we found on Slide 5!\n\n[TA Sora] Everything in algebra connects like clockwork. Converting forms confirms our calculations and proves that both equations describe the exact same curve!"
+  },
+  {
+    "num": 9,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.0 Part 2 Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 32 • Section 3.0 Wrap-up",
+    "detail": "Lecture 32: Reading Parabola Graphs",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Parabola Graphing Comparison\n- **General Form:** $f(x) = ax^2 + bx + c \\implies y$-intercept is $(0, c)$.\n- **Vertex Form:** $f(x) = a(x - h)^2 + k \\implies$ Vertex is $(h, k)$.\n- **Axis of Symmetry:** Always $x = h$.\n- **If $a > 0$:** Minimum $= k$, Range $= [k, \\infty)$.\n- **If $a < 0$:** Maximum $= k$, Range $= (-\\infty, k]$.",
+    "solution": "$$\\mathbf{\\text{Lecture 32 Mastered! Next Up: Lecture 33 — Advanced Quadratic Evaluation \\& Shifts!}}$$",
+    "pitfall": "**Remember:** The axis of symmetry always passes directly through the vertex!",
+    "script": "[Prof. Park] We have arrived at Slide 9, our Section 3.0 Part 2 Mastery Summary! Sora, we have covered an incredible amount of rich mathematics in Lecture 32.\n\n[TA Sora] We truly have! Let's review the big milestones: We explored the anatomy of parabolas in both General Form ($ax^2 + bx + c$) and Vertex Form ($a(x - h)^2 + k$). We found that the vertex $(h, k)$ is the turning point, and the vertical line $x = h$ is the Axis of Symmetry.\n\n[Prof. Park] We learned how to find the $y$-intercept by evaluating $f(0)$, and $x$-intercepts by solving $f(x) = 0$. We proved that the Domain of every quadratic is $(-\\infty, \\infty)$, while the Range is bounded by the vertex: $[k, \\infty)$ if the parabola opens up ($a > 0$), and $(-\\infty, k]$ if the parabola opens down ($a < 0$).\n\n[TA Sora] And we practiced algebraic discipline: expanding binomial squares carefully without dropping the middle term, distributing negative coefficients, and translating between vertex form and general form.\n\n[Prof. Park] In everyday life, whether you are managing personal debt, optimizing crop yields on a Montana farm, or tracking physical trajectories in sports, understanding peaks, valleys, and symmetry gives you a profound analytical edge.\n\n[TA Sora] Tonight, review pages 61 and 62 in your workbook. Practice finding the vertex, intercepts, and range for the exercise problems.\n\n[Prof. Park] In Lecture 33, we will tackle function evaluations with negative numbers, fractions, and binomial inputs. Great job today, everyone!\n\n[TA Sora] Keep your confidence high, Bobcats. We'll see you in Lecture 33!"
+  }
+]

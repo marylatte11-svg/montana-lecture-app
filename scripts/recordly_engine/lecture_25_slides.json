@@ -1,0 +1,223 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "The Formal Definition of a Function",
+    "subtitle": "Unit 2 • Lecture 25 • Section 2.4 (Workbook p. 46)",
+    "detail": "Lecture 25: Functions & The Vertical Line Test",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Definition: What is a Function? (Workbook p. 46)\nA **function** is a relation that assigns **each element in its domain to exactly one element in its range**.\n- **Crucial Rule:** One input value cannot correspond to two different output values!\n- **Allowed:** Multiple different inputs can produce the same output value (e.g. $2^2 = 4$ and $(-2)^2 = 4$).\n- **Forbidden:** A single input cannot split into two different outputs!",
+    "solution": "$$\\begin{aligned}\n\\text{Function: } & \\text{Every } x \\text{ has ONE AND ONLY ONE } y. \\\\\n\\text{NOT a function: } & \\text{An } x \\text{ gives two or more different } y\\text{'s}.\n\\end{aligned}$$",
+    "pitfall": "**One-to-many is NOT allowed:** Think of a person's birthday: one person can only have ONE birthday (function). But two different people can share the same birthday (allowed)!",
+    "script": "[Prof. Park] Welcome to Lecture 25 of M090! Today on page 46 of your workbook, we arrive at the crown jewel of introductory algebra: The Formal Definition of a Function and the Vertical Line Test.\n\n[TA Sora] In Lecture 24, we saw that *any* collection of ordered pairs is a relation. But mathematics, modern technology, and science demand predictability! If you build an airplane, design a bridge across the Yellowstone River, launch a weather satellite, or write computer software, you need systems that produce predictable, reliable, reproducible results. That special, elite class of relations is called a **Function**!\n\n[Prof. Park] Let us read the formal mathematical definition on page 46 together:\nA **Function** is a relation that assigns to **each input value ($x$) exactly ONE output value ($y$)**!\nRead that phrase again: *Each input has exactly ONE output!*\n\n[TA Sora] Here is my favorite everyday analogy: A vending machine in the Gallatin College student lounge!\nYou walk up to the machine, insert your dollar, and press button B2. You expect a bag of barbecue chips to drop into the tray. If every time you press B2 you get barbecue chips, the machine is functioning properly—it is a **function**!\nNow imagine you press B2, and today you get chips, but tomorrow you press B2 and it spits out a bottle of water, and the next day it spits out a granola bar! The machine is unpredictable—it is broken—it is **NOT a function**!\n\n[Prof. Park] An input can never be undecided about its output. One input cannot produce two different answers.\nNow, can two different buttons give the same snack? Suppose button B2 gives chips, and button B3 also gives chips. Is that allowed?\n\n[TA Sora] Yes! That is completely allowed! Two different inputs can produce the same output—like two different hiking trails leading to the same summit on Mount Blackmore. But one single trail cannot take you to two different mountain summits at the exact same moment! Input must uniquely determine output! In computer science, this is deterministic execution: identical inputs always yield identical outputs!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 3: Testing Example 1 for Function Status",
+    "subtitle": "Unit 2 • Lecture 25 • Section 2.4 Example 3 (Workbook p. 46)",
+    "detail": "Lecture 25: Functions & The Vertical Line Test",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 (Workbook p. 46)\nBased off the definition of a function, determine if Example 1 is a function:\n$$\\mathbf{\\{(1, -1), (2, 5), (3, 10), (4, 16), (2, -3)\\}}$$",
+    "solution": "$$\\begin{aligned}\n\\text{Examine input } x = 2: & \\\\\n& 2 \\implies 5 \\quad \\text{from } (2, 5) \\\\\n& 2 \\implies -3 \\quad \\text{from } (2, -3) \\\\[0.8em]\n\\text{Analysis: } & \\text{The input } x = 2 \\text{ is assigned to TWO different outputs: } 5 \\text{ and } -3. \\\\[0.8em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{NOT A FUNCTION.}}\n\\end{aligned}$$",
+    "pitfall": "**Look for repeated x-values:** In a set of ordered pairs, if any $x$-value repeats with a different $y$-value, it immediately FAILS to be a function!",
+    "script": "[Prof. Park] Let us apply that vending machine test directly to Example 3 on page 46: Based off the definition of a function, determine if Example 1 from page 45 is a function.\n\n[TA Sora] Let us recall the ordered pairs from Example 1:\n$$\\{(1, -1), (2, 0), (3, 1), (4, 2), (1, 3)\\}$$\nLet us inspect each input value one by one:\nInput $2$ produces output $0$ (one output, fine).\nInput $3$ produces output $1$ (one output, fine).\nInput $4$ produces output $2$ (one output, fine).\n\n[Prof. Park] But now look at input $1$!\nIn the first pair, input $1$ produces output $-1$.\nIn the fifth pair, input $1$ produces output $3$!\nInput $1$ is assigned to TWO DIFFERENT outputs: $-1$ and $3$!\n\n[TA Sora] It pressed button 1, and got two different snacks!\nBecause the input $x = 1$ is paired with more than one output, this relation **FAILS** the definition of a function!\nTherefore:\n$$\\mathbf{\\text{This relation is NOT a function!}}$$\n\n[Prof. Park] Exactly right. Whenever you see a repeated $x$-coordinate paired with different $y$-coordinates in a set of ordered pairs, you can declare immediately: NOT a function!\n\n[TA Sora] But remember: repeated $y$-coordinates are fine! If we had $(1, 2)$ and $(3, 2)$, both inputs lead to 2, which IS a function. It is repeated $x$-values with different $y$-values that break the rule! One input, one output! In pharmacy and medicine, a single dose of medication cannot have two contradictory effects in the same patient at the exact same moment—medical dosing must be a true function!\n\n[Prof. Park] In business accounting, think of retail pricing: when a customer scans a barcode at a Bozeman grocery store, that single barcode input MUST produce one and only one price on the register screen! If scanning a gallon of milk produced $3.50 one second and $12.00 the next second, the checkout system would collapse! That is why barcode pricing must be a strict function!"
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "The Vertical Line Test (VLT)",
+    "subtitle": "Unit 2 • Lecture 25 • Section 2.4 (Workbook p. 46)",
+    "detail": "Lecture 25: Functions & The Vertical Line Test",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Vertical Line Test (Workbook p. 46)\nA set of points in a rectangular coordinate system is the **graph of a function** if **every vertical line intersects the graph in at most one point**.\n- If **any** vertical line intersects the graph in **more than one point**, the graph **does not represent a function**.\n- Why? Because intersecting twice means that single $x$-value has two different $y$-values!",
+    "solution": "$$\\begin{aligned}\n\\text{At most 1 intersection everywhere} & \\implies \\mathbf{\\text{IS A FUNCTION}} \\\\\n\\text{2 or more intersections anywhere} & \\implies \\mathbf{\\text{NOT A FUNCTION}}\n\\end{aligned}$$",
+    "pitfall": "**It only takes ONE failure:** Even if 99% of vertical lines hit once, if a SINGLE vertical line hits twice, the entire graph is NOT a function!",
+    "script": "[Prof. Park] On Slide 3, we translate that algebraic definition of a function into a visual, geometric tool: The Vertical Line Test, universally known as the **VLT**!\n\n[TA Sora] The Vertical Line Test is one of the most elegant concepts in all of mathematics:\n**The Vertical Line Test:**\nA set of points in a rectangular coordinate system is the graph of a function if and only if **NO vertical line intersects the graph at more than one point**!\n\n[Prof. Park] Why does this test work so flawlessly?\nThink about what a vertical line is: An equation of the form $x = c$. Every point on that vertical line shares the exact same $x$-coordinate!\nIf a vertical line slices through a graph at two or more points, say $(c, y_1)$ and $(c, y_2)$, that means the single input $x = c$ is paired with two different outputs $y_1$ and $y_2$!\n\n[TA Sora] That is the vending machine breaking down right before your eyes!\nIf your vertical ruler hits the graph at two or more points anywhere on the entire page, the graph fails the test and is NOT a function!\nIf every vertical line you could ever draw intersects the graph at most once, then every input has at most one output, and the graph **IS a function**!\n\n[Prof. Park] Think of radar or sonar scanning across Hebgen Lake or the Bridger Mountains: As the vertical beam sweeps across the terrain from left to right, if it detects the ground elevation at only one height per horizontal coordinate, it creates a clean elevation map! But if there is an overhanging cliff or cave, the beam hits the top of the cliff and the floor below, signaling that elevation is not a single-valued function of position! Let us test four diverse graphs in Example 4 on the following slides!\n\n[TA Sora] The Vertical Line Test is your ultimate visual ally. Whenever you look at an EKG heart monitor strip or an oscilloscope display in an electronics lab, time moves horizontally along the $x$-axis. A human heart cannot produce two different voltages at the exact same millisecond—every physiological signal graphed against time is a true function!"
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 4A: Parabola y = x^2 - 2 (Passes VLT)",
+    "subtitle": "Unit 2 • Lecture 25 • Section 2.4 Example 4A (Workbook p. 46)",
+    "detail": "Lecture 25: Functions & The Vertical Line Test",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4A (Workbook p. 46)\nDetermine if the parabola $y = x^2 - 2$ represents a function:\n- Apply the Vertical Line Test.\n- State whether it is a function.",
+    "solution": "$$\\begin{aligned}\n\\text{Vertical Line Test: } & \\text{Any vertical line } x = c \\text{ intersects the parabola } \\mathbf{\\text{at exactly ONE point}}. \\\\[0.8em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{YES, it is a FUNCTION.}}\n\\end{aligned}$$",
+    "pitfall": "**U-shape is fine:** It's okay that $(-2, 2)$ and $(2, 2)$ share the same $y$-height. That is a horizontal test, not a vertical test!",
+    "script": "[Prof. Park] Example 4A on page 46: Determine if the parabola $y = x^2 - 2$ represents a function.\n\n[TA Sora] Look at the graph on your screen: it is a smooth, U-shaped parabola opening upward, with its lowest vertex point sitting at $(0, -2)$ on the vertical axis.\n\n[Prof. Park] Now let us perform the Vertical Line Test. Imagine sliding a vertical straightedge across the screen from left to right:\nAt $x = -2$, the vertical line hits the curve at $(-2, 2)$—exactly one point!\nAt $x = -1$, the vertical line hits at $(-1, -1)$—exactly one point!\nAt $x = 0$, the vertical line hits at $(0, -2)$—exactly one point!\nAt $x = 2$, the vertical line hits at $(2, 2)$—exactly one point!\n\n[TA Sora] No matter where you place a vertical line across the entire domain from $-\\infty$ to $+\\infty$, it intersects the parabola at **exactly one single point**!\nIt never doubles back on itself.\nTherefore:\n$$\\mathbf{\\text{Passes VLT } \\implies \\text{The parabola is a FUNCTION!}}$$\n\n[Prof. Park] And notice how its equation is written: $y = x^2 - 2$. For any real number you substitute for $x$, squaring it and subtracting 2 gives one and only one unique result. Quadratic equations of the form $y = ax^2 + bx + c$ are always functions! In physics, this models the parabolic trajectory of a thrown football or an avalanche mitigation shell fired across Bridger Bowl! At every instant of time $t$, the projectile has exactly one altitude $y$!\n\n[TA Sora] In satellite communications across Montana, television dish antennas are shaped like paraboloids precisely because parabolas are functions with a single focal point! Every incoming parallel radio wave bounces off the surface and converges onto the central receiver horn without interference!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": -4,
+      "yMax": 8,
+      "title": "Example 4A: Parabola y = x^2 - 2 (PASSES VLT -> Function)",
+      "points": [
+        {
+          "x": 0,
+          "y": -2,
+          "label": "Vertex (0, -2)",
+          "color": "#10b981"
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "label": "(2, 2)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": -2,
+          "y": 2,
+          "label": "(-2, 2)",
+          "color": "#38bdf8"
+        }
+      ],
+      "vltLine": 2
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 4B: Circle x^2 + y^2 = 16 (Fails VLT)",
+    "subtitle": "Unit 2 • Lecture 25 • Section 2.4 Example 4B (Workbook p. 46)",
+    "detail": "Lecture 25: Functions & The Vertical Line Test",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4B (Workbook p. 46)\nDetermine if the circle $x^2 + y^2 = 16$ represents a function:\n- Apply the Vertical Line Test.\n- Identify a specific vertical line that intersects the circle more than once.",
+    "solution": "$$\\begin{aligned}\n\\text{Test line } x = 0: & 0^2 + y^2 = 16 \\implies y^2 = 16 \\implies y = \\pm 4 \\\\[0.5em]\n\\text{Intersections: } & \\mathbf{(0, 4) \\quad \\text{and} \\quad (0, -4)} \\\\[0.8em]\n\\text{Vertical Line Test: } & \\text{The vertical line } x = 0 \\text{ intersects the circle in } \\mathbf{\\text{TWO points}}! \\\\[0.8em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{NOT A FUNCTION.}}\n\\end{aligned}$$",
+    "pitfall": "**Circles, ellipses, and sideways parabolas are NOT functions:** Any closed loop curve fails the vertical line test!",
+    "script": "[Prof. Park] Now examine Example 4B on page 46: Determine if the circle $x^2 + y^2 = 16$ represents a function.\n\n[TA Sora] Look at the graph: it is a circle of radius 4 centered at the origin $(0, 0)$. It passes through $(4, 0)$, $(0, 4)$, $(-4, 0)$, and $(0, -4)$.\n\n[Prof. Park] Now let us apply our vertical straightedge!\nPlace a vertical line right down the center along the $y$-axis, which is the line $x = 0$.\nWhere does that vertical line intersect the circle?\n\n[TA Sora] It hits the circle at the very top at $(0, 4)$, AND it hits the circle at the very bottom at $(0, -4)$!\nThat is TWO distinct points of intersection for the single input $x = 0$!\n\n[Prof. Park] In fact, almost every vertical line between $x = -4$ and $x = 4$ intersects the circle at two points—one on the upper hemisphere and one on the lower hemisphere.\nFor example, if $x = 0$, $0^2 + y^2 = 16 \\implies y^2 = 16 \\implies y = \\pm 4$! Two outputs!\n\n[TA Sora] Because a vertical line intersects the circle at more than one point:\n$$\\mathbf{\\text{Fails VLT } \\implies \\text{A circle is NOT a function!}}$$\nA complete circle can never be a function of $x$ because it loops back on top of itself! To make it a function in calculus, we have to slice it into two halves: the top half $y = +\\sqrt{16 - x^2}$ and the bottom half $y = -\\sqrt{16 - x^2}$!\n\n[Prof. Park] That is why in computer graphics and GIS mapping, closed loops like lakes and boundaries are stored as parametric curves or polygons, because they cannot be modeled as a single $y = f(x)$ function!\n\n[Prof. Park] That is why in GPS satellite navigation, when receivers determine your position on Earth, they intersect multiple spheres and circles. Because a circle has two solutions ($+y$ and $-y$), the GPS computer requires signals from a fourth satellite to resolve the ambiguity and pinpoint your exact singular location!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -6,
+      "yMax": 6,
+      "title": "Example 4B: Circle x^2 + y^2 = 16 (FAILS VLT -> Not a Function)",
+      "points": [
+        {
+          "x": 0,
+          "y": 4,
+          "label": "(0, 4) [Top Hit]",
+          "color": "#ef4444"
+        },
+        {
+          "x": 0,
+          "y": -4,
+          "label": "(0, -4) [Bottom Hit]",
+          "color": "#ef4444"
+        }
+      ],
+      "vltLine": 0
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 4C: Non-Vertical Line y = 2x - 1 (Passes VLT)",
+    "subtitle": "Unit 2 • Lecture 25 • Section 2.4 Example 4C (Workbook p. 46)",
+    "detail": "Lecture 25: Functions & The Vertical Line Test",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4C (Workbook p. 46)\nDetermine if the linear equation $y = 2x - 1$ represents a function:\n- Apply the Vertical Line Test.\n- State whether all non-vertical lines are functions.",
+    "solution": "$$\\begin{aligned}\n\\text{Vertical Line Test: } & \\text{Every vertical line intersects } y = 2x - 1 \\text{ exactly ONCE.} \\\\[0.8em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{YES, it is a FUNCTION.}} \\\\[0.5em]\n\\text{Universal Rule: } & \\mathbf{\\text{ALL non-vertical lines are linear functions!}}\n\\end{aligned}$$",
+    "pitfall": "**Horizontal lines are functions:** A horizontal line $y = 3$ passes the VLT (every vertical line hits it once). But a vertical line $x = 3$ fails completely!",
+    "script": "[Prof. Park] Turn to Example 4C on page 46: Determine if the linear equation $y = 2x - 1$ represents a function.\n\n[TA Sora] Look at the graph: it is a straight line with slope $m = 2$ and $y$-intercept $(0, -1)$, rising steadily from southwest to northeast across the Cartesian plane.\n\n[Prof. Park] Let us apply the Vertical Line Test across this line:\nEvery vertical line $x = c$ crosses this slanted line at precisely one intersection point: $(c, 2c - 1)$.\nCan a vertical line ever hit a slanted line twice? Never! Two straight lines can intersect at most once unless they are the exact same line!\n\n[TA Sora] Therefore:\n$$\\mathbf{\\text{Passes VLT } \\implies \\text{The line is a FUNCTION!}}$$\nIn fact, every non-vertical straight line in the universe represents a linear function! That is why we call equations of the form $f(x) = mx + b$ 'Linear Functions!'\n\n[Prof. Park] Exactly. As long as a line has a defined slope—whether positive, negative, or zero—it will pass the Vertical Line Test with flying colors! In economics, think of a simple wage model: if you earn $20 an hour as an apprentice carpenter in Bozeman, your total earnings $y = 20x$ is a linear function of hours worked $x$. For any number of hours you work, your paycheck is uniquely determined! But what about a vertical line? Let us check Slide 7!\n\n[TA Sora] Think of driving on Interstate 90 with cruise control set at 70 miles per hour: your distance traveled $d(t) = 70t$ is a pristine linear function of driving time. At 2 hours, you are at mile 140; at 3 hours, you are at mile 210. Clean, predictable, and functional!",
+    "graph": {
+      "xMin": -4,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 7,
+      "title": "Example 4C: Linear Function y = 2x - 1 (Passes VLT)",
+      "points": [
+        {
+          "x": 0,
+          "y": -1,
+          "label": "y-int (0, -1)",
+          "color": "#10b981"
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "label": "(2, 3)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 2,
+          "yIntercept": -1,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = 2x - 1"
+        }
+      ],
+      "vltLine": 2
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 4D: Vertical Line x = 3 (Fails VLT Infinitely)",
+    "subtitle": "Unit 2 • Lecture 25 • Section 2.4 Example 4D (Workbook p. 46)",
+    "detail": "Lecture 25: Functions & The Vertical Line Test",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4D (Workbook p. 46)\nDetermine if the vertical line $x = 3$ represents a function:\n- Apply the Vertical Line Test at $x = 3$.\n- How many times does the vertical line $x = 3$ intersect itself?",
+    "solution": "$$\\begin{aligned}\n\\text{Test line at } x = 3: & \\text{The test line lies directly ON TOP of } x = 3! \\\\[0.5em]\n\\text{Intersections: } & \\mathbf{\\text{INFINITELY MANY intersection points!}} \\\\[0.8em]\n\\mathbf{\\text{Conclusion: }} & \\mathbf{\\text{NOT A FUNCTION.}}\n\\end{aligned}$$",
+    "pitfall": "**Vertical lines are NEVER functions:** A vertical line has an input of 3 with every conceivable $y$-value simultaneously!",
+    "script": "[Prof. Park] On Slide 7, we test the ultimate extreme in Example 4D on page 46: Determine if the vertical line $x = 3$ represents a function.\n\n[TA Sora] Look at the graph: it is a vertical line passing through 3 on the horizontal axis.\nNow let us apply the Vertical Line Test to this graph!\nWhat happens when we test the vertical line $x = 3$?\n\n[Prof. Park] The vertical test line $x = 3$ lands DIRECTLY on top of the graph!\nIt does not intersect at one point; it does not even intersect at two points—it intersects at **INFINITELY MANY POINTS** simultaneously!\nPoints $(3, -2)$, $(3, 0)$, $(3, 1)$, $(3, 5)$, $(3, 100)$ all belong to the line!\n\n[TA Sora] The input $x = 3$ is paired with literally every real number in existence!\nThis is the most catastrophic failure of the Vertical Line Test possible in mathematics!\nTherefore:\n$$\\mathbf{\\text{Fails VLT disastrously } \\implies \\text{A vertical line is NOT a function!}}$$\n\n[Prof. Park] Remember HOY VUX:\nHorizontal lines ($y = c$) have slope 0 and ARE functions (they pass VLT, hitting once).\nVertical lines ($x = c$) have undefined slope and are NEVER functions!\n\n[TA Sora] If a GPS navigation device told you that at longitude $x = 3$, your vehicle was located simultaneously in Bozeman, Helena, Billings, and Missoula, you would immediately know the device was malfunctioning. One location input cannot yield infinite outputs!\n\n[Prof. Park] In physics, a vertical world line on a spacetime diagram would mean an object existing in multiple locations at the exact same instant—teleportation! In classical physics, time flows relentlessly forward, which is why position as a function of time can never be a vertical line!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 8,
+      "yMin": -6,
+      "yMax": 6,
+      "title": "Example 4D: Vertical Line x = 3 (FAILS VLT Infinitely)",
+      "points": [
+        {
+          "x": 3,
+          "y": 0,
+          "label": "(3, 0)",
+          "color": "#ef4444"
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "label": "(3, 3)",
+          "color": "#ef4444"
+        },
+        {
+          "x": 3,
+          "y": -3,
+          "label": "(3, -3)",
+          "color": "#ef4444"
+        }
+      ],
+      "lines": [
+        {
+          "vertical": 3,
+          "color": "#ef4444",
+          "strokeWidth": 3,
+          "label": "x = 3"
+        }
+      ],
+      "vltLine": 3
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 2.4 Complete Mastery Summary",
+    "subtitle": "Unit 2 • Lecture 25 • Section 2.4 Wrap-up",
+    "detail": "Lecture 25: Functions & The Vertical Line Test",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Summary of Section 2.4 Functions\n- **Definition:** Every input $x$ has exactly one output $y$.\n- **Ordered Pairs:** No $x$-value can repeat with different $y$'s.\n- **Graphs (VLT):** No vertical line can hit more than once.\n- **Linear Functions:** All lines are functions EXCEPT vertical lines ($x = c$).",
+    "solution": "$$\\mathbf{\\text{Section 2.4 Mastered! Next Up: Section 2.5 — Function Notation f(x)!}}$$",
+    "pitfall": "**Remember:** Functions are the bedrock of all advanced mathematics and calculus!",
+    "script": "[Prof. Park] On Slide 8, we present the Section 2.4 Complete Mastery Summary. You now hold the complete conceptual toolkit for Relations, Domain, Range, and Functions!\n\n[TA Sora] Let us review our master checklist:\n1. **Relation:** Any set of ordered pairs.\n2. **Domain:** The set of all inputs ($x$-coordinates).\n3. **Range:** The set of all outputs ($y$-coordinates).\n4. **Function:** A relation where each input has **exactly one** output.\n\n[Prof. Park] 5. **Testing Ordered Pairs:** Look for repeated $x$-coordinates with different $y$-coordinates. If found, NOT a function.\n6. **Testing Graphs (VLT):** If ANY vertical line hits the graph at more than one point, NOT a function.\n7. **Function Hall of Fame:**\n   - Parabolas ($y = ax^2 + bx + c$): Function!\n   - Non-vertical lines ($y = mx + b$): Function!\n   - Horizontal lines ($y = c$): Function!\n   - Circles & Ellipses: NOT a function!\n   - Vertical lines ($x = c$): NOT a function!\n\n[TA Sora] In Lecture 26, we enter the final major chapter of Unit 2: Section 2.5, Systems of Linear Equations, starting with solving systems by graphing! Outstanding work, everyone!\n\n[TA Sora] You have built an extraordinary foundation in Unit 2! You understand the coordinate grid, you can graph and write any straight line, and you know how to identify functions. In Lecture 26, we begin the thrilling final chapter of Unit 2: Systems of Linear Equations! See you in Lecture 26!"
+  }
+]

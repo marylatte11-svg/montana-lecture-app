@@ -49,6 +49,27 @@ def get_lecture_dirs(lecture_id):
 
 FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
 
+def get_best_h264_encoder():
+    """Detect available hardware encoders: NVENC (NVIDIA Colab/PC) > QSV (Intel Arc) > libx264 (CPU)."""
+    # 1. Test NVENC (NVIDIA GPU in Colab or PC)
+    try:
+        r = subprocess.run([FFMPEG_EXE, "-f", "lavfi", "-i", "nullsrc=s=256x256:d=0.1", "-c:v", "h264_nvenc", "-f", "null", "-"], capture_output=True, timeout=2)
+        if r.returncode == 0:
+            return ["-c:v", "h264_nvenc", "-preset", "p4", "-cq", "20", "-pix_fmt", "yuv420p"]
+    except Exception:
+        pass
+    # 2. Test QSV (Intel Arc B580)
+    try:
+        r = subprocess.run([FFMPEG_EXE, "-f", "lavfi", "-i", "nullsrc=s=256x256:d=0.1", "-c:v", "h264_qsv", "-f", "null", "-"], capture_output=True, timeout=2)
+        if r.returncode == 0:
+            return ["-c:v", "h264_qsv", "-global_quality", "20", "-preset", "veryfast", "-pix_fmt", "nv12"]
+    except Exception:
+        pass
+    # 3. CPU fallback
+    return ["-c:v", "libx264", "-preset", "fast", "-crf", "19", "-pix_fmt", "yuv420p"]
+
+BEST_V_ENCODER = get_best_h264_encoder()
+
 # Voice Configs
 VOICE_PARK = "en-US-AvaNeural"
 VOICE_PARK_RATE = "+0%"
@@ -656,25 +677,22 @@ async def render_montana_slide_video(slide_data, lecture_id=1, force_rerender=Tr
         if files:
             video_temp_path = sorted(files, key=os.path.getmtime)[-1]
 
-    # 4. Final Merge to 1080p MP4 with Intel Arc B580 QSV Hardware Acceleration
-    cmd_merge_qsv = [
+    # 4. Final Merge to 1080p MP4 with Hardware Acceleration (NVENC / QSV / libx264)
+    cmd_merge_hw = [
         FFMPEG_EXE, "-y",
         "-i", video_temp_path,
         "-i", master_audio_path,
-        "-c:v", "h264_qsv",
-        "-global_quality", "20",
-        "-preset", "veryfast",
-        "-pix_fmt", "nv12",
+        *BEST_V_ENCODER,
         "-c:a", "aac",
         "-b:a", "192k",
         "-shortest",
         final_mp4_path
     ]
 
-    print("  ⚡ [GPU Acceleration] Encoding Final MSU Recordly 1080p MP4 via Intel Arc B580 (h264_qsv)...")
-    res_merge = subprocess.run(cmd_merge_qsv, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    print("  ⚡ [GPU/Hardware Acceleration] Encoding Final MSU Recordly 1080p MP4...")
+    res_merge = subprocess.run(cmd_merge_hw, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     if res_merge.returncode != 0:
-        print("  ⚠️ QSV hardware encode failed, falling back to CPU libx264...")
+        print("  ⚠️ Hardware encode failed, falling back to CPU libx264...")
         cmd_merge_cpu = [
             FFMPEG_EXE, "-y",
             "-i", video_temp_path,
@@ -721,11 +739,35 @@ async def main():
         if not selected_slides and slides:
             selected_slides = [slides[0]]
 
-    rendered_videos = []
-    for s in selected_slides:
-        v_path = await render_montana_slide_video(s, lecture_id=args.lecture, force_rerender=args.force or args.all)
-        if v_path and os.path.exists(v_path):
-            rendered_videos.append(v_path)
+    server_proc = None
+    dist_dir = os.path.join(BASE_DIR, "dist")
+    is_running = False
+    try:
+        import urllib.request
+        with urllib.request.urlopen("http://localhost:4173", timeout=0.5) as r:
+            if r.status == 200:
+                is_running = True
+    except Exception:
+        pass
+
+    if not is_running and os.path.exists(dist_dir):
+        print(f"🚀 Starting local slide static server from dist/ on port 4173...")
+        server_proc = subprocess.Popen(
+            [sys.executable, "-m", "http.server", "4173", "--directory", dist_dir],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
+        )
+        await asyncio.sleep(0.8)
+
+    try:
+        rendered_videos = []
+        for s in selected_slides:
+            v_path = await render_montana_slide_video(s, lecture_id=args.lecture, force_rerender=args.force or args.all)
+            if v_path and os.path.exists(v_path):
+                rendered_videos.append(v_path)
+    finally:
+        if server_proc:
+            server_proc.terminate()
 
     # If --all and multiple videos rendered, concatenate into Master Lecture Video
     if args.all and len(rendered_videos) > 1:
@@ -746,14 +788,14 @@ async def main():
         ]
         res_m = subprocess.run(cmd_master_copy, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         if res_m.returncode != 0:
-            print("  ⚠️ Concat stream copy failed, falling back to QSV transcode...")
-            cmd_master_qsv = [
+            print("  ⚠️ Concat stream copy failed, falling back to hardware/cpu transcode...")
+            cmd_master_hw = [
                 FFMPEG_EXE, "-y", "-f", "concat", "-safe", "0", "-i", master_concat_txt,
-                "-c:v", "h264_qsv", "-global_quality", "20", "-preset", "veryfast", "-pix_fmt", "nv12",
+                *BEST_V_ENCODER,
                 "-c:a", "aac", "-b:a", "192k",
                 master_video_path
             ]
-            subprocess.run(cmd_master_qsv, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            subprocess.run(cmd_master_hw, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
         master_size_mb = os.path.getsize(master_video_path) / (1024 * 1024)
         print(f"🌟 Master Full Lecture Video Complete: {master_video_path} ({master_size_mb:.2f} MB)")

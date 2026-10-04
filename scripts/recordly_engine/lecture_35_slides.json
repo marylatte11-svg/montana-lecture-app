@@ -1,0 +1,433 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.1 Example 3: f(x) = -3(x - 4)^2 + 7",
+    "subtitle": "Unit 3 • Lecture 35 • Section 3.1 Example 3 (Workbook p. 64)",
+    "detail": "Lecture 35: Vertex Form & Min/Max Analysis",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 (Workbook p. 64)\nFor $\\mathbf{f(x) = -3(x - 4)^2 + 7}$:\n- **A. Find the vertex:** \\underline{\\hspace{3cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{3cm}}\n- **C. Axis of Symmetry:** \\underline{\\hspace{3cm}}\n- **D. Maximum or Minimum Value:** \\underline{\\hspace{3cm}}",
+    "solution": "$$\\begin{aligned}\n\\text{Compare with } a(x - h)^2 + k: & a = -3, \\quad h = 4, \\quad k = 7 \\\\[0.5em]\n\\textbf{A. Vertex: } & \\mathbf{(4, 7)} \\\\[0.5em]\n\\textbf{B. y-intercept: } & f(0) = -3(0 - 4)^2 + 7 = -3(16) + 7 = -48 + 7 = \\mathbf{-41} \\implies \\mathbf{(0, -41)} \\\\[0.5em]\n\\textbf{C. Axis of Symmetry: } & \\mathbf{x = 4} \\\\[0.5em]\n\\textbf{D. Maximum Value: } & \\mathbf{7} \\quad (a = -3 < 0 \\implies \\text{opens down})\n\\end{aligned}$$",
+    "pitfall": "**Inside vs Outside:** $(x - 4)$ means $h = +4$! It flips sign! The outside constant $+7$ keeps its sign: $k = 7$!",
+    "script": "[Prof. Park] Hello everyone, and welcome to Lecture 35 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me is our wonderful teaching assistant, Sora. Today we dive into Vertex Form in complete depth, beginning on page 70 of your workbook.\n\n[TA Sora] Welcome, Bobcats! In Lecture 34, we used the Vertex Formula $x = -b / (2a)$ for functions written in General Form $ax^2 + bx + c$. But today, we explore the superpower format of algebra: Standard Vertex Form, $f(x) = a(x - h)^2 + k$!\n\n[Prof. Park] On Slide 1, we look at Section 3.1 Example 3: $f(x) = -3(x - 4)^2 + 7$. The problem asks us to find the vertex, axis of symmetry, determine min or max, and write the domain and range. Sora, how quickly can a student extract the vertex here?\n\n[TA Sora] In literally three seconds! Remember our golden rule: 'Inside the parentheses, reverse the sign; outside the parentheses, keep the sign!' Inside, we have $(x - 4)$, so $h = +4$. Outside, we have $+7$, so $k = +7$. The vertex is $(4, 7)$!\n\n[Prof. Park] Zero formulas, zero algebraic manipulation. The vertex is $(4, 7)$. And the vertical Axis of Symmetry passes right through that $x$-coordinate, so its equation is $x = 4$.\n\n[TA Sora] Now look at the leading coefficient: $a = -3$. Because $a$ is negative, the parabola frowns downward! That means the vertex $(4, 7)$ is the highest mountain peak—it represents a Maximum value of 7!\n\n[Prof. Park] Domain is always all real numbers: $(-\\infty, \\infty)$. And because the parabola opens downward, the vertical outputs come from $-\\infty$ up to 7, giving a Range of $(-\\infty, 7]$ with a solid square bracket on 7!\n\n[TA Sora] Notice how steep this curve is: that factor of $-3$ vertically stretches the parabola, making it three times narrower than a standard curve.\n\n[Prof. Park] Vertex $(4, 7)$, Axis of Symmetry $x = 4$, Maximum value 7, Domain $(-\\infty, \\infty)$, Range $(-\\infty, 7]$. That is the efficiency of vertex form!",
+    "coordinate": {
+      "xMin": 0,
+      "xMax": 8,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -3,
+          "b": 24,
+          "c": -41,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 4,
+          "y": 7,
+          "color": "#ffd700",
+          "label": "V(4,7)"
+        },
+        {
+          "x": 2.47,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2.47,0)"
+        },
+        {
+          "x": 5.53,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(5.53,0)"
+        }
+      ],
+      "axisOfSymmetry": 4
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.1 Example 4: f(x) = 5(x - 1)^2 + 3",
+    "subtitle": "Unit 3 • Lecture 35 • Section 3.1 Example 4 (Workbook p. 64)",
+    "detail": "Lecture 35: Vertex Form & Min/Max Analysis",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 (Workbook p. 64)\nFor $\\mathbf{f(x) = 5(x - 1)^2 + 3}$:\n- **A. Find the vertex:** \\underline{\\hspace{3cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{3cm}}\n- **C. Axis of Symmetry:** \\underline{\\hspace{3cm}}\n- **D. Maximum or Minimum Value:** \\underline{\\hspace{3cm}}",
+    "solution": "$$\\begin{aligned}\n\\text{Compare with } a(x - h)^2 + k: & a = 5, \\quad h = 1, \\quad k = 3 \\\\[0.5em]\n\\textbf{A. Vertex: } & \\mathbf{(1, 3)} \\\\[0.5em]\n\\textbf{B. y-intercept: } & f(0) = 5(0 - 1)^2 + 3 = 5(1) + 3 = \\mathbf{8} \\implies \\mathbf{(0, 8)} \\\\[0.5em]\n\\textbf{C. Axis of Symmetry: } & \\mathbf{x = 1} \\\\[0.5em]\n\\textbf{D. Minimum Value: } & \\mathbf{3} \\quad (a = 5 > 0 \\implies \\text{opens up})\n\\end{aligned}$$",
+    "pitfall": "**Finding y-intercept in vertex form:** You must calculate $f(0)$! Do not guess that $b$ is 3!",
+    "script": "[Prof. Park] Let's move to Slide 2 and examine Section 3.1 Example 4 on page 70: $f(x) = 5(x - 1)^2 + 3$. Sora, let's break down this function using our vertex form inspection method.\n\n[TA Sora] Let's look inside the parentheses first: we see $(x - 1)$. Reversing that sign gives $h = +1$. Outside the parentheses, we see $+3$, which gives $k = +3$. So our vertex sits at $(1, 3)$!\n\n[Prof. Park] Exactly. The Axis of Symmetry is the vertical line $x = 1$. Now, let's look at the leading coefficient $a = 5$. Since $a = 5 > 0$, what does that tell us about the shape of the graph?\n\n[TA Sora] It smiles upward! The parabola opens upward like an ultra-narrow cup, which means the vertex is the absolute lowest valley—a Minimum value! And that minimum value is $y = 3$.\n\n[Prof. Park] Now think about what this means for the graph relative to the horizontal $x$-axis! The lowest point on the entire curve is at height $y = 3$, and the parabola opens upward from there. Does this graph EVER touch the $x$-axis?\n\n[TA Sora] Wow, that is such a brilliant observation, Professor Park! Because the minimum height is $+3$, the entire parabola floats up in Quadrant I above the $x$-axis! It will NEVER cross the $x$-axis, meaning this quadratic equation has ZERO real $x$-intercepts!\n\n[Prof. Park] Exactly. If you tried to set $5(x - 1)^2 + 3 = 0$, you would get $(x - 1)^2 = -3/5$, which has no real solutions because you cannot take the real square root of a negative number. Vertex form told us that immediately without solving a thing!\n\n[TA Sora] Domain is $(-\\infty, \\infty)$, and Range starts at the minimum 3 and goes to infinity: $[3, \\infty)$! Minimum value is 3, vertex is $(1, 3)$, and axis of symmetry is $x = 1$.",
+    "graph": {
+      "xMin": -2,
+      "xMax": 4,
+      "yMin": 0,
+      "yMax": 14,
+      "title": "Example 4: f(x) = 5(x - 1)^2 + 3 (Min at (1, 3))",
+      "points": [
+        {
+          "x": 1,
+          "y": 3,
+          "label": "Min Vertex (1, 3)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "label": "y-int (0, 8)",
+          "color": "#10b981"
+        }
+      ],
+      "curves": [
+        {
+          "a": 5,
+          "b": -10,
+          "c": 8,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 1
+    },
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 4,
+      "yMin": -1,
+      "yMax": 25,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 5,
+          "b": -10,
+          "c": 8,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 3,
+          "color": "#ffd700",
+          "label": "V(1,3)"
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "color": "#00ff88",
+          "label": "(0,8)"
+        }
+      ],
+      "axisOfSymmetry": 1
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.1 Example 5: f(x) = -6(x + 2)^2 - 9",
+    "subtitle": "Unit 3 • Lecture 35 • Section 3.1 Example 5 (Workbook p. 64)",
+    "detail": "Lecture 35: Vertex Form & Min/Max Analysis",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 (Workbook p. 64)\nFor $\\mathbf{f(x) = -6(x + 2)^2 - 9}$:\n- **A. Find the vertex:** \\underline{\\hspace{3cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{3cm}}\n- **C. Axis of Symmetry:** \\underline{\\hspace{3cm}}\n- **D. Maximum or Minimum Value:** \\underline{\\hspace{3cm}}",
+    "solution": "$$\\begin{aligned}\n\\text{Notice: } & x + 2 = x - (-2) \\implies h = -2, \\quad k = -9 \\\\[0.5em]\n\\textbf{A. Vertex: } & \\mathbf{(-2, -9)} \\\\[0.5em]\n\\textbf{B. y-intercept: } & f(0) = -6(0 + 2)^2 - 9 = -6(4) - 9 = -24 - 9 = \\mathbf{-33} \\implies \\mathbf{(0, -33)} \\\\[0.5em]\n\\textbf{C. Axis of Symmetry: } & \\mathbf{x = -2} \\\\[0.5em]\n\\textbf{D. Maximum Value: } & \\mathbf{-9} \\quad (a = -6 < 0 \\implies \\text{opens down})\n\\end{aligned}$$",
+    "pitfall": "**Plus sign inside:** $(x + 2)$ means $h = -2$! Remember, the formula has a minus sign: $(x - h)$.",
+    "script": "[Prof. Park] Slide 3 brings us to Example 5: $f(x) = -6(x + 2)^2 - 9$. Sora, this problem is loaded with negative signs both inside and outside the parentheses. How do we prevent sign confusion here?\n\n[TA Sora] Don't let the cluster of minus signs intimidate you! Stick strictly to our principle: Inside the parentheses, we have $(x + 2)$. We reverse the sign of $+2$, which gives $h = -2$! Outside, we have $-9$, so we keep it as $k = -9$!\n\n[Prof. Park] So our vertex is $(-2, -9)$. Both coordinates are negative! The Axis of Symmetry is the vertical line $x = -2$.\n\n[TA Sora] Now look at the leading coefficient: $a = -6$. It is negative, so the parabola opens downward! That means our vertex $(-2, -9)$ is the peak—the Maximum value of the function!\n\n[Prof. Park] And what is that maximum value? It is $-9$. Think about that: the highest point on the curve is down at $y = -9$, and the arms of the parabola open downward into deeper negative territory!\n\n[TA Sora] So just like Example 4, this parabola also NEVER touches the $x$-axis! It lives entirely in Quadrant III, trapped beneath the ceiling of $y = -9$.\n\n[Prof. Park] If this function modeled the temperature of an experimental deep-freeze cryo-chamber in Bozeman, the maximum temperature the chamber ever reaches is $-9^\\circ$ Fahrenheit. It never warms above $-9^\\circ$.\n\n[TA Sora] Domain is $(-\\infty, \\infty)$. Range starts from $-\\infty$ and tops out at $-9$: $(-\\infty, -9]$ with a solid bracket! \n\n[Prof. Park] Vertex $(-2, -9)$, Axis of Symmetry $x = -2$, Maximum value $-9$, Range $(-\\infty, -9]$. Beautifully analyzed!",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 1,
+      "yMin": -20,
+      "yMax": 2,
+      "xTicks": 1,
+      "yTicks": 4,
+      "curves": [
+        {
+          "a": -6,
+          "b": -24,
+          "c": -33,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -2,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "V(-2,-9)"
+        },
+        {
+          "x": 0,
+          "y": -33,
+          "color": "#00ff88",
+          "label": "y-int"
+        }
+      ],
+      "axisOfSymmetry": -2
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.1 Example 6: Vertex of f(x) = 2x^2 - 7",
+    "subtitle": "Unit 3 • Lecture 35 • Section 3.1 Example 6 (Workbook p. 66)",
+    "detail": "Lecture 35: Vertex Form & Min/Max Analysis",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 (Workbook p. 66)\nFor $\\mathbf{f(x) = 2x^2 - 7}$:\n- **A. Find the vertex:** \\underline{\\hspace{3cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{3cm}}\n- **C. Axis of Symmetry:** \\underline{\\hspace{3cm}}\n- **D. Maximum or Minimum Value:** \\underline{\\hspace{3cm}}",
+    "solution": "$$\\begin{aligned}\n\\text{Rewrite as vertex form: } & f(x) = 2(x - 0)^2 - 7 \\implies h = 0, \\; k = -7 \\\\[0.5em]\n\\text{Or use formula: } & x_v = -\\frac{0}{2(2)} = 0, \\quad y_v = 2(0)^2 - 7 = -7 \\\\[0.8em]\n\\textbf{A. Vertex: } & \\mathbf{(0, -7)} \\\\[0.5em]\n\\textbf{B. y-intercept: } & \\mathbf{(0, -7)} \\quad (\\text{Vertex IS the } y\\text{-intercept!}) \\\\[0.5em]\n\\textbf{C. Axis of Symmetry: } & \\mathbf{x = 0} \\quad (\\text{the } y\\text{-axis}) \\\\[0.5em]\n\\textbf{D. Minimum Value: } & \\mathbf{-7} \\quad (a = 2 > 0 \\implies \\text{opens up})\n\\end{aligned}$$",
+    "pitfall": "**When b = 0:** The vertex sits directly ON the $y$-axis at $(0, c)$, and the axis of symmetry is the $y$-axis itself ($x = 0$)!",
+    "script": "[Prof. Park] On Slide 4, Example 6 asks us to find the vertex of $f(x) = 2x^2 - 7$. Sora, students look at $2x^2 - 7$ and say: 'Wait, where are the parentheses? Is this in vertex form or general form?'\n\n[TA Sora] It is actually both at the exact same time! Notice that there are no parentheses around $x$, which means nothing is being added to or subtracted from $x$ before squaring. We can rewrite $2x^2 - 7$ as $2(x - 0)^2 - 7$!\n\n[Prof. Park] That is the bridge of understanding. Inside the parentheses, the horizontal shift is $h = 0$. Outside, the vertical shift is $k = -7$. That gives us a vertex of $(0, -7)$!\n\n[TA Sora] And notice that if you used the Vertex Formula from General Form, with $a = 2$, $b = 0$, and $c = -7$, you would get $x_v = -0 / (2 \\cdot 2) = 0$, and $f(0) = -7$. Both roads lead to the exact same destination: $(0, -7)$!\n\n[Prof. Park] Since $a = 2 > 0$, the parabola opens upward. The vertex $(0, -7)$ is a Minimum value of $-7$. The Axis of Symmetry is the line $x = 0$, which is the $y$-axis.\n\n[TA Sora] The Domain is $(-\\infty, \\infty)$, and the Range is $[-7, \\infty)$.\n\n[Prof. Park] Whenever you see a pure quadratic term with no linear middle term, like $ax^2 + c$, the vertex is always sitting directly on the $y$-axis at $(0, c)$. The parabola has zero horizontal shift!\n\n[TA Sora] Write down: $f(x) = 2(x - 0)^2 - 7 \\implies$ Vertex $(0, -7)$, Axis of Symmetry $x = 0$, Minimum value $-7$, Range $[-7, \\infty)$!",
+    "graph": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -9,
+      "yMax": 5,
+      "title": "Example 6: f(x) = 2x^2 - 7 (Symmetric on y-axis)",
+      "points": [
+        {
+          "x": 0,
+          "y": -7,
+          "label": "Vertex & y-int (0, -7)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "label": "(2, 1)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -2,
+          "y": 1,
+          "label": "(-2, 1)",
+          "color": "#f59e0b"
+        }
+      ],
+      "curves": [
+        {
+          "a": 2,
+          "b": 0,
+          "c": -7,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 0
+    },
+    "coordinate": {
+      "xMin": -3,
+      "xMax": 3,
+      "yMin": -9,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 2,
+          "b": 0,
+          "c": -7,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": -7,
+          "color": "#ffd700",
+          "label": "V(0,-7)"
+        },
+        {
+          "x": 1.87,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1.87,0)"
+        },
+        {
+          "x": -1.87,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1.87,0)"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.1 Example 7 (Part 1): Comprehensive Graph f(x) = -x^2 - 4x - 5",
+    "subtitle": "Unit 3 • Lecture 35 • Section 3.1 Example 7A-E (Workbook p. 66)",
+    "detail": "Lecture 35: Vertex Form & Min/Max Analysis",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7 (Workbook p. 66)\nUsing the graph of the function $\\mathbf{f(x) = -x^2 - 4x - 5}$, find:\n- **A. $y$-intercept:** \\underline{\\hspace{2cm}}\n- **B. $x$-intercepts:** \\underline{\\hspace{2cm}}\n- **C. Vertex:** \\underline{\\hspace{2cm}}\n- **D. Axis of Symmetry:** \\underline{\\hspace{2cm}}\n- **E. Maximum value:** \\underline{\\hspace{2cm}}",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. y-intercept: } & (0, -5) \\\\[0.5em]\n\\textbf{B. x-intercepts: } & \\mathbf{\\text{None (the graph never crosses the } x\\text{-axis!)}} \\\\[0.5em]\n\\textbf{C. Vertex: } & x_v = -\\frac{-4}{2(-1)} = -2, \\; y_v = -(-2)^2 - 4(-2) - 5 = -4 + 8 - 5 = \\mathbf{-1} \\\\\n& \\implies \\mathbf{(-2, -1)} \\\\[0.5em]\n\\textbf{D. Axis of Symmetry: } & \\mathbf{x = -2} \\\\[0.5em]\n\\textbf{E. Maximum Value: } & \\mathbf{-1} \\quad (\\text{at } x = -2)\n\\end{aligned}$$",
+    "pitfall": "**No x-intercepts is common:** When a downward parabola has its vertex below the $x$-axis (here at $y = -1$), it can never touch the $x$-axis! There are NO real $x$-intercepts.",
+    "script": "[Prof. Park] Slide 5 presents Section 3.1 Example 7 (Part 1) on page 66: a comprehensive analysis of $f(x) = -x^2 - 4x - 5$. Sora, let's determine the key features.\n\n[TA Sora] Let's list our coefficients: $a = -1$, $b = -4$, and $c = -5$. First, the $y$-intercept is $(0, c)$, so it is $(0, -5)$!\n\n[Prof. Park] Next, the vertex: $x_v = -\\frac{b}{2a} = -\\frac{-4}{2(-1)} = \\frac{4}{-2} = -2$. Now evaluate $f(-2)$: $-(-2)^2 - 4(-2) - 5 = -4 + 8 - 5 = -1$. So the vertex is $(-2, -1)$!\n\n[TA Sora] Since $a = -1 < 0$, the parabola opens downward, and the axis of symmetry is the line $x = -2$. The maximum value of the function is $-1$!\n\n[Prof. Park] Now what about the $x$-intercepts? If we set $-x^2 - 4x - 5 = 0$, the discriminant is $b^2 - 4ac = (-4)^2 - 4(-1)(-5) = 16 - 20 = -4 < 0$!\n\n[TA Sora] Because the peak is at $y = -1$ and it opens downward, the curve NEVER reaches the $x$-axis! There are NO real $x$-intercepts!\n\n[Prof. Park] An essential observation: not every parabola crosses the $x$-axis!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 2,
+      "yMin": -10,
+      "yMax": 2,
+      "title": "Example 7: f(x) = -x^2 - 4x - 5 (No Real x-intercepts)",
+      "points": [
+        {
+          "x": -2,
+          "y": -1,
+          "label": "Max Vertex (-2, -1)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 0,
+          "y": -5,
+          "label": "y-int (0, -5)",
+          "color": "#10b981"
+        },
+        {
+          "x": -4,
+          "y": -5,
+          "label": "Mirror (-4, -5)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": -1,
+          "b": -4,
+          "c": -5,
+          "color": "#ec4899",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": -2
+    },
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -1,
+          "b": 4,
+          "c": 5,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": 9,
+          "color": "#ffd700",
+          "label": "V(2,9)"
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1,0)"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(5,0)"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "color": "#00ff88",
+          "label": "(0,5)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.1 Example 7 (Part 2): Graph Interrogation",
+    "subtitle": "Unit 3 • Lecture 35 • Section 3.1 Example 7G-J (Workbook p. 66)",
+    "detail": "Lecture 35: Vertex Form & Min/Max Analysis",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7 Function Values (Workbook p. 66)\nUsing the graph of $f(x) = -x^2 - 4x - 5$:\n- **G.** $f(-4) = \\text{\\underline{\\hspace{3cm}}}$\n- **H.** $f(x) = -2 \\implies x = \\text{\\underline{\\hspace{3cm}}}$\n- **I.** $f(0) = \\text{\\underline{\\hspace{3cm}}}$\n- **J.** $f(x) = -5 \\implies x = \\text{\\underline{\\hspace{3cm}}}$",
+    "solution": "$$\\begin{aligned}\n\\textbf{G. } f(-4) & = -(-4)^2 - 4(-4) - 5 = -16 + 16 - 5 = \\mathbf{-5} \\implies (-4, -5) \\\\[0.5em]\n\\textbf{H. } f(x) = -2 & \\implies \\mathbf{x = -1 \\quad \\text{and} \\quad x = -3} \\\\[0.5em]\n\\textbf{I. } f(0) & = \\mathbf{-5} \\implies (0, -5) \\\\[0.5em]\n\\textbf{J. } f(x) = -5 & \\implies \\mathbf{x = 0 \\quad \\text{and} \\quad x = -4} \\quad (\\text{symmetric pairs!})\n\\end{aligned}$$",
+    "pitfall": "**Two answers for quadratic outputs:** Because of symmetry, solving $f(x) = -5$ gives TWO inputs: $x = 0$ and $x = -4$!",
+    "script": "[Prof. Park] On Slide 6, we evaluate specific function values for $f(x) = -x^2 - 4x - 5$ to interrogate its behavior on the coordinate plane.\n\n[TA Sora] Part G: find $f(-4)$. Substitute $-4$: $f(-4) = -(-4)^2 - 4(-4) - 5 = -16 + 16 - 5 = -5$! Notice that $(-4, -5)$ is symmetric to our $y$-intercept $(0, -5)$ across $x = -2$!\n\n[Prof. Park] Part H asks: if $f(x) = -2$, what is $x$? Set $-x^2 - 4x - 5 = -2$. Add 2 to both sides: $-x^2 - 4x - 3 = 0$, or $x^2 + 4x + 3 = 0$.\n\n[TA Sora] Factor that into $(x + 1)(x + 3) = 0$, giving $x = -1$ and $x = -3$! Both points have a height of $-2$.\n\n[Prof. Park] Part I: $f(0) = -5$, our $y$-intercept. And Part J: $f(x) = -5$ gives $-x^2 - 4x - 5 = -5 \\implies -x^2 - 4x = 0 \\implies -x(x + 4) = 0$, so $x = 0$ or $x = -4$!\n\n[TA Sora] Everything connects through the axis of symmetry $x = -2$! Perfectly verified.",
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -1,
+          "b": 4,
+          "c": 5,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": 9,
+          "color": "#ffd700",
+          "label": "MAX (2,9)"
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1,0)"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(5,0)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Comparison Matrix",
+    "title": "General Form vs Vertex Form: Summary Matrix",
+    "subtitle": "Unit 3 • Lecture 35 • Section 3.1 Master Comparison",
+    "detail": "Lecture 35: Vertex Form & Min/Max Analysis",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Choosing Your Method\nCompare the two primary forms of quadratic functions:\n- **General Form:** $f(x) = ax^2 + bx + c$\n  - Best for: $y$-intercept $(0, c)$, factoring, and quadratic formula.\n  - Vertex requires calculation: $x = -\\frac{b}{2a}$.\n- **Vertex Form:** $f(x) = a(x - h)^2 + k$\n  - Best for: Reading vertex $(h, k)$ and axis $x = h$ instantly.\n  - $y$-intercept requires calculating $f(0)$.",
+    "solution": "$$\\begin{array}{|c|c|c|} \n\\hline\n\\textbf{Feature} & \\textbf{General: } ax^2 + bx + c & \\textbf{Vertex: } a(x-h)^2 + k \\\\\n\\hline\n\\text{Vertex} & \\left(-\\frac{b}{2a}, \\; f\\left(-\\frac{b}{2a}\\right)\\right) & \\mathbf{(h, k)} \\; [\\text{Immediate!}] \\\\\n\\hline\n\\text{Axis of Symmetry} & x = -\\frac{b}{2a} & \\mathbf{x = h} \\\\\n\\hline\ny\\text{-intercept} & \\mathbf{(0, c)} \\; [\\text{Immediate!}] & (0, f(0)) \\\\\n\\hline\n\\text{Direction} & a > 0 \\text{ (up)}, \\; a < 0 \\text{ (down)} & \\text{Same } a \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Both forms share the exact same 'a':** The coefficient $a$ is identical in both forms! If $a = -2$ in vertex form, $a = -2$ in general form.",
+    "script": "[Prof. Park] Slide 7 provides what I consider the most valuable reference slide in this entire unit: The General Form versus Vertex Form Summary Matrix. Let's compare them side-by-side.\n\n[TA Sora] In column 1, we have General Form: $f(x) = ax^2 + bx + c$. What are its advantages? First, the $y$-intercept is handed to you instantly as $(0, c)$. Second, it is ready for factoring or the Quadratic Formula!\n\n[Prof. Park] But its disadvantage is that finding the vertex requires two calculation steps: first compute $x = -b / (2a)$, then evaluate $y = f(-b/(2a))$.\n\n[TA Sora] Now look at column 2, Vertex Form: $f(x) = a(x - h)^2 + k$. Its superpower is that the vertex $(h, k)$ and the axis of symmetry $x = h$ are visible immediately with zero calculations! \n\n[Prof. Park] And finding $x$-intercepts from vertex form is lightning fast using the Square Root Property: isolate $(x - h)^2 = -k/a$ and take the square root of both sides.\n\n[TA Sora] But its slight drawback is that finding the $y$-intercept requires evaluating $f(0)$, and expanding to general form requires FOILing the binomial square.\n\n[Prof. Park] Notice what both forms share: the leading coefficient $a$ is identical in both forms! If $a$ is positive, both open up; if $a$ is negative, both open down. The width and curvature are identical!\n\n[TA Sora] That's why top students know how to move fluidly between both forms. You pick the form that fits your current objective!"
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.1 Complete Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 35 • Section 3.1 Wrap-up",
+    "detail": "Lecture 35: Vertex Form & Min/Max Analysis",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Section 3.1 Master Checklist\n- Conquered the Vertex Formula: $x_v = -\\frac{b}{2a}$.\n- Mastered reading Vertex Form: $f(x) = a(x - h)^2 + k \\implies (h, k)$.\n- Identified Axis of Symmetry as the equation $x = h$.\n- Evaluated quadratic functions graphically and algebraically.",
+    "solution": "$$\\mathbf{\\text{Section 3.1 Mastered! Next Up: Section 3.2 — The Square Root Property!}}$$",
+    "pitfall": "**Next Challenge:** How do we find $x$-intercepts algebraically without a graph? In Section 3.2, we learn the Square Root Property!",
+    "script": "[Prof. Park] We have completed Lecture 35 and reached the end of Section 3.1! Sora, this marks the completion of the first major phase of Unit 3.\n\n[TA Sora] Congratulations, Bobcats! You have mastered the foundations of quadratic functions. In Lectures 31 through 35, you learned to identify terms and coefficients, determine direction and min/max, calculate the vertex via $x = -b/(2a)$, read vertex form $a(x - h)^2 + k$, and graph complete 5-point parabolas.\n\n[Prof. Park] Remember the life lessons woven through these mathematical truths: symmetry brings balance; order of operations prevents chaotic mistakes; and understanding the core landmarks gives you direction before you draw a single line.\n\n[TA Sora] Tonight, complete all Section 3.1 homework exercises on pages 70 through 74 in your workbook. Revisit any problem where you hesitated, and practice Sora's 4-step protocol until it becomes second nature.\n\n[Prof. Park] In Lecture 36, we begin Section 3.2: mastering the Square Root Property and learning how to solve quadratic equations when factoring is impossible. \n\n[TA Sora] Be proud of your progress, stay curious, and keep practicing! We will see you all in Lecture 36!"
+  }
+]

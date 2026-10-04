@@ -1,0 +1,214 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Section 2.4: Relations, Domain & Range",
+    "subtitle": "Unit 2 • Lecture 24 • Section 2.4 (Workbook p. 45)",
+    "detail": "Lecture 24: Relations, Domain & Range",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Fundamentals of Relations (Workbook p. 45)\n- **Relation:** Any set of ordered pairs $(x, y)$.\n- **Input:** The first value in the ordered pair ($x$).\n- **Output:** The second value in the ordered pair ($y$).\n- **Domain:** The set of **all input values** ($x$-coordinates).\n- **Range:** The set of **all output values** ($y$-coordinates).",
+    "solution": "$$\\begin{aligned}\n\\text{Relation } R & = \\{(x_1, y_1), (x_2, y_2), \\dots\\} \\\\[0.5em]\n\\text{Domain} & = \\{x \\mid (x, y) \\in R\\} \\quad (\\text{all } x\\text{-values}) \\\\\n\\text{Range} & = \\{y \\mid (x, y) \\in R\\} \\quad (\\text{all } y\\text{-values})\n\\end{aligned}$$",
+    "pitfall": "**No duplicates in sets:** When writing domain or range in set notation, list repeating numbers only ONCE!",
+    "script": "[Prof. Park] Welcome to Lecture 24 of M090! Today on page 45 of your workbook, we step into one of the most foundational concepts in all of modern science, data analytics, and calculus: Section 2.4, Relations, Domain, and Range.\n\n[TA Sora] In everyday conversation, the word 'relation' describes how two entities connect—like parents and children, rainfall and wheat yield on a Montana dryland farm, or the temperature in Bozeman and the thickness of ice on Hyalite Reservoir. In mathematics, a **relation** has a very precise, universal definition:\nA relation is simply **any set of ordered pairs** $(x, y)$!\n\n[Prof. Park] It can be a finite list of five data points collected in a chemistry lab, or an infinite line stretching across the universe. Every ordered pair connects an **input** to an **output**.\nThat gives us two essential definitions that will follow you through every higher-level math and science course you will ever take:\n1. The **Domain** is the set of all first coordinates—all allowable input values ($x$-values).\n2. The **Range** is the set of all second coordinates—all resulting output values ($y$-values).\n\n[TA Sora] Think of wildlife biologists tracking Yellowstone bison herds: your input $x$ is the year or month (Domain), and your output $y$ is the estimated herd population size (Range). Or think of Gallatin River streamflow monitoring gauges maintained by the US Geological Survey: input $x$ is the day in June, and output $y$ is the water discharge rate in cubic feet per second (cfs)!\n\n[Prof. Park] In this lecture, we master how to extract and report domain and range in two very different mathematical environments:\nFirst, for **discrete relations**—scattered, isolated data points where we list individual numbers inside curly roster braces $\\{ \\}$.\nSecond, for **continuous graphs**—smooth unbroken curves where we report continuous coverage using interval notation with brackets $[a, b]$!\n\n[TA Sora] Let us dive straight into Example 1 on page 45 and master discrete relations first!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 1: Domain & Range of a Discrete Relation",
+    "subtitle": "Unit 2 • Lecture 24 • Section 2.4 Example 1 (Workbook p. 45)",
+    "detail": "Lecture 24: Relations, Domain & Range",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 (Workbook p. 45)\nFor the following relation, determine the domain and range:\n$$\\mathbf{\\{(1, -1), (2, 5), (3, 10), (4, 16), (2, -3)\\}}$$\n- List all $x$-values in braces $\\{\\}$.\n- List all $y$-values in order from least to greatest.",
+    "solution": "$$\\begin{aligned}\n\\text{Inputs } (x): & 1, 2, 3, 4, 2 \\\\[0.5em]\n\\mathbf{\\text{Domain: }} & \\mathbf{\\{1, 2, 3, 4\\}} \\quad (\\text{do not repeat } 2!) \\\\[0.8em]\n\\text{Outputs } (y): & -1, 5, 10, 16, -3 \\\\[0.5em]\n\\mathbf{\\text{Range: }} & \\mathbf{\\{-3, -1, 5, 10, 16\\}} \\quad (\\text{written in numerical order})\n\\end{aligned}$$",
+    "pitfall": "**The repeated input:** Notice that the input $2$ appears twice: $(2, 5)$ and $(2, -3)$! In the domain set, we write $2$ once.",
+    "script": "[Prof. Park] Example 1 on page 45: For the following relation, determine the domain and the range:\n$$\\{(1, -1), (2, 0), (3, 1), (4, 2), (1, 3)\\}$$\n\n[TA Sora] Let us examine the inputs first to find the **Domain**.\nLook at the first number in each ordered pair from left to right:\nFrom the first pair $(1, -1)$, our input is $1$.\nFrom the second pair $(2, 0)$, our input is $2$.\nFrom the third pair $(3, 1)$, our input is $3$.\nFrom the fourth pair $(4, 2)$, our input is $4$.\nFrom the fifth pair $(1, 3)$, our input is $1$ again!\n\n[Prof. Park] Now pause right here! Notice that the input $1$ appears twice in our list of pairs. How do we write that in our final answer, Sora?\n\n[TA Sora] This is the golden rule of set theory: **Never repeat elements inside a set!**\nA set is simply a collection of unique items. Even if the number 1 appears five hundred times in your raw data log, you only write it once in the domain list:\n$$\\text{Domain} = \\{1, 2, 3, 4\\}$$\nNotice that we wrap our list in curly roster braces $\\{ \\}$, and we always list the numbers in ascending numerical order from smallest to largest!\n\n[Prof. Park] Now let us examine the outputs to find the **Range**.\nLook at the second coordinate in each ordered pair:\nFrom $(1, -1)$, we get $-1$.\nFrom $(2, 0)$, we get $0$.\nFrom $(3, 1)$, we get $1$.\nFrom $(4, 2)$, we get $2$.\nFrom $(1, 3)$, we get $3$.\n\n[TA Sora] Are there any duplicates in this output list? No, all five numbers are distinct!\nLet us list them in ascending order from lowest to highest:\n$$\\text{Range} = \\{-1, 0, 1, 2, 3\\}$$\n\n[Prof. Park] Beautifully organized. Remember: Discrete data points use curly roster braces $\\{ \\}$, list elements in order, and never repeat duplicate numbers! In database management, this is like creating a unique primary key index: duplicate keys are merged into a single entry.\n\n[Prof. Park] In database systems at Montana State University, think of student records: each student has a unique student ID number. If a database accepted duplicate student IDs with conflicting course schedules, the registration software would freeze! Sets require unique elements for total consistency!"
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 1: Coordinate Grid of Discrete Points",
+    "subtitle": "Unit 2 • Lecture 24 • Section 2.4 Example 1 Visual",
+    "detail": "Lecture 24: Relations, Domain & Range",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Visualizing Example 1 on the Coordinate Plane\nPlot all five points of the relation:\n$$(1, -1), \\; (2, 5), \\; (3, 10), \\; (4, 16), \\; (2, -3)$$\nWhat do you notice vertically about the points $(2, 5)$ and $(2, -3)$?",
+    "solution": "$$\\begin{aligned}\n\\text{Notice: } & (2, 5) \\text{ and } (2, -3) \\text{ share the EXACT same } x\\text{-coordinate } x = 2. \\\\[0.5em]\n\\text{Visual: } & \\mathbf{\\text{They stack directly above and below each other vertically!}} \\\\[0.5em]\n\\text{Significance: } & \\text{A single vertical line } x = 2 \\text{ passes through BOTH points.}\n\\end{aligned}$$",
+    "pitfall": "**Vertical stacking:** When two points have the same $x$, they lie on the same vertical line. This will be the key to the Vertical Line Test!",
+    "script": "[Prof. Park] On Slide 3, we take those five ordered pairs from Example 1 and plot them onto the Cartesian coordinate plane: $(1, -1)$, $(2, 0)$, $(3, 1)$, $(4, 2)$, and $(1, 3)$.\n\n[TA Sora] Look at how these five dots arrange themselves across the grid!\nPoint $(2, 0)$ rests right on the positive $x$-axis.\nPoints $(3, 1)$ and $(4, 2)$ sit comfortably in Quadrant I.\nPoint $(1, -1)$ sits in Quadrant IV.\nAnd Point $(1, 3)$ sits high up in Quadrant I.\n\n[Prof. Park] Now, students, look very carefully at the two points $(1, -1)$ and $(1, 3)$. What geometric feature do you observe?\n\n[TA Sora] They are stacked directly on top of each other! They share the exact same horizontal coordinate $x = 1$. If you hold a vertical straightedge or ruler along the grid line $x = 1$, your ruler touches BOTH points at the exact same moment!\n\n[Prof. Park] That visual observation is momentous! In Lecture 25, that exact vertical alignment is what will cause this relation to fail the famous Vertical Line Test.\n\n[TA Sora] In a discrete relation, notice that you have empty white space between the points—there are no connecting lines, no fractions between them, just isolated islands. That is why the domain and range are lists of discrete numbers inside curly braces $\\{ \\}$, NOT continuous intervals with brackets! You cannot say $[1, 4]$ because numbers like $1.5$ and $2.7$ are not in this relation! Discrete means countable individual points!\n\n[TA Sora] If you are ever unsure whether a relation is discrete or continuous, ask yourself: 'Can I have half a person or half an email address?' If not, it is discrete! If you are measuring snow depth or vehicle speed, where every intermediate decimal exists, it is continuous!",
+    "graph": {
+      "xMin": -1,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 18,
+      "title": "Example 1 Points: Stacking at x = 2",
+      "points": [
+        {
+          "x": 1,
+          "y": -1,
+          "label": "(1, -1)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 2,
+          "y": 5,
+          "label": "(2, 5)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 2,
+          "y": -3,
+          "label": "(2, -3)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 3,
+          "y": 10,
+          "label": "(3, 10)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 4,
+          "y": 16,
+          "label": "(4, 16)",
+          "color": "#10b981"
+        }
+      ],
+      "vltLine": 2
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Mapping Diagrams: Visualizing Relations",
+    "subtitle": "Unit 2 • Lecture 24 • Section 2.4 Mapping Diagrams",
+    "detail": "Lecture 24: Relations, Domain & Range",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Mapping Diagrams (Domain $\\rightarrow$ Range)\nIn a mapping diagram:\n- The left oval contains the **Domain** elements.\n- The right oval contains the **Range** elements.\n- Arrows point from each input to its corresponding output.\n\nIn Example 1:\n- $1 \\rightarrow -1$\n- $\\mathbf{2 \\rightarrow 5}$ and $\\mathbf{2 \\rightarrow -3}$ *(One input branches to TWO outputs!)*\n- $3 \\rightarrow 10$\n- $4 \\rightarrow 16$",
+    "solution": "$$\\begin{aligned}\n\\text{Domain Oval: } & \\{1, 2, 3, 4\\} \\\\\n\\text{Range Oval: } & \\{-3, -1, 5, 10, 16\\} \\\\[0.5em]\n\\text{Branching at } 2: & 2 \\text{ sends out two arrows: } 2 \\rightarrow 5 \\text{ and } 2 \\rightarrow -3.\n\\end{aligned}$$",
+    "pitfall": "**Branching arrows:** If any input has more than one arrow leaving it, that relation CANNOT be a function!",
+    "script": "[Prof. Park] Slide 4 introduces one of the most intuitive visual tools in all of mathematics: The Mapping Diagram.\n\n[TA Sora] A mapping diagram translates abstract ordered pairs into a clear visual flow of cause and effect!\nOn the left, we draw an oval representing the **Domain** (Inputs): $\\{1, 2, 3, 4\\}$.\nOn the right, we draw an oval representing the **Range** (Outputs): $\\{-1, 0, 1, 2, 3\\}$.\n\n[Prof. Park] Then, for each ordered pair $(x, y)$, we draw a directional arrow starting from the input in the left oval and pointing directly to its corresponding output in the right oval.\nLook at the arrows:\nAn arrow goes from $2$ to $0$.\nAn arrow goes from $3$ to $1$.\nAn arrow goes from $4$ to $2$.\n\n[TA Sora] But now look at the input $1$ in the left oval!\nTwo separate arrows originate from the number $1$:\nOne arrow shoots down to $-1$, and another arrow shoots up to $3$!\n\n[Prof. Park] That branching arrow is the visual smoking gun of a non-functional relation!\nIf you think of the left oval as telephone speed-dial buttons and the right oval as recipients, pressing button 1 tries to call two different people at the exact same moment. In electronics and software, a single input triggering two contradictory commands causes a system crash!\n\n[TA Sora] Mapping diagrams make it immediately obvious whether an input is branching out to multiple outputs. In data science, when you clean raw data logs from weather sensors or GPS trackers, duplicate input timestamps with conflicting readings are the first errors you must filter out! Keep that branching picture in mind as we move forward!\n\n[Prof. Park] That mapping diagram visual will reappear when you study chemistry and biology: in enzyme-substrate reactions, when one enzyme specifically binds to one substrate, you have a functional lock-and-key mechanism. When multiple substrates compete unpredictably, the system behaves like a multi-branched relation!"
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 2 (Graph A): Continuous Domain & Range",
+    "subtitle": "Unit 2 • Lecture 24 • Section 2.4 Example 2A (Workbook p. 45)",
+    "detail": "Lecture 24: Relations, Domain & Range",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 Graph A (Workbook p. 45)\nFor the line segment shown on the graph extending from $(-4, -2)$ to $(4, 2)$:\n- Determine the **Domain** in interval notation.\n- Determine the **Range** in interval notation.",
+    "solution": "$$\\begin{aligned}\n\\text{Leftmost } x: & -4 \\quad (\\text{closed dot} \\implies [) \\\\\n\\text{Rightmost } x: & +4 \\quad (\\text{closed dot} \\implies ]) \\\\[0.5em]\n\\mathbf{\\text{Domain: }} & \\mathbf{[-4, 4]} \\\\[0.8em]\n\\text{Lowest } y: & -2 \\quad (\\text{closed dot} \\implies [) \\\\\n\\text{Highest } y: & +2 \\quad (\\text{closed dot} \\implies ]) \\\\[0.5em]\n\\mathbf{\\text{Range: }} & \\mathbf{[-2, 2]}\n\\end{aligned}$$",
+    "pitfall": "**Continuous uses intervals, not braces:** A solid curve contains infinitely many points, so we write intervals $[-4, 4]$, NOT discrete lists $\\{-4, 4\\}$!",
+    "script": "[Prof. Park] Turn to page 45 for Example 2 Graph A: Determining the Domain and Range of a Continuous Line Segment.\n\n[TA Sora] Here the graph is not a collection of isolated dots; it is a solid, unbroken straight line segment stretching from $(-4, -2)$ to $(3, 5)$ with solid dots at both ends!\n\n[Prof. Park] Because there are infinitely many points packed along that segment, we cannot list every number in curly braces. We must report the domain and range as continuous intervals!\nLet us find the **Domain** first. Sora, how do we find the domain from a graph?\n\n[TA Sora] Imagine shining a spotlight from the top and bottom of the graph to cast a shadow onto the horizontal $x$-axis!\nLook at the leftmost edge: The segment starts at $x = -4$.\nLook at the rightmost edge: The segment ends at $x = 3$.\nBecause both endpoints have solid closed circles, $-4$ and $3$ are included!\nTherefore, the Domain is:\n$$\\text{Domain} = [-4, 3]$$\n\n[Prof. Park] Exactly. From left to right: $[-4, 3]$.\nNow let us find the **Range**. How do we find the range from a graph?\n\n[TA Sora] Now imagine shining a spotlight from the left and right to cast a shadow onto the vertical $y$-axis!\nLook at the lowest point on the graph: The bottom endpoint is at height $y = -2$.\nLook at the highest point on the graph: The top endpoint reaches height $y = 5$.\nBoth heights are solid and included!\nTherefore, the Range is:\n$$\\text{Range} = [-2, 5]$$\n\n[Prof. Park] Always remember: Domain is horizontal coverage (Left to Right). Range is vertical coverage (Bottom to Top)! Always write the smaller number first: $[\\text{min}, \\text{max}]$! Think of hiking elevation in Montana: you always state your elevation from basecamp minimum to summit maximum!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 6,
+      "yMin": -4,
+      "yMax": 4,
+      "title": "Example 2A: Segment from (-4, -2) to (4, 2)",
+      "points": [
+        {
+          "x": -4,
+          "y": -2,
+          "label": "(-4, -2)",
+          "color": "#10b981"
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "label": "(4, 2)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "p1": [
+            -4,
+            -2
+          ],
+          "p2": [
+            4,
+            2
+          ],
+          "color": "#38bdf8",
+          "strokeWidth": 3
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.4 Example 2 (Graph B): Bounded Curve",
+    "subtitle": "Unit 2 • Lecture 24 • Section 2.4 Example 2B (Workbook p. 45)",
+    "detail": "Lecture 24: Relations, Domain & Range",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 Graph B (Workbook p. 45)\nFor the graph shown extending from $x = -3$ to $x = 5$ with minimum $y = -2$ and peak $y = 4$:\n- State the **Domain** in interval notation.\n- State the **Range** in interval notation.",
+    "solution": "$$\\begin{aligned}\n\\text{Leftmost } x: & -3, \\quad \\text{Rightmost } x: 5 \\\\[0.5em]\n\\mathbf{\\text{Domain: }} & \\mathbf{[-3, 5]} \\\\[0.8em]\n\\text{Lowest } y: & -2, \\quad \\text{Highest } y: 4 \\\\[0.5em]\n\\mathbf{\\text{Range: }} & \\mathbf{[-2, 4]}\n\\end{aligned}$$",
+    "pitfall": "**Peak vs Endpoint:** For range, do not just look at the endpoints! Look for the absolute lowest valley and absolute highest peak on the graph!",
+    "script": "[Prof. Park] Now examine Example 2 Graph B on page 45: A Bounded Curve.\n\n[TA Sora] This is a curved wave that extends horizontally from $x = -3$ to $x = 5$. Notice the endpoints: at $x = -3$, there is a solid dot at height 0. At $x = 5$, there is a solid dot at height 2. And between them, the curve plunges down to a deep valley at $(1, -4)$ and rises to a peak at $(3, 4)$!\n\n[Prof. Park] Let us find the **Domain** first:\nHow far left does the curve travel? Leftmost point is at $x = -3$.\nHow far right does the curve travel? Rightmost point is at $x = 5$.\nBoth boundaries are solid and included:\n$$\\text{Domain} = [-3, 5]$$\n\n[TA Sora] Now comes the most critical trap in Section 2.4! When finding the **Range**, many students look only at the two endpoints and say: 'The endpoints are at heights 0 and 2, so the range is $[0, 2]$!'\nWhy is that a massive error, Professor?\n\n[Prof. Park] Because the curve dips far below 0 and climbs far above 2! The range must capture the ENTIRE vertical extent of the graph—from its absolute lowest valley to its absolute highest peak!\n\n[TA Sora] Look at the valley: the lowest point on the entire curve touches the horizontal grid line at $y = -4$!\nLook at the peak: the highest crest reaches up to $y = +4$!\nThe graph touches every single height between $-4$ and $+4$.\nTherefore, the Range is:\n$$\\text{Range} = [-4, 4]$$\n\n[Prof. Park] That is a vital distinction. Never just grab the endpoints! Always scan from the very bottom of the canvas to the very top: lowest $y$ to highest $y$! In Montana weather forecasting, you report the daily temperature range from the overnight low ($-4^\\circ\\text{F}$) to the afternoon high ($+4^\\circ\\text{F}$), not where the thermometer sat at 8:00 AM! Always look for peaks and valleys!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 7,
+      "yMin": -4,
+      "yMax": 6,
+      "title": "Example 2B: Domain [-3, 5], Range [-2, 4]",
+      "points": [
+        {
+          "x": -3,
+          "y": 0,
+          "label": "Start (-3, 0)",
+          "color": "#10b981"
+        },
+        {
+          "x": 1,
+          "y": 4,
+          "label": "Peak (1, 4)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 3,
+          "y": -2,
+          "label": "Valley (3, -2)",
+          "color": "#ec4899"
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "label": "End (5, 2)",
+          "color": "#38bdf8"
+        }
+      ]
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Interval Notation vs Set-Builder Notation",
+    "subtitle": "Unit 2 • Lecture 24 • Section 2.4 Notation Guide",
+    "detail": "Lecture 24: Relations, Domain & Range",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### How to Report Domain and Range (Workbook p. 45)\n- **Discrete Relations (individual points):**\n  Use set braces listing numbers: $\\{1, 2, 3, 4\\}$.\n- **Continuous Relations (connected lines/curves):**\n  Use interval notation: $[a, b]$ or $(-\\infty, \\infty)$.\n- **Interval Symbols:**\n  - $[$ or $]$: Bracket includes the number (solid dot $\\bullet$).\n  - $($ or $)$: Parenthesis excludes the number (open circle $\\circ$) or for $\\pm\\infty$.",
+    "solution": "$$\\begin{array}{|c|c|c|}\n\\hline\n\\textbf{Type of Graph} & \\textbf{Format} & \\textbf{Example} \\\\\n\\hline\n\\text{Discrete Points} & \\text{Set Braces } \\{\\} & D = \\{1, 2, 3\\}, \\; R = \\{4, 5\\} \\\\\n\\hline\n\\text{Segment with solid dots} & \\text{Closed Interval } [a, b] & D = [-4, 4], \\; R = [-2, 2] \\\\\n\\hline\n\\text{Line with arrows both ways} & \\text{All Real Numbers} & D = (-\\infty, \\infty), \\; R = (-\\infty, \\infty) \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Never use braces for intervals:** $\\{ -4, 4 \\}$ only means two numbers: $-4$ and $4$. $[-4, 4]$ includes all infinite numbers in between!",
+    "script": "[Prof. Park] On Slide 7, we compare the two fundamental notation languages used in algebra: Roster Notation for Discrete Sets versus Interval Notation for Continuous Graphs.\n\n[TA Sora] Let us make sure every student knows when to use which notation:\n1. **Discrete Relations (Individual Dots):**\nUse **Curly Braces** $\\{ \\}$. Inside, list each individual number separated by commas:\n$$\\{1, 2, 3, 4\\}$$\nThis means ONLY the integers 1, 2, 3, and 4. It does NOT include $1.5$, $2.7$, or $\\pi$!\n\n[Prof. Park] 2. **Continuous Graphs (Unbroken Lines & Curves):**\nUse **Interval Notation** with brackets and parentheses:\n$$[-4, 3]$$\nThis means EVERY SINGLE real number between $-4$ and $3$, including $-3.99$, $0$, $1.414$, and $2.999$!\n\n[TA Sora] And remember our bracket rules from Unit 1:\n- **Square Bracket $[$ or $]$:** The endpoint is **included** (solid dot on the graph, $\\le$ or $\\ge$).\n- **Round Parenthesis $($ or $)$:** The endpoint is **excluded** (open circle on the graph, $<$ or $>$, or $\\pm\\infty$).\n\n[Prof. Park] And in Set-Builder notation, that same interval is written as:\n$$\\{x \\mid -4 \\le x \\le 3\\}$$\nWhich reads: 'The set of all $x$ such that $x$ is between $-4$ and $3$, inclusive.' Both notations describe the exact same geometric reality! Knowing both notations gives you the bilingual fluency needed for engineering, computer programming, and higher-level calculus!\n\n[TA Sora] Whenever you write interval notation on an exam, say the words out loud in your head: 'From lowest to highest, from left to right.' If you ever write $[5, -2]$, catch yourself immediately! Smallest number always goes on the left!"
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 2.4 Part 1 Mastery Summary",
+    "subtitle": "Unit 2 • Lecture 24 • Section 2.4 Wrap-up",
+    "detail": "Lecture 24: Relations, Domain & Range",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Section 2.4 Part 1 Master Checklist\n- **Input = $x$-coordinate**\n- **Output = $y$-coordinate**\n- **Domain = set of all inputs** (look left to right on graph)\n- **Range = set of all outputs** (look bottom to top on graph)",
+    "solution": "$$\\mathbf{\\text{Lecture 24 Complete! Next Up: Section 2.4 Part 2 — Functions \\& The Vertical Line Test!}}$$",
+    "pitfall": "**Left-to-Right, Bottom-to-Top:** Always read domain from left to right, and range from bottom to top!",
+    "script": "[Prof. Park] Slide 8 brings us to the Section 2.4 Part 1 Mastery Checklist. Let us review the golden rules before we step into the definition of a function.\n\n[TA Sora] Rule 1: A relation is any set of ordered pairs $(x, y)$.\nRule 2: The Domain is the set of all inputs ($x$-coordinates).\nRule 3: The Range is the set of all outputs ($y$-coordinates).\n\n[Prof. Park] Rule 4: For discrete sets, list unique elements inside curly braces without repeating duplicates.\nRule 5: For continuous graphs, scan Left-to-Right for Domain, and Bottom-to-Top for Range.\n\n[TA Sora] Rule 6: Solid dots mean square brackets $[ ]$; open circles mean round parentheses $( )$.\nRule 7: Never assume the endpoints are the maximum or minimum of the range! Always check the highest peaks and lowest valleys of the curve.\n\n[Prof. Park] In Lecture 25, we take this exact foundation and answer the ultimate question: Which relations earn the prestigious title of being a **Function**? See you in Lecture 25!\n\n[Prof. Park] In statistical quality control for Montana manufacturing, determining the operational domain and range ensures that machinery operating temperatures and pressures stay safely within design limits to prevent catastrophic equipment failure!"
+  }
+]

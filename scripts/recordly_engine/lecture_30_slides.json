@@ -1,0 +1,251 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 4: Adult Systolic Blood Pressure Model",
+    "subtitle": "Unit 2 • Lecture 30 • Section 2.7 Example 4 (Workbook p. 54)",
+    "detail": "Lecture 30: Elevation, Grain Storage & Grand Review",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Adult Systolic Blood Pressure (Workbook p. 54)\nLet $x$ represent age in years and $P(x)$ represent systolic blood pressure in mmHg:\n- A **23-year-old** adult has a blood pressure of **120 mmHg** $\\implies (23, 120)$.\n- A **53-year-old** adult has a blood pressure of **132 mmHg** $\\implies (53, 132)$.\nFind the linear function $P(x)$.",
+    "solution": "$$\\begin{aligned}\n\\text{Step 1: } & m = \\frac{132 - 120}{53 - 23} = \\frac{12}{30} = \\mathbf{0.4 \\text{ mmHg/year}} \\\\[0.5em]\n\\text{Step 2: } & P - 120 = 0.4(x - 23) \\\\[0.5em]\n& P - 120 = 0.4x - 9.2 \\\\[0.5em]\n\\mathbf{P(x)} & = \\mathbf{0.4x + 110.8}\n\\end{aligned}$$",
+    "pitfall": "**Decimal slope:** $12/30 = 0.4$. That means on average, adult systolic blood pressure increases by $0.4$ mmHg every year of age!",
+    "script": "[Prof. Park] Welcome to Lecture 30 of M090! Today on pages 54 and 55 of your workbook, we conclude Unit 2 with advanced real-world modeling and the Grand Synthesis of our entire coordinate geometry curriculum.\n\n[TA Sora] Let us begin on page 54 with Example 4: Adult Systolic Blood Pressure Modeling.\nMedical researchers have determined that for adults, average systolic blood pressure $P(x)$ (measured in millimeters of mercury, $\\text{mmHg}$) can be modeled as a linear function of age $x$ (in years):\n$$\\mathbf{P(x) = \\frac{1}{2}x + 110}$$\n\n[Prof. Park] Let us examine the clinical parameters of this linear function:\n- Look at the slope: $m = \\frac{1}{2} = 0.5$. In medicine, this means that as blood vessels naturally lose elasticity over time, average systolic blood pressure increases at a rate of **half a millimeter of mercury per year** (or $1\\text{ mmHg}$ every two years).\n- Look at the $y$-intercept: $b = 110$. In this model, $110\\text{ mmHg}$ represents the theoretical baseline blood pressure for a young adult entering maturity at age zero of adulthood.\n\n[TA Sora] Let us evaluate Question A: 'Find the average systolic blood pressure for a **30-year-old** adult.'\nHere, the age is the input: $x = 30$.\nWe evaluate $P(30)$:\n$$P(30) = \\frac{1}{2}(30) + 110 = 15 + 110 = \\mathbf{125\\text{ mmHg}}$$\nAs an ordered pair, this is $(30, 125)$.\n\n[Prof. Park] Now evaluate Question B: 'Find the average blood pressure for a **60-year-old** adult.'\nWe evaluate $P(60)$:\n$$P(60) = \\frac{1}{2}(60) + 110 = 30 + 110 = \\mathbf{140\\text{ mmHg}}$$\n\n[TA Sora] Now Question C asks a solving question: 'At what age would an adult have an average systolic blood pressure of **135 mmHg**?'\nHere, 135 is the output: $P(x) = 135$!\n$$\\frac{1}{2}x + 110 = 135$$\nSubtract 110 from both sides:\n$$\\frac{1}{2}x = 25$$\nMultiply both sides by 2:\n$$x = 50\\text{ years old!}$$\nAt age 50, average systolic blood pressure is $135\\text{ mmHg}$!\n\n[Prof. Park] In healthcare careers at Bozeman Health Deaconess Hospital, medical practitioners use these baseline models to spot hypertension early. If a 30-year-old patient registers $150\\text{ mmHg}$, the practitioner immediately recognizes an abnormal deviation from the expected linear baseline and intervenes with dietary and lifestyle counseling!\n\n[TA Sora] In cardiovascular fitness, regular aerobic training like trail running in the Gallatin foothills can actually flatten this slope! If a 60-year-old runner maintains a blood pressure of 120, their biological vascular age functions like a 20-year-old! Linear models quantify the benefits of healthy living!",
+    "graph": {
+      "xMin": 10,
+      "xMax": 70,
+      "yMin": 110,
+      "yMax": 140,
+      "title": "Blood Pressure Model: P(x) = 0.4x + 110.8",
+      "points": [
+        {
+          "x": 23,
+          "y": 120,
+          "label": "Age 23 (23, 120)",
+          "color": "#10b981"
+        },
+        {
+          "x": 53,
+          "y": 132,
+          "label": "Age 53 (53, 132)",
+          "color": "#38bdf8"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 0.4,
+          "yIntercept": 110.8,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "P(x)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 5 (Part 1): Bozeman Elevation & Boiling Point",
+    "subtitle": "Unit 2 • Lecture 30 • Section 2.7 Example 5 (Workbook p. 55)",
+    "detail": "Lecture 30: Elevation, Grain Storage & Grand Review",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Bozeman Elevation vs Boiling Point (Workbook p. 55)\nThe relationship between elevation $x$ (in feet) and boiling point of water $B(x)$ (in $^\\circ$F):\n- At **0 ft elevation** (sea level camping), water boils at **$212^\\circ$F** $\\implies (0, 212)$.\n- Hiking up to the **Bozeman \"M\"** at **5700 ft elevation**, water boils at **$200^\\circ$F** $\\implies (5700, 200)$.\nIdentify the two ordered pairs and state the $y$-intercept.",
+    "solution": "$$\\begin{aligned}\n\\text{Sea level point: } & (x_1, B_1) = \\mathbf{(0, 212)} \\quad (y\\text{-intercept } b = 212) \\\\[0.5em]\n\\text{Bozeman \"M\" point: } & (x_2, B_2) = \\mathbf{(5700, 200)}\n\\end{aligned}$$",
+    "pitfall": "**Notice b is already given!** Because sea level is elevation $0$, $(0, 212)$ is our $y$-intercept directly!",
+    "script": "[Prof. Park] Now turn to page 55 for one of the most fascinating physical science applications in all of Montana: Example 5 Part 1, Bozeman Elevation versus the Boiling Point of Water!\n\n[TA Sora] If you have ever tried to boil pasta or can fresh elk meat in Bozeman, you know it takes significantly longer than it does at sea level in Seattle or New York! Why? Because Bozeman sits nearly a mile high in the Rocky Mountains! As elevation increases, atmospheric air pressure decreases, which allows water molecules to escape into steam at a lower temperature!\n\n[Prof. Park] Let us look at the given scientific data:\n1. At **sea level ($0\\text{ feet}$)**, water boils at **$212^\\circ\\text{F}$**.\n2. At an **elevation of $5{,}000\\text{ feet}$**, water boils at **$203^\\circ\\text{F}$**.\nLet us translate these two observations into ordered pairs $(x, y)$:\nLet $x$ represent the **elevation in feet above sea level**.\nLet $B(x)$ represent the **boiling point of water in degrees Fahrenheit**.\n\n[TA Sora] Let us write out our two coordinate points:\nAt sea level ($x = 0$), temperature is $212$:\n$$\\text{Point 1: } (x_1, y_1) = (0, 212)$$\nNotice that because $x = 0$, $(0, 212)$ is our **$y$-intercept** $b = 212$!\nAt elevation $5{,}000$, temperature is $203$:\n$$\\text{Point 2: } (x_2, y_2) = (5000, 203)$$\n\n[Prof. Park] Now compute the slope $m$ (the rate of temperature drop per foot of elevation):\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{203 - 212}{5000 - 0} = \\frac{-9}{5000}$$\nConvert that fraction to a decimal:\n$$m = -0.0018^\\circ\\text{F per foot}$$\nEvery foot you climb into the Montana sky, the boiling point of water drops by $0.0018$ degrees Fahrenheit!\n\n[TA Sora] That negative sign makes total sense: As elevation goes UP, boiling point goes DOWN! In aviation, barometric altimeters inside aircraft cockpits flying into Bozeman Yellowstone International Airport use this exact pressure-altitude relationship to calculate true height above ground! On Slide 3, we construct our boiling point function!\n\n[Prof. Park] At the top of Mount Everest (29,032 feet), air pressure is one-third of sea level, and water boils at a chilly 160 degrees Fahrenheit—so cold that you cannot even brew hot coffee! Pressure and temperature are bound by thermodynamics!"
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 5 (Part 2): Boiling Point Function B(x)",
+    "subtitle": "Unit 2 • Lecture 30 • Section 2.7 Example 5 Solution (Workbook p. 55)",
+    "detail": "Lecture 30: Elevation, Grain Storage & Grand Review",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 Solution (Workbook p. 55)\nWrite a linear function $B(x)$ that represents the boiling point of water in degrees Fahrenheit in terms of elevation $x$ in feet:\n- Calculate slope $m$.\n- Assemble the linear function.",
+    "solution": "$$\\begin{aligned}\nm & = \\frac{200 - 212}{5700 - 0} = \\frac{-12}{5700} = \\mathbf{-\\frac{1}{475} \\; ^\\circ\\text{F/ft}} \\\\[0.6em]\n\\text{Since } b = 212: & \\\\\n\\mathbf{B(x)} & = \\mathbf{-\\frac{1}{475}x + 212}\n\\end{aligned}$$",
+    "pitfall": "**Negative rate:** Boiling point drops as elevation increases, so the slope must be negative: $-\\frac{1}{475}$!",
+    "script": "[Prof. Park] On Slide 3, we execute Example 5 Part 2 on page 55: Writing the Boiling Point Function $B(x)$ and evaluating it for the city of Bozeman!\n\n[TA Sora] Let us assemble our function from Slide 2:\nWe have our slope $m = -0.0018$ and our $y$-intercept $b = 212$:\n$$\\mathbf{B(x) = -0.0018x + 212}$$\nLook at how elegant that formula is!\nNow let us answer: 'What is the boiling point of water in downtown **Bozeman**, which sits at an elevation of approximately **$4{,}800\\text{ feet}$**?'\n\n[Prof. Park] The elevation of Bozeman is our input: $x = 4{,}800\\text{ feet}$!\nLet us evaluate $B(4800)$:\n$$B(4800) = -0.0018(4800) + 212$$\nMultiply $-0.0018$ by $4{,}800$:\n$$-0.0018 \\times 4800 = -8.64$$\nNow add 212:\n$$-8.64 + 212 = \\mathbf{203.36^\\circ\\text{F}}$$\n\n[TA Sora] That is nearly **9 degrees cooler** than boiling water at sea level!\nWhen you boil water in Bozeman, it bubbles vigorously at just $203.4^\\circ\\text{F}$. Because the water is 9 degrees cooler, food cooks more slowly, which is why recipes printed on pasta boxes and cake mixes include special 'High Altitude Cooking Instructions!'\n\n[Prof. Park] And what if you are camping at the summit of Sacajawea Peak in the Bridger Range at $9{,}600\\text{ feet}$?\n$$B(9600) = -0.0018(9600) + 212 = -17.28 + 212 = 194.72^\\circ\\text{F}!$$\nAt the mountain summit, water boils below $195^\\circ\\text{F}$! In sterilization autoclaves at mountain clinics, medical instruments must be heated under pressure to reach proper sterilization temperatures. Linear models explain physical reality across the Rocky Mountain West!",
+    "graph": {
+      "xMin": 0,
+      "xMax": 7000,
+      "yMin": 190,
+      "yMax": 220,
+      "title": "Boiling Point vs Elevation: B(x) = -1/475x + 212",
+      "points": [
+        {
+          "x": 0,
+          "y": 212,
+          "label": "Sea Level (0, 212°F)",
+          "color": "#10b981"
+        },
+        {
+          "x": 5700,
+          "y": 200,
+          "label": "Bozeman 'M' (5700, 200°F)",
+          "color": "#f59e0b"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -0.002105263157894737,
+          "yIntercept": 212,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "B(x)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 6 (Part 1): Montana Grain Bin Storage",
+    "subtitle": "Unit 2 • Lecture 30 • Section 2.7 Example 6 (Workbook p. 55)",
+    "detail": "Lecture 30: Elevation, Grain Storage & Grand Review",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Montana Grain Bin Depletion (Workbook p. 55)\nIn **2001**, the volume in a grain bin is **45 tons**. In **2025**, there were only **15 tons** remaining.\n- Create a linear model $V(t)$ that represents the volume of grain left in the bin, $t$ years after 2000.\n- State the data points in terms of $t$ (years after 2000).",
+    "solution": "$$\\begin{aligned}\n2001 \\implies t_1 & = 2001 - 2000 = \\mathbf{1} \\implies \\mathbf{(1, 45)} \\\\[0.5em]\n2025 \\implies t_2 & = 2025 - 2000 = \\mathbf{25} \\implies \\mathbf{(25, 15)}\n\\end{aligned}$$",
+    "pitfall": "**Base year offset:** Years are defined as $t$ years AFTER 2000! So 2001 is $t = 1$, NOT $t = 2001$!",
+    "script": "[Prof. Park] Turn to page 55 for Example 6 Part 1: Montana Grain Bin Storage Depletion.\nAgriculture is the foundation of Montana's economy. In the year **2001**, the volume of grain stored in a large ranch silo near Great Falls was **45 tons**. By the year **2005**, regular shipments and livestock feeding had reduced the volume to **27 tons**.\n\n[TA Sora] Let us establish our linear variables:\nLet $t$ represent the **time in years since 2001** (so $t = 0$ corresponds to 2001).\nLet $V(t)$ represent the **remaining volume of grain in tons**.\nLet us translate our historical data into two ordered pairs $(t, V)$:\nIn 2001 ($t = 0$), volume was 45 tons:\n$$\\text{Point 1: } (0, 45) \\implies b = 45\\text{ tons (our } y\\text{-intercept!)}$$\nIn 2005 ($t = 2005 - 2001 = 4\\text{ years}$), volume was 27 tons:\n$$\\text{Point 2: } (4, 27)$$\n\n[Prof. Park] Now let us compute the slope $m$ (the annual rate of grain depletion):\n$$m = \\frac{V_2 - V_1}{t_2 - t_1} = \\frac{27 - 45}{4 - 0}$$\nIn the numerator: $27 - 45 = -18\\text{ tons}$.\nIn the denominator: $4 - 0 = 4\\text{ years}$.\n$$m = \\frac{-18}{4} = -4.5\\text{ tons per year}$$\n\n[TA Sora] What does $m = -4.5$ tell the ranch manager?\nEvery single year, the silo loses $4.5$ tons of grain!\nNow assemble the linear storage function:\n$$\\mathbf{V(t) = -4.5t + 45}$$\n\n[Prof. Park] In Montana's Golden Triangle—the premier wheat-growing region stretching from Great Falls to Havre and Conrad—grain storage managers monitor silo levels continuously. Tracking depletion rates allows cooperatives to book freight rail cars on the BNSF railway months in advance to ensure smooth grain export to Pacific Rim ports!\n\n[TA Sora] On Slide 5, let us determine when the grain bin will be completely empty!\n\n[TA Sora] In Montana agriculture, wheat grain bins are equipped with digital moisture and temperature cables: when the volume decreases at $-4.5$ tons per year, farmers can balance livestock winter feeding rations with commercial export sales!"
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 2.7 Example 6 (Part 2): Grain Model & When Empty",
+    "subtitle": "Unit 2 • Lecture 30 • Section 2.7 Example 6 Solution (Workbook p. 55)",
+    "detail": "Lecture 30: Elevation, Grain Storage & Grand Review",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 Solution (Workbook p. 55)\n- Find the linear model $V(t)$.\n- **Determine when the grain bin will be completely empty.**",
+    "solution": "$$\\begin{aligned}\n\\text{Step 1: } & m = \\frac{15 - 45}{25 - 1} = \\frac{-30}{24} = \\mathbf{-1.25 \\text{ tons/year}} \\\\[0.5em]\n\\text{Step 2: } & V - 45 = -1.25(t - 1) \\\\\n& V - 45 = -1.25t + 1.25 \\implies \\mathbf{V(t) = -1.25t + 46.25} \\\\[0.8em]\n\\text{Step 3: } & \\text{Set } V(t) = 0: \\\\\n& 0 = -1.25t + 46.25 \\implies 1.25t = 46.25 \\implies \\mathbf{t = 37} \\\\[0.5em]\n\\text{Calendar Year: } & 2000 + 37 = \\mathbf{\\text{Year } 2037}\n\\end{aligned}$$",
+    "pitfall": "**Convert t back to calendar year:** $t = 37$ means 37 years after 2000, so the bin will empty in the year 2037!",
+    "script": "[Prof. Park] On Slide 5, we complete Example 6 Part 2 on page 55: Determining **when the grain bin will be completely empty**.\n\n[TA Sora] What does 'empty' mean in mathematical terms?\nAn empty bin has a volume of ZERO!\nTherefore, the output $V(t) = 0$!\nThis is a solving problem:\n$$-4.5t + 45 = 0$$\n\n[Prof. Park] Let us isolate $t$:\nAdd $4.5t$ to both sides:\n$$45 = 4.5t$$\nDivide both sides by $4.5$:\n$$t = \\frac{45}{4.5} = \\mathbf{10\\text{ years}}$$\n\n[TA Sora] What calendar year will that be?\nSince $t = 0$ was 2001:\n$$\\text{Year} = 2001 + 10 = \\mathbf{2011}$$\nIn the year 2011, the grain silo will be completely depleted!\n\n[Prof. Park] Look at the graph on your screen:\nThe graph starts at $(0, 45)$ on the vertical axis (45 tons).\nIt slopes downward at a rate of $-4.5$ tons per year.\nIt intersects the horizontal time axis at $(10, 0)$—our $x$-intercept!\nThe practical **Domain** is $[0, 10]$ years, and the practical **Range** is $[0, 45]$ tons.\nLinear functions give farmers and resource managers the ability to foresee depletion years in advance and schedule resupply shipments!\n\n[TA Sora] Real-world models always have domain boundaries. If you plugged in $t = 12$ years, the formula would predict $-9$ tons of grain! But a silo cannot hold negative wheat. Always define the valid physical domain of your model!\n\n[Prof. Park] Solving for the $t$-intercept ($V=0$) gives the exact horizon date: 10 years after 2001 is 2011! Mathematical modeling transforms raw data into actionable life planning!",
+    "graph": {
+      "xMin": 0,
+      "xMax": 42,
+      "yMin": 0,
+      "yMax": 55,
+      "title": "Grain Bin Depletion: V(t) = -1.25t + 46.25 (Empty at t = 37)",
+      "points": [
+        {
+          "x": 1,
+          "y": 45,
+          "label": "2001 (1, 45)",
+          "color": "#10b981"
+        },
+        {
+          "x": 25,
+          "y": 15,
+          "label": "2025 (25, 15)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 37,
+          "y": 0,
+          "label": "Empty 2037 (37, 0)",
+          "color": "#ec4899"
+        }
+      ],
+      "lines": [
+        {
+          "slope": -1.25,
+          "yIntercept": 46.25,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "V(t)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Grand Synthesis & Review",
+    "title": "Unit 2 Master Principles: The Linear Universe",
+    "subtitle": "Unit 2 • Lecture 30 • Unit 2 Complete Synthesis",
+    "detail": "Lecture 30: Elevation, Grain Storage & Grand Review",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Unit 2 Master Principles Recap (Sections 2.0 – 2.7)\n1. **Cartesian Coordinates:** $(x, y)$, Quadrants I–IV, Intercepts $(a, 0)$ and $(0, b)$.\n2. **Slope:** $m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\text{Rise}}{\\text{Run}}$.\n3. **Parallel & Perpendicular:** Parallel ($m_1 = m_2$), Perpendicular ($m_1 \\cdot m_2 = -1$).\n4. **Linear Forms:** Slope-intercept ($y = mx + b$), Point-slope ($y - y_1 = m(x - x_1)$).\n5. **Special Lines (HOY VUX):** Horizontal ($y = c, m = 0$), Vertical ($x = c, m = \\text{undefined}$).\n6. **Functions & VLT:** Every input has exactly one output. Passes Vertical Line Test.\n7. **Function Notation:** $y = f(x)$, evaluating $f(a)$ vs solving $f(x) = k$.\n8. **Linear Models:** $f(x) = mx + b$ where $m = \\text{rate}$ and $b = \\text{initial value}$.",
+    "solution": "$$\\begin{array}{|c|c|c|}\n\\hline\n\\textbf{Topic} & \\textbf{Formula / Rule} & \\textbf{Key Application} \\\\\n\\hline\n\\text{Slope} & m = \\frac{y_2 - y_1}{x_2 - x_1} & \\text{Steepness \\& Direction} \\\\\n\\hline\n\\text{Point-Slope} & y - y_1 = m(x - x_1) & \\text{Writing any line} \\\\\n\\hline\n\\text{Parallel} & m_1 = m_2 & \\text{Same direction} \\\\\n\\hline\n\\text{Perpendicular} & m_1 \\cdot m_2 = -1 & 90^\\circ \\text{ intersection} \\\\\n\\hline\n\\text{Linear Function} & f(x) = mx + b & \\text{Real-world rates} \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**You have built a powerhouse algebraic foundation:** These 8 pillars will support everything you do in algebra and calculus!",
+    "script": "[Prof. Park] On Slide 6, we step back and view the Master Principles of Unit 2: The Linear Universe. Over the past 15 lectures, we have built a complete, interconnected mathematical world.\n\n[TA Sora] Let us review the foundational pillars we have mastered:\n1. **The Cartesian Plane (Section 2.0):**\n   Origin $(0, 0)$, $x$-axis (horizontal), $y$-axis (vertical), four quadrants counterclockwise. Points $(x, y)$—walk the hallway before taking the elevator!\n2. **Graphing Lines (Section 2.1):**\n   Standard Form $Ax + By = C$. Three graphing methods: Table of values, Intercepts (Cover-up method), and Slope-Intercept.\n3. **The Slope of a Line (Section 2.2):**\n   $m = \\frac{\\Delta y}{\\Delta x} = \\frac{\\text{Rise}}{\\text{Run}} = \\frac{y_2 - y_1}{x_2 - x_1}$. Four types of slope: Positive (uphill), Negative (downhill), Zero (horizontal), Undefined (vertical).\n\n[Prof. Park] 4. **Parallel & Perpendicular Lines (Section 2.2):**\n   Parallel lines share equal slopes ($m_1 = m_2$). Perpendicular lines have negative reciprocal slopes ($m_1 \\cdot m_2 = -1$).\n5. **Writing Equations (Section 2.3):**\n   Point-Slope Form: $y - y_1 = m(x - x_1)$. The universal construction tool!\n6. **Relations & Functions (Section 2.4):**\n   Domain (inputs), Range (outputs). A function assigns each input exactly one output (passes VLT!).\n7. **Function Notation & Modeling (Sections 2.5–2.7):**\n   $y = f(x)$, evaluating $f(a)$ vs solving $f(x) = b$. Real-world rate modeling: $f(x) = mx + b$.\n\n[TA Sora] Every single concept connected seamlessly into the next! When you build a house on a solid foundation, every wall stands true!\n\n[Prof. Park] And think of the mindset shift: in Unit 1, you learned how to manipulate isolated symbols. In Unit 2, you learned how to visualize cause and effect in two-dimensional space. That ability to see the geometric consequences of an algebraic formula is what transforms students into true problem solvers!\n\n[Prof. Park] When you reflect on Unit 2, realize that you now possess the mathematical literacy to understand scientific papers, economic reports, and engineering blueprints. You can look at raw data and extract the underlying linear equations that govern the phenomenon!"
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Comprehensive Coordinate Grid",
+    "title": "Unit 2 Master Coordinate Grid: All Line Types",
+    "subtitle": "Unit 2 • Lecture 30 • Visual Comparison",
+    "detail": "Lecture 30: Elevation, Grain Storage & Grand Review",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Visualizing Every Line Family on One Coordinate Plane\nObserve how all forms of lines coexist in the Cartesian coordinate system:\n- **Rising Line ($m > 0$):** $y = x + 1$ (Blue)\n- **Falling Line ($m < 0$):** $y = -x + 3$ (Pink)\n- **Horizontal Line (HOY):** $y = -2$ (Green)\n- **Vertical Line (VUX):** $x = 4$ (Gold)",
+    "solution": "$$\\begin{aligned}\n\\text{Blue: } & y = x + 1 \\quad (m = +1 > 0) \\\\\n\\text{Pink: } & y = -x + 3 \\quad (m = -1 < 0) \\\\\n\\text{Green: } & y = -2 \\quad (m = 0, \\text{ HOY}) \\\\\n\\text{Gold: } & x = 4 \\quad (m = \\text{undefined}, \\text{ VUX})\n\\end{aligned}$$",
+    "pitfall": "**Coordinate Plane Mastery:** The coordinate plane is a unified visual stage for every equation in algebra!",
+    "script": "[Prof. Park] On Slide 7, we present the Master Coordinate Grid: Visualizing Every Line Family simultaneously on a single canvas!\n\n[TA Sora] Look at how all forms of lines coexist in the coordinate plane:\n1. **Standard Rising Line ($m > 0$):** Slants uphill from southwest to northeast.\n2. **Standard Falling Line ($m < 0$):** Slants downhill from northwest to southeast.\n3. **Horizontal Line ($y = c$):** Flat level line, slope $m = 0$, passes VLT (HOY).\n4. **Vertical Line ($x = k$):** Vertical cliff, slope undefined, fails VLT (VUX).\n5. **Parallel Pair:** Dual tracks that never intersect, identical slopes $m_1 = m_2$.\n6. **Perpendicular Pair:** Meeting at a true 90-degree right angle, $m_1 \\cdot m_2 = -1$.\n\n[Prof. Park] Notice how geometry and algebra are two languages describing the exact same underlying reality. When you look at an equation like $y = -2x + 7$, your mind should instantly see a line crossing at 7 and plunging downhill twice as fast as it runs forward.\n\n[TA Sora] That visual intuition is what separates struggling students from confident, fluent mathematicians. When you can see the line before you draw it, algebra becomes a creative art!\n\n[Prof. Park] Think of architectural drafting or video game design: game engines render entire 3D worlds by computing millions of intersecting lines and polygons every second using these exact coordinate formulas! You are mastering the visual engine of modern computing!\n\n[TA Sora] Think of this master grid as your mathematical toolbox: whenever a problem appears on an exam, you identify which line family it belongs to, grab the appropriate formula, and execute with total confidence!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 8,
+      "yMin": -6,
+      "yMax": 8,
+      "title": "Master Coordinate Grid: All Line Types Coexisting",
+      "points": [
+        {
+          "x": 1,
+          "y": 2,
+          "label": "Intersection (1, 2)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 4,
+          "y": -2,
+          "label": "(4, -2)",
+          "color": "#10b981"
+        }
+      ],
+      "lines": [
+        {
+          "slope": 1,
+          "yIntercept": 1,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5,
+          "label": "y = x + 1 (m > 0)"
+        },
+        {
+          "slope": -1,
+          "yIntercept": 3,
+          "color": "#ec4899",
+          "strokeWidth": 2.5,
+          "label": "y = -x + 3 (m < 0)"
+        },
+        {
+          "horizontal": -2,
+          "color": "#10b981",
+          "strokeWidth": 2.5,
+          "label": "y = -2 (m = 0)"
+        },
+        {
+          "vertical": 4,
+          "color": "#f59e0b",
+          "strokeWidth": 2.5,
+          "label": "x = 4 (m = undef)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Course Milestone & Celebration",
+    "title": "Unit 2 Mastered! Transition to Unit 3 (Quadratics)",
+    "subtitle": "Unit 2 • Lecture 30 • Course Milestone",
+    "detail": "Lecture 30: Elevation, Grain Storage & Grand Review",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Milestone Achieved: Two-Thirds of M090 Complete!\n- **Unit 1 Conquered:** Algebraic Expressions, Signed Numbers, Fractions, Equations, Inequalities.\n- **Unit 2 Conquered:** Cartesian Coordinates, Linear Equations, Slopes, Functions, Real-World Modeling.\n- **Coming Next in Unit 3:** Quadratic Functions, Factoring Polynomials, Solving Quadratic Equations, and Parabolas!",
+    "solution": "$$\\mathbf{\\text{Unit 2 Complete! Onward to Unit 3: Quadratic Functions \\& Factoring!}}$$",
+    "pitfall": "**Celebrate your achievement:** You have mastered two entire units of college developmental algebra!",
+    "script": "[Prof. Park] On Slide 8, we celebrate an immense academic milestone: You have officially mastered Unit 2 of M090 Introductory Algebra! Give yourselves a tremendous round of applause!\n\n[TA Sora] Let us take stock of where you stand in the curriculum:\n- **Unit 1 Conquered:** Signed numbers, fractions, algebraic expressions, linear equations in one variable, and interval notation!\n- **Unit 2 Conquered:** The Cartesian coordinate plane, slopes, intercepts, line construction, relations, functions, and real-world linear modeling!\nYou have completed two full units—that is two-thirds of the foundational material of introductory algebra!\n\n[Prof. Park] Look ahead to what awaits you in **Unit 3**:\nIn Unit 3, we leave straight lines behind and enter the dynamic, curved world of **Quadratic Functions and Polynomials**! We will explore parabolas, projectile motion, factoring, the quadratic formula, vertex optimization, and business revenue maximization!\n\n[TA Sora] Everything you learned in Unit 2—plotting points, evaluating functions, understanding domain and range, finding intercepts—is the exact foundation that makes Unit 3 intuitive and exciting!\n\n[Prof. Park] Review your workbook pages 30 through 55, take pride in how far your mathematical abilities have grown, and remember: with disciplined practice and systematic thinking, there is no mathematical problem you cannot conquer!\n\n[TA Sora] We are so proud of your dedication and hard work throughout Unit 2. Rest up, celebrate this victory, and we will see you in Unit 3! Go Bobcats!"
+  }
+]

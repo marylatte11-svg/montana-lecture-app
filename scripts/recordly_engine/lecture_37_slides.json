@@ -1,0 +1,344 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Square Root Property with Binomial Squares: (x - h)^2 = k",
+    "subtitle": "Unit 3 • Lecture 37 • Section 3.2 (Workbook p. 69)",
+    "detail": "Lecture 37: Binomial Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Generalized Square Root Property (Workbook p. 69)\nWhen a binomial squared equals a constant:\n$$\\mathbf{(x - h)^2 = k}$$\n- Take the square root of both sides:\n  $$\\mathbf{x - h = \\pm \\sqrt{k}}$$\n- Add $h$ to both sides to isolate $x$:\n  $$\\mathbf{x = h \\pm \\sqrt{k}}$$\n- This produces two solutions: $x_1 = h + \\sqrt{k}$ and $x_2 = h - \\sqrt{k}$.",
+    "solution": "$$\\begin{aligned}\n\\text{Step 1: } & \\text{Ensure the squared term } (x - h)^2 \\text{ is isolated.} \\\\\n\\text{Step 2: } & \\text{Apply } \\pm \\sqrt{k}: \\quad x - h = \\pm \\sqrt{k}. \\\\\n\\text{Step 3: } & \\text{Add } h \\text{ in FRONT of the } \\pm: \\quad x = h \\pm \\sqrt{k}. \\\\\n\\text{Step 4: } & \\text{Calculate both numerical solutions if } k \\text{ is a perfect square.}\n\\end{aligned}$$",
+    "pitfall": "**Put h in front of the $\\pm$ sign:** Writing $x = h \\pm \\sqrt{k}$ prevents you from accidentally putting $h$ inside the radical!",
+    "script": "[Prof. Park] Hello everyone, and welcome to Lecture 37 of M090 Introductory Algebra! I'm Professor Eunju Park, and joining me as always is our stellar teaching assistant, Sora. Today we advance to Section 3.2 Part 2 on page 77 of your workbook: The Square Root Property with Binomial Squares.\n\n[TA Sora] Welcome back, Bobcats! In Lecture 36, we applied the Square Root Property to a single isolated variable: $x^2 = k \\implies x = \\pm \\sqrt{k}$. But today, the base being squared is an entire binomial: $(x - h)^2 = k$!\n\n[Prof. Park] Many students look at an equation like $(x - 3)^2 = 25$ and their first instinct is to expand it: write $x^2 - 6x + 9 = 25$, subtract 25, and try to factor it. Sora, is that wrong?\n\n[TA Sora] It is not mathematically wrong, but it is like driving from Bozeman to Billings by going through Seattle! You are doing three times more work and creating multiple opportunities to make sign errors!\n\n[Prof. Park] Exactly. Why expand a perfect square when it is ALREADY packaged as a square? We can apply the Square Root Property directly to the entire binomial: if $(x - h)^2 = k$, then taking the square root of both sides gives $x - h = \\pm \\sqrt{k}$!\n\n[TA Sora] Look at how brilliant that is: the exponent of 2 vanishes, the parentheses disappear, and you are left with a simple, one-step linear equation! Just add $h$ to both sides, and you have $x = h \\pm \\sqrt{k}$!\n\n[Prof. Park] Think about carpentry and framing in Montana construction. When you pre-fabricate a wall frame in a controlled shop and bring it to the job site, you install it as a pre-built unit; you don't take it apart and rebuild it from individual two-by-fours! $(x - h)^2$ is a pre-packaged square. Keep it intact!\n\n[TA Sora] Open your workbook to page 77. Let's solve Example 5 together on Slide 2!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.2 Example 5: Solving (x - 3)^2 = 25",
+    "subtitle": "Unit 3 • Lecture 37 • Section 3.2 Example 5 (Workbook p. 69)",
+    "detail": "Lecture 37: Binomial Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 5 (Workbook p. 69)\nSolve the equation for $x$:\n$$\\mathbf{(x - 3)^2 = 25}$$\n- Apply the Square Root Property.\n- Separate into two arithmetic cases and simplify.",
+    "solution": "$$\\begin{aligned}\n(x - 3)^2 & = 25 \\\\[0.5em]\nx - 3 & = \\pm \\sqrt{25} \\\\[0.5em]\nx - 3 & = \\pm 5 \\\\[0.5em]\nx & = 3 \\pm 5 \\\\[0.8em]\n\\text{Case 1: } & x = 3 + 5 = \\mathbf{8} \\\\\n\\text{Case 2: } & x = 3 - 5 = \\mathbf{-2} \\\\[0.8em]\n\\mathbf{\\text{Solutions: }} & \\mathbf{x = 8 \\quad \\text{and} \\quad x = -2}\n\\end{aligned}$$",
+    "pitfall": "**Do not FOIL out $(x - 3)^2$!** Expanding $(x - 3)^2 = x^2 - 6x + 9 = 25$ wastes time and invites arithmetic errors. Take the square root directly!",
+    "script": "[Prof. Park] On Slide 2, Section 3.2 Example 5 asks us to solve the equation $(x - 3)^2 = 25$. Let's demonstrate the speed and elegance of the Square Root Property!\n\n[TA Sora] Step 1: Check that the binomial square is isolated on the left side. It is! $(x - 3)^2$ is all by itself, and 25 is on the right side.\n\n[Prof. Park] Step 2: Apply the Square Root Property: take the square root of both sides, remembering our mandatory $\\pm$ on the right: $x - 3 = \\pm \\sqrt{25}$.\n\n[TA Sora] Step 3: Simplify the radical! Since 25 is a perfect square, $\\sqrt{25} = 5$. So our equation becomes $x - 3 = \\pm 5$!\n\n[Prof. Park] Step 4: Now isolate $x$ by adding 3 to both sides: $x = 3 \\pm 5$. Notice where we write the 3: we place it in FRONT of the $\\pm$ sign! That keeps our arithmetic organized and clear.\n\n[TA Sora] Step 5: Split this into two separate branch calculations! Branch 1 (using the plus sign): $x = 3 + 5 = 8$. Branch 2 (using the minus sign): $x = 3 - 5 = -2$!\n\n[Prof. Park] Look at those two clean solutions: $x = 8$ and $x = -2$. Let's check both in the original equation! For $x = 8$: $(8 - 3)^2 = (5)^2 = 25$ (True!). For $x = -2$: $(-2 - 3)^2 = (-5)^2 = 25$ (True!).\n\n[TA Sora] Both answers check out 100%! Notice the symmetry: the center number is 3, and both solutions are exactly 5 units away from 3: $3 + 5 = 8$, and $3 - 5 = -2$.\n\n[Prof. Park] That center number 3 is the $x$-coordinate of the parabola's vertex! The distance 5 is the horizontal spread to the $x$-intercepts.\n\n[TA Sora] Solution set: $\\{-2, 8\\}$. Five clean steps, zero messy factoring!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 10,
+      "yMin": -5,
+      "yMax": 35,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 9,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 8,
+          "y": 25,
+          "color": "#ff6b6b",
+          "label": "(8,25)"
+        },
+        {
+          "x": -2,
+          "y": 25,
+          "color": "#ff6b6b",
+          "label": "(-2,25)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ffd700",
+          "label": "V(3,0)"
+        }
+      ],
+      "axisOfSymmetry": 3
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.2 Example 6: Intercepts & Vertex for f(x) = (x + 2)^2 - 9",
+    "subtitle": "Unit 3 • Lecture 37 • Section 3.2 Example 6 (Workbook p. 69)",
+    "detail": "Lecture 37: Binomial Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 6 (Workbook p. 69)\nFind the intercepts and vertex for the function:\n$$\\mathbf{f(x) = (x + 2)^2 - 9}$$\n- **A. Find the $x$-intercept(s):** \\underline{\\hspace{3cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{3cm}}\n- **C. Find the vertex:** \\underline{\\hspace{3cm}}",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. x-intercepts: } & \\text{Set } f(x) = 0: (x + 2)^2 - 9 = 0 \\implies (x + 2)^2 = 9 \\\\\n& x + 2 = \\pm \\sqrt{9} = \\pm 3 \\\\\n& x = -2 \\pm 3 \\implies x = -2 + 3 = \\mathbf{1}, \\quad x = -2 - 3 = \\mathbf{-5} \\\\\n& \\implies \\mathbf{(1, 0) \\quad \\text{and} \\quad (-5, 0)} \\\\[0.8em]\n\\textbf{B. y-intercept: } & f(0) = (0 + 2)^2 - 9 = 4 - 9 = \\mathbf{-5} \\implies \\mathbf{(0, -5)} \\\\[0.8em]\n\\textbf{C. Vertex: } & \\text{From vertex form: } \\mathbf{(-2, -9)}\n\\end{aligned}$$",
+    "pitfall": "**Check vertex form:** Vertex is $(-2, -9)$. Notice the $x$-intercepts $1$ and $-5$ are spaced $\\pm 3$ units symmetrically around $x = -2$!",
+    "script": "[Prof. Park] Turning to Slide 3, Section 3.2 Example 6 connects this method to graphing a quadratic function in vertex form: For $f(x) = (x + 2)^2 - 9$, find the $x$-intercepts and the vertex, and sketch the graph.\n\n[TA Sora] Look at how familiar this form is! $f(x) = (x + 2)^2 - 9$ is written in Vertex Form $a(x - h)^2 + k$. We can read the vertex immediately: inside $(x + 2)$ flips to $h = -2$, and outside $-9$ stays $k = -9$. The vertex is $(-2, -9)$!\n\n[Prof. Park] And since $a = 1 > 0$, the parabola opens upward from that minimum of $-9$. Now let's find the $x$-intercepts by setting $f(x) = 0$: $(x + 2)^2 - 9 = 0$.\n\n[TA Sora] Step 1: Isolate the binomial square by adding 9 to both sides: $(x + 2)^2 = 9$!\n\n[Prof. Park] Step 2: Apply the Square Root Property: $x + 2 = \\pm \\sqrt{9} = \\pm 3$. Step 3: Subtract 2 from both sides, placing $-2$ in front: $x = -2 \\pm 3$!\n\n[TA Sora] Now split into the two branches: Branch 1: $x = -2 + 3 = +1$. Branch 2: $x = -2 - 3 = -5$! That gives us two $x$-intercepts: $(1, 0)$ and $(-5, 0)$!\n\n[Prof. Park] Look at the symmetry around our vertex $x$-coordinate of $-2$: to the right, $-2 + 3 = 1$; to the left, $-2 - 3 = -5$. Both roots are exactly 3 units away from the vertical line of symmetry $x = -2$!\n\n[TA Sora] Look at the coordinate plane on your screen: the vertex sits at $(-2, -9)$, the axis of symmetry is $x = -2$, and the curve passes through $(-5, 0)$ and $(1, 0)$.\n\n[Prof. Park] Finding intercepts from vertex form via the Square Root Property is lightning fast. Everything connects!",
+    "graph": {
+      "xMin": -7,
+      "xMax": 3,
+      "yMin": -11,
+      "yMax": 5,
+      "title": "Example 6: f(x) = (x + 2)^2 - 9 (Vertex (-2, -9), x-ints 1, -5)",
+      "points": [
+        {
+          "x": -2,
+          "y": -9,
+          "label": "Vertex (-2, -9)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": -5,
+          "label": "y-int (0, -5)",
+          "color": "#10b981"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "label": "(1, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -5,
+          "y": 0,
+          "label": "(-5, 0)",
+          "color": "#f59e0b"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": 4,
+          "c": -5,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": -2
+    },
+    "coordinate": {
+      "xMin": -7,
+      "xMax": 4,
+      "yMin": -12,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 4,
+          "c": -5,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -2,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "V(-2,-9)"
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1,0)"
+        },
+        {
+          "x": -5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-5,0)"
+        },
+        {
+          "x": 0,
+          "y": -5,
+          "color": "#00ff88",
+          "label": "(0,-5)"
+        }
+      ],
+      "axisOfSymmetry": -2
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.2 Example 7: Solving 2(x - 4)^2 = 32",
+    "subtitle": "Unit 3 • Lecture 37 • Section 3.2 Example 7 (Workbook p. 70)",
+    "detail": "Lecture 37: Binomial Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 7 (Workbook p. 70)\nSolve the equation for $x$:\n$$\\mathbf{2(x - 4)^2 = 32}$$\n- Divide by 2 first to isolate $(x - 4)^2$.\n- Apply the Square Root Property.\n- Solve for both values of $x$.",
+    "solution": "$$\\begin{aligned}\n2(x - 4)^2 & = 32 \\\\[0.5em]\n(x - 4)^2 & = 16 \\quad (\\text{divide by } 2) \\\\[0.5em]\nx - 4 & = \\pm \\sqrt{16} \\\\[0.5em]\nx - 4 & = \\pm 4 \\\\[0.5em]\nx & = 4 \\pm 4 \\\\[0.8em]\n\\text{Case 1: } & x = 4 + 4 = \\mathbf{8} \\\\\n\\text{Case 2: } & x = 4 - 4 = \\mathbf{0} \\\\[0.8em]\n\\mathbf{\\text{Solutions: }} & \\mathbf{x = 8 \\quad \\text{and} \\quad x = 0}\n\\end{aligned}$$",
+    "pitfall": "**Do not distribute 2 into parentheses:** $(x - 4)$ is protected by the exponent 2! You CANNOT distribute 2 into $(x - 4)$! Divide by 2 instead!",
+    "script": "[Prof. Park] On Slide 4, Example 7 adds one extra layer of algebra: Solve the equation $2(x - 4)^2 = 32$. Sora, what must a student NEVER do at the start of this problem?\n\n[TA Sora] Never distribute that 2 inside the parentheses! Many students want to multiply 2 by $(x - 4)$ and write $(2x - 8)^2$. That is a catastrophic violation of PEMDAS! Exponents have priority over multiplication. You cannot distribute into a base that is being squared!\n\n[Prof. Park] That is such a vital warning. So what should we do with that 2? We divide both sides by 2! Let's do that right now: $2(x - 4)^2 / 2 = 32 / 2$, which gives $(x - 4)^2 = 16$!\n\n[TA Sora] Look at how clean that is! Now the binomial square is completely isolated: $(x - 4)^2 = 16$.\n\n[Prof. Park] Now we apply the Square Root Property: take the square root of both sides with our $\\pm$ sign: $x - 4 = \\pm \\sqrt{16} = \\pm 4$.\n\n[TA Sora] Now add 4 to both sides: $x = 4 \\pm 4$. Let's evaluate both branches: Branch 1: $x = 4 + 4 = 8$. Branch 2: $x = 4 - 4 = 0$!\n\n[Prof. Park] Our two solutions are $x = 8$ and $x = 0$! Let's check them in the original equation $2(x - 4)^2 = 32$. For $x = 8$: $2(8 - 4)^2 = 2(4)^2 = 2(16) = 32$ (Check!). For $x = 0$: $2(0 - 4)^2 = 2(-4)^2 = 2(16) = 32$ (Check!).\n\n[TA Sora] One of our roots is $x = 0$, which means this parabola passes directly through the origin $(0, 0)$!\n\n[Prof. Park] Remember the lesson: divide by the outside coefficient first; never distribute into a squared binomial. Solution set: $\\{0, 8\\}$!",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 10,
+      "yMin": -5,
+      "yMax": 40,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 2,
+          "b": -16,
+          "c": 32,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 8,
+          "y": 32,
+          "color": "#ff6b6b",
+          "label": "x=8"
+        },
+        {
+          "x": 0,
+          "y": 32,
+          "color": "#ff6b6b",
+          "label": "x=0"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "color": "#ffd700",
+          "label": "V(4,0)"
+        }
+      ],
+      "axisOfSymmetry": 4
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.2 Example 8: Non-Perfect Squares and Radicals",
+    "subtitle": "Unit 3 • Lecture 37 • Section 3.2 Example 8 (Workbook p. 70)",
+    "detail": "Lecture 37: Binomial Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 8 (Workbook p. 70)\nSolve the equation for $x$:\n$$\\mathbf{(x - 1)^2 = 12}$$\n- Apply the Square Root Property.\n- Simplify the radical $\\sqrt{12} = \\sqrt{4 \\cdot 3} = 2\\sqrt{3}$.\n- Express the exact answers in simplified radical form.",
+    "solution": "$$\\begin{aligned}\n(x - 1)^2 & = 12 \\\\[0.5em]\nx - 1 & = \\pm \\sqrt{12} \\\\[0.5em]\nx - 1 & = \\pm \\sqrt{4 \\cdot 3} = \\pm 2\\sqrt{3} \\\\[0.5em]\n\\mathbf{x} & = \\mathbf{1 \\pm 2\\sqrt{3}} \\\\[0.8em]\n\\text{Two exact roots: } & \\mathbf{x = 1 + 2\\sqrt{3}} \\quad \\text{and} \\quad \\mathbf{x = 1 - 2\\sqrt{3}}\n\\end{aligned}$$",
+    "pitfall": "**Do not combine 1 and 2:** $1 \\pm 2\\sqrt{3}$ CANNOT be simplified to $3\\sqrt{3}$! $1$ is a rational number and $2\\sqrt{3}$ is irrational; they are not like terms!",
+    "script": "[Prof. Park] Slide 5 presents Section 3.2 Example 8: $(x + 1)^2 = 12$. Here, 12 is not a perfect square. Sora, how do we handle non-perfect square radicals?\n\n[TA Sora] We simplify the radical by factoring out the largest perfect square factor! Let's follow our steps: Step 1: The binomial square is already isolated: $(x + 1)^2 = 12$.\n\n[Prof. Park] Step 2: Apply the Square Root Property: $x + 1 = \\pm \\sqrt{12}$. Now, how do we simplify $\\sqrt{12}$? We look for perfect square factors: $12 = 4 \\times 3$. Since 4 is a perfect square, $\\sqrt{12} = \\sqrt{4 \\times 3} = \\sqrt{4} \\cdot \\sqrt{3} = 2\\sqrt{3}$!\n\n[TA Sora] Beautiful! So $x + 1 = \\pm 2\\sqrt{3}$. Step 3: Subtract 1 from both sides, putting the $-1$ in front: $x = -1 \\pm 2\\sqrt{3}$!\n\n[Prof. Park] Can we combine $-1$ and $2\\sqrt{3}$ into a single number like $1\\sqrt{3}$? Absolutely not! You cannot combine a rational integer with an irrational radical term. They are like apples and oranges.\n\n[TA Sora] So our two exact solutions are $x = -1 + 2\\sqrt{3}$ and $x = -1 - 2\\sqrt{3}$.\n\n[Prof. Park] What if a surveyor or civil engineer working on a road project near Bozeman needs to know where these points lie on the ground? We approximate $\\sqrt{3} \\approx 1.732$. Then $2\\sqrt{3} \\approx 3.464$.\n\n[TA Sora] That gives: $x = -1 + 3.464 = 2.464$, and $x = -1 - 3.464 = -4.464$!\n\n[Prof. Park] Both forms have their purpose: exact radical form $-1 \\pm 2\\sqrt{3}$ for pure mathematics, and decimal approximations for real-world measurements.\n\n[TA Sora] Always provide exact form unless the problem explicitly asks you to round!",
+    "coordinate": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -4,
+          "c": -3,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 4.65,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2+√7,0)"
+        },
+        {
+          "x": -0.65,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2-√7,0)"
+        },
+        {
+          "x": 2,
+          "y": -7,
+          "color": "#ffd700",
+          "label": "V(2,-7)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Application & Decimal Approximation",
+    "title": "Exact Radical Form vs Decimal Approximations",
+    "subtitle": "Unit 3 • Lecture 37 • Section 3.2 Approximations",
+    "detail": "Lecture 37: Binomial Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Working with Irrational Roots\nFor $x = 1 \\pm 2\\sqrt{3}$:\n- Compute the decimal approximations using $\\sqrt{3} \\approx 1.732$.\n- Verify where these points lie on the $x$-axis of the coordinate plane.",
+    "solution": "$$\\begin{aligned}\n\\sqrt{3} & \\approx 1.732 \\\\[0.5em]\n2\\sqrt{3} & \\approx 2(1.732) = 3.464 \\\\[0.5em]\n\\mathbf{x_1} & = 1 + 2\\sqrt{3} \\approx 1 + 3.464 = \\mathbf{4.46} \\implies \\mathbf{(4.46, 0)} \\\\[0.5em]\n\\mathbf{x_2} & = 1 - 2\\sqrt{3} \\approx 1 - 3.464 = \\mathbf{-2.46} \\implies \\mathbf{(-2.46, 0)}\n\\end{aligned}$$",
+    "pitfall": "**Exam instruction awareness:** If the exam asks for 'exact form', write $1 \\pm 2\\sqrt{3}$. If it asks for 'round to nearest tenth', write $4.5$ and $-2.5$!",
+    "script": "[Prof. Park] On Slide 6, we explore 'Exact Radical Form versus Decimal Approximations.' In STEM disciplines—engineering, physics, computer science, and chemistry—knowing when to use which form is a vital professional skill.\n\n[TA Sora] Let's define the difference clearly: Exact Radical Form contains symbols like $\\sqrt{3}$, $\\sqrt{5}$, or $\\pi$. It preserves 100% of the mathematical truth with zero rounding error. No digits are lost!\n\n[Prof. Park] Think about sending a space probe to Mars or programming a CNC plasma cutter to slice steel beams for a bridge in Helena. If you round $\\sqrt{3}$ to $1.7$ too early in your calculations, that rounding error compounds over thousands of operations, and your bridge joint will not align properly!\n\n[TA Sora] But Decimal Approximations are essential when communicating with the physical world! If you go to a lumber yard or hardware store in Bozeman and ask for '$-1 + 2\\sqrt{3}$ feet of copper pipe,' the store clerk will look at you like you're from outer space!\n\n[Prof. Park] Exactly. You tell them: 'I need about 2 feet 5 and a half inches (2.46 feet).' That is where decimals shine.\n\n[TA Sora] Here is the golden rule for college algebra: 'Keep exact radical form throughout all intermediate calculation steps. Only round at the very final step, and only if requested!'\n\n[Prof. Park] Respecting the exact value is a sign of mathematical maturity. Master both representations!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 7,
+      "yMin": -14,
+      "yMax": 4,
+      "title": "Irrational x-intercepts at approximately -2.46 and 4.46",
+      "points": [
+        {
+          "x": 1,
+          "y": -12,
+          "label": "Vertex (1, -12)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 4.46,
+          "y": 0,
+          "label": "(4.46, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -2.46,
+          "y": 0,
+          "label": "(-2.46, 0)",
+          "color": "#f59e0b"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": -2,
+          "c": -11,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 1
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Sora's Pro-Tip",
+    "title": "Sora's Checklist for the Square Root Property",
+    "subtitle": "Unit 3 • Lecture 37 • Section 3.2 Checklist",
+    "detail": "Lecture 37: Binomial Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### When to Use the Square Root Property\n- **Use SRP when:**\n  - Equation has an isolated square: $x^2 = k$ or $(x - h)^2 = k$.\n  - There is NO separate linear $x$ term outside the parentheses.\n- **Do NOT use SRP directly if:**\n  - Equation has both $x^2$ and $x$ separated: e.g. $x^2 - 5x + 6 = 0$.\n  *(For that, we use Factoring or Completing the Square!)*",
+    "solution": "$$\\begin{array}{|c|c|c|} \n\\hline\n\\textbf{Equation} & \\textbf{Use SRP?} & \\textbf{Reason} \\\\\n\\hline\n(x - 5)^2 = 16 & \\textbf{YES} & \\text{Isolated binomial square} \\\\\n\\hline\n3x^2 = 75 & \\textbf{YES} & \\text{Isolate } x^2 = 25 \\\\\n\\hline\nx^2 - 6x + 8 = 0 & \\textbf{NO} & \\text{Has linear term } -6x \\; (\\text{use Factoring}) \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Pattern recognition:** Recognizing which tool fits which equation is what makes math easy!",
+    "script": "[Prof. Park] Slide 7 presents 'Sora's Checklist for the Square Root Property.' Let's summarize the four non-negotiable steps to guarantee success on every homework and exam problem.\n\n[TA Sora] Step 1: The 'Isolation Phase.' Look at your equation. Is the squared quantity $(X)^2$ or $(x - h)^2$ completely alone on one side of the equals sign? If there is an added number, subtract it! If there is a multiplying coefficient, divide by it!\n\n[Prof. Park] Step 2: The '$\\pm$ Square Root Application.' Once isolated, take the square root of both sides. Write $X = \\pm \\sqrt{k}$ immediately. Do not wait until the next line to add the $\\pm$—write it in the exact same pen stroke!\n\n[TA Sora] Step 3: The 'Radical Simplification.' If $k$ is a perfect square, evaluate it to an integer. If $k$ has perfect square factors, simplify it (e.g., $\\sqrt{12} = 2\\sqrt{3}$). If $k < 0$, stop and write 'No Real Solutions.'\n\n[Prof. Park] Step 4: The 'Linear Solution & Branching.' If solving $(x - h)^2 = k$, add $h$ to both sides: $x = h \\pm \\sqrt{k}$. If the radical simplified to an integer, calculate both branches ($h + \\sqrt{k}$ and $h - \\sqrt{k}$). If it remains a radical, write $h \\pm \\sqrt{k}$.\n\n[TA Sora] Follow these four steps in order, and the Square Root Property will feel like a smooth, effortless routine every single time!"
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.2 Complete Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 37 • Section 3.2 Wrap-up",
+    "detail": "Lecture 37: Binomial Square Root Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Section 3.2 Master Summary\n- $(x - h)^2 = k \\implies x - h = \\pm\\sqrt{k} \\implies x = h \\pm \\sqrt{k}$.\n- Always simplify radicals to lowest terms ($\n\\sqrt{12} = 2\\sqrt{3}$).\n- If $k$ is not a perfect square, keep exact radical form unless decimals are requested.",
+    "solution": "$$\\mathbf{\\text{Section 3.2 Mastered! Next Up: Section 3.3 — Finding Intercepts by Factoring!}}$$",
+    "pitfall": "**Next Challenge:** What do we do when equations have both $x^2$ AND $x$? In Section 3.3, we master Factoring and the Zero Product Property!",
+    "script": "[Prof. Park] We have arrived at Slide 8, our Section 3.2 Complete Mastery Summary! Sora, what an empowering set of tools we've built in Lectures 36 and 37.\n\n[TA Sora] We have truly expanded our algebraic toolkit! We mastered the Square Root Property for simple variables ($x^2 = k$) and for binomial squares ($(x - h)^2 = k$).\n\n[Prof. Park] We learned that isolated binomial squares should never be expanded when solving—we take the square root directly, saving time and preventing errors. We emphasized the mandatory $\\pm$ sign that guarantees both symmetric roots are captured.\n\n[TA Sora] We connected solving to graphing: the solutions $x = h \\pm \\sqrt{k}$ are the $x$-intercepts, centered symmetrically around the vertex line $x = h$.\n\n[Prof. Park] And we distinguished between exact radical values that preserve absolute mathematical truth and decimal approximations that guide real-world physical construction.\n\n[TA Sora] Tonight, complete all Section 3.2 homework exercises on pages 77 through 79 of your workbook. \n\n[Prof. Park] In Lecture 38, we begin Section 3.3: solving quadratic equations by Factoring, using the legendary Zero Product Property. \n\n[TA Sora] Outstanding work today, Bobcats! We will see you all in Lecture 38!"
+  }
+]

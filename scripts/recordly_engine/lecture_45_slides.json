@@ -1,0 +1,436 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Lesson Introduction",
+    "title": "Section 3.7 Part 2: Comprehensive Graphing Review",
+    "subtitle": "Unit 3 • Lecture 45 • Section 3.7 (Workbook pp. 87–90)",
+    "detail": "Lecture 45: Complete Quadratic Graphing and Unit 3 Capstone",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Lecture 45 Agenda:**\n\n1. **Domain and Range Review** — for all four graphed functions\n2. **Graphing from Scratch Practice** — complete 5-point method\n3. **Graph Comparison** — parabola vs. linear function on same axes\n4. **Unit 3 Grand Summary** — all methods, all concepts\n5. **Graduation Celebration** — You have completed M090 Unit 3!\n\n**Unit 3 Topics Mastered:**\n- Vertex form, standard form, transformations\n- Square Root Property, factoring, completing the square\n- Quadratic Formula and discriminant\n- Graphing with 5-point method",
+    "solution": "**The Big Picture of Unit 3:**\n$$f(x) = ax^2 + bx + c \\qquad \\text{(Standard Form)}$$\n$$f(x) = a(x-h)^2 + k \\qquad \\text{(Vertex Form)}$$\n\nBoth represent the same parabola. Vertex form makes graphing instant; standard form makes formula applications easy.",
+    "pitfall": "**Sora’s Motivation:** You’ve gone from x² all the way to the Quadratic Formula and full graphing! This is the most advanced math in M090. Be proud!",
+    "script": "[Prof. Park] Welcome to Lecture 45ÃÂ¢ÃÂÃÂthe final lecture of Unit 3 and the grand capstone of our entire M090 journey at Gallatin College Montana State University!\n\n[TA Sora] Congratulations Bobcats! Today we celebrate everything you have accomplished across 45 lectures of introductory algebra! You should feel immensely proud of your growth.\n\n[Prof. Park] Think back to Lecture 1: we started with signed numbers and basic integer arithmetic. In Unit 2, we mastered the Cartesian plane, linear functions, slopes, and straight-line equations. And in Unit 3, we unlocked the curved universe of parabolas, roots, and quadratic optimization!\n\n[TA Sora] Today is our Grand Review. We will synthesize every major tool, examine domain and range, solve real-world projectile problems, and review the master M090 Formula Card!\n\n[Prof. Park] Let's begin our capstone review on Slide 2!\n\n[Prof. Park] Welcome everyone to Lecture 45Ã¢ÂÂthe final lecture of M090 Introductory Algebra! I am Professor Eunju Park, and joining me at the teaching desk for our grand course conclusion is TA Sora. Today is a triumphant milestone: we review the complete domain and range of quadratic functions, execute our master 5-point graphing method on a full-scale problem, analyze parabola-line linear systems, assemble your permanent Unit 3 Formula Card, and celebrate everything you have achieved across the entire semester!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 8,
+      "yMin": -10,
+      "yMax": 15,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -4,
+          "c": -5,
+          "color": "#00d4ff",
+          "strokeWidth": 3,
+          "label": "parabola"
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "c": -1,
+          "color": "#ff9500",
+          "strokeWidth": 2,
+          "dashed": true,
+          "label": "line"
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "Vertex"
+        }
+      ]
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Domain and Range Review",
+    "title": "Domain and Range for All Four Section 3.7 Functions",
+    "subtitle": "Unit 3 • Lecture 45 • Section 3.7 Domain & Range",
+    "detail": "State domain and range for all four graphed parabolas.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**State Domain and Range for each function:**\n\n| Function | Opens | Vertex | Domain | Range |\n|---|---|---|---|---|\n| $g(x)=x^2+6x+5$ | Up | $(-3,-4)$ | | |\n| $h(x)=-2x^2+4x+6$ | Down | $(1,8)$ | | |\n| $g(x)=2x^2-8x$ | Up | $(2,-8)$ | | |\n| $f(x)=-\\frac{1}{2}(x+1)^2+8$ | Down | $(-1,8)$ | | |",
+    "solution": "| Function | Domain | Range |\n|---|---|---|\n| $g(x)=x^2+6x+5$ | $(-\\infty,\\infty)$ | $[-4,\\infty)$ |\n| $h(x)=-2x^2+4x+6$ | $(-\\infty,\\infty)$ | $(-\\infty,8]$ |\n| $g(x)=2x^2-8x$ | $(-\\infty,\\infty)$ | $[-8,\\infty)$ |\n| $f(x)=-\\frac{1}{2}(x+1)^2+8$ | $(-\\infty,\\infty)$ | $(-\\infty,8]$ |\n\n**Rule:** Domain is ALWAYS $(-\\infty,\\infty)$ for quadratic functions. Range depends on direction (up/down) and vertex y-value.",
+    "pitfall": "**Sora’s Memory Trick:** Opens UP → Range has a minimum $[k, \\infty)$. Opens DOWN → Range has a maximum $(-\\infty, k]$.",
+    "script": "[Prof. Park] Slide 2 reviews Domain and Range across all four Section 3.7 functions from our workbook.\n\n[TA Sora] Function 1: $g(x) = x^2 + 6x + 5$. Vertex is $(-3, -4)$, and it opens upward. Domain is $(-\\infty, \\infty)$ and Range is $[-4, \\infty)$!\n\n[Prof. Park] Function 2: $h(x) = -2x^2 + 4x + 6$. Vertex is $(1, 8)$, and it opens downward because $a = -2 < 0$. Range is $(-\\infty, 8]$!\n\n[TA Sora] Function 3: $g(x) = 2x^2 - 8x$. Vertex is $(2, -8)$, opens upward. Range is $[-8, \\infty)$!\n\n[Prof. Park] Function 4: $f(x) = -\\frac{1}{2}(x + 1)^2 + 8$. Vertex is $(-1, 8)$, opens downward. Range is $(-\\infty, 8]$!\n\n[TA Sora] Notice the universal rule: Domain of EVERY quadratic function is $(-\\infty, \\infty)$. Range always starts or ends at the vertex $y$-value $k$!",
+    "coordinate": {
+      "xMin": -7,
+      "xMax": 5,
+      "yMin": -12,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 4,
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": 5,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "label": "g: min=-4"
+        },
+        {
+          "a": -2,
+          "b": 4,
+          "c": 6,
+          "color": "#ff9500",
+          "strokeWidth": 2,
+          "label": "h: max=8"
+        }
+      ],
+      "points": [
+        {
+          "x": -3,
+          "y": -4,
+          "color": "#00d4ff",
+          "label": "min"
+        },
+        {
+          "x": 1,
+          "y": 8,
+          "color": "#ff9500",
+          "label": "max"
+        }
+      ]
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Complete Graphing Practice",
+    "title": "Full Graph: $ p(x) = x^2 - 4x - 5 $ — 5-Point Method",
+    "subtitle": "Unit 3 • Lecture 45 • Comprehensive Graphing Practice",
+    "detail": "Apply the complete 5-point method from scratch.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Graph $p(x) = x^2 - 4x - 5$ using the 5-point method:**\n\n**Step 1 — Vertex:**\n$$x = \\dfrac{-(-4)}{2(1)} = \\dfrac{4}{2} = 2$$\n$$p(2) = 4-8-5 = -9$$\n**Vertex:** $(2,\\,-9)$ — Minimum\n\n**Step 2 — y-intercept:**\n$$p(0) = -5 \\Rightarrow (0,\\,-5)$$",
+    "solution": "**Step 3 — x-intercepts:** Set $p(x)=0$\n$$x^2-4x-5=0 \\Rightarrow (x-5)(x+1)=0$$\n$$x = 5 \\quad \\text{or} \\quad x=-1$$\n**x-intercepts:** $(-1,0)$ and $(5,0)$\n\n**Step 4 — Symmetric point** of $(0,-5)$:\nAxis of symmetry: $x=2$. Distance from 0 to 2 is 2. Mirror: $x=4$\n$$p(4) = 16-16-5 = -5 \\Rightarrow (4,\\,-5)\\text{ \\checkmark}$$\n\n**Step 5 — Five key points:**\n$(-1,0)$, $(0,-5)$, $(2,-9)$, $(4,-5)$, $(5,0)$\n\n**Domain:** $(-\\infty,\\infty)$ \\qquad **Range:** $[-9,\\infty)$",
+    "pitfall": "**Sora’s Check:** Verify the symmetric point by computing $p(4)$ directly. It should equal $p(0) = -5$. \\checkmark Symmetry confirmed!",
+    "script": "[Prof. Park] Slide 3 summarizes our 5-Point Graphing Masterclass: 1. Vertex $(h, k)$, 2. $y$-intercept $(0, c)$, 3. Symmetric reflection of the $y$-intercept, 4 & 5. The two $x$-intercepts (or test points if roots are imaginary).\n\n[TA Sora] Remember to always sketch the Axis of Symmetry $x = h$ as a dashed line. It acts as your visual mirror, ensuring that both wings of the parabola open with identical curvature and width.\n\n[Prof. Park] A 5-point parabola is a piece of mathematical art. You have mastered this craft!\n\n[Prof. Park] On slide 3, let's execute the full 5-Point Graphing Method on p(x) = x^2 - 4x - 5: 1. a = 1 > 0: opens upward. 2. Vertex x = -(-4) / (2 ÃÂ· 1) = 4 / 2 = 2. p(2) = 2^2 - 4(2) - 5 = 4 - 8 - 5 = -9. Vertex is (2, -9)! 3. Axis of symmetry: x = 2. 4. y-intercept: (0, -5). Its reflection across x = 2 is (4, -5)! 5. x-intercepts: (x - 5)(x + 1) = 0 -> (5, 0) and (-1, 0). Look at our five points: (-1, 0), (0, -5), (2, -9), (4, -5), (5, 0). They form a gorgeously symmetric parabola with domain (-infinity, infinity) and range [-9, infinity)!\n\n[TA Sora] In p(x) = x^2 - 4x - 5, notice how the axis of symmetry x = 2 creates symmetric point pairs: x = 1 and x = 3 are both 1 unit away from the axis: p(1) = 1 - 4 - 5 = -8, and p(3) = 9 - 12 - 5 = -8! Identical! x = 0 and x = 4 are both 2 units away: p(0) = -5, and p(4) = 16 - 16 - 5 = -5! Identical! x = -1 and x = 5 are both 3 units away: p(-1) = 0, and p(5) = 0! Identical! Symmetry is your greatest friend when graphing parabolas: compute one side, and you get the other side for free!",
+    "coordinate": {
+      "xMin": -3,
+      "xMax": 7,
+      "yMin": -12,
+      "yMax": 6,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -4,
+          "c": -5,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1,0)"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(5,0)"
+        },
+        {
+          "x": 2,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "V(2,-9)"
+        },
+        {
+          "x": 0,
+          "y": -5,
+          "color": "#00ff88",
+          "label": "(0,-5)"
+        },
+        {
+          "x": 4,
+          "y": -5,
+          "color": "#00ff88",
+          "label": "(4,-5)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Parabola vs. Line on Same Graph",
+    "title": "Intersection of $ f(x) = x^2-6x+4 $ and $ g(x) = -2x+25 $",
+    "subtitle": "Unit 3 • Lecture 45 • Section 3.7 Example 5F Visual (Workbook p. 89)",
+    "detail": "Graph both functions and identify their intersection points.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Graph both $f(x) = x^2-6x+4$ (parabola) and $g(x) = -2x+25$ (line) on the same axes.**\n\n**Parabola $f(x)$:**\n- Vertex: $x=3$, $f(3)=9-18+4=-5$ → $(3,-5)$\n- y-intercept: $(0,4)$\n- x-intercepts: $x^2-6x+4=0$ → $x=3\\pm\\sqrt{5}\\approx(5.24,0)$ and $(0.76,0)$\n\n**Line $g(x)$:**\n- y-intercept: $(0,25)$\n- x-intercept: $-2x+25=0$ → $x=12.5$",
+    "solution": "**Intersection (from Lecture 44, Part F):**\n$$f(x) = g(x) \\Rightarrow x^2-4x-21=0 \\Rightarrow (x-7)(x+3)=0$$\n$$x = 7 \\quad \\text{or} \\quad x=-3$$\n\n**Intersection points:**\n- At $x=7$: $g(7) = -14+25 = 11$ → $(7,\\,11)$\n- At $x=-3$: $g(-3) = 6+25 = 31$ → $(-3,\\,31)$\n\n**Visual:** The line $g$ crosses the parabola $f$ at $(-3,31)$ and $(7,11)$. Between these points, the line is above the parabola.",
+    "pitfall": "**Sora’s Observation:** Where $g(x) > f(x)$, the line is above the parabola. Where $g(x) < f(x)$, the parabola is above the line. The intersection points are the switchover!",
+    "script": "[Prof. Park] Slide 4 connects quadratics to real-world physics: projectile motion $h(t) = -16t^2 + v_0 t + h_0$, where $-16$ represents half the acceleration of gravity in feet per second squared!\n\n[TA Sora] Look at how our algebraic tools answer real questions: 1. The $y$-intercept $h_0$ is the initial launch height! 2. The vertex formula $t = -v_0 / (2a)$ gives the exact time of maximum altitude! 3. The vertex height $k$ is the maximum altitude reached! 4. The positive $x$-intercept where $h(t) = 0$ is the exact moment of splashdown or ground impact!\n\n[Prof. Park] Whether tracking a golf ball, an arrow, a wildfire retardant drop from an aircraft in Montana, or an artillery trajectory, quadratic functions govern physical flight.\n\n[TA Sora] Algebra is the operating system of the physical world!\n\n[TA Sora] On slide 4, visualizing the intersection of f(x) = x^2 - 6x + 4 and g(x) = -2x + 25: A line and a parabola can interact in three distinct geometric ways: They can miss each other entirely (0 intersection points, Delta < 0). The line can graze the parabola tangentially (1 intersection point, Delta = 0). Or the line can cut through both branches (2 intersection points, Delta > 0). Here, our system had Delta = (-4)^2 - 4(1)(-21) = 16 + 84 = 100 > 0, producing two real intersection coordinates: (-3, 31) and (7, 11)!\n\n[Prof. Park] Think of this system of equations in real Montana civil engineering: The parabola f(x) represents a cross-section of a mountain valley, and the line g(x) represents the grade of an elevated highway bridge spanning the canyon. The intersection points (7, 11) and (-3, 31) are the exact bridge abutment coordinates where the highway bridge anchors into the solid bedrock of the mountain! Algebra is the language that builds real, safe physical infrastructure.\n\n[TA Sora] You have built a powerhouse foundation that will carry you through college algebra, precalculus, and beyond! Be proud of your hard work and keep that momentum going strong!\n\n[Prof. Park] As we reach the conclusion of Unit 3, think about the immense mathematical journey you have completed: from parabolas and factoring to quadratic formula derivations!",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 14,
+      "yMin": -10,
+      "yMax": 35,
+      "xTicks": 2,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 4,
+          "color": "#00d4ff",
+          "strokeWidth": 3,
+          "label": "f(x)"
+        },
+        {
+          "a": 0,
+          "b": -2,
+          "c": 25,
+          "color": "#ff9500",
+          "strokeWidth": 2,
+          "dashed": true,
+          "label": "g(x)"
+        }
+      ],
+      "points": [
+        {
+          "x": 3,
+          "y": -5,
+          "color": "#ffd700",
+          "label": "V(3,-5)"
+        },
+        {
+          "x": -3,
+          "y": 31,
+          "color": "#ff6b6b",
+          "label": "(-3,31)"
+        },
+        {
+          "x": 7,
+          "y": 11,
+          "color": "#ff6b6b",
+          "label": "(7,11)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Unit 3 Complete Summary",
+    "title": "Unit 3 Grand Review: All Methods for Quadratic Functions",
+    "subtitle": "Unit 3 • Lecture 45 • Complete Unit Summary",
+    "detail": "Comprehensive review of all Unit 3 concepts.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Unit 3 — All Methods Mastered:**\n\n| Section | Topic | Method |\n|---|---|---|\n| 3.0 | Quadratic Functions intro | Identify vertex, direction |\n| 3.1 | Vertex & y-intercept | $x=-b/2a$, plug in |\n| 3.2 | x-intercepts | Square Root Property |\n| 3.3 | x-intercepts | Factoring |\n| 3.4 | x-intercepts | Completing the Square |\n| 3.5 | x-intercepts | Quadratic Formula $\\pm\\sqrt{\\Delta}$ |\n| 3.6 | Mixed methods | Choose best approach |\n| 3.7 | Full graph | 5-point method + Domain/Range |",
+    "solution": "**The Master Decision Tree:**\n1. Is it in vertex form $a(x-h)^2+k$? → Read vertex directly\n2. No $b$ term? → Square Root Property\n3. No $c$ term? → Factor out GCF\n4. Factors nicely? → Factor\n5. Otherwise → **Quadratic Formula** (always works!)\n\n**5-Point Graph Checklist:**\n$\\square$ Vertex $\\square$ y-intercept $\\square$ x-intercept(s) $\\square$ Symmetric point $\\square$ Smooth curve",
+    "pitfall": "**Sora’s Final Wisdom:** When in doubt, use the Quadratic Formula. It ALWAYS works and never fails. But always set the equation to zero first!",
+    "script": "[Prof. Park] Slide 5 presents the Grand Review of all four quadratic solving methods: 1. Square Root Property ($X^2 = k$), 2. Factoring ($(x - r_1)(x - r_2) = 0$), 3. Completing the Square ($(x + b/2)^2 = k$), and 4. The Quadratic Formula ($x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$).\n\n[TA Sora] You now command all four methods. You know when to deploy each tool for maximum speed, accuracy, and elegance.\n\n[Prof. Park] No quadratic equation can intimidate you ever again!\n\n[Prof. Park] Look at our Unit 3 Grand Review table on slide 5: In Section 3.0, we explored the geometry of parabolas. In Section 3.1 and 3.2, we mastered the Vertex Formula x = -b/(2a) and standard form. In Section 3.3, we solved equations and found intercepts by Factoring. In Section 3.4, we completed the square and built vertex form. In Section 3.5, we mastered the Quadratic Formula and the Discriminant. In Section 3.6, we learned how to choose the best method for any problem. And in Section 3.7, we mastered full 5-point graphing and system intersections!\n\n[TA Sora] Let's do a fast recap of how all the pieces of Unit 3 connect: Every single quadratic function has a vertex that marks its maximum or minimum. Every quadratic function has an axis of symmetry passing through that vertex. Its y-intercept is always (0, c). Its x-intercepts are found by setting f(x) = 0 and choosing the best of our four methods. And its graph is a smooth, continuous U-shaped curve with infinite domain.\n\n[TA Sora] You have built a powerhouse foundation that will carry you through college algebra, precalculus, and beyond! Be proud of your hard work and keep that momentum going strong!\n\n[Prof. Park] As we reach the conclusion of Unit 3, think about the immense mathematical journey you have completed: from parabolas and factoring to quadratic formula derivations!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 8,
+      "yMin": -12,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -4,
+          "c": -5,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1,0)"
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(5,0)"
+        },
+        {
+          "x": 2,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "V(2,-9)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Key Formulas Reference Card",
+    "title": "M090 Unit 3 Formula Card — Keep This Forever!",
+    "subtitle": "Unit 3 • Lecture 45 • Formula Reference",
+    "detail": "All essential formulas from Unit 3 in one place.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Essential Unit 3 Formulas:**\n\n$$\\textbf{Standard Form: } f(x) = ax^2 + bx + c$$\n\n$$\\textbf{Vertex Form: } f(x) = a(x-h)^2 + k$$\n\n$$\\textbf{Axis of Symmetry: } x = \\dfrac{-b}{2a}$$\n\n$$\\textbf{Quadratic Formula: } x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\n$$\\textbf{Discriminant: } \\Delta = b^2 - 4ac$$",
+    "solution": "**Quick Reference:**\n\n| Feature | Formula |\n|---|---|\n| Vertex x | $\\dfrac{-b}{2a}$ |\n| Vertex y | $f\\left(\\dfrac{-b}{2a}\\right)$ |\n| y-intercept | $(0, c)$ |\n| x-intercept | Solve $f(x)=0$ |\n| Discriminant | $b^2-4ac$ |\n| Domain | $(-\\infty,\\infty)$ always |\n| Range (up) | $[k,\\infty)$ |\n| Range (down) | $(-\\infty,k]$ |",
+    "pitfall": "**Sora’s Study Tip:** Write these formulas on an index card and put it on your desk. By the end of this semester, you’ll have them memorized without even trying!",
+    "script": "[Prof. Park] Slide 6 is your M090 Formula CardÃÂ¢ÃÂÃÂkeep this forever in your academic career! \n\n[TA Sora] It contains: The General Form $ax^2 + bx + c = 0$, Vertex Form $a(x - h)^2 + k$, Vertex Formula $x_v = -b / (2a)$, Quadratic Formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$, Discriminant $\\Delta = b^2 - 4ac$, and the factoring special forms!\n\n[Prof. Park] These formulas are the building blocks for College Algebra, Precalculus, Business Calculus, and Engineering Calculus.\n\n[TA Sora] Keep this Formula Card on slide 6 forever! 1. Standard Form: f(x) = ax^2 + bx + c. 2. Vertex: x = -b / (2a), y = f(-b / (2a)). 3. Vertex Form: f(x) = a(x - h)^2 + k with vertex (h, k). 4. Quadratic Formula: x = [ -b plus or minus sqrt(b^2 - 4ac) ] / (2a). 5. Discriminant: Delta = b^2 - 4ac (positive: 2 roots, zero: 1 root, negative: 0 real roots). These five formulas are the permanent foundation for all college algebra, precalculus, and calculus!\n\n[Prof. Park] When you walk into your next mathematics courseâwhether Math 121 College Algebra or a statistics courseâthis Formula Card will be your trusted companion. Every professor will expect you to recognize standard form, calculate the vertex with x = -b/(2a), and deploy the quadratic formula with confidence. You have mastered these tools completely.\n\n[TA Sora] You have built a powerhouse foundation that will carry you through college algebra, precalculus, and beyond! Be proud of your hard work and keep that momentum going strong!\n\n[Prof. Park] As we reach the conclusion of Unit 3, think about the immense mathematical journey you have completed: from parabolas and factoring to quadratic formula derivations!",
+    "coordinate": {
+      "xMin": -3,
+      "xMax": 5,
+      "yMin": -6,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -2,
+          "c": -3,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": -4,
+          "color": "#ffd700",
+          "label": "V=(-b/2a, f(-b/2a))"
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x-int"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x-int"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "color": "#00ff88",
+          "label": "y-int=(0,c)"
+        }
+      ],
+      "axisOfSymmetry": 1
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Final Challenge Problem",
+    "title": "Challenge: Complete Analysis of $ q(x) = -3x^2 + 12x - 9 $",
+    "subtitle": "Unit 3 • Lecture 45 • Final Challenge",
+    "detail": "Find all features and graph this quadratic completely.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Find all features and graph $q(x) = -3x^2 + 12x - 9$:**\n\n1. Direction of opening\n2. Vertex\n3. Axis of symmetry\n4. y-intercept\n5. x-intercept(s) — use best method\n6. Domain and Range",
+    "solution": "**1. Direction:** $a=-3<0$ → Opens **downward** (maximum)\n\n**2. Vertex:** $x=\\dfrac{-12}{2(-3)}=\\dfrac{-12}{-6}=2$\n$$q(2)=-3(4)+12(2)-9=-12+24-9=\\mathbf{3}$$\n**Vertex: $(2,3)$**\n\n**3. Axis of Symmetry:** $x=2$\n\n**4. y-intercept:** $q(0)=-9$ → $(0,-9)$\n\n**5. x-intercepts:** Factor out $-3$:\n$$-3x^2+12x-9=0 \\Rightarrow x^2-4x+3=0 \\Rightarrow (x-1)(x-3)=0$$\n$$x=1 \\text{ or } x=3$$\n**x-intercepts: $(1,0)$ and $(3,0)$**\n\n**6. Domain:** $(-\\infty,\\infty)$ \\quad **Range:** $(-\\infty,3]$",
+    "pitfall": "**Sora’s Shortcut:** Divide by $-3$ first: $x^2-4x+3=0$ is much easier to factor than $-3x^2+12x-9=0$!",
+    "script": "[Prof. Park] Slide 7 provides final mastery problem solving and reflection on personal growth, persistence, and logical reasoning.\n\n[TA Sora] Remember where you started in Lecture 1. You may have felt hesitant or anxious about algebra. But you showed up, you practiced on paper, you embraced protective parentheses, and you conquered every challenge step by step!\n\n[Prof. Park] That persistence is the greatest skill you take from this class. Math teaches us that no problem is permanentÃÂ¢ÃÂÃÂwith the right tools, structure, and patience, every problem can be solved.\n\n[Prof. Park] In Challenge Problem q(x) = -3x^2 + 12x - 9: a = -3 (opens down). Vertex x = -12 / (2 ÃÂ· -3) = -12 / -6 = 2. q(2) = -3(4) + 12(2) - 9 = -12 + 24 - 9 = +3. Vertex is (2, 3)! Factor: -3(x^2 - 4x + 3) = -3(x - 3)(x - 1) = 0 -> intercepts (1, 0) and (3, 0). y-intercept: (0, -9). Symmetric point: (4, -9). Domain: (-infinity, infinity). Range: (-infinity, 3]! Complete, elegant, and fully verified.\n\n[TA Sora] In our final Challenge Problem q(x) = -3x^2 + 12x - 9: Notice that factoring out -3 gave -3(x^2 - 4x + 3) = -3(x - 3)(x - 1) = 0. The intercepts are (1, 0) and (3, 0). Halfway between 1 and 3 is x = 2! And plugging in x = 2 gave q(2) = 3: the vertex is (2, 3)! The vertex x-coordinate is ALWAYS the exact midpoint of the x-intercepts! Midpoint: (1 + 3) / 2 = 2. It all fits together into one cohesive, harmonious system!",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 5,
+      "yMin": -12,
+      "yMax": 6,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -3,
+          "b": 12,
+          "c": -9,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(1,0)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "color": "#ffd700",
+          "label": "V(2,3)"
+        },
+        {
+          "x": 0,
+          "y": -9,
+          "color": "#00ff88",
+          "label": "(0,-9)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Unit 3 Graduation Celebration",
+    "title": "Congratulations! You Have Completed M090 Unit 3!",
+    "subtitle": "Unit 3 • Lecture 45 • Course Milestone",
+    "detail": "Celebration of completing Unit 3 and the entire M090 course.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**You have successfully completed Unit 3: Quadratic Functions!**\n\n**What you have mastered:**\n- $\\checkmark$ Identifying and graphing quadratic functions\n- $\\checkmark$ Finding vertices using $x = -b/2a$\n- $\\checkmark$ Square Root Property for x-intercepts\n- $\\checkmark$ Factoring quadratic equations\n- $\\checkmark$ Completing the Square\n- $\\checkmark$ The Quadratic Formula\n- $\\checkmark$ The Discriminant\n- $\\checkmark$ Mixed methods and the decision strategy\n- $\\checkmark$ Full 5-point graphing with domain and range",
+    "solution": "**M090 Introductory Algebra — All Units Complete:**\n\n| Unit | Topic | Status |\n|---|---|---|\n| Unit 1 | The Language of Algebra | $\\checkmark$ Complete |\n| Unit 2 | Linear Functions & Graphing | $\\checkmark$ Complete |\n| Unit 3 | Quadratic Functions | $\\checkmark$ Complete |\n\n**Next Steps:** MTH 103 (College Algebra) at Gallatin College MSU!\n\n**Well done, Bobcats! Go MSU!**",
+    "pitfall": "**Sora’s Farewell:** Math is not a talent—it’s a skill. And you’ve proven that with dedication and practice, ANY student can master Introductory Algebra. See you in MTH 103!",
+    "script": "[Prof. Park] Congratulations! You have officially completed M090 Introductory Algebra at Gallatin College Montana State University!\n\n[TA Sora] We are so immensely proud of your hard work, your curiosity, and your resilience. You are ready for College Algebra and beyond. Go Bobcats! ÃÂ°ÃÂÃÂÃÂÃÂ¯ÃÂ¸ÃÂ\n\n[TA Sora] Congratulations to every single student who has traveled this journey with Professor Park and me! Think back to where we started in Lecture 01: working with simple fractions and number lines. From arithmetic to linear equations, literal formulas, inequalities, Cartesian coordinates, slope, parent functions, polynomials, rational expressions, and full quadratic theoryÃ¢ÂÂyou have conquered 45 lectures of rigorous college mathematics! You have built problem-solving stamina, algebraic precision, and intellectual confidence that will serve you throughout your academic and professional career.\n\n[Prof. Park] On behalf of Gallatin College Montana State University and the Department of Mathematical Sciences, I want to thank you for your extraordinary dedication and hard work. Walk into your final exam with your head held highÃ¢ÂÂyou are fully prepared, you have mastered the material, and you are ready to succeed. Thank you everyone, and congratulations on completing M090 Introductory Algebra!\n\n[Prof. Park] As we close our 45th and final lecture, I want to commend each of you for your resilience and intellectual growth. Algebra is not just about moving symbols on paper; it is about learning how to think logically, how to break complex problems into manageable steps, and how to persevere through challenging puzzles. Those are life skills that will serve you in science, engineering, business, and daily life.\n\n[TA Sora] It has been a true honor being your teaching assistant throughout M090! Remember my golden rules: protect your signs with parentheses, clear fractions with the LCD, and verify your work! Good luck on your final exams, and we wish you tremendous success in all your future studies at Gallatin College and Montana State University!",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -5,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -1,
+          "b": 0,
+          "c": 9,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        },
+        {
+          "a": 1,
+          "b": -2,
+          "c": -3,
+          "color": "#00d4ff",
+          "strokeWidth": 2
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 9,
+          "color": "#ffd700",
+          "label": "Go MSU!"
+        }
+      ]
+    }
+  }
+]

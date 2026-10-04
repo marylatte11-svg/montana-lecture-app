@@ -1,0 +1,430 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Core Concept",
+    "title": "Section 3.3: Finding Intercepts by Factoring",
+    "subtitle": "Unit 3 • Lecture 38 • Section 3.3 (Workbook p. 71)",
+    "detail": "Lecture 38: Factoring & Zero Product Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### The Power of Factoring (Workbook p. 71)\nWhen a quadratic function has all three terms ($ax^2 + bx + c$), we set $f(x) = 0$:\n$$\\mathbf{ax^2 + bx + c = 0}$$\n- If the trinomial can be factored into two binomials:\n  $$\\mathbf{(x - r_1)(x - r_2) = 0}$$\n- We apply the **Zero Product Property** to solve each factor separately!",
+    "solution": "$$\\begin{aligned}\n\\text{Zero Product Property: } & \\text{If } A \\cdot B = 0, \\text{ then } \\mathbf{A = 0} \\text{ or } \\mathbf{B = 0}. \\\\[0.5em]\n(x - 2)(x - 3) = 0 & \\implies x - 2 = 0 \\implies \\mathbf{x = 2} \\\\\n& \\text{or } x - 3 = 0 \\implies \\mathbf{x = 3}\n\\end{aligned}$$",
+    "pitfall": "**Must equal ZERO:** The Zero Product Property ONLY works if the other side equals $0$! If $(x - 2)(x - 3) = 12$, you CANNOT set $x - 2 = 12$!",
+    "script": "[Prof. Park] Welcome back to M090, Bobcats! I am Professor Eunju Park, and joining me is our teaching assistant, Sora. Today we enter Section 3.3 on page 80 of your workbook: Solving Quadratic Equations by Factoring.\n\n[TA Sora] Hello everyone! Section 3.3 is one of my absolute favorite sections in all of algebra. In Section 3.2, we used the Square Root Property, which required the equation to have an isolated square with no standalone linear $x$ term. But what do we do when an equation has all three terms: $ax^2 + bx + c = 0$?\n\n[Prof. Park] When all three terms are present, our primary tool is Factoring, powered by one of the most fundamental theorems in all of mathematics: The Zero Product Property!\n\n[TA Sora] Let's state the Zero Product Property in plain English: If you multiply two real numbers together and the answer is zero—$A \\cdot B = 0$—then at least one of those numbers MUST be zero! Either $A = 0$, or $B = 0$, or both!\n\n[Prof. Park] Think about how remarkable that is. If I tell you that two numbers multiply to give 12—$A \\cdot B = 12$—can you tell me what $A$ is? No! $A$ could be 1, 2, 3, 4, 6, 12, or even fractions like $1/2$ times 24! There are infinite possibilities!\n\n[TA Sora] But zero is unique! If $A \\cdot B = 0$, there is NO mystery. One of those factors has to be zero. That property allows us to take a complex quadratic equation of degree 2, factor it into two linear pieces, and solve each piece in one simple step!\n\n[Prof. Park] In life, when you face a huge, overwhelming project—renovating a house, organizing your finances, or studying for finals—you don't try to solve the whole giant problem at once. You factor it into smaller, manageable tasks and solve them one by one.\n\n[TA Sora] Turn to page 80 in your workbook. Let's look at our first official example on Slide 2!"
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.3 Example 1: Solving x^2 - 5x + 6 = 0",
+    "subtitle": "Unit 3 • Lecture 38 • Section 3.3 Example 1 (Workbook p. 71)",
+    "detail": "Lecture 38: Factoring & Zero Product Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 1 (Workbook p. 71)\nFind the $x$-intercepts for $\\mathbf{f(x) = x^2 - 5x + 6}$ by factoring:\n- Set $x^2 - 5x + 6 = 0$.\n- Find two numbers that multiply to $+6$ and add to $-5$.\n- Apply the Zero Product Property.",
+    "solution": "$$\\begin{aligned}\nx^2 - 5x + 6 & = 0 \\\\[0.5em]\n\\text{Find factors of } 6 \\text{ adding to } -5: & \\quad (-2) \\cdot (-3) = +6, \\quad (-2) + (-3) = -5 \\\\[0.5em]\n(x - 2)(x - 3) & = 0 \\\\[0.5em]\nx - 2 = 0 & \\implies \\mathbf{x = 2} \\\\\nx - 3 = 0 & \\implies \\mathbf{x = 3} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & \\mathbf{(2, 0) \\quad \\text{and} \\quad (3, 0)}\n\\end{aligned}$$",
+    "pitfall": "**Signs flip when solving:** The factors are $(x - 2)$ and $(x - 3)$, but the solutions are $x = +2$ and $x = +3$! Setting each to zero flips the sign.",
+    "script": "[Prof. Park] Slide 2 brings us to Section 3.3 Example 1 on page 80: Solve the equation $x^2 - 5x + 6 = 0$ by factoring.\n\n[TA Sora] Let's follow our step-by-step factoring method. Step 1: Ensure the equation is set equal to zero! It is: $x^2 - 5x + 6 = 0$.\n\n[Prof. Park] Step 2: Identify the target numbers. For a trinomial with leading coefficient 1, we need two numbers that multiply to give the constant term $+6$, and add to give the linear coefficient $-5$.\n\n[TA Sora] Let's think about factors of $+6$. Since they multiply to a positive number and add to a negative number, BOTH numbers must be negative! Let's check: $-1 \\times (-6) = +6$, but $-1 + (-6) = -7$ (Not $-5$). What about $-2$ and $-3$? $-2 \\times (-3) = +6$, and $-2 + (-3) = -5$! They match perfectly!\n\n[Prof. Park] Beautiful! So our trinomial factors into: $(x - 2)(x - 3) = 0$. Step 3: Now apply the Zero Product Property! Set each factor equal to zero independently: $x - 2 = 0$ or $x - 3 = 0$.\n\n[TA Sora] Step 4: Solve each linear equation: for $x - 2 = 0$, add 2 to both sides to get $x = 2$. For $x - 3 = 0$, add 3 to both sides to get $x = 3$!\n\n[Prof. Park] We have our two solutions: $x = 2$ and $x = 3$. Now look at the coordinate plane on your screen! Notice that the parabola $f(x) = x^2 - 5x + 6$ crosses the $x$-axis at exactly $(2, 0)$ and $(3, 0)$!\n\n[TA Sora] And look at the vertex: it sits right between them at $x = 2.5$, down at $y = -0.25$! Notice how our anti-collision labels display cleanly: the vertex label sits below the valley, and the roots $(2, 0)$ and $(3, 0)$ sit cleanly on their respective sides.\n\n[Prof. Park] Everything connects: factoring finds the roots, and the roots anchor the parabola on the coordinate plane. Solution set: $\\{2, 3\\}$!",
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": -2,
+      "yMax": 7,
+      "title": "Example 1: f(x) = x^2 - 5x + 6 (x-ints at (2,0) and (3,0))",
+      "points": [
+        {
+          "x": 2,
+          "y": 0,
+          "label": "(2, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "label": "(3, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "label": "y-int (0, 6)",
+          "color": "#10b981"
+        },
+        {
+          "x": 2.5,
+          "y": -0.25,
+          "label": "Vertex (2.5, -0.25)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": -5,
+          "c": 6,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 2.5
+    },
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 1,
+      "curves": [
+        {
+          "a": 1,
+          "b": -5,
+          "c": 6,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2,0)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": 2.5,
+          "y": -0.25,
+          "color": "#ffd700",
+          "label": "V(2.5,-0.25)"
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "color": "#00ff88",
+          "label": "(0,6)"
+        }
+      ],
+      "axisOfSymmetry": 2.5
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.3 Example 2: Intercepts & Vertex for f(x) = x^2 + 7x + 12",
+    "subtitle": "Unit 3 • Lecture 38 • Section 3.3 Example 2 (Workbook p. 71)",
+    "detail": "Lecture 38: Factoring & Zero Product Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 2 (Workbook p. 71)\nFor $\\mathbf{f(x) = x^2 + 7x + 12}$:\n- **A. Find the $x$-intercept(s) by factoring:** \\underline{\\hspace{3cm}}\n- **B. Find the $y$-intercept:** \\underline{\\hspace{3cm}}\n- **C. Find the vertex:** \\underline{\\hspace{3cm}}",
+    "solution": "$$\\begin{aligned}\n\\textbf{A. x-intercepts: } & x^2 + 7x + 12 = 0 \\\\\n& (x + 3)(x + 4) = 0 \\\\\n& x + 3 = 0 \\implies x = -3, \\quad x + 4 = 0 \\implies x = -4 \\\\\n& \\implies \\mathbf{(-3, 0) \\quad \\text{and} \\quad (-4, 0)} \\\\[0.8em]\n\\textbf{B. y-intercept: } & f(0) = 12 \\implies \\mathbf{(0, 12)} \\\\[0.8em]\n\\textbf{C. Vertex: } & x_v = -\\frac{7}{2(1)} = -3.5, \\\\\n& y_v = (-3.5)^2 + 7(-3.5) + 12 = 12.25 - 24.5 + 12 = \\mathbf{-0.25} \\\\\n& \\implies \\mathbf{(-3.5, -0.25)}\n\\end{aligned}$$",
+    "pitfall": "**Midpoint check:** The vertex $x = -3.5$ is exactly halfway between $-3$ and $-4$! Symmetrical perfection.",
+    "script": "[Prof. Park] On Slide 3, Section 3.3 Example 2 asks us to find the $x$-intercepts and vertex for $f(x) = x^2 + 7x + 12$.\n\n[TA Sora] Let's find the $x$-intercepts first by setting $f(x) = 0$: $x^2 + 7x + 12 = 0$. We need two numbers that multiply to $+12$ and add up to $+7$. Those are $+3$ and $+4$!\n\n[Prof. Park] So we factor it into $(x + 3)(x + 4) = 0$. By the Zero-Product Property, $x + 3 = 0 \\implies x = -3$, and $x + 4 = 0 \\implies x = -4$. The $x$-intercepts are $(-3, 0)$ and $(-4, 0)$.\n\n[TA Sora] Now for the vertex: the axis of symmetry is halfway between $-3$ and $-4$, which is $x = -3.5$, or $-\\frac{7}{2}$!\n\n[Prof. Park] Plugging $x = -3.5$ into $f(x)$: $(-3.5)^2 + 7(-3.5) + 12 = 12.25 - 24.5 + 12 = -0.25$. So the vertex is $(-3.5, -0.25)$.\n\n[TA Sora] Both intercepts $(-3, 0)$ and $(-4, 0)$ and the vertex $(-3.5, -0.25)$ are verified!",
+    "graph": {
+      "xMin": -6,
+      "xMax": 1,
+      "yMin": -2,
+      "yMax": 14,
+      "title": "Example 2: f(x) = x^2 + 7x + 12",
+      "points": [
+        {
+          "x": -4,
+          "y": 0,
+          "label": "(-4, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -3,
+          "y": 0,
+          "label": "(-3, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": -3.5,
+          "y": -0.25,
+          "label": "Vertex (-3.5, -0.25)",
+          "color": "#38bdf8"
+        },
+        {
+          "x": 0,
+          "y": 12,
+          "label": "y-int (0, 12)",
+          "color": "#10b981"
+        }
+      ],
+      "curves": [
+        {
+          "a": 1,
+          "b": 7,
+          "c": 12,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": -3.5
+    },
+    "coordinate": {
+      "xMin": -6,
+      "xMax": 4,
+      "yMin": -12,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 2,
+          "c": -8,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -4,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-4,0)"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2,0)"
+        },
+        {
+          "x": -1,
+          "y": -9,
+          "color": "#ffd700",
+          "label": "V(-1,-9)"
+        },
+        {
+          "x": 0,
+          "y": -8,
+          "color": "#00ff88",
+          "label": "(0,-8)"
+        }
+      ],
+      "axisOfSymmetry": -1
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.3 Example 3: Factoring with GCF: 2x^2 - 8x = 0",
+    "subtitle": "Unit 3 • Lecture 38 • Section 3.3 Example 3 (Workbook p. 72)",
+    "detail": "Lecture 38: Factoring & Zero Product Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 3 (Workbook p. 72)\nFind the $x$-intercepts for $\\mathbf{f(x) = 2x^2 - 8x}$:\n- Notice there is no constant term ($c = 0$).\n- Factor out the Greatest Common Factor (GCF).\n- Apply the Zero Product Property.",
+    "solution": "$$\\begin{aligned}\n2x^2 - 8x & = 0 \\\\[0.5em]\n2x(x - 4) & = 0 \\quad (\\text{factor out GCF } 2x) \\\\[0.5em]\n2x = 0 & \\implies \\mathbf{x = 0} \\\\\nx - 4 = 0 & \\implies \\mathbf{x = 4} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & \\mathbf{(0, 0) \\quad \\text{and} \\quad (4, 0)}\n\\end{aligned}$$",
+    "pitfall": "**x = 0 IS A VALID SOLUTION:** When factoring out $2x$, setting $2x = 0$ gives $x = 0$. Never divide by $x$ and lose the root $x = 0$!",
+    "script": "[Prof. Park] Turning to Slide 4, Example 3 presents a different factoring pattern: Solve $2x^2 - 8x = 0$. Sora, notice that this equation only has two terms. There is no constant term $c$!\n\n[TA Sora] When a quadratic equation is missing its constant term, students sometimes freeze because they are looking for three terms to do trinomial factoring. But whenever you see shared variables, your first instinct should always be: 'Greatest Common Factor (GCF)!'\n\n[Prof. Park] What is the Greatest Common Factor between $2x^2$ and $8x$? Both terms share a 2, and both terms share at least one $x$! So the GCF is $2x$.\n\n[TA Sora] Let's factor out $2x$: $2x(x - 4) = 0$! Look at that: it factored in a single step!\n\n[Prof. Park] Now apply the Zero Product Property! We have two factors: $2x$ and $(x - 4)$. Set each equal to zero: $2x = 0$ or $x - 4 = 0$.\n\n[TA Sora] For $2x = 0$, divide by 2: $x = 0 / 2 = 0$. For $x - 4 = 0$, add 4: $x = 4$!\n\n[Prof. Park] Our two solutions are $x = 0$ and $x = 4$. Notice that whenever an equation has no constant term ($c = 0$), $x = 0$ is ALWAYS one of the solutions!\n\n[TA Sora] Yes! Because if there is no constant, plugging in $x = 0$ makes every term zero: $2(0)^2 - 8(0) = 0 - 0 = 0$. The graph passes directly through the origin $(0, 0)$!\n\n[Prof. Park] Common mistake: never divide both sides of an equation by the variable $x$! If you divided $2x^2 = 8x$ by $x$, you would get $2x = 8 \\implies x = 4$, and you would completely lose the solution $x = 0$!\n\n[TA Sora] Never divide by a variable because that variable might be zero! Always factor out the GCF instead. Solution set: $\\{0, 4\\}$!",
+    "graph": {
+      "xMin": -2,
+      "xMax": 6,
+      "yMin": -10,
+      "yMax": 4,
+      "title": "Example 3: f(x) = 2x^2 - 8x (x-ints at (0, 0) and (4, 0))",
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "label": "Origin (0, 0)",
+          "color": "#10b981"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "label": "(4, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 2,
+          "y": -8,
+          "label": "Vertex (2, -8)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 2,
+          "b": -8,
+          "c": 0,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 2
+    },
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 6,
+      "yMin": -10,
+      "yMax": 6,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 2,
+          "b": -8,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(0,0)"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(4,0)"
+        },
+        {
+          "x": 2,
+          "y": -8,
+          "color": "#ffd700",
+          "label": "V(2,-8)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Official Workbook Problem",
+    "title": "Section 3.3 Example 4: Difference of Squares 4x^2 - 25 = 0",
+    "subtitle": "Unit 3 • Lecture 38 • Section 3.3 Example 4 (Workbook p. 72)",
+    "detail": "Lecture 38: Factoring & Zero Product Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Example 4 (Workbook p. 72)\nFind the $x$-intercepts for $\\mathbf{f(x) = 4x^2 - 25}$:\n- Recognize the Difference of Two Squares pattern: $A^2 - B^2 = (A - B)(A + B)$.\n- Factor and solve for $x$.",
+    "solution": "$$\\begin{aligned}\n4x^2 - 25 & = 0 \\\\[0.5em]\n(2x - 5)(2x + 5) & = 0 \\\\[0.5em]\n2x - 5 = 0 & \\implies 2x = 5 \\implies \\mathbf{x = \\frac{5}{2} = 2.5} \\\\\n2x + 5 = 0 & \\implies 2x = -5 \\implies \\mathbf{x = -\\frac{5}{2} = -2.5} \\\\[0.8em]\n\\mathbf{x\\text{-intercepts: }} & \\mathbf{\\left(\\frac{5}{2}, 0\\right) \\quad \\text{and} \\quad \\left(-\\frac{5}{2}, 0\\right)}\n\\end{aligned}$$",
+    "pitfall": "**Two methods available:** Notice you could also use the Square Root Property here: $4x^2 = 25 \\implies x^2 = 25/4 \\implies x = \\pm 5/2$! Both methods give the exact same result!",
+    "script": "[Prof. Park] Slide 5 brings us to Example 4: Difference of Squares, $4x^2 - 25 = 0$. Sora, here we have two terms again, but this time there is no middle linear term ($b = 0$).\n\n[TA Sora] Look at both terms: $4x^2$ is $(2x)^2$, a perfect square! And 25 is $5^2$, another perfect square! And they are separated by a subtraction sign—that makes this a Difference of Squares!\n\n[Prof. Park] The difference of squares formula is $A^2 - B^2 = (A - B)(A + B)$. Here $A = 2x$ and $B = 5$. So $4x^2 - 25$ factors instantly into: $(2x - 5)(2x + 5) = 0$!\n\n[TA Sora] Now set each factor equal to zero: $2x - 5 = 0 \\implies 2x = 5 \\implies x = 5/2$. And $2x + 5 = 0 \\implies 2x = -5 \\implies x = -5/2$!\n\n[Prof. Park] Look at that symmetry: $x = 5/2$ and $x = -5/2$, which is $x = \\pm 2.5$!\n\n[TA Sora] Notice that you could also have solved this using the Square Root Property from Section 3.2: add 25 to get $4x^2 = 25$, divide by 4 to get $x^2 = 25/4$, and take the square root: $x = \\pm \\sqrt{25/4} = \\pm 5/2$!\n\n[Prof. Park] Both methods give the exact same two roots! Factoring and the Square Root Property are two sides of the same mathematical coin.\n\n[TA Sora] As ordered pairs on the graph of $f(x) = 4x^2 - 25$, the $x$-intercepts are $(-2.5, 0)$ and $(2.5, 0)$, perfectly centered around the $y$-axis.\n\n[Prof. Park] Solution set: $\\{-5/2, 5/2\\}$. Quick, clean, and symmetrical!",
+    "graph": {
+      "xMin": -5,
+      "xMax": 5,
+      "yMin": -28,
+      "yMax": 6,
+      "title": "Example 4: f(x) = 4x^2 - 25 (x-ints at ±2.5)",
+      "points": [
+        {
+          "x": -2.5,
+          "y": 0,
+          "label": "(-2.5, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 2.5,
+          "y": 0,
+          "label": "(2.5, 0)",
+          "color": "#f59e0b"
+        },
+        {
+          "x": 0,
+          "y": -25,
+          "label": "Vertex (0, -25)",
+          "color": "#38bdf8"
+        }
+      ],
+      "curves": [
+        {
+          "a": 4,
+          "b": 0,
+          "c": -25,
+          "color": "#38bdf8",
+          "strokeWidth": 2.5
+        }
+      ],
+      "axisOfSymmetry": 0
+    },
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -30,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 4,
+          "b": 0,
+          "c": -25,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 2.5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(2.5,0)"
+        },
+        {
+          "x": -2.5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-2.5,0)"
+        },
+        {
+          "x": 0,
+          "y": -25,
+          "color": "#ffd700",
+          "label": "V(0,-25)"
+        }
+      ],
+      "axisOfSymmetry": 0
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Sora's Pitfall Alert",
+    "title": "The 'Must Equal Zero' Trap: x(x - 5) = 6",
+    "subtitle": "Unit 3 • Lecture 38 • Section 3.3 Common Trap",
+    "detail": "Lecture 38: Factoring & Zero Product Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Solve: $x(x - 5) = 6$\n- **Fatal Student Error:** Setting $x = 6$ or $x - 5 = 6$! Why is this completely false?\n- **Correct Procedure:** Multiply out, subtract 6 to set equation equal to ZERO, and then factor!",
+    "solution": "$$\\begin{aligned}\nx(x - 5) & = 6 \\\\[0.5em]\nx^2 - 5x & = 6 \\quad (\\text{distribute}) \\\\[0.5em]\nx^2 - 5x - 6 & = 0 \\quad (\\text{MUST EQUAL ZERO!}) \\\\[0.5em]\n(x - 6)(x + 1) & = 0 \\quad (\\text{factor}) \\\\[0.5em]\n\\mathbf{x} & = \\mathbf{6 \\quad \\text{or} \\quad x = -1}\n\\end{aligned}$$",
+    "pitfall": "**There is no 'Six Product Property':** If $A \\cdot B = 6$, $A$ could be $2$ and $B$ could be $3$. Neither has to be $6$! The product property ONLY works for ZERO!",
+    "script": "[Prof. Park] Slide 6 addresses what is known across mathematics departments as 'The Must Equal Zero Trap.' Look at the equation on your screen: $x(x - 5) = 6$. Sora, why does this problem cause so many heartaches on exams?\n\n[TA Sora] Because students see factors on the left side, and they say: 'Oh, it's already factored! I'll just set $x = 6$ and $x - 5 = 6$!' That is a 100% fatal mathematical error!\n\n[Prof. Park] Let's be completely clear: There is a Zero Product Property, but there is NO such thing as a 'Six Product Property'! If two numbers multiply to 6, they could be 2 and 3, 1 and 6, $-2$ and $-3$, or $12$ and $0.5$! Setting factors equal to 6 is completely meaningless!\n\n[TA Sora] The Zero Product Property ONLY works when the right side is strictly ZERO! If it does not equal zero, you cannot apply the theorem!\n\n[Prof. Park] So what is the correct protocol? We must tear down the left side, bring the 6 over, and rebuild! Step 1: Distribute $x$ on the left side: $x(x - 5) = x^2 - 5x$.\n\n[TA Sora] Step 2: Subtract 6 from both sides to create a zero on the right: $x^2 - 5x - 6 = 0$! Now we have our standard general form equal to zero!\n\n[Prof. Park] Step 3: Now factor the new trinomial: we need two numbers that multiply to $-6$ and add to $-5$. That is $-6$ and $+1$! So it factors into $(x - 6)(x + 1) = 0$.\n\n[TA Sora] Step 4: Now, and only now, set each factor equal to zero: $x - 6 = 0 \\implies x = 6$, and $x + 1 = 0 \\implies x = -1$!\n\n[Prof. Park] Notice that the true solutions are $6$ and $-1$, NOT the mistaken $6$ and $11$ that someone would get by setting $x - 5 = 6$!\n\n[TA Sora] Remember: 'Zero is the hero!' The equation MUST equal zero before you factor!"
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Summary & Step-by-Step",
+    "title": "Sora's Protocol for Solving by Factoring",
+    "subtitle": "Unit 3 • Lecture 38 • Section 3.3 Protocol",
+    "detail": "Lecture 38: Factoring & Zero Product Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Factoring Protocol for Quadratic Equations\n1. **Set to zero:** Move all terms to one side: $ax^2 + bx + c = 0$.\n2. **Look for a GCF first:** Factor out any common monomial factor.\n3. **Count the terms:**\n   - **2 terms:** Check for difference of squares ($A^2 - B^2$).\n   - **3 terms ($a = 1$):** Find factors of $c$ that add to $b$.\n   - **3 terms ($a \\neq 1$):** Use the $ac$-method / grouping.\n4. **Apply Zero Product Property:** Set each factor equal to zero and solve.",
+    "solution": "$$\\begin{array}{|c|c|c|} \n\\hline\n\\textbf{Structure} & \\textbf{Method} & \\textbf{Example} \\\\\n\\hline\n2x^2 - 8x = 0 & \\text{GCF} & 2x(x - 4) = 0 \\\\\n\\hline\nx^2 - 25 = 0 & \\text{Difference of Squares} & (x - 5)(x + 5) = 0 \\\\\n\\hline\nx^2 - 5x + 6 = 0 & \\text{Trinomial } a = 1 & (x - 2)(x - 3) = 0 \\\\\n\\hline\n\\end{array}$$",
+    "pitfall": "**Check your factors:** Always FOIL your binomials back out to verify they match the original trinomial before solving!",
+    "script": "[Prof. Park] Slide 7 presents 'Sora's Protocol for Solving by Factoring.' Having a clear roadmap keeps your head cool and your pencil moving smoothly.\n\n[TA Sora] Step 1: The 'Zero Invariant.' Move all terms to one side of the equals sign so that one side is strictly 0: $ax^2 + bx + c = 0$. If the leading coefficient is negative, multiply both sides by $-1$ to make $a$ positive!\n\n[Prof. Park] Step 2: The 'GCF Check.' Always look for a Greatest Common Factor first! Factoring out a GCF immediately shrinks the remaining numbers and makes trinomial factoring ten times easier.\n\n[TA Sora] Step 3: The 'Factoring Strategy.' If there are two terms, check for Difference of Squares ($A^2 - B^2$). If there are three terms with $a = 1$, find numbers that multiply to $c$ and add to $b$. If $a \\neq 1$, use grouping or trial-and-error.\n\n[Prof. Park] Step 4: The 'Zero Product Execution.' Set each linear factor equal to zero independently: $A = 0$ or $B = 0$. Solve each simple equation.\n\n[TA Sora] Step 5: The 'Check & Packaging.' Plug your answers back into the ORIGINAL equation to verify, and package your solutions in a set: $\\{r_1, r_2\\}$.\n\n[Prof. Park] Follow this protocol, and factoring becomes one of the most reliable scoring opportunities on any math exam you ever take!"
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Section Mastery",
+    "title": "Section 3.3 Part 1 Mastery Summary",
+    "subtitle": "Unit 3 • Lecture 38 • Section 3.3 Wrap-up",
+    "detail": "Lecture 38: Factoring & Zero Product Property",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "### Lecture 38 Key Takeaways\n- $x$-intercepts correspond to roots of $ax^2 + bx + c = 0$.\n- Zero Product Property: $A \\cdot B = 0 \\implies A = 0$ or $B = 0$.\n- Always set to zero before factoring.\n- Write $x$-intercepts as $(x_1, 0)$ and $(x_2, 0)$.",
+    "solution": "$$\\mathbf{\\text{Lecture 38 Complete! Next Up: Lecture 39 — Factoring when } a \\neq 1 \\text{ \\& Tangent Vertices!}}$$",
+    "pitfall": "**Next Challenge:** What if the leading coefficient is $2x^2$ or $3x^2$? In Lecture 39, we master $ac$-factoring!",
+    "script": "[Prof. Park] We have reached Slide 8, our Section 3.3 Part 1 Mastery Summary! Let's reflect on the milestones of Lecture 38.\n\n[TA Sora] Today we harnessed the power of the Zero Product Property: $A \\cdot B = 0 \\implies A = 0$ or $B = 0$. It allows us to break second-degree quadratic equations into two manageable first-degree linear equations.\n\n[Prof. Park] We saw how the solutions to $f(x) = 0$ give the exact $x$-intercepts of the parabola, and we connected those roots to the vertex via symmetry.\n\n[TA Sora] We learned how to handle missing terms: when $c = 0$, factor out the GCF (and $x = 0$ is always a root). When $b = 0$, factor as a Difference of Squares.\n\n[Prof. Park] And we sounded the alarm on the 'Must Equal Zero Trap': never factor until the equation is set strictly equal to zero!\n\n[TA Sora] In everyday life, factoring teaches us the power of deconstruction: when facing complex tasks, break them down into their underlying components, solve each component with focus, and assemble your success.\n\n[Prof. Park] In Lecture 39, we will tackle advanced factoring where the leading coefficient $a$ is not 1, explore special cases with one tangent root, and analyze the three possibilities for parabola intercepts.\n\n[TA Sora] Keep up your dedication, Bobcats! We will see you in Lecture 39!"
+  }
+]

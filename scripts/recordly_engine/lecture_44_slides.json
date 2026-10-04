@@ -1,0 +1,472 @@
+[
+  {
+    "num": 1,
+    "type": "math_problem",
+    "slideTypeLabel": "Lesson Introduction",
+    "title": "Section 3.7: Graphing Quadratic Functions",
+    "subtitle": "Unit 3 • Lecture 44 • Section 3.7 (Workbook p. 87)",
+    "detail": "Lecture 44: The Complete 5-Point Method for Graphing Parabolas",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**5-Point Graphing Method for $f(x) = ax^2 + bx + c$:**\n\n1. **Find the Vertex** — $x = \\dfrac{-b}{2a}$, then compute $y$\n2. **Find the y-intercept** — $(0, c)$\n3. **Find the x-intercept(s)** — Set $f(x)=0$, solve\n4. **Symmetric Point** — Mirror the y-intercept across axis of symmetry\n5. **Connect** — Draw a smooth U-shaped curve through all points\n\n**State Domain and Range:**\n- Domain: Always $(-\\infty, \\infty)$\n- Range: $[k, \\infty)$ if $a>0$ or $(-\\infty, k]$ if $a<0$ ($k$ = vertex y-value)",
+    "solution": "**Remember:**\n- $a > 0$ → Parabola opens **upward** (minimum at vertex)\n- $a < 0$ → Parabola opens **downward** (maximum at vertex)\n- Axis of symmetry: $x = \\dfrac{-b}{2a}$ (always passes through vertex)",
+    "pitfall": "**Sora’s Tip:** The symmetric point of the y-intercept $(0,c)$ is at \\$\\left(\\dfrac{-b}{a},\\,c\\right)$. Just double the x-distance from the axis!",
+    "script": "[Prof. Park] Welcome to Lecture 44 of M090! Today we enter Section 3.7 on page 96: Graphing Quadratic Functions with the 5-Point Method.\n\n[TA Sora] Hello everyone! Up until now, we have calculated individual features of parabolas in isolationÃ¢ÂÂthe vertex, the intercepts, the axis of symmetry. Today, we assemble all of them into a unified, 5-point blueprint for graphing!\n\n[Prof. Park] Why five points? Two points make a straight line, but a curve requires at least three points to show curvature. And five points give you an airtight, professional sketch that accurately captures the width, vertex, and ground-level intercepts without any guessing!\n\n[TA Sora] Here are our five anchor points: Point 1: The Vertex $(h, k)$Ã¢ÂÂthe master anchor. Point 2: The $y$-intercept $(0, c)$. Point 3: The Symmetric Partner of the $y$-intercept, reflected across the axis of symmetry! Points 4 & 5: The two $x$-intercepts $(r_1, 0)$ and $(r_2, 0)$!\n\n[Prof. Park] Open your workbook to page 96. Let's graph our first complete 5-point parabola on Slide 2!\n\n[Prof. Park] Welcome to Lecture 44! In Section 3.7, we master the complete 5-Point Graphing Protocol for quadratic functions. Just as architects in Bozeman draw detailed blueprint elevations before breaking ground on custom homes, a mathematician uses five critical anchor points to sketch a flawless parabola: Point 1: The Vertex (the turning peak or valley: x = -b/(2a), y = f(-b/(2a))). Point 2: The Axis of Symmetry (the vertical mirror line x = -b/(2a)). Point 3: The y-intercept (0, c) and its symmetric mirror reflection across the axis of symmetry. Points 4 and 5: The two x-intercepts (the real roots where the curve meets the ground).",
+    "coordinate": {
+      "xMin": -4,
+      "xMax": 4,
+      "yMin": -6,
+      "yMax": 10,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": -2,
+          "c": -3,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 1,
+          "y": -4,
+          "color": "#ffd700",
+          "label": "Vertex"
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x-int"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "x-int"
+        },
+        {
+          "x": 0,
+          "y": -3,
+          "color": "#00ff88",
+          "label": "y-int"
+        },
+        {
+          "x": 2,
+          "y": -3,
+          "color": "#00ff88",
+          "label": "symmetric"
+        }
+      ],
+      "axisOfSymmetry": 1
+    }
+  },
+  {
+    "num": 2,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 1",
+    "title": "Graph $ g(x) = x^2 + 6x + 5 $ Using Vertex and Table",
+    "subtitle": "Unit 3 • Lecture 44 • Section 3.7 Example 1 (Workbook p. 87)",
+    "detail": "Graph by finding the vertex and completing a table of values.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Graph $g(x) = x^2 + 6x + 5$**\n\n**Step 1 — Vertex:** $x = \\dfrac{-6}{2(1)} = -3$,\\quad $g(-3) = 9-18+5 = -4$\n\n**Vertex:** $(-3,\\,-4)$\n\n**Step 2 — Table** (centered at vertex x=-3):\n\n| $x$ | $g(x)$ |\n|---|---|\n| $-5$ | $25-30+5=0$ |\n| $-4$ | $16-24+5=-3$ |\n| $-3$ | $-4$ (vertex) |\n| $-2$ | $4-12+5=-3$ |\n| $-1$ | $1-6+5=0$ |",
+    "solution": "**x-intercepts:** $(-5,0)$ and $(-1,0)$\n\n**Verification by factoring:** $x^2+6x+5 = (x+5)(x+1)$ → $x=-5$ or $x=-1$ \\checkmark\n\n**y-intercept:** $g(0) = 5$ → $(0,\\,5)$\n\n**Domain:** $(-\\infty, \\infty)$\n**Range:** $[-4, \\infty)$ since $a=1>0$ (minimum is $-4$)",
+    "pitfall": "**Sora’s Note:** The table is symmetric around x=-3. Notice g(-4)=g(-2)=-3 and g(-5)=g(-1)=0. This confirms symmetry!",
+    "script": "[Prof. Park] On Slide 2, we graph $g(x) = x^2 + 6x + 5$ using the Vertex and Table method from page 96. Let's execute our protocol!\n\n[TA Sora] Step 1: The Vertex! $a = 1$, $b = 6$, and $c = 5$. $x_v = -\\frac{6}{2(1)} = -3$. Plug in $-3$: $g(-3) = (-3)^2 + 6(-3) + 5 = 9 - 18 + 5 = -4$. Vertex is $(-3, -4)$!\n\n[Prof. Park] Step 2: Build a table centered at $x = -3$, picking two values to the left and two values to the right.\n\n[TA Sora] At $x = -5$: $g(-5) = 25 - 30 + 5 = 0$. At $x = -4$: $g(-4) = 16 - 24 + 5 = -3$. At $x = -2$: $g(-2) = 4 - 12 + 5 = -3$. At $x = -1$: $g(-1) = 1 - 6 + 5 = 0$!\n\n[Prof. Park] Notice the beautiful symmetry in the table: $y$-values are $0, -3, -4, -3, 0$.\n\n[TA Sora] The points are $(-5, 0)$, $(-4, -3)$, $(-3, -4)$, $(-2, -3)$, and $(-1, 0)$. Connect them with a smooth U-shaped curve!",
+    "coordinate": {
+      "xMin": -7,
+      "xMax": 2,
+      "yMin": -6,
+      "yMax": 8,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 1,
+          "b": 6,
+          "c": 5,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-5,0)"
+        },
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1,0)"
+        },
+        {
+          "x": -3,
+          "y": -4,
+          "color": "#ffd700",
+          "label": "V(-3,-4)"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "color": "#00ff88",
+          "label": "(0,5)"
+        }
+      ],
+      "axisOfSymmetry": -3
+    }
+  },
+  {
+    "num": 3,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 2",
+    "title": "Graph $ h(x) = -2x^2 + 4x + 6 $ Using All Key Points",
+    "subtitle": "Unit 3 • Lecture 44 • Section 3.7 Example 2 (Workbook p. 87)",
+    "detail": "Graph by finding vertex, x-intercepts, and y-intercept.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Graph $h(x) = -2x^2 + 4x + 6$**\n\n**Step 1 — Vertex:** $a=-2,\\;b=4,\\;c=6$\n$$x = \\dfrac{-4}{2(-2)} = \\dfrac{-4}{-4} = 1,\\quad h(1) = -2+4+6 = 8$$\n\n**Vertex:** $(1,\\,8)$ — Maximum!\n\n**Step 2 — y-intercept:** $h(0) = 6$ → $(0,\\,6)$\n\n**Step 3 — x-intercepts:** Set $h(x)=0$\n$$-2x^2+4x+6=0 \\Rightarrow x^2-2x-3=0 \\Rightarrow (x-3)(x+1)=0$$",
+    "solution": "$$x = 3 \\quad \\text{or} \\quad x = -1$$\n\n**x-intercepts:** $(-1,\\,0)$ and $(3,\\,0)$\n\n**Symmetric point** of y-intercept: Mirror $(0,6)$ across $x=1$ → $(2,\\,6)$\n\n**Five key points:**\n$(-1,0)$, $(0,6)$, $(1,8)$, $(2,6)$, $(3,0)$\n\n**Domain:** $(-\\infty, \\infty)$\n\n**Range:** $(-\\infty, 8]$ since $a=-2<0$ (maximum is $8$)",
+    "pitfall": "**Sora’s Step:** Divide by -2 first: $-2x^2+4x+6=0 \\Rightarrow x^2-2x-3=0$. This makes factoring much easier!",
+    "script": "[Prof. Park] Slide 3 brings us to a downward-opening parabola: $h(x) = -2x^2 + 4x + 6$.\n\n[TA Sora] Point 1: The Vertex! $x_v = -4 / (2(-2)) = -4 / -4 = 1$. Evaluate $h(1) = -2(1)^2 + 4(1) + 6 = -2 + 4 + 6 = 8$. Vertex is $(1, 8)$! Because $a = -2 < 0$, it opens downward.\n\n[Prof. Park] Point 2: The $y$-intercept is $(0, 6)$. Point 3: The axis of symmetry is $x = 1$. The partner point 1 unit to the right is $(2, 6)$!\n\n[TA Sora] Points 4 & 5: $x$-intercepts! Set $-2x^2 + 4x + 6 = 0$. Divide by $-2$: $x^2 - 2x - 3 = 0 \\implies (x - 3)(x + 1) = 0 \\implies x = 3, -1$. Roots are $(-1, 0)$ and $(3, 0)$!\n\n[Prof. Park] Look at that majestic arch on your coordinate grid: $(-1, 0)$, $(0, 6)$, $(1, 8)$, $(2, 6)$, and $(3, 0)$! Perfect five-point symmetry!\n\n[TA Sora] Notice how narrow the arch is compared to Slide 2: that factor of $-2$ stretches the graph vertically, making it twice as steep!\n\n[Prof. Park] If this modeled a stone arch bridge in Yellowstone National Park, the clearance height is 8 feet, and the span across the water is 4 feet (from $-1$ to $+3$).\n\n[TA Sora] Five anchor points confirmed: $(-1, 0)$, $(0, 6)$, $(1, 8)$, $(2, 6)$, and $(3, 0)$!\n\n[Prof. Park] In slide 3, graphing h(x) = -2x^2 + 4x + 6: Notice a = -2 < 0, so the parabola opens DOWNWARD like an umbrella! Vertex x = -4 / (2 Â· -2) = -4 / -4 = +1. Plug in x = 1: h(1) = -2(1)^2 + 4(1) + 6 = -2 + 4 + 6 = +8. Vertex is (1, 8)! Because it opens downward, the vertex (1, 8) is the absolute MAXIMUM point of the function! y-intercept is (0, 6). Its symmetric partner is (2, 6). x-intercepts: -2(x^2 - 2x - 3) = -2(x - 3)(x + 1) = 0 -> (3, 0) and (-1, 0). Connect the five points in a graceful arched curve.",
+    "coordinate": {
+      "xMin": -3,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -2,
+          "b": 4,
+          "c": 6,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -1,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-1,0)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": 1,
+          "y": 8,
+          "color": "#ffd700",
+          "label": "V(1,8)"
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "color": "#00ff88",
+          "label": "(0,6)"
+        },
+        {
+          "x": 2,
+          "y": 6,
+          "color": "#00ff88",
+          "label": "(2,6)"
+        }
+      ],
+      "axisOfSymmetry": 1
+    }
+  },
+  {
+    "num": 4,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 3",
+    "title": "Graph $ g(x) = 2x^2 - 8x $",
+    "subtitle": "Unit 3 • Lecture 44 • Section 3.7 Example 3 (Workbook p. 88)",
+    "detail": "Graph by finding vertex, x-intercepts (GCF factoring), and key points.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Graph $g(x) = 2x^2 - 8x$**\n\n**Step 1 — Vertex:** $a=2,\\;b=-8,\\;c=0$\n$$x = \\dfrac{-(-8)}{2(2)} = \\dfrac{8}{4} = 2,\\quad g(2) = 2(4)-8(2) = 8-16 = -8$$\n\n**Vertex:** $(2,\\,-8)$ — Minimum!\n\n**Step 2 — x-intercepts:** Factor GCF (no constant term!)\n$$2x^2-8x=0 \\Rightarrow 2x(x-4)=0 \\Rightarrow x=0 \\text{ or } x=4$$",
+    "solution": "**x-intercepts:** $(0,\\,0)$ and $(4,\\,0)$\n\n**y-intercept:** $g(0)=0$ → $(0,\\,0)$ — Same as one x-intercept!\n\n**Additional point** using table:\n$$g(1) = 2-8 = -6 \\rightarrow (1,-6)$$\n$$g(3) = 18-24 = -6 \\rightarrow (3,-6) \\text{ (symmetric)}$$\n\n**Five key points:** $(0,0)$, $(1,-6)$, $(2,-8)$, $(3,-6)$, $(4,0)$\n\n**Domain:** $(-\\infty, \\infty)$\n\n**Range:** $[-8, \\infty)$",
+    "pitfall": "**Sora’s Note:** The origin $(0,0)$ is BOTH an x-intercept and the y-intercept. Use extra table points like $(1,-6)$ to plot the curve accurately.",
+    "script": "[Prof. Park] On Slide 4, we examine $g(x) = 2x^2 - 8x$. Sora, let's identify the 5 key features!\n\n[TA Sora] Point 1: The Vertex! $a = 2$, $b = -8$, and $c = 0$. $x_v = -\\frac{-8}{2(2)} = \\frac{8}{4} = 2$. Evaluate $g(2) = 2(4) - 8(2) = 8 - 16 = -8$. Vertex is $(2, -8)$!\n\n[Prof. Park] Point 2: The $y$-intercept. Since $c = 0$, $g(0) = 0$, giving $(0, 0)$.\n\n[TA Sora] Point 3: The $x$-intercepts! Set $2x^2 - 8x = 0$. Factor out the GCF $2x$: $2x(x - 4) = 0$. That gives $x = 0$ and $x = 4$! So $(0, 0)$ and $(4, 0)$!\n\n[Prof. Park] Point 4: Notice that $(4, 0)$ is the symmetric partner of $(0, 0)$ across the axis of symmetry $x = 2$!\n\n[TA Sora] Because $a = 2 > 0$, the parabola opens upward with a minimum at $(2, -8)$. Domain is $(-\\infty, \\infty)$ and Range is $[-8, \\infty)$!",
+    "coordinate": {
+      "xMin": -1,
+      "xMax": 6,
+      "yMin": -10,
+      "yMax": 6,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": 2,
+          "b": -8,
+          "c": 0,
+          "color": "#00d4ff",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": 0,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(0,0)"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(4,0)"
+        },
+        {
+          "x": 2,
+          "y": -8,
+          "color": "#ffd700",
+          "label": "V(2,-8)"
+        },
+        {
+          "x": 1,
+          "y": -6,
+          "color": "#00ff88",
+          "label": "(1,-6)"
+        },
+        {
+          "x": 3,
+          "y": -6,
+          "color": "#00ff88",
+          "label": "(3,-6)"
+        }
+      ],
+      "axisOfSymmetry": 2
+    }
+  },
+  {
+    "num": 5,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 4",
+    "title": "Graph $ f(x) = -\\frac{1}{2}(x+1)^2 + 8 $ (Vertex Form)",
+    "subtitle": "Unit 3 • Lecture 44 • Section 3.7 Example 4 (Workbook p. 88)",
+    "detail": "Graph a quadratic in vertex form directly.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Graph $f(x) = -\\dfrac{1}{2}(x+1)^2 + 8$**\n\n**Vertex form:** $f(x) = a(x-h)^2 + k$\n\n**Read directly:**\n- $a = -\\dfrac{1}{2}$ (opens downward, wide)\n- $h = -1$ (vertex x-coordinate)\n- $k = 8$ (vertex y-coordinate)\n\n**Vertex:** $(-1,\\,8)$ — Maximum!\n\n**Step 2 — y-intercept:** $f(0) = -\\dfrac{1}{2}(1)+8 = -0.5+8 = 7.5$",
+    "solution": "**x-intercepts:** Set $f(x)=0$:\n$$-\\dfrac{1}{2}(x+1)^2 + 8 = 0$$\n$$(x+1)^2 = 16 \\Rightarrow x+1 = \\pm 4$$\n$$x = 3 \\quad \\text{or} \\quad x = -5$$\n\n**x-intercepts:** $(-5,\\,0)$ and $(3,\\,0)$\n\n**Symmetric point** of $(0,7.5)$ across $x=-1$: $(-2,\\,7.5)$\n\n**Five key points:** $(-5,0)$, $(-2,7.5)$, $(-1,8)$, $(0,7.5)$, $(3,0)$\n\n**Domain:** $(-\\infty, \\infty)$\n\n**Range:** $(-\\infty, 8]$",
+    "pitfall": "**Sora’s Tip:** Multiply both sides by $-2$ to isolate $(x+1)^2$: $-\\frac{1}{2}(x+1)^2 = -8 \\Rightarrow (x+1)^2 = 16$.",
+    "script": "[Prof. Park] Slide 5 presents $f(x) = -\\frac{1}{2}(x + 1)^2 + 8$ in Vertex Form. Sora, how quickly can we harvest the key points?\n\n[TA Sora] Instantly! The vertex is $(-1, 8)$! Because $a = -\\frac{1}{2} < 0$, it opens downward and is wider than standard parabolas.\n\n[Prof. Park] Step 2: The $y$-intercept. Set $x = 0$: $f(0) = -\\frac{1}{2}(0 + 1)^2 + 8 = -0.5 + 8 = 7.5$, giving $(0, 7.5)$.\n\n[TA Sora] By symmetry across $x = -1$, moving 1 unit left gives the partner point $(-2, 7.5)$!\n\n[Prof. Park] Step 3: The $x$-intercepts. Set $-\\frac{1}{2}(x + 1)^2 + 8 = 0 \\implies -\\frac{1}{2}(x + 1)^2 = -8 \\implies (x + 1)^2 = 16$.\n\n[TA Sora] Take square roots: $x + 1 = \\pm 4 \\implies x = 3$ and $x = -5$! Intercepts are $(3, 0)$ and $(-5, 0)$!\n\n[Prof. Park] Domain is $(-\\infty, \\infty)$ and Range is $(-\\infty, 8]$ because the maximum peak is 8!",
+    "coordinate": {
+      "xMin": -7,
+      "xMax": 5,
+      "yMin": -5,
+      "yMax": 12,
+      "xTicks": 1,
+      "yTicks": 2,
+      "curves": [
+        {
+          "a": -0.5,
+          "b": -1,
+          "c": 7.5,
+          "color": "#ff9500",
+          "strokeWidth": 3
+        }
+      ],
+      "points": [
+        {
+          "x": -5,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(-5,0)"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "color": "#ff6b6b",
+          "label": "(3,0)"
+        },
+        {
+          "x": -1,
+          "y": 8,
+          "color": "#ffd700",
+          "label": "V(-1,8)"
+        },
+        {
+          "x": 0,
+          "y": 7.5,
+          "color": "#00ff88",
+          "label": "(0,7.5)"
+        },
+        {
+          "x": -2,
+          "y": 7.5,
+          "color": "#00ff88",
+          "label": "(-2,7.5)"
+        }
+      ],
+      "axisOfSymmetry": -1
+    }
+  },
+  {
+    "num": 6,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 5A & 5B",
+    "title": "Evaluating Two Functions: $ f(x) = x^2-6x+4 $ and $ g(x) = -2x+25 $",
+    "subtitle": "Unit 3 • Lecture 44 • Section 3.7 Example 5 (Workbook p. 89)",
+    "detail": "Evaluate f(-7) and g(-7).",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Given $f(x) = x^2 - 6x + 4$ and $g(x) = -2x + 25$, find:**\n\n**A.** $f(-7)$\n\n**B.** $g(-7)$",
+    "solution": "**A.** $f(-7) = (-7)^2 - 6(-7) + 4 = 49 + 42 + 4 = \\mathbf{95}$\n\n**B.** $g(-7) = -2(-7) + 25 = 14 + 25 = \\mathbf{39}$\n\n**Observation:** Both functions take the input $-7$.\n- $f$ is quadratic: its value $95$ is much larger due to the $x^2$ term.\n- $g$ is linear: its value $39$ grows more slowly.",
+    "pitfall": "**Sora’s Sign Check:** $(-7)^2 = 49$ (positive!) and $-6(-7) = +42$ (two negatives!). Be careful with signs when input is negative.",
+    "script": "[Prof. Park] Slide 6 compares quadratic and linear functions: evaluating $f(x) = x^2 - 6x + 4$ and $g(x) = -2x + 25$ at $x = -7$.\n\n[TA Sora] Part A: Plug $-7$ into the quadratic $f(x)$: $f(-7) = (-7)^2 - 6(-7) + 4 = 49 + 42 + 4 = 95$!\n\n[Prof. Park] Part B: Plug $-7$ into the linear function $g(x)$: $g(-7) = -2(-7) + 25 = 14 + 25 = 39$!\n\n[TA Sora] Look at how much faster quadratic growth is compared to linear growth: at $x = -7$, $f$ has climbed to 95 while $g$ is at 39!\n\n[Prof. Park] Exactly. Linear rate of change is constant, but quadratic acceleration multiplies rapidly.",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 14,
+      "yMin": -10,
+      "yMax": 35,
+      "xTicks": 2,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 4,
+          "color": "#00d4ff",
+          "strokeWidth": 3,
+          "label": "f(x)"
+        },
+        {
+          "a": 0,
+          "b": -2,
+          "c": 25,
+          "color": "#ff9500",
+          "strokeWidth": 2,
+          "dashed": true,
+          "label": "g(x)"
+        }
+      ],
+      "points": [
+        {
+          "x": 4,
+          "y": -4,
+          "color": "#ffd700",
+          "label": "f(4)?"
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "color": "#00d4ff",
+          "label": "(0,4)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 7,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 5C & 5D",
+    "title": "Function Composition: $ f(x+5) $ and $ g(x+5) $",
+    "subtitle": "Unit 3 • Lecture 44 • Section 3.7 Example 5 (Workbook p. 89)",
+    "detail": "Find f(x+5) and g(x+5) by substitution.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Given $f(x) = x^2-6x+4$ and $g(x) = -2x+25$, find:**\n\n**C.** $f(x+5)$\n\n**D.** $g(x+5)$",
+    "solution": "**C.** $f(x+5)$: Replace every $x$ with $(x+5)$\n$$f(x+5) = (x+5)^2 - 6(x+5) + 4$$\n$$= x^2+10x+25 - 6x-30 + 4$$\n$$= \\mathbf{x^2 + 4x - 1}$$\n\n**D.** $g(x+5)$: Replace every $x$ with $(x+5)$\n$$g(x+5) = -2(x+5) + 25 = -2x-10+25 = \\mathbf{-2x + 15}$$",
+    "pitfall": "**Sora’s FOIL Reminder:** $(x+5)^2 = x^2 + 10x + 25$, NOT $x^2+25$! Always expand the binomial squared fully.",
+    "script": "[Prof. Park] Slide 7 demonstrates function transformations with $f(x + 5)$ and $g(x + 5)$ for our two functions.\n\n[TA Sora] For Part C: substitute $(x + 5)$ into $f(x) = x^2 - 6x + 4$: $f(x + 5) = (x + 5)^2 - 6(x + 5) + 4$.\n\n[Prof. Park] Expand: $x^2 + 10x + 25 - 6x - 30 + 4$. Combining like terms gives $x^2 + 4x - 1$!\n\n[TA Sora] Now Part D with $g(x) = -2x + 25$: $g(x + 5) = -2(x + 5) + 25 = -2x - 10 + 25 = -2x + 15$!\n\n[Prof. Park] Geometrically, replacing $x$ with $x + 5$ shifts both the parabola and the straight line 5 units to the left on the coordinate plane.",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 8,
+      "yMin": -10,
+      "yMax": 35,
+      "xTicks": 1,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 4,
+          "color": "#00d4ff",
+          "strokeWidth": 2,
+          "label": "f(x)"
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "c": -1,
+          "color": "#ff9500",
+          "strokeWidth": 3,
+          "label": "f(x+5)"
+        }
+      ],
+      "points": [
+        {
+          "x": 3,
+          "y": -5,
+          "color": "#ffd700",
+          "label": "V f(x)"
+        },
+        {
+          "x": -2,
+          "y": -5,
+          "color": "#ff9500",
+          "label": "V f(x+5)"
+        }
+      ]
+    }
+  },
+  {
+    "num": 8,
+    "type": "math_problem",
+    "slideTypeLabel": "Workbook Example 5E & 5F",
+    "title": "Solving: $ g(x) = 17 $ and $ f(x) = g(x) $",
+    "subtitle": "Unit 3 • Lecture 44 • Section 3.7 Example 5 (Workbook p. 89)",
+    "detail": "Solve g(x)=17 and f(x)=g(x) for x.",
+    "instructor": "Prof. Eunju Park • TA Sora (Gallatin College MSU)",
+    "problem": "**Given $f(x) = x^2-6x+4$ and $g(x) = -2x+25$, find:**\n\n**E.** Solve for $x$ if $g(x) = 17$\n\n**F.** Solve for $x$ if $f(x) = g(x)$",
+    "solution": "**E.** $g(x) = 17$:\n$$-2x+25 = 17 \\Rightarrow -2x = -8 \\Rightarrow x = \\mathbf{4}$$\n\n**F.** $f(x) = g(x)$: Set the two functions equal\n$$x^2-6x+4 = -2x+25$$\n$$x^2-6x+2x+4-25 = 0$$\n$$x^2-4x-21 = 0$$\n$$(x-7)(x+3) = 0$$\n$$x = \\mathbf{7} \\quad \\text{or} \\quad x = \\mathbf{-3}$$\n\n**Intersection points:** At $x=7$: $g(7)=-14+25=11$ → $(7,11)$\nAt $x=-3$: $g(-3)=6+25=31$ → $(-3,31)$",
+    "pitfall": "**Sora’s Note for Part F:** Setting f(x)=g(x) finds where the parabola and line INTERSECT. Rearrange to one side = 0, then factor or use the Quadratic Formula.",
+    "script": "[Prof. Park] Slide 8 presents our final solving challenge: Part E solves $g(x) = 17$, and Part F solves the intersection system $f(x) = g(x)$!\n\n[TA Sora] Part E is linear: $-2x + 25 = 17$. Subtract 25: $-2x = -8$, so $x = 4$!\n\n[Prof. Park] Part F finds where the line intersects the parabola: set $x^2 - 6x + 4 = -2x + 25$.\n\n[TA Sora] Add $2x$ and subtract 25 to set it to zero: $x^2 - 4x - 21 = 0$!\n\n[Prof. Park] Factor the quadratic: two numbers that multiply to $-21$ and add to $-4$ are $-7$ and $+3$. So $(x - 7)(x + 3) = 0$.\n\n[TA Sora] That gives $x = 7$ and $x = -3$! The line cuts through the parabola at two distinct points: $x = 7$ and $x = -3$!",
+    "coordinate": {
+      "xMin": -5,
+      "xMax": 14,
+      "yMin": -10,
+      "yMax": 35,
+      "xTicks": 2,
+      "yTicks": 5,
+      "curves": [
+        {
+          "a": 1,
+          "b": -6,
+          "c": 4,
+          "color": "#00d4ff",
+          "strokeWidth": 3,
+          "label": "f(x)"
+        },
+        {
+          "a": 0,
+          "b": -2,
+          "c": 25,
+          "color": "#ff9500",
+          "strokeWidth": 2,
+          "dashed": true,
+          "label": "g(x)"
+        }
+      ],
+      "points": [
+        {
+          "x": -3,
+          "y": 31,
+          "color": "#ff6b6b",
+          "label": "(-3,31)"
+        },
+        {
+          "x": 7,
+          "y": 11,
+          "color": "#ff6b6b",
+          "label": "(7,11)"
+        }
+      ]
+    }
+  }
+]
