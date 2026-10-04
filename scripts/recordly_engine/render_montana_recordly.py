@@ -656,23 +656,39 @@ async def render_montana_slide_video(slide_data, lecture_id=1, force_rerender=Tr
         if files:
             video_temp_path = sorted(files, key=os.path.getmtime)[-1]
 
-    # 4. Final Merge to 1080p MP4
-    cmd_merge = [
+    # 4. Final Merge to 1080p MP4 with Intel Arc B580 QSV Hardware Acceleration
+    cmd_merge_qsv = [
         FFMPEG_EXE, "-y",
         "-i", video_temp_path,
         "-i", master_audio_path,
-        "-c:v", "libx264",
-        "-preset", "fast",
-        "-crf", "19",
-        "-pix_fmt", "yuv420p",
+        "-c:v", "h264_qsv",
+        "-global_quality", "20",
+        "-preset", "veryfast",
+        "-pix_fmt", "nv12",
         "-c:a", "aac",
         "-b:a", "192k",
         "-shortest",
         final_mp4_path
     ]
 
-    print("  ⚙️ Encoding Final MSU Recordly 1080p MP4...")
-    subprocess.run(cmd_merge, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    print("  ⚡ [GPU Acceleration] Encoding Final MSU Recordly 1080p MP4 via Intel Arc B580 (h264_qsv)...")
+    res_merge = subprocess.run(cmd_merge_qsv, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    if res_merge.returncode != 0:
+        print("  ⚠️ QSV hardware encode failed, falling back to CPU libx264...")
+        cmd_merge_cpu = [
+            FFMPEG_EXE, "-y",
+            "-i", video_temp_path,
+            "-i", master_audio_path,
+            "-c:v", "libx264",
+            "-preset", "fast",
+            "-crf", "19",
+            "-pix_fmt", "yuv420p",
+            "-c:a", "aac",
+            "-b:a", "192k",
+            "-shortest",
+            final_mp4_path
+        ]
+        subprocess.run(cmd_merge_cpu, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     try:
         shutil.rmtree(rec_dir, ignore_errors=True)
@@ -723,13 +739,22 @@ async def main():
         print(f"\n=======================================================")
         print(f"🏆 Concatenating all {len(rendered_videos)} slides into Master Lecture Video...")
         print(f"=======================================================")
-        cmd_master = [
+        cmd_master_copy = [
             FFMPEG_EXE, "-y", "-f", "concat", "-safe", "0", "-i", master_concat_txt,
-            "-c:v", "libx264", "-preset", "fast", "-crf", "19", "-pix_fmt", "yuv420p",
-            "-c:a", "aac", "-b:a", "192k",
+            "-c", "copy",
             master_video_path
         ]
-        subprocess.run(cmd_master, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        res_m = subprocess.run(cmd_master_copy, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        if res_m.returncode != 0:
+            print("  ⚠️ Concat stream copy failed, falling back to QSV transcode...")
+            cmd_master_qsv = [
+                FFMPEG_EXE, "-y", "-f", "concat", "-safe", "0", "-i", master_concat_txt,
+                "-c:v", "h264_qsv", "-global_quality", "20", "-preset", "veryfast", "-pix_fmt", "nv12",
+                "-c:a", "aac", "-b:a", "192k",
+                master_video_path
+            ]
+            subprocess.run(cmd_master_qsv, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
         master_size_mb = os.path.getsize(master_video_path) / (1024 * 1024)
         print(f"🌟 Master Full Lecture Video Complete: {master_video_path} ({master_size_mb:.2f} MB)")
 
