@@ -11,7 +11,7 @@
 | Lecture | Title | Slides | Video Size | Master Video File |
 | :---: | :--- | :---: | :---: | :--- |
 | **L01** | Lecture 01: Welcome to M090 & The Language of Algebra | 10 slides | 85.86 MB | [MSU_M090_Lecture01_Full_Master.mp4](recordly_videos/Lecture01/MSU_M090_Lecture01_Full_Master.mp4) |
-| **L02** | Lecture 02: Fractions & Signed Numbers | 10 slides | 109.82 MB | [MSU_M090_Lecture02_Full_Master.mp4](recordly_videos/Lecture02/MSU_M090_Lecture02_Full_Master.mp4) |
+| **L02** | Lecture 02: Fractions & Signed Numbers | 10 slides | 118.05 MB | [MSU_M090_Lecture02_Full_Master.mp4](recordly_videos/Lecture02/MSU_M090_Lecture02_Full_Master.mp4) |
 | **L03** | Lecture 03: Evaluating Algebraic Expressions with Signed Numbers | 9 slides | 92.27 MB | [MSU_M090_Lecture03_Full_Master.mp4](recordly_videos/Lecture03/MSU_M090_Lecture03_Full_Master.mp4) |
 | **L04** | Lecture 04: Translating English Phrases into Algebraic Expressions | 10 slides | 97.80 MB | [MSU_M090_Lecture04_Full_Master.mp4](recordly_videos/Lecture04/MSU_M090_Lecture04_Full_Master.mp4) |
 | **L05** | Lecture 05: Exponent Properties for Monomial Expressions | 10 slides | 110.68 MB | [MSU_M090_Lecture05_Full_Master.mp4](recordly_videos/Lecture05/MSU_M090_Lecture05_Full_Master.mp4) |
@@ -26,7 +26,7 @@
 | **L14** | Lecture 14: Solving Formulas for a Specified Variable (Literal Equations) | 7 slides | 117.54 MB | [MSU_M090_Lecture14_Full_Master.mp4](recordly_videos/Lecture14/MSU_M090_Lecture14_Full_Master.mp4) |
 | **L15** | Lecture 15: Solving Linear Inequalities, Interval Notation & Unit 1 Grand Review | 9 slides | 127.76 MB | [MSU_M090_Lecture15_Full_Master.mp4](recordly_videos/Lecture15/MSU_M090_Lecture15_Full_Master.mp4) |
 
-> **Subtotal Unit 1:** 15/15 Lectures Complete • **1689.82 MB (1.65 GB)**
+> **Subtotal Unit 1:** 15/15 Lectures Complete • **1698.05 MB (1.66 GB)**
 
 ### 📌 Unit 2: Systems of Equations, Exponents & Polynomials (Lectures 16 ~ 30)
 
@@ -75,6 +75,6 @@
 ---
 ### 🏆 Grand Total Summary
 - **Total Completed Master Lectures:** 45 / 45 (100.0%)
-- **Total Master Video Storage:** **4836.83 MB (4.72 GB)**
+- **Total Master Video Storage:** **4845.06 MB (4.73 GB)**
 - **Encoding Technology:** Intel(R) Arc(TM) B580 Graphics (`h264_qsv`)
 - **Problem Format Standards:** Standardized 2-line format across all 361 slides (0 KaTeX errors, 0 empty solution cards)
